@@ -44,6 +44,8 @@ jobs:
         run: npm run prepare:web
       - name: Create Android project
         run: npx cap add android
+      - name: Generate Android icons
+        run: npx capacitor-assets generate --android
       - name: Sync Capacitor
         run: npx cap sync android
       - name: Build debug APK
