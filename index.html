@@ -915,6 +915,9 @@ body.auth-locked #app{visibility:hidden;pointer-events:none}
 #jp-auth-gate code{overflow-wrap:anywhere;background:#f1f4f2;padding:2px 4px;border-radius:4px}
 @media(max-height:650px){#jp-auth-gate .jp-auth-card{padding:16px 20px}#jp-auth-gate .jp-auth-brandrow{margin-bottom:11px}#jp-auth-gate .jp-auth-intro{margin-bottom:10px}#jp-auth-gate label{margin-top:7px}#jp-auth-gate input{height:39px}#jp-auth-gate .jp-auth-submit{min-height:40px;margin-top:10px}#jp-auth-gate .jp-auth-foot{margin-top:9px;padding-top:8px}}
 
+
+/* Correctif mobile : zones système et espace inférieur */
+@media (max-width:759px){body{padding-top:calc(env(safe-area-inset-top,0px) + 8px)!important;padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))!important}.wrap{padding-bottom:0!important}}
 </style>
 </head><body>
 <div id="app"></div>
@@ -4186,3 +4189,14 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
 }
 </script>
 </body></html>
+
+/* Correctif mobile : zones système et espace inférieur */
+@media (max-width:759px){
+  body{
+    padding-top:calc(env(safe-area-inset-top,0px) + 8px) !important;
+    padding-bottom:calc(64px + env(safe-area-inset-bottom,0px)) !important;
+  }
+  .wrap{
+    padding-bottom:0 !important;
+  }
+}
