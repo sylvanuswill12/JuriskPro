@@ -1,0 +1,12 @@
+{
+  "appId": "com.messtonsconseils.juriskpro",
+  "appName": "JuriskPro",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

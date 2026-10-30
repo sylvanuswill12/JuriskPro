@@ -1,0 +1,17 @@
+{
+  "name": "juriskpro-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build Android APK for JuriskPro using Capacitor and GitHub Actions",
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.cjs",
+    "android:sync": "npm run prepare:web && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
