@@ -19,7 +19,7 @@
       <button class="jp-auth-submit" type="submit" id="jp-auth-submit">Créer mon compte</button></form>
       <button class="jp-auth-link" type="button" id="jp-reset">Mot de passe oublié ?</button></div></div>
       <p id="jp-auth-message" class="jp-auth-message" role="status" aria-live="polite"></p>
-      <p class="jp-auth-foot">Vos accès sont protégés. Vos documents restent associés à votre compte personnel.</p></section>`;
+      <p class="jp-auth-foot">Vos accès sont protégés. Vos documents restent associés à votre compte personnel.<br><a href="./politique-confidentialite.html" target="_blank" rel="noopener">Lire la politique de confidentialité</a> · <a href="mailto:messtonsconseils2@gmail.com">Contacter Messton's Conseils</a></p></section>`;
     document.body.appendChild(el);
     const $=s=>el.querySelector(s);let mode='signup';
     function setMessage(text,success){const m=$('#jp-auth-message');m.textContent=text||'';m.classList.toggle('success',!!success);}
