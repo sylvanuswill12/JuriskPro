@@ -13,17 +13,17 @@
       <div id="jp-auth-config" hidden><p class="jp-auth-error">La connexion Supabase n’est pas encore configurée.</p><p>Vérifiez l’URL du projet et la clé publique dans <code>supabase-config.js</code>.</p></div>
       <div id="jp-auth-form-wrap"><div class="jp-auth-tabs"><button type="button" data-mode="signup" class="active">Créer un compte</button><button type="button" data-mode="login">Se connecter</button></div>
       <form id="jp-auth-form"><label id="jp-name-wrap">Nom complet<input id="jp-name" type="text" autocomplete="name" minlength="2" placeholder="Votre nom complet" required></label>
-      <label>Adresse e-mail<input id="jp-email" type="email" autocomplete="email" placeholder="nom@exemple.com" required></label>
-      <label>Mot de passe<input id="jp-password" type="password" autocomplete="new-password" minlength="8" placeholder="8 caractères minimum" required></label>
+      <label>Adresse e-mail<input id="jp-email" type="email" autocomplete="email" placeholder="Votre adresse e-mail" required></label>
+      <label>Mot de passe<input id="jp-password" type="password" autocomplete="new-password" minlength="8" placeholder="Votre mot de passe" required></label>
       <label id="jp-confirm-wrap">Confirmer le mot de passe<input id="jp-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Répétez votre mot de passe" required></label>
       <button class="jp-auth-submit" type="submit" id="jp-auth-submit">Créer mon compte</button></form>
       <button class="jp-auth-link" type="button" id="jp-reset">Mot de passe oublié ?</button></div></div>
       <p id="jp-auth-message" class="jp-auth-message" role="status" aria-live="polite"></p>
       <p class="jp-auth-foot">Vos accès sont protégés. Vos documents restent associés à votre compte personnel.<br><a href="./politique-confidentialite.html" target="_blank" rel="noopener">Lire la politique de confidentialité</a> · <a href="mailto:messtonsconseils2@gmail.com">Contacter Messton's Conseils</a></p></section>`;
     document.body.appendChild(el);
-    const $=s=>el.querySelector(s);let mode='signup';
+    const $=s=>el.querySelector(s);let mode='login';
     function setMessage(text,success){const m=$('#jp-auth-message');m.textContent=text||'';m.classList.toggle('success',!!success);}
-    function setMode(m){mode=m;$('#jp-auth-title').textContent=m==='signup'?'Créer votre compte':'Bon retour parmi nous';$('#jp-auth-intro').textContent=m==='signup'?'Inscrivez-vous pour accéder à vos modèles et à votre espace personnel.':'Connectez-vous pour accéder à votre espace.';$('#jp-name-wrap').hidden=m!=='signup';$('#jp-name').required=m==='signup';$('#jp-confirm-wrap').hidden=m!=='signup';$('#jp-confirm').required=m==='signup';$('#jp-password').autocomplete=m==='signup'?'new-password':'current-password';$('#jp-auth-submit').textContent=m==='signup'?'Créer mon compte':'Se connecter';el.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===m));setMessage('');}
+    function setMode(m){mode=m;const signup=m==='signup';$('#jp-auth-title').textContent=signup?'Créer votre compte':'Se connecter';$('#jp-auth-intro').textContent=signup?'Créez votre espace juridique personnel en quelques étapes.':'Accédez à votre espace juridique personnel.';$('#jp-name-wrap').hidden=!signup;$('#jp-name').required=signup;$('#jp-confirm-wrap').hidden=!signup;$('#jp-confirm').required=signup;$('#jp-password').autocomplete=signup?'new-password':'current-password';$('#jp-password').minLength=8;$('#jp-auth-submit').textContent=signup?'Créer mon compte':'Se connecter';$('#jp-auth-form').hidden=false;$('#jp-reset').hidden=false;el.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===m));setMessage('');}
     el.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
     setMode('login');
     if(!configured()){$('#jp-auth-config').hidden=false;$('#jp-auth-form-wrap').hidden=true;return;}
