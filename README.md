@@ -1,22 +1,32 @@
-# JuriskPro — préparation Web / PWA
+# JuriskPro — application Web / PWA
 
-Cette préparation conserve le code applicatif existant dans `index.html` et ajoute le socle de publication.
+Cette version impose une étape d'authentification Supabase avant l'accès à l'application : création de compte, connexion et réinitialisation du mot de passe. Les comptes peuvent nécessiter une confirmation par e-mail selon les réglages Auth du projet Supabase.
 
-## Contenu
-- `index.html` : application actuelle, sans réécriture de ses modèles et de ses exports.
-- `manifest.webmanifest` : identité installable de JuriskPro.
-- `sw.js` : service worker réseau uniquement. L'application nécessite Internet et ne met aucun document en cache hors connexion.
-- `icons/` : icônes dérivées du logo déjà intégré à l'application.
+## Fichiers principaux
+- `index.html` : application JuriskPro et écran de connexion obligatoire.
+- `auth-gate.js` : contrôle d'accès par session Supabase.
+- `supabase-config.js` : URL Supabase et clé publique à renseigner après création du projet.
+- `supabase/schema.sql` : tables, RLS et stockage privé pour le catalogue, les documents et les brouillons.
+- `manifest.webmanifest`, `sw.js`, `icons/` : base PWA (connexion Internet requise).
 
-## Publication Netlify depuis GitHub
-1. Créer un dépôt GitHub privé nommé `JuriskPro`.
-2. Déposer le contenu de ce dossier à la racine du dépôt.
-3. Dans Netlify, importer le dépôt GitHub.
-4. Laisser le répertoire de publication à la racine (`.`) et ne définir aucune commande de build.
-5. Publier via HTTPS.
+## Configuration obligatoire avant publication
+1. Créer le projet Supabase `JuriskPro`.
+2. Exécuter intégralement `supabase/schema.sql` dans SQL Editor.
+3. Dans `supabase-config.js`, remplacer `https://VOTRE-PROJET.supabase.co` et `COLLER_ICI_LA_CLE_PUBLISHABLE_OU_ANON` par l'URL du projet et sa clé publique `anon` ou `publishable`.
+4. Dans Supabase > Authentication > URL Configuration, définir l'URL du site publiée comme Site URL et ajouter les URL de redirection utilisées (URL Netlify et URL de prévisualisation si nécessaire).
+5. Vérifier le paramètre de confirmation d'e-mail dans Authentication > Providers > Email.
+6. Publier le projet mis à jour sur GitHub puis laisser Netlify déployer.
 
-## Étape suivante
-Brancher Supabase Auth, la base de données et Storage après création du projet Supabase. Les clés publiques nécessaires seront configurées dans Netlify. La clé `service_role` ne doit jamais être intégrée au navigateur ou au dépôt GitHub.
+**Sécurité :** mettre uniquement la clé publique `anon`/`publishable` dans `supabase-config.js`. Ne jamais mettre la clé `service_role`/`secret` ou le mot de passe PostgreSQL dans le navigateur, GitHub ou Netlify.
 
-## État
-Socle de publication préparé ; intégration Supabase, tests fonctionnels, tests mobiles et validation PWA restent à effectuer.
+## État fonctionnel et limites à ce stade
+- L'écran de connexion obligatoire est intégré au démarrage et bloque l'application sans session authentifiée.
+- La création de compte, la connexion, la session persistante et la demande de réinitialisation utilisent Supabase Auth après configuration des clés.
+- Le schéma SQL prépare les tables sécurisées pour documents, brouillons, catalogue versionné et fichiers privés.
+- **La synchronisation distante effective des brouillons et de l'historique, l'envoi des fichiers dans Storage et le chargement dynamique des modèles ne sont pas encore raccordés dans cette version.** Il faudra les intégrer et les tester après la création du projet Supabase avant de présenter ces fonctions comme disponibles.
+
+## Déploiement Netlify depuis GitHub
+- Branche : `main`
+- Build command : vide
+- Publish directory : `.`
+- Base directory : vide

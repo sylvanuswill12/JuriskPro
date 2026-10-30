@@ -100,6 +100,13 @@ h1,h2,h3,p,ul,ol{margin:0}
 .draft h3{font-size:15.5px}
 .draft p{font-size:13px;color:var(--ink-2);margin-top:2px;overflow-wrap:anywhere}
 .draft .acts{display:flex;gap:8px;flex-wrap:wrap}
+.history-list{display:grid;gap:12px;margin:18px 0}
+.history-item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;min-width:0}
+.history-item h3{font-size:16px;margin:0 0 4px}
+.history-meta{font-size:13px;color:var(--ink-2);margin-bottom:10px}
+.history-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.history-content{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+.history-content pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:420px;overflow:auto;font:13px/1.6 ui-monospace,monospace;color:var(--ink);background:var(--surface-2);padding:12px;border-radius:8px}
 /* Parcours */
 .path{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
 .path h3{font-size:16px}
@@ -375,7 +382,7 @@ h1,h2,h3,p,ul,ol{margin:0}
   body{padding-bottom:var(--bn);font-size:16px}
   body.kb{--bn:0px}
   body.kb .bnav{display:none}
-  .bnav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .bnav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
   .bnav a{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:60px;padding:6px 2px;color:var(--ink-2);text-decoration:none;font-size:11.5px;font-weight:600}
   .bnav a[aria-current=page]{color:var(--accent);font-weight:700}
   .bnav a[aria-current=page]::before{content:"";position:absolute;top:0;left:22%;right:22%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
@@ -872,11 +879,17 @@ body.jp-modal-open{overflow:hidden!important}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="apple-touch-icon" href="./icons/icon-192.png">
+<style>
+body.auth-locked{overflow:hidden}body.auth-locked #app{visibility:hidden;pointer-events:none}#jp-auth-gate{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;overflow:auto;padding:22px;background:linear-gradient(145deg,#082f26,#0b6b4c 58%,#123f35);font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#17231f}#jp-auth-gate *{box-sizing:border-box}#jp-auth-gate .jp-auth-card{width:min(100%,460px);background:#fff;border-radius:22px;padding:clamp(22px,5vw,38px);box-shadow:0 24px 80px #001c1680}#jp-auth-gate .jp-auth-brand{font-size:25px;font-weight:900;letter-spacing:1px;color:#123e32}#jp-auth-gate .jp-auth-brand span{color:#16845e}#jp-auth-gate .jp-auth-kicker{font-size:11px;letter-spacing:2px;font-weight:800;color:#16845e;margin:18px 0 8px}#jp-auth-gate h1{font-size:27px;line-height:1.2;margin:0 0 10px;color:#15382d}#jp-auth-gate .jp-auth-intro{color:#5d6b65;line-height:1.5;margin:0 0 22px}#jp-auth-gate label{display:block;font-size:13px;font-weight:700;margin:13px 0;color:#263c33}#jp-auth-gate input{display:block;width:100%;margin-top:7px;padding:13px 14px;border:1px solid #d6e0db;border-radius:10px;font:inherit;font-weight:400;color:#17231f;background:#fff}#jp-auth-gate input:focus{outline:2px solid #16845e;outline-offset:1px}#jp-auth-gate .jp-auth-tabs{display:flex;gap:8px;margin:0 0 18px}#jp-auth-gate .jp-auth-tabs button{flex:1;padding:11px;border:1px solid #d6e0db;border-radius:10px;background:#f5f8f6;color:#315044;font-weight:700}#jp-auth-gate .jp-auth-tabs button.active{background:#e5f3ec;border-color:#16845e;color:#075638}#jp-auth-gate .jp-auth-submit{width:100%;padding:14px;border:0;border-radius:10px;background:#0b6b4c;color:white;font-weight:800;font-size:15px;margin-top:10px}#jp-auth-gate button:disabled{opacity:.6}#jp-auth-gate .jp-auth-link{display:block;margin:12px auto 0;border:0;background:none;color:#0b6b4c;text-decoration:underline}#jp-auth-gate .jp-auth-message{min-height:22px;color:#a13c24;font-size:13px;line-height:1.45;margin:14px 0 0}#jp-auth-gate .jp-auth-foot{border-top:1px solid #e7ece9;padding-top:14px;color:#78857f;font-size:11px;line-height:1.5;margin:12px 0 0}#jp-auth-gate .jp-auth-error{color:#a13c24;font-weight:800}#jp-auth-gate code{overflow-wrap:anywhere;background:#f1f4f2;padding:2px 4px;border-radius:4px}
+</style>
 </head><body>
 <div id="app"></div>
 <noscript>JuriskPro a besoin de JavaScript pour fonctionner.</noscript>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="./supabase-config.js"></script>
+<script src="./auth-gate.js"></script>
 <script>
 /* ============================================================
    CŒUR : nombres en lettres, rendu des blocs, export Word et PDF.
@@ -3242,6 +3255,7 @@ const plural=(n,a,b)=>n+' '+(n>1?b:a);
 const ICONS={
   accueil:'<path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
   brouillons:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/>',
+  historique:'<path d="M3 12a9 9 0 1 0 2.6-6.4L3 8"/><path d="M3 3v5h5M12 7v5l3 2"',
   modeles:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
   controle:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m9 12 2 2 4-4"/>',
   compte:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/>',
@@ -3251,6 +3265,7 @@ const ico=(n,s)=>'<svg width="'+(s||24)+'" height="'+(s||24)+'" viewBox="0 0 24 
 const NAV=[
   {id:'accueil',h:'#',t:'Accueil'},
   {id:'brouillons',h:'#brouillons',t:'Brouillons'},
+  {id:'historique',h:'#historique',t:'Historique'},
   {id:'modeles',h:'#modeles',t:'Modèles'},
   {id:'controle',h:'#controle',t:'Contrôle'},
   {id:'compte',h:'#compte',t:'Compte'}
@@ -3284,6 +3299,7 @@ function route(){
     else if(byId(h)) openModel(byId(h));
     else if(h==='modeles'||h==='notaires'){if(h==='notaires') ui.cat='notaires';openLibrary();}
     else if(h==='brouillons') openDrafts();
+    else if(h==='historique') openHistory();
     else if(h==='controle') openControl();
     else if(h==='compte') openAccount();
     else openHome();
@@ -3322,7 +3338,7 @@ function openHome(){
       '<a class="short home-short" href="#modeles"><span class="short-icon">'+ICON_DOC+'</span><span class="short-copy"><strong>Actes sous seing privé</strong><span>'+privN+' modèles pour préparer vos actes sans acte reçu par un notaire.</span></span><span class="short-arrow">↗</span></a>'+
       '<a class="short home-short" href="#notaires"><span class="short-icon">'+ICON_SCALE+'</span><span class="short-copy"><strong>Actes notariés</strong><span>'+notN+' modèles pour les actes relevant d’un notaire.</span></span><span class="short-arrow">↗</span></a></div></section>'+
     '<section class="home-bottom"><div><span class="home-bottom-icon">✓</span><p><b>Des modèles révisés par un juriste qualifié</b><small>Relisez les informations saisies et vérifiez l’adaptation du document à votre situation avant signature.</small></p></div><div class="home-total"><b>'+MODELS.length+'</b><span>modèles disponibles</span></div></section>'+
-    '<footer class="foot">Vos saisies restent sur cet appareil.</footer>');
+    '<footer class="foot">Vos brouillons et votre historique sont actuellement enregistrés sur cet appareil. La synchronisation par compte sera activée avec Supabase.</footer>');
   $('#hq').addEventListener('submit',e=>{e.preventDefault();ui.q=$('#q').value;ui.cat='all';go('modeles');});
   bindDrafts($('#main'));
 }
@@ -3433,6 +3449,31 @@ function openDrafts(){
     (ds.length?'<div class="drafts">'+ds.map(x=>draftHTML(x,true)).join('')+'</div>':
       '<div class="empty-state"><p><strong>Aucun brouillon pour le moment.</strong></p><p>Dès que vous saisissez une information dans un modèle, elle est enregistrée ici.</p><a class="btn" href="#modeles">Choisir un modèle</a></div>'));
   bindDrafts($('#main'),openDrafts);
+}
+
+/* ============================================================
+   HISTORIQUE : documents générés sur cet appareil.
+   La synchronisation multi-appareils sera activée avec Supabase.
+   ============================================================ */
+const HISTORY_KEY='juriskpro:history:v1';
+function historyRead(){try{const a=JSON.parse(store.get(HISTORY_KEY)||'[]');return Array.isArray(a)?a:[];}catch(e){return [];}}
+function historySave(item){
+  const list=historyRead();
+  list.unshift(item);
+  return store.set(HISTORY_KEY,JSON.stringify(list.slice(0,100)));
+}
+function historyDelete(id){const list=historyRead().filter(x=>x.id!==id);store.set(HISTORY_KEY,JSON.stringify(list));}
+function historyHTML(x){
+  return '<article class="history-item"><h3>'+esc(x.title||'Document sans titre')+'</h3><p class="history-meta">'+esc(x.modelTitle||'Modèle')+' · '+esc(fmtWhen(x.createdAt))+' · '+esc((x.format||'').toUpperCase())+'</p>'+
+    '<details><summary>Consulter le contenu du document</summary><div class="history-content"><pre>'+esc(x.text||'Contenu non disponible')+'</pre></div></details>'+
+    '<div class="history-actions"><a class="btn small" href="#'+esc(x.modelId||'modeles')+'">Reprendre le modèle</a><button type="button" class="btn small ghost danger" data-history-del="'+esc(x.id)+'">Supprimer</button></div></article>';
+}
+function openHistory(){
+  leave();setTitle('Historique');
+  const list=historyRead();
+  shell('historique','<div class="page-h"><h1>Historique</h1><p>Retrouvez les documents que vous avez générés avec JuriskPro sur cet appareil. La synchronisation entre appareils sera activée après le branchement de Supabase.</p></div>'+
+    (list.length?'<div class="history-list">'+list.map(historyHTML).join('')+'</div>':'<div class="empty-state"><p><strong>Aucun document dans votre historique.</strong></p><p>Après avoir créé et téléchargé un document Word ou PDF, il apparaîtra ici.</p><a class="btn" href="#modeles">Créer un document</a></div>'));
+  $$('[data-history-del]').forEach(b=>b.onclick=()=>{historyDelete(b.dataset.historyDel);openHistory();});
 }
 
 /* ============================================================
@@ -4030,7 +4071,8 @@ async function download(kind){
     if(kind==='pdf'&&(typeof jspdf==='undefined')) throw {code:'lib'};
     const blob=kind==='docx'?await buildDocx(r.blocks,r.V,title):await buildPdf(r.blocks,r.V,title);
     await saveBlob(blob,name);
-    say('✓ Fichier prêt : '+name+'. Cherchez-le dans vos téléchargements.','ok');
+    const saved=historySave({id:(window.crypto&&crypto.randomUUID?crypto.randomUUID():'h'+Date.now()+Math.random().toString(16).slice(2)),modelId:M.id,modelTitle:M.titre,title:title,fileName:name,format:kind,createdAt:Date.now(),text:toText(r.blocks,r.V),values:stripV(S)});
+    say(saved?'✓ Fichier prêt et ajouté à votre historique : '+name+'.':'Fichier prêt ; impossible d’ajouter ce document à l’historique local.',saved?'ok':'err');
   }catch(e){
     if(e&&e.code==='declined') say('Téléchargement annulé. Vous pouvez réessayer.');
     else if(e&&e.code==='lib') say('Le module de création de fichier n’a pas pu se charger. Vérifiez votre connexion, rechargez la page puis réessayez.','err');
@@ -4100,7 +4142,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden) flushSave(
 document.addEventListener('focusin',e=>{if(e.target&&e.target.matches&&e.target.matches('input:not([type=radio]):not([type=checkbox]),textarea,select')) document.body.classList.add('kb');});
 document.addEventListener('focusout',()=>{setTimeout(()=>{const a=document.activeElement;if(!(a&&a.matches&&a.matches('input:not([type=radio]):not([type=checkbox]),textarea,select'))) document.body.classList.remove('kb');},120);});
 
-route();
+window.JuriskProAuth.require(function(){ route(); });
 </script>
 
 
