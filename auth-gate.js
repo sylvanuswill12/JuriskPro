@@ -8,7 +8,7 @@
     document.body.classList.add('auth-locked');
     const el=document.createElement('div');el.id='jp-auth-gate';
     el.innerHTML=`<section class="jp-auth-card" aria-live="polite">
-      <div class="jp-auth-brandrow"><div class="jp-auth-mark" aria-hidden="true"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7h14M7 7l-3 7h6L7 7Zm10 0-3 7h6l-3-7ZM8 21h8"/></svg></div><div><div class="jp-auth-brand">Jurisk<span>Pro</span></div><div class="jp-auth-tagline">Votre espace juridique professionnel</div></div></div>
+      <div class="jp-auth-brandrow"><img class="jp-auth-logo" src="./icons/juriskpro-source.png" alt="Logo JuriskPro"><div><div class="jp-auth-brand">Jurisk<span>Pro</span></div><div class="jp-auth-tagline">Votre espace juridique professionnel</div></div></div>
       <div id="jp-auth-main"><p class="jp-auth-kicker">ESPACE JURIDIQUE SÉCURISÉ</p><h1 id="jp-auth-title">Créer votre compte</h1><p id="jp-auth-intro" class="jp-auth-intro">Inscrivez-vous pour accéder à vos modèles et à votre espace personnel.</p>
       <div id="jp-auth-config" hidden><p class="jp-auth-error">La connexion Supabase n’est pas encore configurée.</p><p>Vérifiez l’URL du projet et la clé publique dans <code>supabase-config.js</code>.</p></div>
       <div id="jp-auth-form-wrap"><div class="jp-auth-tabs"><button type="button" data-mode="signup" class="active">Créer un compte</button><button type="button" data-mode="login">Se connecter</button></div>
