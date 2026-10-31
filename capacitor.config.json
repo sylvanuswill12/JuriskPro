@@ -7,13 +7,14 @@
     "cleartext": false
   },
   "android": {
-    "allowMixedContent": false
+    "allowMixedContent": false,
+    "adjustMarginsForEdgeToEdge": "force"
   },
   "plugins": {
     "StatusBar": {
       "overlaysWebView": false,
       "backgroundColor": "#0D1411",
-      "style": "LIGHT"
+      "style": "DARK"
     }
   }
 }
