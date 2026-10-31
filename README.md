@@ -1,0 +1,32 @@
+# JuriskPro — application Web / PWA
+
+Cette version impose une étape d'authentification Supabase avant l'accès à l'application : création de compte, connexion et réinitialisation du mot de passe. Les comptes peuvent nécessiter une confirmation par e-mail selon les réglages Auth du projet Supabase.
+
+## Fichiers principaux
+- `index.html` : application JuriskPro et écran de connexion obligatoire.
+- `auth-gate.js` : contrôle d'accès par session Supabase.
+- `supabase-config.js` : URL Supabase et clé publique à renseigner après création du projet.
+- `supabase/schema.sql` : tables, RLS et stockage privé pour le catalogue, les documents et les brouillons.
+- `manifest.webmanifest`, `sw.js`, `icons/` : base PWA (connexion Internet requise).
+
+## Configuration obligatoire avant publication
+1. Créer le projet Supabase `JuriskPro`.
+2. Exécuter intégralement `supabase/schema.sql` dans SQL Editor.
+3. Dans `supabase-config.js`, remplacer `https://VOTRE-PROJET.supabase.co` et `COLLER_ICI_LA_CLE_PUBLISHABLE_OU_ANON` par l'URL du projet et sa clé publique `anon` ou `publishable`.
+4. Dans Supabase > Authentication > URL Configuration, définir l'URL du site publiée comme Site URL et ajouter les URL de redirection utilisées (URL Netlify et URL de prévisualisation si nécessaire).
+5. Vérifier le paramètre de confirmation d'e-mail dans Authentication > Providers > Email.
+6. Publier le projet mis à jour sur GitHub puis laisser Netlify déployer.
+
+**Sécurité :** mettre uniquement la clé publique `anon`/`publishable` dans `supabase-config.js`. Ne jamais mettre la clé `service_role`/`secret` ou le mot de passe PostgreSQL dans le navigateur, GitHub ou Netlify.
+
+## État fonctionnel et limites à ce stade
+- L'écran de connexion obligatoire est intégré au démarrage et bloque l'application sans session authentifiée.
+- La création de compte, la connexion, la session persistante et la demande de réinitialisation utilisent Supabase Auth après configuration des clés.
+- Le schéma SQL prépare les tables sécurisées pour documents, brouillons, catalogue versionné et fichiers privés.
+- **La synchronisation distante effective des brouillons et de l'historique, l'envoi des fichiers dans Storage et le chargement dynamique des modèles ne sont pas encore raccordés dans cette version.** Il faudra les intégrer et les tester après la création du projet Supabase avant de présenter ces fonctions comme disponibles.
+
+## Déploiement Netlify depuis GitHub
+- Branche : `main`
+- Build command : vide
+- Publish directory : `.`
+- Base directory : vide
