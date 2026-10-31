@@ -2,13 +2,15 @@
   "appId": "com.messtonsconseils.juriskpro",
   "appName": "JuriskPro",
   "webDir": "www",
+  "backgroundColor": "#0D1411",
   "server": {
     "androidScheme": "https",
     "cleartext": false
   },
   "android": {
     "allowMixedContent": false,
-    "adjustMarginsForEdgeToEdge": "force"
+    "adjustMarginsForEdgeToEdge": "force",
+    "backgroundColor": "#0D1411"
   },
   "plugins": {
     "StatusBar": {
