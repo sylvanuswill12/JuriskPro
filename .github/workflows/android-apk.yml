@@ -6,6 +6,14 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "app.js"
+      - "core.js"
+      - "catalogue.js"
+      - "models/**"
+      - "styles.css"
+      - "sw.js"
+      - "manifest.webmanifest"
+      - "vendor/**"
       - "auth-gate.js"
       - "supabase-config.js"
       - "politique-confidentialite.html"
@@ -22,6 +30,8 @@ permissions:
 
 env:
   CI: true
+  # Vrai seulement si la clé de signature est enregistrée dans les secrets GitHub (voir SIGNATURE-APK.md)
+  HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
 
 jobs:
   build:
@@ -73,3 +83,36 @@ jobs:
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 30
+
+      - name: Build release APK (optimisé)
+        if: env.HAS_KEYSTORE == 'true'
+        working-directory: android
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Signer l'APK release
+        if: env.HAS_KEYSTORE == 'true'
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -e
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+          BT="$ANDROID_HOME/build-tools/$(ls "$ANDROID_HOME/build-tools" | sort -V | tail -1)"
+          SRC=$(ls android/app/build/outputs/apk/release/*.apk | head -1)
+          "$BT/zipalign" -p -f 4 "$SRC" "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" sign --ks "$RUNNER_TEMP/release.jks" --ks-key-alias "$KEY_ALIAS" \
+            --ks-pass env:KS_PASS --key-pass env:KEY_PASS \
+            --out JuriskPro-release.apk "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" verify --verbose JuriskPro-release.apk
+          rm -f "$RUNNER_TEMP/release.jks"
+
+      - name: Upload APK signé
+        if: env.HAS_KEYSTORE == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: JuriskPro-release-APK-signe
+          path: JuriskPro-release.apk
+          if-no-files-found: error
+          retention-days: 90

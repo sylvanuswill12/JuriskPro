@@ -38,8 +38,13 @@
     function setMode(m){mode=m;$('#jp-auth-title').textContent=m==='signup'?'Créer votre compte':'Bon retour parmi nous';$('#jp-auth-intro').textContent=m==='signup'?'Inscrivez-vous pour accéder à vos modèles et à votre espace personnel.':'Connectez-vous pour accéder à votre espace.';$('#jp-name-wrap').hidden=m!=='signup';$('#jp-name').required=m==='signup';$('#jp-confirm-wrap').hidden=m!=='signup';$('#jp-confirm').required=m==='signup';$('#jp-password').autocomplete=m==='signup'?'new-password':'current-password';$('#jp-auth-submit').textContent=m==='signup'?'Créer mon compte':'Se connecter';el.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===m));setMessage('');}
     el.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
     setMode('login');
-    if(!configured()){$('#jp-auth-config').hidden=false;$('#jp-auth-form-wrap').hidden=true;return;}
-    if(!window.supabase||!window.supabase.createClient){setMessage('Le service de connexion ne peut pas être chargé. Vérifiez votre connexion Internet puis rechargez.');return;}
+    if(!configured()){$('#jp-auth-config').hidden=false;$('#jp-auth-form-wrap').hidden=true;signalReady();return;}
+    /* Le formulaire s'affiche tout de suite ; Supabase se charge en arrière-plan. */
+    const submitBtn=$('#jp-auth-submit');submitBtn.disabled=true;
+    $('#jp-auth-form').addEventListener('submit',e=>e.preventDefault());
+    const boot=()=>{
+    if(!window.supabase||!window.supabase.createClient){setMessage('Le service de connexion ne peut pas être chargé. Vérifiez votre connexion Internet puis rechargez.');signalReady();return;}
+    submitBtn.disabled=false;setMessage('');
     client=window.supabase.createClient(cfg.url,cfg.anonKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
     const confirmationRedirect=location.origin+location.pathname+'?auth=confirmed';
     $('#jp-auth-form').addEventListener('submit',async e=>{
@@ -62,9 +67,14 @@
     const isConfirmation=()=>new URLSearchParams(location.search).get('auth')==='confirmed';
     function showConfirmation(session){confirmationSession=session;$('#jp-auth-main').innerHTML=`<div class="jp-auth-confirm"><div class="jp-auth-confirm-icon">✓</div><p class="jp-auth-kicker">CONFIRMATION RÉUSSIE</p><h1>Adresse e-mail confirmée !</h1><p class="jp-auth-intro">Votre compte JuriskPro est maintenant activé. Vous pouvez vous connecter pour accéder à votre espace.</p><button type="button" class="jp-auth-submit" id="jp-confirm-enter">Accéder à JuriskPro</button></div>`;$('#jp-auth-message').textContent='';$('#jp-confirm-enter').addEventListener('click',()=>unlock(confirmationSession));}
     client.auth.onAuthStateChange((event,session)=>{if(session){if(isConfirmation())showConfirmation(session);else unlock(session);}else if(event==='SIGNED_OUT')lock();});
-    client.auth.getSession().then(({data,error})=>{if(error)setMessage(messageFr(error,'Impossible de vérifier votre session. Rechargez la page puis réessayez.'));else if(data.session){if(isConfirmation())showConfirmation(data.session);else unlock(data.session);}else if(isConfirmation()){setMessage('Le lien de confirmation a expiré ou a déjà été utilisé. Connectez-vous ou demandez un nouvel e-mail de confirmation.');}});
+    client.auth.getSession().then(({data,error})=>{if(error)setMessage(messageFr(error,'Impossible de vérifier votre session. Rechargez la page puis réessayez.'));else if(data.session){if(isConfirmation())showConfirmation(data.session);else unlock(data.session);}else if(isConfirmation()){setMessage('Le lien de confirmation a expiré ou a déjà été utilisé. Connectez-vous ou demandez un nouvel e-mail de confirmation.');}signalReady();},()=>signalReady());
+    };
+    setMessage('Chargement du service de connexion…');
+    if(window.supabase&&window.supabase.createClient)boot();
+    else if(window.JPLibs)window.JPLibs.load('supabase').then(boot,boot);else boot();
   }
-  function unlock(session){if(!session||!session.user)return;document.body.classList.remove('auth-locked');const el=document.getElementById('jp-auth-gate');if(el)el.remove();if(!started&&readyCallback){started=true;readyCallback(session,client);}}
+  function signalReady(){requestAnimationFrame(()=>window.dispatchEvent(new Event('jp:ready')));}
+  function unlock(session){if(!session||!session.user)return;document.body.classList.remove('auth-locked');const el=document.getElementById('jp-auth-gate');if(el)el.remove();if(!started&&readyCallback){started=true;readyCallback(session,client);}signalReady();}
   function lock(){document.body.classList.add('auth-locked');started=false;mount();}
   window.JuriskProAuth={require:function(cb){readyCallback=cb;if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount,{once:true});else mount();},getClient:()=>client,getUser:()=>client&&client.auth.getUser(),signOut:async()=>client&&client.auth.signOut()};
 })();
