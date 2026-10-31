@@ -27,6 +27,7 @@ styles = styles.replace(/(<style\s+name="AppTheme(?:\.NoActionBar)?"[^>]*>)/g, (
   patched++;
   return m + '\n' + extra;
 });
+styles = styles.replace(/(<style\s+name="AppTheme\.NoActionBarLaunch"[^>]*>)/, (m) => m + '\n        <item name="windowSplashScreenBackground">@color/jp_window_bg</item>');
 if (!patched) console.warn('Avertissement : aucun style AppTheme trouvé, thème non modifié.');
 fs.writeFileSync(stylesPath, styles);
 console.log(`Thème Android JuriskPro appliqué (${patched} style(s)).`);

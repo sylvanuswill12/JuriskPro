@@ -53,8 +53,11 @@ jobs:
       - name: Apply JuriskPro Android theme
         run: node scripts/patch-android.cjs
 
-      - name: Generate Android icons
-        run: npx capacitor-assets generate --android --iconBackgroundColor '#0B3D2E' --iconBackgroundColorDark '#0B3D2E'
+      - name: Create splash screen image
+        run: node scripts/make-splash.cjs
+
+      - name: Generate Android icons and splash
+        run: npx capacitor-assets generate --android --iconBackgroundColor '#0B3D2E' --iconBackgroundColorDark '#0B3D2E' --splashBackgroundColor '#0D1411' --splashBackgroundColorDark '#0D1411'
 
       - name: Sync Capacitor
         run: npx cap sync android
