@@ -3628,7 +3628,7 @@ async function openHistory(){
     shell('historique','<div class="page-h"><h1>Historique</h1><p>Vos documents sont enregistrés dans votre compte. Retrouvez-les après connexion depuis un autre téléphone ou ordinateur, puis téléchargez à nouveau les fichiers originaux.</p></div>'+
       (list.length?'<div class="history-list">'+list.map(historyHTML).join('')+'</div>':'<div class="empty-state"><p><strong>Aucun document dans votre historique.</strong></p><p>Vos prochaines créations y seront enregistrées automatiquement.</p><a class="btn" href="#modeles">Créer un document</a></div>'));
     $$('[data-history-del]').forEach(b=>b.onclick=async()=>{if(!confirm('Supprimer définitivement ce document de votre historique ?'))return;b.disabled=true;try{await historyDelete(b.dataset.historyDel,b.dataset.historyPath);await openHistory();}catch(e){alert('Suppression impossible : '+messageFr(e,'Une erreur est survenue lors de la suppression.'));b.disabled=false;}});
-    $$('[data-history-download]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{const item=list.find(x=>String(x.id)===b.dataset.historyDownload);if(!item||!item.storage_path)throw new Error('Fichier introuvable.');const c=historyClient();const {data,error}=await c.storage.from('juriskpro-documents').createSignedUrl(item.storage_path,60);if(error)throw error;const a=document.createElement('a');a.href=data.signedUrl;a.download=item.file_name||'document';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();}catch(e){alert('Téléchargement impossible : '+messageFr(e,'Une erreur est survenue lors du téléchargement.'));}finally{b.disabled=false;}});
+    $$('[data-history-download]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{const item=list.find(x=>String(x.id)===b.dataset.historyDownload);if(!item||!item.storage_path)throw new Error('Fichier introuvable.');const c=historyClient();const {data,error}=await c.storage.from('juriskpro-documents').createSignedUrl(item.storage_path,60);if(error)throw error;if(isNativeApp()){const resp=await fetch(data.signedUrl);if(!resp.ok)throw new Error('Téléchargement impossible.');await nativeShareBlob(await resp.blob(),item.file_name||'document',item.file_name||'document');}else{const a=document.createElement('a');a.href=data.signedUrl;a.download=item.file_name||'document';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();}}catch(e){alert('Téléchargement impossible : '+messageFr(e,'Une erreur est survenue lors du téléchargement.'));}finally{b.disabled=false;}});
   }catch(e){shell('historique','<div class="page-h"><h1>Historique</h1><p>Impossible de charger votre historique.</p></div><section class="card set"><p class="msg err">'+esc(messageFr(e,'Vérifiez votre connexion et la configuration de la sauvegarde sécurisée.'))+'</p><p>Vos documents ne sont pas affichés tant que la connexion au stockage sécurisé n’est pas rétablie.</p><button class="btn" type="button" id="history-retry">Réessayer</button></section>');const b=$('#history-retry');if(b)b.onclick=openHistory;}
 }
 
@@ -4179,7 +4179,24 @@ function bindFinal(){
 }
 function say(t,kind){const m=$('#dl-msg');if(m){m.textContent=t;m.className='msg'+(kind?' '+kind:'');}}
 let exporting=false;
+const isNativeApp=()=>!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
+let _capFS=null,_capShare=null;
+function blobToBase64(blob){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(String(r.result).split(',')[1]||'');r.onerror=()=>rej(r.error||new Error('lecture'));r.readAsDataURL(blob);});}
+async function nativeShareBlob(blob,name,title){
+  _capFS=_capFS||Capacitor.registerPlugin('Filesystem');
+  _capShare=_capShare||Capacitor.registerPlugin('Share');
+  const safe=String(name||'document').replace(/[\\/:*?"<>|]+/g,'-');
+  const data=await blobToBase64(blob);
+  const w=await _capFS.writeFile({path:safe,data:data,directory:'CACHE',recursive:true});
+  try{
+    await _capShare.share({title:title||safe,dialogTitle:'Enregistrer ou envoyer le document',url:w.uri});
+  }catch(e){
+    if(/cancel/i.test(String(e&&(e.message||e)))) throw {code:'declined'};
+    throw e;
+  }
+}
 async function saveBlob(blob,name){
+  if(isNativeApp()){await nativeShareBlob(blob,name,name);return;}
   let dl=null;
   try{if(typeof claude!=='undefined'&&claude&&claude.use) dl=await claude.use('downloads');}
   catch(e){if(e&&e.code) throw e;}
@@ -4233,7 +4250,10 @@ async function shareDocument(){
     const r=recompute(),title=M.docTitle(r.V),name=M.fileBase(r.V)+'.pdf';
     const blob=await buildPdf(r.blocks,r.V,title);
     const file=new File([blob],name,{type:'application/pdf'});
-    if(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]}))){
+    if(isNativeApp()){
+      await nativeShareBlob(blob,name,title);
+      say('Menu de partage ouvert. Choisissez WhatsApp, Drive, Fichiers ou une autre application.','ok');
+    }else if(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]}))){
       await navigator.share({title:title,text:'Document créé avec JuriskPro',files:[file]});
       say('Partage ouvert. Choisissez WhatsApp, Facebook ou une autre application disponible.','ok');
     }else if(navigator.share){
@@ -4243,7 +4263,7 @@ async function shareDocument(){
       say('Le partage direct n’est pas disponible dans ce navigateur. Téléchargez le PDF, puis partagez-le depuis votre téléphone.','err');
     }
   }catch(e){
-    if(e&&e.name==='AbortError') say('Partage annulé.');
+    if(e&&(e.name==='AbortError'||e.code==='declined')) say('Partage annulé.');
     else if(e&&e.code==='lib') say('Le module PDF n’a pas pu se charger. Vérifiez la connexion puis réessayez.','err');
     else say('Le partage n’a pas pu être lancé. Téléchargez le PDF, puis partagez-le depuis votre téléphone.','err');
   }finally{exporting=false;btn.disabled=false;btn.textContent=old;}
