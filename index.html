@@ -1012,15 +1012,33 @@ html {
   }
 }
 </style>
+<style id="jp-splash-css">
+#jp-splash{position:fixed;inset:0;z-index:2147483647;background:#0D1411;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding:24px;text-align:center;transition:opacity .6s ease}
+#jp-splash.out{opacity:0;pointer-events:none}
+#jp-splash img{width:min(44vw,210px);height:auto;border-radius:22%;opacity:0;transform:scale(.8);animation:jpSpLogo .9s cubic-bezier(.2,.8,.2,1) .15s forwards;box-shadow:0 10px 40px #0008}
+#jp-splash p{margin:0;max-width:19em;color:#C9D8D0;font:400 clamp(16px,4.6vw,21px)/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;opacity:0;transform:translateY(12px);animation:jpSpTag .8s ease 1.05s forwards;text-wrap:balance}
+#jp-splash p strong{color:#4FC796;font-weight:700}
+@keyframes jpSpLogo{to{opacity:1;transform:scale(1)}}
+@keyframes jpSpTag{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){#jp-splash img,#jp-splash p{animation-duration:.01s;animation-delay:0s}}
+.hero .slogan{margin:14px 0 0;padding-left:12px;border-left:3px solid var(--accent,#0B6B4C);font-style:italic;font-weight:500;color:var(--ink-2,#44524b);font-size:15.5px;line-height:1.45;max-width:34ch}
+.hero .slogan strong{font-style:normal;color:var(--accent,#0B6B4C)}
+</style>
 </head><body>
+<div id="jp-splash" aria-hidden="true"><img src="./icons/icon-512.png" alt="" width="512" height="512"><p><strong>JuriskPro,</strong> vous êtes rédacteur d’un monde qui vacille</p></div>
+<script>
+(function(){var el=document.getElementById('jp-splash');if(!el)return;
+var t0=Date.now(),MIN=2800,done=false;
+function hideNative(){try{if(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform())Capacitor.registerPlugin('SplashScreen').hide({fadeOutDuration:200});}catch(e){}}
+requestAnimationFrame(function(){requestAnimationFrame(hideNative);});
+function close(){if(done)return;done=true;el.classList.add('out');setTimeout(function(){if(el.parentNode)el.parentNode.removeChild(el);},800);}
+function later(){setTimeout(close,Math.max(0,MIN-(Date.now()-t0)));}
+if(document.readyState==='complete')later();else window.addEventListener('load',later);
+setTimeout(close,9000);})();
+</script>
+
 <div id="app"></div>
 <noscript>JuriskPro a besoin de JavaScript pour fonctionner.</noscript>
-<script>
-/* Application Android : masque l'écran de démarrage une fois la page chargée. */
-(function(){try{if(!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform()))return;
-var hide=function(){try{Capacitor.registerPlugin('SplashScreen').hide({fadeOutDuration:300});}catch(e){}};
-window.addEventListener('load',function(){setTimeout(hide,900);});}catch(e){}})();
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -3462,6 +3480,7 @@ function openHome(){
     '<section class="home-hero"><div class="home-copy">'+
       '<p class="eyebrow"><span class="home-dot"></span> VOTRE ESPACE DE RÉDACTION</p>'+
       '<h1>Vos actes juridiques, <em>en toute simplicité.</em></h1>'+
+      '<p class="slogan"><strong>JuriskPro,</strong> vous êtes rédacteur d’un monde qui vacille</p>'+
       '<p class="lead">Choisissez un modèle, renseignez les informations demandées et préparez votre document à télécharger en Word ou en PDF.</p>'+
       '<div class="cta-row"><a class="btn big" href="#modeles">'+ICON_DOC+' Créer un document</a>'+(ds.length?'<a class="btn big ghost" href="#brouillons">Reprendre un brouillon</a>':'')+'</div>'+
       '<form class="search home-search" id="hq" role="search"><label class="sr" for="q">Rechercher un modèle</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Quel document recherchez-vous ?" autocomplete="off"></form>'+
