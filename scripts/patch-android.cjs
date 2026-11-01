@@ -27,7 +27,17 @@ styles = styles.replace(/(<style\s+name="AppTheme(?:\.NoActionBar)?"[^>]*>)/g, (
   patched++;
   return m + '\n' + extra;
 });
-styles = styles.replace(/(<style\s+name="AppTheme\.NoActionBarLaunch"[^>]*>)/, (m) => m + '\n        <item name="windowSplashScreenBackground">@color/jp_window_bg</item>');
+// Android 12+ : l'écran de démarrage du système affiche le logo JuriskPro (sans texte : le système l'interdit)
+// sur le fond sombre, puis la page prend le relais avec le logo et le slogan.
+const drawableDir = path.join(process.cwd(), 'android', 'app', 'src', 'main', 'res', 'drawable-nodpi');
+const iconSrc = path.join(process.cwd(), 'assets', 'splash-icon.png');
+let splashIcon = '';
+if (fs.existsSync(iconSrc)) {
+  fs.mkdirSync(drawableDir, { recursive: true });
+  fs.copyFileSync(iconSrc, path.join(drawableDir, 'jp_splash_icon.png'));
+  splashIcon = '\n        <item name="windowSplashScreenAnimatedIcon">@drawable/jp_splash_icon</item>';
+} else console.warn('assets/splash-icon.png absent : icône de démarrage par défaut.');
+styles = styles.replace(/(<style\s+name="AppTheme\.NoActionBarLaunch"[^>]*>)/, (m) => m + '\n        <item name="windowSplashScreenBackground">@color/jp_window_bg</item>' + splashIcon);
 if (!patched) console.warn('Avertissement : aucun style AppTheme trouvé, thème non modifié.');
 fs.writeFileSync(stylesPath, styles);
 console.log(`Thème Android JuriskPro appliqué (${patched} style(s)).`);
