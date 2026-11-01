@@ -85,8 +85,41 @@ function requiredMissing(m,s){
       }else add(c,si,null,0);
     });
   });
-  return missing;
+  const have=new Set(missing.map(x=>x.id)),ixr=buildIndex(m);
+  neededIds(m,s).forEach(id=>{
+    if(have.has(id)||!ixr[id]) return;
+    const v=s[id];
+    if(v==null||String(v).trim()==='') missing.push({id:id,step:ixr[id].step,label:ixr[id].label});
+  });
+  return missing.sort((x,y)=>x.step-y.step);
 }
+/* ---------- Champs obligatoires : mêmes règles pour tous les modèles ----------
+   Un champ est obligatoire s'il est marqué req dans le modèle OU si le document en a besoin
+   dans l'état actuel du formulaire (il laisserait un blanc). Les champs qui ne concernent pas
+   votre cas (apport en nature d'un associé en numéraire, conjoint d'un célibataire…) ne sont pas exigés. */
+let DYN=new Set(),_needKey='',_needVal=[];
+const STAR=' <span class="required-star" aria-label="champ obligatoire" title="Champ obligatoire">*</span>';
+const isReq=f=>!!(f&&(f.req||DYN.has(f.id)));
+function neededIds(m,s){
+  const counts=new Set(),sk=[],opt=new Set(),s2=Object.assign({},s);
+  m.etapes.forEach(e=>(e.champs||[]).forEach(c=>{if(c.type==='repeat'&&c.countKey) counts.add(c.countKey);}));
+  eachField(m,f=>{
+    if(['info','title','action'].includes(f.type)) return;
+    if(f.opt||/\(facultatif\)/i.test(f.label||'')) opt.add(f.id);
+    if(['text','area','date','money'].includes(f.type)||(f.type==='int'&&!counts.has(f.id))) s2[f.id]='';
+    else sk.push(f.id+'='+s[f.id]);
+  });
+  const key=m.id+'§'+sk.join('|');
+  if(key!==_needKey){
+    _needKey=key;
+    try{const V=m.compute(s2),out=renderHTML(m.blocks(s2,V),V),ix=buildIndex(m);_needVal=[...out.missing].filter(id=>ix[id]&&!opt.has(id));}
+    catch(e){_needVal=[];}
+  }
+  if(m===M) DYN=new Set(_needVal);
+  return _needVal;
+}
+let _anK='',_anV=null;
+function analyse(m,s){const k=m.id+'§'+JSON.stringify(s);if(k===_anK) return _anV;const v=analyseRaw(m,s);_anK=k;_anV=v;return v;}
 function finalValidation(m,s){
   const an=analyse(m,s),req=requiredMissing(m,s);
   return {an:an,req:req,blocked:req.length>0||an.probs.length>0};
@@ -98,7 +131,7 @@ function firstCorrectionStep(v){
 }
 
 /* ---------- Analyse d'un état (contrôles réellement effectués) ---------- */
-function analyse(m,s){
+function analyseRaw(m,s){
   const ix=buildIndex(m),V=m.compute(s),bl=m.blocks(s,V),out=renderHTML(bl,V);
   const miss=[...out.missing].filter(id=>ix[id]);
   const probs=[];
@@ -591,8 +624,10 @@ function renderSteps(){
   M.etapes.forEach((e,i)=>{
     if(e.final)return;
     const stepFields=[];
-    eachField(M,(f,si,rep,j)=>{if(si===i&&f.req&&!['info','title','action'].includes(f.type)&&(!f.showIf||f.showIf(S)))stepFields.push(f);});
-    const hasRequired=stepFields.length>0;
+    eachField(M,(f,si,rep,j)=>{if(si===i&&isReq(f)&&!['info','title','action'].includes(f.type)&&(!f.showIf||f.showIf(S)))stepFields.push(f);});
+    let hasFields=false;
+    eachField(M,(f,si)=>{if(si===i&&!['info','title','action'].includes(f.type)&&(!f.showIf||f.showIf(S)))hasFields=true;});
+    const hasRequired=stepFields.length>0||hasFields;
     const allFilled=stepFields.every(f=>S[f.id]!=null&&String(S[f.id]).trim()!=='');
     const hasProblem=analyse(M,S).probs.some(p=>p.step===i);
     if((touchedSteps.has(i)||validationAttempted)&&hasRequired&&allFilled&&!hasProblem)goodByStep.add(i);
@@ -622,7 +657,7 @@ function fieldHTML(f){
   const hid=vis?'':' hidden',half=f.half?' half':'';
   const aide=f.aide?'<p class="aide" id="h-'+f.id+'">'+esc(f.aide)+'</p>':'';
   const desc=f.aide?' aria-describedby="h-'+f.id+'"':'';
-  const labelText=esc(f.label)+(f.req?' <span class="required-star" aria-label="champ obligatoire" title="Champ obligatoire">*</span>':'');
+  const labelText=esc(f.label)+(isReq(f)?STAR:'');
   switch(f.type){
     case 'title':return '<h3 class="sub-h" data-fid="'+f.id+'"'+hid+'>'+esc(f.label)+'</h3>';
     case 'info':{
@@ -752,9 +787,11 @@ function afterChange(id){
 }
 function refreshDynamic(){
   const e=M.etapes[step];if(!e||e.final) return;
-  const V=null;
+  try{neededIds(M,S);}catch(er){}
   const walk=(f)=>{
     const w=$('[data-fid="'+f.id+'"]');if(!w) return;
+    const lab=w.querySelector('label');
+    if(lab&&f.type!=='info'&&f.type!=='title'&&f.type!=='action'){const has=lab.querySelector('.required-star'),want=isReq(f);if(want&&!has) lab.insertAdjacentHTML('beforeend',STAR);else if(!want&&has) has.remove();}
     if(f.type==='info'){
       const r=f.calc(S,M.compute(S)),p=w.querySelector('.info');
       w.hidden=!r;p.textContent=r?r.t:'';p.className='info '+(r&&r.c||'');return;
@@ -936,6 +973,8 @@ function bindFinal(){
   $$('[data-jump]',box).forEach(b=>b.onclick=()=>jumpToField(b.dataset.jump));
   $$('[data-step]',box).forEach(b=>b.onclick=()=>gotoStep(+b.dataset.step));
   const docx=$('#dl-docx'),pdf=$('#dl-pdf'),share=$('#share-doc'),cp=$('#cp');
+  /* On télécharge les modules Word/PDF dès l'étape finale : le clic est alors instantané. */
+  if(window.JPLibs){JPLibs.load('jszip').catch(()=>{});JPLibs.load('jspdf').catch(()=>{});}
   if(docx) docx.onclick=()=>download('docx');
   if(pdf) pdf.onclick=()=>download('pdf');
   if(share) share.onclick=shareDocument;
@@ -995,9 +1034,9 @@ async function download(kind){
     }
   }catch(e){
     if(e&&e.code==='declined') say('Téléchargement annulé. Vous pouvez réessayer.');
-    else if(e&&e.code==='lib') say('Le module de création de fichier n’a pas pu se charger. Vérifiez votre connexion, rechargez la page puis réessayez.','err');
+    else if(e&&e.code==='lib') say('Le module de création de fichier n’a pas pu se charger (module : '+(e.lib||'?')+'). Vérifiez votre connexion puis réessayez.','err');
     else if(e&&e.code==='rate_limited') say('Une demande de téléchargement est déjà ouverte. Répondez-y, puis réessayez.','err');
-    else say('Le fichier n’a pas pu être créé ou téléchargé. Réessayez, ou utilisez « Copier le texte » pour récupérer le contenu.','err');
+    else{console.warn('Export échoué',e);say('Le fichier n’a pas pu être créé ou téléchargé (détail : '+String((e&&(e.message||e.code||e.name))||e).slice(0,90)+'). Réessayez, ou utilisez « Copier le texte » pour récupérer le contenu.','err');}
   }finally{exporting=false;btns.forEach(b=>{b.disabled=false;});cur.textContent=lab;}
 }
 
@@ -1027,8 +1066,8 @@ async function shareDocument(){
     }
   }catch(e){
     if(e&&(e.name==='AbortError'||e.code==='declined')) say('Partage annulé.');
-    else if(e&&e.code==='lib') say('Le module PDF n’a pas pu se charger. Vérifiez la connexion puis réessayez.','err');
-    else say('Le partage n’a pas pu être lancé. Téléchargez le PDF, puis partagez-le depuis votre téléphone.','err');
+    else if(e&&e.code==='lib') say('Le module PDF n’a pas pu se charger (module : '+(e.lib||'?')+'). Vérifiez la connexion puis réessayez.','err');
+    else{console.warn('Partage échoué',e);say('Le partage n’a pas pu être lancé (détail : '+String((e&&(e.message||e.code||e.name))||e).slice(0,90)+'). Téléchargez le PDF, puis partagez-le depuis votre téléphone.','err');}
   }finally{exporting=false;btn.disabled=false;btn.textContent=old;}
 }
 

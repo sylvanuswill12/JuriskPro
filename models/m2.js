@@ -44,9 +44,9 @@ const M2_APPORTS={type:'repeat',id:'apports',prefix:'a',countKey:'nb_assoc',min:
     const p='a'+i+'_',G='Associé '+(i+1),f=(k,d)=>Object.assign({id:p+k,group:G},d);
     const ind=S=>S.industrie==='oui';
     return [
-      f('num',{type:'money',unit:'F CFA',label:'Apport en numéraire',ph:'Laisser vide s’il n’y en a pas'}),
-      f('nat_desc',{type:'area',rows:3,label:'Apport en nature : désignation',aide:'Le bien apporté et les modalités de l’apport. Laissez vide s’il n’y en a pas.',ph:'Ex. : un véhicule utilitaire de marque …, immatriculé …'}),
-      f('nat_val',{type:'money',unit:'F CFA',label:'Apport en nature : valeur retenue',ph:'Ex. : 3 000 000'}),
+      f('num',{opt:true,type:'money',unit:'F CFA',label:'Apport en numéraire',ph:'Laisser vide s’il n’y en a pas'}),
+      f('nat_desc',{opt:true,type:'area',rows:3,label:'Apport en nature : désignation',aide:'Le bien apporté et les modalités de l’apport. Laissez vide s’il n’y en a pas.',ph:'Ex. : un véhicule utilitaire de marque …, immatriculé …'}),
+      f('nat_val',{opt:true,type:'money',unit:'F CFA',label:'Apport en nature : valeur retenue',ph:'Ex. : 3 000 000'}),
       f('ind_desc',{type:'area',rows:3,label:'Apport en industrie : activité apportée',aide:'Une ligne par prestation ou compétence.',showIf:ind}),
       f('ind_duree',{type:'text',half:true,label:'Durée des prestations',ph:'Ex. : cinq (5) ans',showIf:ind}),
       f('ind_parts',{type:'int',half:true,unit:'parts',label:'Parts attribuées',showIf:ind}),

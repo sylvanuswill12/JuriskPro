@@ -29,3 +29,13 @@ Le schéma prépare cette gestion évolutive. L'interface d'administration et le
 
 ## État fonctionnel actuel
 La rubrique Historique préparée enregistre encore localement les exports sur l'appareil courant. Le SQL prépare la sauvegarde distante et le catalogue évolutif ; l'authentification Supabase, le moteur de catalogue dynamique et la synchronisation effective restent à intégrer et à tester. Ne pas annoncer la synchronisation multi-appareils avant ces tests.
+
+## Lien de confirmation par e-mail (obligatoire)
+Dans Supabase > Authentication > URL Configuration :
+- **Site URL** : `https://juriskpro.netlify.app` (la valeur par défaut `http://localhost:3000` provoque l'erreur « Ce site est inaccessible » après le clic sur le lien).
+- **Redirect URLs** : ajouter `https://juriskpro.netlify.app/**`.
+
+Le code envoie toujours l'utilisateur vers `siteUrl` (défini dans `supabase-config.js`), y compris pour une inscription faite depuis l'application Android. Seuls les nouveaux e-mails sont concernés : les e-mails déjà envoyés gardent l'ancien lien.
+
+## Mot de passe oublié
+Le lien reçu renvoie vers `https://juriskpro.netlify.app/?auth=recovery` et ouvre l'écran « Choisissez un nouveau mot de passe » (même règle de sécurité que l'inscription : 8 caractères, minuscule, majuscule, chiffre, symbole). Aucun réglage supplémentaire : l'URL de redirection `https://juriskpro.netlify.app/**` de la section précédente suffit.

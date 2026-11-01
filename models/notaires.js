@@ -654,7 +654,7 @@ function nExAssocie(i){
   const o={};Object.keys(A).forEach(k=>{o['a'+i+'_'+k]=A[k];});o['a'+i+'_nationalite']='Ivoirienne';return o;
 }
 function nStatutsExemple(ng){
-  return Object.assign({denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
+  return Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
     nb_assoc:'2',nominal:'10000',a0_apport:'600000',a1_apport:'400000',nb_ger:String(ng),g0_src:'a0',g1_src:'a1',pages:'VINGT'},nExAssocie(0),nExAssocie(1));
 }
 const N1=nStatutsModel({id:'notaire-sarl-statuts-un-gerant',ng:1,titre:'Statuts de SARL, un gérant',sous:'Apports en numéraire, acte reçu par le notaire',
@@ -748,7 +748,7 @@ const N3=(function(){
       nStepSignature(),{id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}],
     defaults:()=>Object.assign({},notaireProfile(),{nb_assoc:'2',nominal:'10000',siege_ville:'ABIDJAN',date:todayISO(),a0_civilite:'M.',a1_civilite:'M.'},
       (function(){const o={};for(let i=0;i<2;i++){const d=nItemDefaults();Object.keys(d).forEach(k=>{o['a'+i+'_'+k]=d[k];});}return o;})()),
-    exemple:Object.assign({denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',nb_assoc:'2',nominal:'10000',a0_parts:'60',a1_parts:'40',pages:'TROIS'},nExAssocie(0),nExAssocie(1)),
+    exemple:Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',nb_assoc:'2',nominal:'10000',a0_parts:'60',a1_parts:'40',pages:'TROIS'},nExAssocie(0),nExAssocie(1)),
     compute:nDnsvCompute,blocks:nDnsvBlocks,
     docTitle:V=>'Déclaration notariée de souscription et de versement '+(V.denomination_maj||''),
     fileBase:V=>'DNSV-notaire-'+(fileSlug(V.denomination)?fileSlug(V.denomination)+'-':'')+'SARL',
@@ -852,7 +852,7 @@ const N4=(function(){
         {id:'nb_ger',type:'choice',variant:'seg',label:'Nombre de gérants',opts:[{v:'1',t:'Un gérant'},{v:'2',t:'Deux gérants'}]},nGerantsRep()]},
       nStepSignature(),{id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}],
     defaults:nCessionDefaults,
-    exemple:Object.assign({denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
+    exemple:Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
       date_constitution:'2019-02-14',date_immat:'2019-03-05',nb_assoc:'2',nominal:'10000',a0_parts:'40',a1_parts:'60',nb_fond:'2',f0_nom:'Monsieur Yao KONAN',f0_apport:'600000',f1_nom:'Madame Fatoumata TRAORE',f1_apport:'400000',
       age_date:'2026-09-10',nb_cedees:'20',cedant:'a0',cessionnaire:'a1',nb_ger:'1',g0_src:'a0',pages:'VINGT'},nExAssocie(0),nExAssocie(1)),
     compute:nCessionCompute,blocks:nCessionBlocks,

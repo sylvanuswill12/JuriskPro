@@ -106,7 +106,7 @@ const M3_ETAPES=[
 function m3Defaults(){return {nb_assoc:'2',a0_civilite:'M.',a1_civilite:'M.',date:todayISO()};}
 const M3_EXEMPLE={
   denomination:'ALPHA SERVICES',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Abidjan, Cocody, Riviera Palmeraie, lot 12',
-  date_statuts:'',date_enreg:'',nb_assoc:'2',
+  date_statuts:'2026-09-15',date_enreg:'',nb_assoc:'2',
   a0_civilite:'M.',a0_prenom:'Yao',a0_nom:'Konan',a0_adresse:'Abidjan, Cocody Angré',a0_parts:'200',a0_verse:'1000000',
   a1_civilite:'Mme',a1_prenom:'Aya',a1_nom:'Kouassi',a1_adresse:'Abidjan, Marcory Zone 4',a1_parts:'300',a1_verse:'0',
   nominal:'10000',banque:'Banque Exemple, agence du Plateau',lieu:'Abidjan',nb_ex:''

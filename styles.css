@@ -990,3 +990,14 @@ html {
 body.jp-busy{cursor:progress}
 body.jp-busy::before{content:"";position:fixed;top:0;left:0;height:3px;width:40%;background:var(--accent,#0B6B4C);z-index:2147483000;animation:jpBusy 1s ease-in-out infinite}
 @keyframes jpBusy{0%{transform:translateX(-100%)}100%{transform:translateX(260%)}}
+
+/* Connexion : afficher/masquer le mot de passe et règle de sécurité */
+#jp-auth-gate .jp-pw{position:relative;display:flow-root}
+#jp-auth-gate .jp-pw input{padding-right:92px}
+#jp-auth-gate .jp-pw-toggle{position:absolute;right:6px;top:11px;height:33px;padding:0 11px;border:0;border-radius:8px;background:#eef5f1;color:#0b6b4c;font:600 13px/1 inherit;cursor:pointer}
+#jp-auth-gate .jp-pw-toggle:focus-visible{outline:3px solid #0b6b4c40}
+#jp-auth-gate .jp-pw-rules{list-style:none;margin:8px 0 2px;padding:0;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:#6b7a73}
+#jp-auth-gate .jp-pw-rules[hidden]{display:none}
+#jp-auth-gate .jp-pw-rules li::before{content:"○ ";color:#9aa8a1}
+#jp-auth-gate .jp-pw-rules li.ok{color:#17643a}
+#jp-auth-gate .jp-pw-rules li.ok::before{content:"✓ ";color:#17643a;font-weight:700}
