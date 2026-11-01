@@ -30,7 +30,7 @@ html.jp-boot,html.jp-boot body{background:#0D1411}
 (function(){
 var el=document.getElementById('jp-splash');if(!el)return;
 var t0=Date.now(),MIN=1500,done=false;
-function hideNative(){try{if(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform())Capacitor.registerPlugin('SplashScreen').hide({fadeOutDuration:150});}catch(e){}}
+function hideNative(){try{var C=window.Capacitor;if(C&&C.isNativePlatform&&C.isNativePlatform()){var P=(C.Plugins&&C.Plugins.SplashScreen)||(C.registerPlugin&&C.registerPlugin('SplashScreen'));if(P)P.hide({fadeOutDuration:150});}}catch(e){}}
 /* Le splash natif ne part qu'une fois le logo web réellement peint : plus de trou blanc. */
 requestAnimationFrame(function(){requestAnimationFrame(hideNative);});
 function close(){if(done)return;done=true;el.classList.add('out');document.documentElement.classList.remove('jp-boot');setTimeout(function(){if(el.parentNode)el.parentNode.removeChild(el);},450);}

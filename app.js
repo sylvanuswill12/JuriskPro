@@ -984,10 +984,18 @@ function say(t,kind){const m=$('#dl-msg');if(m){m.textContent=t;m.className='msg
 let exporting=false;
 const isNativeApp=()=>!!(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform());
 let _capFS=null,_capShare=null;
+/* Modules natifs Capacitor : dans l'APK sans bundler, ils sont exposés par Capacitor.Plugins (registerPlugin n'existe pas). */
+function capPlugin(name){
+  const C=window.Capacitor;
+  if(!C) throw new Error('Capacitor indisponible');
+  if(C.Plugins&&C.Plugins[name]) return C.Plugins[name];
+  if(typeof C.registerPlugin==='function') return C.registerPlugin(name);
+  throw new Error('module natif « '+name+' » indisponible');
+}
 function blobToBase64(blob){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(String(r.result).split(',')[1]||'');r.onerror=()=>rej(r.error||new Error('lecture'));r.readAsDataURL(blob);});}
 async function nativeShareBlob(blob,name,title){
-  _capFS=_capFS||Capacitor.registerPlugin('Filesystem');
-  _capShare=_capShare||Capacitor.registerPlugin('Share');
+  _capFS=_capFS||capPlugin('Filesystem');
+  _capShare=_capShare||capPlugin('Share');
   const safe=String(name||'document').replace(/[\\/:*?"<>|]+/g,'-');
   const data=await blobToBase64(blob);
   const w=await _capFS.writeFile({path:safe,data:data,directory:'CACHE',recursive:true});
