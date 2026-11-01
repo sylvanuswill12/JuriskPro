@@ -5,6 +5,9 @@
   const configured=()=>/^https:\/\/.+\.supabase\.co$/.test(cfg.url||'') && (cfg.anonKey||'').length>20 && !String(cfg.anonKey).includes('COLLER_ICI');
   function mount(){
     if(document.getElementById('jp-auth-gate')) return;
+    const EYE='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+    const EYE_OFF='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.9 17.9A10.9 10.9 0 0 1 12 19C5.6 19 2 12 2 12a18.5 18.5 0 0 1 5.1-5.9"/><path d="M9.9 5.2A9.7 9.7 0 0 1 12 5c6.4 0 10 7 10 7a18.6 18.6 0 0 1-2.2 3.2"/><path d="M14.1 14.1A3 3 0 1 1 9.9 9.9"/><line x1="2" y1="2" x2="22" y2="22"/></svg>';
+    const JP_BUILD='8';
     document.body.classList.add('auth-locked');
     const el=document.createElement('div');el.id='jp-auth-gate';
     el.innerHTML=`<section class="jp-auth-card" aria-live="polite">
@@ -14,13 +17,13 @@
       <div id="jp-auth-form-wrap"><div class="jp-auth-tabs"><button type="button" data-mode="signup" class="active">Créer un compte</button><button type="button" data-mode="login">Se connecter</button></div>
       <form id="jp-auth-form"><label id="jp-name-wrap">Nom complet<input id="jp-name" type="text" autocomplete="name" minlength="2" placeholder="Votre nom complet" required></label>
       <label>Adresse e-mail<input id="jp-email" type="email" autocomplete="email" placeholder="nom@exemple.com" required></label>
-      <label>Mot de passe<span class="jp-pw"><input id="jp-password" type="password" autocomplete="new-password" minlength="8" placeholder="Votre mot de passe" required><button type="button" class="jp-pw-toggle" data-for="jp-password" aria-label="Afficher le mot de passe" aria-pressed="false">Afficher</button></span></label>
+      <label>Mot de passe<span class="jp-pw"><input id="jp-password" type="password" autocomplete="new-password" minlength="8" placeholder="Votre mot de passe" required><button type="button" class="jp-pw-toggle" data-for="jp-password" aria-label="Afficher le mot de passe" aria-pressed="false">${EYE}</button></span></label>
       <ul id="jp-pw-rules" class="jp-pw-rules" aria-live="polite"><li data-r="len">8 caractères minimum</li><li data-r="low">une lettre minuscule</li><li data-r="up">une lettre majuscule</li><li data-r="num">un chiffre</li><li data-r="sym">un symbole (! ? @ # $ % …)</li></ul>
-      <label id="jp-confirm-wrap">Confirmer le mot de passe<span class="jp-pw"><input id="jp-confirm" type="password" autocomplete="new-password" placeholder="Répétez le mot de passe" required><button type="button" class="jp-pw-toggle" data-for="jp-confirm" aria-label="Afficher le mot de passe" aria-pressed="false">Afficher</button></span></label>
+      <label id="jp-confirm-wrap">Confirmer le mot de passe<span class="jp-pw"><input id="jp-confirm" type="password" autocomplete="new-password" placeholder="Répétez le mot de passe" required><button type="button" class="jp-pw-toggle" data-for="jp-confirm" aria-label="Afficher le mot de passe" aria-pressed="false">${EYE}</button></span></label>
       <button class="jp-auth-submit" type="submit" id="jp-auth-submit">Créer mon compte</button></form>
       <button class="jp-auth-link" type="button" id="jp-reset">Mot de passe oublié ?</button></div></div>
       <p id="jp-auth-message" class="jp-auth-message" role="status" aria-live="polite"></p>
-      <p class="jp-auth-foot">Vos accès sont protégés. Vos documents restent associés à votre compte personnel.<br><a href="./politique-confidentialite.html" target="_blank" rel="noopener">Lire la politique de confidentialité</a> · <a href="mailto:messtonsconseils2@gmail.com">Contacter Messton's Conseils</a></p></section>`;
+      <p class="jp-auth-foot">Vos accès sont protégés. Vos documents restent associés à votre compte personnel.<br><a href="./politique-confidentialite.html" target="_blank" rel="noopener">Lire la politique de confidentialité</a> · <a href="mailto:messtonsconseils2@gmail.com">Contacter Messton's Conseils</a><br><span class="jp-ver">Version ${JP_BUILD}</span></p></section>`;
     document.body.appendChild(el);
     const $=s=>el.querySelector(s);let mode='signup';
     function setMessage(text,success){const m=$('#jp-auth-message');m.textContent=text||'';m.classList.toggle('success',!!success);}
@@ -41,9 +44,9 @@
     const PW_RULES={len:p=>p.length>=8,low:p=>/\p{Ll}/u.test(p),up:p=>/\p{Lu}/u.test(p),num:p=>/\d/.test(p),sym:p=>/[^\p{L}\p{N}\s]/u.test(p)};
     const PW_LABEL={len:'8 caractères minimum',low:'une minuscule',up:'une majuscule',num:'un chiffre',sym:'un symbole'};
     const pwMissing=p=>Object.keys(PW_RULES).filter(k=>!PW_RULES[k](p));
-    function paintRules(){const p=$('#jp-password').value;el.querySelectorAll('#jp-pw-rules li').forEach(li=>li.classList.toggle('ok',PW_RULES[li.dataset.r](p)));}
+    function paintRules(){const p=$('#jp-password').value;el.querySelectorAll('#jp-pw-rules li').forEach(li=>{const ok=PW_RULES[li.dataset.r](p);li.classList.toggle('ok',ok);li.classList.toggle('bad',p.length>0&&!ok);});}
     $('#jp-password').addEventListener('input',paintRules);
-    function bindToggles(root){root.querySelectorAll('.jp-pw-toggle').forEach(b=>b.addEventListener('click',()=>{const i=$('#'+b.dataset.for),show=i.type==='password';i.type=show?'text':'password';b.textContent=show?'Masquer':'Afficher';b.setAttribute('aria-label',show?'Masquer le mot de passe':'Afficher le mot de passe');b.setAttribute('aria-pressed',String(show));}));}
+    function bindToggles(root){root.querySelectorAll('.jp-pw-toggle').forEach(b=>b.addEventListener('click',()=>{const i=$('#'+b.dataset.for),show=i.type==='password';i.type=show?'text':'password';b.innerHTML=show?EYE_OFF:EYE;b.setAttribute('aria-label',show?'Masquer le mot de passe':'Afficher le mot de passe');b.setAttribute('aria-pressed',String(show));}));}
     bindToggles(el);
     function setMode(m){mode=m;$('#jp-pw-rules').hidden=m!=='signup';$('#jp-password').placeholder=m==='signup'?'Créez un mot de passe sécurisé':'Votre mot de passe';if(m==='signup')$('#jp-password').setAttribute('minlength','8');else $('#jp-password').removeAttribute('minlength');paintRules();$('#jp-auth-title').textContent=m==='signup'?'Créer votre compte':'Bon retour parmi nous';$('#jp-auth-intro').textContent=m==='signup'?'Inscrivez-vous pour accéder à vos modèles et à votre espace personnel.':'Connectez-vous pour accéder à votre espace.';$('#jp-name-wrap').hidden=m!=='signup';$('#jp-name').required=m==='signup';$('#jp-confirm-wrap').hidden=m!=='signup';$('#jp-confirm').required=m==='signup';$('#jp-password').autocomplete=m==='signup'?'new-password':'current-password';$('#jp-auth-submit').textContent=m==='signup'?'Créer mon compte':'Se connecter';el.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===m));setMessage('');}
     el.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
@@ -86,13 +89,13 @@
       if(recoveryMode&&$('#jp-new-form'))return;
       recoveryMode=true;confirmationSession=session;
       $('#jp-auth-main').innerHTML=`<p class="jp-auth-kicker">NOUVEAU MOT DE PASSE</p><h1>Choisissez un nouveau mot de passe</h1><p class="jp-auth-intro">Saisissez le mot de passe que vous utiliserez désormais pour vous connecter.</p>
-      <form id="jp-new-form"><label>Nouveau mot de passe<span class="jp-pw"><input id="jp-newpw" type="password" autocomplete="new-password" required><button type="button" class="jp-pw-toggle" data-for="jp-newpw" aria-label="Afficher le mot de passe" aria-pressed="false">Afficher</button></span></label>
+      <form id="jp-new-form"><label>Nouveau mot de passe<span class="jp-pw"><input id="jp-newpw" type="password" autocomplete="new-password" required><button type="button" class="jp-pw-toggle" data-for="jp-newpw" aria-label="Afficher le mot de passe" aria-pressed="false">${EYE}</button></span></label>
       <ul id="jp-newpw-rules" class="jp-pw-rules" aria-live="polite"><li data-r="len">8 caractères minimum</li><li data-r="low">une lettre minuscule</li><li data-r="up">une lettre majuscule</li><li data-r="num">un chiffre</li><li data-r="sym">un symbole (! ? @ # $ % …)</li></ul>
-      <label>Confirmer le mot de passe<span class="jp-pw"><input id="jp-newpw2" type="password" autocomplete="new-password" required><button type="button" class="jp-pw-toggle" data-for="jp-newpw2" aria-label="Afficher le mot de passe" aria-pressed="false">Afficher</button></span></label>
+      <label>Confirmer le mot de passe<span class="jp-pw"><input id="jp-newpw2" type="password" autocomplete="new-password" required><button type="button" class="jp-pw-toggle" data-for="jp-newpw2" aria-label="Afficher le mot de passe" aria-pressed="false">${EYE}</button></span></label>
       <button class="jp-auth-submit" type="submit" id="jp-new-submit">Enregistrer le mot de passe</button></form>`;
       $('#jp-auth-message').textContent='';
       bindToggles($('#jp-auth-main'));
-      $('#jp-newpw').addEventListener('input',()=>{const p=$('#jp-newpw').value;$('#jp-auth-main').querySelectorAll('#jp-newpw-rules li').forEach(li=>li.classList.toggle('ok',PW_RULES[li.dataset.r](p)));});
+      $('#jp-newpw').addEventListener('input',()=>{const p=$('#jp-newpw').value;$('#jp-auth-main').querySelectorAll('#jp-newpw-rules li').forEach(li=>{const ok=PW_RULES[li.dataset.r](p);li.classList.toggle('ok',ok);li.classList.toggle('bad',p.length>0&&!ok);});});
       $('#jp-new-form').addEventListener('submit',async e=>{
         e.preventDefault();const btn=$('#jp-new-submit'),p=$('#jp-newpw').value;
         const miss=pwMissing(p);

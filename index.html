@@ -67,8 +67,19 @@ window.JPLibs={load:function(n){
 <script>
 /* PWA : cache des fichiers de l'application pour un démarrage rapide (les données restent en ligne). */
 if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+  /* Nouvelle version publiée : elle s'applique toute seule (rechargement unique), sans attendre une 2e ouverture. */
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || window.__jpReloaded) return;
+    window.__jpReloaded = true;
+    const a = document.activeElement;
+    if (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) return;
+    location.reload();
+  });
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').catch(err => console.warn('JuriskPro : service worker non enregistré', err));
+    navigator.serviceWorker.register('./sw.js').then(reg => {
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+    }).catch(err => console.warn('JuriskPro : service worker non enregistré', err));
   });
 }
 </script>
