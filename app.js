@@ -188,6 +188,7 @@ function shell(active,inner,o){
   const avatar=acc&&acc.photo?'<img class="top-profile-img" src="'+acc.photo+'" alt="Photo de profil">':'<span class="top-profile-initial">'+esc((acc&&(acc.name||acc.username)||'').trim().charAt(0).toUpperCase()||'U')+'</span>';
   const actions='<div class="top-actions"><button type="button" class="top-icon-btn" id="theme" aria-label="Basculer entre le thème sombre et clair" title="Thème sombre / clair"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"/></svg></button><a class="top-icon-btn" href="#compte" aria-label="Ouvrir mon profil" title="Mon profil">'+avatar+'</a></div>';
   app.innerHTML='<a class="skip-link" href="#main">Aller au contenu principal</a><div class="wrap'+(o.cls?' '+o.cls:'')+'"><header class="top">'+left+brand+mid+nav+actions+'</header><main id="main" tabindex="-1">'+inner+'</main></div>'+bar;
+  if(ui.anim){const w=app.querySelector('.wrap');if(w){w.classList.add('enter','dir-'+ui.anim);setTimeout(()=>{w.classList.remove('enter','dir-fwd','dir-back','dir-fade');},700);}ui.anim=null;}
   const t=$('#theme');if(t) t.onclick=()=>{toggleTheme();};
 }
 function leave(){flushSave();M=null;S=null;}
@@ -195,9 +196,11 @@ let lastH=null;
 let pendingOpen=null;
 
 /* ---------- Routage ---------- */
+/* Profondeur d'un écran : sert à choisir le sens de l'animation (avancer = glisse depuis la droite, reculer = depuis la gauche). */
+function depthOf(h){if(!h) return 1;if(/^m\//.test(h)) return 3;return byId(h)?2:1;}
 function route(){
   const h=(location.hash||'').replace(/^#/,'');
-  if(h!==lastH){ui.armed='';lastH=h;}
+  if(h!==lastH){ui.armed='';ui.anim=lastH===null?'fade':(depthOf(h)>depthOf(lastH)?'fwd':depthOf(h)<depthOf(lastH)?'back':'fade');lastH=h;}
   /* Modèles à charger avant d'afficher l'écran : celui qu'on ouvre + ceux qui ont un brouillon. */
   const need=[];let mm;
   if((mm=/^m\/(.+)$/.exec(h))&&byId(mm[1])) need.push(mm[1]);
@@ -307,7 +310,13 @@ function openLibrary(){
     '<div class="page-h"><h1>Modèles</h1><p>Choisissez l’acte à rédiger. Vous verrez le détail du modèle avant de commencer.</p></div>'+
     '<div class="search"><label class="sr" for="q">Rechercher un modèle</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Rechercher : statuts, SARL, souscription…" autocomplete="off" value="'+esc(ui.q)+'"></div>'+
     '<div id="catalog" aria-live="polite"></div>');
-  $('#q').addEventListener('input',e=>{ui.q=e.target.value;paintCatalog();});
+  let qTimer=0;
+  $('#q').addEventListener('input',e=>{
+    ui.q=e.target.value;const box=e.target.closest('.search');
+    if(box) box.classList.add('loading');
+    clearTimeout(qTimer);
+    qTimer=setTimeout(()=>{paintCatalog();if(box) box.classList.remove('loading');},200);
+  });
   paintCatalog();
 }
 function matches(m){
@@ -416,8 +425,9 @@ function historyHTML(x){
     '<details><summary>Consulter le contenu du document</summary><div class="history-content"><pre>'+esc(x.document_text||x.text||'Contenu non disponible')+'</pre></div></details>'+
     '<div class="history-actions"><button type="button" class="btn small" data-history-download="'+esc(x.id)+'">Télécharger le fichier</button><a class="btn small ghost" href="#'+esc(x.model_id||x.modelId||'modeles')+'">Reprendre le modèle</a><button type="button" class="btn small ghost danger" data-history-del="'+esc(x.id)+'" data-history-path="'+esc(x.storage_path||'')+'">Supprimer</button></div></article>';
 }
+const SKEL=n=>'<div class="skel-list" role="status" aria-live="polite"><span class="sr">Chargement en cours…</span>'+Array(n+1).join('<div class="skel" aria-hidden="true"></div>')+'</div>';
 async function openHistory(){
-  leave();setTitle('Historique');shell('historique','<div class="page-h"><h1>Historique</h1><p>Chargement de vos documents enregistrés dans votre espace personnel…</p></div>');
+  leave();setTitle('Historique');shell('historique','<div class="page-h"><h1>Historique</h1><p><span class="spin" aria-hidden="true"></span> Chargement de vos documents…</p></div>'+SKEL(3));
   try{
     const list=await historyRead();
     shell('historique','<div class="page-h"><h1>Historique</h1><p>Vos documents sont enregistrés dans votre compte. Retrouvez-les après connexion depuis un autre téléphone ou ordinateur, puis téléchargez à nouveau les fichiers originaux.</p></div>'+
@@ -469,6 +479,7 @@ function accountField(id,label,type,value,placeholder,required,autocomplete){
 }
 async function openAccount(){
   leave();setTitle('Compte');
+  shell('compte','<div class="page-h"><h1>Compte &amp; Paramètres</h1><p><span class="spin" aria-hidden="true"></span> Chargement de votre profil…</p></div>'+SKEL(2));
   const auth=window.JuriskProAuth;
   if(auth && auth.getClient()){
     try{
@@ -646,7 +657,9 @@ function renderSteps(){
 }
 function gotoStep(i,focusSel){
   const target=clamp(i,0,M.etapes.length-1);if(M.etapes[target]&&M.etapes[target].final)validationAttempted=true;
+  const dir=target>step?'s-fwd':target<step?'s-back':'';
   step=target;visitedSteps.add(step);renderSteps();renderStep(true,focusSel);scheduleSave();
+  if(dir){const sb=$('#stepbox');if(sb){sb.classList.remove('s-fwd','s-back');void sb.offsetWidth;sb.classList.add(dir);}}
 }
 
 /* ---------- Construction des champs ---------- */
@@ -1025,7 +1038,7 @@ async function download(kind){
   const btns=$$('#dl-docx,#dl-pdf');
   const r=recompute(),title=M.docTitle(r.V),name=M.fileBase(r.V)+'.'+kind;
   btns.forEach(b=>{b.disabled=true;});
-  const cur=$(kind==='docx'?'#dl-docx':'#dl-pdf'),lab=cur.textContent;cur.textContent='Préparation en cours…';
+  const cur=$(kind==='docx'?'#dl-docx':'#dl-pdf'),lab=cur.textContent;cur.textContent='Préparation en cours…';cur.classList.add('is-busy');
   say('Préparation du fichier…');
   try{
     await JPLibs.load(kind==='docx'?'jszip':'jspdf');
@@ -1045,7 +1058,7 @@ async function download(kind){
     else if(e&&e.code==='lib') say('Le module de création de fichier n’a pas pu se charger (module : '+(e.lib||'?')+'). Vérifiez votre connexion puis réessayez.','err');
     else if(e&&e.code==='rate_limited') say('Une demande de téléchargement est déjà ouverte. Répondez-y, puis réessayez.','err');
     else{console.warn('Export échoué',e);say('Le fichier n’a pas pu être créé ou téléchargé (détail : '+String((e&&(e.message||e.code||e.name))||e).slice(0,90)+'). Réessayez, ou utilisez « Copier le texte » pour récupérer le contenu.','err');}
-  }finally{exporting=false;btns.forEach(b=>{b.disabled=false;});cur.textContent=lab;}
+  }finally{exporting=false;btns.forEach(b=>{b.disabled=false;});cur.classList.remove('is-busy');cur.textContent=lab;}
 }
 
 async function shareDocument(){
@@ -1054,7 +1067,7 @@ async function shareDocument(){
   if(gate.blocked){gotoStep(firstCorrectionStep(gate));return;}
   const btn=$('#share-doc');
   if(!btn||exporting) return;
-  exporting=true;btn.disabled=true;const old=btn.textContent;btn.textContent='Préparation…';
+  exporting=true;btn.disabled=true;const old=btn.textContent;btn.textContent='Préparation…';btn.classList.add('is-busy');
   try{
     await JPLibs.load('jspdf');
     const r=recompute(),title=M.docTitle(r.V),name=M.fileBase(r.V)+'.pdf';
@@ -1076,7 +1089,7 @@ async function shareDocument(){
     if(e&&(e.name==='AbortError'||e.code==='declined')) say('Partage annulé.');
     else if(e&&e.code==='lib') say('Le module PDF n’a pas pu se charger (module : '+(e.lib||'?')+'). Vérifiez la connexion puis réessayez.','err');
     else{console.warn('Partage échoué',e);say('Le partage n’a pas pu être lancé (détail : '+String((e&&(e.message||e.code||e.name))||e).slice(0,90)+'). Téléchargez le PDF, puis partagez-le depuis votre téléphone.','err');}
-  }finally{exporting=false;btn.disabled=false;btn.textContent=old;}
+  }finally{exporting=false;btn.disabled=false;btn.classList.remove('is-busy');btn.textContent=old;}
 }
 
 async function copyText(){
@@ -1112,4 +1125,16 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden) flushSave(
 document.addEventListener('focusin',e=>{if(e.target&&e.target.matches&&e.target.matches('input:not([type=radio]):not([type=checkbox]),textarea,select')) document.body.classList.add('kb');});
 document.addEventListener('focusout',()=>{setTimeout(()=>{const a=document.activeElement;if(!(a&&a.matches&&a.matches('input:not([type=radio]):not([type=checkbox]),textarea,select'))) document.body.classList.remove('kb');},120);});
 
-window.JuriskProAuth.require(function(){ route(); });
+/* ---------- Rapidité : les modèles sont préchargés en arrière-plan ---------- */
+function prefetchModels(){
+  const c=navigator.connection;
+  if(c&&(c.saveData||/(^|-)2g$/.test(c.effectiveType||''))) return;
+  const run=()=>loadModels(MODELS.map(m=>m.id)).catch(()=>{});
+  if(window.requestIdleCallback) requestIdleCallback(run,{timeout:4000}); else setTimeout(run,2500);
+}
+document.addEventListener('pointerdown',e=>{
+  const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a) return;
+  const id=(a.getAttribute('href')||'').slice(1).replace(/^m\//,'');
+  if(id&&byId(id)&&!FULL[id]) loadModels([id]).catch(()=>{});
+},{passive:true});
+window.JuriskProAuth.require(function(){ route(); setTimeout(prefetchModels,1200); });

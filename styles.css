@@ -1005,3 +1005,52 @@ body.jp-busy::before{content:"";position:fixed;top:0;left:0;height:3px;width:40%
 #jp-auth-gate .jp-pw-rules li.bad{color:#b42318}
 #jp-auth-gate .jp-pw-rules li.bad::before{content:"✕ ";color:#b42318;font-weight:700}
 #jp-auth-gate .jp-ver{font-size:10px;color:#9aa8a1}
+
+/* ===== Animations et chargements (fluidité) ===== */
+@keyframes jpSpin{to{transform:rotate(360deg)}}
+@keyframes jpShimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@keyframes jpFade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes jpFwd{from{opacity:0;transform:translateX(26px)}to{opacity:1;transform:none}}
+@keyframes jpBack{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+@keyframes jpRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes jpPop{0%{transform:scale(.8)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
+
+/* Pastilles qui tournent : recherche, boutons occupés, chargements */
+.spin,.is-busy::before{display:inline-block;width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:jpSpin .7s linear infinite;vertical-align:-2px}
+.spin{margin-right:6px;opacity:.7}
+.is-busy::before{content:"";margin-right:8px}
+.is-busy{pointer-events:none}
+.search.loading::after{content:"";position:absolute;right:14px;top:50%;width:18px;height:18px;margin-top:-9px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;opacity:.55;animation:jpSpin .7s linear infinite;pointer-events:none}
+.search.loading input[type=search]{padding-right:44px}
+
+/* Squelettes (en attendant les données du compte) */
+.skel-list{margin-top:14px}
+.skel{height:84px;margin:10px 0;border-radius:14px;background:linear-gradient(90deg,rgba(127,127,127,.10) 25%,rgba(127,127,127,.22) 50%,rgba(127,127,127,.10) 75%);background-size:200% 100%;animation:jpShimmer 1.3s linear infinite}
+
+/* Retour tactile immédiat */
+a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.btn,.chip,.model,.bnav a,.top-icon-btn,.linkbtn{transition:transform .12s ease,background-color .18s ease,box-shadow .18s ease,border-color .18s ease,opacity .18s ease}
+.btn:active,.chip:active,.model:active,.bnav a:active,.top-icon-btn:active{transform:scale(.97)}
+
+@media (prefers-reduced-motion:no-preference){
+  /* Passage d'un écran à l'autre : l'en-tête reste fixe, seul le contenu glisse */
+  .wrap.enter>main{animation:jpFade .28s cubic-bezier(.2,.7,.2,1) backwards}
+  .wrap.enter.dir-fwd>main{animation-name:jpFwd}
+  .wrap.enter.dir-back>main{animation-name:jpBack}
+  /* Apparition en cascade des cartes */
+  .wrap.enter .grid>*,.wrap.enter .history-list>*,.wrap.enter .block{animation:jpRise .42s cubic-bezier(.2,.7,.2,1) backwards}
+  .wrap.enter .grid>*:nth-child(1),.wrap.enter .block:nth-of-type(1){animation-delay:.04s}
+  .wrap.enter .grid>*:nth-child(2),.wrap.enter .block:nth-of-type(2){animation-delay:.08s}
+  .wrap.enter .grid>*:nth-child(3),.wrap.enter .block:nth-of-type(3){animation-delay:.12s}
+  .wrap.enter .grid>*:nth-child(4){animation-delay:.16s}
+  .wrap.enter .grid>*:nth-child(5){animation-delay:.2s}
+  .wrap.enter .grid>*:nth-child(n+6){animation-delay:.24s}
+  /* Passage d'une étape à l'autre dans un formulaire */
+  #stepbox.s-fwd>*{animation:jpFwd .24s cubic-bezier(.2,.7,.2,1) backwards}
+  #stepbox.s-back>*{animation:jpBack .24s cubic-bezier(.2,.7,.2,1) backwards}
+  .bnav a[aria-current=page] svg{animation:jpPop .35s ease}
+  .msg,.al{animation:jpRise .25s ease backwards}
+}
+@media (prefers-reduced-motion:reduce){
+  .skel,.search.loading::after,.spin,.is-busy::before{animation-duration:1.6s}
+}

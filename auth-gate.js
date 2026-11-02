@@ -7,7 +7,7 @@
     if(document.getElementById('jp-auth-gate')) return;
     const EYE='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
     const EYE_OFF='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.9 17.9A10.9 10.9 0 0 1 12 19C5.6 19 2 12 2 12a18.5 18.5 0 0 1 5.1-5.9"/><path d="M9.9 5.2A9.7 9.7 0 0 1 12 5c6.4 0 10 7 10 7a18.6 18.6 0 0 1-2.2 3.2"/><path d="M14.1 14.1A3 3 0 1 1 9.9 9.9"/><line x1="2" y1="2" x2="22" y2="22"/></svg>';
-    const JP_BUILD='10';
+    const JP_BUILD='11';
     document.body.classList.add('auth-locked');
     const el=document.createElement('div');el.id='jp-auth-gate';
     el.innerHTML=`<section class="jp-auth-card" aria-live="polite">
@@ -62,7 +62,7 @@
     const publicSite=String(cfg.siteUrl||'https://juriskpro.netlify.app').replace(/\/+$/,'');
     const confirmationRedirect=publicSite+'/?auth=confirmed',recoveryRedirect=publicSite+'/?auth=recovery';
     $('#jp-auth-form').addEventListener('submit',async e=>{
-      e.preventDefault();const btn=$('#jp-auth-submit');btn.disabled=true;setMessage('Veuillez patienter…');
+      e.preventDefault();const btn=$('#jp-auth-submit');btn.disabled=true;btn.classList.add('is-busy');setMessage('Veuillez patienter…');
       const email=$('#jp-email').value.trim().toLowerCase(),password=$('#jp-password').value;
       try{
         let result;
@@ -76,7 +76,7 @@
         if(mode==='signup'&&!result.data.session){setMessage('Votre demande d’inscription a été enregistrée. Un e-mail de confirmation vient de vous être envoyé à '+email+'. Ouvrez-le et cliquez sur le lien pour activer votre compte.',true);$('#jp-auth-form').hidden=true;$('#jp-reset').hidden=true;}
         else if(result.data.session){unlock(result.data.session);}
       }catch(err){setMessage(err&&err.local?err.message:messageFr(err,'Impossible de traiter la demande. Vérifiez les informations et réessayez.'));}
-      finally{btn.disabled=false;}
+      finally{btn.disabled=false;btn.classList.remove('is-busy');}
     });
     $('#jp-reset').addEventListener('click',async()=>{const email=$('#jp-email').value.trim().toLowerCase();if(!email){setMessage('Saisissez votre adresse e-mail avant de demander la réinitialisation.');return;}try{const {error}=await client.auth.resetPasswordForEmail(email,{redirectTo:recoveryRedirect});if(error)throw error;setMessage('Si cette adresse correspond à un compte, un e-mail de réinitialisation a été envoyé.',true);}catch(err){setMessage(messageFr(err,'Impossible d’envoyer le lien de réinitialisation. Réessayez dans quelques instants.'));}});
     const isConfirmation=()=>new URLSearchParams(location.search).get('auth')==='confirmed';
@@ -101,14 +101,14 @@
         const miss=pwMissing(p);
         if(miss.length){setMessage('Mot de passe trop faible. Il manque : '+miss.map(k=>PW_LABEL[k]).join(', ')+'.');return;}
         if(p!==$('#jp-newpw2').value){setMessage('Les deux mots de passe ne correspondent pas.');return;}
-        btn.disabled=true;setMessage('Veuillez patienter…');
+        btn.disabled=true;btn.classList.add('is-busy');setMessage('Veuillez patienter…');
         try{
           const {error}=await client.auth.updateUser({password:p});
           if(error)throw error;
           $('#jp-auth-main').innerHTML=`<div class="jp-auth-confirm"><div class="jp-auth-confirm-icon">✓</div><p class="jp-auth-kicker">MOT DE PASSE MODIFIÉ</p><h1>C’est fait !</h1><p class="jp-auth-intro">Votre nouveau mot de passe est enregistré. Utilisez-le pour vous connecter la prochaine fois.</p><button type="button" class="jp-auth-submit" id="jp-recovery-enter">Se connecter</button></div>`;
           setMessage('');cleanUrl();
           $('#jp-recovery-enter').addEventListener('click',()=>{recoveryMode=false;unlock(confirmationSession);});
-        }catch(err){setMessage(messageFr(err,'Impossible d’enregistrer le mot de passe. Demandez un nouveau lien puis réessayez.'));btn.disabled=false;}
+        }catch(err){setMessage(messageFr(err,'Impossible d’enregistrer le mot de passe. Demandez un nouveau lien puis réessayez.'));btn.disabled=false;btn.classList.remove('is-busy');}
       });
     }
     client.auth.onAuthStateChange((event,session)=>{
