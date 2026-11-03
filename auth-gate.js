@@ -7,13 +7,13 @@
     if(document.getElementById('jp-auth-gate')) return;
     const EYE='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
     const EYE_OFF='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.9 17.9A10.9 10.9 0 0 1 12 19C5.6 19 2 12 2 12a18.5 18.5 0 0 1 5.1-5.9"/><path d="M9.9 5.2A9.7 9.7 0 0 1 12 5c6.4 0 10 7 10 7a18.6 18.6 0 0 1-2.2 3.2"/><path d="M14.1 14.1A3 3 0 1 1 9.9 9.9"/><line x1="2" y1="2" x2="22" y2="22"/></svg>';
-    const JP_BUILD='12';
+    const JP_BUILD='13';
     document.body.classList.add('auth-locked');
     const el=document.createElement('div');el.id='jp-auth-gate';
     el.innerHTML=`<section class="jp-auth-card" aria-live="polite">
       <div class="jp-auth-brandrow"><img class="jp-auth-logo" src="./icons/juriskpro-source.png" alt="Logo JuriskPro"><div><div class="jp-auth-brand">Jurisk<span>Pro</span></div><div class="jp-auth-tagline">Votre espace juridique professionnel</div></div></div>
       <div id="jp-auth-main"><p class="jp-auth-kicker">ESPACE JURIDIQUE SÉCURISÉ</p><h1 id="jp-auth-title">Créer votre compte</h1><p id="jp-auth-intro" class="jp-auth-intro">Inscrivez-vous pour accéder à vos modèles et à votre espace personnel.</p>
-      <div id="jp-auth-config" hidden><p class="jp-auth-error">La connexion Supabase n’est pas encore configurée.</p><p>Vérifiez l’URL du projet et la clé publique dans <code>supabase-config.js</code>.</p></div>
+      <div id="jp-auth-config" hidden><p class="jp-auth-error">Le service de connexion est momentanément indisponible.</p><p>Réessayez dans quelques instants ou contactez le support de JuriskPro.</p></div>
       <div id="jp-auth-form-wrap"><div class="jp-auth-tabs"><button type="button" data-mode="signup" class="active">Créer un compte</button><button type="button" data-mode="login">Se connecter</button></div>
       <form id="jp-auth-form"><label id="jp-name-wrap">Nom complet<input id="jp-name" type="text" autocomplete="name" minlength="2" placeholder="Votre nom complet" required></label>
       <label>Adresse e-mail<input id="jp-email" type="email" autocomplete="email" placeholder="nom@exemple.com" required></label>
@@ -52,7 +52,7 @@
     el.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
     setMode('login');
     if(!configured()){$('#jp-auth-config').hidden=false;$('#jp-auth-form-wrap').hidden=true;signalReady();return;}
-    /* Le formulaire s'affiche tout de suite ; Supabase se charge en arrière-plan. */
+    /* Le formulaire s'affiche tout de suite ; le service de connexion se charge en arrière-plan. */
     const submitBtn=$('#jp-auth-submit');submitBtn.disabled=true;
     $('#jp-auth-form').addEventListener('submit',e=>e.preventDefault());
     const boot=()=>{

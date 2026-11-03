@@ -1,7 +1,7 @@
 // JuriskPro : cache des fichiers de l'application (démarrage rapide).
-// Les données (Supabase) restent toujours en ligne et ne sont jamais mises en cache.
+// Les données du compte restent toujours en ligne et ne sont jamais mises en cache.
 // Pensez à changer VERSION à chaque publication pour forcer la mise à jour du cache.
-const VERSION = 'jp-v12';
+const VERSION = 'jp-v13';
 const SHELL = [
   './', './index.html', './styles.css', './core.js', './engine.js', './catalogue-data.js', './catalogue.js', './app.js', './auth-gate.js', './supabase-config.js',
   './manifest.webmanifest', './icons/icon-192.png', './icons/logo-96.webp'
@@ -62,5 +62,5 @@ self.addEventListener('fetch', event => {
       return hit || net;
     }));
   }
-  // Tout le reste (Supabase, polices, etc.) : réseau normal.
+  // Tout le reste (données du compte, polices, etc.) : réseau normal.
 });
