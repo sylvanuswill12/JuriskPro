@@ -276,7 +276,7 @@ function openLibrary(){
 function familiesHTML(){
   const fams=CAT_FAMILIES.filter(f=>f.count>0),tot=fams.reduce((n,f)=>n+f.count,0);
   return '<p class="count" role="status">'+plural(tot,'modèle','modèles')+' dans '+plural(fams.length,'famille','familles')+'</p><div class="grid">'+
-    fams.map(f=>'<article class="model model-compact"><div class="fam-body"><h3><a href="#modeles/'+f.id+'">'+esc(f.titre)+'</a></h3><p class="fam-aide">'+esc(f.aide)+'</p></div><div class="model-row-meta"><span class="pill">'+plural(f.count,'modèle','modèles')+'</span><span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>').join('')+'</div>';
+    fams.map(f=>'<article class="model model-compact"><div class="fam-body"><h3><a href="#modeles/'+f.id+'">'+esc(f.titre)+'</a></h3><p class="fam-aide">'+esc(f.aide)+'</p></div><div class="model-row-meta"><span class="pill pill-n" aria-label="'+plural(f.count,'modèle','modèles')+'" title="'+plural(f.count,'modèle','modèles')+'">'+f.count+'</span><span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>').join('')+'</div>';
 }
 function paintLibrary(){
   const el=$('#catalog');if(!el) return;

@@ -1066,7 +1066,7 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 #catalog .model-compact .fam-body h3 a{display:block;overflow-wrap:break-word;word-break:normal;hyphens:auto}
 #catalog .model-compact .fam-aide{margin:4px 0 0;font-size:12.5px;line-height:1.4;overflow-wrap:break-word;word-break:normal}
 #catalog .model-compact .model-row-meta{flex:0 0 auto}
-@media(max-width:480px){#catalog .model-compact{flex-wrap:wrap}#catalog .model-compact .fam-body{flex-basis:calc(100% - 40px)}#catalog .model-compact .model-row-meta{flex:0 0 auto;margin-left:auto}}
+#catalog .model-row-meta .pill-n{min-width:22px;height:22px;padding:0 6px;display:inline-grid;place-items:center;border-radius:11px;font-size:12px;font-weight:700;line-height:1}
 
 /* Fluidité : pas de flou d'arrière-plan sur les barres fixes (coûteux sur téléphone), transitions plus vives */
 .top{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--bg)}
