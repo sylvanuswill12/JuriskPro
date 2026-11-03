@@ -1272,7 +1272,11 @@ async function download(kind){
   say('Préparation du fichier…');
   try{
     await JPLibs.load(kind==='docx'?'jszip':'jspdf');
-    const blob=kind==='docx'?await buildDocx(r.blocks,r.V,title):await buildPdf(r.blocks,r.V,title);
+    const blob=kind==='docx'
+      ?(M.sourceTemplate&&typeof buildSourceTemplateDocx==='function'
+        ?await buildSourceTemplateDocx(M,r.V,S,title)
+        :await buildDocx(r.blocks,r.V,title))
+      :await buildPdf(r.blocks,r.V,title);
     const item={id:(window.crypto&&crypto.randomUUID?crypto.randomUUID():'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return (c==='x'?r:(r&3|8)).toString(16);})),modelId:M.id,modelTitle:M.titre,title:title,fileName:name,format:kind,createdAt:Date.now(),text:toText(r.blocks,r.V),values:stripV(S)};
     // La création et le téléchargement local restent possibles même si le cloud est indisponible.
     await saveBlob(blob,name);

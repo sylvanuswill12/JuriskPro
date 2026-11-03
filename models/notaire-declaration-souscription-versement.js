@@ -76,7 +76,7 @@ const N3=(function(){
   rep.fields=(i)=>baseFields(i).concat([{id:'a'+i+'_parts',group:'Associé '+(i+1),type:'int',unit:'parts',label:'Parts souscrites',half:true,ph:'Ex. : 60'}]);
   rep.keys=NIDKEYS.concat(['parts']);
   return {
-    id:'notaire-declaration-souscription-versement',cat:'notaires',titre:'Déclaration notariée de souscription et de versement',sous:'Avec la liste des souscripteurs en annexe',
+    id:'notaire-declaration-souscription-versement',cat:'societes-associations',titre:'Déclaration notariée de souscription et de versement',sous:'Avec la liste des souscripteurs en annexe',
     resume:'Acte reçu par le notaire qui constate la souscription du capital et le versement des fonds, accompagné de la liste des souscripteurs. Reprend vos statuts notariés en un clic.',
     tags:['Notaire','OHADA','Numéraire','Annexe incluse'],duree:'10 min',
     etapes:[nStepNotaire(),nStepSociete(),assoc,
@@ -85,7 +85,7 @@ const N3=(function(){
       nStepSignature(),{id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}],
     defaults:()=>Object.assign({},notaireProfile(),{nb_assoc:'2',nominal:'10000',siege_ville:'ABIDJAN',date:todayISO(),a0_civilite:'M.',a1_civilite:'M.'},
       (function(){const o={};for(let i=0;i<2;i++){const d=nItemDefaults();Object.keys(d).forEach(k=>{o['a'+i+'_'+k]=d[k];});}return o;})()),
-    exemple:Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',nb_assoc:'2',nominal:'10000',a0_parts:'60',a1_parts:'40',pages:'TROIS'},nExAssocie(0),nExAssocie(1)),
+    exemple:Object.assign({notaire_nom:'NOTAIRE EXEMPLE',notaire_sign:'NOTAIRE EXEMPLE',notaire_ville:'ABIDJAN',denomination:'SOCIETE EXEMPLE',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Quartier exemple',siege_bp:'',nb_assoc:'2',nominal:'10000',a0_parts:'60',a1_parts:'40',pages:'TROIS'},nExAssocie(0),nExAssocie(1)),
     compute:nDnsvCompute,blocks:nDnsvBlocks,
     docTitle:V=>'Déclaration notariée de souscription et de versement '+(V.denomination_maj||''),
     fileBase:V=>'DNSV-notaire-'+(fileSlug(V.denomination)?fileSlug(V.denomination)+'-':'')+'SARL',

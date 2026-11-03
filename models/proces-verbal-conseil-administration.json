@@ -1,0 +1,20 @@
+{
+  "id":"proces-verbal-conseil-administration",
+  "cat":"procurations-actes-divers",
+  "titre":"Procès-verbal de réunion du conseil d’administration",
+  "sous":"Rédigez le procès-verbal d’une réunion du conseil.",
+  "resume":"Matrice vierge de procès-verbal de réunion du conseil d’administration avec présence, ordre du jour et décisions.",
+  "tags":["procès-verbal","conseil d’administration","réunion","société anonyme"],
+  "duree":"10 min",
+  "docTitle":"Procès-verbal du conseil d’administration du {{date_reunion}}",
+  "fileBase":"PV-conseil-administration-{{date_reunion}}",
+  "headline":"Réunion du {{date_reunion}}",
+  "etapes":[
+    {"id":"reunion","court":"Réunion","titre":"Informations sur la réunion","champs":[{"id":"date_reunion","type":"date","label":"Date","req":true},{"id":"lieu_reunion","type":"text","label":"Lieu","req":true},{"id":"president","type":"text","label":"Président de séance","req":true},{"id":"secretaire","type":"text","label":"Secrétaire de séance","req":true}]},
+    {"id":"membres","court":"Membres","titre":"Présence des administrateurs","champs":[{"id":"administrateurs_presents","type":"area","label":"Administrateurs présents ou représentés","req":true},{"id":"commissaire","type":"text","label":"Commissaire aux comptes présent ou représenté"}]},
+    {"id":"ordre","court":"Décisions","titre":"Ordre du jour et délibérations","champs":[{"id":"ordre_du_jour","type":"area","label":"Questions inscrites à l’ordre du jour","req":true},{"id":"deliberations","type":"area","label":"Délibérations et décisions","req":true}]},
+    {"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}
+  ],
+  "doc":[{"k":"tit","text":"PROCÈS-VERBAL DE LA RÉUNION DU CONSEIL D’ADMINISTRATION"},{"k":"p","text":"L’an {{date_reunion}}, le conseil d’administration de la société s’est réuni à {{lieu_reunion}}, sur convocation de son président."},{"k":"art","text":"PRÉSENCE"},{"k":"p","text":"La séance est présidée par {{president}}. M. / Mme {{secretaire}} est désigné(e) secrétaire de séance."},{"k":"p","text":"Administrateurs présents ou représentés : {{administrateurs_presents}}."},{"when":{"field":"commissaire","filled":true},"k":"p","text":"Le commissaire aux comptes présent ou représenté est : {{commissaire}}."},{"k":"art","text":"ORDRE DU JOUR"},{"k":"p","text":"{{ordre_du_jour}}"},{"k":"art","text":"DÉLIBÉRATIONS"},{"k":"p","text":"{{deliberations}}"},{"k":"sigs","items":["Le Président de séance : {{president}}","Le Secrétaire de séance : {{secretaire}}"]}],
+  "exemple":{"date_reunion":"2026-12-15","lieu_reunion":"Siège social","president":"Le Président","secretaire":"Le Secrétaire","administrateurs_presents":"Administrateur A ; Administrateur B","commissaire":"","ordre_du_jour":"Examen de la situation de la société.","deliberations":"Après discussion, le conseil adopte la résolution proposée."}
+}

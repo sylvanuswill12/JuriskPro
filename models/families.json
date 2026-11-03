@@ -1,14 +1,32 @@
 [
  {
   "ord": 1,
-  "id": "prive",
-  "titre": "Actes sous seing privé",
-  "aide": "Rédigés par les associés, sans notaire."
+  "id": "famille-successions",
+  "titre": "Famille et successions",
+  "aide": "Contrats de mariage, adoption, donations et testaments."
  },
  {
   "ord": 2,
-  "id": "notaires",
-  "titre": "Notaires",
-  "aide": "Actes reçus par un notaire : statuts, déclaration de souscription et de versement, cession de parts."
+  "id": "ventes-immobilier",
+  "titre": "Ventes et immobilier",
+  "aide": "Ventes, matrices de vente, mandats, promotion immobilière et baux."
+ },
+ {
+  "ord": 3,
+  "id": "societes-associations",
+  "titre": "Sociétés et associations",
+  "aide": "Sociétés, associations et actes relevant de l’OHADA."
+ },
+ {
+  "ord": 4,
+  "id": "travail",
+  "titre": "Travail",
+  "aide": "Contrats de travail et demandes de congés."
+ },
+ {
+  "ord": 5,
+  "id": "procurations-actes-divers",
+  "titre": "Procurations et actes divers",
+  "aide": "Procurations, matrices des actes, protocoles, médiation, requêtes, conventions et mainlevées."
  }
 ]

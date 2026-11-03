@@ -6,7 +6,7 @@ function nCessionRep(){
   return {type:'repeat',id:'fond',prefix:'f',countKey:'nb_fond',min:1,max:8,label:'Apporteur',addLabel:'Ajouter un apporteur',
     keys:['nom','apport'],itemDefaults:()=>({}),
     fields:(i)=>{const p='f'+i+'_',G='Apporteur '+(i+1);return [
-      {id:p+'nom',group:G,type:'text',label:'Civilité, prénoms et nom',ph:'Ex. : Monsieur Yao KONAN'},
+      {id:p+'nom',group:G,type:'text',label:'Civilité, prénoms et nom',ph:'Ex. : Monsieur Prénom Exemple KONAN'},
       {id:p+'apport',group:G,type:'money',unit:'F CFA',label:'Apport en numéraire',ph:'Ex. : 600 000'}];}};
 }
 function nCessionSelect(id,label){return {id:id,type:'select',label:label,opts:nSrcOptions};}
@@ -71,7 +71,7 @@ function nCessionBlocks(S,V){
 const N4=(function(){
   const assoc=nStepAssocies({mineur:true,titre:'Les comparants (associés actuels)',intro:'Les associés après la cession de parts. Pour chacun, indiquez ses parts à l’étape suivante.'});
   return {
-    id:'notaire-mise-a-jour-statuts-cession',cat:'notaires',titre:'Mise à jour des statuts après cession de parts',sous:'Statuts refondus, avec la cession et la nouvelle répartition',
+    id:'notaire-mise-a-jour-statuts-cession',cat:'societes-associations',titre:'Mise à jour des statuts après cession de parts',sous:'Statuts refondus, avec la cession et la nouvelle répartition',
     resume:'Statuts mis à jour après une cession de parts : rappel des apports de la constitution, cession reçue par le notaire, nouvelle répartition du capital. Gère l’administrateur légal d’un enfant mineur.',
     tags:['Notaire','OHADA','Cession de parts','Mineur'],duree:'25 min',
     etapes:[nStepNotaire(),nStepSociete({constitution:true}),assoc,
@@ -94,8 +94,8 @@ const N4=(function(){
         {id:'nb_ger',type:'choice',variant:'seg',label:'Nombre de gérants',opts:[{v:'1',t:'Un gérant'},{v:'2',t:'Deux gérants'}]},nGerantsRep()]},
       nStepSignature(),{id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}],
     defaults:nCessionDefaults,
-    exemple:Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
-      date_constitution:'2019-02-14',date_immat:'2019-03-05',nb_assoc:'2',nominal:'10000',a0_parts:'40',a1_parts:'60',nb_fond:'2',f0_nom:'Monsieur Yao KONAN',f0_apport:'600000',f1_nom:'Madame Fatoumata TRAORE',f1_apport:'400000',
+    exemple:Object.assign({notaire_nom:'NOTAIRE EXEMPLE',notaire_sign:'NOTAIRE EXEMPLE',notaire_ville:'ABIDJAN',denomination:'SOCIETE EXEMPLE',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Quartier exemple',siege_bp:'',
+      date_constitution:'2019-02-14',date_immat:'2019-03-05',nb_assoc:'2',nominal:'10000',a0_parts:'40',a1_parts:'60',nb_fond:'2',f0_nom:'Monsieur Prénom Exemple KONAN',f0_apport:'600000',f1_nom:'Madame Prénom Exemple TRAORE',f1_apport:'400000',
       age_date:'2026-09-10',nb_cedees:'20',cedant:'a0',cessionnaire:'a1',nb_ger:'1',g0_src:'a0',pages:'VINGT'},nExAssocie(0),nExAssocie(1)),
     compute:nCessionCompute,blocks:nCessionBlocks,
     docTitle:V=>'Mise à jour des statuts '+(V.denomination_maj||'SARL'),

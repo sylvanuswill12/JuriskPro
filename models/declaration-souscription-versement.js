@@ -74,10 +74,10 @@ const M3_ASSOC={type:'repeat',id:'assoc',prefix:'a',countKey:'nb_assoc',min:1,ma
 
 const M3_ETAPES=[
  {id:'societe',court:'Société',titre:'La société et ses statuts',intro:'Ces informations reprennent les principales caractéristiques des statuts.',champs:[
-  {id:'denomination',type:'text',label:'Dénomination sociale',ph:'Ex. : ALPHA SERVICES',req:true},
+  {id:'denomination',type:'text',label:'Dénomination sociale',ph:'Ex. : SOCIETE EXEMPLE',req:true},
   {id:'sigle',type:'text',label:'Sigle (facultatif)',ph:'Ex. : ALS'},
   {id:'objet',type:'area',rows:3,label:'Objet social',ph:'Ex. : Commerce général, import-export de marchandises.'},
-  {id:'siege',type:'area',rows:2,label:'Siège social',ph:'Ex. : Abidjan, Cocody, Riviera Palmeraie, lot 12'},
+  {id:'siege',type:'area',rows:2,label:'Siège social',ph:'Ex. : Adresse professionnelle exemple'},
   {id:'date_statuts',type:'date',half:true,label:'Date de l’acte de statuts'},
   {id:'date_enreg',type:'date',half:true,label:'Date d’enregistrement (facultatif)',aide:'Laissez vide si les statuts ne sont pas encore enregistrés : le blanc sera à compléter à la main.'}
  ]},
@@ -106,10 +106,10 @@ const M3_ETAPES=[
 
 function m3Defaults(){return {nb_assoc:'2',a0_civilite:'M.',a1_civilite:'M.',date:todayISO()};}
 const M3_EXEMPLE={
-  denomination:'ALPHA SERVICES',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Abidjan, Cocody, Riviera Palmeraie, lot 12',
+  denomination:'SOCIETE EXEMPLE',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Adresse professionnelle exemple',
   date_statuts:'2026-09-15',date_enreg:'',nb_assoc:'2',
-  a0_civilite:'M.',a0_prenom:'Yao',a0_nom:'Konan',a0_adresse:'Abidjan, Cocody Angré',a0_parts:'200',a0_verse:'1000000',
-  a1_civilite:'Mme',a1_prenom:'Aya',a1_nom:'Kouassi',a1_adresse:'Abidjan, Marcory Zone 4',a1_parts:'300',a1_verse:'0',
+  a0_civilite:'M.',a0_prenom:'Prénom Exemple',a0_nom:'Nom Exemple',a0_adresse:'Adresse personnelle exemple',a0_parts:'200',a0_verse:'1000000',
+  a1_civilite:'Mme',a1_prenom:'Prénom Exemple',a1_nom:'Nom Exemple',a1_adresse:'Adresse personnelle exemple',a1_parts:'300',a1_verse:'0',
   nominal:'10000',banque:'Banque Exemple, agence du Plateau',lieu:'Abidjan',nb_ex:''
 };
 
@@ -197,7 +197,7 @@ function m3Blocks(S,V){
 }
 
 const M3={
-  id:'declaration-souscription-versement',cat:'prive',
+  id:'declaration-souscription-versement',cat:'societes-associations',
   titre:'Déclaration de souscription et de versement',
   sous:'Constate la libération et le dépôt des fonds',
   resume:'Acte qui accompagne les statuts d’une SARL : parts souscrites par chaque associé, sommes versées et compte de dépôt. Se remplit en un clic depuis vos statuts.',

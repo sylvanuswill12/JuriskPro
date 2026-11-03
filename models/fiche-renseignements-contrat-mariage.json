@@ -1,0 +1,55 @@
+{
+  "id": "fiche-renseignements-contrat-mariage",
+  "cat": "famille-successions",
+  "titre": "Fiche de renseignements – contrat de mariage",
+  "sous": "Préparez les informations des futurs époux avant la rédaction de l’acte.",
+  "resume": "Fiche vierge recueillant l’identité, la situation et les choix des futurs époux pour préparer un contrat de mariage.",
+  "tags": ["contrat de mariage", "époux", "renseignements", "régime matrimonial"],
+  "duree": "8 min",
+  "docTitle": "Fiche de renseignements – contrat de mariage",
+  "fileBase": "Fiche-renseignements-contrat-mariage",
+  "headline": "{{nom_epoux}} et {{nom_conjointe}}",
+  "etapes": [
+    { "id": "epoux", "court": "Époux", "titre": "Renseignements sur le premier conjoint", "champs": [
+      {"id":"civilite_epoux","type":"choice","label":"Civilité","opts":[{"v":"Monsieur","t":"Monsieur"},{"v":"Madame","t":"Madame"}],"def":"Monsieur"},
+      {"id":"nom_epoux","type":"text","label":"Nom","req":true,"upper":true},
+      {"id":"prenoms_epoux","type":"text","label":"Prénoms","req":true},
+      {"id":"profession_epoux","type":"text","label":"Profession","opt":true},
+      {"id":"naissance_epoux","type":"date","label":"Date de naissance","req":true},
+      {"id":"lieu_naissance_epoux","type":"text","label":"Lieu de naissance","req":true},
+      {"id":"domicile_epoux","type":"area","label":"Domicile","req":true},
+      {"id":"nationalite_epoux","type":"text","label":"Nationalité"},
+      {"id":"telephone_epoux","type":"text","label":"Téléphone"}
+    ]},
+    { "id": "conjointe", "court": "Conjointe", "titre": "Renseignements sur le second conjoint", "champs": [
+      {"id":"civilite_conjointe","type":"choice","label":"Civilité","opts":[{"v":"Madame","t":"Madame"},{"v":"Monsieur","t":"Monsieur"}],"def":"Madame"},
+      {"id":"nom_conjointe","type":"text","label":"Nom","req":true,"upper":true},
+      {"id":"prenoms_conjointe","type":"text","label":"Prénoms","req":true},
+      {"id":"profession_conjointe","type":"text","label":"Profession","opt":true},
+      {"id":"naissance_conjointe","type":"date","label":"Date de naissance","req":true},
+      {"id":"lieu_naissance_conjointe","type":"text","label":"Lieu de naissance","req":true},
+      {"id":"domicile_conjointe","type":"area","label":"Domicile","req":true},
+      {"id":"nationalite_conjointe","type":"text","label":"Nationalité"},
+      {"id":"telephone_conjointe","type":"text","label":"Téléphone"}
+    ]},
+    { "id": "mariage", "court": "Mariage", "titre": "Informations sur le mariage et le régime choisi", "champs": [
+      {"id":"date_mariage","type":"date","label":"Date prévue du mariage"},
+      {"id":"lieu_mariage","type":"text","label":"Lieu prévu du mariage"},
+      {"id":"regime","type":"choice","label":"Régime matrimonial souhaité","opts":[{"v":"separation","t":"Séparation de biens"},{"v":"communaute","t":"Communauté"},{"v":"autre","t":"Autre régime ou aménagement"}],"def":"separation","req":true},
+      {"id":"amenagements","type":"area","label":"Aménagements ou observations particulières"}
+    ]},
+    { "id": "final", "court": "Télécharger", "titre": "Vérifier et télécharger", "final": true, "champs": [] }
+  ],
+  "doc": [
+    {"k":"tit","text":"FICHE DE RENSEIGNEMENTS – CONTRAT DE MARIAGE"},
+    {"k":"art","text":"I – PREMIER CONJOINT"},
+    {"k":"box","lines":["Civilité : {{civilite_epoux}}","Nom et prénoms : {{nom_epoux}} {{prenoms_epoux}}","Profession : {{profession_epoux}}","Né(e) le {{naissance_epoux}} à {{lieu_naissance_epoux}}","Domicile : {{domicile_epoux}}","Nationalité : {{nationalite_epoux}}","Téléphone : {{telephone_epoux}}"]},
+    {"k":"art","text":"II – SECOND CONJOINT"},
+    {"k":"box","lines":["Civilité : {{civilite_conjointe}}","Nom et prénoms : {{nom_conjointe}} {{prenoms_conjointe}}","Profession : {{profession_conjointe}}","Né(e) le {{naissance_conjointe}} à {{lieu_naissance_conjointe}}","Domicile : {{domicile_conjointe}}","Nationalité : {{nationalite_conjointe}}","Téléphone : {{telephone_conjointe}}"]},
+    {"k":"art","text":"III – MARIAGE ET RÉGIME MATRIMONIAL"},
+    {"k":"p","text":"Le mariage est prévu le {{date_mariage}} à {{lieu_mariage}}."},
+    {"k":"p","text":"Le régime matrimonial souhaité est : {{regime}}."},
+    {"when":{"field":"amenagements","filled":true},"k":"p","text":"Observations : {{amenagements}}"}
+  ],
+  "exemple": {"nom_epoux":"NOM EXEMPLE","prenoms_epoux":"Prénom Exemple","profession_epoux":"Commerçant","naissance_epoux":"1988-04-12","lieu_naissance_epoux":"Bouaké","domicile_epoux":"Abidjan","nationalite_epoux":"ivoirienne","telephone_epoux":"0100000000","nom_conjointe":"NOM EXEMPLE","prenoms_conjointe":"Prénom Exemple","profession_conjointe":"Commerçante","naissance_conjointe":"1990-06-20","lieu_naissance_conjointe":"Abidjan","domicile_conjointe":"Abidjan","nationalite_conjointe":"ivoirienne","telephone_conjointe":"0100000001","date_mariage":"2026-12-12","lieu_mariage":"Abidjan","regime":"separation","amenagements":""}
+}

@@ -78,10 +78,10 @@ const M2_GERANTS={type:'repeat',id:'gerants',prefix:'g',countKey:'nb_ger',min:1,
 
 const M2_ETAPES=[
  {id:'societe',court:'Société',titre:'La société',intro:'Ces informations alimentent les articles 2, 3 et 4 des statuts.',champs:[
-  {id:'denomination',type:'text',label:'Dénomination sociale',aide:'Le nom qui figurera sur vos factures, courriers et publications.',ph:'Ex. : ALPHA SERVICES',req:true},
+  {id:'denomination',type:'text',label:'Dénomination sociale',aide:'Le nom qui figurera sur vos factures, courriers et publications.',ph:'Ex. : SOCIETE EXEMPLE',req:true},
   {id:'sigle',type:'text',label:'Sigle (facultatif)',ph:'Ex. : ALS'},
   {id:'objet',type:'area',rows:4,label:'Objet social',aide:'Les activités exercées en Côte d’Ivoire. Les activités annexes habituelles figurent déjà dans l’article 3.',ph:'Ex. : Commerce général, import-export de marchandises, prestations de services.'},
-  {id:'siege',type:'area',rows:2,label:'Siège social',aide:'Adresse et situation géographique.',ph:'Ex. : Abidjan, Cocody, Riviera Palmeraie, lot 12'}
+  {id:'siege',type:'area',rows:2,label:'Siège social',aide:'Adresse et situation géographique.',ph:'Ex. : Adresse professionnelle exemple'}
  ]},
  {id:'associes',court:'Associés',titre:'Les associés',intro:'Deux associés au moins. Leur identité apparaît en tête des statuts, aux articles 7 et 8 et à la signature.',champs:[M2_ASSOC]},
  {id:'capital',court:'Capital',titre:'Capital et libération',intro:'Articles 7 et 8. Le capital réunit les apports en numéraire et les apports en nature.',champs:[
@@ -173,10 +173,10 @@ function m2Defaults(){
     contest:'tribunal',m_src:'a0',m_civilite:'M.',date:todayISO()};
 }
 const M2_EXEMPLE={
-  denomination:'ALPHA SERVICES',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Abidjan, Cocody, Riviera Palmeraie, lot 12',
+  denomination:'SOCIETE EXEMPLE',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Adresse professionnelle exemple',
   nb_assoc:'2',
-  a0_civilite:'M.',a0_prenom:'Yao',a0_nom:'Konan',a0_naissance_date:'1988-04-12',a0_naissance_lieu:'Bouaké',a0_nationalite:'ivoirienne',a0_profession:'commerçant',a0_adresse:'Abidjan, Cocody Angré',a0_piece:'CNI n° C 0000 0000 00',
-  a1_civilite:'Mme',a1_prenom:'Aya',a1_nom:'Kouassi',a1_naissance_date:'1991-09-03',a1_naissance_lieu:'Abidjan',a1_nationalite:'ivoirienne',a1_profession:'comptable',a1_adresse:'Abidjan, Marcory Zone 4',a1_piece:'CNI n° C 1111 1111 11',
+  a0_civilite:'M.',a0_prenom:'Prénom Exemple',a0_nom:'Nom Exemple',a0_naissance_date:'1988-04-12',a0_naissance_lieu:'Bouaké',a0_nationalite:'ivoirienne',a0_profession:'commerçant',a0_adresse:'Adresse personnelle exemple',a0_piece:'CNI n° IDENTIFIANT EXEMPLE 0001',
+  a1_civilite:'Mme',a1_prenom:'Prénom Exemple',a1_nom:'Nom Exemple',a1_naissance_date:'1991-09-03',a1_naissance_lieu:'Abidjan',a1_nationalite:'ivoirienne',a1_profession:'comptable',a1_adresse:'Adresse personnelle exemple',a1_piece:'CNI n° IDENTIFIANT EXEMPLE 0002',
   nominal:'10000',liberation:'moitie',banque:'Banque Exemple, agence du Plateau',industrie:'non',
   a0_num:'2000000',a0_nat_desc:'',a0_nat_val:'',
   a1_num:'',a1_nat_desc:'un véhicule utilitaire de marque Toyota Hilux, immatriculé 0000 AB 01',a1_nat_val:'3000000',
@@ -501,7 +501,7 @@ function m2Blocks(S,V){
 }
 
 const M2={
-  id:'sarl-pluripersonnelle-mixte',cat:'prive',
+  id:'sarl-pluripersonnelle-mixte',cat:'societes-associations',
   titre:'Statuts de SARL pluripersonnelle',
   sous:'Plusieurs associés, apports mixtes',
   resume:'Pour créer une SARL à deux associés ou plus, avec des apports en numéraire, en nature et, si besoin, en industrie. 31 articles.',

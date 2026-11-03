@@ -3,10 +3,10 @@
    ============================================================ */
 const M1_ETAPES=[
  {id:'societe',court:'Société',titre:'La société',intro:'Ces informations alimentent les articles 2, 3 et 4 des statuts.',champs:[
-  {id:'denomination',type:'text',label:'Dénomination sociale',aide:'Le nom qui figurera sur vos factures, courriers et publications.',ph:'Ex. : ALPHA SERVICES',req:true},
+  {id:'denomination',type:'text',label:'Dénomination sociale',aide:'Le nom qui figurera sur vos factures, courriers et publications.',ph:'Ex. : SOCIETE EXEMPLE',req:true},
   {id:'sigle',type:'text',label:'Sigle (facultatif)',ph:'Ex. : ALS'},
   {id:'objet',type:'area',rows:4,label:'Objet social',aide:'Les activités exercées en Côte d’Ivoire. Les activités annexes habituelles figurent déjà dans l’article 3.',ph:'Ex. : Commerce général, import-export de marchandises, prestations de services.',req:true},
-  {id:'siege',type:'area',rows:2,label:'Siège social',aide:'Adresse et situation géographique.',ph:'Ex. : Abidjan, Cocody, Riviera Palmeraie, lot 12',req:true}
+  {id:'siege',type:'area',rows:2,label:'Siège social',aide:'Adresse et situation géographique.',ph:'Ex. : Adresse professionnelle exemple',req:true}
  ]},
  {id:'associe',court:'Associé',titre:'L’associé unique',intro:'Son identité apparaît en tête des statuts, aux articles 7 et 8 et à la signature.',champs:[
   {id:'civilite',type:'choice',variant:'seg',label:'Civilité',opts:CIV},
@@ -69,11 +69,11 @@ const M1_ETAPES=[
  ]},
  {id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}
 ];
-const M1_EXEMPLE={civilite:'M.',denomination:'ALPHA SERVICES',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Abidjan, Cocody, Riviera Palmeraie, lot 12',
-  prenom:'Yao',nom:'Konan',naissance_date:'1988-04-12',naissance_lieu:'Bouaké',nationalite:'ivoirienne',profession:'commerçant',adresse:'Abidjan, Cocody Angré',piece:'CNI n° C 0000 0000 00',
+const M1_EXEMPLE={civilite:'M.',denomination:'SOCIETE EXEMPLE',sigle:'',objet:'Commerce général, import-export de marchandises et prestations de services.',siege:'Adresse professionnelle exemple',
+  prenom:'Prénom Exemple',nom:'Nom Exemple',naissance_date:'1988-04-12',naissance_lieu:'Bouaké',nationalite:'ivoirienne',profession:'commerçant',adresse:'Adresse personnelle exemple',piece:'CNI n° IDENTIFIANT EXEMPLE 0001',
   capital:'1000000',nominal:'10000',liberation:'moitie',banque:'Banque Exemple, agence du Plateau',
   gerance_mode:'associe',duree_gerant:'4',preavis_gerant:'3',limiter:'non',limitations:'',
-  lieu:'Abidjan',nb_ex:'3',mandataire_civilite:'M.',mandataire_nom:'Yao Konan',mandataire_profession:'commerçant',mandataire_piece:'CNI n° C 0000 0000 00',engagements:''};
+  lieu:'Abidjan',nb_ex:'3',mandataire_civilite:'M.',mandataire_nom:'Prénom Exemple Nom Exemple',mandataire_profession:'commerçant',mandataire_piece:'CNI n° IDENTIFIANT EXEMPLE 0001',engagements:''};
 
 const M1_SRC={denomination_maj:'denomination',sigle_txt:'sigle',capital_chiffres:'capital',capital_lettres:'capital',nominal_chiffres:'nominal',parts:'nominal',
   annee_lettres:'date',date_longue:'date',naissance_date_longue:'naissance_date',liberation_txt:'liberation',liberation_txt8:'liberation',
@@ -233,7 +233,7 @@ const M1_CORPS=[
 ];
 
 const M1={
-  id:'sarl-unipersonnelle-numeraire',cat:'prive',
+  id:'sarl-unipersonnelle-numeraire',cat:'societes-associations',
   titre:'Statuts de SARL unipersonnelle',
   sous:'Un seul associé, apports en numéraire',
   resume:'Pour créer une SARL seul, avec un apport en espèces. 25 articles conformes à l’Acte uniforme OHADA révisé.',

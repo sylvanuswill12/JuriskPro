@@ -27,7 +27,7 @@ const NOT_BODY=[
 ["li", 6, "Monsieur, la somme de FRANCS CFA, ci.…………………...……………………….………………. FCFA"],
 ["p", 6, "TOTAL des apports en numéraire :"],
 ["p", 6, "la somme de de FRANCS CFA, ci..................................…..… FCFA"],
-["p", 6, "Laquelle somme a été déposée pour le compte de la société à la comptabilité de Maître KOFFI-ABOUT A. Mireille, Notaire soussigné ainsi qu’il est constaté dans la Déclaration Notariée de Souscription et de Versement reçue par elle, ce jour."],
+["p", 6, "Laquelle somme a été déposée pour le compte de la société à la comptabilité de Maître NOTAIRE EXEMPLE, Notaire soussigné ainsi qu’il est constaté dans la Déclaration Notariée de Souscription et de Versement reçue par elle, ce jour."],
 ["art", 7, "ARTICLE SEPT : CAPITAL SOCIAL - PARTS SOCIALES"],
 ["p", 7, "Le capital social est fixé à la somme de DE FRANCS CFA ( FCFA), divisé en ( ) parts sociales de FRANCS CFA ( FCFA) chacune, numérotées de 1 à entièrement souscrites et libérées en numéraire, et attribuées aux associés en proportion de leurs apports respectifs, savoir :"],
 ["li", 7, "Monsieur, à concurrence de parts sociales, numérotées de 1 à, ci……………………………………………………....…………… P"],
@@ -323,8 +323,8 @@ function nSrcOptions(S){
 /* ---------- Formulaires partagés ---------- */
 function nStepNotaire(){
   return {id:'notaire',court:'Notaire',titre:'Le notaire',intro:'Ces informations sont enregistrées sur cet appareil et reprises dans tous les modèles de cette section.',champs:[
-    {id:'notaire_nom',type:'text',label:'Nom et prénoms du notaire',aide:'Tel qu’il figure après « Maître » dans l’acte.',ph:'Ex. : KOFFI-ABOUT Akoua Mireille'},
-    {id:'notaire_sign',type:'text',half:true,label:'Nom pour la signature',ph:'Ex. : KOFFI-ABOUT A. Mireille'},
+    {id:'notaire_nom',type:'text',label:'Nom et prénoms du notaire',aide:'Tel qu’il figure après « Maître » dans l’acte.',ph:'Ex. : NOTAIRE EXEMPLE'},
+    {id:'notaire_sign',type:'text',half:true,label:'Nom pour la signature',ph:'Ex. : NOTAIRE EXEMPLE'},
     {id:'notaire_ville',type:'text',half:true,label:'Étude à',ph:'Ex. : ABIDJAN'},
     {id:'notaire_genre',type:'choice',variant:'seg',label:'Le notaire est',opts:[{v:'F',t:'Une femme'},{v:'M',t:'Un homme'}]},
     {id:'notaire_ref',type:'text',half:true,label:'Référence du dossier (facultatif)',ph:'Ex. : MKA/SAG',aide:'Imprimée en haut du document.'}
@@ -333,12 +333,12 @@ function nStepNotaire(){
 function nStepSociete(opt){
   opt=opt||{};
   const ch=[
-    {id:'denomination',type:'text',label:'Dénomination sociale',ph:'Ex. : ALPHA SERVICES'},
+    {id:'denomination',type:'text',label:'Dénomination sociale',ph:'Ex. : SOCIETE EXEMPLE'},
     {id:'objet',type:'area',rows:4,label:'Objet social',aide:'Une activité par ligne. Elles seront présentées sous forme de liste.',ph:'Ex. :\nCommerce général\nImport-export de marchandises'},
     {id:'t_siege',type:'title',label:'Siège social'},
     {id:'siege_ville',type:'text',half:true,label:'Ville',ph:'ABIDJAN'},
     {id:'siege_commune',type:'text',half:true,label:'Commune',ph:'Ex. : Cocody'},
-    {id:'siege_quartier',type:'text',half:true,label:'Quartier',ph:'Ex. : Riviera Palmeraie'},
+    {id:'siege_quartier',type:'text',half:true,label:'Quartier',ph:'Ex. : Quartier exemple'},
     {id:'siege_bp',type:'text',half:true,label:'Boîte postale (facultatif)',ph:'Ex. : 01 BP 1234 Abidjan 01'}
   ];
   if(opt.constitution) ch.push({id:'t_const',type:'title',label:'Constitution de la société'},
@@ -635,7 +635,7 @@ function nStatutsBlocks(S,V){
 function nStatutsModel(o){
   const ng=o.ng;
   return {
-    id:o.id,cat:'notaires',titre:o.titre,sous:o.sous,resume:o.resume,tags:o.tags,duree:'25 min',
+    id:o.id,cat:'societes-associations',titre:o.titre,sous:o.sous,resume:o.resume,tags:o.tags,duree:'25 min',
     etapes:[nStepNotaire(),nStepSociete(),nStepAssocies({import:false}),nStatutsCapital(),
       {id:'gerance',court:'Gérance',titre:ng===1?'Le gérant':'Les gérants',intro:'Article 14. '+(ng===1?'Le gérant est nommé dans les statuts pour une durée indéterminée.':'Les deux gérants sont nommés dans les statuts pour une durée indéterminée.'),champs:[nGerantsRep()]},
       nStepSignature(),{id:'final',court:'Télécharger',titre:'Vérifier et télécharger',final:true,champs:[]}],
@@ -650,11 +650,11 @@ function nStatutsModel(o){
   };
 }
 function nExAssocie(i){
-  const A=[{civilite:'M.',prenom:'Yao Jean',nom:'Konan',profession:'commerçant',naissance_lieu:'Bouaké',naissance_date:'1985-04-12',ville:'ABIDJAN',commune:'Cocody',quartier:'Angré',bp:'',situation:'marie',conj:'Aya Marie Kouassi',mar_lieu:'Abidjan',mar_mairie:'Cocody',mar_date:'2012-08-18',regime:'communaute',piece_type:'cni',piece_num:'C 0000 0000 00',piece_date:'2021-03-02',piece_exp:'2031-03-01'},
-   {civilite:'Mme',prenom:'Fatoumata',nom:'Traoré',profession:'comptable',naissance_lieu:'Abidjan',naissance_date:'1990-09-03',ville:'ABIDJAN',commune:'Marcory',quartier:'Zone 4',bp:'',situation:'celibataire',piece_type:'cni',piece_num:'C 1111 1111 11',piece_date:'2020-06-15',piece_exp:'2030-06-14'}][i];
+  const A=[{civilite:'M.',prenom:'Jean Exemple',nom:'Nom Exemple',profession:'commerçant',naissance_lieu:'Bouaké',naissance_date:'1985-04-12',ville:'ABIDJAN',commune:'Cocody',quartier:'Angré',bp:'',situation:'marie',conj:'Conjointe Exemple',mar_lieu:'Abidjan',mar_mairie:'Cocody',mar_date:'2012-08-18',regime:'communaute',piece_type:'cni',piece_num:'IDENTIFIANT EXEMPLE 0001',piece_date:'2021-03-02',piece_exp:'2031-03-01'},
+   {civilite:'Mme',prenom:'Prénom Exemple',nom:'Nom Exemple',profession:'comptable',naissance_lieu:'Abidjan',naissance_date:'1990-09-03',ville:'ABIDJAN',commune:'Marcory',quartier:'Zone 4',bp:'',situation:'celibataire',piece_type:'cni',piece_num:'IDENTIFIANT EXEMPLE 0002',piece_date:'2020-06-15',piece_exp:'2030-06-14'}][i];
   const o={};Object.keys(A).forEach(k=>{o['a'+i+'_'+k]=A[k];});o['a'+i+'_nationalite']='Ivoirienne';return o;
 }
 function nStatutsExemple(ng){
-  return Object.assign({notaire_nom:'KOFFI-ABOUT Akoua Mireille',notaire_sign:'KOFFI-ABOUT A. Mireille',notaire_ville:'ABIDJAN',denomination:'ALPHA SERVICES',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Riviera Palmeraie',siege_bp:'',
+  return Object.assign({notaire_nom:'NOTAIRE EXEMPLE',notaire_sign:'NOTAIRE EXEMPLE',notaire_ville:'ABIDJAN',denomination:'SOCIETE EXEMPLE',objet:'Commerce général\nImport-export de marchandises\nPrestations de services',siege_ville:'ABIDJAN',siege_commune:'Cocody',siege_quartier:'Quartier exemple',siege_bp:'',
     nb_assoc:'2',nominal:'10000',a0_apport:'600000',a1_apport:'400000',nb_ger:String(ng),g0_src:'a0',g1_src:'a1',pages:'VINGT'},nExAssocie(0),nExAssocie(1));
 }

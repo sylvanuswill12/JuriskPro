@@ -1,0 +1,20 @@
+{
+  "id":"feuille-presence-assemblee-generale-sa",
+  "cat":"procurations-actes-divers",
+  "titre":"Feuille de présence à l’assemblée générale",
+  "sous":"Établissez la liste des actionnaires présents ou représentés.",
+  "resume":"Matrice de feuille de présence indiquant les actionnaires, mandataires, actions et voix.",
+  "tags":["feuille de présence","assemblée générale","actionnaires","mandataire"],
+  "duree":"8 min",
+  "docTitle":"Feuille de présence – assemblée générale du {{date_ag}}",
+  "fileBase":"Feuille-presence-AG-{{date_ag}}",
+  "headline":"Assemblée générale du {{date_ag}}",
+  "etapes":[
+    {"id":"ag","court":"Assemblée","titre":"Informations générales","champs":[{"id":"date_ag","type":"date","label":"Date de l’assemblée","req":true},{"id":"capital_actions","type":"int","label":"Nombre d’actions constituant le capital","req":true},{"id":"voix_total","type":"int","label":"Nombre total de voix"}]},
+    {"id":"actionnaires","court":"Actionnaires","titre":"Actionnaires présents ou représentés","champs":[{"type":"repeat","id":"actionnaires","prefix":"a","countKey":"nb_actionnaires","min":1,"max":40,"label":"Actionnaire","addLabel":"Ajouter un actionnaire","keys":["nom","adresse","actions","voix","mandataire"],"fields":[{"id":"nom","type":"text","label":"Nom et prénoms / dénomination","req":true},{"id":"adresse","type":"area","label":"Adresse"},{"id":"actions","type":"int","label":"Nombre d’actions","req":true},{"id":"voix","type":"int","label":"Nombre de voix","req":true},{"id":"mandataire","type":"text","label":"Mandataire, le cas échéant"}]}]},
+    {"id":"signature","court":"Certification","titre":"Certification de la feuille de présence","champs":[{"id":"nb_presents","type":"int","label":"Nombre d’actionnaires présents ou représentés","req":true},{"id":"actions_votantes","type":"int","label":"Actions ayant droit de vote","req":true}]},
+    {"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}
+  ],
+  "doc":[{"k":"tit","text":"FEUILLE DE PRÉSENCE DE L’ASSEMBLÉE GÉNÉRALE DU {{date_ag}}"},{"k":"p","text":"Nombre d’actions constituant le capital : {{capital_actions}} actions. Nombre total de voix : {{voix_total}}."},{"k":"art","text":"ACTIONNAIRES PRÉSENTS OU REPRÉSENTÉS"},{"each":"actionnaires","blocks":[{"k":"li","text":"{{#}}. {{@nom}} — Adresse : {{@adresse}} — {{@actions}} actions — {{@voix}} voix — Mandataire : {{@mandataire}}"}]},{"k":"p","text":"Les scrutateurs certifient sincère et véritable la présente feuille de présence. {{nb_presents}} actionnaires sont présents ou représentés, totalisant {{actions_votantes}} actions ayant droit de vote."},{"k":"sigs","items":["Les scrutateurs"]}],
+  "exemple":{"date_ag":"2026-12-15","capital_actions":"1000","voix_total":"1000","nb_actionnaires":"2","a0_nom":"Actionnaire A","a0_adresse":"Adresse à compléter","a0_actions":"600","a0_voix":"600","a0_mandataire":"Aucun","a1_nom":"Actionnaire B","a1_adresse":"Adresse à compléter","a1_actions":"400","a1_voix":"400","a1_mandataire":"Aucun","nb_presents":"2","actions_votantes":"1000"}
+}

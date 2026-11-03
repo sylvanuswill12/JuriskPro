@@ -1,0 +1,36 @@
+{
+  "id":"convocation-assemblee-generale-sa",
+  "cat":"procurations-actes-divers",
+  "titre":"Convocation à l’assemblée générale d’une société anonyme",
+  "sous":"Préparez l’avis de convocation des actionnaires.",
+  "resume":"Matrice vierge d’avis de convocation à une assemblée générale ordinaire ou extraordinaire.",
+  "tags":["convocation","assemblée générale","société anonyme","actionnaires"],
+  "duree":"5 min",
+  "docTitle":"Convocation à l’assemblée générale – {{societe}}",
+  "fileBase":"Convocation-assemblee-generale-{{societe}}",
+  "headline":"{{societe}}",
+  "etapes":[
+    {"id":"societe","court":"Société","titre":"La société et la réunion","champs":[
+      {"id":"societe","type":"text","label":"Dénomination sociale","req":true},
+      {"id":"type_ag","type":"choice","label":"Nature de l’assemblée","opts":[{"v":"ordinaire","t":"Ordinaire"},{"v":"extraordinaire","t":"Extraordinaire"}],"def":"ordinaire","req":true},
+      {"id":"date_ag","type":"date","label":"Date de l’assemblée","req":true},
+      {"id":"heure_ag","type":"text","label":"Heure","req":true},
+      {"id":"lieu_ag","type":"text","label":"Lieu","req":true},
+      {"id":"ordre_du_jour","type":"area","label":"Ordre du jour","req":true},
+      {"id":"depot_actions","type":"text","label":"Lieu de dépôt des actions, le cas échéant"},
+      {"id":"delai_depot","type":"text","label":"Délai de dépôt des actions"}
+    ]},
+    {"id":"signature","court":"Signature","titre":"Personne signataire","champs":[{"id":"signataire","type":"text","label":"Nom et qualité du signataire","req":true}]},
+    {"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}
+  ],
+  "doc":[
+    {"k":"tit","text":"CONVOCATION"},
+    {"k":"p","text":"Les actionnaires de la société {{societe}} sont convoqués à l’assemblée générale {{type_ag}} qui se tiendra le {{date_ag}} à {{heure_ag}}, à {{lieu_ag}}."},
+    {"k":"art","text":"ORDRE DU JOUR"},
+    {"k":"p","text":"{{ordre_du_jour}}"},
+    {"k":"p","text":"Les actionnaires pourront assister personnellement à l’assemblée ou se faire représenter par un mandataire de leur choix."},
+    {"when":{"field":"depot_actions","filled":true},"k":"p","text":"Les actions devront être déposées à {{depot_actions}} au plus tard {{delai_depot}}."},
+    {"k":"p","text":"Pour la société,\n{{signataire}}"}
+  ],
+  "exemple":{"societe":"ALPHA SA","type_ag":"ordinaire","date_ag":"2026-12-15","heure_ag":"09 h 00","lieu_ag":"Siège social","ordre_du_jour":"Approbation des comptes et affectation du résultat.","depot_actions":"Siège social","delai_depot":"cinq jours avant la réunion","signataire":"Le Président du conseil d’administration"}
+}
