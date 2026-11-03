@@ -1009,9 +1009,9 @@ body.jp-busy::before{content:"";position:fixed;top:0;left:0;height:3px;width:40%
 /* ===== Animations et chargements (fluidité) ===== */
 @keyframes jpSpin{to{transform:rotate(360deg)}}
 @keyframes jpShimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-@keyframes jpFade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-@keyframes jpFwd{from{opacity:0;transform:translateX(26px)}to{opacity:1;transform:none}}
-@keyframes jpBack{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+@keyframes jpFade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes jpFwd{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
+@keyframes jpBack{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
 @keyframes jpRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @keyframes jpPop{0%{transform:scale(.8)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
 
@@ -1034,11 +1034,11 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 
 @media (prefers-reduced-motion:no-preference){
   /* Passage d'un écran à l'autre : l'en-tête reste fixe, seul le contenu glisse */
-  .wrap.enter>main{animation:jpFade .28s cubic-bezier(.2,.7,.2,1) backwards}
-  .wrap.enter.dir-fwd>main{animation-name:jpFwd}
-  .wrap.enter.dir-back>main{animation-name:jpBack}
+  .wrap.enter>main{animation:jpFade .16s ease-out backwards}
+  .wrap.enter.dir-fwd>main{animation-name:jpFwd;animation-duration:.18s}
+  .wrap.enter.dir-back>main{animation-name:jpBack;animation-duration:.18s}
   /* Apparition en cascade des cartes */
-  .wrap.enter .grid>*,.wrap.enter .history-list>*,.wrap.enter .block{animation:jpRise .42s cubic-bezier(.2,.7,.2,1) backwards}
+  .wrap.enter .grid>*,.wrap.enter .history-list>*,.wrap.enter .block{animation:none}
   .wrap.enter .grid>*:nth-child(1),.wrap.enter .block:nth-of-type(1){animation-delay:.04s}
   .wrap.enter .grid>*:nth-child(2),.wrap.enter .block:nth-of-type(2){animation-delay:.08s}
   .wrap.enter .grid>*:nth-child(3),.wrap.enter .block:nth-of-type(3){animation-delay:.12s}
@@ -1067,3 +1067,9 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 #catalog .model-compact .fam-aide{margin:4px 0 0;font-size:12.5px;line-height:1.4;overflow-wrap:break-word;word-break:normal}
 #catalog .model-compact .model-row-meta{flex:0 0 auto}
 @media(max-width:480px){#catalog .model-compact{flex-wrap:wrap}#catalog .model-compact .fam-body{flex-basis:calc(100% - 40px)}#catalog .model-compact .model-row-meta{flex:0 0 auto;margin-left:auto}}
+
+/* Fluidité : pas de flou d'arrière-plan sur les barres fixes (coûteux sur téléphone), transitions plus vives */
+.top{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--bg)}
+.bnav{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--surface)}
+.bnav a,.nav-d a{transition:color .12s ease,background-color .12s ease}
+.model,.btn,.chip{transition-duration:.1s}

@@ -112,7 +112,11 @@ function shell(active,inner,o){
   const acc=accountRead();
   const avatar=acc&&acc.photo?'<img class="top-profile-img" src="'+acc.photo+'" alt="Photo de profil">':'<span class="top-profile-initial">'+esc((acc&&(acc.name||acc.username)||'').trim().charAt(0).toUpperCase()||'U')+'</span>';
   const actions='<div class="top-actions"><button type="button" class="top-icon-btn" id="theme" aria-label="Basculer entre le thème sombre et clair" title="Thème sombre / clair"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"/></svg></button><a class="top-icon-btn" href="#compte" aria-label="Ouvrir mon profil" title="Mon profil">'+avatar+'</a></div>';
-  app.innerHTML='<a class="skip-link" href="#main">Aller au contenu principal</a><div class="wrap'+(o.cls?' '+o.cls:'')+'"><header class="top">'+left+brand+mid+nav+actions+'</header><main id="main" tabindex="-1">'+inner+'</main></div>'+bar;
+  /* La barre du bas n'est pas reconstruite à chaque écran : seul l'onglet actif change (moins de clignotement, plus rapide). */
+  const oldBar=app.querySelector('.bnav');if(oldBar) oldBar.remove();
+  app.innerHTML='<a class="skip-link" href="#main">Aller au contenu principal</a><div class="wrap'+(o.cls?' '+o.cls:'')+'"><header class="top">'+left+brand+mid+nav+actions+'</header><main id="main" tabindex="-1">'+inner+'</main></div>';
+  if(oldBar){app.appendChild(oldBar);const cur=NAV.map(n=>n.id).indexOf(active);oldBar.querySelectorAll('a').forEach((a,i)=>{if(i===cur) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});}
+  else app.insertAdjacentHTML('beforeend',bar);
   if(ui.anim){const w=app.querySelector('.wrap');if(w){w.classList.add('enter','dir-'+ui.anim);setTimeout(()=>{w.classList.remove('enter','dir-fwd','dir-back','dir-fade');},700);}ui.anim=null;}
   const t=$('#theme');if(t) t.onclick=()=>{toggleTheme();};
 }
@@ -181,6 +185,13 @@ function routeNow(h,r){
   const main=$('#main');if(main&&document.activeElement&&document.activeElement.closest&&document.activeElement.closest('.bnav,.nav-d')){try{main.focus({preventScroll:true});}catch(e){main.focus();}}
 }
 window.addEventListener('hashchange',route);
+/* Dès que le doigt ou la souris touche un modèle, on commence à le télécharger : à l'ouverture, il est déjà là. */
+(function(){
+  const warm=e=>{const a=e.target&&e.target.closest&&e.target.closest('a[href^="#"]');if(!a) return;const h=a.getAttribute('href').slice(1),r=parseRoute(h);if(r.t==='detail'||r.t==='model') prefetchModel(r.id);};
+  document.addEventListener('touchstart',warm,{passive:true,capture:true});
+  document.addEventListener('pointerover',e=>{if(e.pointerType==='mouse') warm(e);},{passive:true,capture:true});
+  warmCatalogue();
+})();
 function go(h){if(location.hash==='#'+h) route(); else location.hash=h;}
 function openWith(id,step,jump){pendingOpen={id:id,step:step,jump:jump};go(id);}
 
@@ -308,6 +319,7 @@ function famPage(f,n){
     const grid=$('#famgrid');let last=grid.dataset.sub||'',h='';
     items.forEach(m=>{if(m.sub&&m.sub!==last){h+='<h3 class="sub-h fam-sub">'+esc(m.sub)+'</h3>';last=m.sub;}h+=cardHTML(m,false);});
     grid.dataset.sub=last;grid.insertAdjacentHTML('beforeend',h);
+    const idle=window.requestIdleCallback||(fn=>setTimeout(fn,600));idle(()=>items.slice(0,6).forEach(m=>prefetchModel(m.id)));
     if(n<f.pages){
       const left=Math.max(0,f.count-n*CAT_PAGE);
       more.innerHTML='<button type="button" class="btn ghost" id="more">Afficher plus ('+left+' restants)</button>';
@@ -387,6 +399,7 @@ async function historyText(id){
   if(error)throw error;return (data&&data.document_text)||'';
 }
 async function historySave(item,blob){
+  histCache=null;
   const c=historyClient(),u=await historyUser();if(!c)throw new Error('Connexion indisponible.');
   const id=item.id, path=u.id+'/'+id+'/'+item.fileName;
   const {error:uploadError}=await c.storage.from('juriskpro-documents').upload(path,blob,{contentType:blob.type||'application/octet-stream',upsert:true});
@@ -397,6 +410,7 @@ async function historySave(item,blob){
   return true;
 }
 async function historyDelete(id,path){
+  histCache=null;
   const c=historyClient();if(!c)throw new Error('Connexion indisponible.');
   // Retirer le fichier avant la ligne : en cas d'échec Storage, l'entrée reste visible
   // et l'utilisateur peut relancer l'opération sans perdre la référence au fichier.
@@ -416,13 +430,25 @@ function historyHTML(x){
 const SKEL=n=>'<div class="skel-list" role="status" aria-live="polite"><span class="sr">Chargement en cours…</span>'+Array(n+1).join('<div class="skel" aria-hidden="true"></div>')+'</div>';
 let hist={items:[],more:false};
 function histHead(p){return '<div class="page-h"><h1>Historique</h1><p>'+p+'</p></div>';}
+let histCache=null;
 async function openHistory(){
   leave();setTitle('Historique');
+  if(histCache){
+    /* Réouverture : on affiche tout de suite la dernière liste connue, puis on la rafraîchit discrètement. */
+    hist={items:histCache.items.slice(),more:histCache.more};paintHistory();
+    historyRead(0).then(first=>{
+      if(location.hash!=='#historique') return;
+      const key=a=>a.map(x=>x.id).join(',');
+      histCache={items:first,more:first.length===HIST_PAGE};
+      if(hist.items.length<=HIST_PAGE&&key(first)!==key(hist.items)){hist={items:first,more:first.length===HIST_PAGE};paintHistory();}
+    }).catch(()=>{});
+    return;
+  }
   hist={items:[],more:false};
   shell('historique',histHead('<span class="spin" aria-hidden="true"></span> Chargement de vos documents…')+SKEL(3));
   try{
     const first=await historyRead(0);
-    hist.items=first;hist.more=first.length===HIST_PAGE;
+    hist.items=first;hist.more=first.length===HIST_PAGE;histCache={items:first.slice(),more:hist.more};
     paintHistory();
   }catch(e){
     shell('historique',histHead('Impossible de charger votre historique.')+'<section class="card set"><p class="msg err">'+esc(messageFr(e,'Vérifiez votre connexion et la configuration de la sauvegarde sécurisée.'))+'</p><p>Vos documents ne sont pas affichés tant que la connexion au stockage sécurisé n’est pas rétablie.</p><button class="btn" type="button" id="history-retry">Réessayer</button></section>');

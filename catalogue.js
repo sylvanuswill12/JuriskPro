@@ -68,13 +68,14 @@ function loadScriptFile(src) {
     document.head.appendChild(s);
   });
 }
+const fileURL = (name, kind, h) => name === 'spec' ? './spec.js?v=' + CAT_VERSION : './models/' + name + '.' + kind + (h ? '?v=' + h : '');
 function loadFile(name, kind, h) {
   const key = name + '.' + kind;
   if (!_files[key]) {
     let p;
-    if (name === 'spec') p = loadScriptFile('./spec.js?v=' + CAT_VERSION);
-    else if (kind === 'js') p = loadScriptFile('./models/' + name + '.js' + (h ? '?v=' + h : ''));
-    else p = fetch('./models/' + name + '.json' + (h ? '?v=' + h : '')).then((r) => { if (!r.ok) throw new Error(name + ' : ' + r.status); return r.json(); }).then((spec) => JPModels.add(JPSpec.build(spec)));
+    if (name === 'spec') p = loadScriptFile(fileURL(name, kind, h));
+    else if (kind === 'js') p = loadScriptFile(fileURL(name, kind, h));
+    else p = fetch(fileURL(name, kind, h)).then((r) => { if (!r.ok) throw new Error(name + ' : ' + r.status); return r.json(); }).then((spec) => JPModels.add(JPSpec.build(spec)));
     _files[key] = p.catch((e) => { delete _files[key]; throw e; });
   }
   return _files[key];
@@ -88,7 +89,27 @@ async function loadModels(ids) {
     if (!ld) { const e = (await Cat.index())[id]; if (!e) continue; ld = e.ld; }
     ld.forEach((x) => { if (!need.some((y) => y[0] === x[0] && y[1] === x[1])) need.push(x); });
   }
-  for (const [name, kind, h] of need) await loadFile(name, kind, h);
+  // Les scripts se téléchargent en parallèle (async=false : ils s'exécutent quand même dans l'ordre) ; les .json attendent leurs scripts.
+  await Promise.all(need.filter((x) => x[1] === 'js' || x[0] === 'spec').map(([name, kind, h]) => loadFile(name, kind, h)));
+  for (const [name, kind, h] of need) if (!(kind === 'js' || name === 'spec')) await loadFile(name, kind, h);
+}
+/* Préchargement discret : télécharge les fichiers d'un modèle (cache du navigateur et du service worker) sans les exécuter. */
+const _pre = {};
+const saveData = () => { try { return !!(navigator.connection && navigator.connection.saveData); } catch (e) { return false; } };
+async function prefetchModel(id) {
+  if (FULL[id] || _pre[id] || saveData()) return;
+  _pre[id] = 1;
+  try {
+    let ld = (Cat.metas.get(id) || {}).ld;
+    if (!ld) { const e = (await Cat.index())[id]; if (!e) return; ld = e.ld; }
+    ld.forEach(([name, kind, h]) => { if (!_files[name + '.' + kind]) fetch(fileURL(name, kind, h)).catch(() => {}); });
+  } catch (e) { delete _pre[id]; }
+}
+/* Une fois l'écran affiché : index et premières pages des familles (quelques Ko). */
+function warmCatalogue() {
+  if (saveData()) return;
+  const run = () => { Cat.index().catch(() => {}); CAT_FAMILIES.forEach((f) => { if (f.count > 0) Cat.page(f.id, 1).catch(() => {}); }); };
+  if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 2500 }); else setTimeout(run, 1200);
 }
 /* Un identifiant existe-t-il au catalogue ? */
 async function modelExists(id) {
