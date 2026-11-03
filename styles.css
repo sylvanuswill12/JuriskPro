@@ -1073,3 +1073,33 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .bnav{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--surface)}
 .bnav a,.nav-d a{transition:color .12s ease,background-color .12s ease}
 .model,.btn,.chip{transition-duration:.1s}
+
+/* Compte & paramètres : simple, groupé, sans barres ni contours inutiles */
+.acc-top{display:flex;align-items:center;gap:14px;margin:4px 0 6px;padding:0}
+.acc-avatar{width:60px;height:60px;font-size:26px;border:0}
+.acc-id{min-width:0}.acc-id h2{font-size:18px;margin:0 0 2px;overflow-wrap:anywhere}.acc-id p{margin:0;font-size:13px;color:var(--ink-2);overflow-wrap:anywhere}
+.acc-title{font-size:12px;font-weight:650;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin:22px 4px 8px}
+.acc-group{background:var(--surface-2,var(--accent-soft));border:0;border-radius:14px;padding:4px 0;box-shadow:none;overflow:hidden}
+.acc-row{display:flex;align-items:center;gap:12px;min-height:52px;padding:10px 16px;border:0;background:none;color:var(--ink);text-decoration:none;list-style:none;cursor:default}
+.acc-item>summary{cursor:pointer}.acc-item>summary::-webkit-details-marker{display:none}
+.acc-link{cursor:pointer}.acc-row:is(summary,a):active{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.acc-label{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}
+.acc-label strong{font-size:15px;font-weight:600}.acc-label small{font-size:12px;line-height:1.4;color:var(--ink-2)}
+.acc-value{font-size:14px;color:var(--ink-2)}
+.acc-chev{width:8px;height:8px;border-right:2px solid var(--ink-2);border-top:2px solid var(--ink-2);transform:rotate(45deg);margin:0 4px;flex:0 0 auto;transition:transform .15s}
+.acc-item[open]>summary .acc-chev{transform:rotate(135deg)}
+.acc-panel{padding:0 16px 14px}.acc-panel p{margin:0 0 10px;font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+.acc-panel .fields{margin-top:4px}
+.acc-btn{border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:650;padding:8px 4px;cursor:pointer}
+.acc-select{border:0;background:transparent;color:var(--ink-2);font:inherit;font-size:14px;text-align:right;padding:8px 2px;max-width:150px}
+.acc-toggle{cursor:pointer}
+.acc-switch{appearance:none;-webkit-appearance:none;width:44px;height:26px;border-radius:13px;background:color-mix(in srgb,var(--ink) 22%,transparent);position:relative;flex:0 0 auto;border:0;outline-offset:3px;transition:background .15s;cursor:pointer;margin:0}
+.acc-switch::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:transform .15s}
+.acc-switch:checked{background:var(--accent)}.acc-switch:checked::after{transform:translateX(18px)}
+.acc-logout{display:block;width:100%;margin:22px 0 8px;padding:14px;border:0;border-radius:14px;background:none;color:#c0392b;font:inherit;font-size:15px;font-weight:650;cursor:pointer}
+.acc-logout:active{background:color-mix(in srgb,#c0392b 10%,transparent)}
+
+/* Pastilles rouges (brouillons, nouveaux modèles, contrôles à faire) */
+.nav-badge{min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#e53935;color:#fff;font-size:10.5px;font-weight:700;line-height:17px;text-align:center;letter-spacing:0;box-sizing:border-box;pointer-events:none}
+.bnav a .nav-badge{position:absolute;top:5px;left:calc(50% + 6px)}
+.nav-d a .nav-badge{display:inline-block;margin-left:6px;vertical-align:1px}

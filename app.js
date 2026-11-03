@@ -101,6 +101,42 @@ const NAV=[
   {id:'compte',h:'#compte',t:'Compte'}
 ];
 
+/* ---------- Pastilles rouges sur la barre de navigation ---------- */
+const SEEN_KEY='juriskpro:seenModels';
+let newModels=0;
+function badgeCounts(){
+  let ds=[];try{ds=listDrafts();}catch(e){}
+  const ctl=ds.filter(x=>x.d.meta&&((x.d.meta.probs||0)+(x.d.meta.missAll||0))>0).length;
+  return {brouillons:ds.length,controle:ctl,modeles:newModels};
+}
+function updateBadges(){
+  const c=badgeCounts();
+  NAV.forEach((n,i)=>{
+    const k=c[n.id]||0;
+    document.querySelectorAll('.bnav a:nth-child('+(i+1)+'),.nav-d a:nth-child('+(i+1)+')').forEach(a=>{
+      let b=a.querySelector('.nav-badge');
+      if(!k){if(b) b.remove();a.removeAttribute('data-badge');return;}
+      if(!b){b=document.createElement('span');b.className='nav-badge';b.setAttribute('aria-hidden','true');a.appendChild(b);}
+      b.textContent=k>9?'9+':String(k);
+      a.setAttribute('data-badge',k+(k>1?' nouveaux éléments':' nouvel élément'));
+    });
+  });
+}
+/* Modèles : la pastille compte les modèles ajoutés depuis la dernière visite de l'onglet Modèles. */
+async function computeNewModels(){
+  try{
+    const ids=Object.keys(await Cat.index());let seen=null;
+    try{seen=JSON.parse(store.get(SEEN_KEY)||'null');}catch(e){}
+    if(!Array.isArray(seen)){store.set(SEEN_KEY,JSON.stringify(ids));newModels=0;}
+    else{const set=new Set(seen);newModels=ids.filter(i=>!set.has(i)).length;}
+  }catch(e){}
+  updateBadges();
+}
+function markModelsSeen(){
+  if(!newModels) return;
+  Cat.index().then(idx=>{store.set(SEEN_KEY,JSON.stringify(Object.keys(idx)));newModels=0;updateBadges();}).catch(()=>{});
+}
+
 /* ---------- Structure commune : en-tête, contenu, barre fixe ---------- */
 function shell(active,inner,o){
   o=o||{};
@@ -119,6 +155,7 @@ function shell(active,inner,o){
   else app.insertAdjacentHTML('beforeend',bar);
   if(ui.anim){const w=app.querySelector('.wrap');if(w){w.classList.add('enter','dir-'+ui.anim);setTimeout(()=>{w.classList.remove('enter','dir-fwd','dir-back','dir-fade');},700);}ui.anim=null;}
   const t=$('#theme');if(t) t.onclick=()=>{toggleTheme();};
+  updateBadges();
 }
 function leave(){flushSave();M=null;S=null;}
 let lastH=null;
@@ -168,8 +205,8 @@ function routeNow(h,r){
     switch(r.t){
       case 'detail': openDetail(FULL[r.id]);break;
       case 'model': openModel(FULL[r.id]);break;
-      case 'fam': openFamily(r.id);break;
-      case 'modeles': openLibrary();break;
+      case 'fam': openFamily(r.id);markModelsSeen();break;
+      case 'modeles': openLibrary();markModelsSeen();break;
       case 'brouillons': openDrafts();break;
       case 'historique': openHistory();break;
       case 'controle': openControl();break;
@@ -191,6 +228,7 @@ window.addEventListener('hashchange',route);
   document.addEventListener('touchstart',warm,{passive:true,capture:true});
   document.addEventListener('pointerover',e=>{if(e.pointerType==='mouse') warm(e);},{passive:true,capture:true});
   warmCatalogue();
+  computeNewModels();
 })();
 function go(h){if(location.hash==='#'+h) route(); else location.hash=h;}
 function openWith(id,step,jump){pendingOpen={id:id,step:step,jump:jump};go(id);}
@@ -564,27 +602,42 @@ function renderAccountProfile(a){
   const nbd=draftsList().length,tm=themeMode();
   const notif=store.get('juriskpro:notifications')==='on';
   const themeLabel=tm==='dark'?'Sombre':tm==='light'?'Clair':'Automatique';
+  const initial=esc((a.name||a.username||'U').trim().charAt(0).toUpperCase());
+  const camera='<span class="avatar-camera" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h-4l-2 3H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3"/></svg></span>';
+  const CH='<span class="acc-chev" aria-hidden="true"></span>';
+  const row=(t,sub,end)=>'<div class="acc-row"><span class="acc-label"><strong>'+t+'</strong>'+(sub?'<small>'+sub+'</small>':'')+'</span>'+(end||'')+'</div>';
+  const link=(t,href,ext)=>'<a class="acc-row acc-link" href="'+href+'"'+(ext?' target="_blank" rel="noopener"':'')+'><span class="acc-label"><strong>'+t+'</strong></span>'+CH+'</a>';
   shell('compte',
-    '<div class="page-h"><h1>Compte &amp; Paramètres</h1><p>Gérez votre profil et personnalisez votre expérience JuriskPro.</p></div>'+
-    '<section class="card set account-summary"><div class="account-heading"><label class="account-avatar" for="profile-photo-input" aria-label="Ajouter ou modifier la photo de profil">'+(a.photo?'<img src="'+a.photo+'" alt="Photo de profil">':esc((a.name||a.username||'U').trim().charAt(0).toUpperCase()))+'<span class="avatar-camera" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h-4l-2 3H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3"/></svg></span></label><input id="profile-photo-input" type="file" accept="image/*" hidden><div class="account-summary-text"><h2>'+esc(a.name||a.username)+'</h2><p class="intro">'+esc(a.email||'')+'</p></div><span class="pill">Compte JuriskPro</span></div></section>'+
-    '<section class="card set account-menu" aria-label="Paramètres du compte">'+
-      '<details class="account-item"><summary><span class="account-item-icon">♙</span><span class="account-item-text"><strong>Mon profil</strong><small>Nom, identifiant et coordonnées du compte</small></span><span class="account-chevron">›</span></summary><div class="account-panel"><p class="intro">Ces informations sont enregistrées dans votre compte JuriskPro. La photo de profil, si vous en ajoutez une, reste enregistrée dans ce navigateur. Les informations du notaire, des parties et du dossier se renseignent séparément dans le formulaire du document concerné.</p><form id="acc-profile-form" class="fields">'+
+    '<div class="page-h"><h1>Compte</h1></div>'+
+    '<section class="acc-top"><label class="account-avatar acc-avatar" for="profile-photo-input" aria-label="Ajouter ou modifier la photo de profil">'+(a.photo?'<img src="'+a.photo+'" alt="Photo de profil">':initial)+camera+'</label><input id="profile-photo-input" type="file" accept="image/*" hidden><div class="acc-id"><h2>'+esc(a.name||a.username)+'</h2><p>'+esc(a.email||'')+'</p></div></section>'+
+
+    '<h2 class="acc-title">Mon compte</h2><section class="acc-group">'+
+      '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Mon profil</strong><small>Nom, identifiant, coordonnées</small></span>'+CH+'</summary><div class="acc-panel"><form id="acc-profile-form" class="fields">'+
         accountField('prof-name','Nom complet','text',a.name,'Votre nom et prénom',true,'name')+
         accountField('prof-username','Nom d’utilisateur','text',a.username,'Votre identifiant',true,'username')+
-        '<div class="field"><label>Adresse e-mail du compte</label><input type="email" value="'+esc(a.email||'')+'" disabled><small class="aide">Cette adresse sert à votre connexion. Pour la modifier, utilisez la procédure de changement d’adresse e-mail.</small></div>'+
+        '<div class="field"><label>Adresse e-mail</label><input type="email" value="'+esc(a.email||'')+'" disabled><small class="aide">Elle sert à votre connexion et ne peut pas être modifiée ici.</small></div>'+
         accountField('prof-phone','Téléphone','tel',a.phone,'Facultatif',false,'tel')+
         accountField('prof-city','Ville / pays','text',a.city,'Facultatif',false,'address-level2')+
         accountField('prof-profession','Profession ou activité','text',a.profession,'Facultatif',false,'organization-title')+
-        '<div class="tools"><button type="submit" class="btn">Enregistrer les modifications</button><span class="msg" id="prof-msg" role="status" aria-live="polite"></span></div></form></div></details>'+
-      '<details class="account-item"><summary><span class="account-item-icon">♙</span><span class="account-item-text"><strong>Sécurité</strong><small>Session et confidentialité</small></span><span class="account-chevron">›</span></summary><div class="account-panel"><p class="intro"><strong>Confidentialité et protection de vos données</strong></p><p class="intro">Les informations que vous confiez à JuriskPro sont personnelles et doivent être traitées avec confidentialité. Elles ne sont pas destinées à être rendues publiques, vendues ou divulguées à des tiers. Elles ne peuvent être communiquées que lorsque cela est nécessaire au fonctionnement du service par ses prestataires techniques, avec les protections applicables, ou lorsque la loi l’exige.</p><p class="intro">L’accès à votre compte est protégé par une authentification sécurisée. Toutefois, la sécurité absolue ne peut être garantie sur Internet : choisissez un mot de passe robuste, gardez-le confidentiel et déconnectez-vous sur un appareil partagé.</p><p class="intro"><strong>Où vos données sont-elles conservées actuellement ?</strong> Votre compte et les informations de profil sont gérés par JuriskPro, sur une infrastructure sécurisée. En revanche, les documents générés et leur historique sont enregistrés dans votre compte JuriskPro et doivent rester accessibles après reconnexion sur un autre appareil. Les brouillons de saisie non encore finalisés, les préférences et la photo de profil restent locaux à ce navigateur.</p><div class="tools"><button type="button" class="btn ghost" id="acc-logout">Se déconnecter</button></div><p class="msg" id="acc-profile-msg" role="status" aria-live="polite"></p></div></details>'+
-      '<details class="account-item"><summary><span class="account-item-icon">♧</span><span class="account-item-text"><strong>Notifications</strong><small>Préférences de rappel</small></span><span class="account-chevron">›</span></summary><div class="account-panel"><label class="account-toggle-row"><span><strong>Rappels dans l’application</strong><small>Afficher les rappels et informations utiles dans JuriskPro.</small></span><input id="acc-notif" type="checkbox" '+(notif?'checked':'')+'></label><p class="aide">Cette option mémorise uniquement votre préférence sur cet appareil. Aucun rappel automatique ni notification par e-mail ou téléphone n’est envoyé pour le moment.</p></div></details>'+
-      '<div class="account-item account-setting-row"><span class="account-item-icon">◐</span><span class="account-item-text"><strong>Thème</strong><small>Adapter l’apparence de l’application</small></span><select id="acc-theme-select" aria-label="Thème de l’application"><option value="auto" '+(tm==='auto'?'selected':'')+'>Automatique</option><option value="light" '+(tm==='light'?'selected':'')+'>Clair</option><option value="dark" '+(tm==='dark'?'selected':'')+'>Sombre</option></select></div>'+
-      '<div class="account-item account-setting-row"><span class="account-item-icon">文</span><span class="account-item-text"><strong>Langue</strong><small>Langue de l’interface</small></span><span class="account-value">Français</span></div>'+
-      '<details class="account-item"><summary><span class="account-item-icon">ⓘ</span><span class="account-item-text"><strong>Aide &amp; Support</strong><small>Conseils pour utiliser JuriskPro</small></span><span class="account-chevron">›</span></summary><div class="account-panel"><p class="intro">1. Choisissez un modèle. 2. Complétez les champs demandés. 3. Vérifiez l’aperçu et les informations saisies. 4. Exportez votre document.</p><p class="intro">Si vous rencontrez un problème, vérifiez que votre navigateur est à jour et que les téléchargements sont autorisés.</p></div></details>'+
-      '<details class="account-item"><summary><span class="account-item-icon">ⓘ</span><span class="account-item-text"><strong>À propos de JuriskPro</strong><small>Informations sur l’application</small></span><span class="account-chevron">›</span></summary><div class="account-panel"><p><strong>JuriskPro</strong></p><p class="intro">Votre allié juridique, partout avec vous.</p><p class="intro"><strong>Qualité juridique :</strong> tous les modèles publiés sur JuriskPro ont été révisés par un juriste qualifié. Cette exigence s’applique également à tout nouveau modèle avant sa publication.</p><p class="intro"><strong>Conditions d’utilisation :</strong> consultez <a href="./conditions-utilisation.html" target="_blank" rel="noopener">les conditions générales d’utilisation</a>.</p><p class="intro"><strong>Politique de confidentialité :</strong> consultez <a href="./politique-confidentialite.html" target="_blank" rel="noopener">notre politique complète</a> ou écrivez à <a href="mailto:messtonsconseils2@gmail.com">messtonsconseils2@gmail.com</a>.</p><p class="intro"><strong>Confidentialité :</strong> JuriskPro accorde une attention particulière à la confidentialité des informations personnelles et des documents que vous saisissez. Vos données ne sont pas destinées à être rendues publiques, vendues ou divulguées à des tiers, sous réserve des interventions nécessaires de nos prestataires techniques et des obligations légales. Les documents générés et leur historique sont associés au compte utilisateur. Les brouillons non finalisés restent locaux à l’appareil.</p><p class="intro">JuriskPro propose des modèles et des contrôles automatiques pour repérer certains champs manquants et certaines incohérences. Ces contrôles ne constituent pas une validation juridique et ne remplacent pas la vérification du document par un professionnel compétent.</p><p class="aide">Version mobile et bureau · Langue : français.</p></div></details>'+
-      '<div class="account-item account-setting-row"><span class="account-item-icon">▤</span><span class="account-item-text"><strong>Brouillons</strong><small>'+ (nbd?plural(nbd,'document enregistré','documents enregistrés'):'Aucun document enregistré') +' sur cet appareil</small></span><button type="button" class="btn small ghost" id="open-drafts">Voir</button></div>'+
+        '<div class="tools"><button type="submit" class="btn">Enregistrer</button><span class="msg" id="prof-msg" role="status" aria-live="polite"></span></div></form></div></details>'+
+      '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Sécurité et données</strong><small>Confidentialité de vos informations</small></span>'+CH+'</summary><div class="acc-panel"><p>Vos informations sont personnelles : elles ne sont ni vendues ni rendues publiques, et ne sont communiquées que pour le fonctionnement du service ou si la loi l’exige.</p><p>Choisissez un mot de passe robuste, gardez-le confidentiel et déconnectez-vous sur un appareil partagé.</p><p>Les documents générés et leur historique sont enregistrés dans votre compte. Les brouillons non terminés, les préférences et la photo de profil restent sur cet appareil.</p><p class="msg" id="acc-profile-msg" role="status" aria-live="polite"></p></div></details>'+
+      '<div class="acc-row"><span class="acc-label"><strong>Brouillons</strong><small>'+(nbd?plural(nbd,'document','documents'):'Aucun document')+' sur cet appareil</small></span><button type="button" class="acc-btn" id="open-drafts">Voir</button></div>'+
     '</section>'+
-    '<p class="account-footnote">Le thème est appliqué immédiatement et enregistré dans ce navigateur. La langue de l’interface est actuellement le français. Les notifications automatiques ne sont pas encore disponibles.</p>');
+
+    '<h2 class="acc-title">Préférences</h2><section class="acc-group">'+
+      '<div class="acc-row"><span class="acc-label"><strong>Thème</strong></span><select id="acc-theme-select" class="acc-select" aria-label="Thème de l’application"><option value="auto" '+(tm==='auto'?'selected':'')+'>Automatique</option><option value="light" '+(tm==='light'?'selected':'')+'>Clair</option><option value="dark" '+(tm==='dark'?'selected':'')+'>Sombre</option></select></div>'+
+      '<label class="acc-row acc-toggle" for="acc-notif"><span class="acc-label"><strong>Rappels dans l’application</strong><small>Mémorisé sur cet appareil. Aucun envoi par e-mail ou téléphone pour le moment.</small></span><input id="acc-notif" class="acc-switch" type="checkbox" '+(notif?'checked':'')+'></label>'+
+      row('Langue','','<span class="acc-value">Français</span>')+
+    '</section>'+
+
+    '<h2 class="acc-title">Informations</h2><section class="acc-group">'+
+      '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Aide</strong></span>'+CH+'</summary><div class="acc-panel"><p>1. Choisissez un modèle. 2. Complétez les champs demandés. 3. Vérifiez l’aperçu. 4. Exportez votre document.</p><p>En cas de problème, vérifiez que votre navigateur est à jour et que les téléchargements sont autorisés.</p></div></details>'+
+      link('Conditions d’utilisation','./conditions-utilisation.html',true)+
+      link('Politique de confidentialité','./politique-confidentialite.html',true)+
+      '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>À propos de JuriskPro</strong></span>'+CH+'</summary><div class="acc-panel"><p>Votre allié juridique, partout avec vous.</p><p>Les modèles publiés ont été révisés par un juriste qualifié. Les contrôles automatiques repèrent certains champs manquants et certaines incohérences : ils ne remplacent pas la vérification du document par un professionnel compétent.</p><p>Contact : <a href="mailto:messtonsconseils2@gmail.com">messtonsconseils2@gmail.com</a></p></div></details>'+
+    '</section>'+
+
+    '<button type="button" class="acc-logout" id="acc-logout">Se déconnecter</button>');
   const themeSelect=$('#acc-theme-select');
   if(themeSelect) themeSelect.onchange=()=>{const v=themeSelect.value;if(v==='auto'){store.del('juriskpro:theme');applyTheme(null);}else{store.set('juriskpro:theme',v);applyTheme(v);}};
   const notifInput=$('#acc-notif');
@@ -1173,6 +1226,7 @@ function flushSave(){
   if(M.cat==='notaires') saveNotaireProfile(S);
   if(!hasData&&!v._ex&&!store.get(draftKey(M.id))) return;
   const ok=store.set(draftKey(M.id),JSON.stringify({v:v,step:step,t:Date.now(),meta:draftMeta(M,S)}));
+  try{updateBadges();}catch(e){}
   setSaved(ok?'Enregistré à '+new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}):'Non enregistré : stockage plein ou indisponible. Supprimez d’anciens brouillons.',!ok);
 }
 window.addEventListener('pagehide',flushSave);
