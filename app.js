@@ -187,6 +187,49 @@ async function notifyNewModels(){
 }
 try{const ln=nativeLN();if(ln&&ln.addListener) ln.addListener('localNotificationActionPerformed',e=>{const u=e&&e.notification&&e.notification.extra&&e.notification.extra.url;if(u) location.hash=String(u).replace(/^.*#/,'');});}catch(e){}
 
+/* ---------- Avatars (dessins originaux) : trois femmes, trois hommes ---------- */
+const AVATARS=[
+  {id:'f1',t:'Avatar femme 1',bg:'#f8c9d8',skin:'#8d5524',hair:'#1a1a1a',cloth:'#c2185b',style:'long'},
+  {id:'f2',t:'Avatar femme 2',bg:'#ffe7a8',skin:'#c68642',hair:'#1a1a1a',cloth:'#1565c0',style:'wrap',wrap:'#f4b400'},
+  {id:'f3',t:'Avatar femme 3',bg:'#cfe9d0',skin:'#5c3a21',hair:'#111',cloth:'#2e7d32',style:'afro'},
+  {id:'m1',t:'Avatar homme 1',bg:'#c6def7',skin:'#8d5524',hair:'#111',cloth:'#0b6b4c',style:'short'},
+  {id:'m2',t:'Avatar homme 2',bg:'#ffdcb0',skin:'#5c3a21',hair:'#111',cloth:'#6a1b9a',style:'short',beard:true},
+  {id:'m3',t:'Avatar homme 3',bg:'#d9cdf0',skin:'#c68642',hair:'#222',cloth:'#ef6c00',style:'afro'}
+];
+function avatarSVG(av){
+  const h=av.hair,sk=av.skin;let back='',front='';
+  if(av.style==='long'){back='<path d="M17 31C15 8 49 8 47 31L49 54H15Z" fill="'+h+'"/>';front='<path d="M21 25C24 13 40 13 43 25C38 20 26 20 21 25Z" fill="'+h+'"/>';}
+  else if(av.style==='afro'){back='<ellipse cx="32" cy="23" rx="16" ry="16" fill="'+h+'"/>';front='<path d="M21 25C24 17 40 17 43 25C38 22 26 22 21 25Z" fill="'+h+'"/>';}
+  else if(av.style==='wrap'){back='<path d="M18 31C16 10 48 10 46 31L47 50H17Z" fill="'+h+'"/>';front='<path d="M20 26C19 11 45 11 44 26C40 20 24 20 20 26Z" fill="'+av.wrap+'"/><circle cx="41" cy="14" r="5" fill="'+av.wrap+'"/>';}
+  else {front='<path d="M21 27C20 12 44 12 43 27C40 20 24 20 21 27Z" fill="'+h+'"/>';}
+  const beard=av.beard?'<path d="M21.5 30C22 43 42 43 42.5 30C39 37 25 37 21.5 30Z" fill="'+h+'"/>':'';
+  return '<svg class="av-svg" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" fill="'+av.bg+'"/>'+back+'<path d="M8 64C8 49 20 43 32 43S56 49 56 64Z" fill="'+av.cloth+'"/><rect x="27" y="35" width="10" height="10" rx="3" fill="'+sk+'"/><ellipse cx="32" cy="28" rx="11" ry="13" fill="'+sk+'"/>'+beard+front+'<circle cx="27.5" cy="28" r="1.4" fill="#1b1b1b"/><circle cx="36.5" cy="28" r="1.4" fill="#1b1b1b"/><path d="M28.5 34Q32 37 35.5 34" fill="none" stroke="#1b1b1b" stroke-width="1.3" stroke-linecap="round"/></svg>';
+}
+/* Avatar par défaut : toujours un avatar, choisi de façon stable à partir de l'adresse e-mail. */
+function avatarIdFor(acc){
+  const ok=id=>AVATARS.some(x=>x.id===id);
+  if(acc&&ok(acc.avatar)) return acc.avatar;
+  const k=String((acc&&(acc.email||acc.username||acc.name))||'').toLowerCase();let n=0;
+  for(let i=0;i<k.length;i++) n=(n*31+k.charCodeAt(i))>>>0;
+  return AVATARS[n%AVATARS.length].id;
+}
+function avatarMarkup(acc,cls){
+  if(acc&&acc.photo) return '<img class="'+(cls||'av-img')+'" src="'+acc.photo+'" alt="">';
+  const id=avatarIdFor(acc);return avatarSVG(AVATARS.find(x=>x.id===id));
+}
+/* Au démarrage : on mémorise l'identité du compte connecté (pour l'avatar de l'en-tête) et on la rafraîchit. */
+async function syncAccountFromSession(){
+  try{
+    const auth=window.JuriskProAuth;if(!auth||!auth.getClient||!auth.getClient()) return;
+    const {data}=await auth.getClient().auth.getUser();const u=data&&data.user;if(!u) return;
+    const meta=u.user_metadata||{};let loc=accountRead()||{};
+    if(loc.email&&loc.email!==u.email) loc={};
+    const merged=Object.assign({},loc,{email:u.email||'',name:meta.full_name||meta.name||loc.name||u.email||'',username:meta.username||loc.username||(u.email||'').split('@')[0],avatar:meta.avatar_id||loc.avatar||''});
+    accountSave(merged);
+    const a=document.querySelector('.top-actions a[href="#compte"]');if(a) a.innerHTML=avatarMarkup(merged,'top-profile-img');
+  }catch(e){}
+}
+
 /* ---------- Structure commune : en-tête, contenu, barre fixe ---------- */
 function shell(active,inner,o){
   o=o||{};
@@ -196,7 +239,7 @@ function shell(active,inner,o){
   const nav='<nav class="nav-d" aria-label="Rubriques">'+NAV.map(n=>'<a href="'+n.h+'"'+(n.id===active?' aria-current="page"':'')+'>'+n.t+'</a>').join('')+'</nav>';
   const bar='<nav class="bnav" aria-label="Navigation principale">'+NAV.map(n=>'<a href="'+n.h+'"'+(n.id===active?' aria-current="page"':'')+'>'+ico(n.id,22)+'<span>'+n.t+'</span></a>').join('')+'</nav>';
   const acc=accountRead();
-  const avatar=acc&&acc.photo?'<img class="top-profile-img" src="'+acc.photo+'" alt="Photo de profil">':'<span class="top-profile-initial">'+esc((acc&&(acc.name||acc.username)||'').trim().charAt(0).toUpperCase()||'U')+'</span>';
+  const avatar=avatarMarkup(acc,'top-profile-img');
   const actions='<div class="top-actions"><button type="button" class="top-icon-btn" id="theme" aria-label="Basculer entre le thème sombre et clair" title="Thème sombre / clair"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"/></svg></button><a class="top-icon-btn" href="#compte" aria-label="Ouvrir mon profil" title="Mon profil">'+avatar+'</a></div>';
   /* La barre du bas n'est pas reconstruite à chaque écran : seul l'onglet actif change (moins de clignotement, plus rapide). */
   const oldBar=app.querySelector('.bnav');if(oldBar) oldBar.remove();
@@ -636,7 +679,7 @@ async function openAccount(){
         name:meta.full_name||meta.name||user.email||'Utilisateur',
         username:meta.username||(user.email||'').split('@')[0], email:user.email||'',
         phone:meta.phone||'', city:meta.city||'', profession:meta.profession||'',
-        photo:meta.avatar_url||localProfile.photo||'', supabaseUser:true
+        photo:meta.avatar_url||localProfile.photo||'', avatar:meta.avatar_id||localProfile.avatar||'', supabaseUser:true
       };
       renderAccountProfile(profile);
       return;
@@ -659,7 +702,8 @@ function renderAccountProfile(a){
   const link=(t,href,ext)=>'<a class="acc-row acc-link" href="'+href+'"'+(ext?' target="_blank" rel="noopener"':'')+'><span class="acc-label"><strong>'+t+'</strong></span>'+CH+'</a>';
   shell('compte',
     '<div class="page-h"><h1>Compte</h1></div>'+
-    '<section class="acc-top"><label class="account-avatar acc-avatar" for="profile-photo-input" aria-label="Ajouter ou modifier la photo de profil">'+(a.photo?'<img src="'+a.photo+'" alt="Photo de profil">':initial)+camera+'</label><input id="profile-photo-input" type="file" accept="image/*" hidden><div class="acc-id"><h2>'+esc(a.name||a.username)+'</h2><p>'+esc(a.email||'')+'</p></div></section>'+
+    '<section class="acc-top"><button type="button" class="account-avatar acc-avatar" id="avatar-open" aria-expanded="false" aria-controls="avatar-picker" aria-label="Changer d’avatar ou de photo">'+avatarMarkup(a)+camera+'</button><input id="profile-photo-input" type="file" accept="image/*" hidden><div class="acc-id"><h2>'+esc(a.name||a.username)+'</h2><p>'+esc(a.email||'')+'</p></div></section>'+
+    '<section class="acc-picker" id="avatar-picker" hidden><p class="acc-picker-t">Choisissez un avatar</p><div class="acc-avs">'+AVATARS.map(x=>'<button type="button" class="acc-av'+(!a.photo&&avatarIdFor(a)===x.id?' is-on':'')+'" data-av="'+x.id+'" aria-label="'+x.t+'" aria-pressed="'+(!a.photo&&avatarIdFor(a)===x.id)+'">'+avatarSVG(x)+'</button>').join('')+'</div><div class="acc-picker-act"><label class="acc-btn" for="profile-photo-input">Choisir une photo</label>'+(a.photo?'<button type="button" class="acc-btn acc-btn-dim" id="profile-photo-remove">Retirer ma photo</button>':'')+'</div></section>'+
 
     '<h2 class="acc-title">Mon compte</h2><section class="acc-group">'+
       '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Mon profil</strong><small>Nom, identifiant, coordonnées</small></span>'+CH+'</summary><div class="acc-panel"><form id="acc-profile-form" class="fields">'+
@@ -712,6 +756,14 @@ function renderAccountProfile(a){
   }
   const photoInput=$('#profile-photo-input');
   if(photoInput) photoInput.onchange=()=>{const file=photoInput.files&&photoInput.files[0];if(!file)return;if(!file.type||!file.type.startsWith('image/')){alert('Choisissez un fichier image.');return;}if(file.size>8*1024*1024){alert('Choisissez une image de moins de 8 Mo.');photoInput.value='';return;}const reader=new FileReader();reader.onload=()=>{const img=new Image();img.onload=()=>{const max=320,scale=Math.min(1,max/Math.max(img.width,img.height)),canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(img.width*scale));canvas.height=Math.max(1,Math.round(img.height*scale));const ctx=canvas.getContext('2d');ctx.drawImage(img,0,0,canvas.width,canvas.height);const updated=Object.assign({},a,{photo:canvas.toDataURL('image/jpeg',.78)});if(!accountSave(updated)){alert('Impossible d’enregistrer la photo dans le stockage local de ce navigateur.');return;}renderAccountProfile(updated);};img.onerror=()=>alert('Cette image ne peut pas être ouverte.');img.src=reader.result;};reader.readAsDataURL(file);};
+  const avOpen=$('#avatar-open'),avPick=$('#avatar-picker');
+  if(avOpen&&avPick) avOpen.onclick=()=>{const show=avPick.hidden;avPick.hidden=!show;avOpen.setAttribute('aria-expanded',String(show));};
+  $$('[data-av]').forEach(b=>b.onclick=async()=>{
+    const updated=Object.assign({},a,{avatar:b.dataset.av});delete updated.photo;accountSave(updated);
+    const au=window.JuriskProAuth;
+    if(a.supabaseUser&&au&&au.getClient()){try{await au.getClient().auth.updateUser({data:{avatar_id:b.dataset.av}});}catch(e){}}
+    renderAccountProfile(updated);
+  });
   const photoRemove=$('#profile-photo-remove');if(photoRemove)photoRemove.onclick=()=>{const updated=Object.assign({},a);delete updated.photo;accountSave(updated);renderAccountProfile(updated);};
   $('#acc-profile-form').onsubmit=async e=>{
     e.preventDefault();const v=id=>$('#'+id).value.trim();
@@ -1322,4 +1374,4 @@ document.addEventListener('pointerdown',e=>{
   const r=parseRoute((a.getAttribute('href')||'').slice(1));
   if((r.t==='model'||r.t==='detail')&&!FULL[r.id]) loadModels([r.id]).catch(()=>{});
 },{passive:true});
-window.JuriskProAuth.require(function(){ route(); setTimeout(prefetchModels,1200); });
+window.JuriskProAuth.require(function(){ route(); syncAccountFromSession(); setTimeout(prefetchModels,1200); });

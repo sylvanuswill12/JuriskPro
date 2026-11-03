@@ -1106,3 +1106,18 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 
 .acc-note{margin:-2px 16px 10px;font-size:12.5px;line-height:1.45;color:var(--ink-2)}
 .acc-note[hidden]{display:none}
+
+/* Avatars */
+.av-svg{width:100%;height:100%;display:block}
+.top-icon-btn[href="#compte"]{border-radius:50%;overflow:hidden;padding:0;border:0;display:block;width:36px;height:36px}
+.top-icon-btn[href="#compte"] .av-svg,.top-icon-btn[href="#compte"] .top-profile-img{width:100%;height:100%;border-radius:50%}
+.acc-avatar{padding:0;border:0;position:relative;overflow:visible}
+.acc-avatar>.av-svg,.acc-avatar>img{border-radius:50%;width:100%;height:100%;object-fit:cover}
+.acc-picker{margin:10px 0 0;padding:14px;border-radius:14px;background:var(--surface-2,var(--accent-soft))}
+.acc-picker[hidden]{display:none}
+.acc-picker-t{margin:0 0 10px;font-size:13px;font-weight:650;color:var(--ink-2)}
+.acc-avs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;justify-items:center}
+.acc-av{width:68px;height:68px;padding:0;border:0;border-radius:50%;overflow:hidden;cursor:pointer;background:none;outline:3px solid transparent;outline-offset:2px;transition:outline-color .12s,transform .1s}
+.acc-av:active{transform:scale(.94)}.acc-av.is-on{outline-color:var(--accent)}
+.acc-picker-act{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px}
+.acc-picker-act .acc-btn{cursor:pointer}.acc-btn-dim{color:var(--ink-2)!important;font-weight:600}
