@@ -1059,3 +1059,11 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .fam-aide{margin:6px 0 0;font-size:13px;line-height:1.4;opacity:.75}
 .fam-sub{grid-column:1/-1;margin:16px 0 2px}
 .more-wrap{margin:18px 0;text-align:center}
+
+/* Correctif d'affichage : titre + description groupés (plus de titre écrasé lettre par lettre, web et Android) */
+#catalog .model-compact .fam-body{flex:1 1 0;min-width:0}
+#catalog .model-compact .fam-body h3{flex:none;width:auto;min-width:0}
+#catalog .model-compact .fam-body h3 a{display:block;overflow-wrap:break-word;word-break:normal;hyphens:auto}
+#catalog .model-compact .fam-aide{margin:4px 0 0;font-size:12.5px;line-height:1.4;overflow-wrap:break-word;word-break:normal}
+#catalog .model-compact .model-row-meta{flex:0 0 auto}
+@media(max-width:480px){#catalog .model-compact{flex-wrap:wrap}#catalog .model-compact .fam-body{flex-basis:calc(100% - 40px)}#catalog .model-compact .model-row-meta{flex:0 0 auto;margin-left:auto}}

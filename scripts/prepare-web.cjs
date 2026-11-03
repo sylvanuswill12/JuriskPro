@@ -10,7 +10,7 @@ for (const name of required) {
   if (!fs.existsSync(source)) throw new Error(`Fichier requis absent à la racine : ${name}`);
   fs.copyFileSync(source, path.join(out, name));
 }
-for (const name of ['politique-confidentialite.html', 'sw.js', 'manifest.webmanifest']) {
+for (const name of ['politique-confidentialite.html', 'conditions-utilisation.html', 'sw.js', 'manifest.webmanifest']) {
   const source = path.join(root, name);
   if (fs.existsSync(source)) fs.copyFileSync(source, path.join(out, name));
 }

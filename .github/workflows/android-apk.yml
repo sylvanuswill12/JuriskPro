@@ -21,6 +21,7 @@ on:
       - "auth-gate.js"
       - "supabase-config.js"
       - "politique-confidentialite.html"
+      - "conditions-utilisation.html"
       - "icons/**"
       - "assets/**"
       - "package.json"
