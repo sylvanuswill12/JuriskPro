@@ -1,3 +1,4 @@
+/* @needs sarl-pluripersonnelle-mixte */
 /* ============================================================
    MODÈLE 3 : Déclaration de souscription et de versement (DSV)
    Article 314 de l'Acte uniforme révisé, article 6 de l'ordonnance 2014-161.

@@ -48,3 +48,10 @@ Cette version impose une étape d'authentification Supabase avant l'accès à l'
 
 ## APK signé
 Voir `SIGNATURE-APK.md`.
+
+## Architecture pour de nombreux modèles
+- Un modèle = un fichier (`models/<id>.json` ou `.js`). Le catalogue est généré : `npm run build:catalogue`.
+- Au démarrage : seulement `catalogue-data.js` (familles). Les listes se chargent par pages de 40, la recherche utilise un index compact, un modèle n'est téléchargé qu'à son ouverture.
+- Les brouillons, l'historique (20 par 20) et l'écran de contrôle ne chargent que ce qu'ils affichent.
+- Contrôle automatique de tous les modèles : `npm test` (aussi lancé par GitHub à chaque publication).
+- Guide complet pour ajouter un modèle : `MODELES.md`.

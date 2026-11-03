@@ -4,9 +4,13 @@
   "private": true,
   "description": "Build Android APK for JuriskPro using Capacitor and GitHub Actions",
   "scripts": {
-    "prepare:web": "node scripts/vendor-libs.cjs && node scripts/prepare-web.cjs",
+    "prepare:web": "node scripts/build-catalogue.cjs && node scripts/vendor-libs.cjs && node scripts/prepare-web.cjs",
     "android:sync": "npm run prepare:web && cap sync android",
-    "vendor": "node scripts/vendor-libs.cjs"
+    "vendor": "node scripts/vendor-libs.cjs",
+    "build:catalogue": "node scripts/build-catalogue.cjs",
+    "check:catalogue": "node scripts/build-catalogue.cjs --check",
+    "test:models": "node scripts/validate-models.cjs",
+    "test": "node scripts/build-catalogue.cjs --check && node scripts/validate-models.cjs"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",

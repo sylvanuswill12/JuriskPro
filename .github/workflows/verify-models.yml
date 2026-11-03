@@ -1,0 +1,27 @@
+name: Contrôle des modèles
+
+# Vérifie automatiquement tous les modèles et le catalogue à chaque publication.
+# Si un modèle est cassé (champ en double, faute de frappe dans un {{champ}}, exemple incomplet…),
+# la publication est signalée en rouge dans l'onglet Actions.
+on:
+  push:
+    branches: [main]
+    paths: ["models/**", "catalogue/**", "catalogue-data.js", "core.js", "engine.js", "spec.js", "scripts/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Le catalogue est à jour
+        run: node scripts/build-catalogue.cjs --check
+      - name: Contrôle de tous les modèles
+        run: node scripts/validate-models.cjs

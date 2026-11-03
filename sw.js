@@ -1,12 +1,25 @@
 // JuriskPro : cache des fichiers de l'application (démarrage rapide).
 // Les données (Supabase) restent toujours en ligne et ne sont jamais mises en cache.
 // Pensez à changer VERSION à chaque publication pour forcer la mise à jour du cache.
-const VERSION = 'jp-v11';
+const VERSION = 'jp-v12';
 const SHELL = [
-  './', './index.html', './styles.css', './core.js', './catalogue.js', './app.js', './auth-gate.js', './supabase-config.js',
+  './', './index.html', './styles.css', './core.js', './engine.js', './catalogue-data.js', './catalogue.js', './app.js', './auth-gate.js', './supabase-config.js',
   './manifest.webmanifest', './icons/icon-192.png', './icons/logo-96.webp'
 ];
 const CDN_STABLE = ['https://cdnjs.cloudflare.com/']; // versions figées : cache d'abord
+
+// Avec des milliers de modèles, le cache ne doit pas grossir sans limite :
+// on garde les MAX_ENTRIES fichiers les plus récents (fichiers de l'application compris).
+const MAX_ENTRIES = 300;
+let trimming = false;
+async function trim(cache) {
+  if (trimming) return;
+  trimming = true;
+  try {
+    const keys = await cache.keys();
+    if (keys.length > MAX_ENTRIES) await Promise.all(keys.slice(0, keys.length - MAX_ENTRIES).filter(k => !/\/(index\.html|app\.js|core\.js|engine\.js|catalogue(-data)?\.js|styles\.css|auth-gate\.js)(\?|$)/.test(k.url)).map(k => cache.delete(k)));
+  } finally { trimming = false; }
+}
 
 self.addEventListener('install', event => {
   event.waitUntil(
@@ -43,7 +56,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(caches.open(VERSION).then(async cache => {
       const hit = await cache.match(req, { ignoreSearch: req.mode === 'navigate' });
       const net = fetch(req).then(res => {
-        if (res && res.ok) cache.put(req, res.clone());
+        if (res && res.ok) { cache.put(req, res.clone()); trim(cache); }
         return res;
       }).catch(() => hit);
       return hit || net;

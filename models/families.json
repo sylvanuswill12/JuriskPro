@@ -1,0 +1,14 @@
+[
+ {
+  "ord": 1,
+  "id": "prive",
+  "titre": "Actes sous seing privé",
+  "aide": "Rédigés par les associés, sans notaire."
+ },
+ {
+  "ord": 2,
+  "id": "notaires",
+  "titre": "Notaires",
+  "aide": "Actes reçus par un notaire : statuts, déclaration de souscription et de versement, cession de parts."
+ }
+]

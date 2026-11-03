@@ -1054,3 +1054,8 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 @media (prefers-reduced-motion:reduce){
   .skel,.search.loading::after,.spin,.is-busy::before{animation-duration:1.6s}
 }
+
+/* Catalogue : familles, listes paginées */
+.fam-aide{margin:6px 0 0;font-size:13px;line-height:1.4;opacity:.75}
+.fam-sub{grid-column:1/-1;margin:16px 0 2px}
+.more-wrap{margin:18px 0;text-align:center}

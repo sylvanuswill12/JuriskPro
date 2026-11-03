@@ -4,8 +4,6 @@
 const $=(s,r)=> (r||document).querySelector(s);
 const $$=(s,r)=>Array.from((r||document).querySelectorAll(s));
 const app=document.getElementById('app');
-/* byId : modèle complet s'il est chargé, sinon sa fiche du catalogue (titre, résumé, etc.). */
-const byId=id=>FULL[id]||MODELS.find(m=>m.id===id);
 const ICON_SEARCH='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
 const ICON_DOC='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>';
 const ICON_SCALE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 21h10M5 7h14M7 7l-4 7h8L7 7zM17 7l-4 7h8l-4-7z"/></svg>';
@@ -41,22 +39,7 @@ function toggleTheme(){
 }
 applyTheme(store.get('juriskpro:theme'));
 
-function eachField(m,fn){
-  m.etapes.forEach((e,si)=>{
-    (e.champs||[]).forEach(c=>{
-      if(c.type==='repeat'){for(let i=0;i<c.max;i++) c.fields(i).forEach(f=>fn(f,si,c,i));}
-      else fn(c,si,null,0);
-    });
-  });
-}
-function buildIndex(m){
-  const ix={};
-  eachField(m,(f,si,rep,i)=>{
-    if(f.type==='info'||f.type==='title'||f.type==='action') return;
-    ix[f.id]={step:si,label:(f.group?f.group+' : ':'')+f.label};
-  });
-  return ix;
-}
+/* eachField, buildIndex, champs obligatoires et analyse : voir engine.js */
 
 /* ---------- Calculs ---------- */
 function recompute(){
@@ -65,93 +48,35 @@ function recompute(){
   return {V:V,blocks:blocks};
 }
 
-/* ---------- Validation stricte avant aperçu / export ---------- */
-function requiredMissing(m,s){
-  const missing=[];
-  const add=(f,si,rep,i)=>{
-    if(!f||!f.req||['info','title','action'].includes(f.type)) return;
-    if(f.showIf&&!f.showIf(s)) return;
-    if(rep&&i>=clamp(parseInt(s[rep.countKey],10)||rep.min||1,rep.min||1,rep.max)) return;
-    const v=s[f.id];
-    if(v==null||String(v).trim()==='') missing.push({id:f.id,step:si,label:(f.group?f.group+' : ':'')+f.label});
-  };
-  m.etapes.forEach((e,si)=>{
-    if(e.final) return;
-    (e.champs||[]).forEach(c=>{
-      if(c.type==='repeat'){
-        if(c.showIf&&!c.showIf(s)) return;
-        const n=clamp(parseInt(s[c.countKey],10)||c.min||1,c.min||1,c.max);
-        for(let i=0;i<n;i++) c.fields(i).forEach(f=>add(f,si,c,i));
-      }else add(c,si,null,0);
-    });
-  });
-  const have=new Set(missing.map(x=>x.id)),ixr=buildIndex(m);
-  neededIds(m,s).forEach(id=>{
-    if(have.has(id)||!ixr[id]) return;
-    const v=s[id];
-    if(v==null||String(v).trim()==='') missing.push({id:id,step:ixr[id].step,label:ixr[id].label});
-  });
-  return missing.sort((x,y)=>x.step-y.step);
+const NOT_DRAFT=['account','history','theme','notifications'];
+/* Liste des brouillons présents sur l'appareil : aucun modèle n'est chargé pour l'afficher. */
+function listDrafts(){
+  const out=[];
+  try{
+    for(let i=0;i<localStorage.length;i++){
+      const mm=/^juriskpro:(.+):v1$/.exec(localStorage.key(i)||'');
+      if(!mm||NOT_DRAFT.indexOf(mm[1])>-1) continue;
+      const d=readDraft(mm[1]);if(d) out.push({id:mm[1],d:d});
+    }
+  }catch(e){}
+  return out.sort((x,y)=>(y.d.t||0)-(x.d.t||0));
 }
-/* ---------- Champs obligatoires : mêmes règles pour tous les modèles ----------
-   Un champ est obligatoire s'il est marqué req dans le modèle OU si le document en a besoin
-   dans l'état actuel du formulaire (il laisserait un blanc). Les champs qui ne concernent pas
-   votre cas (apport en nature d'un associé en numéraire, conjoint d'un célibataire…) ne sont pas exigés. */
-let DYN=new Set(),_needKey='',_needVal=[];
-const STAR=' <span class="required-star" aria-label="champ obligatoire" title="Champ obligatoire">*</span>';
-const isReq=f=>!!(f&&(f.req||DYN.has(f.id)));
-function neededIds(m,s){
-  const counts=new Set(),sk=[],opt=new Set(),s2=Object.assign({},s);
-  m.etapes.forEach(e=>(e.champs||[]).forEach(c=>{if(c.type==='repeat'&&c.countKey) counts.add(c.countKey);}));
-  eachField(m,f=>{
-    if(['info','title','action'].includes(f.type)) return;
-    if(f.opt||/\(facultatif\)/i.test(f.label||'')) opt.add(f.id);
-    if(['text','area','date','money'].includes(f.type)||(f.type==='int'&&!counts.has(f.id))) s2[f.id]='';
-    else sk.push(f.id+'='+s[f.id]);
-  });
-  const key=m.id+'§'+sk.join('|');
-  if(key!==_needKey){
-    _needKey=key;
-    try{const V=m.compute(s2),out=renderHTML(m.blocks(s2,V),V),ix=buildIndex(m);_needVal=[...out.missing].filter(id=>ix[id]&&!opt.has(id));}
-    catch(e){_needVal=[];}
-  }
-  if(m===M) DYN=new Set(_needVal);
-  return _needVal;
-}
-let _anK='',_anV=null;
-function analyse(m,s){const k=m.id+'§'+JSON.stringify(s);if(k===_anK) return _anV;const v=analyseRaw(m,s);_anK=k;_anV=v;return v;}
-function finalValidation(m,s){
-  const an=analyse(m,s),req=requiredMissing(m,s);
-  return {an:an,req:req,blocked:req.length>0||an.probs.length>0};
-}
-function firstCorrectionStep(v){
-  if(v.req.length) return v.req[0].step;
-  if(v.an.probs.length) return v.an.probs[0].step;
-  return 0;
-}
-
-/* ---------- Analyse d'un état (contrôles réellement effectués) ---------- */
-function analyseRaw(m,s){
-  const ix=buildIndex(m),V=m.compute(s),bl=m.blocks(s,V),out=renderHTML(bl,V);
-  const miss=[...out.missing].filter(id=>ix[id]);
-  const probs=[];
-  eachField(m,(f,si,rep,i)=>{
-    if(f.type!=='info') return;
-    if(rep&&i>=clamp(parseInt(s[rep.countKey],10)||rep.min||1,rep.min||1,rep.max)) return;
-    const r=f.calc(s,V);
-    if(r&&r.c==='bad') probs.push({t:r.t,step:si});
-  });
-  const per=m.etapes.map(()=>0);
-  miss.forEach(id=>{per[ix[id].step]++;});
-  const secs=m.etapes.map((e,i)=>({i:i,t:e.court||e.titre,full:e.titre,final:!!e.final,n:per[i]})).filter(x=>!x.final);
-  return {ix:ix,miss:miss,missAll:out.missing.size,probs:probs,secs:secs,done:secs.filter(x=>!x.n).length};
+/* Résumé enregistré avec le brouillon : titre, avancement, blancs. Évite de recharger le modèle pour l'afficher. */
+function draftMeta(m,s){
+  let an=null;try{an=analyse(m,s);}catch(e){}
+  return {titre:m.titre,headline:(m.headline?m.headline(s):'')||'',n:an?an.secs.length:0,done:an?an.done:0,missAll:an?an.missAll:0,probs:an?an.probs.length:0};
 }
 function draftsList(){
-  return MODELS.map(m=>({m:FULL[m.id],d:readDraft(m.id)})).filter(x=>x.m&&x.d).sort((a,b)=>(b.d.t||0)-(a.d.t||0)).map(x=>{
-    const s=Object.assign(x.m.defaults(),x.d.v);
-    let an=null;try{an=analyse(x.m,s);}catch(e){}
-    return {m:x.m,d:x.d,s:s,an:an};
-  });
+  return listDrafts().map(x=>({id:x.id,d:x.d,meta:x.d.meta||null,m:{id:x.id,titre:(x.d.meta&&x.d.meta.titre)||(Cat.meta(x.id)||{}).titre||x.id}}));
+}
+/* Anciens brouillons sans résumé : on charge leur modèle une fois pour le calculer (6 au plus à la fois). */
+async function upgradeDrafts(){
+  const miss=listDrafts().filter(x=>!x.d.meta).slice(0,6);
+  if(!miss.length) return false;
+  try{await loadModels(miss.map(x=>x.id));}catch(e){return false;}
+  let any=false;
+  miss.forEach(x=>{const m=FULL[x.id];if(!m) return;x.d.meta=draftMeta(m,Object.assign(m.defaults(),x.d.v));if(store.set(draftKey(x.id),JSON.stringify(x.d))) any=true;});
+  return any;
 }
 const fmtWhen=t=>t?new Date(t).toLocaleString('fr-FR',{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit'}):'';
 const plural=(n,a,b)=>n+' '+(n>1?b:a);
@@ -196,40 +121,57 @@ let lastH=null;
 let pendingOpen=null;
 
 /* ---------- Routage ---------- */
+/* Types d'écran à partir de l'adresse. Un identifiant de modèle n'a pas besoin d'être connu à l'avance. */
+const RESERVED=['','modeles','notaires','brouillons','historique','controle','compte'];
+function parseRoute(h){
+  let m;
+  if((m=/^m\/(.+)$/.exec(h))) return {t:'detail',id:m[1]};
+  if((m=/^modeles\/([\w-]+)$/.exec(h))) return {t:'fam',id:m[1]};
+  if(h==='notaires') return {t:'fam',id:'notaires'};
+  if(RESERVED.indexOf(h)>-1) return {t:h===''?'home':h};
+  return {t:'model',id:h};
+}
 /* Profondeur d'un écran : sert à choisir le sens de l'animation (avancer = glisse depuis la droite, reculer = depuis la gauche). */
-function depthOf(h){if(!h) return 1;if(/^m\//.test(h)) return 3;return byId(h)?2:1;}
+function depthOf(h){const r=parseRoute(h);return r.t==='model'?3:(r.t==='detail'||r.t==='fam')?2:1;}
 function route(){
   const h=(location.hash||'').replace(/^#/,'');
   if(h!==lastH){ui.armed='';ui.anim=lastH===null?'fade':(depthOf(h)>depthOf(lastH)?'fwd':depthOf(h)<depthOf(lastH)?'back':'fade');lastH=h;}
-  /* Modèles à charger avant d'afficher l'écran : celui qu'on ouvre + ceux qui ont un brouillon. */
-  const need=[];let mm;
-  if((mm=/^m\/(.+)$/.exec(h))&&byId(mm[1])) need.push(mm[1]);
-  else if(byId(h)) need.push(h);
-  if(need.length||h===''||h==='brouillons'||h==='controle') MODELS.forEach(m=>{if(need.indexOf(m.id)<0&&readDraft(m.id)) need.push(m.id);});
-  const missing=need.filter(id=>!FULL[id]);
-  if(!missing.length){routeNow(h);return;}
-  document.body.classList.add('jp-busy');
-  loadModels(missing).then(()=>{
-    document.body.classList.remove('jp-busy');
-    if((location.hash||'').replace(/^#/,'')===h) routeNow(h);
-  },()=>{
-    document.body.classList.remove('jp-busy');
-    setTitle('Connexion lente');
-    app.innerHTML='<div class="wrap"><main id="main" tabindex="-1"><section class="empty-state"><h1>Chargement impossible</h1><p>Le modèle n’a pas pu être téléchargé. Vérifiez votre connexion Internet, puis réessayez. Vos brouillons ne sont pas supprimés.</p><p><button type="button" class="btn" id="jp-retry">Réessayer</button> <a class="btn ghost" href="#">Accueil</a></p></section></main></div>';
-    const b=$('#jp-retry');if(b)b.onclick=route;
-  });
+  const r=parseRoute(h);
+  if((r.t==='model'||r.t==='detail')&&!FULL[r.id]){
+    document.body.classList.add('jp-busy');
+    (async()=>{
+      if(!(await modelExists(r.id))) return 'absent';
+      await loadModels([r.id]);
+      const nx=FULL[r.id]&&FULL[r.id].next;if(nx) await Cat.index().catch(()=>{});
+      return 'ok';
+    })().then(st=>{
+      document.body.classList.remove('jp-busy');
+      if((location.hash||'').replace(/^#/,'')!==h) return;
+      if(st==='absent'||!FULL[r.id]){try{history.replaceState(null,'',location.pathname);}catch(e){}lastH='';routeNow('',{t:'home'});return;}
+      routeNow(h,r);
+    },()=>{
+      document.body.classList.remove('jp-busy');
+      setTitle('Connexion lente');
+      app.innerHTML='<div class="wrap"><main id="main" tabindex="-1"><section class="empty-state"><h1>Chargement impossible</h1><p>Le modèle n’a pas pu être téléchargé. Vérifiez votre connexion Internet, puis réessayez. Vos brouillons ne sont pas supprimés.</p><p><button type="button" class="btn" id="jp-retry">Réessayer</button> <a class="btn ghost" href="#">Accueil</a></p></section></main></div>';
+      const b=$('#jp-retry');if(b)b.onclick=route;
+    });
+    return;
+  }
+  routeNow(h,r);
 }
-function routeNow(h){
+function routeNow(h,r){
   try{
-    let m;
-    if((m=/^m\/(.+)$/.exec(h))&&byId(m[1])) openDetail(byId(m[1]));
-    else if(byId(h)) openModel(byId(h));
-    else if(h==='modeles'||h==='notaires'){if(h==='notaires') ui.cat='notaires';openLibrary();}
-    else if(h==='brouillons') openDrafts();
-    else if(h==='historique') openHistory();
-    else if(h==='controle') openControl();
-    else if(h==='compte') openAccount();
-    else openHome();
+    switch(r.t){
+      case 'detail': openDetail(FULL[r.id]);break;
+      case 'model': openModel(FULL[r.id]);break;
+      case 'fam': openFamily(r.id);break;
+      case 'modeles': openLibrary();break;
+      case 'brouillons': openDrafts();break;
+      case 'historique': openHistory();break;
+      case 'controle': openControl();break;
+      case 'compte': openAccount();break;
+      default: openHome();
+    }
   }catch(err){
     console.error('Erreur de navigation JuriskPro :',err);
     setTitle('Erreur');
@@ -245,10 +187,13 @@ function openWith(id,step,jump){pendingOpen={id:id,step:step,jump:jump};go(id);}
 /* ============================================================
    ÉCRAN 1 : ACCUEIL
    ============================================================ */
+function famShortcuts(){
+  return CAT_FAMILIES.filter(f=>f.count>0).slice(0,4).map((f,i)=>
+    '<a class="short home-short" href="#modeles/'+f.id+'"><span class="short-icon">'+(i%2?ICON_SCALE:ICON_DOC)+'</span><span class="short-copy"><strong>'+esc(f.titre)+'</strong><span>'+plural(f.count,'modèle','modèles')+'. '+esc(f.aide)+'</span></span><span class="short-arrow">↗</span></a>').join('');
+}
 function openHome(){
   leave();setTitle('');
   const ds=draftsList(),recent=ds.slice(0,2);
-  const privN=MODELS.filter(m=>m.cat==='prive').length,notN=MODELS.filter(m=>m.cat==='notaires').length;
   shell('accueil',
     '<section class="home-hero"><div class="home-copy">'+
       '<p class="eyebrow"><span class="home-dot"></span> VOTRE ESPACE DE RÉDACTION</p>'+
@@ -262,24 +207,23 @@ function openHome(){
     '</div></section>'+
     '<section class="home-steps" aria-label="Comment utiliser JuriskPro"><div class="home-step"><span>01</span><div><b>Choisissez</b><small>un modèle adapté</small></div></div><div class="step-connector"></div><div class="home-step"><span>02</span><div><b>Renseignez</b><small>les champs demandés</small></div></div><div class="step-connector"></div><div class="home-step"><span>03</span><div><b>Téléchargez</b><small>votre document</small></div></div></section>'+
     (recent.length?'<section class="block home-recent" aria-labelledby="h-rec"><div class="cat-h"><div><p class="eyebrow">CONTINUER</p><h2 id="h-rec">Reprendre votre travail</h2></div><a href="#brouillons">Voir tous les brouillons →</a></div><div class="drafts">'+recent.map(x=>draftHTML(x,false)).join('')+'</div></section>':'')+
-    '<section class="block home-library" aria-labelledby="h-fam"><div class="cat-h"><div><p class="eyebrow">BIBLIOTHÈQUE</p><h2 id="h-fam">Par où commencer ?</h2></div><a href="#modeles">Tous les modèles →</a></div><div class="shortcuts">'+
-      '<a class="short home-short" href="#modeles"><span class="short-icon">'+ICON_DOC+'</span><span class="short-copy"><strong>Actes sous seing privé</strong><span>'+privN+' modèles pour préparer vos actes sans acte reçu par un notaire.</span></span><span class="short-arrow">↗</span></a>'+
-      '<a class="short home-short" href="#notaires"><span class="short-icon">'+ICON_SCALE+'</span><span class="short-copy"><strong>Actes notariés</strong><span>'+notN+' modèles pour les actes relevant d’un notaire.</span></span><span class="short-arrow">↗</span></a></div></section>'+
-    '<section class="home-bottom"><div><span class="home-bottom-icon">✓</span><p><b>Des modèles révisés par un juriste qualifié</b><small>Tous les modèles publiés sur JuriskPro ont été révisés par un juriste qualifié. Les contrôles automatiques aident à repérer certains champs manquants et certaines incohérences. Faites vérifier le document avant signature.</small></p></div><div class="home-total"><b>'+MODELS.length+'</b><span>modèles disponibles</span></div></section>'+
+    '<section class="block home-library" aria-labelledby="h-fam"><div class="cat-h"><div><p class="eyebrow">BIBLIOTHÈQUE</p><h2 id="h-fam">Par où commencer ?</h2></div><a href="#modeles">Tous les modèles →</a></div><div class="shortcuts">'+famShortcuts()+'</div></section>'+
+    '<section class="home-bottom"><div><span class="home-bottom-icon">✓</span><p><b>Des modèles révisés par un juriste qualifié</b><small>Tous les modèles publiés sur JuriskPro ont été révisés par un juriste qualifié. Les contrôles automatiques aident à repérer certains champs manquants et certaines incohérences. Faites vérifier le document avant signature.</small></p></div><div class="home-total"><b>'+CAT_FAMILIES.reduce((n,f)=>n+f.count,0)+'</b><span>modèles disponibles</span></div></section>'+
     '<footer class="foot">Votre compte et votre historique sont associés à votre compte personnel. Les brouillons de saisie restent locaux à cet appareil.</footer>');
-  $('#hq').addEventListener('submit',e=>{e.preventDefault();ui.q=$('#q').value;ui.cat='all';go('modeles');});
+  $('#hq').addEventListener('submit',e=>{e.preventDefault();ui.q=$('#q').value;go('modeles');});
   bindDrafts($('#main'));
+  upgradeDrafts().then(ch=>{if(ch&&!(location.hash||'').replace(/^#/,'')) openHome();});
 }
 function paintPaths(){
   const el=$('#paths');if(!el) return;
   el.innerHTML='<div class="block"><div class="cat-h"><h2>Parcours</h2><span>Les actes à enchaîner pour une même opération</span></div>'+
-   PARCOURS.map(p=>'<div class="path"><h3>'+esc(p.titre)+'</h3><p>Dans cet ordre.</p><ol>'+p.etapes.map(e=>'<li><strong>'+esc(e.t)+'</strong><span>'+esc(e.d)+'</span><span class="lk">'+e.ids.map(id=>{const m=byId(id);return '<a href="#m/'+id+'">'+esc(m.titre.replace(/^Statuts de /,''))+'</a>';}).join('')+'</span></li>').join('')+'</ol></div>').join('')+
+   PARCOURS.map(p=>'<div class="path"><h3>'+esc(p.titre)+'</h3><p>Dans cet ordre.</p><ol>'+p.etapes.map(e=>'<li><strong>'+esc(e.t)+'</strong><span>'+esc(e.d)+'</span><span class="lk">'+e.ids.map(id=>{return '<a href="#m/'+id+'">'+esc(Cat.titleSync(id).replace(/^Statuts de /,''))+'</a>';}).join('')+'</span></li>').join('')+'</ol></div>').join('')+
    '<p class="soon">D’autres modèles seront ajoutés ici : procès-verbaux, cessions de parts, statuts de SAS.</p></div>';
 }
 
 /* ---------- Carte de brouillon (accueil, brouillons) ---------- */
 function draftHTML(x,full){
-  const head=x.m.headline(x.d.v),an=x.an;
+  const head=(x.meta&&x.meta.headline)||'',an=x.meta&&x.meta.n?{secs:{length:x.meta.n},done:x.meta.done,missAll:x.meta.missAll}:null;
   const armed=ui.armed===x.m.id;
   let prog='';
   if(an){
@@ -304,47 +248,83 @@ function bindDrafts(root,repaint){
 /* ============================================================
    ÉCRAN 2 : BIBLIOTHÈQUE DES MODÈLES
    ============================================================ */
+const searchBox=()=>'<div class="search"><label class="sr" for="q">Rechercher un modèle</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Rechercher : statuts, SARL, bail, procuration…" autocomplete="off" value="'+esc(ui.q)+'"></div>';
+const famLabel=id=>{const f=Cat.family(id);return f?f.titre:'';};
+let searchSeq=0,qTimer=0;
 function openLibrary(){
   leave();setTitle('Modèles');
   shell('modeles',
-    '<div class="page-h"><h1>Modèles</h1><p>Choisissez l’acte à rédiger. Vous verrez le détail du modèle avant de commencer.</p></div>'+
-    '<div class="search"><label class="sr" for="q">Rechercher un modèle</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Rechercher : statuts, SARL, souscription…" autocomplete="off" value="'+esc(ui.q)+'"></div>'+
-    '<div id="catalog" aria-live="polite"></div>');
-  let qTimer=0;
+    '<div class="page-h"><h1>Modèles</h1><p>Choisissez une famille d’actes, ou recherchez un modèle par mot-clé.</p></div>'+searchBox()+'<div id="catalog" aria-live="polite"></div>');
   $('#q').addEventListener('input',e=>{
     ui.q=e.target.value;const box=e.target.closest('.search');
     if(box) box.classList.add('loading');
-    clearTimeout(qTimer);
-    qTimer=setTimeout(()=>{paintCatalog();if(box) box.classList.remove('loading');},200);
+    clearTimeout(qTimer);qTimer=setTimeout(paintLibrary,220);
   });
-  paintCatalog();
+  paintLibrary();
 }
-function matches(m){
-  const q=ui.q.trim().toLowerCase();
-  if(ui.cat!=='all'&&m.cat!==ui.cat) return false;
-  if(!q) return true;
-  const hay=(m.titre+' '+m.sous+' '+m.resume+' '+m.tags.join(' ')).toLowerCase();
-  return q.split(/\s+/).every(w=>hay.indexOf(w)>-1);
+function familiesHTML(){
+  const fams=CAT_FAMILIES.filter(f=>f.count>0),tot=fams.reduce((n,f)=>n+f.count,0);
+  return '<p class="count" role="status">'+plural(tot,'modèle','modèles')+' dans '+plural(fams.length,'famille','familles')+'</p><div class="grid">'+
+    fams.map(f=>'<article class="model model-compact"><h3><a href="#modeles/'+f.id+'">'+esc(f.titre)+'</a></h3><p class="fam-aide">'+esc(f.aide)+'</p><div class="model-row-meta"><span class="pill">'+plural(f.count,'modèle','modèles')+'</span><span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>').join('')+'</div>';
 }
-function paintCatalog(){
+function paintLibrary(){
   const el=$('#catalog');if(!el) return;
-  const chips='<div class="chips" role="group" aria-label="Filtrer par famille">'+
-    [{id:'all',titre:'Tous'}].concat(CATS).map(c=>'<button type="button" class="chip" data-cat="'+c.id+'" aria-pressed="'+(ui.cat===c.id)+'">'+esc(c.titre)+'</button>').join('')+'</div>';
-  const list=MODELS.filter(matches);
-  let body='<p class="count" role="status">'+plural(list.length,'modèle','modèles')+'</p>';
-  if(!list.length) body='<p class="empty" role="status">Aucun modèle ne correspond à « '+esc(ui.q)+' »'+(ui.cat!=='all'?' dans cette famille':'')+'. Essayez « statuts » ou « SARL », ou choisissez « Tous ».</p>';
-  else CATS.forEach(c=>{
-    const items=list.filter(m=>m.cat===c.id);
-    if(!items.length) return;
-    body+='<div class="block"><div class="cat-h"><h2>'+esc(c.titre)+'</h2><span>'+esc(c.aide)+'</span></div><div class="grid">'+items.map(cardHTML).join('')+'</div></div>';
+  const box=$('.search'),q=ui.q.trim(),stop=()=>{if(box) box.classList.remove('loading');};
+  if(!q){searchSeq++;el.innerHTML=familiesHTML();stop();return;}
+  const my=++searchSeq;
+  Cat.search(q).then(res=>{
+    if(my!==searchSeq||!$('#catalog')) return;
+    ui.res=res;ui.shown=30;el.innerHTML=resultsHTML();bindResults();stop();
+  }).catch(()=>{
+    if(my!==searchSeq||!$('#catalog')) return;
+    el.innerHTML='<p class="msg err" role="status">La recherche n’est pas disponible pour le moment. Vérifiez votre connexion puis réessayez.</p>';stop();
   });
-  el.innerHTML=chips+body;
-  $$('.chip',el).forEach(b=>b.onclick=()=>{ui.cat=b.dataset.cat;paintCatalog();});
 }
-function cardHTML(m){
-  const d=readDraft(m.id);
-  return '<article class="model model-compact"><h3><a href="#m/'+m.id+'">'+esc(m.titre)+'</a></h3>'+
-    '<div class="model-row-meta">'+(d?'<span class="pill">Brouillon en cours</span>':'<span class="model-open-hint">Ouvrir le modèle</span>')+'<span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>';
+function resultsHTML(){
+  const res=ui.res,n=Math.min(ui.shown,res.length);
+  if(!res.length) return '<p class="empty" role="status">Aucun modèle ne correspond à « '+esc(ui.q)+' ». Essayez un mot plus court (« statuts », « bail », « vente ») ou parcourez les familles.</p><p><button type="button" class="linkbtn" id="clearq">Voir toutes les familles</button></p>';
+  return '<p class="count" role="status">'+plural(res.length,'modèle trouvé','modèles trouvés')+'</p><div class="grid">'+res.slice(0,n).map(r=>cardHTML(r,true)).join('')+'</div>'+(n<res.length?'<div class="more-wrap"><button type="button" class="btn ghost" id="more">Afficher plus de résultats</button></div>':'');
+}
+function bindResults(){
+  const el=$('#catalog'),c=$('#clearq'),b=$('#more');
+  if(c) c.onclick=()=>{ui.q='';const q=$('#q');if(q) q.value='';paintLibrary();};
+  if(b) b.onclick=()=>{ui.shown+=30;el.innerHTML=resultsHTML();bindResults();};
+}
+/* Page d'une famille : les modèles arrivent 40 par 40 (défilement ou bouton). */
+let famToken=0;
+function openFamily(fid){
+  const f=Cat.family(fid);if(!f){openLibrary();return;}
+  leave();setTitle(f.titre);
+  shell('modeles','<div class="page-h"><h1>'+esc(f.titre)+'</h1><p>'+esc(f.aide)+'</p></div><p class="count" role="status">'+plural(f.count,'modèle','modèles')+'</p><div id="famlist"></div><div id="fammore" class="more-wrap"></div>',{back:'#modeles',backLabel:'Tous les modèles'});
+  famPage(f,1);
+}
+function famPage(f,n){
+  const my=++famToken,list=$('#famlist'),more=$('#fammore');if(!list) return;
+  if(n===1) list.innerHTML=SKEL(3);
+  more.innerHTML='';
+  Cat.page(f.id,n).then(items=>{
+    if(my!==famToken||!$('#famlist')) return;
+    if(n===1) list.innerHTML='<div class="grid" id="famgrid"></div>';
+    const grid=$('#famgrid');let last=grid.dataset.sub||'',h='';
+    items.forEach(m=>{if(m.sub&&m.sub!==last){h+='<h3 class="sub-h fam-sub">'+esc(m.sub)+'</h3>';last=m.sub;}h+=cardHTML(m,false);});
+    grid.dataset.sub=last;grid.insertAdjacentHTML('beforeend',h);
+    if(n<f.pages){
+      const left=Math.max(0,f.count-n*CAT_PAGE);
+      more.innerHTML='<button type="button" class="btn ghost" id="more">Afficher plus ('+left+' restants)</button>';
+      const next=()=>famPage(f,n+1);
+      $('#more').onclick=next;
+      if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();if(my===famToken) next();}},{rootMargin:'300px'});io.observe($('#more'));}
+    }
+  }).catch(()=>{
+    if(my!==famToken) return;
+    (n===1?list:more).innerHTML='<p class="msg err" role="status">Impossible de charger cette liste. Vérifiez votre connexion.</p><p><button type="button" class="btn ghost" id="retry">Réessayer</button></p>';
+    const r=$('#retry');if(r) r.onclick=()=>famPage(f,n);
+  });
+}
+function cardHTML(m,withFam){
+  const hasDraft=store.get(draftKey(m.id))!==null,fam=withFam?famLabel(m.cat):'';
+  return '<article class="model model-compact"><h3><a href="#m/'+m.id+'">'+esc(m.titre)+'</a></h3>'+(m.sous?'<p class="fam-aide">'+esc(m.sous)+'</p>':'')+
+    '<div class="model-row-meta">'+(hasDraft?'<span class="pill">Brouillon en cours</span>':'<span class="model-open-hint">'+esc(fam||'Ouvrir le modèle')+'</span>')+'<span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>';
 }
 /* ============================================================
    ÉCRAN 3 : DÉTAIL DU MODÈLE
@@ -383,6 +363,7 @@ function openDrafts(){
     (ds.length?'<div class="drafts">'+ds.map(x=>draftHTML(x,true)).join('')+'</div>':
       '<div class="empty-state"><p><strong>Aucun brouillon pour le moment.</strong></p><p>Dès que vous saisissez une information dans un modèle, elle est enregistrée ici.</p><a class="btn" href="#modeles">Choisir un modèle</a></div>'));
   bindDrafts($('#main'),openDrafts);
+  upgradeDrafts().then(ch=>{if(ch&&location.hash==='#brouillons') openDrafts();});
 }
 
 /* ============================================================
@@ -393,10 +374,17 @@ const HISTORY_KEY='juriskpro:history:v1';
 function historyClient(){const a=window.JuriskProAuth;return a&&a.getClient?a.getClient():null;}
 function messageFr(error,fallback){const raw=String(error&&error.message||error||'').toLowerCase();if(/invalid login credentials|invalid password|wrong password/.test(raw))return 'Adresse e-mail ou mot de passe incorrect. Vérifiez vos identifiants puis réessayez.';if(/permission denied|not authorized|unauthorized|row-level security/.test(raw))return 'Vous n’êtes pas autorisé à effectuer cette opération. Vérifiez votre compte et vos droits d’accès.';if(/network|fetch failed|failed to fetch|load failed/.test(raw))return 'La connexion au service est impossible. Vérifiez votre connexion Internet puis réessayez.';if(/not found|does not exist|no such file/.test(raw))return 'Le document demandé est introuvable.';if(/expired|invalid.*token/.test(raw))return 'Votre session ou ce lien a expiré. Reconnectez-vous puis réessayez.';return fallback||'Une erreur est survenue. Réessayez dans quelques instants.';}
 async function historyUser(){const c=historyClient();if(!c)throw new Error('Connexion indisponible.');const {data,error}=await c.auth.getUser();if(error||!data.user)throw new Error('Session expirée. Reconnectez-vous.');return data.user;}
-async function historyRead(){
+const HIST_PAGE=20;
+/* Une page de l'historique, sans le texte complet des documents (chargé à la demande). */
+async function historyRead(from){
   const c=historyClient();if(!c)throw new Error('Connexion indisponible.');
-  const {data,error}=await c.from('juriskpro_documents').select('id,title,model_id,model_title,format,file_name,storage_path,document_text,values_json,created_at').order('created_at',{ascending:false}).limit(1000);
+  const {data,error}=await c.from('juriskpro_documents').select('id,title,model_id,model_title,format,file_name,storage_path,created_at').order('created_at',{ascending:false}).range(from||0,(from||0)+HIST_PAGE-1);
   if(error)throw error;return data||[];
+}
+async function historyText(id){
+  const c=historyClient();if(!c)throw new Error('Connexion indisponible.');
+  const {data,error}=await c.from('juriskpro_documents').select('document_text').eq('id',id).maybeSingle();
+  if(error)throw error;return (data&&data.document_text)||'';
 }
 async function historySave(item,blob){
   const c=historyClient(),u=await historyUser();if(!c)throw new Error('Connexion indisponible.');
@@ -422,19 +410,44 @@ async function historyDelete(id,path){
 function historyHTML(x){
   const d=Date.parse(x.created_at||x.createdAt)||0;
   return '<article class="history-item"><h3>'+esc(x.title||'Document sans titre')+'</h3><p class="history-meta">'+esc(x.model_title||x.modelTitle||'Modèle')+' · '+esc(d?fmtWhen(d):'Date inconnue')+' · '+esc((x.format||'').toUpperCase())+'</p>'+
-    '<details><summary>Consulter le contenu du document</summary><div class="history-content"><pre>'+esc(x.document_text||x.text||'Contenu non disponible')+'</pre></div></details>'+
+    '<details data-hid="'+esc(x.id)+'"><summary>Consulter le contenu du document</summary><div class="history-content"><pre>'+(x.document_text||x.text?esc(x.document_text||x.text):'Chargement…')+'</pre></div></details>'+
     '<div class="history-actions"><button type="button" class="btn small" data-history-download="'+esc(x.id)+'">Télécharger le fichier</button><a class="btn small ghost" href="#'+esc(x.model_id||x.modelId||'modeles')+'">Reprendre le modèle</a><button type="button" class="btn small ghost danger" data-history-del="'+esc(x.id)+'" data-history-path="'+esc(x.storage_path||'')+'">Supprimer</button></div></article>';
 }
 const SKEL=n=>'<div class="skel-list" role="status" aria-live="polite"><span class="sr">Chargement en cours…</span>'+Array(n+1).join('<div class="skel" aria-hidden="true"></div>')+'</div>';
+let hist={items:[],more:false};
+function histHead(p){return '<div class="page-h"><h1>Historique</h1><p>'+p+'</p></div>';}
 async function openHistory(){
-  leave();setTitle('Historique');shell('historique','<div class="page-h"><h1>Historique</h1><p><span class="spin" aria-hidden="true"></span> Chargement de vos documents…</p></div>'+SKEL(3));
+  leave();setTitle('Historique');
+  hist={items:[],more:false};
+  shell('historique',histHead('<span class="spin" aria-hidden="true"></span> Chargement de vos documents…')+SKEL(3));
   try{
-    const list=await historyRead();
-    shell('historique','<div class="page-h"><h1>Historique</h1><p>Vos documents sont enregistrés dans votre compte. Retrouvez-les après connexion depuis un autre téléphone ou ordinateur, puis téléchargez à nouveau les fichiers originaux.</p></div>'+
-      (list.length?'<div class="history-list">'+list.map(historyHTML).join('')+'</div>':'<div class="empty-state"><p><strong>Aucun document dans votre historique.</strong></p><p>Vos prochaines créations y seront enregistrées automatiquement.</p><a class="btn" href="#modeles">Créer un document</a></div>'));
-    $$('[data-history-del]').forEach(b=>b.onclick=async()=>{if(!confirm('Supprimer définitivement ce document de votre historique ?'))return;b.disabled=true;try{await historyDelete(b.dataset.historyDel,b.dataset.historyPath);await openHistory();}catch(e){alert('Suppression impossible : '+messageFr(e,'Une erreur est survenue lors de la suppression.'));b.disabled=false;}});
-    $$('[data-history-download]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{const item=list.find(x=>String(x.id)===b.dataset.historyDownload);if(!item||!item.storage_path)throw new Error('Fichier introuvable.');const c=historyClient();const {data,error}=await c.storage.from('juriskpro-documents').createSignedUrl(item.storage_path,60);if(error)throw error;if(isNativeApp()){const resp=await fetch(data.signedUrl);if(!resp.ok)throw new Error('Téléchargement impossible.');await nativeShareBlob(await resp.blob(),item.file_name||'document',item.file_name||'document');}else{const a=document.createElement('a');a.href=data.signedUrl;a.download=item.file_name||'document';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();}}catch(e){alert('Téléchargement impossible : '+messageFr(e,'Une erreur est survenue lors du téléchargement.'));}finally{b.disabled=false;}});
-  }catch(e){shell('historique','<div class="page-h"><h1>Historique</h1><p>Impossible de charger votre historique.</p></div><section class="card set"><p class="msg err">'+esc(messageFr(e,'Vérifiez votre connexion et la configuration de la sauvegarde sécurisée.'))+'</p><p>Vos documents ne sont pas affichés tant que la connexion au stockage sécurisé n’est pas rétablie.</p><button class="btn" type="button" id="history-retry">Réessayer</button></section>');const b=$('#history-retry');if(b)b.onclick=openHistory;}
+    const first=await historyRead(0);
+    hist.items=first;hist.more=first.length===HIST_PAGE;
+    paintHistory();
+  }catch(e){
+    shell('historique',histHead('Impossible de charger votre historique.')+'<section class="card set"><p class="msg err">'+esc(messageFr(e,'Vérifiez votre connexion et la configuration de la sauvegarde sécurisée.'))+'</p><p>Vos documents ne sont pas affichés tant que la connexion au stockage sécurisé n’est pas rétablie.</p><button class="btn" type="button" id="history-retry">Réessayer</button></section>');
+    const b=$('#history-retry');if(b) b.onclick=openHistory;
+  }
+}
+function paintHistory(){
+  const list=hist.items;
+  shell('historique',histHead('Vos documents sont enregistrés dans votre compte. Retrouvez-les après connexion depuis un autre téléphone ou ordinateur, puis téléchargez à nouveau les fichiers originaux.')+
+    (list.length?'<div class="history-list">'+list.map(historyHTML).join('')+'</div>'+(hist.more?'<div class="more-wrap"><button type="button" class="btn ghost" id="hist-more">Afficher plus de documents</button></div>':''):
+      '<div class="empty-state"><p><strong>Aucun document dans votre historique.</strong></p><p>Vos prochaines créations y seront enregistrées automatiquement.</p><a class="btn" href="#modeles">Créer un document</a></div>'));
+  const more=$('#hist-more');
+  if(more) more.onclick=async()=>{
+    more.disabled=true;more.classList.add('is-busy');
+    try{const next=await historyRead(hist.items.length);hist.items=hist.items.concat(next);hist.more=next.length===HIST_PAGE;paintHistory();}
+    catch(e){alert('Chargement impossible : '+messageFr(e,'Vérifiez votre connexion puis réessayez.'));more.disabled=false;more.classList.remove('is-busy');}
+  };
+  $$('details[data-hid]').forEach(d=>d.addEventListener('toggle',async()=>{
+    if(!d.open||d.dataset.loaded) return;
+    d.dataset.loaded='1';
+    const pre=d.querySelector('pre'),id=d.dataset.hid;
+    try{pre.textContent=(await historyText(id))||'Contenu non disponible';}catch(e){pre.textContent='Contenu indisponible pour le moment.';d.dataset.loaded='';}
+  }));
+  $$('[data-history-del]').forEach(b=>b.onclick=async()=>{if(!confirm('Supprimer définitivement ce document de votre historique ?'))return;b.disabled=true;try{await historyDelete(b.dataset.historyDel,b.dataset.historyPath);await openHistory();}catch(e){alert('Suppression impossible : '+messageFr(e,'Une erreur est survenue lors de la suppression.'));b.disabled=false;}});
+  $$('[data-history-download]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{const item=hist.items.find(x=>String(x.id)===b.dataset.historyDownload);if(!item||!item.storage_path)throw new Error('Fichier introuvable.');const c=historyClient();const {data,error}=await c.storage.from('juriskpro-documents').createSignedUrl(item.storage_path,60);if(error)throw error;if(isNativeApp()){const resp=await fetch(data.signedUrl);if(!resp.ok)throw new Error('Téléchargement impossible.');await nativeShareBlob(await resp.blob(),item.file_name||'document',item.file_name||'document');}else{const a=document.createElement('a');a.href=data.signedUrl;a.download=item.file_name||'document';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();}}catch(e){alert('Téléchargement impossible : '+messageFr(e,'Une erreur est survenue lors du téléchargement.'));}finally{b.disabled=false;}});
 }
 
 /* ============================================================
@@ -442,27 +455,44 @@ async function openHistory(){
    ============================================================ */
 function openControl(){
   leave();setTitle('Contrôle');
-  const ds=draftsList();
+  const all=draftsList(),lim=ui.ctl||5,ds=all.slice(0,lim);
+  const head='<div class="page-h"><h1>Contrôle</h1><p>Vérifications effectuées par l’application sur vos brouillons.</p></div>';
   const note='<p class="note legal">Les contrôles de JuriskPro sont automatiques : ils signalent certains champs laissés en blanc et certaines incohérences détectables (parts, capital, versements…). Ils ne constituent pas une validation juridique et ne vérifient pas que les informations saisies correspondent à votre situation.</p>';
-  let body;
-  if(!ds.length) body='<div class="empty-state"><p><strong>Rien à contrôler pour le moment.</strong></p><p>Les contrôles portent sur vos brouillons. Commencez un document pour les voir ici.</p><a class="btn" href="#modeles">Choisir un modèle</a></div>';
-  else body=ds.map(x=>{
-    const an=x.an;if(!an) return '';
-    let h='<article class="chk"><div><h3>'+esc(x.m.titre)+'</h3><p class="note">'+esc(x.m.headline(x.d.v)||'Sans dénomination')+' · modifié le '+esc(fmtWhen(x.d.t))+'</p></div>';
-    if(an.probs.length) h+='<div class="al bad" role="group" aria-label="Incohérences"><p class="al-t">À corriger · '+plural(an.probs.length,'incohérence','incohérences')+'</p><ul>'+an.probs.map(p=>'<li><span>'+esc(p.t)+'<small>Section : '+esc(x.m.etapes[p.step].titre)+'</small></span><button type="button" class="btn small ghost" data-fix="'+x.m.id+'" data-st="'+p.step+'">Corriger</button></li>').join('')+'</ul></div>';
+  if(!all.length){
+    shell('controle',head+'<div class="empty-state"><p><strong>Rien à contrôler pour le moment.</strong></p><p>Les contrôles portent sur vos brouillons. Commencez un document pour les voir ici.</p><a class="btn" href="#modeles">Choisir un modèle</a></div>'+note);
+    return;
+  }
+  shell('controle',head+SKEL(Math.min(ds.length,3))+note);
+  loadModels(ds.map(x=>x.id)).then(()=>{
+    if(location.hash!=='#controle') return;
+    paintControl(ds,all.length,head,note);
+  }).catch(()=>{
+    if(location.hash!=='#controle') return;
+    shell('controle',head+'<section class="card set"><p class="msg err">Impossible de charger les contrôles. Vérifiez votre connexion.</p><button class="btn" type="button" id="ctl-retry">Réessayer</button></section>'+note);
+    const b=$('#ctl-retry');if(b) b.onclick=openControl;
+  });
+}
+function paintControl(ds,total,head,note){
+  const body=ds.map(x=>{
+    const m=FULL[x.id];if(!m) return '';
+    let an=null;try{an=analyse(m,Object.assign(m.defaults(),x.d.v));}catch(e){}
+    if(!an) return '';
+    let h='<article class="chk"><div><h3>'+esc(m.titre)+'</h3><p class="note">'+esc(m.headline(x.d.v)||'Sans dénomination')+' · modifié le '+esc(fmtWhen(x.d.t))+'</p></div>';
+    if(an.probs.length) h+='<div class="al bad" role="group" aria-label="Incohérences"><p class="al-t">À corriger · '+plural(an.probs.length,'incohérence','incohérences')+'</p><ul>'+an.probs.map(p=>'<li><span>'+esc(p.t)+'<small>Section : '+esc(m.etapes[p.step].titre)+'</small></span><button type="button" class="btn small ghost" data-fix="'+m.id+'" data-st="'+p.step+'">Corriger</button></li>').join('')+'</ul></div>';
     if(an.missAll) h+='<div class="al warn" role="group" aria-label="Informations à compléter"><p class="al-t">À examiner · '+plural(an.missAll,'information à compléter','informations à compléter')+'</p><p class="note">Ces blancs apparaissent en pointillés dans le document. Vous pouvez aussi les remplir à la main après impression.</p><ul>'+
-      an.miss.slice(0,5).map(id=>'<li><span>'+esc(an.ix[id].label)+'<small>Section : '+esc(x.m.etapes[an.ix[id].step].titre)+'</small></span><button type="button" class="btn small ghost" data-fix="'+x.m.id+'" data-fid="'+id+'">Compléter</button></li>').join('')+
+      an.miss.slice(0,5).map(id=>'<li><span>'+esc(an.ix[id].label)+'<small>Section : '+esc(m.etapes[an.ix[id].step].titre)+'</small></span><button type="button" class="btn small ghost" data-fix="'+m.id+'" data-fid="'+id+'">Compléter</button></li>').join('')+
       (an.miss.length>5?'<li class="more">… et '+(an.miss.length-5)+' autres, visibles dans la validation finale.</li>':'')+'</ul></div>';
     if(!an.probs.length&&!an.missAll) h+='<div class="al ok"><p class="al-t">Aucun blanc ni incohérence détecté</p><p class="note">Relisez l’aperçu avant de télécharger le document.</p></div>';
-    h+='<div class="acts"><button type="button" class="btn small" data-fix="'+x.m.id+'" data-st="final">Ouvrir la validation finale</button></div></article>';
+    h+='<div class="acts"><button type="button" class="btn small" data-fix="'+m.id+'" data-st="final">Ouvrir la validation finale</button></div></article>';
     return h;
   }).join('');
-  shell('controle','<div class="page-h"><h1>Contrôle</h1><p>Vérifications effectuées par l’application sur vos brouillons.</p></div>'+body+note);
+  shell('controle',head+body+(total>ds.length?'<div class="more-wrap"><button type="button" class="btn ghost" id="ctl-more">Contrôler '+Math.min(5,total-ds.length)+' brouillon'+(total-ds.length>1?'s':'')+' de plus ('+(total-ds.length)+' restants)</button></div>':'')+note);
   $$('[data-fix]').forEach(b=>b.onclick=()=>{
     const id=b.dataset.fix;
     if(b.dataset.fid) openWith(id,null,b.dataset.fid);
     else openWith(id,b.dataset.st==='final'?'final':+b.dataset.st);
   });
+  const more=$('#ctl-more');if(more) more.onclick=()=>{ui.ctl=(ui.ctl||5)+5;openControl();};
 }
 
 /* ============================================================
@@ -561,6 +591,7 @@ function renderAccountProfile(a){
    ============================================================ */
 function openModel(m){
   flushSave();
+  rememberRecent(m.id);
   M=m;ui.armed='';pane='form';validationAttempted=false;touchedSteps=new Set();
   const d=readDraft(m.id);
   S=Object.assign(m.defaults(),d?d.v:{});
@@ -976,7 +1007,7 @@ function finalHTML(){
     h+='<p class="note">Les options d’aperçu, de copie et de téléchargement seront disponibles après correction de tous les champs obligatoires et de toutes les incohérences détectées.</p>';
   }
   if(M.finalNote) h+='<p class="note">'+esc(M.finalNote)+'</p>';
-  if(M.next){const nx=byId(M.next);if(nx) h+='<div class="next"><p><strong>Étape suivante :</strong> '+esc(nx.titre)+'. Elle reprend la dénomination, les associés et les versements de ces statuts.</p><a class="btn small" href="#'+nx.id+'">Ouvrir le modèle</a></div>';}
+  if(M.next){const nx=Cat.meta(M.next)||(Cat.titleSync(M.next)?{titre:Cat.titleSync(M.next)}:null);if(nx) h+='<div class="next"><p><strong>Étape suivante :</strong> '+esc(nx.titre)+'. Elle reprend la dénomination, les associés et les versements de ces statuts.</p><a class="btn small" href="#'+nx.id+'">Ouvrir le modèle</a></div>';}
   h+='</div><div class="nav"><button type="button" class="btn ghost" id="prev">Précédent</button><span></span></div></section>';
   return h;
 }
@@ -1115,8 +1146,8 @@ function flushSave(){
   const hasData=Object.keys(v).some(k=>k!=='_ex'&&String(v[k]).trim()!==''&&String(v[k])!==String(d0[k]==null?'':d0[k]));
   if(M.cat==='notaires') saveNotaireProfile(S);
   if(!hasData&&!v._ex&&!store.get(draftKey(M.id))) return;
-  const ok=store.set(draftKey(M.id),JSON.stringify({v:v,step:step,t:Date.now()}));
-  setSaved(ok?'Enregistré à '+new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}):'Non enregistré : stockage indisponible',!ok);
+  const ok=store.set(draftKey(M.id),JSON.stringify({v:v,step:step,t:Date.now(),meta:draftMeta(M,S)}));
+  setSaved(ok?'Enregistré à '+new Date().toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}):'Non enregistré : stockage plein ou indisponible. Supprimez d’anciens brouillons.',!ok);
 }
 window.addEventListener('pagehide',flushSave);
 document.addEventListener('visibilitychange',()=>{if(document.hidden) flushSave();});
@@ -1125,16 +1156,22 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden) flushSave(
 document.addEventListener('focusin',e=>{if(e.target&&e.target.matches&&e.target.matches('input:not([type=radio]):not([type=checkbox]),textarea,select')) document.body.classList.add('kb');});
 document.addEventListener('focusout',()=>{setTimeout(()=>{const a=document.activeElement;if(!(a&&a.matches&&a.matches('input:not([type=radio]):not([type=checkbox]),textarea,select'))) document.body.classList.remove('kb');},120);});
 
-/* ---------- Rapidité : les modèles sont préchargés en arrière-plan ---------- */
+/* ---------- Rapidité : on précharge seulement ce que l'utilisateur utilise ----------
+   Jamais tout le catalogue : avec des milliers de modèles, ce serait des mégaoctets inutiles. */
+const RECENT_KEY='juriskpro:recent';
+function recentIds(){try{return JSON.parse(store.get(RECENT_KEY)||'[]').filter(x=>typeof x==='string').slice(0,5);}catch(e){return [];}}
+function rememberRecent(id){const l=[id].concat(recentIds().filter(x=>x!==id)).slice(0,5);store.set(RECENT_KEY,JSON.stringify(l));}
 function prefetchModels(){
   const c=navigator.connection;
   if(c&&(c.saveData||/(^|-)2g$/.test(c.effectiveType||''))) return;
-  const run=()=>loadModels(MODELS.map(m=>m.id)).catch(()=>{});
+  const ids=recentIds().slice(0,3);
+  if(!ids.length) return;
+  const run=()=>loadModels(ids).catch(()=>{});
   if(window.requestIdleCallback) requestIdleCallback(run,{timeout:4000}); else setTimeout(run,2500);
 }
 document.addEventListener('pointerdown',e=>{
   const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a) return;
-  const id=(a.getAttribute('href')||'').slice(1).replace(/^m\//,'');
-  if(id&&byId(id)&&!FULL[id]) loadModels([id]).catch(()=>{});
+  const r=parseRoute((a.getAttribute('href')||'').slice(1));
+  if((r.t==='model'||r.t==='detail')&&!FULL[r.id]) loadModels([r.id]).catch(()=>{});
 },{passive:true});
 window.JuriskProAuth.require(function(){ route(); setTimeout(prefetchModels,1200); });

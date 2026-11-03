@@ -1,0 +1,255 @@
+{
+ "id": "demo-contrat-test",
+ "dev": true,
+ "cat": "prive",
+ "titre": "Modèle de test (ne pas utiliser)",
+ "sous": "Sert uniquement à vérifier le moteur de modèles",
+ "resume": "Modèle fictif qui contrôle les listes de parties, les conditions, les montants en lettres et les tableaux.",
+ "tags": [
+  "test",
+  "démonstration"
+ ],
+ "duree": "2 min",
+ "docTitle": "Contrat de test {{objet}}",
+ "fileBase": "Contrat-test-{{objet}}",
+ "headline": "{{objet}}",
+ "etapes": [
+  {
+   "id": "parties",
+   "court": "Parties",
+   "titre": "Les parties",
+   "intro": "Au moins deux parties.",
+   "champs": [
+    {
+     "type": "repeat",
+     "id": "parties",
+     "prefix": "p",
+     "countKey": "nb_parties",
+     "min": 2,
+     "max": 4,
+     "label": "Partie",
+     "addLabel": "Ajouter une partie",
+     "fields": [
+      {
+       "id": "civilite",
+       "type": "choice",
+       "variant": "seg",
+       "label": "Civilité",
+       "opts": "civilite",
+       "def": "M."
+      },
+      {
+       "id": "prenom",
+       "type": "text",
+       "half": true,
+       "label": "Prénom(s)",
+       "req": true
+      },
+      {
+       "id": "nom",
+       "type": "text",
+       "half": true,
+       "label": "Nom",
+       "req": true,
+       "upper": true
+      },
+      {
+       "id": "ville",
+       "type": "text",
+       "label": "Ville (facultatif)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "objet",
+   "court": "Objet",
+   "titre": "L'objet et le prix",
+   "champs": [
+    {
+     "id": "objet",
+     "type": "text",
+     "label": "Objet du contrat",
+     "req": true,
+     "ph": "Ex. : fourniture de matériel"
+    },
+    {
+     "id": "montant",
+     "type": "money",
+     "unit": "F CFA",
+     "label": "Montant",
+     "req": true
+    },
+    {
+     "id": "gros",
+     "type": "info",
+     "when": {
+      "field": "montant",
+      "gt": 1000000
+     },
+     "text": "Montant élevé : {{montant}} F CFA.",
+     "c": "warn"
+    },
+    {
+     "id": "mode",
+     "type": "choice",
+     "label": "Paiement",
+     "opts": [
+      {
+       "v": "comptant",
+       "t": "Comptant"
+      },
+      {
+       "v": "echeances",
+       "t": "Par échéances"
+      }
+     ],
+     "def": "comptant"
+    },
+    {
+     "id": "nb_echeances",
+     "type": "int",
+     "label": "Nombre d'échéances",
+     "showIf": {
+      "field": "mode",
+      "eq": "echeances"
+     }
+    },
+    {
+     "id": "penalite",
+     "type": "choice",
+     "label": "Pénalité de retard",
+     "opts": "ouinon",
+     "def": "non"
+    },
+    {
+     "id": "taux",
+     "type": "int",
+     "label": "Taux de pénalité (%)",
+     "showIf": {
+      "field": "penalite",
+      "eq": "oui"
+     }
+    },
+    {
+     "id": "date",
+     "type": "date",
+     "label": "Date du contrat",
+     "def": "@today",
+     "req": true
+    }
+   ]
+  }
+ ],
+ "calc": {
+  "montant_fcfa": {
+   "fn": "fcfa",
+   "of": "montant"
+  },
+  "date_fr": {
+   "fn": "date",
+   "of": "date"
+  }
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "CONTRAT DE TEST"
+  },
+  {
+   "k": "p",
+   "text": "Entre les soussignés :"
+  },
+  {
+   "each": "parties",
+   "blocks": [
+    {
+     "k": "li",
+     "text": "Partie {{#}} : {{@civilite_t}} {{@prenom}} {{@nom}}"
+    },
+    {
+     "if": {
+      "field": "@ville",
+      "filled": true
+     },
+     "then": [
+      {
+       "k": "li",
+       "text": "demeurant à {{@ville}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "k": "art",
+   "text": "ARTICLE 1 – Objet"
+  },
+  {
+   "k": "p",
+   "text": "Le présent contrat a pour objet : {{objet}}."
+  },
+  {
+   "k": "art",
+   "text": "ARTICLE 2 – Prix"
+  },
+  {
+   "k": "p",
+   "text": "Le prix est de {{montant}} F CFA ({{montant_lettres}} francs CFA)."
+  },
+  {
+   "if": {
+    "field": "mode",
+    "eq": "echeances"
+   },
+   "then": [
+    {
+     "k": "p",
+     "text": "Il est payable en {{nb_echeances}} échéances."
+    }
+   ],
+   "else": [
+    {
+     "k": "p",
+     "text": "Il est payable comptant."
+    }
+   ]
+  },
+  {
+   "when": {
+    "field": "penalite",
+    "eq": "oui"
+   },
+   "k": "p",
+   "text": "Tout retard donne lieu à une pénalité de {{taux}} %."
+  },
+  {
+   "k": "p",
+   "al": "right",
+   "text": "Fait le {{date_fr}}"
+  },
+  {
+   "k": "sigs",
+   "items": [
+    "{{p0_prenom}} {{p0_nom}}",
+    "{{p1_prenom}} {{p1_nom}}"
+   ]
+  }
+ ],
+ "exemple": {
+  "p0_civilite": "M.",
+  "p0_prenom": "Yao",
+  "p0_nom": "Kouassi",
+  "p0_ville": "Abidjan",
+  "p1_civilite": "Mme",
+  "p1_prenom": "Awa",
+  "p1_nom": "Traoré",
+  "objet": "fourniture de matériel",
+  "montant": "2500000",
+  "mode": "echeances",
+  "nb_echeances": "5",
+  "penalite": "oui",
+  "taux": "3"
+ }
+}
