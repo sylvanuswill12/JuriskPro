@@ -41,3 +41,14 @@ styles = styles.replace(/(<style\s+name="AppTheme\.NoActionBarLaunch"[^>]*>)/, (
 if (!patched) console.warn('Avertissement : aucun style AppTheme trouvé, thème non modifié.');
 fs.writeFileSync(stylesPath, styles);
 console.log(`Thème Android JuriskPro appliqué (${patched} style(s)).`);
+
+// Notifications (Android 13+) : le système exige la permission POST_NOTIFICATIONS déclarée dans le manifeste.
+const manifestPath = path.join(process.cwd(), 'android', 'app', 'src', 'main', 'AndroidManifest.xml');
+if (fs.existsSync(manifestPath)) {
+  let mf = fs.readFileSync(manifestPath, 'utf8');
+  if (!mf.includes('android.permission.POST_NOTIFICATIONS')) {
+    mf = mf.replace('</manifest>', '    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />\n</manifest>');
+    fs.writeFileSync(manifestPath, mf);
+    console.log('Permission POST_NOTIFICATIONS ajoutée.');
+  }
+}

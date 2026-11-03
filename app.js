@@ -128,14 +128,64 @@ async function computeNewModels(){
     const ids=Object.keys(await Cat.index());let seen=null;
     try{seen=JSON.parse(store.get(SEEN_KEY)||'null');}catch(e){}
     if(!Array.isArray(seen)){store.set(SEEN_KEY,JSON.stringify(ids));newModels=0;}
-    else{const set=new Set(seen);newModels=ids.filter(i=>!set.has(i)).length;}
+    else{const set=new Set(seen);newModelIds=ids.filter(i=>!set.has(i));newModels=newModelIds.length;}
   }catch(e){}
-  updateBadges();
+  updateBadges();notifyNewModels();
 }
 function markModelsSeen(){
   if(!newModels) return;
-  Cat.index().then(idx=>{store.set(SEEN_KEY,JSON.stringify(Object.keys(idx)));newModels=0;updateBadges();}).catch(()=>{});
+  Cat.index().then(idx=>{store.set(SEEN_KEY,JSON.stringify(Object.keys(idx)));newModels=0;newModelIds=[];updateBadges();}).catch(()=>{});
 }
+
+/* ---------- Notifications ----------
+   Application Android : notifications locales natives (autorisation Android 13+, rappel programmé même app fermée).
+   Navigateur : notifications du système via le service worker. Tout est désactivé tant que l'utilisateur n'a pas activé l'option. */
+const NOTIF_KEY='juriskpro:notifications',NOTIF_MODELS_KEY='juriskpro:notifiedModels',REMIND_ID=4101;
+let newModelIds=[];
+const notifOn=()=>store.get(NOTIF_KEY)==='on';
+function nativeLN(){try{if(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform()) return capPlugin('LocalNotifications');}catch(e){}return null;}
+function notifSupported(){return !!nativeLN()||('Notification' in window);}
+async function notifPermission(){
+  const ln=nativeLN();
+  if(ln){try{const r=await ln.checkPermissions();return r.display==='granted'?'granted':r.display==='denied'?'denied':'default';}catch(e){return 'unsupported';}}
+  return 'Notification' in window?(Notification.permission==='default'?'default':Notification.permission):'unsupported';
+}
+async function notifRequest(){
+  const ln=nativeLN();
+  if(ln){try{const r=await ln.requestPermissions();return r.display==='granted'?'granted':'denied';}catch(e){return 'unsupported';}}
+  if(!('Notification' in window)) return 'unsupported';
+  try{const r=await Notification.requestPermission();return r;}catch(e){return 'unsupported';}
+}
+async function notify(title,body,url,tag){
+  if(!notifOn()||(await notifPermission())!=='granted') return false;
+  const ln=nativeLN();
+  try{
+    if(ln){await ln.schedule({notifications:[{id:Math.floor(Date.now()%2000000000),title:title,body:body,extra:{url:url||'#'}}]});return true;}
+    const opts={body:body,icon:'./icons/icon-192.png',badge:'./icons/icon-192.png',tag:tag||'juriskpro',data:{url:url||'./#'}};
+    const reg=('serviceWorker' in navigator)?await navigator.serviceWorker.getRegistration():null;
+    if(reg&&reg.showNotification){await reg.showNotification(title,opts);return true;}
+    new Notification(title,opts);return true;
+  }catch(e){return false;}
+}
+/* Rappel Android quand l'application passe en arrière-plan : programmé pour le lendemain, annulé à la réouverture. */
+async function syncReminder(){
+  const ln=nativeLN();if(!ln) return;
+  try{
+    await ln.cancel({notifications:[{id:REMIND_ID}]});
+    if(!document.hidden||!notifOn()||(await notifPermission())!=='granted') return;
+    const n=badgeCounts().brouillons;if(!n) return;
+    await ln.schedule({notifications:[{id:REMIND_ID,title:'Vos brouillons vous attendent',body:n>1?'Vous avez '+n+' documents en cours. Reprenez votre travail dans JuriskPro.':'Vous avez un document en cours. Reprenez votre travail dans JuriskPro.',schedule:{at:new Date(Date.now()+24*3600*1000),allowWhileIdle:true},extra:{url:'#brouillons'}}]});
+  }catch(e){}
+}
+document.addEventListener('visibilitychange',()=>{syncReminder();});
+/* Nouveaux modèles : une seule notification par série de nouveautés. */
+async function notifyNewModels(){
+  if(!newModelIds.length||!notifOn()) return;
+  const sig=newModelIds.slice().sort().join(',');
+  if(store.get(NOTIF_MODELS_KEY)===sig) return;
+  if(await notify(newModelIds.length>1?newModelIds.length+' nouveaux modèles disponibles':'Un nouveau modèle est disponible','Ouvrez l’onglet Modèles pour le découvrir.','#modeles','new-models')) store.set(NOTIF_MODELS_KEY,sig);
+}
+try{const ln=nativeLN();if(ln&&ln.addListener) ln.addListener('localNotificationActionPerformed',e=>{const u=e&&e.notification&&e.notification.extra&&e.notification.extra.url;if(u) location.hash=String(u).replace(/^.*#/,'');});}catch(e){}
 
 /* ---------- Structure commune : en-tête, contenu, barre fixe ---------- */
 function shell(active,inner,o){
@@ -600,7 +650,7 @@ async function openAccount(){
 }
 function renderAccountProfile(a){
   const nbd=draftsList().length,tm=themeMode();
-  const notif=store.get('juriskpro:notifications')==='on';
+  const notif=notifOn();
   const themeLabel=tm==='dark'?'Sombre':tm==='light'?'Clair':'Automatique';
   const initial=esc((a.name||a.username||'U').trim().charAt(0).toUpperCase());
   const camera='<span class="avatar-camera" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h-4l-2 3H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3"/></svg></span>';
@@ -626,7 +676,7 @@ function renderAccountProfile(a){
 
     '<h2 class="acc-title">Préférences</h2><section class="acc-group">'+
       '<div class="acc-row"><span class="acc-label"><strong>Thème</strong></span><select id="acc-theme-select" class="acc-select" aria-label="Thème de l’application"><option value="auto" '+(tm==='auto'?'selected':'')+'>Automatique</option><option value="light" '+(tm==='light'?'selected':'')+'>Clair</option><option value="dark" '+(tm==='dark'?'selected':'')+'>Sombre</option></select></div>'+
-      '<label class="acc-row acc-toggle" for="acc-notif"><span class="acc-label"><strong>Rappels dans l’application</strong><small>Mémorisé sur cet appareil. Aucun envoi par e-mail ou téléphone pour le moment.</small></span><input id="acc-notif" class="acc-switch" type="checkbox" '+(notif?'checked':'')+'></label>'+
+      '<label class="acc-row acc-toggle" for="acc-notif"><span class="acc-label"><strong>Notifications</strong><small>Nouveaux modèles et rappel des brouillons en attente.</small></span><input id="acc-notif" class="acc-switch" type="checkbox" '+(notif?'checked':'')+'></label><p class="acc-note" id="acc-notif-msg" role="status" aria-live="polite" hidden></p>'+
       row('Langue','','<span class="acc-value">Français</span>')+
     '</section>'+
 
@@ -640,8 +690,26 @@ function renderAccountProfile(a){
     '<button type="button" class="acc-logout" id="acc-logout">Se déconnecter</button>');
   const themeSelect=$('#acc-theme-select');
   if(themeSelect) themeSelect.onchange=()=>{const v=themeSelect.value;if(v==='auto'){store.del('juriskpro:theme');applyTheme(null);}else{store.set('juriskpro:theme',v);applyTheme(v);}};
-  const notifInput=$('#acc-notif');
-  if(notifInput) notifInput.onchange=()=>{store.set('juriskpro:notifications',notifInput.checked?'on':'off');};
+  const notifInput=$('#acc-notif'),notifMsg=$('#acc-notif-msg');
+  const notifSay=t=>{if(!notifMsg) return;notifMsg.textContent=t||'';notifMsg.hidden=!t;};
+  if(notifInput){
+    if(notif) notifPermission().then(st=>{if(st==='denied'){notifInput.checked=false;store.set(NOTIF_KEY,'off');notifSay('Les notifications sont bloquées pour JuriskPro. Autorisez-les dans les réglages du téléphone ou du navigateur, puis réactivez l’option.');}});
+    notifInput.onchange=async()=>{
+      if(!notifInput.checked){store.set(NOTIF_KEY,'off');notifSay('');syncReminder();return;}
+      if(!notifSupported()){notifInput.checked=false;notifSay('Ce navigateur ne permet pas les notifications. Utilisez l’application Android ou un navigateur récent.');return;}
+      notifInput.disabled=true;
+      const st=await notifRequest();
+      notifInput.disabled=false;
+      if(st==='granted'){
+        store.set(NOTIF_KEY,'on');notifSay('Notifications activées.');
+        notify('Notifications activées','Vous serez prévenu des nouveaux modèles et des brouillons en attente.','#compte','welcome');
+        notifyNewModels();
+      }else{
+        notifInput.checked=false;store.set(NOTIF_KEY,'off');
+        notifSay(st==='denied'?'Autorisation refusée. Pour l’accorder, ouvrez les réglages du téléphone ou du navigateur puis réactivez l’option.':'Les notifications ne sont pas disponibles ici.');
+      }
+    };
+  }
   const photoInput=$('#profile-photo-input');
   if(photoInput) photoInput.onchange=()=>{const file=photoInput.files&&photoInput.files[0];if(!file)return;if(!file.type||!file.type.startsWith('image/')){alert('Choisissez un fichier image.');return;}if(file.size>8*1024*1024){alert('Choisissez une image de moins de 8 Mo.');photoInput.value='';return;}const reader=new FileReader();reader.onload=()=>{const img=new Image();img.onload=()=>{const max=320,scale=Math.min(1,max/Math.max(img.width,img.height)),canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(img.width*scale));canvas.height=Math.max(1,Math.round(img.height*scale));const ctx=canvas.getContext('2d');ctx.drawImage(img,0,0,canvas.width,canvas.height);const updated=Object.assign({},a,{photo:canvas.toDataURL('image/jpeg',.78)});if(!accountSave(updated)){alert('Impossible d’enregistrer la photo dans le stockage local de ce navigateur.');return;}renderAccountProfile(updated);};img.onerror=()=>alert('Cette image ne peut pas être ouverte.');img.src=reader.result;};reader.readAsDataURL(file);};
   const photoRemove=$('#profile-photo-remove');if(photoRemove)photoRemove.onclick=()=>{const updated=Object.assign({},a);delete updated.photo;accountSave(updated);renderAccountProfile(updated);};

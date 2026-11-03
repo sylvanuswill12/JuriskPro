@@ -1103,3 +1103,6 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .nav-badge{min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#e53935;color:#fff;font-size:10.5px;font-weight:700;line-height:17px;text-align:center;letter-spacing:0;box-sizing:border-box;pointer-events:none}
 .bnav a .nav-badge{position:absolute;top:5px;left:calc(50% + 6px)}
 .nav-d a .nav-badge{display:inline-block;margin-left:6px;vertical-align:1px}
+
+.acc-note{margin:-2px 16px 10px;font-size:12.5px;line-height:1.45;color:var(--ink-2)}
+.acc-note[hidden]{display:none}
