@@ -20,7 +20,7 @@ function readDraft(id){try{const o=JSON.parse(store.get(draftKey(id))||'null');r
 const stripV=S=>{const o={};Object.keys(S).forEach(k=>{if(k.charAt(0)!=='_'||k==='_ex')o[k]=S[k];});return o;};
 
 /* ---------- État du moment ---------- */
-let M=null,S=null,step=0,pane='form',fieldIndex={},saveTimer=0,pvRaf=0,lastSaved=0;
+let M=null,S=null,step=0,pane='form',fieldIndex={},saveTimer=0,pvRaf=0,lastSaved=0,fieldFilter='';
 let visitedSteps=new Set(),touchedSteps=new Set(),validationAttempted=false;
 const ui={q:'',cat:'all',armed:''};
 
@@ -944,13 +944,40 @@ function repeatHTML(c){
 }
 function repeatOf(id){let r=null;M.etapes.forEach(e=>(e.champs||[]).forEach(c=>{if(c.type==='repeat'&&c.id===id) r=c;}));return r;}
 
+function stepProgress(e){
+  let total=0,done=0,required=0,missing=0;
+  (e.champs||[]).forEach(c=>{
+    const list=c.type==='repeat'?[].concat(...Array.from({length:clamp(parseInt(S[c.countKey],10)||c.min||1,c.min||1,c.max)},(_,i)=>c.fields(i))):[c];
+    list.forEach(f=>{
+      if(!f||['info','title','action'].includes(f.type)||(f.showIf&&!f.showIf(S))) return;
+      total++; if(String(S[f.id]==null?'':S[f.id]).trim()!=='') done++;
+      if(isReq(f)){required++;if(String(S[f.id]==null?'':S[f.id]).trim()==='') missing++;}
+    });
+  });
+  return {total,done,required,missing};
+}
+
+function stepFieldsHTML(e){
+  let lastGroup='';
+  return (e.champs||[]).map(c=>{
+    const group=c.group||'';
+    let h='';
+    if(group&&group!==lastGroup) h+='<h3 class="sub-h form-group-title">'+esc(group)+'</h3>';
+    lastGroup=group;
+    return h+(c.type==='repeat'?repeatHTML(c):fieldHTML(c));
+  }).join('');
+}
+
 function renderStep(focus,focusSel){
   const e=M.etapes[step],box=$('#stepbox');
   if(e.final){box.innerHTML=finalHTML();bindFinal();}
   else{
-    const body=(e.champs||[]).map(c=>c.type==='repeat'?repeatHTML(c):fieldHTML(c)).join('');
+    const body=stepFieldsHTML(e);
+    const pg=stepProgress(e);
     box.innerHTML='<section class="card" aria-labelledby="st-h"><h2 id="st-h" tabindex="-1">'+esc(e.titre)+'</h2>'+(e.intro?'<p class="intro">'+esc(e.intro)+'</p>':'')+
-      '<div class="fields">'+body+'</div>'+
+      '<div class="field-search"><label for="field-filter">Rechercher un champ</label><input id="field-filter" type="search" placeholder="Ex. adresse, montant, date, notaire" autocomplete="off"></div>'+ 
+      '<p class="form-progress" role="status">'+(pg.missing?('<strong>'+pg.missing+' champ'+(pg.missing>1?'s':'')+' obligatoire'+(pg.missing>1?'s':'')+' à compléter</strong> · '):'')+pg.done+' / '+pg.total+' champ'+(pg.total>1?'s':'')+' renseigné'+(pg.done>1?'s':'')+'</p>'+ 
+      '<div class="fields">'+body+'</div>'+ 
       '<div class="nav"><button type="button" class="btn ghost" id="prev"'+(step===0?' disabled':'')+'>Précédent</button><button type="button" class="btn" id="next">'+(step===M.etapes.length-2?'Vérifier le document':'Continuer')+'</button></div>'+
       '<div class="tools"><button type="button" class="linkbtn" id="ex">Remplir avec un exemple</button><button type="button" class="linkbtn'+(ui.armed==='reset'?' armed':'')+'" id="reset">'+(ui.armed==='reset'?'Confirmer : tout effacer':'Recommencer à zéro')+'</button></div>'+
       '<div id="exnote"></div></section>';
@@ -996,10 +1023,20 @@ function bindStep(box){
   if(n) n.onclick=()=>gotoStep(step+1);
   $('#ex').onclick=loadExample;
   $('#reset').onclick=doReset;
+  const search=$('#field-filter');
+  if(search){search.value=fieldFilter;search.addEventListener('input',()=>{fieldFilter=search.value;applyFieldFilter(box);});applyFieldFilter(box);}
+}
+function applyFieldFilter(box){
+  const q=String(fieldFilter||'').trim().toLocaleLowerCase('fr-FR');
+  $$('[data-fid]',box||document).forEach(el=>{
+    const text=String(el.textContent||'').toLocaleLowerCase('fr-FR');
+    el.classList.toggle('filter-hide',!!q&&!text.includes(q));
+  });
 }
 function onInput(e){
   if(!M||!S) return; /* événement tardif après avoir quitté le formulaire */
   const t=e.target;if(!t||!(t.matches('input,textarea,select'))) return;
+  if(t.id==='field-filter') return;
   if(e.type==='input'&&(t.type==='radio'||t.tagName==='SELECT')) return;
   let id=t.type==='radio'?t.name:t.id,v=t.value;
   if(!id) return;

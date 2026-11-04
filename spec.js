@@ -180,6 +180,7 @@ const JPSpec = (function () {
       docTitle: (V) => plain(spec.docTitle || spec.titre, V),
       fileBase: (V) => fileSlug(plain(spec.fileBase || spec.docTitle || spec.titre, V)) || fileSlug(spec.titre),
       finalNote: spec.finalNote || '',
+      sourceTemplate: spec.sourceTemplate || null,
       headline: (S) => plain(spec.headline || (first ? '{{' + first.id + '}}' : ''), S),
     };
   }

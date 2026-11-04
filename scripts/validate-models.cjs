@@ -106,6 +106,10 @@ function check(sb, m, problems) {
   try { fv = sb.finalValidation(m, S); } catch (e) { P('validation (exemple) : ' + e.message); return; }
   if (fv.req.length) P('l\'exemple laisse ' + fv.req.length + ' champ(s) obligatoire(s) vide(s) : ' + fv.req.slice(0, 3).map((x) => x.label).join(' ; '));
   if (fv.an.probs.length) P('l\'exemple déclenche une incohérence : ' + fv.an.probs[0].t);
+  if (m.sourceTemplate && m.sourceTemplate.file) {
+    const sourcePath = path.join(ROOT, m.sourceTemplate.file);
+    if (!fs.existsSync(sourcePath)) P('modèle Word source introuvable : ' + m.sourceTemplate.file);
+  }
 
   /* état vide : doit être bloqué */
   try {
