@@ -476,12 +476,16 @@ function openDetail(m){
   leave();setTitle(m.titre);
   const cat=CATS.find(c=>c.id===m.cat),d=readDraft(m.id);
   const secs=m.etapes.filter(e=>!e.final);
+  const sourcePdf=m.sourceTemplate&&m.sourceTemplate.file?String(m.sourceTemplate.file).replace(/\.docx$/i,'.pdf'):'';
+  /* Modèles sans fichier Word source : extrait du début du document, rempli avec les données d'exemple. */
   let extrait='';
-  try{
-    const ex=Object.assign(m.defaults(),JSON.parse(JSON.stringify(m.exemple)),{date:todayISO()});
-    const V=m.compute(ex),bl=m.blocks(ex,V);
-    extrait=renderHTML(bl.slice(0,18),V).html;
-  }catch(e){extrait='';}
+  if(!sourcePdf){
+    try{
+      const ex=Object.assign(m.defaults(),JSON.parse(JSON.stringify(m.exemple)),{date:todayISO()});
+      const V=m.compute(ex),bl=m.blocks(ex,V);
+      extrait=renderHTML(bl.slice(0,18),V).html;
+    }catch(e){extrait='';}
+  }
   shell('modeles',
     '<article class="detail"><p class="mcat">'+esc(cat.titre)+'</p><h1>'+esc(m.titre)+'</h1><p class="msub">'+esc(m.sous)+'</p>'+
     '<p class="lead2">'+esc(m.resume)+'</p>'+
@@ -491,8 +495,66 @@ function openDetail(m){
     '<div class="cta-row"><a class="btn big" href="#'+m.id+'">'+(d?'Reprendre le brouillon':'Utiliser ce modèle')+'</a></div>'+
     '<section class="block"><h2>Ce que vous allez renseigner</h2><ol class="secs">'+secs.map(e=>'<li><strong>'+esc(e.titre)+'</strong>'+(e.intro?'<span>'+esc(e.intro)+'</span>':'')+'</li>').join('')+'</ol></section>'+
     (extrait?'<section class="block"><h2>Aperçu</h2><p class="note">Début du document, rempli avec les données d’exemple du modèle (non reprises dans votre brouillon).</p><div class="sheet-scroll"><div class="sheet sheet-ex" aria-label="Extrait du document">'+extrait+'</div></div></section>':'')+
+    (sourcePdf?'<section class="block"><h2>Aperçu intégral</h2><p class="note">Toutes les pages de la matrice Word anonymisée. Les zones à compléter apparaissent en pointillés ; vos données seront insérées dans le fichier Word téléchargé.</p><div class="source-preview" data-pdf="./'+esc(sourcePdf)+'"><p class="pv-status" role="status">Chargement de l’aperçu…</p></div><p class="pv-open"><a class="btn ghost" href="./'+esc(sourcePdf)+'" target="_blank" rel="noopener">Ouvrir l’aperçu en PDF</a></p></section>':'')+
     '</article>',
     {back:'#modeles',backLabel:'Retour aux modèles',title:m.titre,cls:'detail-on'});
+  renderPdfPreview($('.source-preview'));
+}
+
+/* Aperçu PDF page par page (pdf.js) : fonctionne aussi sur Android, où un PDF dans un cadre reste souvent vide.
+   Les pages se dessinent à l'approche de l'écran et sont libérées en s'éloignant (économie de mémoire). */
+let pdfWorkerSrc=null;
+async function pdfWorkerUrl(){
+  if(pdfWorkerSrc) return pdfWorkerSrc;
+  try{const r=await fetch('./vendor/pdf.worker.js',{method:'HEAD'});if(r.ok){pdfWorkerSrc='./vendor/pdf.worker.js';return pdfWorkerSrc;}}catch(e){}
+  pdfWorkerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';return pdfWorkerSrc;
+}
+async function renderPdfPreview(box){
+  if(!box) return;
+  const url=box.dataset.pdf,status=box.querySelector('.pv-status');
+  const fail=()=>{if(status&&box.isConnected) status.textContent='L’aperçu n’a pas pu s’afficher ici. Utilisez le bouton « Ouvrir l’aperçu en PDF » ci-dessous.';};
+  let doc=null,io=null;
+  try{
+    await JPLibs.load('pdfjs');
+    const lib=window.pdfjsLib;
+    lib.GlobalWorkerOptions.workerSrc=await pdfWorkerUrl();
+    doc=await lib.getDocument({url:url,disableRange:true,disableStream:true,disableAutoFetch:true}).promise;
+    if(!box.isConnected){doc.destroy();return;}
+    const first=await doc.getPage(1),b1=first.getViewport({scale:1});
+    if(status) status.remove();
+    const wrap=document.createElement('div');wrap.className='pdf-pages';box.appendChild(wrap);
+    const total=doc.numPages,cssW=()=>Math.max(240,wrap.clientWidth||box.clientWidth||320);
+    const pages=[];
+    for(let i=1;i<=total;i++){
+      const d=document.createElement('div');d.className='pdf-page';d.dataset.n=String(i);
+      d.style.height=Math.round(cssW()*b1.height/b1.width)+'px';
+      d.innerHTML='<span class="pdf-n">Page '+i+' / '+total+'</span>';
+      wrap.appendChild(d);pages.push(d);
+    }
+    const draw=async d=>{
+      if(d._busy||d._done||!d.isConnected) return;
+      d._busy=true;
+      try{
+        const n=+d.dataset.n,p=await doc.getPage(n),base=p.getViewport({scale:1});
+        const w=d.clientWidth||cssW(),dpr=Math.min(window.devicePixelRatio||1,2);
+        const vp=p.getViewport({scale:(w/base.width)*dpr});
+        const c=document.createElement('canvas');c.width=Math.floor(vp.width);c.height=Math.floor(vp.height);
+        c.setAttribute('role','img');c.setAttribute('aria-label','Page '+n+' sur '+total+' de l’aperçu');
+        await p.render({canvasContext:c.getContext('2d'),viewport:vp}).promise;
+        if(!d.isConnected||d._vis===false) return;
+        d.style.height=Math.round(w*base.height/base.width)+'px';
+        d.appendChild(c);d._done=true;
+      }catch(e){}finally{d._busy=false;}
+    };
+    const free=d=>{const c=d.querySelector('canvas');if(c){c.width=c.height=0;c.remove();}d._done=false;};
+    if('IntersectionObserver' in window){
+      io=new IntersectionObserver(es=>{
+        if(!box.isConnected){io.disconnect();try{doc.destroy();}catch(e){}return;}
+        es.forEach(e=>{e.target._vis=e.isIntersecting;if(e.isIntersecting) draw(e.target); else free(e.target);});
+      },{rootMargin:'800px 0px'});
+      pages.forEach(d=>io.observe(d));
+    }else pages.slice(0,6).forEach(draw);
+  }catch(e){fail();}
 }
 
 /* ============================================================

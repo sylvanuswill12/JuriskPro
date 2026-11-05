@@ -14,7 +14,7 @@ for (const name of ['politique-confidentialite.html', 'conditions-utilisation.ht
   const source = path.join(root, name);
   if (fs.existsSync(source)) fs.copyFileSync(source, path.join(out, name));
 }
-for (const dir of ['icons', 'assets', 'vendor', 'models', 'catalogue']) {
+for (const dir of ['icons', 'assets', 'vendor', 'models', 'catalogue', 'templates']) {
   const source = path.join(root, dir);
   if (fs.existsSync(source)) fs.cpSync(source, path.join(out, dir), { recursive: true });
 }
