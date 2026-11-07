@@ -1,1 +1,228 @@
-{"id":"source-1oz-spashtjdjopufp2mehrunihmpoyku-courrier-compl-mentaire-de","cat":"travail","sub":"Demandes De Conges","titre":"Demande complémentaire de congé annuel (congé anticipé)","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Demande complémentaire de congé annuel (congé anticipé) : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["demandes de conges","modèle Word","matrice","anonymisé"],"duree":"4 min","docTitle":"Demande complémentaire de congé annuel (congé anticipé)","fileBase":"Demande complémentaire de congé annuel (congé anticipé)","headline":"Demande complémentaire de congé annuel (congé anticipé)","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"nom_salarie","type":"text","label":"Nom du salarié","req":true},{"id":"nom_naissance_salarie","type":"text","label":"Nom de naissance (facultatif)","opt":true},{"id":"prenom_salarie","type":"text","label":"Prénom du salarié (facultatif)","opt":true},{"id":"notaire_nom","type":"text","label":"Nom du notaire (si nécessaire)","opt":true},{"id":"date_acte","type":"date","label":"Date de l’acte (facultatif)","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Demande complémentaire de congé annuel (congé anticipé)"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1oz-spashtjdjopufp2mehrunihmpoyku-courrier-compl-mentaire-de.docx","version":"1"},"exemple":{"nom_salarie":"Exemple","nom_naissance_salarie":"Exemple","prenom_salarie":"Exemple","notaire_nom":"NOTAIRE EXEMPLE","date_acte":"2000-01-01"}}
+{
+  "id": "source-1oz-spashtjdjopufp2mehrunihmpoyku-courrier-compl-mentaire-de",
+  "cat": "travail",
+  "sub": "Demandes De Conges",
+  "titre": "Demande complémentaire de congé annuel (congé anticipé)",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Demande complémentaire de congé annuel (congé anticipé) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "demandes de conges",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "5 min",
+  "docTitle": "Demande complémentaire de congé annuel (congé anticipé)",
+  "fileBase": "Demande complémentaire de congé annuel (congé anticipé)",
+  "headline": "Demande complémentaire de congé annuel (congé anticipé)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Informations à renseigner",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "nom_salarie",
+          "type": "text",
+          "label": "Nom du salarié",
+          "opt": true,
+          "group": "Mme …",
+          "aide": "…Mme ▢"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "ABIDJAN le 25 Juillet 2014",
+          "opt": true,
+          "group": "Mme …",
+          "aide": "…Mme ▢"
+        },
+        {
+          "id": "nom_naissance_salarie",
+          "type": "text",
+          "label": "Nom de naissance",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "ABIDJAN le 25 Juillet 2014",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "prenom_salarie",
+          "type": "text",
+          "label": "Prénom du salarié",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Secrétaire",
+          "opt": true,
+          "group": "Secrétaire …",
+          "aide": "…Secrétaire ▢"
+        },
+        {
+          "id": "notaire_nom",
+          "type": "text",
+          "label": "Nom du notaire",
+          "opt": true,
+          "group": "Maître …",
+          "aide": "…Maître ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Demande anticipée de congé annuel",
+          "opt": true,
+          "group": "Objet: Demande anticipée de congé annuel …"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Compte tenu de",
+          "opt": true,
+          "group": "Par ailleurs, compte tenu de …, je viens par la présente vous prier de…"
+        },
+        {
+          "id": "date_acte",
+          "type": "date",
+          "label": "Date de l’acte",
+          "opt": true,
+          "group": "Par ailleurs, compte tenu de …, je viens par la présente vous prier de…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "ABIDJAN, le 25 Juillet 2014"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{nom_salarie}}** {{champ_001}}"
+    },
+    {
+      "k": "p",
+      "text": "**née {{nom_naissance_salarie}} {{champ_002}} {{prenom_salarie}}**"
+    },
+    {
+      "k": "p",
+      "text": "**Secrétaire {{champ_003}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Maître {{notaire_nom}}",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "Notaire"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ABIDJAN**",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Objet**: Demande anticipée de congé annuel {{champ_004}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mon Cher Maître,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je fais suite à mon courrier du 21 courant dans lequel je sollicitais l’obtention de mon congé annuel allant de la période du 31 Juillet au 31 Août 2014 inclus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par ailleurs, compte tenu de {{champ_005}}, je viens par la présente vous prier de bien vouloir m’accorder mon congé annuel plus tôt que prévu allant de la période du 28 Juillet au {{date_acte}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Vous en souhaitant bonne réception,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Et dans l’attente d’une suite favorable,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je vous prie de croire, mon Cher Maître, en l'assurance de mes sentiments dévoués."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{nom_salarie}} {{prenom_salarie}}**"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1oz-spashtjdjopufp2mehrunihmpoyku-courrier-compl-mentaire-de.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "nom_salarie": "Exemple",
+    "champ_001": "Exemple",
+    "nom_naissance_salarie": "Exemple",
+    "champ_002": "Exemple",
+    "prenom_salarie": "Exemple",
+    "champ_003": "Exemple",
+    "notaire_nom": "NOTAIRE EXEMPLE",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "date_acte": "2000-01-01"
+  }
+}

@@ -1,1 +1,125 @@
-{"id":"source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti","cat":"societes-associations","sub":"Societes","titre":"Projet de mail avec sanction pour la mise en harmonie des sociétés","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Projet de mail avec sanction pour la mise en harmonie des sociétés : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["societes","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Projet de mail avec sanction pour la mise en harmonie des sociétés","fileBase":"Projet de mail avec sanction pour la mise en harmonie des sociétés","headline":"Projet de mail avec sanction pour la mise en harmonie des sociétés","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"date_acte","type":"date","label":"Date de l’acte","req":true},{"id":"partie_1","type":"text","label":"Première partie","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Projet de mail avec sanction pour la mise en harmonie des sociétés"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti.docx","version":"1"},"exemple":{"date_acte":"2000-01-01","partie_1":"Exemple"}}
+{
+  "id": "source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti",
+  "cat": "societes-associations",
+  "sub": "Societes",
+  "titre": "Projet de mail avec sanction pour la mise en harmonie des sociétés",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Projet de mail avec sanction pour la mise en harmonie des sociétés : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "societes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "3 min",
+  "docTitle": "Projet de mail avec sanction pour la mise en harmonie des sociétés",
+  "fileBase": "Projet de mail avec sanction pour la mise en harmonie des sociétés",
+  "headline": "Projet de mail avec sanction pour la mise en harmonie des sociétés",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Informations à renseigner",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "date_acte",
+          "type": "date",
+          "label": "Date de l’acte",
+          "opt": true,
+          "group": "Conformément à l’article 908 dudit Acte, le délai pour la mise en…"
+        },
+        {
+          "id": "partie_1",
+          "type": "text",
+          "label": "Première partie",
+          "opt": true,
+          "group": "Je vous prie de croire, Monsieur …, à l’assurance de mes salutations…",
+          "aide": "…Je vous prie de croire Monsieur ▢ à l’assurance de mes…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "Monsieur le Gérant/Madame la Gérante",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Monsieur le PDG/ Monsieur le DG",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Acte Uniforme de l’OHADA entré en vigueur le 30 Janvier 2014 relatif aux  sociétés commerciales et GIE, a subi de profondes modifications nécessitant la mise en harmonie de vos statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Conformément à l’article 908  dudit Acte, le délai pour la mise en harmonie étant de 2 ans à compter du 30 Janvier 2014 et, arrivé à expiration depuis le {{date_acte}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A cet effet, tout dirigeant social qui est tenu d’accomplir les formalités prescrites par ledit Acte et qui s’en abstient, ou encore qui effectue une formalité par fraude, est puni d’un emprisonnement de trois mois à trois ans et d’une amende de 100.000 à 1.000.000 de francs CFA."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aussi, je vous invite à vous rapprocher de l’Etude afin d’obtenir les renseignements au vu de procéder à la mise en harmonie de vos statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Vous en souhaitant bonne réception,",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dans l’intervalle,",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je vous prie de croire, Monsieur {{partie_1}}, à l’assurance de mes salutations distinguées.",
+      "al": "left"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "date_acte": "2000-01-01",
+    "partie_1": "Exemple"
+  }
+}

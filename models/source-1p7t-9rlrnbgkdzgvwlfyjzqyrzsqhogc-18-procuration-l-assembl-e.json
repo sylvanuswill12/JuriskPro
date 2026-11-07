@@ -1,1 +1,779 @@
-{"id":"source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e","cat":"societes-associations","sub":"Ohada","titre":"Procuration à l’assemblée","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procuration à l’assemblée : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["ohada","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Procuration à l’assemblée","fileBase":"Procuration à l’assemblée","headline":"Procuration à l’assemblée","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procuration à l’assemblée"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e",
+  "cat": "societes-associations",
+  "sub": "Ohada",
+  "titre": "Procuration à l’assemblée",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procuration à l’assemblée : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "ohada",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "12 min",
+  "docTitle": "Procuration à l’assemblée",
+  "fileBase": "Procuration à l’assemblée",
+  "headline": "Procuration à l’assemblée",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Procuration à",
+      "titre": "Procuration à l'assemblée",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « Nous retenons l'hypothèse où »",
+          "opt": true,
+          "group": "Attention : … Nous retenons l'hypothèse où le pouvoir est établi par la…",
+          "aide": "…Attention ▢ Nous retenons l'hypothèse où…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "opt": true
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Montant du capital",
+          "opt": true,
+          "group": "au capital de … FCFA"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Siège social : …"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Numéro d'immatriculation",
+          "opt": true,
+          "group": "… RCCM …"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Ville d'immatriculation",
+          "opt": true,
+          "group": "… RCCM …"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Société anonyme",
+      "titre": "Société anonyme avec Conseil d'administration",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
+          "aide": "…ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Nombre actions",
+          "opt": true
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Nombre",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Nom du détenteur du capital",
+          "opt": true,
+          "group": "Nom et Prénom : …,"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Domicile : …"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true,
+          "group": "Domicile : …"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "Domicile : …",
+          "aide": "…Domicile ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Avant « Conformément aux règles prévues »",
+          "opt": true,
+          "group": "Remarque : … Conformément aux règles prévues à l’art. 538 AUSCGIE, la…",
+          "aide": "…Remarque ▢ Conformément aux règles prévues…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Procuration",
+      "titre": "Procuration",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Nom du détenteur du capital",
+          "opt": true,
+          "group": "Dénomination : …,"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Forme",
+          "opt": true,
+          "group": "Forme juridique : …,"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Montant",
+          "opt": true,
+          "group": "Au capital de … CFA,",
+          "aide": "…Au capital de ▢ CFA…"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Siège social : … ,"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Boîte Postale",
+          "opt": true,
+          "group": "Siège social : … ,"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "Siège social : … ,",
+          "aide": "…Siège social ▢"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Numéro d'immatriculation",
+          "opt": true,
+          "group": "Immatriculée au registre du commerce et des sociétés sous le numéro ……"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Ville d'immatriculation",
+          "opt": true,
+          "group": "Immatriculée au registre du commerce et des sociétés sous le numéro ……"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Nom du représentant légal de la société actionnaire",
+          "opt": true,
+          "group": "Représentée par …, en qualité de représentant légal de la Société …"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Dénomination sociale de la société actionnaire",
+          "opt": true,
+          "group": "Représentée par …, en qualité de représentant légal de la Société …"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Nom du détenteur du capital",
+          "opt": true,
+          "group": "Nom ou Dénomination : …"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Domicile ou Siège social : …"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true,
+          "group": "Domicile ou Siège social : …"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "Domicile ou Siège social : …",
+          "aide": "…Domicile ou Siège social ▢"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Nom du représentant de l'indivision",
+          "opt": true,
+          "group": "Représentée par …,"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Nombre d'actions",
+          "opt": true,
+          "group": "de … actions nominatives"
+        },
+        {
+          "id": "champ_033",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "aux fins de représenter le titulaire à l'assemblée générale…",
+          "aide": "…Société qui sont convoqués pour le ▢ à à à l'effet…"
+        },
+        {
+          "id": "champ_034",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "aux fins de représenter le titulaire à l'assemblée générale…",
+          "aide": "…qui sont convoqués pour le à ▢ à à l'effet de…"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "Lieu",
+          "opt": true,
+          "group": "aux fins de représenter le titulaire à l'assemblée générale…",
+          "aide": "…sont convoqués pour le à à ▢ à l'effet de délibérer…"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Fait à",
+          "opt": true,
+          "group": "Fait à …",
+          "aide": "…Fait à ▢"
+        },
+        {
+          "id": "champ_037",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le …",
+          "aide": "…Le ▢"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "Avant « Faire précéder la signature »",
+          "opt": true,
+          "group": "Attention : … Faire précéder la signature de la mention \"Bon pour…",
+          "aide": "…Attention ▢ Faire précéder la signature…"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Avant « En pratique cette mention »",
+          "opt": true,
+          "group": "Remarque : … En pratique, cette mention semble devenue caduque puisque…",
+          "aide": "…Remarque ▢ En pratique cette mention…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Procuration à l'assemblée**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attention** : {{champ_001}} Nous retenons l'hypothèse où le pouvoir est établi par la Société et adressé aux actionnaires qui en font la demande."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_002}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société anonyme avec Conseil d'administration**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**au capital de {{champ_003}} FCFA**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Siège social : {{champ_004}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_005}} {{champ_006}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_007}} RCCM {{champ_008}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "ASSEMBLEE GENERALE EXTRAORDINAIRE DU {{champ_009}}",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PROCURATION**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "Cadre à remplir par la Société"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nombre d'actions nominatives"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_010}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nombre de voix"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_011}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Identification du titulaire des titres"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'actionnaire convoqué est une Personne physique"
+    },
+    {
+      "k": "p",
+      "text": "Nom et Prénom : {{champ_012}},"
+    },
+    {
+      "k": "p",
+      "text": "Domicile : {{champ_013}} {{champ_014}} {{champ_015}}"
+    },
+    {
+      "k": "p",
+      "text": "Soussigné(e)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'actionnaire convoqué est une Personne morale"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Remarque** : {{champ_016}} Conformément aux règles prévues à l’art. 538 AUSCGIE, la personne morale actionnaire dans une société peut se faire représenter aux assemblées générales par un tiers auquel le représentant légal de la personne morale aura délégué son pouvoir, à moins qu'une telle possibilité soit expressément exclue dans les statuts de la société mandante."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dénomination : {{champ_017}},"
+    },
+    {
+      "k": "p",
+      "text": "Forme juridique : {{champ_018}},"
+    },
+    {
+      "k": "p",
+      "text": "Au capital de {{champ_019}} CFA,"
+    },
+    {
+      "k": "p",
+      "text": "Siège social : {{champ_020}} {{champ_021}} {{champ_022}},"
+    },
+    {
+      "k": "p",
+      "text": "Immatriculée au registre du commerce et des sociétés sous le numéro {{champ_023}} RCCM {{champ_024}},"
+    },
+    {
+      "k": "p",
+      "text": "Représentée par {{champ_025}}, en qualité de représentant légal de la Société {{champ_026}}"
+    },
+    {
+      "k": "p",
+      "text": "Soussignée"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'actionnaire convoqué est une indivision"
+    },
+    {
+      "k": "p",
+      "text": "Nom ou Dénomination : {{champ_027}}"
+    },
+    {
+      "k": "p",
+      "text": "Domicile ou Siège social : {{champ_028}} {{champ_029}} {{champ_030}}"
+    },
+    {
+      "k": "p",
+      "text": "Représentée par {{champ_031}},"
+    },
+    {
+      "k": "p",
+      "text": "Soussignée"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Propriétaire",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Usufruitier (ère)",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Nu(e) - Propriétaire",
+      "mk": "•"
+    },
+    {
+      "k": "p",
+      "text": "de {{champ_032}} actions nominatives"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "de la Société {{champ_002}}, ainsi qu'il résulte d'une inscription des titres à son compte tenu par la Société {{champ_002}}, elle même - jusqu'au troisième jour ouvré précédant la date de l'assemblée, 0 heure, heure locale."
+    },
+    {
+      "k": "p",
+      "text": "Ayant eu connaissance de l'avis à l'actionnaire mentionné ci-après et des documents annexés à la présente formule de procuration,"
+    },
+    {
+      "k": "p",
+      "text": "Donne pouvoir, par la présente, à :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Identité et qualité du Mandataire :"
+    },
+    {
+      "k": "p",
+      "text": "Domicile ou Adresse du siège social du Mandataire :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "aux fins de représenter le titulaire à l'assemblée générale extraordinaire des actionnaires de la Société {{champ_002}} qui sont convoqués pour le {{champ_033}} à {{champ_034}}, à {{champ_035}}, à l'effet de délibérer sur l'ordre du jour suivant :"
+    },
+    {
+      "k": "p",
+      "text": "-  Mise en harmonie des statuts avec les dernières dispositions légales,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "S'il y a délégation de pouvoir en vue d'accomplir les formalités"
+    },
+    {
+      "k": "p",
+      "text": "-  Pouvoirs en vue d'accomplir les formalités."
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, assister à cette assemblée, prendre part à toute assemblée subséquente délibérant sur le même ordre du jour pour le cas où le quorum ne serait pas atteint à l'assemblée précédente."
+    },
+    {
+      "k": "p",
+      "text": "Émarger la feuille de présence, accepter les fonctions de scrutateur ou de secrétaire de l'assemblée, prendre part à toutes délibérations, émettre tous votes sur les questions à l'ordre du jour, signer tous procès-verbaux et autres pièces et généralement faire le nécessaire."
+    },
+    {
+      "k": "p",
+      "text": "**Fait à {{champ_036}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Le {{champ_037}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attention** : {{champ_038}} Faire précéder la signature de la mention \"Bon pour pouvoir\"."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Avis à l'actionnaire**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Remarque** :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "1. La procuration donnée pour se faire représenter à une assemblée par un actionnaire est signée par celui-ci et indique ses nom, prénom et domicile, ainsi que le nombre d’actions et de droit de vote."
+    },
+    {
+      "k": "p",
+      "text": "Le mandat est donné pour une seule assemblée. Il peut cependant être donné pour deux assemblées, l'une ordinaire, l'autre extraordinaire, tenues le même jour ou dans un délai de sept jours."
+    },
+    {
+      "k": "p",
+      "text": "Le mandat donné pour une assemblée vaut pour les assemblées successives convoquées avec le même ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "2. A défaut d'assister personnellement à l'assemblée, l'actionnaire peut choisir entre l'une des deux formules suivantes :"
+    },
+    {
+      "k": "p",
+      "text": "- Donner une procuration à un autre actionnaire ou à son conjoint;"
+    },
+    {
+      "k": "p",
+      "text": "- Voter par correspondance ;"
+    },
+    {
+      "k": "p",
+      "text": "3. En aucun cas, l'actionnaire ne peut retourner à la Société à la fois la formule de procuration et le formulaire de vote par correspondance."
+    },
+    {
+      "k": "p",
+      "text": "4. En cas de retour à la fois de la formule de procuration et du formulaire de vote par correspondance, la formule de procuration sera prise en considération, sous réserve des votes exprimés dans le formulaire de vote par correspondance."
+    },
+    {
+      "k": "p",
+      "text": "**Remarque** : {{champ_039}} En pratique, cette mention semble devenue caduque puisque la formule de procuration et le formulaire de vote à distance peuvent être établis sur le même document."
+    },
+    {
+      "k": "p",
+      "text": "5. Le mandat est révocable, dans les mêmes formes que celles requises pour la désignation du mandataire."
+    },
+    {
+      "k": "p",
+      "text": "6. Le mandat, ainsi que, le cas échéant, sa révocation, sont écrits et communiqués à la Société."
+    },
+    {
+      "k": "p",
+      "text": "DOCUMENTS ANNEXES"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "-  Ordre du jour de l'assemblée ;"
+    },
+    {
+      "k": "p",
+      "text": "-  Texte des projets de résolutions présentés par le Conseil d'administration ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si des actionnaires ont présenté des projets de résolutions et/ou demandé l'inscription de points à l'ordre du jour"
+    },
+    {
+      "k": "p",
+      "text": "-  Texte des projets de résolutions présentés par des actionnaires avec l'indication de ceux de ces projets qui sont agréés par le Conseil d'administration et de ceux qui ne le sont pas- , ainsi que les points ajoutés le cas échéant à l'ordre du jour à la demande des actionnaires dans les conditions prévues à l’article 520 AUSCGIE, accompagné de l'exposé des motifs ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "-  Exposé sommaire de la situation de la Société ;"
+    },
+    {
+      "k": "p",
+      "text": "-  Formule de demande d'envoi de documents et renseignements visés àl'article 525 AUSCGIE"
+    },
+    {
+      "k": "p",
+      "text": "-  Formulaire de vote par correspondance."
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "2000-01-01",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "2000-01-01",
+    "champ_034": "Exemple",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "2000-01-01",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple"
+  }
+}

@@ -1,1 +1,331 @@
-{"id":"source-1o0jh2ajzi2v4arv6u2kamg7aoliswmjv-8-lettre-d-un-actionnaire","cat":"societes-associations","sub":"Ohada","titre":"Lettre d’un actionnaire présentant des projets de résolutions","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Lettre d’un actionnaire présentant des projets de résolutions : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["ohada","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Lettre d’un actionnaire présentant des projets de résolutions","fileBase":"Lettre d’un actionnaire présentant des projets de résolutions","headline":"Lettre d’un actionnaire présentant des projets de résolutions","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Lettre d’un actionnaire présentant des projets de résolutions"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1o0jh2ajzi2v4arv6u2kamg7aoliswmjv-8-lettre-d-un-actionnaire.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1o0jh2ajzi2v4arv6u2kamg7aoliswmjv-8-lettre-d-un-actionnaire",
+  "cat": "societes-associations",
+  "sub": "Ohada",
+  "titre": "Lettre d’un actionnaire présentant des projets de résolutions",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Lettre d’un actionnaire présentant des projets de résolutions : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "ohada",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "7 min",
+  "docTitle": "Lettre d’un actionnaire présentant des projets de résolutions",
+  "fileBase": "Lettre d’un actionnaire présentant des projets de résolutions",
+  "headline": "Lettre d’un actionnaire présentant des projets de résolutions",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Lettre d'un",
+      "titre": "Lettre d'un actionnaire présentant des projets de résolutions",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « Préalablement à la réunion »",
+          "opt": true,
+          "group": "Attention : … Préalablement à la réunion d'une assemblée, les…",
+          "aide": "…Attention ▢ Préalablement à la réunion…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Nom du détenteur de capitaux",
+          "opt": true
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "opt": true
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "▢ RCCM…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "…RCCM ▢"
+        },
+        {
+          "id": "champ_010",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le …,",
+          "aide": "…Le ▢"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Civilité du président",
+          "opt": true,
+          "group": "… le Président,"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Pourcentage",
+          "opt": true,
+          "group": "- Je détiens- Nous détenons … % du capital de la Société … ainsi qu'il…"
+        },
+        {
+          "id": "champ_013",
+          "type": "date",
+          "label": "Date de l'assemblée",
+          "opt": true,
+          "group": "- Je vous demande- Nous vous demandons de bien vouloir inscrire à…"
+        },
+        {
+          "id": "champ_014",
+          "type": "area",
+          "label": "Désignation du projet de résolution",
+          "opt": true,
+          "group": "• …"
+        },
+        {
+          "id": "champ_015",
+          "type": "area",
+          "label": "Texte du projet",
+          "opt": true,
+          "group": "Texte proposé : …"
+        },
+        {
+          "id": "champ_016",
+          "type": "area",
+          "label": "Exposé des motifs de la demande",
+          "opt": true
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Civilité du président",
+          "opt": true,
+          "group": "- Je vous prie- Nous vous prions d'agréer, … le Président, l'expression…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Lettre d'un actionnaire présentant des projets de résolutions**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attention** : {{champ_001}} Préalablement à la réunion d'une assemblée, les actionnaires possédant ou représentant ensemble une certaine fraction du capital social peuvent requérir l'inscription, à l'ordre du jour de cette assemblée, de projets de résolutions qui seront soumis au vote de celle-ci."
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires peuvent se regrouper à l'effet de réunir les pourcentages requis et désigner un mandataire commun pour déposer les projets de résolutions dont ils souhaitent requérir l'inscription à l'ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "La demande doit être envoyée au siège social par lettre recommandée avec demande d'avis de réception, par lettre au porteur contre récépissé ou par télécopie (art. 521 AUSCGIE)"
+    },
+    {
+      "k": "p",
+      "text": "-  dans les dix jours au moins avant la tenue de l’assemblée pour pouvoir être soumis au vote de l’assemblée (art. 521 AUSCGIE)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_002}}**"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_003}}**"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_004}} {{champ_005}}**"
+    },
+    {
+      "k": "p",
+      "text": "**Président du Conseil d'administration**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_006}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_007}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_008}} RCCM {{champ_009}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le {{champ_010}},",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Lettre recommandée avec demande d'avis de réception"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_011}} le Président,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "- Je détiens- Nous détenons {{champ_012}} % du capital de la Société {{champ_006}} ainsi qu'il résulte de l'inscription des actions correspondantes dans les comptes-titres de ladite Société."
+    },
+    {
+      "k": "p",
+      "text": "- Je vous demande- Nous vous demandons de bien vouloir inscrire à l'ordre du jour de l'assemblée générale devant se réunir le {{champ_013}} - le projet de résolution suivant- les projets de résolutions suivants :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "• {{champ_014}}"
+    },
+    {
+      "k": "p",
+      "text": "Texte proposé : {{champ_015}}"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_016}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si le projet de résolution du détenteur concerne une candidature à un poste de membre du Conseil"
+    },
+    {
+      "k": "p",
+      "text": "S'agissant du projet de résolution relatif à la candidature de \"Nom (ou dénomination sociale) du candidat\", vous trouverez en annexe les renseignements prévus par l’article 523 AUSCGIE."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "- Je vous prie- Nous vous prions d'agréer, {{champ_017}} le Président, l'expression de - mes- nos sentiments distingués."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**(Nom (ou dénomination sociale) du détenteur de capitaux)**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1o0jh2ajzi2v4arv6u2kamg7aoliswmjv-8-lettre-d-un-actionnaire.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "2000-01-01",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "2000-01-01",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple"
+  }
+}

@@ -1135,3 +1135,14 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .acc-av:active{transform:scale(.94)}.acc-av.is-on{outline-color:var(--accent)}
 .acc-picker-act{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px}
 .acc-picker-act .acc-btn{cursor:pointer}.acc-btn-dim{color:var(--ink-2)!important;font-weight:600}
+
+/* Modèles issus d'une matrice Word : retraits, listes numérotées, alignement à gauche */
+.sheet .left{text-align:left}
+.sheet .in1{margin-left:2em}.sheet .in2{margin-left:4em}.sheet .in3{margin-left:6em}
+.sheet .in4{margin-left:8em}.sheet .in5{margin-left:10em}.sheet .in6{margin-left:12em}
+.sheet .li.mk{padding-left:2em;text-indent:-2em}
+.sheet .li.mk::before{content:attr(data-mk);display:inline-block;width:2em;text-indent:0;white-space:nowrap}
+@media (max-width:640px){
+  .sheet .in1{margin-left:1.1em}.sheet .in2{margin-left:2.2em}.sheet .in3{margin-left:3.3em}
+  .sheet .in4{margin-left:4.4em}.sheet .in5{margin-left:5.5em}.sheet .in6{margin-left:6.6em}
+}

@@ -1,1 +1,1494 @@
-{"id":"source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l","cat":"societes-associations","sub":"Matrice Redigee","titre":"Procès-verbal d’assemblée générale ordinaire – SA et SAS","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procès-verbal d’assemblée générale ordinaire – SA et SAS : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrice redigee","modèle Word","matrice","anonymisé"],"duree":"25 min","docTitle":"Procès-verbal d’assemblée générale ordinaire – SA et SAS","fileBase":"Procès-verbal d’assemblée générale ordinaire – SA et SAS","headline":"Procès-verbal d’assemblée générale ordinaire – SA et SAS","etapes":[{"id":"informations-1","court":"Partie 1","titre":"Informations à renseigner (1/2)","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « GENERALE ORDINAIRE DU »","req":true},{"id":"champ_002","type":"text","label":"En toutes lettres","opt":true},{"id":"champ_003","type":"text","label":"En toutes lettres (2)","opt":true},{"id":"champ_004","type":"text","label":"En toutes lettres (3)","opt":true},{"id":"champ_005","type":"text","label":"Après « réunis en Assemblée Générale Ordinaire à »","opt":true},{"id":"champ_006","type":"text","label":"Après « L’assemblée est présidée par M »","opt":true},{"id":"champ_007","type":"text","label":"Après « M »","opt":true},{"id":"champ_008","type":"text","label":"Après « M et M »","opt":true},{"id":"champ_009","type":"text","label":"Après « M » (2)","opt":true},{"id":"champ_010","type":"text","label":"Après « les actionnaires présents ou représentés possèdent »","opt":true},{"id":"champ_011","type":"text","label":"Après « présents ou représentés possèdent actions représentant »","opt":true},{"id":"champ_012","type":"text","label":"Après « et approbation des comptes arrêtés au »","opt":true},{"id":"champ_013","type":"date","label":"Après « la société pendant l’exercice clos le »","opt":true},{"id":"champ_014","type":"text","label":"Après « Cette résolution est adoptée »","opt":true},{"id":"champ_015","type":"text","label":"Après « l’existence d’un résultat déficitaire de FCFA »","opt":true},{"id":"champ_016","type":"text","label":"Après « Cette résolution est adoptée » (2)","opt":true},{"id":"champ_017","type":"text","label":"Après « l’existence d’un résultat bénéficiaire de FCFA »","opt":true},{"id":"champ_018","type":"text","label":"Information à compléter","opt":true},{"id":"champ_019","type":"text","label":"Information à compléter (2)","opt":true},{"id":"champ_020","type":"text","label":"Information à compléter (3)","opt":true},{"id":"champ_021","type":"text","label":"Après « Cette résolution est adoptée » (3)","opt":true},{"id":"champ_022","type":"text","label":"Après « Cette résolution est adoptée » (4)","opt":true},{"id":"champ_023","type":"text","label":"Après « nomination aux fonctions d’Administrateur de M »","opt":true},{"id":"champ_024","type":"text","label":"En toutes lettres (4)","opt":true},{"id":"champ_025","type":"text","label":"Après « toutes lettres en remplacement de M »","opt":true},{"id":"champ_026","type":"text","label":"Après « En conséquence M »","opt":true},{"id":"champ_027","type":"date","label":"Après « les comptes de l’exercice clos le »","opt":true},{"id":"champ_028","type":"text","label":"Après « Cette résolution est adoptée » (5)","opt":true},{"id":"champ_029","type":"text","label":"Après « M » (3)","opt":true},{"id":"champ_030","type":"text","label":"Après « M » (4)","opt":true},{"id":"champ_031","type":"text","label":"Après « M » (5)","opt":true},{"id":"champ_032","type":"text","label":"Après « les comptes de l’exercice clos en »","opt":true},{"id":"champ_033","type":"text","label":"Après « M » (6)","opt":true},{"id":"champ_034","type":"text","label":"Après « M et M » (2)","opt":true},{"id":"champ_035","type":"text","label":"Après « Général ou de Président de M »","opt":true},{"id":"champ_036","type":"text","label":"Après « ou de Président de M M »","opt":true},{"id":"champ_037","type":"text","label":"Après « statuera sur les comptes clos en »","opt":true},{"id":"champ_038","type":"text","label":"Après « Cette résolution est adoptée » (6)","opt":true},{"id":"champ_039","type":"text","label":"Après « M » (7)","opt":true},{"id":"champ_040","type":"text","label":"Après « Général ou de Président de M » (2)","opt":true}]},{"id":"informations-2","court":"Partie 2","titre":"Informations à renseigner (2/2)","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_041","type":"text","label":"Après « En remplacement dudit M »","opt":true},{"id":"champ_042","type":"text","label":"Prénom, nom, domicile","opt":true},{"id":"champ_043","type":"text","label":"Après « l’exercice écoulé et tenue dans l’année »","opt":true},{"id":"champ_044","type":"text","label":"Après « Cette résolution est adoptée » (7)","opt":true},{"id":"champ_045","type":"text","label":"Après « M » (8)","opt":true},{"id":"champ_046","type":"text","label":"Après « M » (9)","opt":true},{"id":"champ_047","type":"text","label":"Après « M » (10)","opt":true},{"id":"champ_048","type":"text","label":"Après « les comptes de l’exercice clos en » (2)","opt":true},{"id":"champ_049","type":"text","label":"Après « Cette résolution est adoptée » (8)","opt":true},{"id":"champ_050","type":"text","label":"Après « d’indemnité de fonction la somme de »","opt":true},{"id":"champ_051","type":"text","label":"Après « de FCFA au titre de l’année »","opt":true},{"id":"champ_052","type":"text","label":"Après « ou bien le montant annuel de »","opt":true},{"id":"champ_053","type":"text","label":"Après « Cette résolution est adoptée » (9)","opt":true},{"id":"champ_054","type":"text","label":"Après « M » (11)","opt":true},{"id":"champ_055","type":"text","label":"Après « M » (12)","opt":true},{"id":"champ_056","type":"text","label":"Après « les comptes de l’exercice clos en » (3)","opt":true},{"id":"champ_057","type":"text","label":"Après « Cette résolution est adoptée » (10)","opt":true},{"id":"champ_058","type":"text","label":"Après « constatant que le mandat de M »","opt":true},{"id":"champ_059","type":"text","label":"Après « Cette résolution est adoptée » (11)","opt":true},{"id":"champ_060","type":"text","label":"Après « résolution précédente l’Assemblée Générale désigne M »","opt":true},{"id":"champ_061","type":"text","label":"Après « les comptes de l’exercice clos en » (4)","opt":true},{"id":"champ_062","type":"text","label":"Après « Cette résolution est adoptée » (12)","opt":true},{"id":"champ_063","type":"text","label":"Après « Cette résolution est adoptée » (13)","opt":true},{"id":"champ_064","type":"text","label":"Après « approuve les opérations conclues entre M »","opt":true},{"id":"champ_065","type":"text","label":"Après « Cette résolution est adoptée » (14)","opt":true},{"id":"champ_066","type":"text","label":"Après « Etant précise que M »","opt":true},{"id":"champ_067","type":"text","label":"Après « Président lors de la séance du »","opt":true},{"id":"champ_068","type":"text","label":"Après « Cette résolution est adoptée » (15)","opt":true},{"id":"champ_069","type":"text","label":"Après « Président lors de la séance du » (2)","opt":true},{"id":"champ_070","type":"text","label":"Après « L’article n »","opt":true},{"id":"champ_071","type":"text","label":"Après « Le siège social est fixé à »","opt":true},{"id":"champ_072","type":"text","label":"Après « Cette résolution est adoptée » (16)","opt":true},{"id":"champ_073","type":"text","label":"Après « Cette résolution est adoptée » (17)","opt":true},{"id":"champ_074","type":"text","label":"Après « Cette résolution est adoptée » (18)","opt":true},{"id":"champ_075","type":"text","label":"Après « Président déclare la séance levée à »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procès-verbal d’assemblée générale ordinaire – SA et SAS"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"Exemple","champ_011":"Exemple","champ_012":"Exemple","champ_013":"2000-01-01","champ_014":"Exemple","champ_015":"Exemple","champ_016":"Exemple","champ_017":"Exemple","champ_018":"Exemple","champ_019":"Exemple","champ_020":"Exemple","champ_021":"Exemple","champ_022":"Exemple","champ_023":"Exemple","champ_024":"Exemple","champ_025":"Exemple","champ_026":"Exemple","champ_027":"2000-01-01","champ_028":"Exemple","champ_029":"Exemple","champ_030":"Exemple","champ_031":"Exemple","champ_032":"Exemple","champ_033":"Exemple","champ_034":"Exemple","champ_035":"Exemple","champ_036":"Exemple","champ_037":"Exemple","champ_038":"Exemple","champ_039":"Exemple","champ_040":"Exemple","champ_041":"Exemple","champ_042":"Exemple","champ_043":"Exemple","champ_044":"Exemple","champ_045":"Exemple","champ_046":"Exemple","champ_047":"Exemple","champ_048":"Exemple","champ_049":"Exemple","champ_050":"Exemple","champ_051":"Exemple","champ_052":"Exemple","champ_053":"Exemple","champ_054":"Exemple","champ_055":"Exemple","champ_056":"Exemple","champ_057":"Exemple","champ_058":"Exemple","champ_059":"Exemple","champ_060":"Exemple","champ_061":"Exemple","champ_062":"Exemple","champ_063":"Exemple","champ_064":"Exemple","champ_065":"Exemple","champ_066":"Exemple","champ_067":"Exemple","champ_068":"Exemple","champ_069":"Exemple","champ_070":"Exemple","champ_071":"Exemple","champ_072":"Exemple","champ_073":"Exemple","champ_074":"Exemple","champ_075":"Exemple"}}
+{
+  "id": "source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l",
+  "cat": "societes-associations",
+  "sub": "Matrice Redigee",
+  "titre": "Procès-verbal d’assemblée générale ordinaire – SA et SAS",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procès-verbal d’assemblée générale ordinaire – SA et SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrice redigee",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "25 min",
+  "docTitle": "Procès-verbal d’assemblée générale ordinaire – SA et SAS",
+  "fileBase": "Procès-verbal d’assemblée générale ordinaire – SA et SAS",
+  "headline": "Procès-verbal d’assemblée générale ordinaire – SA et SAS",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Proces verbal",
+      "titre": "Proces verbal des deliberations de l’assemblee",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "GENERALE ORDINAIRE DU",
+          "opt": true,
+          "group": "GENERALE ORDINAIRE DU …"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "L’an",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an ▢ le à…"
+        },
+        {
+          "id": "champ_076",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an ▢ le à…"
+        },
+        {
+          "id": "champ_003",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an le ▢ à…"
+        },
+        {
+          "id": "champ_077",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an le ▢ à…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "À",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an le à ▢"
+        },
+        {
+          "id": "champ_078",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’an … ; le … à … ,",
+          "aide": "…L’an le à ▢"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "À",
+          "opt": true,
+          "group": "Les actionnaires de la société se sont réunis en Assemblée Générale…",
+          "aide": "…réunis en Assemblée Générale Ordinaire à ▢ sur convocation faite par…"
+        },
+        {
+          "id": "champ_079",
+          "type": "text",
+          "label": "Été annexés les pouvoirs des",
+          "opt": true,
+          "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
+        },
+        {
+          "id": "champ_080",
+          "type": "text",
+          "label": "Qui a été émargée par",
+          "opt": true,
+          "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "L’assemblée est présidée par M",
+          "opt": true,
+          "group": "L’assemblée est présidée par M …, (Président du Conseil…"
+        },
+        {
+          "id": "champ_081",
+          "type": "date",
+          "label": "Ou le",
+          "opt": true,
+          "group": "L’assemblée est présidée par M …, (Président du Conseil…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…",
+          "aide": "…M ▢ et M actionnaires représentant…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Et M",
+          "opt": true,
+          "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…",
+          "aide": "…M et M ▢ actionnaires représentant le plus…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … a été désigné comme secrétaire.",
+          "aide": "…M ▢ a été désigné comme…"
+        },
+        {
+          "id": "champ_082",
+          "type": "text",
+          "label": "Par les scrutateurs permet de",
+          "opt": true,
+          "group": "La feuille de présence certifiée sincère et véritable par les…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Actionnaires présents ou représentés possèdent",
+          "opt": true,
+          "group": "La feuille de présence certifiée sincère et véritable par les…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Actions représentant",
+          "opt": true,
+          "group": "La feuille de présence certifiée sincère et véritable par les…"
+        },
+        {
+          "id": "champ_083",
+          "type": "text",
+          "label": "Tous ceux prévus par l’Acte",
+          "opt": true,
+          "group": "Le Président déclare que les documents ci-dessus et tous ceux prévus…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Approbation des comptes arrêtés au",
+          "opt": true,
+          "group": "Examen et approbation des comptes arrêtés au … ;"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Partie 2",
+      "titre": "Première résolution : Approbation des comptes",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_013",
+          "type": "date",
+          "label": "Société pendant l’exercice clos le",
+          "opt": true,
+          "group": "Du rapport du Conseil d’Administration (ou de l’Administrateur Général)…"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "D’un résultat déficitaire de FCFA",
+          "opt": true,
+          "group": "L’Assemblée Générale, après avoir pris connaissance des états…"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "D’un résultat bénéficiaire de FCFA",
+          "opt": true,
+          "group": "L’Assemblée Générale, après avoir pris connaissance des états…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "D’affecter ce résultat comme suit",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "D’affecter ce résultat comme suit",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "D’affecter ce résultat comme suit",
+          "opt": true,
+          "aide": "▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Partie 3",
+      "titre": "Résultat bénéficiaire",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "D’affecter ce résultat comme suit",
+          "opt": true,
+          "group": "Cette résolution est adoptée …",
+          "aide": "…Cette résolution est adoptée ▢"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Aux fonctions d’Administrateur de M",
+          "opt": true,
+          "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Lors de la réunion du",
+          "opt": true,
+          "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
+        },
+        {
+          "id": "champ_084",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…",
+          "aide": "…d’Administration lors de la réunion du ▢ en remplacement de M…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "En remplacement de M",
+          "opt": true,
+          "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "En conséquence, M … exercera ses fonctions pour la durée du mandat de…",
+          "aide": "…En conséquence M ▢ exercera ses fonctions pour…"
+        },
+        {
+          "id": "champ_027",
+          "type": "date",
+          "label": "Comptes de l’exercice clos le",
+          "opt": true,
+          "group": "En conséquence, M … exercera ses fonctions pour la durée du mandat de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "C. Troisième",
+      "titre": "C. Troisième résolution : Ratification de nomination provisoire…",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …, présent à l’assemblée, déclare accepter le mandat d’Administrateur…",
+          "aide": "…M ▢ présent à l’assemblée déclare…"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …",
+          "aide": "…M ▢"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …",
+          "aide": "…M ▢"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Comptes de l’exercice clos en",
+          "opt": true,
+          "group": "en qualité de nouveaux Administrateurs ou de nouvel Administrateur…"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … et M …, présents à l’assemblée, déclarent accepter le mandat…",
+          "aide": "…M ▢ et M présents à…"
+        },
+        {
+          "id": "champ_034",
+          "type": "text",
+          "label": "Et M",
+          "opt": true,
+          "group": "M … et M …, présents à l’assemblée, déclarent accepter le mandat…",
+          "aide": "…M et M ▢ présents à l’assemblée déclarent…"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "Ou de Président de M",
+          "opt": true,
+          "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "L’Assemblée constatant que le mandat d’Administrateur ou…",
+          "aide": "…ou de Président de M M ▢ arrive nt arrive à…"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Sur les comptes clos en",
+          "opt": true,
+          "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement…",
+          "aide": "…M ▢ M présent s à…"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Ou de Président de M",
+          "opt": true,
+          "group": "L’Assemblée Générale décide de mettre fin, à compter de ce jour, au…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "En remplacement dudit M",
+          "opt": true,
+          "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Administrateur Général ou Président M",
+          "opt": true,
+          "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
+        },
+        {
+          "id": "champ_085",
+          "type": "text",
+          "label": "Prénom, nom, domicile",
+          "opt": true,
+          "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
+        },
+        {
+          "id": "champ_043",
+          "type": "text",
+          "label": "Écoulé et tenue dans l’année",
+          "opt": true,
+          "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … (nouvel Administrateur ou nouvel Administrateur Général ou nouveau…",
+          "aide": "…M ▢ nouvel Administrateur ou nouvel…"
+        }
+      ]
+    },
+    {
+      "id": "partie-5",
+      "court": "G. Septième",
+      "titre": "G. Septième résolution : Nomination Commissaire aux comptes",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … en qualité de Commissaire aux comptes titulaire ;",
+          "aide": "…M ▢ en qualité de Commissaire…"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … en qualité de Commissaire aux comptes suppléant ;",
+          "aide": "…M ▢ en qualité de Commissaire…"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "Comptes de l’exercice clos en",
+          "opt": true,
+          "group": "Pour une durée de six exercices sociaux, soit jusqu’à à l’issue de…"
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_086",
+          "type": "text",
+          "label": "D’indemnité de fonction la somme",
+          "opt": true,
+          "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…"
+        },
+        {
+          "id": "champ_050",
+          "type": "text",
+          "label": "De",
+          "opt": true,
+          "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…",
+          "aide": "…d’indemnité de fonction la somme de ▢ FCFA au titre de…"
+        },
+        {
+          "id": "champ_051",
+          "type": "text",
+          "label": "FCFA au titre de l’année",
+          "opt": true,
+          "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…"
+        },
+        {
+          "id": "champ_052",
+          "type": "text",
+          "label": "Le montant annuel de",
+          "opt": true,
+          "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…"
+        }
+      ]
+    },
+    {
+      "id": "partie-6",
+      "court": "H. Huitième",
+      "titre": "H. Huitième résolution : Indemnité de fonction",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_053",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_054",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …, Commissaire aux comptes titulaire ;",
+          "aide": "…M ▢ Commissaire aux comptes titulaire…"
+        },
+        {
+          "id": "champ_055",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …, Commissaire aux comptes suppléant ;",
+          "aide": "…M ▢ Commissaire aux comptes suppléant…"
+        },
+        {
+          "id": "champ_056",
+          "type": "text",
+          "label": "En",
+          "opt": true,
+          "group": "est arrivé à expiration, décide de le renouveler pour une période de…",
+          "aide": "…les comptes de l’exercice clos en ▢"
+        },
+        {
+          "id": "champ_057",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_058",
+          "type": "text",
+          "label": "Que le mandat de M",
+          "opt": true,
+          "group": "L’Assemblée Générale constatant que le mandat de M … Commissaire aux…"
+        },
+        {
+          "id": "champ_059",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_060",
+          "type": "text",
+          "label": "L’Assemblée Générale désigne M",
+          "opt": true,
+          "group": "En conséquence de la résolution précédente, l’Assemblée Générale…"
+        }
+      ]
+    },
+    {
+      "id": "partie-7",
+      "court": "Partie 7",
+      "titre": "Onzième résolution : Nomination Commissaire aux comptes",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_061",
+          "type": "text",
+          "label": "Comptes de l’exercice clos en",
+          "opt": true,
+          "group": "En conséquence de la résolution précédente, l’Assemblée Générale…"
+        },
+        {
+          "id": "champ_062",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_063",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_064",
+          "type": "text",
+          "label": "Les opérations conclues entre M",
+          "opt": true,
+          "group": "Après avoir entendu la lecture du rapport spécial du Commissaire aux…"
+        },
+        {
+          "id": "champ_065",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_066",
+          "type": "text",
+          "label": "Etant précise que M",
+          "opt": true,
+          "group": "Etant précise que M … n’a pas pris part au vote et ses actions n’ont…"
+        },
+        {
+          "id": "champ_067",
+          "type": "text",
+          "label": "Lors de la séance du",
+          "opt": true,
+          "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
+        },
+        {
+          "id": "champ_087",
+          "type": "text",
+          "label": "Ancienne adresse",
+          "opt": true,
+          "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
+        }
+      ]
+    },
+    {
+      "id": "partie-8",
+      "court": "M. Quatorzième",
+      "titre": "M. Quatorzième résolution : Ratification transfert de siège",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_088",
+          "type": "text",
+          "label": "Nouvelle adresse",
+          "opt": true,
+          "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
+        },
+        {
+          "id": "champ_068",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_069",
+          "type": "text",
+          "label": "Lors de la séance du",
+          "opt": true,
+          "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
+        },
+        {
+          "id": "champ_089",
+          "type": "text",
+          "label": "Nouvelle adresse",
+          "opt": true,
+          "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
+        },
+        {
+          "id": "champ_090",
+          "type": "text",
+          "label": "Indiquer les lieux",
+          "opt": true,
+          "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
+        },
+        {
+          "id": "champ_091",
+          "type": "text",
+          "label": "Indiquer les lieux",
+          "opt": true,
+          "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
+        },
+        {
+          "id": "champ_070",
+          "type": "text",
+          "label": "L’article n°",
+          "opt": true,
+          "group": "L’article n° … des statuts est ainsi modifié :"
+        },
+        {
+          "id": "champ_071",
+          "type": "text",
+          "label": "Siège social est fixé à",
+          "opt": true,
+          "group": "‘‘ Le siège social est fixé à … ’’"
+        }
+      ]
+    },
+    {
+      "id": "partie-9",
+      "court": "N. Quinzième",
+      "titre": "N. Quinzième résolution : Refus de ratification du transfert de siège…",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_072",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_073",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_074",
+          "type": "text",
+          "label": "Cette résolution est adoptée",
+          "opt": true,
+          "group": "Cette résolution est adoptée …"
+        },
+        {
+          "id": "champ_075",
+          "type": "text",
+          "label": "Déclare la séance levée à",
+          "opt": true,
+          "group": "L’ordre du jour étant épuisé, et personne ne demandant plus la parole,…"
+        },
+        {
+          "id": "champ_092",
+          "type": "text",
+          "label": "Le Président",
+          "opt": true,
+          "group": "Le Président … Les Scrutateurs Le Secrétaire"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**PROCES-VERBAL DE L’ASSEMBLEE GENERALE**"
+    },
+    {
+      "k": "p",
+      "text": "**ORDINAIRE – SA & SAS**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**« Papier en-tête société »**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PROCES VERBAL DES DELIBERATIONS DE L’ASSEMBLEE**"
+    },
+    {
+      "k": "p",
+      "text": "**GENERALE ORDINAIRE DU {{champ_001}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’an {{champ_002}} {{champ_076}} ; le {{champ_003}} {{champ_077}} à {{champ_004}} {{champ_078}},",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires de la société se sont réunis en **Assemblée Générale Ordinaire      **à {{champ_005}}, sur convocation  faite par le Président du Conseil d’Administration ou le Président Directeur Général, ou l’Administrateur Général.",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il a été établi une feuille de présence, à laquelle ont été annexés les pouvoirs des {{champ_079}} actionnaires représentés par des mandataires, et qui a été émargée par {{champ_080}} chaque membre en entrant en séance.",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’assemblée est présidée par **M **{{champ_006}}, (Président du Conseil d’Administration, ou  le {{champ_081}} Président Directeur Général, ou l’Administrateur Général, à préciser).",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**M {{champ_007}}** et **M {{champ_008}} **actionnaires représentant le plus grand nombre  d’actions présents  et acceptant sont appelés comme scrutateurs.",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "**M {{champ_009}}** a été  désigné comme secrétaire."
+    },
+    {
+      "k": "p",
+      "text": "La feuille de présence certifiée sincère et véritable par les scrutateurs permet de {{champ_082}} constater que les actionnaires présents ou  représentés possèdent {{champ_010}} actions représentant {{champ_011}} %  du capital social.",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, l’assemblée est déclarée régulièrement constituée et peut délibérer  valablement.",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Président dépose sur le bureau, et met à la disposition des membres de l’assemblée :",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Un exemplaire du journal d’annonces légales ayant fait paraître la convocation ou les copies  des lettres avec avis de réception ou récépissés ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "La feuille de présence de l’assemblée certifiée sincère et véritable par les scrutateurs  et à laquelle sont annexés les pouvoirs des actionnaires  représentés par des mandataires ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Les états financiers ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Le rapport du Conseil d’Administration ou de l’Administrateur Général ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Les rapports du Commissaire aux comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Le texte des résolutions présentées à l’assemblée ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "La liste des administrateurs ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "La liste des actionnaires ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Le montant global certifié par le Commissaire aux comptes des rémunérations versées  aux cinq ou dix dirigeants sociaux et salariés les mieux rémunérés.",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Le Président déclare que les documents ci-dessus et tous ceux prévus par l’Acte {{champ_083}} Uniforme et les règlements ont été tenus à la disposition des actionnaires à compter du jour de la convocation.",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "L’assemblée lui donne acte de ses déclarations.",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "Le Président rappelle  ensuite que l’assemblée  est appelée à délibérer sur l’ordre du jour suivant :",
+      "ind": 1
+    },
+    {
+      "k": "li",
+      "text": "Examen et approbation  des comptes arrêtés au {{champ_012}} ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Affectation des résultats ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Rapports du Conseil d’Administration (ou de l’Administrateur Général) et du Commissaire aux comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Quitus aux Administrateurs ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Ratification de nomination  d’Administrateurs ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Nomination renouvellement  Administrateurs ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Nomination Commissaire aux comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Ratification de transfert de siège social ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Questions diverses.",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Puis il est donné  lecture :"
+    },
+    {
+      "k": "li",
+      "text": "Du rapport du Conseil d’Administration (ou de l’Administrateur Général) exposant l’activité de la société  au cours de l’exercice écoulé et les résultats de cette activité ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Du rapport du Commissaire aux comptes.",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "La discussion est ouverte par la suite.",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "Diverses observations sont échangées portant sur la marche de la société et les points soulevés par l’ordre du jour (résumé des discussions).",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "Personne ne demandant plus la parole, le Président  met aux voix les résolutions suivantes figurant à l’ordre du jour :",
+      "ind": 1
+    },
+    {
+      "k": "li",
+      "text": "**Première résolution : Approbation  des comptes**",
+      "mk": "A."
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale, après avoir entendu la lecture :",
+      "ind": 1
+    },
+    {
+      "k": "li",
+      "text": "Du rapport du Conseil d’Administration (ou de l’Administrateur Général) sur l’activité et la situation de la société pendant l’exercice clos le {{champ_013}}, et sur les comptes dudit exercice ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Du rapport du Commissaire aux comptes sur l’exécution de sa mission au cours de cet exercice,",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Approuve les comptes et les états financiers dudit exercice, tels qu’ils ont été présentés."
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, elle donne aux Administrateurs et au Commissaire aux comptes quitus de l’exécution de leur mandat pour ledit exercice."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_014}}"
+    },
+    {
+      "k": "p",
+      "text": "**B. Deuxième résolution : Affectation des résultats**"
+    },
+    {
+      "k": "p",
+      "text": "**-Résultat déficitaire**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale, après avoir pris connaissance des états financiers, constate l’existence d’un résultat déficitaire de FCFA {{champ_015}}"
+    },
+    {
+      "k": "p",
+      "text": "Elle décide d’affecter ce résultat au report à nouveau."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_016}}"
+    },
+    {
+      "k": "p",
+      "text": "**-Résultat bénéficiaire**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale, après avoir pris connaissance des états financiers, constate l’existence d’un résultat bénéficiaire de FCFA {{champ_017}}"
+    },
+    {
+      "k": "p",
+      "text": "Elle décide d’affecter ce résultat  comme suit :"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_018}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_019}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_020}}",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_021}} {{champ_022}}"
+    },
+    {
+      "k": "p",
+      "text": "**C. Troisième  résolution : Ratification de nomination provisoire d’Administrateur**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale, ratifie la nomination aux fonctions d’Administrateur de M {{champ_023}}, faite à titre provisoire par le Conseil d’Administration lors de la réunion  du {{champ_024}} {{champ_084}}, en remplacement de M {{champ_025}}, démissionnaire (ou décédé)."
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, M {{champ_026}} exercera ses fonctions pour la durée du mandat  de son prédécesseur restant à courir, soit jusqu’à l’issue de l’assemblée qui statuera sur les comptes de l’exercice clos le {{champ_027}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_028}}"
+    },
+    {
+      "k": "p",
+      "text": "Si l’Administrateur est présent à l’Assemblée Générale :"
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_029}}, présent à l’assemblée, déclare accepter le mandat d’Administrateur qui vient de lui être confié en précisant qu’il n’est frappé d’aucune incapacité ou interdiction susceptible de lui interdire d’exercer ce mandat."
+    },
+    {
+      "k": "p",
+      "text": "Si l’Administrateur n’est pas présent prévoir une lettre d’acceptation du mandat."
+    },
+    {
+      "k": "p",
+      "text": "**D. Quatrième résolution : Nomination d’Administrateurs ou d’Administrateur Général ou de Président**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale décide de nommer :"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_030}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_031}}",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "en qualité de nouveaux Administrateurs  ou de nouvel Administrateur Général ou de nouveau Président , pour une durée de six (6) années au (moins), qui prendra fin  à l’issue de l’assemblée appelée à statuer sur les comptes de l’exercice  clos en {{champ_032}}"
+    },
+    {
+      "k": "p",
+      "text": "Si les Administrateurs ou l’Administrateur Général ou le Président sont (est)  présent(s) à L’Assemblée Générale (sinon, lettre d’acceptation de mandat) :"
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_033}} et  M {{champ_034}}, présents à l’assemblée, déclarent accepter le mandat d’Administrateur ou d’Administrateur Général ou du Président qui vient de leur être confié, en précisant qu’ils ne sont frappés d’aucune incapacité ou interdiction susceptible de leur interdire d’exercer ce mandat."
+    },
+    {
+      "k": "p",
+      "text": "**E. Cinquième résolution : Renouvellement mandat d’Administrateurs ou d’Administrateur Général  ou du Président**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée constatant que le mandat d’Administrateur ou d’Administrateur Général ou de Président de M {{champ_035}}, M {{champ_036}} arrive(nt) arrive à expiration lors de la présente assemblée, décide de renouveler son (ou leurs) mandat(s) pour une durée de six ans (ou moins) qui expirera à l’issue de l’Assemblée Générale qui statuera sur les comptes clos en  {{champ_037}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_038}}"
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_039}}, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement  de son (ou leurs) mandat, en précisant qu’il n’est frappé d’aucune incompatibilité ou interdiction  susceptibles de l’empêcher d’exercer les fonctions d’Administrateur ou d’Administrateur Général ou de Président de la société."
+    },
+    {
+      "k": "p",
+      "text": "**F. Sixième résolution : Révocation d’un d’Administrateur ou d’un Administrateur Général ou du Président**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale décide de mettre fin, à compter de ce jour, au mandat d’Administrateur ou d’Administrateur Général ou de Président de M {{champ_040}} et (se réserve de statuer ultérieurement sur le quitus à lui consentir ou lui donne quitus de l’exécution de son mandat)."
+    },
+    {
+      "k": "p",
+      "text": "En remplacement dudit M {{champ_041}} l’Assemblée Générale nomme comme Administrateur ou Administrateur Général ou Président M {{champ_042}} {{champ_085}} pour la durée restant à courir du mandat de son prédécesseur, soit jusqu’au jour de la réunion de L’Assemblée Générale Ordinaire des actionnaires qui statuera sur les comptes de l’exercice écoulé et tenue dans l’année {{champ_043}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_044}}"
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_045}} (nouvel  Administrateur ou nouvel Administrateur Général ou nouveau Président), présent à la réunion accepte ces fonctions et déclare n’être frappé d’aucune mesure susceptible de lui interdire d’exercer les fonctions d’Administrateur ou d’Administrateur Général ou de Président de la société."
+    },
+    {
+      "k": "p",
+      "text": "**G. Septième résolution : Nomination Commissaire aux comptes**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale décide de nommer :"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_046}} en qualité de Commissaire aux comptes titulaire ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_047}} en qualité de Commissaire aux comptes suppléant ;",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Pour une durée de six exercices sociaux, soit jusqu’à à l’issue de l’Assemblée Générale qui statuera sur les comptes  de l’exercice clos en  {{champ_048}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_049}}"
+    },
+    {
+      "k": "p",
+      "text": "**H. Huitième résolution : Indemnité de fonction**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains Administrateurs : à préciser) en rémunération de leurs activités, à titre d’indemnité de fonction la somme {{champ_086}} de {{champ_050}} FCFA au titre de l’année {{champ_051}} (ou bien : le montant annuel de {{champ_052}} FCFA. pour chacune des années suivantes). Cette somme sera payée comme suit : (mensuellement, trimestriellement ou en une seule fois : à préciser)."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_053}}"
+    },
+    {
+      "k": "p",
+      "text": "**I. Neuvième résolution : Renouvellement mandat Commissaire aux comptes**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale constatant que le mandat de :"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_054}}, Commissaire aux comptes titulaire ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "M {{champ_055}}, Commissaire aux comptes suppléant ;",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "est arrivé à expiration, décide de le renouveler pour une période de six exercices, soit jusqu’à l’issue de l’Assemblée Générale qui statuera sur les comptes de l’exercice clos      en {{champ_056}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_057}}"
+    },
+    {
+      "k": "p",
+      "text": "**J. Dixième résolution : Non renouvellement mandat du Commissaire aux comptes et nomination d’un autre**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale constatant que le mandat de M {{champ_058}} Commissaire aux comptes (titulaire ou suppléant) est arrivé à expiration, décide de ne pas le renouveler."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_059}}"
+    },
+    {
+      "k": "p",
+      "text": "**Onzième résolution : Nomination Commissaire aux comptes**"
+    },
+    {
+      "k": "p",
+      "text": "En conséquence de la résolution précédente, l’Assemblée Générale désigne M {{champ_060}} en qualité de Commissaire aux comptes (titulaire ou suppléant) pour une durée de six exercices sociaux, soit jusqu’à à l’issue de l’Assemblée Générale qui statuera sur les comptes de l’exercice clos en  {{champ_061}}"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_062}}"
+    },
+    {
+      "k": "p",
+      "text": "**K. Douzième résolution : Absence de conventions règlementées**"
+    },
+    {
+      "k": "p",
+      "text": "Après avoir entendu la lecture du rapport spécial du Commissaire aux comptes faisant état de l’absence de conventions réglementées, l’Assemblée Générale en prend acte."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_063}}"
+    },
+    {
+      "k": "p",
+      "text": "**L. Treizième révolution : Approbation des conventions**"
+    },
+    {
+      "k": "p",
+      "text": "Après avoir entendu la lecture du rapport spécial  du Commissaire aux comptes sur les conventions visées à l’article 440 (pour la SA avec CA) ou 503(pour la SA avec Administrateur Général) ou 853-14(pour la  SAS) de l’Acte Uniforme relatif au Droit des Sociétés et du Groupement d’Intérêt Economique, l’Assemblée Générale approuve les opérations conclues entre M {{champ_064}} et la société, au cours de l’exercice écoulé, telles qu’elles résultent dudit rapport."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_065}}"
+    },
+    {
+      "k": "p",
+      "text": "Etant précise que M {{champ_066}} n’a pas pris part au vote et ses actions n’ont pas été prises en compte dans le calcul du quorum et de la majorité"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "."
+    },
+    {
+      "k": "p",
+      "text": "**M. Quatorzième résolution : Ratification transfert de siège**"
+    },
+    {
+      "k": "p",
+      "text": "L’assemblée Générale ratifie la décision prise par le Conseil d’Administration ou l’Administrateur Général ou le Président lors de la séance du {{champ_067}}, de transférer le siège social du {{champ_087}} au {{champ_088}}. En conséquence, elle approuve les modifications statutaires adoptées par le Conseil d’administration ou l’Administrateur Général ou le Président."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_068}}"
+    },
+    {
+      "k": "p",
+      "text": "**N. Quinzième résolution : Refus de ratification du transfert de siège social**"
+    },
+    {
+      "k": "p",
+      "text": "L’assemblée Générale décide de ne pas ratifier la décision prise par le Conseil d’Administration ou l’Administrateur Général ou le Président lors de la séance du {{champ_069}}, de transférer le siège social au {{champ_089}}.En conséquence, elle maintient le siège social à son ancienne adresse : {{champ_090}} au lieu de {{champ_091}} et annule les modifications statutaires réalisées par ledit Conseil ou l’Administrateur Général ou le Président."
+    },
+    {
+      "k": "p",
+      "text": "L’article n° {{champ_070}} des statuts est ainsi modifié :"
+    },
+    {
+      "k": "p",
+      "text": "‘‘ Le siège social est fixé à {{champ_071}} ’’"
+    },
+    {
+      "k": "p",
+      "text": "Le reste de l’article est sans changement."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_072}}"
+    },
+    {
+      "k": "p",
+      "text": "**O. Seizième résolution : Actions attribuées gratuitement au personnel et aux dirigeants durant l’exercice**"
+    },
+    {
+      "k": "p",
+      "text": "Après avoir entendu la lecture du rapport spécial du Président du Conseil ou de l’Administrateur Général ou du Président faisant état"
+    },
+    {
+      "k": "li",
+      "text": "Du nombre et de la valeur des actions attribuées gratuitement durant l’exercice par la société (et/ou par les sociétés liées) à chacun des dirigeants ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Du nombre et de la valeur des actions attribuées gratuitement durant l’exercice par la société (et/ou par les sociétés liées) à chacun des dix (10) salariés de la société  non dirigeants dont le nombre attribué est plus élevé ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Du nombre et de la valeur des actions attribuées gratuitement par la ou les société(s) liée(s) à l’ensemble des salariés et la répartition de ces actions entre les catégories de ces bénéficiaires ;",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale en prend acte :"
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_073}}"
+    },
+    {
+      "k": "p",
+      "text": "**P. Dix-septième résolution : Pouvoirs**"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée confère tous pouvoirs au porteur de copie ou d’extraits du Procès-Verbal constatant ses délibérations à l’effet d’accomplir toutes formalités légales ou autres s’il y a lieu."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution est adoptée {{champ_074}}"
+    },
+    {
+      "k": "p",
+      "text": "L’ordre du jour étant épuisé, et personne ne demandant plus la parole, le Président déclare la séance levée à {{champ_075}} heures."
+    },
+    {
+      "k": "p",
+      "text": "De tout ce que dessus, il a été dressé le présent Procès-Verbal qui a été signé par les membres du bureau après lecture."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Président {{champ_092}} Les Scrutateurs    Le Secrétaire"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_076": "Exemple",
+    "champ_003": "2000-01-01",
+    "champ_077": "Exemple",
+    "champ_004": "Exemple",
+    "champ_078": "Exemple",
+    "champ_005": "Exemple",
+    "champ_079": "Exemple",
+    "champ_080": "Exemple",
+    "champ_006": "Exemple",
+    "champ_081": "2000-01-01",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_082": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_083": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "2000-01-01",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_084": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "2000-01-01",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "Exemple",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_085": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple",
+    "champ_086": "Exemple",
+    "champ_050": "Exemple",
+    "champ_051": "Exemple",
+    "champ_052": "Exemple",
+    "champ_053": "Exemple",
+    "champ_054": "Exemple",
+    "champ_055": "Exemple",
+    "champ_056": "Exemple",
+    "champ_057": "Exemple",
+    "champ_058": "Exemple",
+    "champ_059": "Exemple",
+    "champ_060": "Exemple",
+    "champ_061": "Exemple",
+    "champ_062": "Exemple",
+    "champ_063": "Exemple",
+    "champ_064": "Exemple",
+    "champ_065": "Exemple",
+    "champ_066": "Exemple",
+    "champ_067": "Exemple",
+    "champ_087": "Exemple",
+    "champ_088": "Exemple",
+    "champ_068": "Exemple",
+    "champ_069": "Exemple",
+    "champ_089": "Exemple",
+    "champ_090": "Exemple",
+    "champ_091": "Exemple",
+    "champ_070": "Exemple",
+    "champ_071": "Exemple",
+    "champ_072": "Exemple",
+    "champ_073": "Exemple",
+    "champ_074": "Exemple",
+    "champ_075": "Exemple",
+    "champ_092": "Exemple"
+  }
+}

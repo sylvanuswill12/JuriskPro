@@ -1,1 +1,2226 @@
-{"id":"source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des","cat":"societes-associations","sub":"Associations","titre":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["associations","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG","fileBase":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG","headline":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des",
+  "cat": "societes-associations",
+  "sub": "Associations",
+  "titre": "Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "associations",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "40 min",
+  "docTitle": "Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG",
+  "fileBase": "Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG",
+  "headline": "Tableaux – liste des membres fondateurs, du bureau exécutif et de présence à l’AG",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Liste des",
+      "titre": "Liste des membres fondateurs",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_196",
+          "type": "text",
+          "label": "PROFESSION",
+          "opt": true,
+          "group": "PROFESSION …",
+          "aide": "…PROFESSION ▢"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 1"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 1"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 1"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 1"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 1"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 2"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 2"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 2"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 2"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 2"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 3"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 3"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 3"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 3"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 3"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 4"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 4"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 4"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 4"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 4"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 5"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 5"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 5"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 5"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 5"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 6"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 6"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 6"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 6"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Liste des",
+      "titre": "Liste des membres fondateurs",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 6"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 7"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 7"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 7"
+        },
+        {
+          "id": "champ_034",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 7"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 7"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 8"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 8"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 8"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 8"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 8"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 9"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 9"
+        },
+        {
+          "id": "champ_043",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 9"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 9"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 9"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 10"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 10"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 10"
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 10"
+        },
+        {
+          "id": "champ_050",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres fondateurs – ligne 10"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Liste des",
+      "titre": "Liste des membres du bureau executif",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_197",
+          "type": "text",
+          "label": "PROFESSION",
+          "opt": true,
+          "group": "PROFESSION …",
+          "aide": "…PROFESSION ▢"
+        },
+        {
+          "id": "champ_051",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 1"
+        },
+        {
+          "id": "champ_052",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 1"
+        },
+        {
+          "id": "champ_053",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 1"
+        },
+        {
+          "id": "champ_054",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 1"
+        },
+        {
+          "id": "champ_055",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 1"
+        },
+        {
+          "id": "champ_056",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 2"
+        },
+        {
+          "id": "champ_057",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 2"
+        },
+        {
+          "id": "champ_058",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 2"
+        },
+        {
+          "id": "champ_059",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 2"
+        },
+        {
+          "id": "champ_060",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 2"
+        },
+        {
+          "id": "champ_061",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 3"
+        },
+        {
+          "id": "champ_062",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 3"
+        },
+        {
+          "id": "champ_063",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 3"
+        },
+        {
+          "id": "champ_064",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 3"
+        },
+        {
+          "id": "champ_065",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 3"
+        },
+        {
+          "id": "champ_066",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 4"
+        },
+        {
+          "id": "champ_067",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 4"
+        },
+        {
+          "id": "champ_068",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 4"
+        },
+        {
+          "id": "champ_069",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 4"
+        },
+        {
+          "id": "champ_070",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 4"
+        },
+        {
+          "id": "champ_071",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 5"
+        },
+        {
+          "id": "champ_072",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 5"
+        },
+        {
+          "id": "champ_073",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 5"
+        },
+        {
+          "id": "champ_074",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 5"
+        },
+        {
+          "id": "champ_075",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 5"
+        },
+        {
+          "id": "champ_076",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 6"
+        },
+        {
+          "id": "champ_077",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 6"
+        },
+        {
+          "id": "champ_078",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 6"
+        },
+        {
+          "id": "champ_079",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 6"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "Liste des",
+      "titre": "Liste des membres du bureau executif",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_080",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 6"
+        },
+        {
+          "id": "champ_081",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 7"
+        },
+        {
+          "id": "champ_082",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 7"
+        },
+        {
+          "id": "champ_083",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 7"
+        },
+        {
+          "id": "champ_084",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 7"
+        },
+        {
+          "id": "champ_085",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 7"
+        },
+        {
+          "id": "champ_086",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 8"
+        },
+        {
+          "id": "champ_087",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 8"
+        },
+        {
+          "id": "champ_088",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 8"
+        },
+        {
+          "id": "champ_089",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 8"
+        },
+        {
+          "id": "champ_090",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 8"
+        },
+        {
+          "id": "champ_091",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 9"
+        },
+        {
+          "id": "champ_092",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 9"
+        },
+        {
+          "id": "champ_093",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 9"
+        },
+        {
+          "id": "champ_094",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 9"
+        },
+        {
+          "id": "champ_095",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 9"
+        },
+        {
+          "id": "champ_096",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 10"
+        },
+        {
+          "id": "champ_097",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 10"
+        },
+        {
+          "id": "champ_098",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 10"
+        },
+        {
+          "id": "champ_099",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 10"
+        },
+        {
+          "id": "champ_100",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du bureau executif – ligne 10"
+        }
+      ]
+    },
+    {
+      "id": "partie-5",
+      "court": "Liste des",
+      "titre": "Liste des membres du commissariat aux comptes",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_198",
+          "type": "text",
+          "label": "PROFESSION",
+          "opt": true,
+          "group": "PROFESSION …",
+          "aide": "…PROFESSION ▢"
+        },
+        {
+          "id": "champ_101",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 1"
+        },
+        {
+          "id": "champ_102",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 1"
+        },
+        {
+          "id": "champ_103",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 1"
+        },
+        {
+          "id": "champ_104",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 1"
+        },
+        {
+          "id": "champ_105",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 1"
+        },
+        {
+          "id": "champ_106",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 2"
+        },
+        {
+          "id": "champ_107",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 2"
+        },
+        {
+          "id": "champ_108",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 2"
+        },
+        {
+          "id": "champ_109",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 2"
+        },
+        {
+          "id": "champ_110",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 2"
+        },
+        {
+          "id": "champ_111",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 3"
+        },
+        {
+          "id": "champ_112",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 3"
+        },
+        {
+          "id": "champ_113",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 3"
+        },
+        {
+          "id": "champ_114",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 3"
+        },
+        {
+          "id": "champ_115",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 3"
+        },
+        {
+          "id": "champ_116",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 4"
+        },
+        {
+          "id": "champ_117",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 4"
+        },
+        {
+          "id": "champ_118",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 4"
+        },
+        {
+          "id": "champ_119",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 4"
+        },
+        {
+          "id": "champ_120",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 4"
+        },
+        {
+          "id": "champ_121",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 5"
+        },
+        {
+          "id": "champ_122",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 5"
+        },
+        {
+          "id": "champ_123",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 5"
+        },
+        {
+          "id": "champ_124",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 5"
+        },
+        {
+          "id": "champ_125",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 5"
+        },
+        {
+          "id": "champ_126",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 6"
+        },
+        {
+          "id": "champ_127",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 6"
+        },
+        {
+          "id": "champ_128",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 6"
+        },
+        {
+          "id": "champ_129",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 6"
+        }
+      ]
+    },
+    {
+      "id": "partie-6",
+      "court": "Liste des",
+      "titre": "Liste des membres du commissariat aux comptes",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_130",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 6"
+        },
+        {
+          "id": "champ_131",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 7"
+        },
+        {
+          "id": "champ_132",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 7"
+        },
+        {
+          "id": "champ_133",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 7"
+        },
+        {
+          "id": "champ_134",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 7"
+        },
+        {
+          "id": "champ_135",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 7"
+        },
+        {
+          "id": "champ_136",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 8"
+        },
+        {
+          "id": "champ_137",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 8"
+        },
+        {
+          "id": "champ_138",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 8"
+        },
+        {
+          "id": "champ_139",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 8"
+        },
+        {
+          "id": "champ_140",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 8"
+        },
+        {
+          "id": "champ_141",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 9"
+        },
+        {
+          "id": "champ_142",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 9"
+        },
+        {
+          "id": "champ_143",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 9"
+        },
+        {
+          "id": "champ_144",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 9"
+        },
+        {
+          "id": "champ_145",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 9"
+        },
+        {
+          "id": "champ_146",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 10"
+        },
+        {
+          "id": "champ_147",
+          "type": "text",
+          "label": "Fonction",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 10"
+        },
+        {
+          "id": "champ_148",
+          "type": "text",
+          "label": "Profession",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 10"
+        },
+        {
+          "id": "champ_149",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 10"
+        },
+        {
+          "id": "champ_150",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste des membres du commissariat aux comptes – ligne 10"
+        }
+      ]
+    },
+    {
+      "id": "partie-7",
+      "court": "Liste de",
+      "titre": "Liste de presence a l’assemblee generale",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_151",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 1"
+        },
+        {
+          "id": "champ_152",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 1"
+        },
+        {
+          "id": "champ_153",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 1"
+        },
+        {
+          "id": "champ_154",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 2"
+        },
+        {
+          "id": "champ_155",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 2"
+        },
+        {
+          "id": "champ_156",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 2"
+        },
+        {
+          "id": "champ_157",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 3"
+        },
+        {
+          "id": "champ_158",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 3"
+        },
+        {
+          "id": "champ_159",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 3"
+        },
+        {
+          "id": "champ_160",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 4"
+        },
+        {
+          "id": "champ_161",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 4"
+        },
+        {
+          "id": "champ_162",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 4"
+        },
+        {
+          "id": "champ_163",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 5"
+        },
+        {
+          "id": "champ_164",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 5"
+        },
+        {
+          "id": "champ_165",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 5"
+        },
+        {
+          "id": "champ_166",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 6"
+        },
+        {
+          "id": "champ_167",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 6"
+        },
+        {
+          "id": "champ_168",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 6"
+        },
+        {
+          "id": "champ_169",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 7"
+        },
+        {
+          "id": "champ_170",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 7"
+        },
+        {
+          "id": "champ_171",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 7"
+        },
+        {
+          "id": "champ_172",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 8"
+        },
+        {
+          "id": "champ_173",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 8"
+        },
+        {
+          "id": "champ_174",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 8"
+        },
+        {
+          "id": "champ_175",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 9"
+        },
+        {
+          "id": "champ_176",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 9"
+        },
+        {
+          "id": "champ_177",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 9"
+        },
+        {
+          "id": "champ_178",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 10"
+        },
+        {
+          "id": "champ_179",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 10"
+        },
+        {
+          "id": "champ_180",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 10"
+        }
+      ]
+    },
+    {
+      "id": "partie-8",
+      "court": "Liste de",
+      "titre": "Liste de presence a l’assemblee generale",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_181",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 11"
+        },
+        {
+          "id": "champ_182",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 11"
+        },
+        {
+          "id": "champ_183",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 11"
+        },
+        {
+          "id": "champ_184",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 12"
+        },
+        {
+          "id": "champ_185",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 12"
+        },
+        {
+          "id": "champ_186",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 12"
+        },
+        {
+          "id": "champ_187",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 13"
+        },
+        {
+          "id": "champ_188",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 13"
+        },
+        {
+          "id": "champ_189",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 13"
+        },
+        {
+          "id": "champ_190",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 14"
+        },
+        {
+          "id": "champ_191",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 14"
+        },
+        {
+          "id": "champ_192",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 14"
+        },
+        {
+          "id": "champ_193",
+          "type": "text",
+          "label": "Nom et prenoms",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 15"
+        },
+        {
+          "id": "champ_194",
+          "type": "text",
+          "label": "Nationalite",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 15"
+        },
+        {
+          "id": "champ_195",
+          "type": "text",
+          "label": "Contacts",
+          "opt": true,
+          "group": "Liste de presence a l’assemblee generale – ligne 15"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**LISTE DES MEMBRES FONDATEURS**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "table",
+      "cols": [
+        36.7,
+        17.0,
+        15.1,
+        17.0,
+        14.2
+      ],
+      "head": [],
+      "rows": [
+        [
+          [
+            "",
+            "**NOM ET PRENOMS**"
+          ],
+          [
+            "",
+            "**FONCTION**"
+          ],
+          [
+            "",
+            "**PROFESSION {{champ_196}}**"
+          ],
+          [
+            "",
+            "**CONTACTS**"
+          ],
+          [
+            "",
+            "**NATIONALITE**"
+          ]
+        ],
+        [
+          "{{champ_001}}",
+          "{{champ_002}}",
+          "{{champ_003}}",
+          "{{champ_004}}",
+          "{{champ_005}}"
+        ],
+        [
+          "{{champ_006}}",
+          "{{champ_007}}",
+          "{{champ_008}}",
+          "{{champ_009}}",
+          "{{champ_010}}"
+        ],
+        [
+          "{{champ_011}}",
+          "{{champ_012}}",
+          "{{champ_013}}",
+          "{{champ_014}}",
+          "{{champ_015}}"
+        ],
+        [
+          "{{champ_016}}",
+          "{{champ_017}}",
+          "{{champ_018}}",
+          "{{champ_019}}",
+          "{{champ_020}}"
+        ],
+        [
+          "{{champ_021}}",
+          "{{champ_022}}",
+          "{{champ_023}}",
+          "{{champ_024}}",
+          "{{champ_025}}"
+        ],
+        [
+          "{{champ_026}}",
+          "{{champ_027}}",
+          "{{champ_028}}",
+          "{{champ_029}}",
+          "{{champ_030}}"
+        ],
+        [
+          "{{champ_031}}",
+          "{{champ_032}}",
+          "{{champ_033}}",
+          "{{champ_034}}",
+          "{{champ_035}}"
+        ],
+        [
+          "{{champ_036}}",
+          "{{champ_037}}",
+          "{{champ_038}}",
+          "{{champ_039}}",
+          "{{champ_040}}"
+        ],
+        [
+          "{{champ_041}}",
+          "{{champ_042}}",
+          "{{champ_043}}",
+          "{{champ_044}}",
+          "{{champ_045}}"
+        ],
+        [
+          "{{champ_046}}",
+          "{{champ_047}}",
+          "{{champ_048}}",
+          "{{champ_049}}",
+          "{{champ_050}}"
+        ]
+      ],
+      "al": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LISTE DES MEMBRES DU BUREAU EXECUTIF**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "table",
+      "cols": [
+        36.7,
+        17.0,
+        15.1,
+        17.0,
+        14.2
+      ],
+      "head": [],
+      "rows": [
+        [
+          [
+            "",
+            "**NOM  ET  PRENOMS**"
+          ],
+          [
+            "",
+            "**FONCTION**"
+          ],
+          [
+            "",
+            "**PROFESSION {{champ_197}}**"
+          ],
+          [
+            "",
+            "**CONTACTS**"
+          ],
+          [
+            "",
+            "**NATIONALITE**"
+          ]
+        ],
+        [
+          "{{champ_051}}",
+          "{{champ_052}}",
+          "{{champ_053}}",
+          "{{champ_054}}",
+          "{{champ_055}}"
+        ],
+        [
+          "{{champ_056}}",
+          "{{champ_057}}",
+          "{{champ_058}}",
+          "{{champ_059}}",
+          "{{champ_060}}"
+        ],
+        [
+          "{{champ_061}}",
+          "{{champ_062}}",
+          "{{champ_063}}",
+          "{{champ_064}}",
+          "{{champ_065}}"
+        ],
+        [
+          "{{champ_066}}",
+          "{{champ_067}}",
+          "{{champ_068}}",
+          "{{champ_069}}",
+          "{{champ_070}}"
+        ],
+        [
+          "{{champ_071}}",
+          "{{champ_072}}",
+          "{{champ_073}}",
+          "{{champ_074}}",
+          "{{champ_075}}"
+        ],
+        [
+          "{{champ_076}}",
+          "{{champ_077}}",
+          "{{champ_078}}",
+          "{{champ_079}}",
+          "{{champ_080}}"
+        ],
+        [
+          "{{champ_081}}",
+          "{{champ_082}}",
+          "{{champ_083}}",
+          "{{champ_084}}",
+          "{{champ_085}}"
+        ],
+        [
+          "{{champ_086}}",
+          "{{champ_087}}",
+          "{{champ_088}}",
+          "{{champ_089}}",
+          "{{champ_090}}"
+        ],
+        [
+          "{{champ_091}}",
+          "{{champ_092}}",
+          "{{champ_093}}",
+          "{{champ_094}}",
+          "{{champ_095}}"
+        ],
+        [
+          "{{champ_096}}",
+          "{{champ_097}}",
+          "{{champ_098}}",
+          "{{champ_099}}",
+          "{{champ_100}}"
+        ]
+      ],
+      "al": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "pb"
+    },
+    {
+      "k": "p",
+      "text": "**LISTE DES MEMBRES DU COMMISSARIAT AUX COMPTES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "table",
+      "cols": [
+        36.7,
+        17.0,
+        15.1,
+        17.0,
+        14.2
+      ],
+      "head": [],
+      "rows": [
+        [
+          [
+            "",
+            "**NOM  ET  PRENOMS**"
+          ],
+          [
+            "",
+            "**FONCTION**"
+          ],
+          [
+            "",
+            "**PROFESSION {{champ_198}}**"
+          ],
+          [
+            "",
+            "**CONTACTS**"
+          ],
+          [
+            "",
+            "**NATIONALITE**"
+          ]
+        ],
+        [
+          "{{champ_101}}",
+          "{{champ_102}}",
+          "{{champ_103}}",
+          "{{champ_104}}",
+          "{{champ_105}}"
+        ],
+        [
+          "{{champ_106}}",
+          "{{champ_107}}",
+          "{{champ_108}}",
+          "{{champ_109}}",
+          "{{champ_110}}"
+        ],
+        [
+          "{{champ_111}}",
+          "{{champ_112}}",
+          "{{champ_113}}",
+          "{{champ_114}}",
+          "{{champ_115}}"
+        ],
+        [
+          "{{champ_116}}",
+          "{{champ_117}}",
+          "{{champ_118}}",
+          "{{champ_119}}",
+          "{{champ_120}}"
+        ],
+        [
+          "{{champ_121}}",
+          "{{champ_122}}",
+          "{{champ_123}}",
+          "{{champ_124}}",
+          "{{champ_125}}"
+        ],
+        [
+          "{{champ_126}}",
+          "{{champ_127}}",
+          "{{champ_128}}",
+          "{{champ_129}}",
+          "{{champ_130}}"
+        ],
+        [
+          "{{champ_131}}",
+          "{{champ_132}}",
+          "{{champ_133}}",
+          "{{champ_134}}",
+          "{{champ_135}}"
+        ],
+        [
+          "{{champ_136}}",
+          "{{champ_137}}",
+          "{{champ_138}}",
+          "{{champ_139}}",
+          "{{champ_140}}"
+        ],
+        [
+          "{{champ_141}}",
+          "{{champ_142}}",
+          "{{champ_143}}",
+          "{{champ_144}}",
+          "{{champ_145}}"
+        ],
+        [
+          "{{champ_146}}",
+          "{{champ_147}}",
+          "{{champ_148}}",
+          "{{champ_149}}",
+          "{{champ_150}}"
+        ]
+      ],
+      "al": [
+        "center",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LISTE DE PRESENCE A L’ASSEMBLEE GENERALE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "table",
+      "cols": [
+        36.8,
+        17.0,
+        15.1,
+        31.1
+      ],
+      "head": [
+        "NOM ET PRENOMS",
+        "NATIONALITE",
+        "CONTACTS",
+        "EMARGEMENT"
+      ],
+      "rows": [
+        [
+          [
+            "",
+            "{{champ_151}}"
+          ],
+          "{{champ_152}}",
+          "{{champ_153}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_154}}"
+          ],
+          "{{champ_155}}",
+          "{{champ_156}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_157}}"
+          ],
+          "{{champ_158}}",
+          "{{champ_159}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_160}}"
+          ],
+          "{{champ_161}}",
+          "{{champ_162}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_163}}"
+          ],
+          "{{champ_164}}",
+          "{{champ_165}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_166}}"
+          ],
+          "{{champ_167}}",
+          "{{champ_168}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_169}}"
+          ],
+          "{{champ_170}}",
+          "{{champ_171}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_172}}"
+          ],
+          "{{champ_173}}",
+          "{{champ_174}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_175}}"
+          ],
+          "{{champ_176}}",
+          "{{champ_177}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_178}}"
+          ],
+          "{{champ_179}}",
+          "{{champ_180}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_181}}"
+          ],
+          "{{champ_182}}",
+          "{{champ_183}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_184}}"
+          ],
+          "{{champ_185}}",
+          "{{champ_186}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_187}}"
+          ],
+          "{{champ_188}}",
+          "{{champ_189}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_190}}"
+          ],
+          "{{champ_191}}",
+          "{{champ_192}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "{{champ_193}}"
+          ],
+          "{{champ_194}}",
+          "{{champ_195}}",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_196": "Exemple",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "Exemple",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple",
+    "champ_050": "Exemple",
+    "champ_197": "Exemple",
+    "champ_051": "Exemple",
+    "champ_052": "Exemple",
+    "champ_053": "Exemple",
+    "champ_054": "Exemple",
+    "champ_055": "Exemple",
+    "champ_056": "Exemple",
+    "champ_057": "Exemple",
+    "champ_058": "Exemple",
+    "champ_059": "Exemple",
+    "champ_060": "Exemple",
+    "champ_061": "Exemple",
+    "champ_062": "Exemple",
+    "champ_063": "Exemple",
+    "champ_064": "Exemple",
+    "champ_065": "Exemple",
+    "champ_066": "Exemple",
+    "champ_067": "Exemple",
+    "champ_068": "Exemple",
+    "champ_069": "Exemple",
+    "champ_070": "Exemple",
+    "champ_071": "Exemple",
+    "champ_072": "Exemple",
+    "champ_073": "Exemple",
+    "champ_074": "Exemple",
+    "champ_075": "Exemple",
+    "champ_076": "Exemple",
+    "champ_077": "Exemple",
+    "champ_078": "Exemple",
+    "champ_079": "Exemple",
+    "champ_080": "Exemple",
+    "champ_081": "Exemple",
+    "champ_082": "Exemple",
+    "champ_083": "Exemple",
+    "champ_084": "Exemple",
+    "champ_085": "Exemple",
+    "champ_086": "Exemple",
+    "champ_087": "Exemple",
+    "champ_088": "Exemple",
+    "champ_089": "Exemple",
+    "champ_090": "Exemple",
+    "champ_091": "Exemple",
+    "champ_092": "Exemple",
+    "champ_093": "Exemple",
+    "champ_094": "Exemple",
+    "champ_095": "Exemple",
+    "champ_096": "Exemple",
+    "champ_097": "Exemple",
+    "champ_098": "Exemple",
+    "champ_099": "Exemple",
+    "champ_100": "Exemple",
+    "champ_198": "Exemple",
+    "champ_101": "Exemple",
+    "champ_102": "Exemple",
+    "champ_103": "Exemple",
+    "champ_104": "Exemple",
+    "champ_105": "Exemple",
+    "champ_106": "Exemple",
+    "champ_107": "Exemple",
+    "champ_108": "Exemple",
+    "champ_109": "Exemple",
+    "champ_110": "Exemple",
+    "champ_111": "Exemple",
+    "champ_112": "Exemple",
+    "champ_113": "Exemple",
+    "champ_114": "Exemple",
+    "champ_115": "Exemple",
+    "champ_116": "Exemple",
+    "champ_117": "Exemple",
+    "champ_118": "Exemple",
+    "champ_119": "Exemple",
+    "champ_120": "Exemple",
+    "champ_121": "Exemple",
+    "champ_122": "Exemple",
+    "champ_123": "Exemple",
+    "champ_124": "Exemple",
+    "champ_125": "Exemple",
+    "champ_126": "Exemple",
+    "champ_127": "Exemple",
+    "champ_128": "Exemple",
+    "champ_129": "Exemple",
+    "champ_130": "Exemple",
+    "champ_131": "Exemple",
+    "champ_132": "Exemple",
+    "champ_133": "Exemple",
+    "champ_134": "Exemple",
+    "champ_135": "Exemple",
+    "champ_136": "Exemple",
+    "champ_137": "Exemple",
+    "champ_138": "Exemple",
+    "champ_139": "Exemple",
+    "champ_140": "Exemple",
+    "champ_141": "Exemple",
+    "champ_142": "Exemple",
+    "champ_143": "Exemple",
+    "champ_144": "Exemple",
+    "champ_145": "Exemple",
+    "champ_146": "Exemple",
+    "champ_147": "Exemple",
+    "champ_148": "Exemple",
+    "champ_149": "Exemple",
+    "champ_150": "Exemple",
+    "champ_151": "Exemple",
+    "champ_152": "Exemple",
+    "champ_153": "Exemple",
+    "champ_154": "Exemple",
+    "champ_155": "Exemple",
+    "champ_156": "Exemple",
+    "champ_157": "Exemple",
+    "champ_158": "Exemple",
+    "champ_159": "Exemple",
+    "champ_160": "Exemple",
+    "champ_161": "Exemple",
+    "champ_162": "Exemple",
+    "champ_163": "Exemple",
+    "champ_164": "Exemple",
+    "champ_165": "Exemple",
+    "champ_166": "Exemple",
+    "champ_167": "Exemple",
+    "champ_168": "Exemple",
+    "champ_169": "Exemple",
+    "champ_170": "Exemple",
+    "champ_171": "Exemple",
+    "champ_172": "Exemple",
+    "champ_173": "Exemple",
+    "champ_174": "Exemple",
+    "champ_175": "Exemple",
+    "champ_176": "Exemple",
+    "champ_177": "Exemple",
+    "champ_178": "Exemple",
+    "champ_179": "Exemple",
+    "champ_180": "Exemple",
+    "champ_181": "Exemple",
+    "champ_182": "Exemple",
+    "champ_183": "Exemple",
+    "champ_184": "Exemple",
+    "champ_185": "Exemple",
+    "champ_186": "Exemple",
+    "champ_187": "Exemple",
+    "champ_188": "Exemple",
+    "champ_189": "Exemple",
+    "champ_190": "Exemple",
+    "champ_191": "Exemple",
+    "champ_192": "Exemple",
+    "champ_193": "Exemple",
+    "champ_194": "Exemple",
+    "champ_195": "Exemple"
+  }
+}

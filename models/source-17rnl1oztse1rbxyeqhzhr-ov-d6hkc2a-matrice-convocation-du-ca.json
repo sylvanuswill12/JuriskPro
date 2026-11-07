@@ -1,1 +1,212 @@
-{"id":"source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Convocation du conseil d’administration","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Convocation du conseil d’administration : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Convocation du conseil d’administration","fileBase":"Convocation du conseil d’administration","headline":"Convocation du conseil d’administration","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"partie_1","type":"text","label":"Première partie","req":true},{"id":"champ_001","type":"text","label":"Après « Fait à »","opt":true},{"id":"champ_002","type":"date","label":"Après « Fait à le »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Convocation du conseil d’administration"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca.docx","version":"1"},"exemple":{"partie_1":"Exemple","champ_001":"Exemple","champ_002":"2000-01-01"}}
+{
+  "id": "source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Convocation du conseil d’administration",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Convocation du conseil d’administration : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "4 min",
+  "docTitle": "Convocation du conseil d’administration",
+  "fileBase": "Convocation du conseil d’administration",
+  "headline": "Convocation du conseil d’administration",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Entete de",
+      "titre": "Entete de la societe",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "partie_1",
+          "type": "text",
+          "label": "Première partie",
+          "opt": true,
+          "group": "Monsieur …,",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Lieu",
+          "opt": true,
+          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…"
+        },
+        {
+          "id": "champ_005",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
+          "aide": "…société qui aura lieu à le ▢ à heures à l’effet…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
+          "aide": "…qui aura lieu à le à ▢ heures à l’effet de…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Fait à",
+          "opt": true,
+          "group": "Fait à … . le …",
+          "aide": "…Fait à ▢ le…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Fait à … . le …",
+          "aide": "…Fait à ▢ le…"
+        },
+        {
+          "id": "champ_002",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Fait à … . le …",
+          "aide": "…Fait à le ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**ENTETE DE LA SOCIETE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_003}}**",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "ABIDJAN",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Monsieur {{partie_1}},",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Nous vous prions d’assister à la réunion du conseil d’administration de notre société qui aura lieu à {{champ_004}} le {{champ_005}} à {{champ_006}} heures     à l’effet de délibérer sur l’ordre du jour suivant :"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires pourront assister personnellement à l’assemblée ou se faire représenter par un mandataire de leur choix.",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "A cet effet des formules de pouvoir sont à leur disposition au siège social.",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Veuillez agréer, Monsieur {{partie_1}}, l’expression de nos sentiments distingués.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à {{champ_001}} {{champ_007}}. le {{champ_002}}",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "Le conseil d’administration",
+      "al": "left",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_003": "Exemple",
+    "partie_1": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "2000-01-01",
+    "champ_006": "Exemple",
+    "champ_001": "Exemple",
+    "champ_007": "Exemple",
+    "champ_002": "2000-01-01"
+  }
+}

@@ -1,1 +1,1000 @@
-{"id":"source-1tfdgixskvbn5q-wxg8dv9woqpun7kcuo-matrice-cession-de-bail-em","cat":"ventes-immobilier","sub":"Baux","titre":"Cession de bail emphytéotique","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Cession de bail emphytéotique : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["baux","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Cession de bail emphytéotique","fileBase":"Cession de bail emphytéotique","headline":"Cession de bail emphytéotique","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"reference_etude","type":"text","label":"Référence de l’étude","req":true},{"id":"adresse_1","type":"area","label":"Adresse de la première partie (facultatif)","opt":true},{"id":"champ_001","type":"text","label":"Après « des constructions des fruits pendnats etc »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Cession de bail emphytéotique"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1tfdgixskvbn5q-wxg8dv9woqpun7kcuo-matrice-cession-de-bail-em.docx","version":"1"},"exemple":{"reference_etude":"Exemple","adresse_1":"Exemple","champ_001":"Exemple"}}
+{
+  "id": "source-1tfdgixskvbn5q-wxg8dv9woqpun7kcuo-matrice-cession-de-bail-em",
+  "cat": "ventes-immobilier",
+  "sub": "Baux",
+  "titre": "Cession de bail emphytéotique",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Cession de bail emphytéotique : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "baux",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "15 min",
+  "docTitle": "Cession de bail emphytéotique",
+  "fileBase": "Cession de bail emphytéotique",
+  "headline": "Cession de bail emphytéotique",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Partie 1",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "reference_etude",
+          "type": "text",
+          "label": "Référence de l’étude",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "LE …",
+          "aide": "…LE ▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Notaire à",
+          "opt": true,
+          "group": "PARDEVANT Maître , Notaire à … (République de Côte d’Ivoire), soussigné,"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur ▢ demeurant à BP…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Avant « demeurant à BP »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur ▢ demeurant à BP…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Avant « demeurant à BP »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur ▢ demeurant à BP…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avant « demeurant à BP »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur ▢ demeurant à BP…"
+        },
+        {
+          "id": "adresse_1",
+          "type": "area",
+          "label": "Adresse de la première partie",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur demeurant à ▢ BP…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur demeurant à BP ▢"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "ONT COMPARU",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à …, BP …, …",
+          "aide": "…Monsieur demeurant à BP ▢"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Né à",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_012",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à le ▢"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "De nationalité",
+          "opt": true,
+          "group": "De nationalité … , …",
+          "aide": "…De nationalité ▢"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "ONT COMPARU",
+          "opt": true,
+          "group": "De nationalité … , …",
+          "aide": "…De nationalité ▢"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "ONT COMPARU",
+          "opt": true,
+          "group": "De nationalité … , …",
+          "aide": "…De nationalité ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Epoux de",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Née à",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……",
+          "aide": "…Epoux de née à ▢ le mil et avec…"
+        },
+        {
+          "id": "champ_018",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……",
+          "aide": "…Epoux de née à le ▢ mil et avec laquelle…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Mil",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……",
+          "aide": "…Epoux de née à le mil ▢ et avec laquelle il…"
+        },
+        {
+          "id": "champ_020",
+          "type": "date",
+          "label": "Laquelle il s’est marié le",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Sous le régime de la",
+          "opt": true,
+          "group": "Epoux de …, née à … le … mil …, et avec laquelle il s’est marié le ……"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … ci-après simplement dénommé au cours du présent acte pour en…",
+          "aide": "…Monsieur ▢ ci-après simplement dénommé au…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "D’une part",
+      "titre": "D’une part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur ▢ demeurant à Immeuble…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Avant « demeurant à Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur ▢ demeurant à Immeuble…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Avant « demeurant à Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur ▢ demeurant à Immeuble…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Avant « demeurant à Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur ▢ demeurant à Immeuble…"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Demeurant à",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur demeurant à ▢ Immeuble…"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Avant « Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur demeurant à ▢ Immeuble…"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Avant « Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur demeurant à ▢ Immeuble…"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Avant « Immeuble »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à … , … , Immeuble.",
+          "aide": "…Monsieur demeurant à ▢ Immeuble…"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Au capital de",
+          "opt": true,
+          "group": "Agissant en qualité de seul gérant au nom et pour le compte de la…",
+          "aide": "…Limitée en abrégée au capital de ▢ DE FRANCS CFA dont…"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Dont le siège est à",
+          "opt": true,
+          "group": "Agissant en qualité de seul gérant au nom et pour le compte de la…",
+          "aide": "…CFA dont le siège est à ▢"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … spécialement habilité aux fins des présentes, aux termes de…",
+          "aide": "…Monsieur ▢ spécialement habilité aux fins…"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "Cession de",
+      "titre": "Cession de droits immobiliers agricoles",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_034",
+          "type": "text",
+          "label": "En son nom par Monsieur",
+          "opt": true,
+          "group": "Le VENDEUR en s’obligeant à toutes les garanties habituelles et de…"
+        },
+        {
+          "id": "champ_035",
+          "type": "date",
+          "label": "En date à ABIDJAN du",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_036",
+          "type": "date",
+          "label": "CINQ ans à compter du",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Portant sur un terrain de",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "L’objet du Titre Foncier numéro",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "De la Circonscription Foncière de",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Moyennant un loyer annuel de",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Avant « FRANCS CFA par hectare »",
+          "opt": true,
+          "group": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au…",
+          "aide": "…moyennant un loyer annuel de FRANCS ▢ FRANCS CFA par hectare…"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Tel que le tout existe avec tous droits y attachés, notamment tous…",
+          "aide": "…à la demande des parties Monsieur ▢ ès-qualités dclarant bien connaître…"
+        }
+      ]
+    },
+    {
+      "id": "partie-5",
+      "court": "Propriete –",
+      "titre": "Propriete – jouissance",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_043",
+          "type": "date",
+          "label": "Libre disposition à compter du",
+          "opt": true,
+          "group": "Il en aura la jouissance par la prise de possession réelle et la libre…"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Sous celles suivantes que Monsieur",
+          "opt": true,
+          "group": "La cession est consentie et acceptée sous les conditions habituelles et…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Etc",
+          "opt": true,
+          "group": "1°- L’ACQUEREUR prendra les biens cédés dans leur état actuel sans…",
+          "aide": "…des constructions des fruits pendnats etc ▢"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Cause que ce soit de",
+          "opt": true,
+          "group": "La présente cession est consentie et acceptée moyennant le prix…"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Payé comptant à l’instant même",
+          "opt": true,
+          "group": "La présente cession est consentie et acceptée moyennant le prix…"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Sur le Titre Foncier numéro",
+          "opt": true,
+          "group": "L’ACQUEREUR fera à ses frais à la Conservation de la Propriété Foncière…"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mr … Mr …",
+          "aide": "…Mr ▢ Mr…"
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mr … Mr …",
+          "aide": "…Mr Mr ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "{{reference_etude}}",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CESSION DE BAIL EMPHYTEOTIQUE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’AN DEUX MIL DIX NEUF"
+    },
+    {
+      "k": "p",
+      "text": "LE {{champ_002}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PARDEVANT **Maître , Notaire à {{champ_003}} **(République de Côte d’Ivoire), soussigné,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ONT COMPARU**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_004}} {{champ_005}}**, {{champ_006}} {{champ_007}}, demeurant à {{adresse_1}}, BP  {{champ_008}}, {{champ_009}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Né à {{champ_010}} ({{champ_011}}), le {{champ_012}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De nationalité {{champ_013}} {{champ_014}}, {{champ_015}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Epoux de {{champ_016}}, née à {{champ_017}} le {{champ_018}} mil {{champ_019}}, et avec  laquelle il s’est marié le {{champ_020}} mil , sous  le régime de la {{champ_021}} de  biens."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur** {{champ_022}} ci-après simplement dénommé au cours du présent acte pour en faciliter la rédaction «**LE CEDANT**»."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**D’UNE PART**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_023}} {{champ_024}}**, {{champ_025}} {{champ_026}}, demeurant à {{champ_027}} {{champ_028}}, {{champ_029}} {{champ_030}}, Immeuble."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Agissant en qualité de seul gérant au nom et pour le compte de la Société à Responsabilité Limitée \"\" en abrégée \"\", au capital de {{champ_031}} DE FRANCS CFA, dont le siège est à {{champ_032}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur** {{champ_033}} spécialement habilité aux fins des présentes, aux termes de l’article 16 des statuts de ladite société, constitue aux termes d’un acte, dont minute précède."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société \" \" sera ci-après simplement dénommée au cours du présent acte pour en faciliter la rédaction «**L’ACQUEREUR**»."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**D’AUTRE PART**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "LESQUELS se sont présentés devant le Notaire, soussigné, et l’ont requis de constater par acte authentique les conventions suivantes arrêtées directement entre eux, sans concours ni la participation dudit Notaire qui n’est que le rédacteur de ces conventions, ce qui a lieu de la manière suivante :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CESSION DE DROITS IMMOBILIERS AGRICOLES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le VENDEUR en s’obligeant à toutes les garanties habituelles et de droit en pareille matière, cède à l’ACQUEREUR ce qui est accepté en son nom par Monsieur {{champ_034}} les biens ci-après désignés, savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le droit au bail emphytéotique consenti par l’Etat de COTE D’IVOIRE au VENDEUR aux termes d’un acte administratif en date à ABIDJAN du {{champ_035}} mil, pour une durée de VINGT CINQ ans à compter du {{champ_036}}, portant sur un terrain de {{champ_037}} faisant l’objet du Titre Foncier numéro {{champ_038}} de la Circonscription Foncière de {{champ_039}}, et ce, moyennant un loyer annuel de {{champ_040}} FRANCS, ({{champ_041}} FRANCS CFA par hectare et par an) payable à la Caisse du Chef de services des Recettes Domaniales chaque année d’avance."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mention de ce bail dont un exemplaire original demeurera annexé aux présentes après mention, sera fait sur les registres de la propriété Foncière avant la publication des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ensemble les constructions et bâtiments édifiés sur le terrain consistant en des bâtiments en dur"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tel que le tout existe avec tous droits y attachés, notamment tous immeubles par destination sans aucune exception ni réserve, non ici plus amplement décrit à la demande des parties, Monsieur {{champ_042}} ès-qualités dclarant bien connaître les biens objet du bail emphytéotique cédé."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PROPRIETE – JOUISSANCE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’ACQUEREUR aura la pleine propriété des biens cédés à compter de ce jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il en aura la jouissance par la prise de possession réelle et la libre disposition à compter du {{champ_043}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CHARGES ET CONDITIONS GENERALES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La cession est consentie et acceptée sous les conditions habituelles et de droit en pareille matière et notamment sous celles suivantes que Monsieur {{champ_044}} oblige l’ACQUEREUR à exécuter et accomplir, savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "1°- L’ACQUEREUR prendra les biens cédés dans leur état actuel sans pouvoir élever de réclamation ni exiger une réduction du prix ci-après fixé pour quelque cause que ce soit, notamment pour mauvais état du sol, du sous-sol, des constructions, des fruits pendnats, etc {{champ_001}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "2°- L’ACQUEREUR souffrira les servitudes passives, grevant les biens vendus et bénéficiera de celles actives s’il en existe, le tout à ses risques et périls sans recours contre le VENDEUR et sans que la présentes clause puisse conférer à des tiers plus de droits qu’ils justifieraient en avoir en vertu de tous titres réguliers ou de la loi."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A ce sujet, le VENDEUR déclare qu’il n’a laissé acquérir aucune servitude particulière au profit de qui que ce soit et qu’à sa connaissance il n’en existe pas d’autres que celles résultant de la situation naturelles des lieux."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "3°- L’ACQUEREUR acquittera à compter de l’entrée en jouissance, les impôts, charges et contributions, de toutes natures afférents aux biens cédés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "4°- L’ACQUEREUR paiera tous les frais, droits et émoluments des présentes, ceux de leurs suites et conséquences."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CONDITIONS PARTICULIERES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’ACQUEREUR exécutera à compter de l’entrée en jouissance, aux lieu et place du VENDEUR, toutes les charges et obligations du bail emphytéotique sus-analysés ; il paiera exactement à son chéance le loyer et fera son affaire personnelle de la remise des lieux en fin de bail ; le tout de manière à ne donner lieu à aucun recours contre le VENDEUR."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PRIX**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présente cession est consentie et acceptée moyennant le prix principal forfaitaire et non révisable pour quelque cause que ce soit de {{champ_045}} DE FRANCS, que l’ACQUEREUR a payé comptant à l’instant même {{champ_046}} à la comptabilité du Notaire soussigné au CEDANT qui le reconnaît et lui en consent définitive quittance."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT QUITTANCE**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT QUITTANCE DEFINITIVE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**MUTATION FONCIERE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’ACQUEREUR fera à ses frais à la Conservation de la Propriété Foncière d’ABIDJAN, mentionner la cession du bail emphytéotique sur le Titre Foncier numéro {{champ_047}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si lors ou par suite l’accomplissement de ces formalités, il existe ou survient des inscriptions hypothécaires ou de droits réels quelconques devant les biens vendus, le VENDEUR sera tenu d’en rapporter à ses frais, les mainlevées et de justifier de leur radiation dans un dlai de six mois à compter du jour de la dénonciation amiable qui en sera faite au domicile ci-après élu."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DECLARATIONS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le VENDEUR déclare sous foi du serment :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "que les renseignements d’état civil indiqué en tête des présentes, le concernant sont exacts,",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "qu’il a capacité pour accomplir des actes de disposition,",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "qu’il n’a souscrit aucun engagement susceptible de porter préjudice à l’ACQUEREUR,",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "que les biens vendus sont libres de toutes inscriptions d’hypothèque ou de droits réels.",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**REQUISITION – POUVOIRS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les comparants requièrent Monsieur le Conservateur de la Propriété Foncière d’ABIDJAN de bien vouloir formaliser les présentes conformément aux stipulations qui y sont contenues."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les comparants donnent pouvoirs au porteur d’une expédition des présentes pour faire opérer la mutation dont s’agit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DOMICILE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parties font élection de domicile à ABIDJAN en l’Etude du Notaire soussigné."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LECTURE DES LOIS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Avant de clore et conformément à la loi, le Notaire soussigné a donné lecture, aux parties qui le reconnaissent des dispositions, des articles 413, 415 et 427 su Code Général des Impôts, de l’article 303 du Code Pénal sur les dissimulations."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Chacune des parties comme elle agit, a affirmé sous les peines édictées par ledit article 4 du décret du vingt Novembre mil neuf cent quarante, que le présent acte exprime bien l’intégralité du prix convenu."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Notaire soussigné affirme de son côté qu’à sa connaissance personnelle, que le présent acte n’est modifié ni contredit par aucune contre lettre contenant une augmentation de prix."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT ACTE**",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "Fait et passé à ABIDJAN"
+    },
+    {
+      "k": "p",
+      "text": "En l’étude du Notaire soussigné"
+    },
+    {
+      "k": "p",
+      "text": "Et après lecture faite, les comparants ont signé avec le Notaire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mr {{champ_048}} Mr {{champ_049}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Me**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1tfdgixskvbn5q-wxg8dv9woqpun7kcuo-matrice-cession-de-bail-em.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "reference_etude": "Exemple",
+    "champ_002": "2000-01-01",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "adresse_1": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "2000-01-01",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "2000-01-01",
+    "champ_019": "Exemple",
+    "champ_020": "2000-01-01",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "Exemple",
+    "champ_035": "2000-01-01",
+    "champ_036": "2000-01-01",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "2000-01-01",
+    "champ_044": "Exemple",
+    "champ_001": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple"
+  }
+}

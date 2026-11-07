@@ -1,1 +1,1269 @@
-{"id":"source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Convention d’actionnaires","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Convention d’actionnaires : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"5 min","docTitle":"Convention d’actionnaires","fileBase":"Convention d’actionnaires","headline":"Convention d’actionnaires","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « du Crédit Mobilier sous le numéro »","req":true},{"id":"champ_002","type":"text","label":"Après « de Quartier BP représentée par Monsieur »","opt":true},{"id":"champ_003","type":"text","label":"Après « du Crédit Mobilier sous le numéro » (2)","opt":true},{"id":"champ_004","type":"text","label":"Après « de Quartier BP représentée par Monsieur » (2)","opt":true},{"id":"champ_005","type":"text","label":"Après « la CDC pendant une durée de »","opt":true},{"id":"champ_006","type":"text","label":"Après « la CDC pendant une durée de » (2)","opt":true},{"id":"champ_007","type":"date","label":"Après « Fait à ABIDJAN le »","opt":true},{"id":"champ_008","type":"text","label":"Après « En »","opt":true},{"id":"champ_009","type":"text","label":"Après « En » (2)","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Convention d’actionnaires"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"2000-01-01","champ_008":"Exemple","champ_009":"Exemple"}}
+{
+  "id": "source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Convention d’actionnaires",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Convention d’actionnaires : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "16 min",
+  "docTitle": "Convention d’actionnaires",
+  "fileBase": "Convention d’actionnaires",
+  "headline": "Convention d’actionnaires",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Entre",
+      "titre": "Entre",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Crédit Mobilier sous le numéro",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Avant « Quartier BP représentée par »",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Avant « BP représentée par Monsieur »",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Avant « représentée par Monsieur Directeur »",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Représentée par Monsieur",
+          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…de Quartier BP représentée par Monsieur ▢ Directeur Général dûment habilité…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "D’une part",
+      "titre": "D’une part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Crédit Mobilier sous le numéro",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Avant « Quartier BP représentée par »",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Avant « BP représentée par Monsieur »",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Avant « représentée par Monsieur Directeur »",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Représentée par Monsieur",
+          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
+          "aide": "…de Quartier BP représentée par Monsieur ▢ Directeur Général dûment habilité…"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Demeurant à",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…Administrateur de la société demeurant à ▢ Commune de Quartier BP…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Avant « Commune de Quartier BP »",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…Administrateur de la société demeurant à ▢ Commune de Quartier BP…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…la société demeurant à Commune de ▢ Quartier BP…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Avant « Quartier BP »",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…la société demeurant à Commune de ▢ Quartier BP…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…société demeurant à Commune de Quartier ▢ BP…"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Avant « BP »",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…société demeurant à Commune de Quartier ▢ BP…"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Avant « BP »",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…société demeurant à Commune de Quartier ▢ BP…"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "aide": "…demeurant à Commune de Quartier BP ▢"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Né à",
+          "opt": true,
+          "group": "Né à … , le …",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Né à … , le …",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_032",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Né à … , le …",
+          "aide": "…Né à le ▢"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "De nationalité",
+          "opt": true,
+          "group": "De nationalité …",
+          "aide": "…De nationalité ▢"
+        },
+        {
+          "id": "champ_034",
+          "type": "text",
+          "label": "La Carte Nationale d’Identité numéro",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "Établie à",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
+          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Avant « le et valable jusqu’au »",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
+          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+        },
+        {
+          "id": "champ_037",
+          "type": "date",
+          "label": "Le et valable jusqu’au",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
+          "aide": "…établie à le et valable jusqu’au ▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Art. 4",
+      "titre": "Article 4 : Contrôle et administration de la société",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "XX SA",
+          "opt": true,
+          "group": "XX SA …: … moitié des membres au moins"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Avant « moitié des membres au »",
+          "opt": true,
+          "group": "XX SA …: … moitié des membres au moins",
+          "aide": "…XX SA ▢ moitié des membres au…"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "YY SA",
+          "opt": true,
+          "group": "YY SA …: … x des membres"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Avant « x des membres »",
+          "opt": true,
+          "group": "YY SA …: … x des membres",
+          "aide": "…YY SA ▢ x des membres…"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Monsieur TT",
+          "opt": true,
+          "group": "Monsieur TT …: … x des membres"
+        },
+        {
+          "id": "champ_043",
+          "type": "text",
+          "label": "Avant « x des membres »",
+          "opt": true,
+          "group": "Monsieur TT …: … x des membres",
+          "aide": "…Monsieur TT ▢ x des membres…"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Le CABINET",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Commune",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Le CABINET ABIDJAN Commune ▢ Quartier BP Tél 225…"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Le CABINET ABIDJAN Commune Quartier ▢ BP Tél 225 Fax…"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Avant « BP Tél 225 Fax »",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Le CABINET ABIDJAN Commune Quartier ▢ BP Tél 225 Fax…"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Le CABINET ABIDJAN Commune Quartier BP ▢ Tél 225 Fax 225…"
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Avant « Tél 225 Fax 225 »",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Le CABINET ABIDJAN Commune Quartier BP ▢ Tél 225 Fax 225…"
+        },
+        {
+          "id": "champ_050",
+          "type": "text",
+          "label": "Avant « Fax 225 chargé d’assister »",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…ABIDJAN Commune Quartier BP Tél 225 ▢ Fax 225 chargé d’assister…"
+        },
+        {
+          "id": "champ_051",
+          "type": "text",
+          "label": "Avant « chargé d’assister et de »",
+          "opt": true,
+          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "aide": "…Quartier BP Tél 225 Fax 225 ▢ chargé d’assister et de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "Art. 12",
+      "titre": "Article 12 : Répartition des bénéfices",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "CDC pendant une durée de",
+          "opt": true,
+          "group": "Toutefois, avant toute distribution de dividende ; prorata quotité du…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Avant « ans un dividende exceptionnel »",
+          "opt": true,
+          "group": "Toutefois, avant toute distribution de dividende ; prorata quotité du…",
+          "aide": "…la CDC pendant une durée de ▢ ans un dividende exceptionnel…"
+        },
+        {
+          "id": "champ_007",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Fait à ABIDJAN, le ….",
+          "aide": "…Fait à ABIDJAN le ▢"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "En",
+          "opt": true,
+          "group": "En … (…) exemplaires",
+          "aide": "…En ▢ exemplaires…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Avant « exemplaires »",
+          "opt": true,
+          "group": "En … (…) exemplaires",
+          "aide": "…En ▢ exemplaires…"
+        },
+        {
+          "id": "champ_052",
+          "type": "text",
+          "label": "Pour la Société XX SA",
+          "opt": true,
+          "group": "Pour la Société XX SA … Pour la Société YY SA"
+        },
+        {
+          "id": "champ_053",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … Monsieur …",
+          "aide": "…Monsieur ▢ Monsieur…"
+        },
+        {
+          "id": "champ_054",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … Monsieur …",
+          "aide": "…Monsieur Monsieur ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**CONVENTION D’ACTIONNAIRES**"
+    },
+    {
+      "k": "p",
+      "text": "**DE LA SOCIETE WWW SA**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "ENTRE"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **Société XX SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_001}}, et ayant son siège social à ABIDJAN, Commune de {{champ_010}} {{champ_011}}, Quartier {{champ_012}} {{champ_013}},  BP {{champ_014}} {{champ_015}}, représentée par Monsieur {{champ_002}}, Directeur Général, dûment habilité aux fins des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "D’UNE PART",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "ET"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **Société YY SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_003}}, et ayant son siège social à ABIDJAN, Commune de {{champ_016}} {{champ_017}}, Quartier {{champ_018}} {{champ_019}},  BP {{champ_020}} {{champ_021}}, représentée par Monsieur {{champ_004}}, Directeur Général, dûment habilité aux fins des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur TT**, Administrateur de la société, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Né à {{champ_030}} {{champ_031}}, le {{champ_032}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De nationalité {{champ_033}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_034}} établie à {{champ_035}} {{champ_036}}, le et valable jusqu’au {{champ_037}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "D’AUTRE PART",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "**PREAMBULE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**IL A ETE EXPOSE CE QUI SUIT :**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires de la Société **WWW SA** ont décidé de créer une société ayant notamment pour objet :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires ont décidé de travailler dans le respect mutuel, l’honnêteté, la confidentialité et la non concurrence pour l’intérêt exclusif de la société."
+    },
+    {
+      "k": "p",
+      "text": "**EN CONSEQUENCE DE QUOI, IL A ETE CONVENU CE QUI SUIT :**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 1 : Objet**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présente convention d’actionnaires a pour objet d’arrêter certaines conditions et modalités de collaboration et d’engagements au sein de la société **WWW SA** entre les différents actionnaires."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 2 : Cadre juridique**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Outre les stipulations de la présente convention d’actionnaires, la collaboration entre les autres actionnaires se fera dans le respect des lois et règlements en vigueur en Côte d’Ivoire et/ou des dispositions pertinentes de l’Acte Uniforme relatif au droit des sociétés commerciales et du GIE ainsi que des dispositions non contraires figurant dans les statuts de la société **WWW SA**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 3 : Possibilité d’évolution de la structure de l’actionnariat au sein de la société**"
+    },
+    {
+      "k": "p",
+      "text": "**WWW SA**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aucune partie n’aura le droit de transférer la totalité ou une partie de ses actions dans la SA ** pendant une durée de DIX (10) ans à compter de l’immatriculation de la société au Registre de Commerce et du Crédit Mobilier**. Le transfert des actions de la société **WWW SA** en faveur de sociétés appartenant à leurs groupes respectifs ne sera sujet à aucune restriction  autre que la période de verrouillage ci-dessus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Les parties s’engagent nonobstant les dispositions des statuts, à ce que les modifications du capital social ne puissent en aucune façon conduire à ce que la société XX SA détienne un pourcentage du capital social inférieur à la quotité actuelle qui est de x%.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 4 : Contrôle et administration de la société**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Conformément aux statuts de la société, la société est administrée par un Conseil composé de **trois (3)** membres au moins et **douze (12)** au plus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La répartition des membres du Conseil se fera de la manière suivante :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**XX SA** {{champ_038}}: {{champ_039}} **moitié des membres au moins**",
+      "mk": "1."
+    },
+    {
+      "k": "li",
+      "text": "**YY SA** {{champ_040}}: {{champ_041}} **x des membres**",
+      "mk": "2."
+    },
+    {
+      "k": "li",
+      "text": "**Monsieur TT** {{champ_042}}: {{champ_043}} **x des membres**",
+      "mk": "3."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présidence du Conseil d’Administration reviendra à la société **XX SA**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les réunions du Conseil d’Administration se tiendront au moins tous les **trois (3) mois** sur convocation de son Président."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Le CABINET {{champ_044}}, ABIDJAN, Commune {{champ_045}}, Quartier {{champ_046}} {{champ_047}}, BP {{champ_048}} {{champ_049}}, Tél. : (225) {{champ_050}}, Fax : (225) {{champ_051}}**, chargé d’assister et de conseiller la société **WWW SA** conformément au protocole d’accord signé à cet effet."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La mission du Cabinet consistera entre autres à :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Assister les actionnaires dans le cadre de leurs engagements au sein de la société **WWW SA **;",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Veiller à la préservation des intérêts de chaque actionnaire dans les prises de décisions ;",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Rendre régulièrement compte aux actionnaires des défaillances constatées dans la gestion de la société et proposer chaque fois que de besoin les mesures idoines pour y remédier ;",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Evaluation à bonne date en collaboration avec les organes sociaux de l’évolution de la société.",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 5 : Direction Générale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Directeur Général de la société est nommé par le Conseil d’Administration parmi ses membres ou en dehors d’eux. Sa rémunération est fixée par le Conseil d’Administration sur proposition du Président."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Directeur Général Adjoint de la société est nommé par le Conseil d’Administration sur proposition de la société **XX SA**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 6 : Répartition des compétences**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Conseil d’Administration assume les fonctions que lui attribuent expressément la loi et les statuts. En outre, pour un fonctionnement harmonieux de la société, il pourra lui être conféré des pouvoirs exclusifs pour libérer sur des questions importantes ou stratégiques."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En sus des fonctions que lui attribuent la loi et les statuts, le Président du Conseil d’Administration assume toute fonction que lui confère expressément le Conseil d’Administration."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Directeur Général représente la société à l’égard des tiers."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Directeur Général Adjoint assiste le Directeur Général conformément aux dispositions des **articles 471 à 476** de l’**A**cte **U**niforme relatif au Droit des Sociétés Commerciales et du GIE dans l’espace OHADA."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 : Fonctionnement des comptes bancaires**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les comptes bancaires de la société fonctionneront sur la base de la double signature."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Variante 1    : Directeur Général + Directeur Administratif et Financier**"
+    },
+    {
+      "k": "p",
+      "text": "**Variante 2    : Directeur Général + Directeur Général Adjoint**"
+    },
+    {
+      "k": "p",
+      "text": "**Variante 3    : Directeur Général + Directeur Administratif et Financier + ???**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le compte bancaire de la société accueillant les dépôts en compte courant de la société **XX SA** fonctionnera sur la base de la double signature avec visa obligatoire du Directeur Général Adjoint."
+    },
+    {
+      "k": "p",
+      "text": "Ces dépenses seront engagées dans le strict respect du budget adopté par le Conseil d’Administration (dépenses de fonctionnement et d’investissement)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 8 : Plan d’entreprise**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires s’accordent à élaborer dans les meilleurs délais un plan d’entreprise soulignant les aspects ci-après :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Etude prévisionnelle : investissements, chiffre d’affaires, charges",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Politique de répartition des bénéfices",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Politique de gestion du personnel",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ce plan d’entreprise est approuvé par le Conseil d’Administration qui assure le suivi de sa mise en œuvre."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 9 : Frais généraux**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires s’engagent à maintenir les frais généraux de la société à un niveau raisonnable. Il ne pourra en aucun cas dépasser chaque année **x%** du chiffre d’affaires annuel de la société. A cet effet, un budget sera soumis au début de chaque exercice à l’approbation du Conseil d’Administration."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Directeur Général de la société veillera au strict respect de la présente clause et présentera au Conseil, en fin d’année, un rapport relatif à l’exécution du budget adopté."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 10 : Cautions aval garanties**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La société **XX SA** s’engage à fournir à la société **WWW SA** toute caution aval ou garantie nécessaire à la bonne marche de la société."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 11 : Reprise et autorisation des engagements**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires, reconnaissant exacts tous les engagements ci-après annexés, déclare approuver lesdits actes et engagements, la signature de la présente convention emportera, par la société, reprise desdits engagements qui seront réputés avoir été souscrits dès l’origine. En outre, les actionnaires donnent par les présentes, mandat au Directeur Général désigné à l’effet de prendre, pour le compte de la société, les engagements ci-après annexés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 12 : Répartition des bénéfices**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aucune répartition de bénéfices ne se fera avant le remboursement intégral des concours financiers apportés par la société **XX SA** en compte courant."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Après remboursement des concours financiers apportés par la société **XX SA**, les Parties s’entendent pour déterminer une politique de distribution de dividendes qui doit permettre d’assurer le développement futur de la société **WWW SA**, tout en conciliant la solidité financière de l’entreprise et la rémunération légitime des actionnaires."
+    },
+    {
+      "k": "p",
+      "text": "**Les actionnaires s’engagent, lors des délibérations des Assemblées Générales Ordinaires annuelles, à constituer en priorité la réserve légale, les réserves statutaires ainsi que les investissements de base prévus dans le plan d’entreprise avant toute distribution de bénéfices.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Toutefois, avant toute distribution de dividende ; prorata quotité du capital détenu dans la société WWW SA, il est payé à la CDC pendant une durée de {{champ_005}}.{{champ_006}} ans un dividende exceptionnel de 10% du revenu net.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "AUTRE VARIANTE"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Il est décidé de la création d’actions à dividende prioritaire qui donnent droit à leurs titulaires à une part supérieure dans le bénéfice.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Les actions détenues par la société XX SA sont des actions à dividende prioritaire à hauteur de 30%.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Les actions détenues par la société YY SA sont des actions à dividende prioritaire à hauteur de 20%.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Les actions détenues par Monsieur TT sont des actions à dividende prioritaire à hauteur de 10%.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Le bénéfice sera réparti à hauteur de 60% aux actions à dividende prioritaire et les 40% restant seront répartis aux actions ordinaires.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Le bénéfice s’entend du chiffre d’affaires réalisé déduction faite de toutes charges et de tous impôts.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 13 : Durée et entrée en vigueur**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présente convention entrera en vigueur dès sa signature pour toute la durée de la société."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 14 : Avenant**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présente convention ne peut être modifiée que par un avenant écrit et dûment signé par les parties."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 15 : Notification et élection de domicile**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tout avis, accords, déclarations de renonciation et autres communications en vertu de la présente Convention s’effectueront par écrit et seront considérés comme notifiés dès lors qu’ils auront été :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Remis en main propre (avec accusé de réception par écrit),",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Envoyés par fax (avec accusé de réception par écrit), sous réserve qu’un exemplaire soit adressé par courrier recommandé avec accusé de réception, ou",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Reçus par le destinataire s’ils ont été expédiés par l’intermédiaire d’un transporteur reconnu sur le territoire national assurant la livraison du jour au lendemain (avec accusé de réception), dans chaque cas aux adresses précisées ci-dessous (ou à toute autre adresse fournie par l’une des parties à l’autre partie ou autres parties).",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour l’exécution de la présente convention, les parties élisent domicile en leurs domiciles respectifs, à savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Adresse de la société **XX SA** :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Adresse de **YY SA** :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Adresse de **Monsieur TT** :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 16 : Confidentialité**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parties s’engagent à conserver comme strictement confidentiel l’ensemble des informations dont elles disposeront et relatives à la présente Convention."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le contenu de la présente convention revêt un caractère strictement confidentiel. Les parties s’engagent à ne pas en faire état sans y être valablement contraintes ou pour faire valoir leurs droits."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 17 : Règlement des différends et litiges**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tout différend entre les parties découlant de ce contrat, ou en relation avec lui, y compris toute question concernant son existence, sa validité ou son expiration, son interprétation qui ne pourra être réglé à l’amiable sera soumis à l’arbitrage sous l’égide du Centre d’Arbitrage de Médiation et de Conciliation d’ABIDJAN et définitivement tranché suivant son règlement d’Arbitrage tel qu’il est en vigueur à la date du présent contrat."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à ABIDJAN, le {{champ_007}}.",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "En {{champ_008}} ({{champ_009}}) exemplaires",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Pour la Société XX SA** {{champ_052}} **Pour la Société YY SA**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_053}} Monsieur {{champ_054}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur TT**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_004": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "2000-01-01",
+    "champ_033": "Exemple",
+    "champ_034": "Exemple",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "2000-01-01",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple",
+    "champ_050": "Exemple",
+    "champ_051": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "2000-01-01",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_052": "Exemple",
+    "champ_053": "Exemple",
+    "champ_054": "Exemple"
+  }
+}

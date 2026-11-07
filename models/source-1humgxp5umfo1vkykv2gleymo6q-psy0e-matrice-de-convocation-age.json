@@ -1,1 +1,209 @@
-{"id":"source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Convocation à une assemblée générale extraordinaire","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Convocation à une assemblée générale extraordinaire : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Convocation à une assemblée générale extraordinaire","fileBase":"Convocation à une assemblée générale extraordinaire","headline":"Convocation à une assemblée générale extraordinaire","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « M »","req":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Convocation à une assemblée générale extraordinaire"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age.docx","version":"1"},"exemple":{"champ_001":"Exemple"}}
+{
+  "id": "source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Convocation à une assemblée générale extraordinaire",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Convocation à une assemblée générale extraordinaire : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "4 min",
+  "docTitle": "Convocation à une assemblée générale extraordinaire",
+  "fileBase": "Convocation à une assemblée générale extraordinaire",
+  "headline": "Convocation à une assemblée générale extraordinaire",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Lettre /",
+      "titre": "Lettre / AR ou lettre au porteur",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M …,",
+          "aide": "…M ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Prions d’assister à l’assemblée générale",
+          "opt": true,
+          "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Société qui sera réunie à",
+          "opt": true,
+          "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
+        },
+        {
+          "id": "champ_004",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…",
+          "aide": "…société qui sera réunie à le ▢ à heures à l’effet…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "À heures",
+          "opt": true,
+          "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Sont à déposer à",
+          "opt": true,
+          "group": "Les actions au porteur (éventuellement) sont à déposer à … au plus tard…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "Nous vous prions d’agréer, M …, l’expression de nos sentiments…",
+          "aide": "…Nous vous prions d’agréer M ▢ l’expression de nos sentiments…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**PAPIER ENTETE DE LA SOCIETE**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "Le date",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Lettre / AR ou lettre au porteur**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Coordonnées de l’actionnaire",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "Adresse",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "Objet : Convocation Assemblée Générale",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_001}},",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nous vous prions d’assister à l’assemblée générale {{champ_002}} de notre société qui sera réunie à {{champ_003}} le {{champ_004}} à  heures {{champ_005}} à l’effet de délibérer sur l’ordre du jour suivant :",
+      "al": "left"
+    },
+    {
+      "k": "li",
+      "text": "*",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "*",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "*",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Tout actionnaire pourra participer personnellement à l’assemblée ou s’y faire représenter par un mandataire de son choix."
+    },
+    {
+      "k": "p",
+      "text": "Des formules de procuration sont à sa disposition au siège social ou sont jointes à la présente."
+    },
+    {
+      "k": "p",
+      "text": "Les actions au porteur (éventuellement) sont à déposer à {{champ_006}} au plus tard cinq jours avant la tenue de l’assemblée."
+    },
+    {
+      "k": "p",
+      "text": "Nous vous prions d’agréer, M {{champ_007}}, l’expression de nos sentiments distinguées."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Conseil d’administration",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "**Ou**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "L’Administration général",
+      "al": "left",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "2000-01-01",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple"
+  }
+}

@@ -1,1 +1,214 @@
-{"id":"source-1jubbeqq-hgecgrgzx70lr-rxup-mikwt-matrice-demande-d-agr-ment","cat":"societes-associations","sub":"Associations","titre":"Déclaration et demande d’agrément d’une association","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Déclaration et demande d’agrément d’une association : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["associations","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Déclaration et demande d’agrément d’une association","fileBase":"Déclaration et demande d’agrément d’une association","headline":"Déclaration et demande d’agrément d’une association","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"date","label":"Après « ADRESSE ABIDJAN le »","req":true},{"id":"champ_002","type":"date","label":"Après « ADRESSE ABIDJAN le » (2)","opt":true},{"id":"champ_003","type":"text","label":"Information à compléter","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Déclaration et demande d’agrément d’une association"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1jubbeqq-hgecgrgzx70lr-rxup-mikwt-matrice-demande-d-agr-ment.docx","version":"1"},"exemple":{"champ_001":"2000-01-01","champ_002":"2000-01-01","champ_003":"Exemple"}}
+{
+  "id": "source-1jubbeqq-hgecgrgzx70lr-rxup-mikwt-matrice-demande-d-agr-ment",
+  "cat": "societes-associations",
+  "sub": "Associations",
+  "titre": "Déclaration et demande d’agrément d’une association",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Déclaration et demande d’agrément d’une association : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "associations",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "4 min",
+  "docTitle": "Déclaration et demande d’agrément d’une association",
+  "fileBase": "Déclaration et demande d’agrément d’une association",
+  "headline": "Déclaration et demande d’agrément d’une association",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Informations à renseigner",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "ADRESSE",
+          "opt": true,
+          "group": "ADRESSE … ABIDJAN, le …",
+          "aide": "…ADRESSE ▢ ABIDJAN le…"
+        },
+        {
+          "id": "champ_001",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "ADRESSE … ABIDJAN, le …",
+          "aide": "…ADRESSE ABIDJAN le ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "date",
+          "label": "Information à compléter",
+          "opt": true,
+          "group": "ADRESSE … ABIDJAN, le …",
+          "aide": "…ADRESSE ABIDJAN le ▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Information à compléter",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Information à compléter",
+          "opt": true,
+          "aide": "▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "ADRESSE {{champ_004}} ABIDJAN, le {{champ_001}} {{champ_002}}",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_003}} {{champ_005}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A Monsieur le PREFET",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "D’ABIDJAN",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Objet : Déclaration et**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**Demande d’agrément.**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Monsieur le PREFET,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nous avons l’honneur conformément aux dispositions des articles 07 et 08 de la loi N° 60-315 du 21 Septembre 1960 relative aux associations de procéder à la déclaration de l’association dénommée \" **START LAB **\"."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires des statuts ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires du règlement intérieur ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires du procès-verbal ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires de la liste des membres fondateurs ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires de la liste des membres du Bureau Exécutif ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires de la liste des membres du Commissariat aux Comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "3 exemplaires de la liste de présence légalisée.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dans l’attente d’une suite favorable,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Veuillez agréer, Monsieur le Préfet, l’expression de notre haute considération."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LE PRESIDENT**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nom et Prénoms"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1jubbeqq-hgecgrgzx70lr-rxup-mikwt-matrice-demande-d-agr-ment.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_004": "Exemple",
+    "champ_001": "2000-01-01",
+    "champ_002": "2000-01-01",
+    "champ_003": "Exemple",
+    "champ_005": "Exemple"
+  }
+}

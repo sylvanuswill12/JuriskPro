@@ -105,7 +105,9 @@ function runHTML(r,miss){
 const lineHTML=(text,V,miss)=>runs(text,V).map(r=>runHTML(r,miss)).join('');
 const cellLines=c=>Array.isArray(c)?c:[c];
 const cellHTML=(c,V,miss)=>cellLines(c).map(l=>'<div>'+lineHTML(l,V,miss)+'</div>').join('');
-const ALCLS={right:' class="right"',center:' class="center"',left:''};
+const ALCLS={right:'right',center:'center',left:'left'};
+/* retrait (b.ind, en niveaux) et marqueur de liste (b.mk) */
+const indCls=b=>b.ind>0?' in'+Math.min(6,b.ind|0):'';
 function renderHTML(blocks,V){
   const miss=new Set();
   const h=blocks.map(b=>{
@@ -115,16 +117,16 @@ function renderHTML(blocks,V){
       case 'part':return '<p class="part">'+lineHTML(b.text,V,miss)+'</p>';
       case 'art':return '<p class="art">'+lineHTML(b.text,V,miss)+'</p>';
       case 'sub':return '<p class="sub">'+lineHTML(b.text,V,miss)+'</p>';
-      case 'li':return '<p class="li">'+lineHTML(b.text,V,miss)+'</p>';
+      case 'li':return '<p class="li'+(b.mk?' mk':'')+indCls(b)+'"'+(b.mk?' data-mk="'+esc(b.mk)+'"':'')+'>'+lineHTML(b.text,V,miss)+'</p>';
       case 'sp':return '<div class="sp"></div>';
       case 'pb':return '<hr class="pb">';
-      case 'p':return '<p'+(ALCLS[b.al]||'')+'>'+lineHTML(b.text,V,miss)+'</p>';
+      case 'p':{const c=(ALCLS[b.al]||'')+indCls(b);return '<p'+(c?' class="'+c.trim()+'"':'')+'>'+lineHTML(b.text,V,miss)+'</p>';}
       case 'box':return '<table class="box"><tbody><tr><td>'+b.lines.map(l=>'<div>'+lineHTML(l,V,miss)+'</div>').join('')+'</td></tr></tbody></table>';
       case 'sigs':return '<div class="sigs">'+b.items.map(t=>'<div class="sg"><div>'+lineHTML(t,V,miss)+'</div><div class="sline"></div></div>').join('')+'</div>';
       case 'table':{
         const al=b.al||[];
         const cg='<colgroup>'+b.cols.map(w=>'<col style="width:'+w+'%">').join('')+'</colgroup>';
-        const th='<thead><tr>'+b.head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead>';
+        const th=(b.head&&b.head.length)?'<thead><tr>'+b.head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead>':'';
         const tb='<tbody>'+b.rows.map(r=>'<tr>'+r.map((c,i)=>'<td'+(al[i]&&al[i]!=='left'?' class="'+al[i]+'"':'')+'>'+cellHTML(c,V,miss)+'</td>').join('')+'</tr>').join('')+'</tbody>';
         return '<div class="tw"><table'+(b.cols.length>3?' class="wide"':'')+'>'+cg+th+tb+'</table></div>';
       }
@@ -141,9 +143,10 @@ function toText(blocks,V){
     if(b.k==='pb') return '\f';
     if(b.k==='box') return b.lines.map(plain).join('\n');
     if(b.k==='sigs') return b.items.map(plain).join('\n');
-    if(b.k==='table') return b.head.join(' | ')+'\n'+b.rows.map(r=>r.map(cell).join(' | ')).join('\n');
-    if(b.k==='li') return '– '+plain(b.text);
-    return plain(b.text);
+    if(b.k==='table') return ((b.head&&b.head.length)?b.head.join(' | ')+'\n':'')+b.rows.map(r=>r.map(cell).join(' | ')).join('\n');
+    const pad='  '.repeat(Math.min(6,b.ind|0));
+    if(b.k==='li') return pad+(b.mk||'–')+' '+plain(b.text);
+    return pad+plain(b.text);
   }).join('\n');
 }
 
@@ -172,7 +175,7 @@ function tblXML(o,V){
   const cell=(w,lines,c)=>'<w:tc><w:tcPr><w:tcW w:w="'+w+'" w:type="dxa"/>'+(c.shade?'<w:shd w:val="clear" w:color="auto" w:fill="E9EDEA"/>':'')+'</w:tcPr>'+
     lines.map(l=>paraXML(c.plain?xe(l):runsXML(l,V,{bold:c.bold,size:c.size}),{jc:c.jc||'left',after:40,keep:o.keep})).join('')+'</w:tc>';
   let rows='';
-  if(o.head) rows+='<w:tr><w:trPr><w:cantSplit/><w:tblHeader/></w:trPr>'+o.head.map((h,i)=>{
+  if(o.head&&o.head.length) rows+='<w:tr><w:trPr><w:cantSplit/><w:tblHeader/></w:trPr>'+o.head.map((h,i)=>{
     return '<w:tc><w:tcPr><w:tcW w:w="'+cols[i]+'" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="E9EDEA"/></w:tcPr>'+paraXML('<w:r><w:rPr><w:b/><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr><w:t xml:space="preserve">'+xe(h)+'</w:t></w:r>',{jc:'center',after:40})+'</w:tc>';
   }).join('')+'</w:tr>';
   rows+=o.rows.map(r=>'<w:tr><w:trPr><w:cantSplit/></w:trPr>'+r.map((c,i)=>cell(cols[i],cellLines(c),{jc:JC[(o.al||[])[i]]})).join('')+'</w:tr>').join('');
@@ -190,10 +193,10 @@ function blockXML(b,V){
     case 'part':return paraXML(runsXML(b.text,V,{bold:true}),{jc:'center',before:360,after:160,keep:true});
     case 'art':return paraXML(runsXML(b.text,V,{bold:true}),{jc:'left',before:240,after:80,keep:true});
     case 'sub':return paraXML(runsXML(b.text,V,{bold:true,italic:true}),{jc:'left',after:80,keep:true});
-    case 'li':return paraXML('<w:r><w:t>–</w:t></w:r><w:r><w:tab/></w:r>'+runsXML(b.text,V),{ind:'<w:ind w:left="567" w:hanging="284"/>',after:80,keep:b.kn});
+    case 'li':{const L=567+567*Math.min(6,b.ind|0),H=b.mk&&b.mk.length>2?454:284;return paraXML('<w:r><w:t xml:space="preserve">'+xe(b.mk||'–')+'</w:t></w:r><w:r><w:tab/></w:r>'+runsXML(b.text,V),{ind:'<w:ind w:left="'+L+'" w:hanging="'+H+'"/>',after:80,keep:b.kn});}
     case 'sp':return paraXML('',{after:120,keep:b.kn});
     case 'pb':return '<w:p><w:r><w:br w:type="page"/></w:r></w:p>';
-    case 'p':return paraXML(runsXML(b.text,V),{jc:JC[b.al]||'both',keep:b.kn});
+    case 'p':return paraXML(runsXML(b.text,V),{jc:JC[b.al]||'both',keep:b.kn,ind:b.ind>0?'<w:ind w:left="'+567*Math.min(6,b.ind|0)+'"/>':''});
     case 'box':return tblXML({cols:[100],rows:[[b.lines]]},V)+paraXML('',{after:120});
     case 'sigs':return tblXML({cols:[50,50],rows:sigRows(b.items),borders:false,keep:true},V)+paraXML('',{after:120});
     case 'table':return tblXML(b,V)+paraXML('',{after:120});
@@ -281,7 +284,7 @@ async function buildPdf(blocks,V,title){
     const L=layout(segsOf(text,o.bold,o.italic),w,o.size||FS);
     y+=o.before||0;
     ensure(L.lh*Math.min(L.lines.length,o.keep?3:2));
-    if(o.bullet&&!dry){doc.setFontSize(L.size);setF(false,false);doc.text('–',M+3,y+L.size*PT*1.02);}
+    if(o.bullet&&!dry){doc.setFontSize(L.size);setF(false,false);const mk=o.mk||'–',mx=o.mk&&o.mk.length>1?x-doc.getTextWidth(mk)-1.6:M+3+(x-M-9);doc.text(mk,Math.max(M,mx),y+L.size*PT*1.02);}
     for(let i=0;i<L.lines.length;i++){ensure(L.lh);paint(L,i,x,y,w,o.align||'both');y+=L.lh;}
     y+=o.after==null?2.2:o.after;
   }
@@ -312,10 +315,10 @@ async function buildPdf(blocks,V,title){
       case 'part':para(b.text,{bold:true,align:'center',before:7,after:3,keep:true});break;
       case 'art':para(b.text,{bold:true,align:'left',before:4.5,after:1.5,keep:true});break;
       case 'sub':para(b.text,{bold:true,italic:true,align:'left',after:1.5,keep:true});break;
-      case 'li':para(b.text,{indent:9,bullet:true,after:1.5});break;
+      case 'li':para(b.text,{indent:Math.min(9+10*(b.ind|0),TW-70),bullet:true,mk:b.mk,after:1.5});break;
       case 'sp':y+=3.5;break;
       case 'pb':if(!dry&&y>M+1){doc.addPage();y=M;}break;
-      case 'p':para(b.text,{align:b.al||'both'});break;
+      case 'p':para(b.text,{align:b.al||'both',indent:Math.min(10*(b.ind|0),TW-70)});break;
       case 'box':row([b.lines],[TW],{});y+=4;break;
       case 'sigs':{
         const half=TW/2;
@@ -327,7 +330,7 @@ async function buildPdf(blocks,V,title){
       case 'table':{
         const widths=b.cols.map(c=>TW*c/100);
         ensure(38);
-        row(b.head.map(h=>[h]),widths,{bold:true,shade:true,align:'center',size:10});
+        if(b.head&&b.head.length) row(b.head.map(h=>[h]),widths,{bold:true,shade:true,align:'center',size:10});
         b.rows.forEach(r=>row(r,widths,{aligns:b.al,size:b.size}));
         y+=4;break;
       }

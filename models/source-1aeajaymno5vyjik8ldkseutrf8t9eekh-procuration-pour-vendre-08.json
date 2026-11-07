@@ -1,1 +1,753 @@
-{"id":"source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08","cat":"procurations-actes-divers","sub":"Matrices Procuration","titre":"Procuration pour vendre","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procuration pour vendre : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices procuration","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Procuration pour vendre","fileBase":"Procuration pour vendre","headline":"Procuration pour vendre","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"commune","type":"text","label":"Commune","req":true},{"id":"champ_001","type":"text","label":"Après « Mme »","opt":true},{"id":"champ_002","type":"text","label":"Après « Mme Me »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procuration pour vendre"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08.docx","version":"1"},"exemple":{"commune":"Exemple","champ_001":"Exemple","champ_002":"Exemple"}}
+{
+  "id": "source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08",
+  "cat": "procurations-actes-divers",
+  "sub": "Matrices Procuration",
+  "titre": "Procuration pour vendre",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procuration pour vendre : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices procuration",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "13 min",
+  "docTitle": "Procuration pour vendre",
+  "fileBase": "Procuration pour vendre",
+  "headline": "Procuration pour vendre",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "L’an deux",
+      "titre": "L’an deux mil dix huit",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_003",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "LE …",
+          "aide": "…LE ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "PARDEVANT Maître",
+          "opt": true,
+          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE),…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN épouse de »",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN épouse de »",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "BP ABIDJAN",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Épouse de Monsieur",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+        },
+        {
+          "id": "commune",
+          "type": "text",
+          "label": "Commune",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+        },
+        {
+          "id": "champ_013",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "aide": "…mariée à la Mairie de le ▢ sous le régime de…"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Sous le régime de la",
+          "opt": true,
+          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Née à",
+          "opt": true,
+          "group": "Née à … le …,",
+          "aide": "…Née à ▢ le…"
+        },
+        {
+          "id": "champ_016",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Née à … le …,",
+          "aide": "…Née à le ▢"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Carte Nationale d’Identité numéro C",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…"
+        },
+        {
+          "id": "champ_018",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
+          "aide": "…numéro C établie à ABIDJAN le ▢ et valable jusqu’au…"
+        },
+        {
+          "id": "champ_019",
+          "type": "date",
+          "label": "Et valable jusqu’au",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
+          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…Monsieur demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…à ABIDJAN Commune de Quartier BP ▢ ABIDJAN…"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "ABIDJAN",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Son mandataire spécial son père",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Son mandataire spécial son père",
+          "opt": true,
+          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
+          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Né à",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_032",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Né à … (…), le …,",
+          "aide": "…Né à le ▢"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Carte Nationale d’Identité numéro C",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…"
+        },
+        {
+          "id": "champ_034",
+          "type": "date",
+          "label": "Le et valable jusqu’au",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
+          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "Un terrain bati sis à",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Avant « Commune de objet du »",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
+          "aide": "…- Un terrain bati sis à ▢ Commune de objet du…"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
+          "aide": "…terrain bati sis à Commune de ▢ objet du Titre Foncier…"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "Objet du Titre Foncier numéro",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Avant « d’une superficie de inscrit »",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
+          "aide": "…de objet du Titre Foncier numéro ▢ d’une superficie de inscrit…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "D’une superficie de",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "De la Circonscription Foncière de",
+          "opt": true,
+          "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Mme",
+          "opt": true,
+          "group": "Mme … Me ….",
+          "aide": "…Mme ▢ Me…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Me",
+          "opt": true,
+          "group": "Mme … Me ….",
+          "aide": "…Mme Me ▢"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Avant « dans blancs »",
+          "opt": true,
+          "group": "Barres : … dans blancs",
+          "aide": "…Barres ▢ dans blancs…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**PROCURATION POUR VENDRE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’AN  DEUX  MIL  DIX HUIT",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "LE {{champ_003}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PARDEVANT **Maître {{champ_004}}**, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+    },
+    {
+      "k": "p",
+      "text": "**ONT COMPARU**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame . {{champ_005}}**, {{champ_006}} {{champ_007}}, demeurant à ABIDJAN, Commune de {{champ_008}} {{champ_009}}, {{champ_010}} BP  ABIDJAN {{champ_011}}, épouse de **Monsieur {{champ_012}} **avec lequel elle s’est mariée à la Mairie de {{commune}}, le {{champ_013}} sous le régime de la {{champ_014}} de biens."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Née à {{champ_015}} le {{champ_016}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De nationalité Ivoirienne,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_017}} établie à ABIDJAN, le {{champ_018}} et valable jusqu’au {{champ_019}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "LAQUELLE, a par ces présentes, constitué pour son mandataire spécial, son père :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}}, demeurant à ABIDJAN, Commune de {{champ_024}}, Quartier {{champ_025}},  BP {{champ_026}} ABIDJAN {{champ_027}}, {{champ_028}} {{champ_029}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Né à {{champ_030}} ({{champ_031}}), le {{champ_032}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De Nationalité Ivoirienne"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_033}} établie à ABIDJAN, le  et valable jusqu’au {{champ_034}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A QUI elle donne pouvoir de , pour elle et en son nom à l'effet de VENDRE :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**-** Un terrain bati sis à** {{champ_035}} {{champ_036}}**, Commune de {{champ_037}} objet du **T**itre **F**oncier numéro {{champ_038}} **({{champ_039}}), **d’une superficie de {{champ_040}}, inscrit au **L**ivre **F**oncier de la **C**irconscription  Foncière de {{champ_041}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A toute personne physique ou morale et sous les charges et conditions que le **MANDATAIRE** avisera,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ETABLIR** la désignation exacte et l'origine de propriété du bien vendu,",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**FIXER** l'époque d'entrée en jouissance,",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CONVENIR** du montant, du mode et des époques de paiement du prix, le toucher, soit au comptant, soit aux époques convenues, soit par anticipation ainsi que tous intérêts et accessoires, **CONSENTIR** toute prorogation de délai, **FAIRE** transport et cession avec ou sans garantie de tout ou partie du prix de cession,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DELEGUER** éventuellement tout ou partie du prix de cession aux créanciers inscrits sur le bien vendu,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PRENDRE** tous engagements avec les créanciers, **OBLIGER** le constituant à tous dégrèvements, **REGLER** et **ARRETER** tous comptes,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ACCEPTER** toute prorogation de délai, **STIPULER** toutes conditions,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**OBLIGER** le constituant à toutes garanties ainsi qu'à toutes justifications et au rapport de toutes mainlevées et certificat de radiation ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**FAIRE **toutes déclarations d'état civil ou autres, et notamment :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Que les renseignements d’état civil indiqués en tête des présentes concernant le constituant, sont exacts,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu'il a pleine capacité pour accomplir des actes de disposition,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu'il n’a souscrit aucun engagement susceptible de porter préjudice à l’**ACQUÉREUR**,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Que le bien vendu est libre et franc de toutes inscriptions hypothécaires et de droits réels quelconques,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**FAIRE** toutes affirmations relativement à la sincérité du prix de vente,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De toutes sommes reçues, **DONNER** bonne et valable quittance ; **REMETTRE** ou se **FAIRE** remettre tous titres et pièces, consentir mentions et subrogations totales ou partielles avec ou sans garantie, **FAIRE **mainlevée avec désistement de privilège, action résolutoire, et **CONSENTIR** à la radiation entière et définitive de tous inscriptions avec ou sans paiement, **ACCEPTER** toutes subrogations."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A défaut de paiement et en cas de difficulté, **EXERCER** toutes actions, obtenir tous jugements, arrêts ou décisions administratives ; les **FAIRE** exécuter par tous moyens de droit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aux effets ci-dessus, **PASSER** et **SIGNER **tous actes et pièces, **ELIRE** domicile, **SUBSTITUER** et généralement, **FAIRE** le nécessaire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT ACTE EN BREVET**",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait et passé à ABIDJAN,"
+    },
+    {
+      "k": "p",
+      "text": "En l'Etude du Notaire soussigné,"
+    },
+    {
+      "k": "p",
+      "text": "Et après lecture faite, la comparante a signé avec le Notaire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{champ_001}}                                          Me {{champ_002}}.**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ledit acte contenant",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Renvois :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Blancs bâtonnés :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Barres : {{champ_042}} dans blancs",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "lignes entières rayées nulles :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Mots nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Chiffres nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**PARAPHES**"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_003": "2000-01-01",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "commune": "Exemple",
+    "champ_013": "2000-01-01",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "2000-01-01",
+    "champ_017": "Exemple",
+    "champ_018": "2000-01-01",
+    "champ_019": "2000-01-01",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "2000-01-01",
+    "champ_033": "Exemple",
+    "champ_034": "2000-01-01",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_042": "Exemple"
+  }
+}

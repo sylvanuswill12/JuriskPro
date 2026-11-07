@@ -1,1 +1,328 @@
-{"id":"source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c","cat":"societes-associations","sub":"Matrice Redigee","titre":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrice redigee","modèle Word","matrice","anonymisé"],"duree":"8 min","docTitle":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS","fileBase":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS","headline":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « QUORUM DE L’ASSEMBLEE GENERALE ORDINAIRE DU »","req":true},{"id":"champ_002","type":"text","label":"En toutes lettres","opt":true},{"id":"champ_003","type":"text","label":"Après « L’an en toutes lettres »","opt":true},{"id":"champ_004","type":"text","label":"En toutes lettres (2)","opt":true},{"id":"champ_005","type":"text","label":"Après « et le en toutes lettres à »","opt":true},{"id":"champ_006","type":"text","label":"Après « réunis en Assemblée Générale Ordinaire à »","opt":true},{"id":"champ_007","type":"text","label":"Après « L’Assemblée est présidée par M »","opt":true},{"id":"champ_008","type":"text","label":"Après « M »","opt":true},{"id":"champ_009","type":"text","label":"Après « M et M »","opt":true},{"id":"champ_010","type":"text","label":"Après « M » (2)","opt":true},{"id":"champ_011","type":"text","label":"Après « les associés présents ou représentés possèdent »","opt":true},{"id":"champ_012","type":"text","label":"Après « présents ou représentés possèdent actions représentant »","opt":true},{"id":"champ_013","type":"text","label":"Information à compléter","opt":true},{"id":"champ_014","type":"text","label":"Information à compléter (2)","opt":true},{"id":"champ_015","type":"text","label":"Information à compléter (3)","opt":true},{"id":"champ_016","type":"text","label":"Après « Président déclare la séance levée à »","opt":true},{"id":"champ_017","type":"text","label":"Après « déclare la séance levée à heures »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"Exemple","champ_011":"Exemple","champ_012":"Exemple","champ_013":"Exemple","champ_014":"Exemple","champ_015":"Exemple","champ_016":"Exemple","champ_017":"Exemple"}}
+{
+  "id": "source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c",
+  "cat": "societes-associations",
+  "sub": "Matrice Redigee",
+  "titre": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrice redigee",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "8 min",
+  "docTitle": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS",
+  "fileBase": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS",
+  "headline": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Proces verbal",
+      "titre": "Proces verbal de carence de l’assemblee generale ordinaire sa & sas",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "DU",
+          "opt": true,
+          "group": "PROCES VERBAL CONSTATANT LE DEFAUT DE QUORUM DE L’ASSEMBLEE GENERALE…",
+          "aide": "…QUORUM DE L’ASSEMBLEE GENERALE ORDINAIRE DU ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "L’an",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an ▢ et le à…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an ▢ et le à…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Avant « et le à »",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an ▢ et le à…"
+        },
+        {
+          "id": "champ_004",
+          "type": "date",
+          "label": "Et le",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an et le ▢ à…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "En toutes lettres",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an et le ▢ à…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "À",
+          "opt": true,
+          "group": "L’an … , et le … à ….,",
+          "aide": "…L’an et le à ▢"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "En Assemblée Générale Ordinaire à",
+          "opt": true,
+          "group": "Les actionnaires ou les associés de la société se sont réunis en…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "L’Assemblée est présidée par M",
+          "opt": true,
+          "group": "L’Assemblée est présidée par M …, (Président du Conseil…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … et M …, actionnaires ou associés représentant le plus grand nombre…",
+          "aide": "…M ▢ et M actionnaires ou…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Et M",
+          "opt": true,
+          "group": "M … et M …, actionnaires ou associés représentant le plus grand nombre…",
+          "aide": "…M et M ▢ actionnaires ou associés représentant…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "M",
+          "opt": true,
+          "group": "M … a été désigné comme secrétaire.",
+          "aide": "…M ▢ a été désigné comme…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Associés présents ou représentés possèdent",
+          "opt": true,
+          "group": "D’après la feuille de présence, certifiée sincère et véritable par les…"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Actions",
+          "opt": true,
+          "group": "D’après la feuille de présence, certifiée sincère et véritable par les…",
+          "aide": "…associés présents ou représentés possèdent actions ▢ représentant % du capital…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Représentant",
+          "opt": true,
+          "group": "D’après la feuille de présence, certifiée sincère et véritable par les…",
+          "aide": "…présents ou représentés possèdent actions représentant ▢ % du capital social…"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Même ordre du jour savoir",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Même ordre du jour savoir",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Même ordre du jour savoir",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Déclare la séance levée à",
+          "opt": true,
+          "group": "Le Président déclare la séance levée à … heures … minutes."
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Minutes",
+          "opt": true,
+          "group": "Le Président déclare la séance levée à … heures … minutes.",
+          "aide": "…déclare la séance levée à heures ▢ minutes…"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Même ordre du jour savoir",
+          "opt": true,
+          "group": "De tout ce que dessus, il a été dressé le présent procès-verbal qui a…",
+          "aide": "…les membres du bureau après lecture ▢"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Le Président",
+          "opt": true,
+          "group": "Le Président … Les scrutateurs … Le secrétaire"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Les scrutateurs",
+          "opt": true,
+          "group": "Le Président … Les scrutateurs … Le secrétaire"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**PROCES VERBAL DE CARENCE DE L’ASSEMBLEE GENERALE ORDINAIRE SA & SAS**"
+    },
+    {
+      "k": "p",
+      "text": "**« Papier en-tête société »**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PROCES VERBAL CONSTATANT LE DEFAUT DE QUORUM DE L’ASSEMBLEE GENERALE ORDINAIRE                              DU {{champ_001}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’an {{champ_002}} {{champ_018}} {{champ_003}}, et le {{champ_004}} {{champ_019}} à {{champ_005}}.,"
+    },
+    {
+      "k": "p",
+      "text": "Les actionnaires ou les associés de la société se sont réunis en Assemblée Générale Ordinaire à {{champ_006}} sur convocation du Président du Conseil d’Administration (ou du Président Directeur Général ou de l’Administrateur Général ou du Présent)."
+    },
+    {
+      "k": "p",
+      "text": "Il a été établi une feuille de présence, à laquelle ont annexés les pouvoirs des actionnaires représentés par des mandataires, et qui a été émargée par chaque membre en entrant en séance."
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée est présidée par M {{champ_007}}, (Président du Conseil d’Administration ou Président Directeur Général ou Administrateur Général ou Président)."
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_008}} et M {{champ_009}}, actionnaires ou associés représentant le plus grand nombre d’actions, présents et acceptant, sont appelés comme scrutateurs."
+    },
+    {
+      "k": "p",
+      "text": "M {{champ_010}} a été désigné comme secrétaire."
+    },
+    {
+      "k": "p",
+      "text": "D’après la feuille de présence, certifiée sincère et véritable par les scrutateurs, les actionnaires ou les associés présents ou représentés possèdent {{champ_011}} actions {{champ_020}} représentant {{champ_012}}.% du capital social, soit moins du quart (1/4) du capital social."
+    },
+    {
+      "k": "p",
+      "text": "Le président constate en conséquence, qu’à défaut de quorum, l’assemblée ne peut valablement délibérer."
+    },
+    {
+      "k": "p",
+      "text": "Il indique qu’une nouvelle assemblée, pour laquelle aucun quorum n’est requis, sera convoquée pour délibérer sur le même ordre du jour, savoir :"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_013}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_014}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_015}}",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Le Président déclare la séance levée à {{champ_016}} heures {{champ_017}} minutes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De tout ce que dessus, il a été dressé le présent procès-verbal  qui a été signé par les membres du bureau après lecture. {{champ_021}}"
+    },
+    {
+      "k": "p",
+      "text": "Le Président {{champ_022}} Les scrutateurs {{champ_023}} Le secrétaire",
+      "al": "left"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_018": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "2000-01-01",
+    "champ_019": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_020": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple"
+  }
+}

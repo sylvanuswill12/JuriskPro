@@ -114,10 +114,11 @@ function check(sb, m, problems) {
   /* état vide : doit être bloqué */
   try {
     const E = m.defaults(); const ev = sb.finalValidation(m, E);
+    // Une matrice Word (sourceTemplate) peut se télécharger vide : tous ses champs sont facultatifs.
     // Une matrice sans aucune zone de saisie (seulement un texte d'information) se télécharge telle quelle.
     let hasInput = false;
     sb.eachField(m, (f) => { if (['info', 'title', 'action'].indexOf(f.type) < 0) hasInput = true; });
-    if (hasInput && !ev.blocked) P('un formulaire vide n\'est pas bloqué (aucun champ obligatoire détecté)');
+    if (hasInput && !ev.blocked && !m.sourceTemplate) P('un formulaire vide n\'est pas bloqué (aucun champ obligatoire détecté)');
   } catch (e) { P('validation (vide) : ' + e.message); }
 
   /* conditions */

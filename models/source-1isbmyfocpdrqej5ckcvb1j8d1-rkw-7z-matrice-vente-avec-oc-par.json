@@ -1,1 +1,4326 @@
-{"id":"source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par","cat":"ventes-immobilier","sub":"Matrices Vente","titre":"Vente avec ouverture de crédit par une banque (modèle 2)","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Vente avec ouverture de crédit par une banque (modèle 2) : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices vente","modèle Word","matrice","anonymisé"],"duree":"9 min","docTitle":"Vente avec ouverture de crédit par une banque (modèle 2)","fileBase":"Vente avec ouverture de crédit par une banque (modèle 2)","headline":"Vente avec ouverture de crédit par une banque (modèle 2)","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"reference_etude","type":"text","label":"Référence de l’étude","req":true},{"id":"champ_001","type":"text","label":"Après « AU PROFIT DE »","opt":true},{"id":"banque","type":"text","label":"Banque (facultatif)","opt":true},{"id":"notaire_nom","type":"text","label":"Nom du notaire (si nécessaire)","opt":true},{"id":"partie_1","type":"text","label":"Première partie","opt":true},{"id":"champ_002","type":"text","label":"Après « la somme de FRANCS CFA ci »","opt":true},{"id":"champ_003","type":"text","label":"Après « la somme de FRANCS CFA ci » (2)","opt":true},{"id":"champ_004","type":"text","label":"Après « après taxe à la somme de »","opt":true},{"id":"champ_005","type":"text","label":"Après « la somme de FRANCS CFA ci » (3)","opt":true},{"id":"champ_006","type":"text","label":"Après « principal portés ici pour MEMOIRE ci »","opt":true},{"id":"champ_007","type":"text","label":"Après « en principal et accesoires sauf MEMOIRE »","opt":true},{"id":"champ_008","type":"text","label":"Après « accesoires sauf MEMOIRE FRANCS CFA ci »","opt":true},{"id":"champ_009","type":"text","label":"Après « du bien vendu au nom de »","opt":true},{"id":"champ_010","type":"text","label":"Après « SUR LA TETE DE MONSIEUR »","opt":true},{"id":"champ_011","type":"text","label":"Après « Monsieur »","opt":true},{"id":"champ_012","type":"text","label":"Après « Mme »","opt":true},{"id":"champ_013","type":"text","label":"Après « Mme Mr »","opt":true},{"id":"champ_014","type":"text","label":"Après « Mme » (2)","opt":true},{"id":"champ_015","type":"text","label":"Après « Mme Mr » (2)","opt":true},{"id":"champ_016","type":"text","label":"Avant « Es-qualités … »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Vente avec ouverture de crédit par une banque (modèle 2)"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par.docx","version":"1"},"exemple":{"reference_etude":"Exemple","champ_001":"Exemple","banque":"Exemple","notaire_nom":"NOTAIRE EXEMPLE","partie_1":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"Exemple","champ_011":"Exemple","champ_012":"Exemple","champ_013":"Exemple","champ_014":"Exemple","champ_015":"Exemple","champ_016":"Exemple"}}
+{
+  "id": "source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par",
+  "cat": "ventes-immobilier",
+  "sub": "Matrices Vente",
+  "titre": "Vente avec ouverture de crédit par une banque (modèle 2)",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Vente avec ouverture de crédit par une banque (modèle 2) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices vente",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "40 min",
+  "docTitle": "Vente avec ouverture de crédit par une banque (modèle 2)",
+  "fileBase": "Vente avec ouverture de crédit par une banque (modèle 2)",
+  "headline": "Vente avec ouverture de crédit par une banque (modèle 2)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Partie 1",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "reference_etude",
+          "type": "text",
+          "label": "Référence de l’étude",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "AU PROFIT DE",
+          "opt": true,
+          "group": "AU PROFIT DE … ET OUVERTURE DE CREDIT PAR …"
+        },
+        {
+          "id": "banque",
+          "type": "text",
+          "label": "Banque",
+          "opt": true,
+          "group": "AU PROFIT DE … ET OUVERTURE DE CREDIT PAR …"
+        },
+        {
+          "id": "notaire_nom",
+          "type": "text",
+          "label": "Nom du notaire",
+          "opt": true,
+          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE),…"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Madame",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Avant « demeurant à ABIDJAN Commune »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN »",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…demeurant à ABIDJAN Commune de BP ▢ ABIDJAN…"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "ABIDJAN",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…à ABIDJAN Commune de BP ABIDJAN ▢"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "ONT COMPARU",
+          "opt": true,
+          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
+          "aide": "…à ABIDJAN Commune de BP ABIDJAN ▢"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Née à",
+          "opt": true,
+          "group": "Née à … , le …,",
+          "aide": "…Née à ▢ le…"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Née à … , le …,",
+          "aide": "…Née à ▢ le…"
+        },
+        {
+          "id": "champ_034",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Née à … , le …,",
+          "aide": "…Née à le ▢"
+        },
+        {
+          "id": "champ_035",
+          "type": "text",
+          "label": "De Nationalité",
+          "opt": true,
+          "group": "De Nationalité … ,",
+          "aide": "…De Nationalité ▢"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "ONT COMPARU",
+          "opt": true,
+          "group": "De Nationalité … ,",
+          "aide": "…De Nationalité ▢"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Carte Nationale d’Identité numéro C",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et …."
+        },
+        {
+          "id": "champ_038",
+          "type": "date",
+          "label": "Établie le",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et ….",
+          "aide": "…Nationale d’Identité numéro C établie le ▢ et…"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Et",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et ….",
+          "aide": "…d’Identité numéro C établie le et ▢"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Madame",
+          "opt": true,
+          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…",
+          "aide": "…Madame ▢ ci-après dénommée dans le…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Avant « ci-après dénommée dans le »",
+          "opt": true,
+          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…",
+          "aide": "…Madame ▢ ci-après dénommée dans le…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "De premiere",
+      "titre": "De premiere part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "2) Monsieur … ,",
+          "aide": "…2 Monsieur ▢"
+        },
+        {
+          "id": "champ_043",
+          "type": "text",
+          "label": "DE PREMIERE PART",
+          "opt": true,
+          "group": "2) Monsieur … ,",
+          "aide": "…2 Monsieur ▢"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Et son épouse Madame",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Avant « tous deux demeurant à »",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Avant « tous deux demeurant à »",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Avant « tous deux demeurant à »",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…deux demeurant à ABIDJAN Commune de ▢ Quartier…"
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Avant « Quartier »",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…deux demeurant à ABIDJAN Commune de ▢ Quartier…"
+        },
+        {
+          "id": "champ_050",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢"
+        },
+        {
+          "id": "champ_051",
+          "type": "text",
+          "label": "Monsieur à",
+          "opt": true,
+          "group": "Monsieur à … , le …, …",
+          "aide": "…Monsieur à ▢ le…"
+        },
+        {
+          "id": "champ_052",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Monsieur à … , le …, …",
+          "aide": "…Monsieur à ▢ le…"
+        },
+        {
+          "id": "champ_053",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Monsieur à … , le …, …",
+          "aide": "…Monsieur à le ▢"
+        },
+        {
+          "id": "champ_054",
+          "type": "date",
+          "label": "Nés savoir",
+          "opt": true,
+          "group": "Monsieur à … , le …, …",
+          "aide": "…Monsieur à le ▢"
+        },
+        {
+          "id": "champ_055",
+          "type": "text",
+          "label": "Madame à",
+          "opt": true,
+          "group": "Madame à … , le …,",
+          "aide": "…Madame à ▢ le…"
+        },
+        {
+          "id": "champ_056",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Madame à … , le …,",
+          "aide": "…Madame à ▢ le…"
+        },
+        {
+          "id": "champ_057",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Madame à … , le …,",
+          "aide": "…Madame à le ▢"
+        },
+        {
+          "id": "champ_058",
+          "type": "text",
+          "label": "Tous les deux de nationalité",
+          "opt": true,
+          "group": "Tous les deux de nationalité …"
+        },
+        {
+          "id": "partie_1",
+          "type": "text",
+          "label": "Première partie",
+          "opt": true,
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
+          "aide": "…Monsieur ▢ de la Carte Nationale…"
+        },
+        {
+          "id": "champ_059",
+          "type": "text",
+          "label": "Carte Nationale d’Identité numéro C",
+          "opt": true,
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…"
+        },
+        {
+          "id": "champ_060",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
+          "aide": "…numéro C établie à ABIDJAN le ▢ et valable jusqu’au…"
+        },
+        {
+          "id": "champ_061",
+          "type": "date",
+          "label": "Et valable jusqu’au",
+          "opt": true,
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
+          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_062",
+          "type": "text",
+          "label": "Madame",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…Madame ▢ de numéro délivrée à…"
+        },
+        {
+          "id": "champ_063",
+          "type": "text",
+          "label": "De",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…Madame de ▢ numéro délivrée à par…"
+        },
+        {
+          "id": "champ_064",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…Madame de numéro ▢ délivrée à par l’Office…"
+        },
+        {
+          "id": "champ_065",
+          "type": "text",
+          "label": "Délivrée à",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…Madame de numéro délivrée à ▢ par l’Office National d’Identification…"
+        },
+        {
+          "id": "champ_066",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…à par l’Office National d’Identification le ▢ et valable jusqu’au…"
+        },
+        {
+          "id": "champ_067",
+          "type": "date",
+          "label": "Et valable jusqu’au",
+          "opt": true,
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
+          "aide": "…National d’Identification le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_068",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
+          "aide": "…Monsieur ▢ et Madame se sont…"
+        },
+        {
+          "id": "champ_069",
+          "type": "text",
+          "label": "Et",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
+          "aide": "…Monsieur et ▢ Madame se sont mariés…"
+        },
+        {
+          "id": "champ_070",
+          "type": "text",
+          "label": "Madame",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
+          "aide": "…Monsieur et Madame ▢ se sont mariés à…"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "De premiere",
+      "titre": "De premiere part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_071",
+          "type": "text",
+          "label": "À la Mairie de",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…"
+        },
+        {
+          "id": "champ_072",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
+          "aide": "…ABIDJAN à la Mairie de le ▢ sous le régime…"
+        },
+        {
+          "id": "champ_073",
+          "type": "text",
+          "label": "Sous le régime",
+          "opt": true,
+          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…"
+        },
+        {
+          "id": "champ_074",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…",
+          "aide": "…Monsieur ▢ conjointement et solidairement ci-après…"
+        },
+        {
+          "id": "champ_075",
+          "type": "text",
+          "label": "Avant « conjointement et solidairement ci-après »",
+          "opt": true,
+          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…",
+          "aide": "…Monsieur ▢ conjointement et solidairement ci-après…"
+        },
+        {
+          "id": "champ_076",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
+          "aide": "…3 Monsieur ▢ Directeur Général de la…"
+        },
+        {
+          "id": "champ_077",
+          "type": "text",
+          "label": "Avant « Directeur Général de la »",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
+          "aide": "…3 Monsieur ▢ Directeur Général de la…"
+        },
+        {
+          "id": "champ_078",
+          "type": "text",
+          "label": "Directeur Général de la Société",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…"
+        }
+      ]
+    },
+    {
+      "id": "partie-5",
+      "court": "De deuxieme",
+      "titre": "De deuxieme part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_079",
+          "type": "text",
+          "label": "Demeurant à ABIDJAN",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…"
+        },
+        {
+          "id": "champ_080",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
+          "aide": "…la Société demeurant à ABIDJAN BP ▢"
+        },
+        {
+          "id": "champ_081",
+          "type": "text",
+          "label": "DE DEUXIEME PART",
+          "opt": true,
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
+          "aide": "…la Société demeurant à ABIDJAN BP ▢"
+        },
+        {
+          "id": "champ_082",
+          "type": "text",
+          "label": "La Société",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…La Société ▢ Société au capital de…"
+        },
+        {
+          "id": "champ_083",
+          "type": "text",
+          "label": "Société",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…La Société Société ▢ au capital de FRANCS…"
+        },
+        {
+          "id": "champ_084",
+          "type": "text",
+          "label": "Au capital de",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…La Société Société au capital de ▢ FRANCS CFA dont le…"
+        },
+        {
+          "id": "champ_085",
+          "type": "text",
+          "label": "Avant « FRANCS CFA dont le »",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…La Société Société au capital de ▢ FRANCS CFA dont le…"
+        },
+        {
+          "id": "champ_086",
+          "type": "text",
+          "label": "Dont le siège est à",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+        },
+        {
+          "id": "champ_087",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN immatriculée au »",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+        },
+        {
+          "id": "champ_088",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN immatriculée au »",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+        },
+        {
+          "id": "champ_089",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN immatriculée au »",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+        },
+        {
+          "id": "champ_090",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…dont le siège est à BP ▢ ABIDJAN immatriculée au Registre…"
+        },
+        {
+          "id": "champ_091",
+          "type": "text",
+          "label": "ABIDJAN",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
+          "aide": "…le siège est à BP ABIDJAN ▢ immatriculée au Registre de…"
+        },
+        {
+          "id": "champ_092",
+          "type": "text",
+          "label": "Mobilier d’ABIDJAN sous le numéro",
+          "opt": true,
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…"
+        },
+        {
+          "id": "champ_093",
+          "type": "text",
+          "label": "La loi que par l’article",
+          "opt": true,
+          "group": "EN VERTU des pouvoirs qui lui ont été conférés en sa qualité de…"
+        },
+        {
+          "id": "champ_094",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … nommé aux fonctions de Directeur Général par délibération du…",
+          "aide": "…Monsieur ▢ nommé aux fonctions de…"
+        },
+        {
+          "id": "champ_095",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Monsieur … nommé aux fonctions de Directeur Général par délibération du…"
+        },
+        {
+          "id": "champ_096",
+          "type": "text",
+          "label": "La Société",
+          "opt": true,
+          "group": "La Société … ci-après dénomméeau cours du présent acte pour en…",
+          "aide": "…La Société ▢ ci-après dénomméeau cours du…"
+        }
+      ]
+    },
+    {
+      "id": "partie-6",
+      "court": "De troisieme",
+      "titre": "De troisieme part",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_097",
+          "type": "text",
+          "label": "VENTE PAR MADAME",
+          "opt": true,
+          "group": "VENTE PAR MADAME …",
+          "aide": "…VENTE PAR MADAME ▢"
+        },
+        {
+          "id": "champ_098",
+          "type": "text",
+          "label": "AU PROFIT DE",
+          "opt": true,
+          "group": "AU PROFIT DE …"
+        },
+        {
+          "id": "champ_099",
+          "type": "text",
+          "label": "Urbain non bâtie sise à",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        },
+        {
+          "id": "champ_100",
+          "type": "text",
+          "label": "Avant « Quartier d’une superficie de »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…terrain urbain non bâtie sise à ▢ Quartier d’une superficie de…"
+        },
+        {
+          "id": "champ_101",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
+        },
+        {
+          "id": "champ_102",
+          "type": "text",
+          "label": "Avant « d’une superficie de METRES »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
+        },
+        {
+          "id": "champ_103",
+          "type": "text",
+          "label": "D’une superficie de",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        },
+        {
+          "id": "champ_104",
+          "type": "text",
+          "label": "Avant « m² formant le lot »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…Quartier d’une superficie de METRES CARRES ▢ m² formant le lot…"
+        }
+      ]
+    },
+    {
+      "id": "partie-7",
+      "court": "Designation",
+      "titre": "Designation",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_105",
+          "type": "text",
+          "label": "Formant le lot numéro",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        },
+        {
+          "id": "champ_106",
+          "type": "text",
+          "label": "Avant « îlot numéro du lotissement »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…CARRES m² formant le lot numéro ▢ îlot numéro du lotissement…"
+        },
+        {
+          "id": "champ_107",
+          "type": "text",
+          "label": "Îlot numéro",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
+        },
+        {
+          "id": "champ_108",
+          "type": "text",
+          "label": "Avant « du lotissement de à »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
+        },
+        {
+          "id": "champ_109",
+          "type": "text",
+          "label": "Du lotissement de",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        },
+        {
+          "id": "champ_110",
+          "type": "text",
+          "label": "Détacher du Titre Foncier numéro",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        },
+        {
+          "id": "champ_111",
+          "type": "text",
+          "label": "Avant « de la Circonscription Foncière »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
+          "aide": "…à détacher du Titre Foncier numéro ▢ de la Circonscription Foncière…"
+        },
+        {
+          "id": "champ_112",
+          "type": "text",
+          "label": "De la Circonscription Foncière de",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
+        }
+      ]
+    },
+    {
+      "id": "partie-8",
+      "court": "Origine de",
+      "titre": "Origine de propriete",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_113",
+          "type": "text",
+          "label": "VENDEUR pour l’avoir acquis de",
+          "opt": true,
+          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
+        },
+        {
+          "id": "champ_114",
+          "type": "date",
+          "label": "Notaire soussigné en date des",
+          "opt": true,
+          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
+        },
+        {
+          "id": "champ_115",
+          "type": "text",
+          "label": "Mutation de Propriété Foncière numéro",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_116",
+          "type": "text",
+          "label": "Avant « en date du délivré »",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…",
+          "aide": "…de Mutation de Propriété Foncière numéro ▢ en date du délivré…"
+        },
+        {
+          "id": "champ_117",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_118",
+          "type": "text",
+          "label": "Foncière et des Hypothèques de",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_119",
+          "type": "text",
+          "label": "Moyennant le prix principal de",
+          "opt": true,
+          "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…"
+        },
+        {
+          "id": "champ_120",
+          "type": "text",
+          "label": "Avant « DE FRANCS CFA qui »",
+          "opt": true,
+          "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…",
+          "aide": "…acceptée moyennant le prix principal de ▢ DE FRANCS CFA qui…"
+        }
+      ]
+    },
+    {
+      "id": "partie-9",
+      "court": "Prix",
+      "titre": "Prix",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_121",
+          "type": "text",
+          "label": "Tiré par le BENEFICIAIRE sur",
+          "opt": true,
+          "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…"
+        },
+        {
+          "id": "champ_122",
+          "type": "text",
+          "label": "OUVERTURE DE CREDIT PAR",
+          "opt": true,
+          "group": "OUVERTURE DE CREDIT PAR …"
+        },
+        {
+          "id": "champ_123",
+          "type": "text",
+          "label": "D’une durée de",
+          "opt": true,
+          "group": "La BANQUE ouvre par ces présentes, dans ses livres au BENEFICIAIRE qui…"
+        },
+        {
+          "id": "champ_124",
+          "type": "text",
+          "label": "Avant « MOIS »",
+          "opt": true,
+          "group": "La BANQUE ouvre par ces présentes, dans ses livres au BENEFICIAIRE qui…",
+          "aide": "…CFA en principal d’une durée de ▢ MOIS…"
+        },
+        {
+          "id": "champ_125",
+          "type": "text",
+          "label": "BENEFICIAIRE qui s’y oblige en",
+          "opt": true,
+          "group": "Le remboursement des avances consenties en réalisation du présent…"
+        },
+        {
+          "id": "champ_126",
+          "type": "text",
+          "label": "Avant « MENSUALITES égales constantes et »",
+          "opt": true,
+          "group": "Le remboursement des avances consenties en réalisation du présent…",
+          "aide": "…le BENEFICIAIRE qui s’y oblige en ▢ MENSUALITES égales constantes et…"
+        },
+        {
+          "id": "champ_127",
+          "type": "text",
+          "label": "Et consécutives d’un montant de",
+          "opt": true,
+          "group": "Le remboursement des avances consenties en réalisation du présent…"
+        },
+        {
+          "id": "champ_128",
+          "type": "text",
+          "label": "Avant « FCFA en principal »",
+          "opt": true,
+          "group": "Le remboursement des avances consenties en réalisation du présent…",
+          "aide": "…consécutives d’un montant de FRANCS CFA ▢ FCFA en principal…"
+        }
+      ]
+    },
+    {
+      "id": "partie-10",
+      "court": "Art. ii",
+      "titre": "Article ii - duree - remboursement",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_129",
+          "type": "text",
+          "label": "Ces",
+          "opt": true,
+          "group": "Ces … (…) mensualités seront exigibles de mois en mois, conformément au…",
+          "aide": "…Ces ▢ mensualités seront exigibles de…"
+        },
+        {
+          "id": "champ_130",
+          "type": "text",
+          "label": "Avant « mensualités seront exigibles de »",
+          "opt": true,
+          "group": "Ces … (…) mensualités seront exigibles de mois en mois, conformément au…",
+          "aide": "…Ces ▢ mensualités seront exigibles de…"
+        },
+        {
+          "id": "champ_131",
+          "type": "text",
+          "label": "Payer entre les mains de",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        },
+        {
+          "id": "champ_132",
+          "type": "text",
+          "label": "Urbain non bâtie sise à",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        },
+        {
+          "id": "champ_133",
+          "type": "text",
+          "label": "Avant « Quartier d’une superficie de »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…terrain urbain non bâtie sise à ▢ Quartier d’une superficie de…"
+        },
+        {
+          "id": "champ_134",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
+        },
+        {
+          "id": "champ_135",
+          "type": "text",
+          "label": "Avant « d’une superficie de METRES »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
+        },
+        {
+          "id": "champ_136",
+          "type": "text",
+          "label": "D’une superficie de",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        }
+      ]
+    },
+    {
+      "id": "partie-11",
+      "court": "Art. iii",
+      "titre": "Article iii - destination",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_137",
+          "type": "text",
+          "label": "Avant « m² formant le lot »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…Quartier d’une superficie de METRES CARRES ▢ m² formant le lot…"
+        },
+        {
+          "id": "champ_138",
+          "type": "text",
+          "label": "Formant le lot numéro",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        },
+        {
+          "id": "champ_139",
+          "type": "text",
+          "label": "Avant « îlot numéro du lotissement »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…CARRES m² formant le lot numéro ▢ îlot numéro du lotissement…"
+        },
+        {
+          "id": "champ_140",
+          "type": "text",
+          "label": "Îlot numéro",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
+        },
+        {
+          "id": "champ_141",
+          "type": "text",
+          "label": "Avant « du lotissement de à »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
+        },
+        {
+          "id": "champ_142",
+          "type": "text",
+          "label": "Du lotissement de",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        },
+        {
+          "id": "champ_143",
+          "type": "text",
+          "label": "Détacher du Titre Foncier numéro",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
+        },
+        {
+          "id": "champ_144",
+          "type": "text",
+          "label": "Avant « de la Circonscription Foncière »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…à détacher du Titre Foncier numéro ▢ de la Circonscription Foncière…"
+        },
+        {
+          "id": "champ_145",
+          "type": "text",
+          "label": "Avant « DE FRANCS CFA »",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
+          "aide": "…la Circonscription Foncière de BINGERVILLE soit ▢ DE FRANCS CFA…"
+        }
+      ]
+    },
+    {
+      "id": "partie-12",
+      "court": "Art. iv",
+      "titre": "Article iv - deblocage des fonds",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_146",
+          "type": "text",
+          "label": "Ouvert dans les livres d’",
+          "opt": true,
+          "group": "Le déblocage des fonds se fera directement par la BANQUE sur le compte…"
+        },
+        {
+          "id": "champ_147",
+          "type": "text",
+          "label": "A hauteur de",
+          "opt": true,
+          "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…"
+        },
+        {
+          "id": "champ_148",
+          "type": "text",
+          "label": "Avant « DE FRANCS CFA représentant »",
+          "opt": true,
+          "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…",
+          "aide": "…A hauteur de ▢ DE FRANCS CFA représentant…"
+        },
+        {
+          "id": "champ_149",
+          "type": "text",
+          "label": "Par chèque à l’ordre de",
+          "opt": true,
+          "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…"
+        },
+        {
+          "id": "champ_150",
+          "type": "text",
+          "label": "A hauteur de",
+          "opt": true,
+          "group": "A hauteur de … (…)FRANCS CFA, représentant les frais, droits et…"
+        },
+        {
+          "id": "champ_151",
+          "type": "text",
+          "label": "Avant « FRANCS CFA représentant les »",
+          "opt": true,
+          "group": "A hauteur de … (…)FRANCS CFA, représentant les frais, droits et…",
+          "aide": "…A hauteur de ▢ FRANCS CFA représentant les…"
+        },
+        {
+          "id": "champ_152",
+          "type": "text",
+          "label": "A hauteur de",
+          "opt": true,
+          "group": "A hauteur de … (…) FRANCS CFA, sur le compte du BENEFICIAIRE ouvert…"
+        },
+        {
+          "id": "champ_153",
+          "type": "text",
+          "label": "Avant « FRANCS CFA sur le »",
+          "opt": true,
+          "group": "A hauteur de … (…) FRANCS CFA, sur le compte du BENEFICIAIRE ouvert…",
+          "aide": "…A hauteur de ▢ FRANCS CFA sur le…"
+        }
+      ]
+    },
+    {
+      "id": "partie-13",
+      "court": "Art. vi",
+      "titre": "Article vi - interets",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_154",
+          "type": "text",
+          "label": "Tenu de l’appartenance de Monsieur",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_155",
+          "type": "text",
+          "label": "Au personnel de",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_156",
+          "type": "text",
+          "label": "Le crédit consenti de",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_157",
+          "type": "text",
+          "label": "Avant « F CFA en principal »",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…",
+          "aide": "…le crédit consenti de FRANCS CFA ▢ F CFA en principal…"
+        },
+        {
+          "id": "champ_158",
+          "type": "text",
+          "label": "Au cas où Monsieur",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_159",
+          "type": "text",
+          "label": "Avant « ne ferait plus partie »",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…",
+          "aide": "…10% Toutefois au cas où Monsieur ▢ ne ferait plus partie…"
+        },
+        {
+          "id": "champ_160",
+          "type": "text",
+          "label": "Ferait plus partie du personnel",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_161",
+          "type": "text",
+          "label": "Intérêts au taux appliqué par",
+          "opt": true,
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
+        },
+        {
+          "id": "champ_162",
+          "type": "text",
+          "label": "Du crédit s’élève à",
+          "opt": true,
+          "group": "Le taux effectif global (TEG) du crédit s’élève à …"
+        }
+      ]
+    },
+    {
+      "id": "partie-14",
+      "court": "Art. viii",
+      "titre": "Article viii - exigibilite anticipee",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_163",
+          "type": "text",
+          "label": "Et écrit de la BANQUE",
+          "opt": true,
+          "group": "9) En cas de faillite, de liquidation, règlement judiciaire ou…",
+          "aide": "…en principal intérêts frais et accessoires ▢"
+        },
+        {
+          "id": "champ_164",
+          "type": "text",
+          "label": "Cas de décès de Monsieur",
+          "opt": true,
+          "group": "12) En cas de décès de Monsieur … avant complète libération ;"
+        },
+        {
+          "id": "champ_165",
+          "type": "text",
+          "label": "Au cas où Monsieur",
+          "opt": true,
+          "group": "14) Au cas où Monsieur … ne serait plus employé par …;"
+        },
+        {
+          "id": "champ_166",
+          "type": "text",
+          "label": "Ne serait plus employé par",
+          "opt": true,
+          "group": "14) Au cas où Monsieur … ne serait plus employé par …;"
+        },
+        {
+          "id": "champ_167",
+          "type": "text",
+          "label": "Au cas où Monsieur",
+          "opt": true,
+          "group": "16) Au cas où Monsieur … ne ferait plus partie du personnel du … avant…"
+        },
+        {
+          "id": "champ_168",
+          "type": "text",
+          "label": "Plus partie du personnel du",
+          "opt": true,
+          "group": "16) Au cas où Monsieur … ne ferait plus partie du personnel du … avant…"
+        },
+        {
+          "id": "champ_169",
+          "type": "text",
+          "label": "IV du Titre Foncier numéro",
+          "opt": true,
+          "group": "19) A défaut de publication des droits du BENEFICIAIRE à la section IV…"
+        },
+        {
+          "id": "champ_170",
+          "type": "text",
+          "label": "De la Circonscription Foncière de",
+          "opt": true,
+          "group": "19) A défaut de publication des droits du BENEFICIAIRE à la section IV…"
+        },
+        {
+          "id": "champ_171",
+          "type": "text",
+          "label": "Au nom de la communauté",
+          "opt": true,
+          "group": "20) A défaut de l’accomplissement des formalités de mutation au nom de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-15",
+      "court": "Art. xi",
+      "titre": "Article xi - engagements par le beneficiaire",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_172",
+          "type": "text",
+          "label": "L’objet de l’affectation hypothécaire ci-après",
+          "opt": true,
+          "group": "2) A ne faire aucune opération susceptible de diminuer la valeur de…",
+          "aide": "…résilier les baux modifier ceux existants ▢"
+        },
+        {
+          "id": "champ_173",
+          "type": "text",
+          "label": "L’objet de l’affectation hypothécaire ci-après",
+          "opt": true,
+          "group": "3) Maintenir constamment les loyers dudit immeuble à leur juste valeur…",
+          "aide": "…BANQUE ainsi qu’il sera précisé ci-après ▢"
+        },
+        {
+          "id": "champ_174",
+          "type": "text",
+          "label": "Agios frais d’encaissement ou autres",
+          "opt": true,
+          "group": "11) Il est bien entendu que l’accord de la BANQUE deviendrait caduc si…",
+          "aide": "…crédit deviendraient automatiquement exigibles en totalité ▢"
+        },
+        {
+          "id": "champ_175",
+          "type": "text",
+          "label": "Tant que Monsieur",
+          "opt": true,
+          "group": "Tant que Monsieur … sera employé de …, tous les paiements à faire en…"
+        },
+        {
+          "id": "champ_176",
+          "type": "text",
+          "label": "Sera employé de",
+          "opt": true,
+          "group": "Tant que Monsieur … sera employé de …, tous les paiements à faire en…"
+        },
+        {
+          "id": "champ_177",
+          "type": "text",
+          "label": "Au cas où Monsieur",
+          "opt": true,
+          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
+        },
+        {
+          "id": "champ_178",
+          "type": "text",
+          "label": "Ne serait plus employé de",
+          "opt": true,
+          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
+        },
+        {
+          "id": "champ_179",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…",
+          "aide": "…ne serait plus employé de Monsieur ▢ s’engage d’ores et déjà…"
+        }
+      ]
+    },
+    {
+      "id": "partie-16",
+      "court": "Art. xii",
+      "titre": "Article xii - lieu de paiement",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_180",
+          "type": "text",
+          "label": "À ouvrir un compte à",
+          "opt": true,
+          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
+        },
+        {
+          "id": "champ_181",
+          "type": "text",
+          "label": "Qu’il souscrive à l’ordre de",
+          "opt": true,
+          "group": "La BANQUE pourra exiger du BENEFICIAIRE qu’il souscrive à l’ordre de ……"
+        },
+        {
+          "id": "champ_182",
+          "type": "text",
+          "label": "Promet d’employer la somme de",
+          "opt": true,
+          "group": "Le BENEFICIAIRE promet d’employer la somme de … (…) FRANCS CFA montant…"
+        },
+        {
+          "id": "champ_183",
+          "type": "text",
+          "label": "Avant « FRANCS CFA montant en »",
+          "opt": true,
+          "group": "Le BENEFICIAIRE promet d’employer la somme de … (…) FRANCS CFA montant…",
+          "aide": "…BENEFICIAIRE promet d’employer la somme de ▢ FRANCS CFA montant en…"
+        },
+        {
+          "id": "champ_184",
+          "type": "text",
+          "label": "Pour l’avoir acquis de Madame",
+          "opt": true,
+          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
+        },
+        {
+          "id": "champ_185",
+          "type": "date",
+          "label": "Notaire soussigné en date des",
+          "opt": true,
+          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
+        },
+        {
+          "id": "champ_186",
+          "type": "text",
+          "label": "Mutation de Propriété Foncière numéro",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_187",
+          "type": "text",
+          "label": "Avant « en date du délivré »",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…",
+          "aide": "…de Mutation de Propriété Foncière numéro ▢ en date du délivré…"
+        }
+      ]
+    },
+    {
+      "id": "partie-17",
+      "court": "Designation et",
+      "titre": "Designation et origine du bien donne engarantie",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_188",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_189",
+          "type": "text",
+          "label": "Foncière et des Hypothèques de",
+          "opt": true,
+          "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "champ_190",
+          "type": "text",
+          "label": "- De la somme de",
+          "opt": true,
+          "group": "1° - De la somme de … FRANCS CFA, ci …"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Ci",
+          "opt": true,
+          "group": "1° - De la somme de … FRANCS CFA, ci …",
+          "aide": "…la somme de FRANCS CFA ci ▢"
+        },
+        {
+          "id": "champ_191",
+          "type": "text",
+          "label": "Soit la somme de",
+          "opt": true,
+          "group": "2° - de l’indemnité forfaitaire qui pourrait être éventuellement due à…",
+          "aide": "…du capital soit la somme de ▢ FRANCS CFA ci…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Ci",
+          "opt": true,
+          "group": "2° - de l’indemnité forfaitaire qui pourrait être éventuellement due à…",
+          "aide": "…la somme de FRANCS CFA ci ▢"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Colonne 2",
+          "opt": true,
+          "group": "Designation et origine du bien donne engarantie – ligne 1"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "À la somme de",
+          "opt": true,
+          "group": "3°- de tous frais éventuels de poursuites, frais de mise à exécution le…",
+          "aide": "…après taxe à la somme de ▢ FRANCS CFA ci…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Ci",
+          "opt": true,
+          "group": "3°- de tous frais éventuels de poursuites, frais de mise à exécution le…",
+          "aide": "…la somme de FRANCS CFA ci ▢"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Colonne 2",
+          "opt": true,
+          "group": "Designation et origine du bien donne engarantie – ligne 2"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Ci",
+          "opt": true,
+          "group": "4° - Et des intérêts dont la loi conserve le rang au même titre que le…",
+          "aide": "…principal portés ici pour MEMOIRE ci ▢"
+        },
+        {
+          "id": "champ_192",
+          "type": "text",
+          "label": "Avant « FRANCS CFA ci »",
+          "opt": true,
+          "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
+          "aide": "…en principal et accesoires sauf MEMOIRE ▢ FRANCS CFA ci…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avant « FRANCS CFA ci »",
+          "opt": true,
+          "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
+          "aide": "…en principal et accesoires sauf MEMOIRE ▢ FRANCS CFA ci…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Ci",
+          "opt": true,
+          "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
+          "aide": "…accesoires sauf MEMOIRE FRANCS CFA ci ▢"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Colonne 2",
+          "opt": true,
+          "group": "Designation et origine du bien donne engarantie – ligne 4"
+        }
+      ]
+    },
+    {
+      "id": "partie-18",
+      "court": "Partie 18",
+      "titre": "Condition suspensive",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Bien vendu au nom de",
+          "opt": true,
+          "group": "La garantie ci-dessus est conférée sous réserve de la réalisation de la…"
+        },
+        {
+          "id": "champ_193",
+          "type": "text",
+          "label": "Pour une période de",
+          "opt": true,
+          "group": "Il est expressément convenu entre les parties, conformément à l’article…"
+        },
+        {
+          "id": "champ_194",
+          "type": "text",
+          "label": "Avant « ANS à compter de »",
+          "opt": true,
+          "group": "Il est expressément convenu entre les parties, conformément à l’article…",
+          "aide": "…aura effet pour une période de ▢ ANS à compter de…"
+        },
+        {
+          "id": "champ_195",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…",
+          "aide": "…Monsieur ▢ s’engage à souscrire auprès…"
+        },
+        {
+          "id": "champ_196",
+          "type": "text",
+          "label": "Pour un montant minimum de",
+          "opt": true,
+          "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…"
+        },
+        {
+          "id": "champ_197",
+          "type": "text",
+          "label": "Avant « FRANCS FCFA et à »",
+          "opt": true,
+          "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…",
+          "aide": "…ce pour un montant minimum de ▢ FRANCS FCFA et à…"
+        },
+        {
+          "id": "champ_198",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … s’oblige à maintenir assuré, tant qu’il sera susceptible…",
+          "aide": "…Monsieur ▢ s’oblige à maintenir assuré…"
+        },
+        {
+          "id": "champ_199",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … s’oblige à justifier à tout moment et à première demande de…",
+          "aide": "…Monsieur ▢ s’oblige à justifier à…"
+        }
+      ]
+    },
+    {
+      "id": "partie-19",
+      "court": "Degats des",
+      "titre": "Degats des eaux",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_200",
+          "type": "text",
+          "label": "Et à première demande de",
+          "opt": true,
+          "group": "Monsieur … s’oblige à justifier à tout moment et à première demande de…"
+        },
+        {
+          "id": "champ_201",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……",
+          "aide": "…Monsieur ▢ fera établir un avenant…"
+        },
+        {
+          "id": "champ_202",
+          "type": "text",
+          "label": "Aux termes duquel",
+          "opt": true,
+          "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……"
+        },
+        {
+          "id": "champ_203",
+          "type": "text",
+          "label": "Il remettra à",
+          "opt": true,
+          "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……"
+        },
+        {
+          "id": "champ_204",
+          "type": "text",
+          "label": "Avant « si elle ne juge »",
+          "opt": true,
+          "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…",
+          "aide": "…assurance soit de défaut de renouvellement ▢ si elle ne juge…"
+        },
+        {
+          "id": "champ_205",
+          "type": "text",
+          "label": "Avant « si elle ne juge »",
+          "opt": true,
+          "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…",
+          "aide": "…assurance soit de défaut de renouvellement ▢ si elle ne juge…"
+        },
+        {
+          "id": "champ_206",
+          "type": "text",
+          "label": "Souscrire au nom de Monsieur",
+          "opt": true,
+          "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…"
+        },
+        {
+          "id": "champ_207",
+          "type": "text",
+          "label": "Sera contractée au nom de",
+          "opt": true,
+          "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…"
+        },
+        {
+          "id": "champ_208",
+          "type": "text",
+          "label": "Pour un montant minimum de",
+          "opt": true,
+          "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…"
+        },
+        {
+          "id": "champ_209",
+          "type": "text",
+          "label": "Avant « FRANCS FCFA »",
+          "opt": true,
+          "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…",
+          "aide": "…de pour un montant minimum de ▢ FRANCS FCFA…"
+        },
+        {
+          "id": "champ_210",
+          "type": "text",
+          "label": "À la charge de Monsieur",
+          "opt": true,
+          "group": "Les frais de la police et les primes et cotisations annuelles de…"
+        },
+        {
+          "id": "champ_211",
+          "type": "text",
+          "label": "S’ils sont avancés par",
+          "opt": true,
+          "group": "Les frais de la police et les primes et cotisations annuelles de…"
+        },
+        {
+          "id": "champ_212",
+          "type": "text",
+          "label": "Débit du compte de Monsieur",
+          "opt": true,
+          "group": "Les frais de la police et les primes et cotisations annuelles de…"
+        },
+        {
+          "id": "champ_213",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…",
+          "aide": "…En outre Monsieur ▢ consent dès à présent…"
+        },
+        {
+          "id": "champ_214",
+          "type": "text",
+          "label": "Qui sera alors dû à",
+          "opt": true,
+          "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…"
+        },
+        {
+          "id": "champ_215",
+          "type": "text",
+          "label": "Avant « toutes indemnités allouées en »",
+          "opt": true,
+          "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…",
+          "aide": "…ce qui sera alors dû à ▢ toutes indemnités allouées en…"
+        },
+        {
+          "id": "champ_216",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … autorise … de manière permanente et irrévocable, à souscrire…",
+          "aide": "…Monsieur ▢ autorise de manière permanente…"
+        },
+        {
+          "id": "champ_217",
+          "type": "text",
+          "label": "Autorise",
+          "opt": true,
+          "group": "Monsieur … autorise … de manière permanente et irrévocable, à souscrire…",
+          "aide": "…Monsieur autorise ▢ de manière permanente et…"
+        }
+      ]
+    },
+    {
+      "id": "partie-20",
+      "court": "Art. xviii",
+      "titre": "Article xviii - delegation d’assurance deces-invalidite",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "SUR LA TETE DE MONSIEUR",
+          "opt": true,
+          "group": "SUR LA TETE DE MONSIEUR …"
+        },
+        {
+          "id": "champ_218",
+          "type": "text",
+          "label": "XVIII - DELEGATION D’ASSURANCE DECES-INVALIDITE",
+          "opt": true,
+          "group": "SUR LA TETE DE MONSIEUR …",
+          "aide": "…SUR LA TETE DE MONSIEUR ▢"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … consent à l’attribution à la BANQUE du bénéfice d’une…",
+          "aide": "…Monsieur ▢ consent à l’attribution à…"
+        },
+        {
+          "id": "champ_219",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "A cette fin, Monsieur … déclare avoir demandé à user de la faculté…",
+          "aide": "…A cette fin Monsieur ▢ déclare avoir demandé à…"
+        },
+        {
+          "id": "champ_220",
+          "type": "text",
+          "label": "Convention d’assurance groupe passée par",
+          "opt": true,
+          "group": "A cette fin, Monsieur … déclare avoir demandé à user de la faculté…"
+        },
+        {
+          "id": "champ_221",
+          "type": "text",
+          "label": "La signature de Monsieur",
+          "opt": true,
+          "group": "La signature de Monsieur … d’une déclaration d’affiliation marque son…"
+        },
+        {
+          "id": "champ_222",
+          "type": "text",
+          "label": "Ici les conditions que Monsieur",
+          "opt": true,
+          "group": "La signature de Monsieur … d’une déclaration d’affiliation marque son…"
+        },
+        {
+          "id": "champ_223",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … autorise la BANQUE de façon permanente et irrévocable à…",
+          "aide": "…Monsieur ▢ autorise la BANQUE de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-21",
+      "court": "Clause speciale",
+      "titre": "Clause speciale",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_224",
+          "type": "text",
+          "label": "Le BENEFICIAIRE restera employé de",
+          "opt": true,
+          "group": "Il est à noter que, concernant les primes des assurances ci-dessus…"
+        },
+        {
+          "id": "champ_225",
+          "type": "text",
+          "label": "De départ du BENEFICIAIRE d’",
+          "opt": true,
+          "group": "En cas de départ du BENEFICIAIRE d’ …, le BENEFICIAIRE s’engage à…"
+        },
+        {
+          "id": "champ_226",
+          "type": "text",
+          "label": "La somme de",
+          "opt": true,
+          "group": "Le VENDEUR reconnaît avoir reçu de l’ACQUEREUR ce jour, au moyen d’un…",
+          "aide": "…moyen d’un chèque la somme de ▢ DE FRANCS CFA représentant…"
+        },
+        {
+          "id": "champ_227",
+          "type": "text",
+          "label": "Avant « DE FRANCS CFA représentant »",
+          "opt": true,
+          "group": "Le VENDEUR reconnaît avoir reçu de l’ACQUEREUR ce jour, au moyen d’un…",
+          "aide": "…moyen d’un chèque la somme de ▢ DE FRANCS CFA représentant…"
+        },
+        {
+          "id": "champ_228",
+          "type": "text",
+          "label": "En ce qui concerne Madame",
+          "opt": true,
+          "group": "1) En ce qui concerne Madame …"
+        },
+        {
+          "id": "champ_229",
+          "type": "text",
+          "label": "Qui concerne Monsieur et Madame",
+          "opt": true,
+          "group": "2) En ce qui concerne Monsieur et Madame …"
+        },
+        {
+          "id": "champ_230",
+          "type": "text",
+          "label": "Madame",
+          "opt": true,
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
+          "aide": "…Madame ▢ comparante de première part…"
+        },
+        {
+          "id": "champ_231",
+          "type": "text",
+          "label": "Avant « comparante de première part »",
+          "opt": true,
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
+          "aide": "…Madame ▢ comparante de première part…"
+        }
+      ]
+    },
+    {
+      "id": "partie-22",
+      "court": "Art. xxiv",
+      "titre": "Article xxiv - declaration d’etat civil et autres",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_232",
+          "type": "text",
+          "label": "Part et Monsieur et Madame",
+          "opt": true,
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…"
+        },
+        {
+          "id": "champ_233",
+          "type": "text",
+          "label": "Avant « comparants de deuxième part »",
+          "opt": true,
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
+          "aide": "…première part et Monsieur et Madame ▢ comparants de deuxième part…"
+        },
+        {
+          "id": "champ_234",
+          "type": "text",
+          "label": "Comme l’atteste l’état foncier numéro",
+          "opt": true,
+          "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…"
+        },
+        {
+          "id": "champ_235",
+          "type": "text",
+          "label": "Du",
+          "opt": true,
+          "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…",
+          "aide": "…l’atteste l’état foncier numéro 2018 du ▢ délivré par Madame le…"
+        },
+        {
+          "id": "champ_236",
+          "type": "text",
+          "label": "De la Propriété Foncière de",
+          "opt": true,
+          "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…"
+        },
+        {
+          "id": "champ_237",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…",
+          "aide": "…de la Propriété Foncière de le ▢ dont une copie demeurera…"
+        },
+        {
+          "id": "champ_238",
+          "type": "text",
+          "label": "XXVII - ATTRIBUTION DE JURIDICTION",
+          "opt": true,
+          "group": "ARTICLE XXVII - ATTRIBUTION DE JURIDICTION …"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Mme",
+          "opt": true,
+          "group": "Mme … Mr …",
+          "aide": "…Mme ▢ Mr…"
+        }
+      ]
+    },
+    {
+      "id": "partie-23",
+      "court": "Dont acte",
+      "titre": "Dont acte sur vingt pages",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mme … Mr …",
+          "aide": "…Mme Mr ▢"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Mme",
+          "opt": true,
+          "group": "Mme …. Mr …",
+          "aide": "…Mme ▢ Mr…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mme …. Mr …",
+          "aide": "…Mme Mr ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Avant « Es-qualités »",
+          "opt": true,
+          "group": "… Es-qualités",
+          "aide": "▢ Es-qualités…"
+        },
+        {
+          "id": "champ_239",
+          "type": "text",
+          "label": "Avant « dans blancs »",
+          "opt": true,
+          "group": "Barres : … dans blancs",
+          "aide": "…Barres ▢ dans blancs…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "{{reference_etude}}",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**VENTE PAR**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**AU PROFIT DE {{champ_001}} ET OUVERTURE DE CREDIT PAR {{banque}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’AN  DEUX  MIL  DIX-SEPT"
+    },
+    {
+      "k": "p",
+      "text": "LES"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PARDEVANT** Maître {{notaire_nom}}**, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+    },
+    {
+      "k": "p",
+      "text": "**ONT COMPARU**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**1) Madame {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}},demeurant à ABIDJAN, Commune de {{champ_024}} {{champ_025}}, {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}} ABIDJAN {{champ_030}}, {{champ_031}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Née à {{champ_032}} {{champ_033}}, le {{champ_034}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De Nationalité {{champ_035}} {{champ_036}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_037}} établie le {{champ_038}} et {{champ_039}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame {{champ_040}} {{champ_041}}, **ci-après dénommée dans le corps de l'acte et pour en faciliter la rédaction « **LE VENDEUR **»."
+    },
+    {
+      "k": "p",
+      "text": "**DE PREMIERE PART**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**2) Monsieur {{champ_042}} {{champ_043}}**,"
+    },
+    {
+      "k": "p",
+      "text": "et son épouse Madame {{champ_044}} **{{champ_045}}, {{champ_046}} **{{champ_047}}, tous deux demeurant à ABIDJAN, Commune de {{champ_048}} {{champ_049}}, Quartier {{champ_050}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nés savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur **à {{champ_051}} {{champ_052}}, le {{champ_053}}, {{champ_054}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame **à {{champ_055}} {{champ_056}}, le {{champ_057}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tous les deux de nationalité {{champ_058}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaires savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Monsieur {{partie_1}}, de la Carte Nationale d’Identité numéro C {{champ_059}}, établie à  ABIDJAN, le {{champ_060}} et valable jusqu’au {{champ_061}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame {{champ_062}}**, de {{champ_063}} numéro {{champ_064}} délivrée à {{champ_065}} par l’Office National d’Identification, le {{champ_066}} et valable jusqu’au {{champ_067}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_068}} **et {{champ_069}} **Madame {{champ_070}} **se sont mariés à ABIDJAN, à la Mairie de {{champ_071}}, le {{champ_072}}, sous le régime {{champ_073}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_074}} {{champ_075}},**conjointement et solidairement ci-après dénommés dans le corps de l'acte et pour en faciliter la rédaction «**l’ACQUEREUR**» ou le « **BENEFICIAIRE**»."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DE DEUXIEME PART**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**3) Monsieur {{champ_076}} {{champ_077}},** Directeur Général de la Société {{champ_078}}, demeurant à ABIDJAN {{champ_079}} BP {{champ_080}} {{champ_081}};"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "AGISSANT au nom et pour le compte de :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société {{champ_082}} Société {{champ_083}}, au capital de {{champ_084}} **({{champ_085}}) FRANCS CFA** dont le siège est à {{champ_086}} {{champ_087}}, {{champ_088}} {{champ_089}}, BP {{champ_090}} ABIDJAN {{champ_091}}, immatriculée au Registre de Commerce et du Crédit Mobilier d’ABIDJAN sous le numéro {{champ_092}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**EN VERTU** des pouvoirs qui lui ont été conférés en sa qualité de Directeur Général tant par la loi que par l’article {{champ_093}} de ladite société."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_094}} **nommé aux fonctions de Directeur Général par délibération du Conseil d’Administration, en date du {{champ_095}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société {{champ_096}} ci-après dénomméeau cours du présent acte pour en faciliter la rédaction « **LA BANQUE ».**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DE TROISIEME PART**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LESQUELS**, ont requis le Notaire soussigné de constater en la forme authentique les conventions suivantes, arrêtées directement entre eux, sans le concours ni la participation dudit Notaire qui n’est ici que le simple rédacteur."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "CE QUI A LIEU DE LA MANIERE SUIVANTE :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**I**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**VENTE PAR MADAME {{champ_097}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**AU PROFIT DE {{champ_098}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par ces présentes, le** VENDEUR**, comparant de première part, en s’obligeant aux garanties ordinaires et de droit les plus étendues en pareille matière, vend à l’**ACQUEREUR, **comparant de deuxième part, l’immeuble dont la désignation suit :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DESIGNATION**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Une parcelle de terrain urbain non bâtie sise à {{champ_099}} **{{champ_100}}**, Quartier {{champ_101}} **{{champ_102}}**, d’une superficie de {{champ_103}} **METRES CARRES ({{champ_104}} m²)**, formant le lot numéro {{champ_105}} **({{champ_106}})**, îlot numéro {{champ_107}} (**{{champ_108}}**) du lotissement de {{champ_109}}, à détacher du **T**itre **F**oncier numéro {{champ_110}} **({{champ_111}})** de la Circonscription Foncière de {{champ_112}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tel que ce bien existe, s’étend, se poursuit et comporte avec tous droits, aisances, appartenances et dépendances, tous immeubles par nature et par destination y attachés, sans aucune exception ni réserve, le tout bien connu de **l’ACQUEREUR**, pour l’avoir vu et visité dans l’intention des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ORIGINE DE PROPRIETE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le bien immobilier ci-dessus désigné et présentement vendu appartient au **VENDEUR** pour l’avoir acquis de {{champ_113}} aux termes d’un acte reçu par le Notaire soussigné en date des {{champ_114}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La pleine propriété du **VENDEUR** est confirmée par le **C**ertificat de **M**utation de **P**ropriété  **F**oncière numéro {{champ_115}} **{{champ_116}}**, en date du {{champ_117}}, délivré par Madame le **C**onservateur de la **P**ropriété **F**oncière et des **H**ypothèques de {{champ_118}}, dont copie certifiée conforme demeure ci-annexée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PROPRIETE - JOUISSANCE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par le seul fait et au moyen des présentes, l’**ACQUEREUR** aura la jouissance à compter de ce jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’**ACQUEREUR** sera en pleine propriété de l’immeuble vendu à compter de ce jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CHARGES ET CONDITIONS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La présente vente est faite sous les charges et les conditions ordinaires et de droit et notamment sous celles ci-après stipulées que l’**ACQUEREUR **s’oblige à supporter et à exécuter, savoir :"
+    },
+    {
+      "k": "p",
+      "text": "**ETAT DE L’OBJET**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’**ACQUEREUR **prendra le bien vendu dans l’état où il se trouvera lors de l’entrée en jouissance, sans pouvoir exercer ni recours, ni répétition, ni demander une réduction du prix ci-après fixé pour raison, soit de mauvais état du sol ou du sous-sol, soit de mitoyenneté des murs ou clôtures, soit d’erreur dans la désignation ou la contenance indiquée, toute différence pouvant exister entre cette contenanceet celle réelle, excédât elle-même un vingtième (1/20ème) en plus ou en moins, devant faire le profit ou la perte de **l'ACQUÉREUR.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**SERVITUDES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’**ACQUEREUR** souffrira des servitudes passives, de toute nature qui peuvent grever le bien vendu sauf à s’en défendre et à profiter en retour de celles actives, s’il en existe, à ses risques et périls, sans recours contre le **VENDEUR**, et sans que la présente clause puisse conférer à des tiers, plus de droits qu’il justifierait en avoir, en vertu de tous titres réguliers et non prescrits ou de la loi ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A ce sujet, le** VENDEUR** déclare qu’il n’existe à sa connaissance aucune servitude grevant le bien vendu autre que celles résultant de la situation naturelle des lieux, des plans d’aménagement et des dispositions d’urbanisme en vigueur à ABIDJAN."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**IMPOTS ET TAXES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’**ACQUEREUR** payera à compter de l’entrée en jouissance, les impôts, taxes et contributions de toute nature auxquels le bien vendu peut et pourra être assujetti."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A ce sujet, le Notaire soussigné a informé l’**ACQUEREUR** qui le reconnaît, de la nécessité de faire opérer à ses frais, toutes formalités de déclaration fiscale nécessaires à l’imposition du bien objet des présentes, en son nom aux services des impôts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CONTRAT D’ASSURANCES**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’**ACQUEREUR** fera son affaire personnelle de la souscription de toutes polices d’assurances-incendie, dégât des eaux, autres risques concernant le bien vendu ainsi que de tous abonnements, le tout de manière que le **VENDEUR** ne soit ni inquiété, ni recherché à ce sujet."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**FRAIS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Enfin, l’**ACQUEREUR **paiera les frais, droits et émoluments des présentes et de leurs suites, sans exception."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**PRIX**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En outre, la présente vente est consentie et acceptée moyennant le prix principal de** {{champ_119}} ({{champ_120}}) DE FRANCS CFA,** qui va être payé au moyen **d’un chèque **tiré par le **BENEFICIAIRE **sur {{champ_121}} au **VENDEUR** qui le reconnaît et lui en consent bonne et valable quittance, sans autre réserve que celle de l’encaissement du chèque.SUS"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT QUITTANCE**",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "**II**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**OUVERTURE DE CREDIT PAR {{champ_122}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  I  -  MONTANT**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **BANQUE** ouvre  par ces présentes, dans ses livres au **BENEFICIAIRE** qui accepte et s’oblige à en exécuter les conditions, un crédit à long terme d’un montant de **FRANCS CFA (F CFA)** en principal, d’une durée de {{champ_123}} **({{champ_124}}) MOIS**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  II -  DUREE - REMBOURSEMENT**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le  remboursement  des  avances  consenties  en  réalisation  du  présent crédit sera effectué par le **BENEFICIAIRE** qui s’y oblige en {{champ_125}} **({{champ_126}}) MENSUALITES** égales, constantes et consécutives d’un montant de {{champ_127}} **FRANCS CFA ({{champ_128}} FCFA)** en principal."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ces {{champ_129}} **({{champ_130}}) **mensualités seront exigibles de mois en mois, conformément au tableau d’amortissement joint en annexe."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  III  -  DESTINATION**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ce crédit est destiné à :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**1/-** Payer entre les mains de {{champ_131}}, vendeur, le prix d’acquisition d’une parcelle de terrain urbain non bâtie sise à {{champ_132}} **{{champ_133}}**, Quartier {{champ_134}} **{{champ_135}}**, d’une superficie de {{champ_136}} **METRES CARRES ({{champ_137}} m²)**, formant le lot numéro {{champ_138}} **({{champ_139}})**, îlot numéro {{champ_140}} (**{{champ_141}}**) du lotissement de {{champ_142}}, à détacher du **T**itre **F**oncier numéro {{champ_143}} **({{champ_144}})** de la Circonscription Foncière de **BINGERVILLE**, soit ** ({{champ_145}}) DE FRANCS CFA**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**2/-** Le solde à la construction d’une villa de cinq (5) pièces et au règlement des frais droits et honoraires du Notaire soussigné."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  IV -  DEBLOCAGE DES FONDS**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La mise en place du crédit est subordonnée à:"
+    },
+    {
+      "k": "li",
+      "text": "la signature par les parties de la présente convention de crédit ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "remise de la grosse du présent acte à la Banque ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "la constitution effective des garanties requises, notamment les délégations d’assurance décès, invalidité et d’assurance incendie ; étant entendu que l’inscription d’hypothèque sera effective au plus tard dans un délai de douze (12) mois à compter de la date de signature de la convention de crédit ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "la preuve du paiement, par le **BENEFICIAIRE**du crédit, des droits, frais et honoraires du Notaire nécessaires à l’inscription hypothécaire au profit de la **BANQUE** ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "la visite par la **BANQUE**de l’immeuble vendu en présence du **BENEFICIAIRE**et du **VENDEUR**.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le déblocage des fonds se fera directement par la **BANQUE**  sur le compte du **BENEFICIAIRE **ouvert dans les livres d’ {{champ_146}} de la manière suivante :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "A hauteur de {{champ_147}} **({{champ_148}}) DE FRANCS CFA**, représentant le **prix de vente du terrain** par **chèque** à l’ordre de {{champ_149}}.",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "A hauteur de {{champ_150}} **({{champ_151}})FRANCS CFA**, représentant **les frais, droits et honoraires du Notaire soussigné**, par **chèque** à l’ordre de **ETUDE DE MAITRE {{notaire_nom}}.**",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "A hauteur de {{champ_152}} **({{champ_153}}) FRANCS CFA**, sur le compte du **BENEFICIAIRE** ouvert dans les livres de la **BANQUE. **Le débloacge de cette somme se fera par plusieurs tranches selon l’état d’avancement des travaux de construction.",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** autorise la **BANQUE** à débiter son compte et à établir les différents chèques sus-visés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  V  -  REALISATION**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La réalisation du crédit sera constatée au moyen d’un versement par la **BANQUE** sur le compte du **BENEFICIAIRE** ouvert dans les livres de ladite **BANQUE.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La justification du montant de la créance de ladite **BANQUE** résultera suffisamment à l’égard du **BENEFICIAIRE** et des tiers des livres de comptes, registres, documents et tous relevés émanant de la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les relevés de compte certifiés conforme par le représentant de la **BANQUE** et appuyés le cas échéant de toutes factures et reçus vaudront titres contre le **BENEFICIAIRE** et les tiers."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  VI  -  INTERETS**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Compte tenu de l’appartenance de  **Monsieur {{champ_154}} **au personnel de {{champ_155}}, le crédit consenti de {{champ_156}} **FRANCS CFA ({{champ_157}} F CFA)** en principal est productif d’intérêts au taux fixe de 2%paran. Ces intérêts seront passibles de la **T**axe sur les **O**pérations **B**ancaires (TOB), soit actuellement dix pour cent l’an (10%). Toutefois, au cas où **Monsieur {{champ_158}} {{champ_159}}**, ne ferait plus partie du personnel {{champ_160}} le crédit produira des intérêts au taux appliqué par {{champ_161}} à sa clientèle en pareille circonstance. Ces intérêts seront passibles de la Taxe sur les Opérations Bancaires (TOB)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de non paiement total ou partiel aux échéances ci-dessus prévues des sommes au titre de la présente ouverture de crédit, celles-ci produiront intérêt de plein droit aux taux du découvert dernière catégorie par an et calculés par mois : toute fraction d’un mois étant comptée un mois entier indépendamment de la déchéance du terme ci-après prévue, ces intérêts seront passibles de la Taxe sur les Opérations Bancaires (TOB)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Cette stipulation d’intérêts ne pourra pas être considérée par le **BENEFICIAIRE** comme novation ou un changement de la date d’exigibilité et par suite valoir accord de délai de paiement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Conformément à l’article 1154 du code civil, en cas de non paiement d’une ou plusieurs années d’intérêts, les intérêts de chaque année en produiront eux-mêmes de plein droit au taux de base bancaire et seront passibles de la taxe sur les Opérations Bancaires (TOB) au taux en vigueur. Ces intérêts et la TOB seront exigibles à tout moment ainsi que tous impôts dont ils pourraient devenir passibles."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les avances que la **BANQUE** pourra être amenée à faire à l’occasion du présent acte et de ses suites, notamment tous frais de conservation de sa créance, tous frais de gages, tels que primes d’assurances, tous impôts, droits et taxes quelconques que la **BANQUE** pourra être amenée à payer aux lieu et place du **BENEFICIAIRE**, notamment par suite de solidarité légale, seront remboursables sans délai et seront productives d’intérêts au taux du découvert dernière catégorie à compter du jour où elles auront été faites. Ces intérêts seront passibles de la TOB."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le taux effectif global (TEG) du crédit s’élève à {{champ_162}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE VII - REMBOURSEMENTS ANTICIPES**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **BENEFICIAIRE** pourra se libérer par anticipation soit en totalité soit en partie du capital restant dû."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les remboursements anticipés auront un caractère définitif."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de remboursement anticipé partiel, les sommes versées serviront à l’amortissement en capital des dernières échéances."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  VIII  -  EXIGIBILITE ANTICIPEE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les sommes dues en principal, intérêts, frais et accessoires par le **BENEFICIAIRE** à la **BANQUE** au titre du présent crédit seront exigibles, si bon semble à cette dernière, dans l’un ou l’autre des cas suivants :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**1)** A défaut de paiement d’une seule échéance ou d’un seul terme d’intérêts ou d’une somme quelconque dans le mois de son exigibilité ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**2)** A défaut d’exécution d’un seul des engagements pris au présent acte par le **BENEFICIAIRE** notamment sous les articles intitulés « DUREE-REMBOURSEMENT » « ENGAGEMENTS PAR LE BENEFICIAIRE» « AFFECTATION HYPOTHECAIRE » « ASSURANCE DECES-INVALIDITE » « ASSURANCE CONTRE L’INCENDIE ET DEGATS DES EAUX » « DELEGATION DE LOYERS » ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**3) **En cas d’inexactitude d’une seule des déclarations faites au présent acte, notamment au sujet de la situation des biens donnés en garantie, à moins que les inconvénients pouvant résulter d’une situation non conforme aux déclarations aient cessé d’exister ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "En cas de non constitution des garantie prévues ;",
+      "mk": "4)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**5)**A  défaut de paiement par le **BENEFICIAIRE** de ses contributions, taxes, prestations sociales et autres ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6)**  En cas d’incendie total ou partiel des constructions et autres biens donnés en garantie ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**7) **Au cas où le **BENEFICIAIRE **ne souscrirait pas, à première demande de la **BANQUE**, un ou des billets dont la souscription éventuelle sera prévue ci-après ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**8) **En cas d’aliénation, de donation ou expropriation de tout ou partie des biens donnés en garantie, sans l’accord préalable et écrit de la **BANQUE ;**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**9)**  En cas de faillite, de liquidation, règlement judiciaire ou cessation de paiement du **BENEFICIAIRE** avant le remboursement intégral des causes des présentes en principal, intérêts, frais et accessoires ; {{champ_163}}"
+    },
+    {
+      "k": "p",
+      "text": "**10)** Si le **BENEFICIAIRE **venait à être saisie mobilièrement ou  immobilièrement ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**11)**  Au cas de cessation, même  provisoire, de l’activité du **BENEFICIAIRE** sauf les cas de force majeure ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**12)**  En cas de décès de **Monsieur {{champ_164}} **avant complète libération ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**13) **En cas de non maintien au profit de la **BANQUE** du bénéfice des polices d’assurance ci-après précisées ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**14)** Au cas où **Monsieur {{champ_165}} **ne serait plus employé par {{champ_166}};"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**15)** En cas de non affectation du produit de la vente de l’IMMEUBLE ci-après hypothéqué au profit de la **BANQUE** au remboursement de sa créance, étant entendu que toute vente devra être soumise à l’agrément préalable et écrit de la **BANQUE ;**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**16)** Au cas où **Monsieur {{champ_167}} **ne ferait plus partie du personnel du {{champ_168}} avant entière libération ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**17)** En cas de contestation quelconque sur les droits du **BENEFICIAIRE **rendant impossible, la publication de ses droits ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**18)** Au cas où le **BENEFICIAIRE** consentirait promesse d’hypothèque et/ou une hypothèque au profit de tiers sur le bien immobilier objet des présentes, avant l’accomplissement des formalités de publication de ses droits et d’inscription de l’hypothèque de la **BANQUE**sur les Registres de la Conservation Foncière ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19)** A défaut de publication des droits du **BENEFICIAIRE** à la section IV du **T**itre **F**oncier **numéro {{champ_169}} **de la Circonscription Foncière de {{champ_170}} dans un délai de **douze (12) mois** à compter de la signature des présentes ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**20)** A défaut de l’accomplissement des formalités de mutation au nom de la communauté {{champ_171}} dans un délai de **douze (12) mois.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si l’une de ces hypothèses se réalisait, la **BANQUE** pourrait exiger le remboursement des sommes dues au titre du présent crédit ou de ce qui en resterait alors dû immédiatement et sans aucune formalité ; cependant, en ce qui concerne le cas prévu au paragraphe 07ci-dessus, l’exigibilité n’aurait lieu que **quinze (15) jours** après l’envoi d’une lettre recommandée avec accusé de réception indiquant l’intention de la **BANQUE** de se prévaloir de la présente clause."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les paiements ou régularisations postérieurs ne feront pas obstacle à cette exigibilité."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  IX  -  INDIVISIBILITE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de décès du **BENEFICIAIRE** avant complet remboursement de tout ce qui sera dû à la **BANQUE** en principal, intérêts et accessoires, tous héritiers ayants cause, seront tenus solidairement entre eux pour la totalité de ce qui sera dû ainsi que du coût de la signification prescrite par l’article 119 de la loi numéro 64-379 du 07 Octobre 1964 relative aux successions."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  X  -   INDEMNITE EN CAS D’ORDRE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Au cas où la **BANQUE** produirait à un ordre ou à une distribution judiciaire pour arriver au recouvrement de sa créance, elle aurait droit à une indemnité fixée à forfait à **TROIS POUR CENT  (3%)** du montant de sa créance. Il en serait de même en cas de poursuites judiciaires ; laquelle indemnité sera garantie par les sûretés réelles ci-après."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XI - ENGAGEMENTS PAR LE BENEFICIAIRE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tant que le **BENEFICIAIRE** sera susceptible d’être débiteur d’une somme quelconque en vertu du présent contrat, le **BENEFICIAIRE** s’oblige en ce qui le concerne à  :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "1) Maintenir en bon état l’immeuble faisant l’objet de l’affectation hypothécaire ci-après."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "2) A ne faire aucune opération susceptible de diminuer la valeur de l’immeuble notamment changer la destination dudit immeuble, établir un privilège de constructeur,  constituer une antichrèse, céder ou quittancer plus de six (6) mois de loyers d’avance, résilier les baux, modifier ceux existants. {{champ_172}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "3) Maintenir constamment les loyers dudit immeuble à leur juste valeur et à les déléguer au profit de la **BANQUE** ainsi qu’il sera précisé ci-après. {{champ_173}}"
+    },
+    {
+      "k": "p",
+      "text": "4) Ne pas aliéner, ni donner en location tout ou partie de l’immeuble hypothéqué, sans l’approbation préalable et écrite de la **BANQUE.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "5) Informer la **BANQUE** dans un délai de **quinze (15) jours** de tous faits susceptibles d’affecter sérieusement la valeur de son patrimoine, ou d’augmenter considérablement le volume de ses engagements, comme aussi de tout protêt ou de tout début de poursuite dont il pourrait faire l’objet de la part d’un créancier quelconque.;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "6) Remettre à la **BANQUE** et à première réquisition de cette dernière, une attestation précisant qu’il est à jour dans le paiement de ses impôts,."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "7) Fournir à la **BANQUE** préalablement à toutes demandes de règlement, tous justificatifs nécessaires,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "8) Affecter le produit de toutes réalisations immobilières relatives à l’immeuble ci-après hypothéqué au remboursement à due concurrence des somme dues au titre des présentes, et en cas de réalisations partielles, affecter le produit aux dernières mensualités par préférence aux autres ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "9)Faire bénéficier la **BANQUE** « pari-passu » de toute garantie qu’il viendrait à accorder à l’un quelconque de ses créanciers ou banquiers qu’elle qu’en soit la nature au titre du présent crédit,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "10) A rembourser à la **BANQUE** tous droits et taxes, présents ou futurs, afférents à l’opération ci-dessus ou qui pourraient être mis à sa charge, tous droits d’enregistrement et autres frais et honoraires quelconques, même non taxables, qui deviendraient exigibles dans le cas où la **BANQUE** serait obligée de recourir à des mesures judiciaires  pour obtenir le paiement des sommes dues ainsi que tous agios, frais d’encaissement ou autres."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "11) Il est bien entendu que l’accord de la **BANQUE** deviendrait caduc si bon semblait à cette dernière et le solde du crédit en cours deviendrait immédiatement exigible en cas d’inexécution des engagements ci-dessus. Il est également convenu plus particulièrement qu’au cas où les amortissements prévus ne seraient pas respectés les sommes dues au titre du présent crédit deviendraient automatiquement exigibles en totalité. {{champ_174}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  XII  -  LIEU DE PAIEMENT**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tous les paiements à faire en vertu des présentes auront lieu à ABIDJAN, au siège de LA **BANQUE**, ou en toutes autres agences de ladite **BANQUE** ou des comptes viendraient à être ouverts au nom de **L'ACQUEREUR**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tant que **Monsieur {{champ_175}} **sera employé de {{champ_176}}, tous les paiements à faire en vertu des présentes seront effectués par prélèvements sur son salaire au montant de la paie par la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Au cas où **Monsieur {{champ_177}} **ne serait plus employé de {{champ_178}}, **Monsieur {{champ_179}} **s’engage d’ores et déjà à ouvrir un compte à {{champ_180}} et à y domicilier ses revenus afin que la **BANQUE** puisse se faire rembourser."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** autorise la **BANQUE** de façon irrévocable et permanente à débiter son compte ou ses comptes du montant de toutes échéances et s’engage à constituer la provision suffisante."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  XIII -  MOBILISATION EVENTUELLE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **BANQUE** pourra exiger du **BENEFICIAIRE** qu’il souscrive à l’ordre de {{champ_181}} un ou plusieurs billets domiciliés chez celle-ci. Le **BENEFICIAIRE** dispense ici expressément le porteur de faire protester lesdits billets à l’échéance sans perdre pour cela aucun des recours auxquels il pourra avoir droit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ces billets seront souscrits à un mois au maximum d’usance et renouvelables dans la limite du montant et de la durée du présent crédit tels qu’ils sont définis ci-dessus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ces billets seront souscrits aux échéances correspondant aux amortissements prévus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ils seront causés «VALEUR EN REALISATION DU PRESENT CREDIT»."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** aura à toute époque, la faculté de renoncer à tout ou partie du crédit sous condition d’adresser à la **BANQUE** un avis sous pli recommandé, au moins un (1) mois à l’avance, pour faire part de son intention à cet égard. Toutefois la date à laquelle cette renonciation prendra effet coïncidera avec l’échéance des effets de mobilisation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  XIV  -  ENGAGEMENT PERSONNEL**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Indépendamment des garanties réelles qui vont lui être consenties, la **BANQUE** aura conformément à l’article 2092 du code civil, une action personnelle sur tous les biens, meubles et immeubles présents et à venir du **BENEFICIAIRE** sans que celui-ci puisse exiger la réalisation préalable des biens ci-après donnés en garantie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  XV  -   PROMESSE D’EMPLOI**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** promet d’employer la somme de {{champ_182}} **({{champ_183}}) FRANCS CFA** montant en principal de cette ouverture de crédit consentie par la **BANQUE** à la destination susvisée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**GARANTIES DE L’OUVERTURE DE CREDIT AFFECTATION HYPOTHECAIRE DE PREMIER RANG**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE  XVI : AFFECTATION HYPOTHECAIRE DE PREMIER RANG**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A la sûreté et garantie du remboursement des sommes dues au titre de la présente ouverture de crédit, en principal, intérêts, frais et accessoires et plus généralement à la sûreté et garantie de la bonne fin de cette ouverture de crédit et de l’exécution de toutes  ses charges et conditions. Le **BENEFICIAIRE** affecte et hypothèque en premier rang  et sans concurrence au profit de la **BANQUE**, ce qui est accepté pour elle et en son nom par le représentant de la **BANQUE**, ès-qualités, le bien immobilier désigné ci-après :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DESIGNATION ET ORIGINE DU BIEN DONNE ENGARANTIE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le bien immobilier ci-dessus désigné et présentement vendu appartient au **VENDEUR** pour l’avoir acquis de **Madame {{champ_184}} **aux termes d’un acte reçu par le Notaire soussigné en date des {{champ_185}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La pleine propriété du **VENDEUR** est confirmée par le **C**ertificat de **M**utation de **P**ropriété  **F**oncière numéro {{champ_186}} **{{champ_187}}**, en date du {{champ_188}}, délivré par Monsieur le **C**onservateur de la **P**ropriété **F**oncière et des **H**ypothèques de {{champ_189}}, dont copie certifiée conforme demeure ci-annexée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tel que le bien existe, s’étend, se poursuit et comporte avec ses aisances, appartenances et dépendances, sans aucune exception ni réserve, ensemble tous immeubles par destination y attachés ou y affectés, toutes constructions édifiées ou en cours d’édification, toutes augmentations et améliorations qui y seront faites par la suite."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Sur lequel bien le **BENEFICIAIRE** consent qu’il soit pris contre lui et aux frais du **BENEFICIAIRE** toutes inscriptions utiles pour sûreté.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "table",
+      "cols": [
+        77.6,
+        22.4
+      ],
+      "head": [],
+      "rows": [
+        [
+          "1° - De la somme de {{champ_190}} **FRANCS CFA**, ci {{champ_002}}",
+          ""
+        ],
+        [
+          "2° - de l’indemnité forfaitaire qui pourrait être éventuellement due à la **BANQUE** en cas d’ordre ou de poursuites judiciaires, fixée à TROIS POUR CENT (3%) du capital, soit la somme de {{champ_191}}   **FRANCS CFA**, ci {{champ_003}}",
+          [
+            "",
+            "",
+            "",
+            "{{champ_017}}"
+          ]
+        ],
+        [
+          "3°- de tous frais éventuels de poursuites, frais de mise à exécution le cas échéant, le tout évalué sauf à parfaire ou diminuer après taxe, à la somme de **{{champ_004}} FRANCS CFA**, ci {{champ_005}}",
+          [
+            "",
+            "",
+            "{{champ_018}}"
+          ]
+        ],
+        [
+          "4° -  Et des intérêts dont la loi conserve le rang au même titre que le principal, portés ici pour MEMOIRE, ci {{champ_006}}.",
+          [
+            "",
+            "MEMOIRE"
+          ]
+        ],
+        [
+          "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : {{champ_192}} **{{champ_007}}.FRANCS CFA**, ci {{champ_008}}",
+          [
+            "",
+            "",
+            "{{champ_019}}"
+          ]
+        ]
+      ],
+      "al": [
+        "left",
+        "center"
+      ]
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Avec convention expresse que si la créance de la **BANQUE** était supérieure au montant garanti, tous paiements ou remboursements partiels s’imputeraient d’abord cette portion non couverte, quelque soit l’origine des fonds à moins que ceux-ci proviennent de la vente de tout ou partie du bien affecté en garantie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CONDITION SUSPENSIVE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La garantie ci-dessus est conférée sous réserve de la réalisation de la condition suspensive de la mutation du bien vendu au nom de  **{{champ_009}}.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DUREE DE L'INSCRIPTION HYPOTHECAIRE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il est expressément convenu entre les parties, conformément à l’article 196 de l’Acte Uniforme de l’OHADA portant organisation des Sûretés, que l’inscription d’hypothèque à prendre en vertu des présentes aura effet, pour une période de {{champ_193}} **({{champ_194}}) ANS** à compter de sa date sauf renouvellement avant l’expiration de ce délai."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**POUVOIRS EN VUE DU RENOUVELLEMENT**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**DE L’INSCRIPTIOND’HYPORHEQUE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parties agissant dans un intérêt commun donne tous pouvoirs à tout Clerc du Notaire soussigné à l’effet de procéder **sur instruction de la BANQUE** par acte reçu aux rang des présentes minutes au renouvellement de l’inscription, intérêt compris, avant l’expiration du délai initial, pour une période déterminée par la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XVII - DELEGATION D’ASSURANCE CONTRE L’INCENDIE**"
+    },
+    {
+      "k": "p",
+      "text": "**DEGATS DES EAUX**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_195}} **s’engage à souscrire auprès d’une compagnie d’Assurance notoirement solvable, une police couvrant les risques d’incendie portant sur l’immeuble donné en garantie et ce, pour un montant minimum de {{champ_196}} **({{champ_197}}) FRANCS FCFA **et à en justifier à première demande de {{banque}} COTE D’IVOIRE."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_198}} **s’oblige à maintenir assuré, tant qu’il sera susceptible d’être débiteur au titre de la présente convention d’ouverture de crédit, l’immeuble susvisé."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_199}} **s’oblige à justifier à tout moment et à première demande de {{champ_200}}**, **de l’existence ou du renouvellement de cette assurance, comme aussi du paiement régulier des primes et cotisations y afférentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_201}} **fera établir un avenant à ladite police, aux termes duquel {{champ_202}} sera désignée bénéficiaire en ses lieu et place avec tous les privilèges qui s’y rattachent. Il remettra à {{champ_203}} l’avenant de délégation à son profit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dans le cas, soit de cessation de cette assurance, soit de défaut de renouvellement, {{champ_204}} {{champ_205}}, si elle ne juge pas à propos de demander immédiatement le remboursement de sa créance, pourra souscrire au nom de **Monsieur {{champ_206}} **et HUIT (8) jours après une simple mise en demeure, une nouvelle assurance à telle compagnie qu’il lui plaira de choisir."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Cette assurance sera contractée au nom de {{champ_207}} pour un montant minimum de {{champ_208}} **({{champ_209}}) FRANCS FCFA.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les frais de la police et les primes et cotisations annuelles de l’assurance seront à la charge de **Monsieur {{champ_210}}**. S’ils sont avancés par {{champ_211}}, ils seront portés au débit du compte de **Monsieur {{champ_212}} **et immédiatement exigibles."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En outre, **Monsieur {{champ_213}} **consent, dès à présent, que la **BANQUE **touche, sur ses simples quittances, hors sa présence et sans son concours, à concurrence de ce qui sera alors dû à {{champ_214}} {{champ_215}}, toutes indemnités allouées en cas de sinistre."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_216}} **autorise {{champ_217}} de manière permanente et irrévocable, à souscrire cette assurance, la renouveler, en payer les primes, à défaut par lui de le faire et d’en imputer la charge par prélèvement sur son ou ses comptes et ce, jusqu’à régularisation desdits impayés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XVIII   -  DELEGATION D’ASSURANCE DECES-INVALIDITE**"
+    },
+    {
+      "k": "p",
+      "text": "**SUR LA TETE DE MONSIEUR {{champ_010}} {{champ_218}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_011}}** consent à l’attribution à la **BANQUE** du bénéfice d’une assurance décès dont l’objet sera de garantir en cas de décès ou d’invalidité absolue et définitive le versement d’un capital qui permettrait le remboursement du solde de la créance de la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A cette fin, **Monsieur {{champ_219}} **déclare avoir demandé à user de la faculté d’affiliation à la convention d’assurance groupe passée par {{champ_220}} pour son personnel."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La signature de **Monsieur {{champ_221}} **d’une déclaration d’affiliation marque son consentement aux dispositions à la convention d’assurance Groupe dispensant ainsi le Notaire soussigné d’en rapporter ici les conditions que **Monsieur {{champ_222}} **reconnaît avoir acceptées."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_223}} **autorise la **BANQUE** de façon permanente et irrévocable à souscrire cette assurance, la renouveler et en payer les primes à défaut par lui de le faire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CLAUSE SPECIALE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il est à noter que, concernant les primes des assurances ci-dessus mentionnées tant que le **BENEFICIAIRE** restera employé de {{champ_224}}, le règlement des primes sera automatiquement prélevé sur son salaire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de départ du **BENEFICIAIRE** d’ {{champ_225}}, le **BENEFICIAIRE** s’engage à fournir immédiatement à la **BANQUE** la provision suffisante pour le paiement des primes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XIX -   DELEGATION DE LOYERS**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour garantir d’autant plus à la **BANQUE**, le remboursement des sommes qui lui seront dues en vertu des présentes, le **BENEFICIAIRE** délègue, conformément aux articles 1.275 et 1.276 du Code Civil, au profit de la **BANQUE** ce qui est accepté pour elle et en son nom par le représentant de la **BANQUE**, ès-qualités, le montant intégral des sommes que le **BENEFICIAIRE** aura à recevoir à titre de loyers présents ou futurs en principal et charges afférents à l’immeuble."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tous les baux à établir à l’avenir devront obligatoirement contenir une clause dans laquelle les locataires s’engageront à accepter toutes délégations de loyers que le **BENEFICIAIRE** leur présentera au profit de la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** déclare expressément qu’à défaut de paiement des loyers à leur échéance, la **BANQUE** n’aura en aucun cas l’obligation d’en poursuivre le recouvrement par quelque voie que ce soit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La **BANQUE** sera entièrement subrogée dans tous les droits, actions et privilèges du **BENEFICIAIRE** contre les locataires futurs de cet immeuble, leurs ayants-droit ou leurs cessionnaires."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** s’interdit formellement d’encaisser directement les loyers qui pourront être dus par lesdits locataires en ce qui concerne les immeubles sus-visés et tant que dureront les effets des présentes, ces loyers seront encaissés par la **BANQUE** à laquelle tous pouvoirs sont en tant que de besoin expressément conférés à cet effet."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** déclare au surplus et reconnaît que la délégation de loyers qui précède est consentie sans aucune novation, ni dérogation aux droits, actions, hypothèques et sûretés de toute nature dont se trouvent assortis les engagements pris dans le présent contrat, la **BANQUE** conservant contre le **BENEFICIAIRE** la totalité de ses recours pour l’intégralité des sommes qui sont ou pourront lui être dues."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En  conséquence de la délégation qui précède et pour permettre à la **BANQUE** d’encaisser les loyers des biens ci-dessus désignés, le **BENEFICIAIRE** s’engage à remettre à la **BANQUE** ou à son mandataire, un original de chacun des baux ou actes qui sont ou seront établis."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Au fur et à mesure de l’établissement des baux ou actes de location, la présente délégation de loyers fera l’objet d’une acceptation expresse de la part de chacun des locataires étant précisé que ceci n’exclut nullement la possibilité d’une acceptation tacite de la part desdits locataires."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XX -   DELEGATION DE SALAIRE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par les mêmes présentes, à titre de sûreté complémentaire pour garantir à la **BANQUE** le paiement de toutes sommes qu’il  pourra lui devoir en  principal, intérêts, frais et accessoires, le **BENEFICIAIRE** cède et délègue à la **BANQUE** par priorité et préférence à lui-même et à tous autres dans les limites et sous les conditions de formalités prévues par la loi, toute somme ordonnancée à son profit par son employeur ou toute autre caisse privée ou publique."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, dès maintenant, le **BENEFICIAIRE** s’engage formellement à première demande de la **BANQUE** à comparaître en personne si besoin est et de faire régulariser par devant tout Officier Ministériel cette délégation de salaire et autres revenus qui sera signifiée à l’employeur dans ou à toute autre caisse publique ou privée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par les mêmes présentes, le **BENEFICIAIRE** s’engage à tenir la **BANQUE** au courant de toutes modifications qui pourraient intervenir dans ses salaires et revenus actuels."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** déclare qu’à ce jour, il n’a consenti aucune délégation de ses salaires et autres revenus et qu’il n’a été pratiqué contre lui aucune saisie-arrêt."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **BENEFICIAIRE** s’interdit formellement de consentir une nouvelle  délégation de ses salaires et revenus actuels à  tout  autre  que  la  **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si cette délégation de salaire et autres revenus est régularisée, le montant des sommes représentatives de cette délégation sera versé au crédit d’un compte ouvert au nom du **BENEFICIAIRE** sur les livres de la **BANQUE** et sera affecté au paiement des avances, accessoires, frais et intérêts, par préférence au remboursement du capital."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de difficulté, la présente délégation de salaire et autres revenus ne sera pas limitative et la **BANQUE** aura tous pouvoirs pour engager telle procédure que de droit, soit exécutoire, notamment saisies arrêts, pour opérer directement le recouvrement de sa créance sans le concours et hors la présence du **BENEFICIAIRE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXI  -  PROCEDURE D’EXECUTION**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A défaut de paiement à une date d’exigibilité pour quelque cause qu’elle arrive, la **BANQUE** pourra sur simple commandement de payer resté infructueux et après un délai de vingt (20) jours à compter de ce commandement ainsi que prévu par les articles 246 et suivants de l'acte uniforme de l'OHADA portant organisation des procédures simplifiées de recouvrement et des voies d'exécution et sans qu'il soit besoin d'autres formalités, procéder à l’une ou à l’autre des mesures de réalisations ci-après :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Vente forcée**",
+      "ind": 2
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elle pourra, en vertu de la Grosse des présentes à lui délivrée par le Notaire soussigné, procéder à la saisie et à la vente de l’immeuble hypothéqué et ce conformément aux dispositions de l’Acte Uniforme OHADA portant Organisation des Procédures Simplifiées de Recouvrement et des Voies d’Exécution."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Vente de gré à gré**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elle pourra également consentir à ce que le Client après publication du commandement valant saisie, puisse vendre l’immeuble dont s’agit, au besoin par le ministère du Notaire soussigné et en consigner le prix en l’Etude de ce dernier pour acquitter la dette du Bénéficiaire en principal, frais, intérêts et accessoires, conformément aux dispositions de l’Article 262 - paragraphe 4 de l’Acte Uniforme suscité."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attribution Judiciaire**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il est formellement convenu qu'en cas de défaillance du **BENEFICIAIRE**, la BANQUE pourra demander en justice que l'immeuble lui demeure en paiement conformément à l’article 198 de l’Acte Uniforme révisé de l’OHADA portant Organisation des Suretés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Pacte commissoire**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De convention expresse et conformément à l’article 199 de l’Acte Uniforme OHADA portant Organisation des Sûretés, adopté à Lomé le 15 décembre 2010, les parties ont convenu que la **BANQUE **pourra renoncer à poursuivre la vente forcée ou même amiable de l’immeuble donné en hypothèque et CONSENTIR TOUT SIMPLEMENT A GARDER EN PROPRIETE L’IMMEUBLE DONT S’AGIT."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour ce faire et conformément à l’article 199 alinéa deuxième du même Acte Uniforme, il pourra, passé le délai de trente jours (30)  après une mise en demeure restée sans effet, saisir le Notaire soussigné à l’effet de constater dans un acte le transfert de propriété en la forme authentique, lequel acte devant être publié au Bureau de la Publicité Foncière."
+    },
+    {
+      "k": "p",
+      "text": "Préalablement à la transcription de l’acte de transfert de propriété et conformément à l’Article 200 de l’Acte Uniforme précité, l’immeuble sera évalué par dires d’expert choisi par la **BANQUE**. S’il se trouve que la valeur de l’immeuble excède la créance garantie, la **BANQUE** devra au **BENEFICIAIRE** la somme égale à la différence."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXII - DELIVRANCE DE GROSSE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parties, ès-qualités et nom requièrent expressément le Notaire soussigné de délivrer à la **BANQUE** une grosse des présentes pour lui servir de titre exécutoire direct contre le **BENEFICIAIRE** en raison des sommes qui peuvent et pourront être dues en vertu du présent contrat."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXIII - REQUISITION - POUVOIRS**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les Comparants requièrent expressément **Madame le Conservateur de la Propriété Foncière d’ALLOBE** de formaliser les présentes conformément aux stipulations qui y sont contenues."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour prendre inscription sur les registres de la Conservation Foncière, tous  pouvoirs sont donnés au porteur d’une expédition des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**QUITTANCE DE PAIEMENT**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le **VENDEUR** reconnaît avoir reçu de **l’ACQUEREUR** ce jour, au moyen d’un chèque, la somme de {{champ_226}} **({{champ_227}}) DE FRANCS CFA **représentant la totalité du prix de vente du bien sus désigné."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Somme pour laquelle le** VENDEUR **donne quittance totale entière et définitive du paiement ainsi effectué sous reserve de l’encaissement du chèque."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT QUITTANCE**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**SUBROGATION**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La créance qui résultera des opération de banque effectuées en vertu des présentes, entre la **BANQUE** et le **BENEFICIAIRE**, pourra se transmettre par simple remise de la grosse des présentes revêtue d’un endos et sans nécessité de signification aux débiteurs. Cette remise emportera de plein droit subrogation de tous les droits, actions et hypothèques attachés à ladite créance contre le **BENEFICIAIRE** et, notamment, dans l’effet plein et entier de l’inscription qui sera prise en vertu de l’affectation hypothécaire ci-dessus consentie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, le dernier endosseur pourra faire toutes poursuites en son nom, toucher le montant du présent crédit après règlement et, par suite, se désister du droit d’hypothèque et donner mainlevée des inscriptions, sans autre formalité que l’énonciation dans l’acte de mainlevée que la grosse des présentes aura été représentée au notaire soussigné et que celui-ci aura fait dessus mention de la mainlevée."
+    },
+    {
+      "k": "p",
+      "text": "La remise de cette grosse acquittée vaudra libération définitive, au profit du débiteur, du montant de la présente ouverture de crédit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXIV -    DECLARATION D’ETAT CIVIL ET AUTRES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "1) En ce qui concerne **Madame {{champ_228}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Que son état civil est conforme aux énonciations faites en tête des présentes",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’elle n’est pas en état de faillite, règlement judiciaire, liquidation de biens, ni de cessation de paiement ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’il n’existe à sa connaissance, aucun empêchement d’ordre légal ou contractuel à la conclusion des présentes.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "2) En ce qui concerne **Monsieur et Madame {{champ_229}}**",
+      "ind": 2
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ils déclarent sous les peines de droit et la foi du serment :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Exacts leur état civil et autres éléments d’identification indiqués plus haut ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’ils ne sont pas en état de tutelle, d’interdiction ou frappés d’une incapacité personnelle ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’ils ne sont pas en état de cessation de paiement, liquidation de biens ou faillite ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’ils ne sont pas en instance de divorce ou de séparation de corps,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qu’ils ont la pleine capacité de consentir les garanties qui précèdent.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "3) En ce qui concerne **le bien**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame {{champ_230}} {{champ_231}}**, comparante de première part et **Monsieur et Madame {{champ_232}} {{champ_233}}**, comparants de deuxième part, déclarent que :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au profit de tiers comme l’atteste **l’état foncier numéro {{champ_234}} /2018/       du {{champ_235}} **délivré par Madame le Conservateur de la Propriété Foncière de {{champ_236}} le {{champ_237}}**, **dont une copie demeurera ci-joint et annexée aux présentes après mention du Notaire soussigné."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXV - FRAIS**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Tous les frais et droits auxquels les présentes donneront lieu et ceux des formalités ou acte qui en seront la suite ou la conséquence seront à la charge du **BENEFICIAIRE** qui s’oblige expressément à les acquitter en ce compris notamment les frais et droits de l’inscription hypothécaire, les frais de justification à fournir pour constater le rang hypothécaire de la **BANQUE** et pour arriver à la mainlevée et la radiation de toutes inscriptions, les droits d’enregistrement du présent contrat et le coût de la grosse à délivrer à la **BANQUE**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXVI - ELECTION DE DOMICILE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour l’exécution des présentes et de leurs suites, les parties font élection de domicile, savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Le **BENEFICIAIRE**, en sa demeure sus-indiquée,",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "La **BANQUE**, en son siège social sus-indiqué.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Spécialement pour la validité de l’inscription d’hypothèque, en l’Etude du Notaire  soussigné,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXVII - ATTRIBUTION DE JURIDICTION** {{champ_238}}"
+    },
+    {
+      "k": "p",
+      "text": "Le Tribunal de Commerce d’ABIDJAN sera seul compétent pour connaître de tous litiges relatifs à l’exécution des présentes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ARTICLE XXVIII  -  DISPOSITIONS FISCALES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Conformément aux dispositions de l’Article 202 du Code Général des Impôts, le Notaire soussigné a donné lecture aux parties qui le reconnaissent, des Articles 192, 194, relatif à l’impôt sur le revenu des créances et 161 et 162 du Livre de Procédures Fiscales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT ACTE SUR VINGT PAGES**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait et passé à ABIDJAN"
+    },
+    {
+      "k": "p",
+      "text": "En l’Etude du Notaire en ce qui concerne le** VENDEUR**"
+    },
+    {
+      "k": "p",
+      "text": "et le** BENEFICIAIRE**"
+    },
+    {
+      "k": "p",
+      "text": "Dans les locaux de la **BANQUE**, pour son représentant ès-qualités",
+      "ind": 2
+    },
+    {
+      "k": "p",
+      "text": "Et après lecture faite les Comparants ès-qualités et nom ont signé avec le Notaire.",
+      "ind": 2
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{champ_012}}                                      Mr {{champ_013}}**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{champ_014}}.                                      Mr {{champ_015}}**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_016}}                    Es-qualités**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Me {{notaire_nom}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ledit acte contenant :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Renvois :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Blancs bâtonnés :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Barres : {{champ_239}} dans blancs",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Lignes entières rayées nulles :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Mots nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Chiffres nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**PARAPHES**"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "reference_etude": "Exemple",
+    "champ_001": "Exemple",
+    "banque": "Exemple",
+    "notaire_nom": "NOTAIRE EXEMPLE",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "2000-01-01",
+    "champ_035": "Exemple",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "2000-01-01",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple",
+    "champ_050": "Exemple",
+    "champ_051": "Exemple",
+    "champ_052": "Exemple",
+    "champ_053": "2000-01-01",
+    "champ_054": "2000-01-01",
+    "champ_055": "Exemple",
+    "champ_056": "Exemple",
+    "champ_057": "2000-01-01",
+    "champ_058": "Exemple",
+    "partie_1": "Exemple",
+    "champ_059": "Exemple",
+    "champ_060": "2000-01-01",
+    "champ_061": "2000-01-01",
+    "champ_062": "Exemple",
+    "champ_063": "Exemple",
+    "champ_064": "Exemple",
+    "champ_065": "Exemple",
+    "champ_066": "2000-01-01",
+    "champ_067": "2000-01-01",
+    "champ_068": "Exemple",
+    "champ_069": "Exemple",
+    "champ_070": "Exemple",
+    "champ_071": "Exemple",
+    "champ_072": "2000-01-01",
+    "champ_073": "Exemple",
+    "champ_074": "Exemple",
+    "champ_075": "Exemple",
+    "champ_076": "Exemple",
+    "champ_077": "Exemple",
+    "champ_078": "Exemple",
+    "champ_079": "Exemple",
+    "champ_080": "Exemple",
+    "champ_081": "Exemple",
+    "champ_082": "Exemple",
+    "champ_083": "Exemple",
+    "champ_084": "Exemple",
+    "champ_085": "Exemple",
+    "champ_086": "Exemple",
+    "champ_087": "Exemple",
+    "champ_088": "Exemple",
+    "champ_089": "Exemple",
+    "champ_090": "Exemple",
+    "champ_091": "Exemple",
+    "champ_092": "Exemple",
+    "champ_093": "Exemple",
+    "champ_094": "Exemple",
+    "champ_095": "2000-01-01",
+    "champ_096": "Exemple",
+    "champ_097": "Exemple",
+    "champ_098": "Exemple",
+    "champ_099": "Exemple",
+    "champ_100": "Exemple",
+    "champ_101": "Exemple",
+    "champ_102": "Exemple",
+    "champ_103": "Exemple",
+    "champ_104": "Exemple",
+    "champ_105": "Exemple",
+    "champ_106": "Exemple",
+    "champ_107": "Exemple",
+    "champ_108": "Exemple",
+    "champ_109": "Exemple",
+    "champ_110": "Exemple",
+    "champ_111": "Exemple",
+    "champ_112": "Exemple",
+    "champ_113": "Exemple",
+    "champ_114": "2000-01-01",
+    "champ_115": "Exemple",
+    "champ_116": "Exemple",
+    "champ_117": "2000-01-01",
+    "champ_118": "Exemple",
+    "champ_119": "Exemple",
+    "champ_120": "Exemple",
+    "champ_121": "Exemple",
+    "champ_122": "Exemple",
+    "champ_123": "Exemple",
+    "champ_124": "Exemple",
+    "champ_125": "Exemple",
+    "champ_126": "Exemple",
+    "champ_127": "Exemple",
+    "champ_128": "Exemple",
+    "champ_129": "Exemple",
+    "champ_130": "Exemple",
+    "champ_131": "Exemple",
+    "champ_132": "Exemple",
+    "champ_133": "Exemple",
+    "champ_134": "Exemple",
+    "champ_135": "Exemple",
+    "champ_136": "Exemple",
+    "champ_137": "Exemple",
+    "champ_138": "Exemple",
+    "champ_139": "Exemple",
+    "champ_140": "Exemple",
+    "champ_141": "Exemple",
+    "champ_142": "Exemple",
+    "champ_143": "Exemple",
+    "champ_144": "Exemple",
+    "champ_145": "Exemple",
+    "champ_146": "Exemple",
+    "champ_147": "Exemple",
+    "champ_148": "Exemple",
+    "champ_149": "Exemple",
+    "champ_150": "Exemple",
+    "champ_151": "Exemple",
+    "champ_152": "Exemple",
+    "champ_153": "Exemple",
+    "champ_154": "Exemple",
+    "champ_155": "Exemple",
+    "champ_156": "Exemple",
+    "champ_157": "Exemple",
+    "champ_158": "Exemple",
+    "champ_159": "Exemple",
+    "champ_160": "Exemple",
+    "champ_161": "Exemple",
+    "champ_162": "Exemple",
+    "champ_163": "Exemple",
+    "champ_164": "Exemple",
+    "champ_165": "Exemple",
+    "champ_166": "Exemple",
+    "champ_167": "Exemple",
+    "champ_168": "Exemple",
+    "champ_169": "Exemple",
+    "champ_170": "Exemple",
+    "champ_171": "Exemple",
+    "champ_172": "Exemple",
+    "champ_173": "Exemple",
+    "champ_174": "Exemple",
+    "champ_175": "Exemple",
+    "champ_176": "Exemple",
+    "champ_177": "Exemple",
+    "champ_178": "Exemple",
+    "champ_179": "Exemple",
+    "champ_180": "Exemple",
+    "champ_181": "Exemple",
+    "champ_182": "Exemple",
+    "champ_183": "Exemple",
+    "champ_184": "Exemple",
+    "champ_185": "2000-01-01",
+    "champ_186": "Exemple",
+    "champ_187": "Exemple",
+    "champ_188": "2000-01-01",
+    "champ_189": "Exemple",
+    "champ_190": "Exemple",
+    "champ_002": "Exemple",
+    "champ_191": "Exemple",
+    "champ_003": "Exemple",
+    "champ_017": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_018": "Exemple",
+    "champ_006": "Exemple",
+    "champ_192": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_019": "Exemple",
+    "champ_009": "Exemple",
+    "champ_193": "Exemple",
+    "champ_194": "Exemple",
+    "champ_195": "Exemple",
+    "champ_196": "Exemple",
+    "champ_197": "Exemple",
+    "champ_198": "Exemple",
+    "champ_199": "Exemple",
+    "champ_200": "Exemple",
+    "champ_201": "Exemple",
+    "champ_202": "Exemple",
+    "champ_203": "Exemple",
+    "champ_204": "Exemple",
+    "champ_205": "Exemple",
+    "champ_206": "Exemple",
+    "champ_207": "Exemple",
+    "champ_208": "Exemple",
+    "champ_209": "Exemple",
+    "champ_210": "Exemple",
+    "champ_211": "Exemple",
+    "champ_212": "Exemple",
+    "champ_213": "Exemple",
+    "champ_214": "Exemple",
+    "champ_215": "Exemple",
+    "champ_216": "Exemple",
+    "champ_217": "Exemple",
+    "champ_010": "Exemple",
+    "champ_218": "Exemple",
+    "champ_011": "Exemple",
+    "champ_219": "Exemple",
+    "champ_220": "Exemple",
+    "champ_221": "Exemple",
+    "champ_222": "Exemple",
+    "champ_223": "Exemple",
+    "champ_224": "Exemple",
+    "champ_225": "Exemple",
+    "champ_226": "Exemple",
+    "champ_227": "Exemple",
+    "champ_228": "Exemple",
+    "champ_229": "Exemple",
+    "champ_230": "Exemple",
+    "champ_231": "Exemple",
+    "champ_232": "Exemple",
+    "champ_233": "Exemple",
+    "champ_234": "Exemple",
+    "champ_235": "Exemple",
+    "champ_236": "Exemple",
+    "champ_237": "2000-01-01",
+    "champ_238": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_239": "Exemple"
+  }
+}

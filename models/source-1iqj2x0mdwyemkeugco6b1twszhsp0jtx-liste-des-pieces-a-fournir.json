@@ -1,1 +1,237 @@
-{"id":"source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir","cat":"ventes-immobilier","sub":"Promotion Immobilere","titre":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["promotion immobilere","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières","fileBase":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières","headline":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir",
+  "cat": "ventes-immobilier",
+  "sub": "Promotion Immobilere",
+  "titre": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "promotion immobilere",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "1 min",
+  "docTitle": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières",
+  "fileBase": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières",
+  "headline": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières",
+  "etapes": [
+    {
+      "id": "informations",
+      "court": "Informations",
+      "titre": "Aucune saisie nécessaire",
+      "intro": "",
+      "champs": [
+        {
+          "id": "info_matrice",
+          "type": "info",
+          "text": "Cette matrice ne contient aucune zone à compléter : téléchargez-la telle quelle."
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**POINT DES INFORMATIONS SUR LES PROMOTIONS IMMOBILIERES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**SUR L’AGREMENT DU PROMOTEUR IMMOBILIER**",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Après les renseignements pris, il ressort que :"
+    },
+    {
+      "k": "p",
+      "text": "Pour être recevable, le dossier de demande d'agrément en qualité de **vendeur d'immeubles à construire** ou de **promoteur immobilier** doit comporter deux (02) sous- dossiers **A **et **B** comprenant :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**Un sous-dossier A concernant le représentant légal de la société ou la personne physique :**",
+      "mk": "a)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Une demande écrite adressée au Ministre de la Construction, du Logement et de l’Urbanisme ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une photocopie de la pièce attestant l'identité du pétitionnaire (CNI, Titre de séjour) ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Un certificat de nationalité ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Un casier judiciaire ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Un certificat de résidence en Côte d'Ivoire ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Un Curriculum Vitae ;",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**Un sous-dossier B concernant la société :**",
+      "mk": "b)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "L'adresse géographique précise du siège ;L'adresse postale du siège ; Les contacts téléphoniques, fax ; adresse mail ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une photocopie du registre de commerce ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Les références techniques et financières de la société (anciens promoteurs) ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Les statuts de la société ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "La Déclaration Fiscale d’Existence ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "L'attestation de régularité fiscale datant de moins de trois (03) mois ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Preuves de la disponibilité foncière (ACD, lettre de réservation, TF, CMPF) ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "CV+ Diplôme d’Ingénieur VRD ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "CV+ Diplôme de juriste ou une convention avec un cabinet de juriste (sauf avocat et notaire) ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "CV+ Diplôme d’un comptable ou une convention avec un cabinet comptable ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une convention avec un cabinet d’architecture agréé ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une convention avec un cabinet d’urbanisme agréé ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une convention avec bureau d’étude VRD ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une assurance (responsabilité civile, tous risques) ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Une lettre d’intention et financement des partenaires financiers.",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Courrier de confirmation d'ouverture d'un compte séquestre de 100.000.0000 FCFA;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Relevé du compte séquestre attestant le montant de 100.000.000 F CFA ;",
+      "mk": "•"
+    },
+    {
+      "k": "li",
+      "text": "Le modèle type de courrier d'ouverture de compte séquestre à retirer à la Direction du Logement.",
+      "mk": "•"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**NB** : Le dossier de demande d'agrément est déposé en **vingt (20) exemplaires** dont un constitué de l'**original** de chacune des pièces ci-dessus et **19 Photocopies des mêmes pièces** contre le paiement de la somme de **deux cent mille francs (200.000 FCFA).**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le délai de validité de l’agrément délivré est fixé à **cinq (05) ans**. **Trois (03) mois** avant l’expiration de délai, le bénéficiaire doit en solliciter le renouvellement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’agrément peut être renouvelé autant de fois qu’il est nécessaire dans les mêmes conditions qu’il a accordé la première fois."
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir.docx",
+    "version": "2"
+  },
+  "exemple": {},
+  "sansChamps": true
+}

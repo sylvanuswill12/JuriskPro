@@ -1,1 +1,434 @@
-{"id":"source-1dspz-5eraohaf6-j-szy46cmjqqkamz-matrice-feuille-de-pr-sence","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Feuille de présence – assemblée générale ordinaire","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Feuille de présence – assemblée générale ordinaire : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"5 min","docTitle":"Feuille de présence – assemblée générale ordinaire","fileBase":"Feuille de présence – assemblée générale ordinaire","headline":"Feuille de présence – assemblée générale ordinaire","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « Nombre d’actions constituant le capital »","req":true},{"id":"champ_002","type":"text","label":"Information à compléter","opt":true},{"id":"champ_003","type":"text","label":"Information à compléter (2)","opt":true},{"id":"champ_004","type":"text","label":"Information à compléter (3)","opt":true},{"id":"champ_005","type":"text","label":"Information à compléter (4)","opt":true},{"id":"champ_006","type":"text","label":"Information à compléter (5)","opt":true},{"id":"champ_007","type":"text","label":"Information à compléter (6)","opt":true},{"id":"champ_008","type":"text","label":"Après « l’ensemble des actionnaires sont présents totalisant »","opt":true},{"id":"champ_009","type":"text","label":"Après « de vote et auxquelles sont attachées »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Feuille de présence – assemblée générale ordinaire"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1dspz-5eraohaf6-j-szy46cmjqqkamz-matrice-feuille-de-pr-sence.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple"}}
+{
+  "id": "source-1dspz-5eraohaf6-j-szy46cmjqqkamz-matrice-feuille-de-pr-sence",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Feuille de présence – assemblée générale ordinaire",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Feuille de présence – assemblée générale ordinaire : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "10 min",
+  "docTitle": "Feuille de présence – assemblée générale ordinaire",
+  "fileBase": "Feuille de présence – assemblée générale ordinaire",
+  "headline": "Feuille de présence – assemblée générale ordinaire",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Papier entete",
+      "titre": "Papier entete de la societe",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "DE L’ASSEMBLEE GENERALE ORDINAIRE DU",
+          "opt": true,
+          "group": "FEUILLE DE PRESENCE DE L’ASSEMBLEE GENERALE ORDINAIRE DU …"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « Actions »",
+          "opt": true,
+          "group": "Nombre d’actions constituant le capital : …. Actions",
+          "aide": "…Nombre d’actions constituant le capital ▢ Actions…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Nom, prénom, adresse",
+          "opt": true,
+          "group": "Actionnaires présents ou représentés …"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Nom, prénom, adresse",
+          "opt": true
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 1"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Mandataires(nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 1"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "De voix émises",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "De voix émises",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "De voix émises",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "De voix émises",
+          "opt": true,
+          "group": "….",
+          "aide": "▢"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Mandataires(nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 2"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 3"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Nombre",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 3"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Colonne 3",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 3"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Mandataires(nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 3"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 4"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "1",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "1",
+          "opt": true,
+          "group": "….",
+          "aide": "▢"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Mandataires(nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 4"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 5"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Nombre",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 5"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Colonne 3",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 5"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Mandataires(nom, prénom, adresse)",
+          "opt": true,
+          "group": "Papier entete de la societe – ligne 5"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Totalisant",
+          "opt": true,
+          "group": "Les scrutateurs certifient sincère et véritable la présente feuille de…",
+          "aide": "…l’ensemble des actionnaires sont présents totalisant ▢ actions et un représentant…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Et auxquelles sont attachées",
+          "opt": true,
+          "group": "Les scrutateurs certifient sincère et véritable la présente feuille de…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**PAPIER ENTETE DE LA SOCIETE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**FEUILLE DE PRESENCE DE L’ASSEMBLEE GENERALE ORDINAIRE DU {{champ_023}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "Nombre d’actions constituant le capital : {{champ_001}}. Actions",
+      "al": "left"
+    },
+    {
+      "k": "table",
+      "cols": [
+        25.6,
+        13.7,
+        10.7,
+        31.6,
+        18.4
+      ],
+      "head": [],
+      "rows": [
+        [
+          "Actionnaires présents ou représentés {{champ_024}}",
+          "Nombre",
+          "",
+          [
+            "Mandataires",
+            "{{champ_025}}"
+          ],
+          "Signatures"
+        ],
+        [
+          "{{champ_010}}",
+          "D’actions (présents représentés",
+          "De voix émises",
+          "{{champ_011}}",
+          ""
+        ],
+        [
+          [
+            "",
+            "**Monsieur {{champ_026}}**",
+            "",
+            "",
+            "**Monsieur {{champ_027}}**",
+            "",
+            "",
+            "**Monsieur {{champ_028}}**",
+            "",
+            "",
+            "**Monsieur {{champ_029}}**"
+          ],
+          [
+            "",
+            "**{{champ_002}}**",
+            "",
+            "",
+            "**{{champ_003}}**",
+            "",
+            "",
+            "**{{champ_004}}**",
+            "",
+            "",
+            "**{{champ_005}}.**"
+          ],
+          [
+            "",
+            "**1**",
+            "",
+            "",
+            "**1**",
+            "",
+            "",
+            "**1**",
+            "",
+            "",
+            "**1**"
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "{{champ_012}}"
+          ],
+          ""
+        ],
+        [
+          "{{champ_013}}",
+          "{{champ_014}}",
+          "{{champ_015}}",
+          "{{champ_016}}",
+          ""
+        ],
+        [
+          "{{champ_017}}",
+          "**{{champ_006}}**",
+          "**{{champ_007}}.**",
+          "{{champ_018}}",
+          ""
+        ],
+        [
+          "{{champ_019}}",
+          "{{champ_020}}",
+          "{{champ_021}}",
+          "{{champ_022}}",
+          ""
+        ]
+      ],
+      "al": [
+        "left",
+        "center",
+        "center",
+        "center",
+        "center"
+      ]
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les scrutateurs certifient sincère et véritable la présente feuille de présence qui a été émargée par les actionnaires présents et les mandataires, faisant apparaître que l’ensemble des actionnaires sont présents, totalisant **{{champ_008}} actions** et un représentant permanent ayant droit de vote, et auxquelles sont attachées  **{{champ_009}} voix**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les scrutateurs",
+      "al": "left",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1dspz-5eraohaf6-j-szy46cmjqqkamz-matrice-feuille-de-pr-sence.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_023": "Exemple",
+    "champ_001": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple"
+  }
+}

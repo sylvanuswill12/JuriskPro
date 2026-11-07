@@ -18,6 +18,8 @@
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
     .replace(/&apos;/g, "'").replace(/&amp;/g, '&');
 
+  const DOTS = '………………';
+
   function valueFor(key, V, S) {
     const k = String(key || '').trim();
     if (V && Object.prototype.hasOwnProperty.call(V, k)) return V[k];
@@ -35,8 +37,10 @@
       .flatMap((f) => f.type === 'repeat' ? [] : [f]);
     fields.forEach((f) => {
       if (!f || !f.id || Object.prototype.hasOwnProperty.call(map, '{{' + f.id + '}}')) return;
-      map['{{' + f.id + '}}'] = valueFor(f.id, V, S);
-      map['{{' + f.id + '_maj}}'] = String(valueFor(f.id, V, S)).toUpperCase();
+      const raw = valueFor(f.id, V, S), empty = raw == null || String(raw).trim() === '';
+      // un champ resté vide garde ses pointillés : le Word reste complétable à la main, comme l’aperçu et le PDF
+      map['{{' + f.id + '}}'] = empty ? DOTS : raw;
+      map['{{' + f.id + '_maj}}'] = empty ? DOTS : String(raw).toUpperCase();
     });
     return map;
   }

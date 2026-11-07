@@ -1,1 +1,275 @@
-{"id":"source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Déclaration sur l’honneur adressée au greffier en chef","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Déclaration sur l’honneur adressée au greffier en chef : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Déclaration sur l’honneur adressée au greffier en chef","fileBase":"Déclaration sur l’honneur adressée au greffier en chef","headline":"Déclaration sur l’honneur adressée au greffier en chef","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Déclaration sur l’honneur adressée au greffier en chef"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Déclaration sur l’honneur adressée au greffier en chef",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Déclaration sur l’honneur adressée au greffier en chef : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "6 min",
+  "docTitle": "Déclaration sur l’honneur adressée au greffier en chef",
+  "fileBase": "Déclaration sur l’honneur adressée au greffier en chef",
+  "headline": "Déclaration sur l’honneur adressée au greffier en chef",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Partie 1",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … ABIDJAN, le … 2016",
+          "aide": "…Monsieur ▢ ABIDJAN le 2016…"
+        },
+        {
+          "id": "champ_002",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Monsieur … ABIDJAN, le … 2016",
+          "aide": "…Monsieur ABIDJAN le ▢ 2016…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "BP ABIDJAN",
+          "opt": true,
+          "group": "BP ABIDJAN …"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "DU TRIBUNAL DU COMMERCE",
+          "opt": true,
+          "group": "DU TRIBUNAL DU COMMERCE …"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Je soussigné Monsieur",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Avant « Comptable demeurant à ABIDJAN »",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…Je soussigné Monsieur ▢ Comptable demeurant à ABIDJAN…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…Comptable demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN né…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Avant « Quartier BP ABIDJAN né »",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…Comptable demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN né…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Abidjan",
+      "titre": "Abidjan",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN né à »",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Avant « BP ABIDJAN né à »",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Né à",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Avant « le atteste sur l’honneur »",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
+        },
+        {
+          "id": "champ_014",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "aide": "…Quartier BP ABIDJAN né à le ▢ atteste sur l’honneur n’avoir…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_001}} **ABIDJAN, le {{champ_002}} 2016",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "BP  ABIDJAN {{champ_003}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**GREFFIER EN CHEF**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**DU TRIBUNAL DU COMMERCE** {{champ_004}}",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**ABIDJAN**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Objet** : Déclaration sur l’honneur",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Cher Maître,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je soussigné **Monsieur {{champ_005}} {{champ_006}}**, Comptable, demeurant à ABIDJAN, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, {{champ_011}} BP  ABIDJAN  , né à {{champ_012}} {{champ_013}}, le {{champ_014}}, atteste sur l’honneur n’avoir jamais fait l’objet d’aucune des interdictions énumérées par l’article 10 de l’Acte Uniforme portant sur le Droit Commercial Général de l’OHADA."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je reconnais que cette attestation pourra être produite en justice et que toute fausse déclaration de ma part m’expose à des sanctions pénales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je m’engage à compléter le dossier de mon immatriculation par un extrait de mon casier judiciaire ou tout autre document en tenant lieu dans un délai de soixante-quinze (75) jours à compter de ladite immatriculation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je prends acte de ce qu’à défaut de produire l’extrait du casier judiciaire ou tout document en tenant lieu dans le délai de soixante-quinze (75) jours, il sera procédé au retrait de mon immatriculation et à ma radiation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait pour servir et valoir ce que de droit."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_015}}**",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "2000-01-01",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "2000-01-01",
+    "champ_015": "Exemple"
+  }
+}

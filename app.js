@@ -476,7 +476,7 @@ function openDetail(m){
   leave();setTitle(m.titre);
   const cat=CATS.find(c=>c.id===m.cat),d=readDraft(m.id);
   const secs=m.etapes.filter(e=>!e.final);
-  const sourcePdf=m.sourceTemplate&&m.sourceTemplate.file?String(m.sourceTemplate.file).replace(/\.docx$/i,'.pdf'):'';
+  const sourcePdf=m.sourceTemplate&&m.sourceTemplate.file?String(m.sourceTemplate.file).replace(/\.docx$/i,'.pdf')+'?v='+encodeURIComponent(m.sourceTemplate.version||'1'):'';
   /* Modèles sans fichier Word source : extrait du début du document, rempli avec les données d'exemple. */
   let extrait='';
   if(!sourcePdf){
@@ -490,12 +490,12 @@ function openDetail(m){
     '<article class="detail"><p class="mcat">'+esc(cat.titre)+'</p><h1>'+esc(m.titre)+'</h1><p class="msub">'+esc(m.sous)+'</p>'+
     '<p class="lead2">'+esc(m.resume)+'</p>'+
     '<ul class="tags">'+m.tags.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul>'+
-    '<dl class="facts"><div><dt>Durée indicative</dt><dd>'+esc(m.duree)+'</dd></div><div><dt>Sections à remplir</dt><dd>'+secs.length+'</dd></div><div><dt>Exports</dt><dd>Word (.docx) et PDF</dd></div></dl>'+
+    '<dl class="facts"><div><dt>Durée indicative</dt><dd>'+esc(m.duree)+'</dd></div><div><dt>Sections à remplir</dt><dd>'+secs.length+'</dd></div><div><dt>Exports</dt><dd>'+(sourcePdf?'Word (mise en page d’origine) et PDF':'Word (.docx) et PDF')+'</dd></div></dl>'+
     (d?'<p class="status-line warn"><strong>Un brouillon existe</strong> pour ce modèle, modifié le '+esc(fmtWhen(d.t))+'.</p>':'')+
     '<div class="cta-row"><a class="btn big" href="#'+m.id+'">'+(d?'Reprendre le brouillon':'Utiliser ce modèle')+'</a></div>'+
     '<section class="block"><h2>Ce que vous allez renseigner</h2><ol class="secs">'+secs.map(e=>'<li><strong>'+esc(e.titre)+'</strong>'+(e.intro?'<span>'+esc(e.intro)+'</span>':'')+'</li>').join('')+'</ol></section>'+
     (extrait?'<section class="block"><h2>Aperçu</h2><p class="note">Début du document, rempli avec les données d’exemple du modèle (non reprises dans votre brouillon).</p><div class="sheet-scroll"><div class="sheet sheet-ex" aria-label="Extrait du document">'+extrait+'</div></div></section>':'')+
-    (sourcePdf?'<section class="block"><h2>Aperçu intégral</h2><p class="note">Toutes les pages de la matrice Word anonymisée. Les zones à compléter apparaissent en pointillés ; vos données seront insérées dans le fichier Word téléchargé.</p><div class="source-preview" data-pdf="./'+esc(sourcePdf)+'"><p class="pv-status" role="status">Chargement de l’aperçu…</p></div><p class="pv-open"><a class="btn ghost" href="./'+esc(sourcePdf)+'" target="_blank" rel="noopener">Ouvrir l’aperçu en PDF</a></p></section>':'')+
+    (sourcePdf?'<section class="block"><h2>Aperçu intégral</h2><p class="note">Toutes les pages de la matrice Word anonymisée. Les zones à compléter apparaissent en pointillés ; vos données seront insérées dans le Word et le PDF téléchargés (le Word garde exactement la mise en page d’origine, le PDF en reprend le texte et la structure).</p><div class="source-preview" data-pdf="./'+esc(sourcePdf)+'"><p class="pv-status" role="status">Chargement de l’aperçu…</p></div><p class="pv-open"><a class="btn ghost" href="./'+esc(sourcePdf)+'" target="_blank" rel="noopener">Ouvrir l’aperçu en PDF</a></p></section>':'')+
     '</article>',
     {back:'#modeles',backLabel:'Retour aux modèles',title:m.titre,cls:'detail-on'});
   renderPdfPreview($('.source-preview'));

@@ -1,1 +1,214 @@
-{"id":"source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"4 min","docTitle":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation","fileBase":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation","headline":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « Les administrateurs de la société »","req":true},{"id":"champ_002","type":"text","label":"Après « convention devant exister entre la société »","opt":true},{"id":"champ_003","type":"text","label":"Après « prêt compte courant acquisition cession etc »","opt":true},{"id":"champ_004","type":"text","label":"Après « prix convenus taux d’intérêt prévus etc »","opt":true},{"id":"champ_005","type":"text","label":"Après « Fait à »","opt":true},{"id":"champ_006","type":"date","label":"Après « Fait à le »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Lettre d’information du conseil d’administration sur les conventions soumises à autorisation"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"2000-01-01"}}
+{
+  "id": "source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "4 min",
+  "docTitle": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation",
+  "fileBase": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation",
+  "headline": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "A une",
+      "titre": "A une convention reglementee",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Les administrateurs de la société",
+          "opt": true,
+          "group": "Les administrateurs de la société …"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Devant exister entre la société",
+          "opt": true,
+          "group": "Par application des dispositions de l’article 440 de l’Acte Uniforme…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Identité et qualité",
+          "opt": true,
+          "group": "personnes concernées par la convention : … ;"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Etc",
+          "opt": true,
+          "group": "nature et objet de la convention (avance, prêt, compte courant,…",
+          "aide": "…prêt compte courant acquisition cession etc ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Etc",
+          "opt": true,
+          "group": "modalités de la convention (prix convenus, taux d’intérêt prévus, etc…",
+          "aide": "…prix convenus taux d’intérêt prévus etc ▢"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Fait à",
+          "opt": true,
+          "group": "Fait à … le …",
+          "aide": "…Fait à ▢ le…"
+        },
+        {
+          "id": "champ_006",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Fait à … le …",
+          "aide": "…Fait à le ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**ENTETE ADMINISTRATEUR INTERESSE**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**A UNE CONVENTION REGLEMENTEE**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mesdames, Messieurs",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Les administrateurs de la société {{champ_001}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Objet **: Information convention réglementée",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mesdames, Messieurs  les administrateurs,",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Par application des dispositions de l’article 440 de l’Acte Uniforme relatif au droit des sociétés commerciales et du GIE, j’ai l’honneur de vous informer du projet de convention devant exister  entre la société {{champ_002}} et le soussigné (ou toute autre personne interposée, à préciser éventuellement) et que je soumets à votre autorisation.",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Cette convention peut se résumer comme suit :",
+      "al": "left"
+    },
+    {
+      "k": "li",
+      "text": "personnes concernées par la convention : {{champ_007}} ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "nature et objet de la convention (avance, prêt, compte courant, acquisition, cession, etc {{champ_003}}.) ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "modalités de la convention (prix convenus, taux d’intérêt prévus, etc {{champ_004}}.) ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "durée (éventuellement)",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Vous trouverez ci-joint (éventuellement) un original de cette convention.",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Dans l’attente d’un avis favorable,",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Je vous prie d’agréer, Mesdames, Messieurs, les administrateurs, l’expression de mes sentiments distingués.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à {{champ_005}} le {{champ_006}}",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nom et signature",
+      "al": "left",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_007": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "2000-01-01"
+  }
+}

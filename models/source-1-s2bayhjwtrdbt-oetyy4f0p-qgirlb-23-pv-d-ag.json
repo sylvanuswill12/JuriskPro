@@ -1,1 +1,1082 @@
-{"id":"source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag","cat":"societes-associations","sub":"Ohada","titre":"Procès-verbal d’assemblée générale","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procès-verbal d’assemblée générale : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["ohada","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Procès-verbal d’assemblée générale","fileBase":"Procès-verbal d’assemblée générale","headline":"Procès-verbal d’assemblée générale","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procès-verbal d’assemblée générale"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag",
+  "cat": "societes-associations",
+  "sub": "Ohada",
+  "titre": "Procès-verbal d’assemblée générale",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procès-verbal d’assemblée générale : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "ohada",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "18 min",
+  "docTitle": "Procès-verbal d’assemblée générale",
+  "fileBase": "Procès-verbal d’assemblée générale",
+  "headline": "Procès-verbal d’assemblée générale",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Procès-verbal d'assemblée générale",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « Pour les assemblées générales »",
+          "opt": true,
+          "group": "Attention : … Pour les assemblées générales ordinaires, le quorum…",
+          "aide": "…Attention ▢ Pour les assemblées générales…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "opt": true
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Montant",
+          "opt": true,
+          "group": "au capital de … FCFA",
+          "aide": "…au capital de ▢ FCFA…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Siège social : …"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "▢ RCCM…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "…RCCM ▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Société anonyme",
+      "titre": "Société anonyme avec Conseil d'administration",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "date",
+          "label": "DATE",
+          "opt": true,
+          "group": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
+          "aide": "…PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Avant « L’AUSCGIE dans son article »",
+          "opt": true,
+          "group": "Attention : … L’AUSCGIE dans son article 134 prévoit que les décisions…",
+          "aide": "…Attention ▢ L’AUSCGIE dans son article…"
+        },
+        {
+          "id": "champ_011",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+          "aide": "…Le ▢ à les actionnaires de…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+          "aide": "…Le à ▢ les actionnaires de la…"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Lieu",
+          "opt": true,
+          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+          "aide": "…sont réunis en assemblée générale extraordinaire ▢ sur convocation faite par…"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Nom du Journal",
+          "opt": true,
+          "group": "Chaque actionnaire a été convoqué - par lettre recommandée- par lettre…"
+        },
+        {
+          "id": "champ_015",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Chaque actionnaire a été convoqué - par lettre recommandée- par lettre…",
+          "aide": "…Journal d'annonces légales en date du ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Nom du Commissaire présent",
+          "opt": true,
+          "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Nom du Commissaire absent",
+          "opt": true,
+          "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Nom du Président du Conseil",
+          "opt": true,
+          "group": "… préside la séance en sa qualité de - Président- Présidente du …."
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Organe d'administration",
+          "opt": true,
+          "group": "… préside la séance en sa qualité de - Président- Présidente du …."
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Nom du Président de séance",
+          "opt": true,
+          "group": "… préside la séance en sa qualité de …."
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Qualité du Président de séance",
+          "opt": true,
+          "group": "… préside la séance en sa qualité de …."
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Nom du premier scrutateur à l'assemblée",
+          "opt": true,
+          "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Nom du deuxième scrutateur à l'assemblée",
+          "opt": true,
+          "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Nom du Secrétaire de séance",
+          "opt": true,
+          "group": "… est - désigné- désignée comme secrétaire."
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Nombre actions total",
+          "opt": true,
+          "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
+        },
+        {
+          "id": "champ_026",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "- un exemplaire du Journal d'annonces légales … en date du … ;",
+          "aide": "…Journal d'annonces légales en date du ▢"
+        },
+        {
+          "id": "champ_027",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "- Si un actionnaire a présenté des projets de résolutions : le texte…",
+          "aide": "…du Conseil d'administration en date du ▢ ayant statué sur ces…"
+        },
+        {
+          "id": "champ_028",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le Président indique que l'assemblée aura également à délibérer sur…",
+          "aide": "…du Conseil d'administration en date du ▢"
+        },
+        {
+          "id": "champ_029",
+          "type": "area",
+          "label": "Désignation du projet de résolution",
+          "opt": true,
+          "group": "…."
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Avant « En vertu de l’article »",
+          "opt": true,
+          "group": "Remarque : … En vertu de l’article 526 AUSCGIE, le Conseil…",
+          "aide": "…Remarque ▢ En vertu de l’article…"
+        },
+        {
+          "id": "champ_031",
+          "type": "area",
+          "label": "Détail de la réponse du Président aux questions écrites des actionnaires",
+          "opt": true
+        },
+        {
+          "id": "champ_032",
+          "type": "area",
+          "label": "Rapportez les termes du débat",
+          "opt": true
+        },
+        {
+          "id": "champ_033",
+          "type": "area",
+          "label": "Rapportez les termes de la discussion",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Partie 3",
+      "titre": "Premiere resolution",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_034",
+          "type": "area",
+          "label": "Références de la loi",
+          "opt": true,
+          "group": "L'assemblée générale extraordinaire, après avoir entendu la lecture du…"
+        },
+        {
+          "id": "champ_035",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "L'assemblée générale extraordinaire, après avoir entendu la lecture du…",
+          "aide": "…les dispositions de la loi du ▢"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Titre",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_038",
+          "type": "area",
+          "label": "Texte de l'article modifié",
+          "opt": true
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "L'article … – … est supprimé et remplacé par :",
+          "aide": "…L'article ▢ est supprimé et remplacé…"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Titre",
+          "opt": true,
+          "group": "L'article … – … est supprimé et remplacé par :",
+          "aide": "…L'article ▢ est supprimé et remplacé…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Titre",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_043",
+          "type": "area",
+          "label": "Texte du nouvel article",
+          "opt": true
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "- Les articles … – … sont supprimés.",
+          "aide": "…- Les articles ▢ sont supprimés…"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Titre",
+          "opt": true,
+          "group": "- Les articles … – … sont supprimés.",
+          "aide": "…- Les articles ▢ sont supprimés…"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Titre",
+          "opt": true,
+          "group": "Article … – …",
+          "aide": "…Article ▢"
+        },
+        {
+          "id": "champ_048",
+          "type": "area",
+          "label": "Texte du nouvel article",
+          "opt": true
+        },
+        {
+          "id": "champ_049",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_050",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_051",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_052",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_053",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "… Résolution - Délégation de pouvoir en vue d'accomplir les formalités",
+          "aide": "▢ Résolution - Délégation de…"
+        },
+        {
+          "id": "champ_054",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_055",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_056",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_057",
+          "type": "text",
+          "label": "Nombre de voix",
+          "opt": true,
+          "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
+        },
+        {
+          "id": "champ_058",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "L'ordre du jour étant épuisé et personne ne demandant plus la parole,…",
+          "aide": "…Président déclare la séance levée à ▢"
+        },
+        {
+          "id": "champ_059",
+          "type": "text",
+          "label": "Nom du Président",
+          "opt": true,
+          "group": "… Le Secrétaire"
+        },
+        {
+          "id": "champ_060",
+          "type": "text",
+          "label": "Nom du Secrétaire",
+          "opt": true,
+          "group": "… Les Scrutateurs"
+        },
+        {
+          "id": "champ_061",
+          "type": "text",
+          "label": "Nom du premier scrutateur",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Procès-verbal d'assemblée générale**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attention** : {{champ_001}} Pour les assemblées générales ordinaires, le quorum requis sur première convocation est d’un quart des actions ayant le droit de vote (art 549 AUSCGIE). Pour les assemblées générales extraordinaires, le quorum requis sur première convocation est de moitié des actions ayant le droit de vote sur première convocation et d’un quart sur deuxième convocation (art. 553 AUSCGIE)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_002}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société anonyme avec Conseil d'administration**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**au capital de {{champ_003}} FCFA**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Siège social : {{champ_004}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_005}} {{champ_006}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_007}} RCCM {{champ_008}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU {{champ_009}}",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Attention : {{champ_010}} L’AUSCGIE dans son article 134 prévoit que les décisions de l'assemblée doivent être constatées par un procès-verbal dont les mentions y sont déterminées."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le {{champ_011}}, à {{champ_012}}, les actionnaires de la Société {{champ_002}} se sont réunis en assemblée générale extraordinaire, {{champ_013}}, sur convocation faite par le Conseil d'administration."
+    },
+    {
+      "k": "p",
+      "text": "Chaque actionnaire a été convoqué - par lettre recommandée- par lettre simple- par voie électronique- par avis publié dans le Journal d'annonces légales {{champ_014}}- par lettre recommandée et par avis publié dans le Journal d'annonces légales {{champ_014}} en date du {{champ_015}}."
+    },
+    {
+      "k": "p",
+      "text": "Il a été établi une feuille de présence qui a été émargée par chaque membre de l'assemblée en entrant en séance- à laquelle sont annexés les pouvoirs des actionnaires représentés et les formulaires de vote par correspondance."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de présence de Commissaires aux comptes à l'assemblée"
+    },
+    {
+      "k": "p",
+      "text": "Commissaire(s) aux comptes présent(s) à l'assemblée :"
+    },
+    {
+      "k": "p",
+      "text": "• {{champ_016}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est présent- convoquée, est présente."
+    },
+    {
+      "k": "p",
+      "text": "En cas d'absence de Commissaires aux comptes à l'assemblée"
+    },
+    {
+      "k": "p",
+      "text": "Commissaire(s) aux comptes absent(s) à l'assemblée :"
+    },
+    {
+      "k": "p",
+      "text": "• {{champ_017}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est absent et excusé- convoquée, est absente et excusée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La séance est présidée par le Président du Conseil"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_018}} préside la séance en sa qualité de - Président- Présidente du {{champ_019}}."
+    },
+    {
+      "k": "p",
+      "text": "La séance est présidée par quelqu'un d'autre"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_020}} préside la séance en sa qualité de {{champ_021}}."
+    },
+    {
+      "k": "p",
+      "text": "{{champ_022}} et {{champ_023}}, présents et acceptant, représentant tant par eux-mêmes que comme mandataires le plus grand nombre de voix, sont appelés comme scrutateurs."
+    },
+    {
+      "k": "p",
+      "text": "{{champ_024}} est - désigné- désignée comme secrétaire."
+    },
+    {
+      "k": "p",
+      "text": "La feuille de présence, certifiée sincère et véritable par les membres du bureau, permet de constater que les actionnaires présents, représentés ou ayant voté par correspondance possèdent {{champ_025}} actions, soit plus du quart des actions ayant droit de vote."
+    },
+    {
+      "k": "p",
+      "text": "Le Président constate que l'assemblée générale, régulièrement constituée, peut valablement délibérer."
+    },
+    {
+      "k": "p",
+      "text": "Le Président dépose sur le bureau et met à la disposition des actionnaires :"
+    },
+    {
+      "k": "p",
+      "text": "-  la feuille de présence à l'assemblée ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les pouvoirs des actionnaires représentés par des Mandataires ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les formulaires de vote par correspondance ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les copies des lettres de convocation adressées aux actionnaires- et les récépissés postaux d'envoi recommandé ;"
+    },
+    {
+      "k": "p",
+      "text": "-  un exemplaire du Journal d'annonces légales {{champ_014}} en date du {{champ_026}} ;"
+    },
+    {
+      "k": "p",
+      "text": "-  la copie et le récépissé postal de la lettre de convocation adressée au Commissaire aux comptes ;"
+    },
+    {
+      "k": "p",
+      "text": "-  le rapport du Conseil d'administration ;"
+    },
+    {
+      "k": "p",
+      "text": "-  Si d'autres documents sont transmis à l'assemblée : (tout autre document transmis à l'assemblée (rapport du Commissaire aux comptes par exemple));"
+    },
+    {
+      "k": "p",
+      "text": "-  le texte des projets de résolutions proposées par le Conseil d'administration à l'assemblée ;"
+    },
+    {
+      "k": "p",
+      "text": "-  Si un actionnaire a présenté des projets de résolutions : le texte des projets de résolutions présentés par des actionnaires et la copie du procès-verbal du Conseil d'administration en date du {{champ_027}} ayant statué sur ces projets ;"
+    },
+    {
+      "k": "p",
+      "text": "-  Si le texte des questions écrites posées par des actionnaires est mis à disposition: le texte des questions écrites posées par des actionnaires dans les conditions de l'article 526 AUSCGIE."
+    },
+    {
+      "k": "p",
+      "text": "Puis le Président déclare que le rapport du Conseil d'administration, les textes des projets de résolutions proposées, - le rapport du Commissaire aux comptes ainsi que tous les autres documents et renseignements prévus par la loi et les règlements ont été tenus à la disposition des actionnaires, au siège social, à compter de la convocation de l'assemblée et que la Société a fait droit aux demandes de documents qui lui ont été adressées."
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée lui donne acte de cette déclaration."
+    },
+    {
+      "k": "p",
+      "text": "Le Président rappelle ensuite que l'assemblée est appelée à statuer sur l'ordre du jour suivant :"
+    },
+    {
+      "k": "p",
+      "text": "-  Mise en harmonie des statuts avec les dernières dispositions légales,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "S'il y a délégation de pouvoir en vue d'accomplir les formalités"
+    },
+    {
+      "k": "p",
+      "text": "-  Pouvoirs en vue d'accomplir les formalités."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si une demande d'inscription de points à l'ordre du jour a été formée par des actionnaires (points non suivis de résolutions)"
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale aura également à débattre sur - le point suivant, inscrit - les points suivants, inscrits à l'ordre du jour à la demande d'actionnaires, dans les conditions prévues à l'article 520 AUSCGIE:"
+    },
+    {
+      "k": "p",
+      "text": "(Description du (des) point(s) dont l'inscription à l'ordre du jour a été demandée par des actionnaires sans que ceux-ci soient liés à un projet de résolution)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si un actionnaire a présenté des projets de résolutions"
+    },
+    {
+      "k": "p",
+      "text": "Le Président indique que l'assemblée aura également à délibérer sur l'ordre du jour ci-après, correspondant au projet de résolutions suivant dont l'inscription a été régulièrement demandée par des actionnaires, et qui ont été examinés lors de la réunion du Conseil d'administration en date du {{champ_028}} :"
+    },
+    {
+      "k": "p",
+      "text": "-"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_029}}."
+    },
+    {
+      "k": "p",
+      "text": "Le Président précise que le Conseil d'administration a - donné son agrément au projet de résolution- rejeté le projet de résolution."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Président donne lecture du rapport du Conseil d'administration- et du rapport du Commissaire aux comptes- et de l'exposé des motifs des projets de résolutions présentés-, du rapport du Commissaire aux comptes, et de l'exposé des motifs des projets de résolutions présentés."
+    },
+    {
+      "k": "p",
+      "text": "Cette lecture terminée, le Président ouvre la discussion."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si les actionnaires ont posé des questions écrites"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Remarque** : {{champ_030}} En vertu de l’article 526 AUSCGIE, le Conseil d'administration communique les réponses aux questions au commissaire aux comptes."
+    },
+    {
+      "k": "p",
+      "text": "Il donne lecture du rapport du commissaire aux comptes sur les réponses aux questions écrites des actionnaires et indique que :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_031}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "S'il y a un débat qui s'instaure entre les actionnaires"
+    },
+    {
+      "k": "p",
+      "text": "Puis, un débat s'instaure entre les actionnaires."
+    },
+    {
+      "k": "p",
+      "text": "{{champ_032}}"
+    },
+    {
+      "k": "p",
+      "text": "Personne ne demandant plus la parole, le Président met successivement aux voix les résolutions inscrites à l'ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "S'il n'y a pas de débat"
+    },
+    {
+      "k": "p",
+      "text": "Personne ne demandant la parole, le Président met successivement aux voix les résolutions inscrites à l'ordre du jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si les actionnaires n'ont pas posé de questions écrites"
+    },
+    {
+      "k": "p",
+      "text": "Un débat s'instaure entre les actionnaires."
+    },
+    {
+      "k": "p",
+      "text": "{{champ_033}}"
+    },
+    {
+      "k": "p",
+      "text": "Personne ne demandant plus la parole, le Président met successivement aux voix les résolutions inscrites à l'ordre du jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PREMIERE RESOLUTION",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale extraordinaire, après avoir entendu la lecture du rapport du Conseil d'administration, décide de mettre les statuts de la Société en harmonie avec les dispositions de la loi {{champ_034}} du {{champ_035}}."
+    },
+    {
+      "k": "p",
+      "text": "En conséquence, elle procède aux modifications suivantes des statuts :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas d'articles modifiés"
+    },
+    {
+      "k": "p",
+      "text": "Articles modifiés"
+    },
+    {
+      "k": "p",
+      "text": "-"
+    },
+    {
+      "k": "p",
+      "text": "Article {{champ_036}} – {{champ_037}}"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_038}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas d'articles remplacés"
+    },
+    {
+      "k": "p",
+      "text": "Articles remplacés"
+    },
+    {
+      "k": "p",
+      "text": "-"
+    },
+    {
+      "k": "p",
+      "text": "L'article {{champ_039}} – {{champ_040}} est supprimé et remplacé par :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Article {{champ_041}} – {{champ_042}}"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_043}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas d'articles supprimés"
+    },
+    {
+      "k": "p",
+      "text": "Articles supprimés"
+    },
+    {
+      "k": "p",
+      "text": "-  Les articles {{champ_044}} – {{champ_045}} sont supprimés."
+    },
+    {
+      "k": "p",
+      "text": "En cas de nouveaux articles"
+    },
+    {
+      "k": "p",
+      "text": "Nouveaux articles"
+    },
+    {
+      "k": "p",
+      "text": "-"
+    },
+    {
+      "k": "p",
+      "text": "Article {{champ_046}} – {{champ_047}}"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_048}}"
+    },
+    {
+      "k": "p",
+      "text": "approuve par les statuts mis à jour de la Société puis ces derniers dans leur ensemble."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à la majorité de {{champ_049}} voix contre {{champ_050}} voix- rejetée par {{champ_051}} voix contre {{champ_052}} voix."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "S'il y a délégation de pouvoir en vue d'accomplir les formalités"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_053}} Résolution - Délégation de pouvoir en vue d'accomplir les formalités"
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale délègue tous pouvoirs au porteur d'une copie ou d'un extrait des présentes à l'effet d'accomplir toutes les formalités légales."
+    },
+    {
+      "k": "p",
+      "text": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à la majorité de {{champ_054}}  contre {{champ_055}} voix- rejetée par {{champ_056}} voix contre {{champ_057}} voix."
+    },
+    {
+      "k": "p",
+      "text": "L'ordre du jour étant épuisé et personne ne demandant plus la parole, le Président déclare la séance levée à {{champ_058}}."
+    },
+    {
+      "k": "p",
+      "text": "De tout ce que dessus il a été dressé le présent procès-verbal qui, après lecture, a été signé par les membres du bureau."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Le Président de l'assemblée**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_059}}    Le Secrétaire**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_060}}    Les Scrutateurs**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_061}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**\"Nom du second scrutateur\"**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "2000-01-01",
+    "champ_010": "Exemple",
+    "champ_011": "2000-01-01",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "2000-01-01",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "2000-01-01",
+    "champ_027": "2000-01-01",
+    "champ_028": "2000-01-01",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "Exemple",
+    "champ_035": "2000-01-01",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple",
+    "champ_049": "Exemple",
+    "champ_050": "Exemple",
+    "champ_051": "Exemple",
+    "champ_052": "Exemple",
+    "champ_053": "Exemple",
+    "champ_054": "Exemple",
+    "champ_055": "Exemple",
+    "champ_056": "Exemple",
+    "champ_057": "Exemple",
+    "champ_058": "Exemple",
+    "champ_059": "Exemple",
+    "champ_060": "Exemple",
+    "champ_061": "Exemple"
+  }
+}

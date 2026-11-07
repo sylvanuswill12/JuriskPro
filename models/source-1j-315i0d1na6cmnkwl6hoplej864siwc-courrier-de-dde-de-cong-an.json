@@ -1,1 +1,195 @@
-{"id":"source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an","cat":"travail","sub":"Demandes De Conges","titre":"Demande de congé annuel – clerc-archiviste (modèle 1)","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Demande de congé annuel – clerc-archiviste (modèle 1) : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["demandes de conges","modèle Word","matrice","anonymisé"],"duree":"4 min","docTitle":"Demande de congé annuel – clerc-archiviste (modèle 1)","fileBase":"Demande de congé annuel – clerc-archiviste (modèle 1)","headline":"Demande de congé annuel – clerc-archiviste (modèle 1)","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"nom_salarie","type":"text","label":"Nom du salarié","req":true},{"id":"nom_naissance_salarie","type":"text","label":"Nom de naissance (facultatif)","opt":true},{"id":"prenom_salarie","type":"text","label":"Prénom du salarié (facultatif)","opt":true},{"id":"notaire_nom","type":"text","label":"Nom du notaire (si nécessaire)","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Demande de congé annuel – clerc-archiviste (modèle 1)"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an.docx","version":"1"},"exemple":{"nom_salarie":"Exemple","nom_naissance_salarie":"Exemple","prenom_salarie":"Exemple","notaire_nom":"NOTAIRE EXEMPLE"}}
+{
+  "id": "source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an",
+  "cat": "travail",
+  "sub": "Demandes De Conges",
+  "titre": "Demande de congé annuel – clerc-archiviste (modèle 1)",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Demande de congé annuel – clerc-archiviste (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "demandes de conges",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "4 min",
+  "docTitle": "Demande de congé annuel – clerc-archiviste (modèle 1)",
+  "fileBase": "Demande de congé annuel – clerc-archiviste (modèle 1)",
+  "headline": "Demande de congé annuel – clerc-archiviste (modèle 1)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Informations à renseigner",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "nom_salarie",
+          "type": "text",
+          "label": "Nom du salarié",
+          "opt": true,
+          "group": "Mme … ABIDJAN, le 06 Novembre 2018",
+          "aide": "…Mme ▢ ABIDJAN le 06 Novembre…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « ABIDJAN le 06 Novembre »",
+          "opt": true,
+          "group": "Mme … ABIDJAN, le 06 Novembre 2018",
+          "aide": "…Mme ▢ ABIDJAN le 06 Novembre…"
+        },
+        {
+          "id": "nom_naissance_salarie",
+          "type": "text",
+          "label": "Nom de naissance",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Information à compléter",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "prenom_salarie",
+          "type": "text",
+          "label": "Prénom du salarié",
+          "opt": true,
+          "group": "née …",
+          "aide": "…née ▢"
+        },
+        {
+          "id": "notaire_nom",
+          "type": "text",
+          "label": "Nom du notaire",
+          "opt": true,
+          "group": "Maître …",
+          "aide": "…Maître ▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Demande de congé annuel",
+          "opt": true,
+          "group": "Objet : Demande de congé annuel …"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Mme {{nom_salarie}} {{champ_001}} **ABIDJAN, le 06 Novembre 2018"
+    },
+    {
+      "k": "p",
+      "text": "**née {{nom_naissance_salarie}} {{champ_002}} {{prenom_salarie}}**"
+    },
+    {
+      "k": "p",
+      "text": "**Clerc-Archiviste**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Maître {{notaire_nom}}",
+      "al": "right"
+    },
+    {
+      "k": "p",
+      "text": "Notaire"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ABIDJAN**",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Objet **: Demande de congé annuel {{champ_003}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mon Cher Maître,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je viens par la présente solliciter auprès de vous l’obtention de mon congé annuel allant de la période du **12 Novembre au 16 Décembre 2018 **inclus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Vous en souhaitant bonne réception,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Et dans l’attente d’une suite favorable,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je vous prie de croire, mon Cher Maître, en l'assurance de mes sentiments dévoués."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{nom_salarie}} {{prenom_salarie}}**"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "nom_salarie": "Exemple",
+    "champ_001": "Exemple",
+    "nom_naissance_salarie": "Exemple",
+    "champ_002": "Exemple",
+    "prenom_salarie": "Exemple",
+    "notaire_nom": "NOTAIRE EXEMPLE",
+    "champ_003": "Exemple"
+  }
+}

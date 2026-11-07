@@ -1,1 +1,407 @@
-{"id":"source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Décision de l’associé unique – transformation de SARL en SAS","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Décision de l’associé unique – transformation de SARL en SAS : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"4 min","docTitle":"Décision de l’associé unique – transformation de SARL en SAS","fileBase":"Décision de l’associé unique – transformation de SARL en SAS","headline":"Décision de l’associé unique – transformation de SARL en SAS","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « unique nomme pour une durée de »","req":true},{"id":"champ_002","type":"text","label":"Après « Président Monsieur »","opt":true},{"id":"champ_003","type":"text","label":"Après « Directeur Général Monsieur »","opt":true},{"id":"champ_004","type":"text","label":"Après « Directeur Général Adjoint Monsieur »","opt":true},{"id":"champ_005","type":"text","label":"Après « Messieurs »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Décision de l’associé unique – transformation de SARL en SAS"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple"}}
+{
+  "id": "source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Décision de l’associé unique – transformation de SARL en SAS",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Décision de l’associé unique – transformation de SARL en SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "7 min",
+  "docTitle": "Décision de l’associé unique – transformation de SARL en SAS",
+  "fileBase": "Décision de l’associé unique – transformation de SARL en SAS",
+  "headline": "Décision de l’associé unique – transformation de SARL en SAS",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Decision de",
+      "titre": "Decision de l’associe unique",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "DECISION DE L’ASSOCIE UNIQUE",
+          "opt": true,
+          "group": "GERANT DE LA SARL «…»",
+          "aide": "…GERANT DE LA SARL ▢"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Capital",
+          "opt": true,
+          "group": "Capital … FCFA",
+          "aide": "…Capital ▢ FCFA…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Commune",
+          "opt": true,
+          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
+          "aide": "…Siège social ABIDJAN Commune ▢ Quartier…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
+          "aide": "…Siège social ABIDJAN Commune Quartier ▢"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "BP … ; RCCM :",
+          "aide": "…BP ▢ RCCM…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Avant « RCCM »",
+          "opt": true,
+          "group": "BP … ; RCCM :",
+          "aide": "…BP ▢ RCCM…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "L'an deux",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,"
+        },
+        {
+          "id": "champ_013",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le ▢ à heures…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Société à",
+      "titre": "Société à Responsabilité Limitée Unipersonnelle",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le à ▢ heures…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Minutes",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le à heures ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
+          "aide": "…Monsieur ▢ associé unique et seul…"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Avant « associé unique et seul »",
+          "opt": true,
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
+          "aide": "…Monsieur ▢ associé unique et seul…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Nomme pour une durée de",
+          "opt": true,
+          "group": "L’associé unique nomme pour une durée de …., en sa qualité de :"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Président, Monsieur ….",
+          "aide": "…Président Monsieur ▢"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Directeur Général, Monsieur ….",
+          "aide": "…Directeur Général Monsieur ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Directeur Général Adjoint, Monsieur …",
+          "aide": "…Directeur Général Adjoint Monsieur ▢"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Messieurs",
+          "opt": true,
+          "group": "Messieurs …., intervenant, déclarent accepter ces fonctions et que rien…",
+          "aide": "…Messieurs ▢ intervenant déclarent accepter ces…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "La séance est levée à",
+          "opt": true,
+          "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mr …",
+          "aide": "…Mr ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**DECISION DE L’ASSOCIE UNIQUE**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**GERANT DE LA SARL «{{champ_006}}»**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société à Responsabilité Limitée Unipersonnelle**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Capital {{champ_007}} FCFA**",
+      "ind": 5
+    },
+    {
+      "k": "p",
+      "text": "**Siège social** : ABIDJAN**, Commune {{champ_008}}, Quartier {{champ_009}}**",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "**BP {{champ_010}} {{champ_011}}; RCCM :**",
+      "ind": 2
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'an deux {{champ_012}}, le {{champ_013}} à {{champ_014}} heures {{champ_015}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_016}} {{champ_017}}**, associé unique et seul gérant de la société, après avoir pris connaissance des rapports du Commissaire aux comptes, a pris les décisions suivantes :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Première décision : Transformation de la forme juridique**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique après avoir entendu la lecture du rapport du Commissaire aux comptes :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Prend acte de l’attestation du Commissaire aux comptes que :",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Les capitaux propres de la société sont au moins égaux au capital social,",
+      "mk": "◦"
+    },
+    {
+      "k": "li",
+      "text": "La société a fait approuver par les associés les bilans de l’exercice en cours ;",
+      "mk": "◦"
+    },
+    {
+      "k": "li",
+      "text": "Et décide la transformation en Société par Actions Simplifiée à compter de ce jour.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Deuxième décision : Transformation - Désignation des dirigeants**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique nomme pour une durée de {{champ_001}}., en sa qualité de :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Président, Monsieur {{champ_002}}.",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Directeur Général, Monsieur {{champ_003}}.",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Directeur Général Adjoint, Monsieur {{champ_004}}",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Messieurs {{champ_005}}., intervenant, déclarent accepter ces fonctions et que rien ne s’y oppose.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Troisième décision : Transformation - Modification des statuts**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique en conséquence de la résolution qui précède et après avoir pris connaissance du projet de statuts de la société sous sa nouvelle forme juridique, adopte dans toutes dispositions lesdits statuts joints en annexe."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Quatrième décision : Pouvoirs**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique, délègue tous pouvoirs sont donnés au porteur d’une copie ou d’un extrait du procès-verbal constatant les délibérations à l’effet d’accomplir toutes formalités légales ou autres."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Plus rien n’étant à l’ordre du jour, la séance est levée à {{champ_018}} heures      minutes.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De tout ce qui précède, l’associé unique gérant a dressé le présent procès-verbal qu’il a signé.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mr {{champ_019}}**",
+      "al": "right"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "2000-01-01",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple"
+  }
+}

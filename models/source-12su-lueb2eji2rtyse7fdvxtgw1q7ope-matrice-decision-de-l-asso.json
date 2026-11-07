@@ -1,1 +1,612 @@
-{"id":"source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"9 min","docTitle":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS","fileBase":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS","headline":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « décide d’augmenter de la somme de »","req":true},{"id":"champ_002","type":"text","label":"Après « capital social qui est actuellement de »","opt":true},{"id":"champ_003","type":"text","label":"Après « est actuellement de FCFA divisé en »","opt":true},{"id":"champ_004","type":"text","label":"Après « de FCFA divisé en parts de »","opt":true},{"id":"champ_005","type":"text","label":"Après « FCFA chacune pour le porter à »","opt":true},{"id":"champ_006","type":"text","label":"Après « à FCFA par la création de »","opt":true},{"id":"champ_007","type":"text","label":"Après « la création de parts nouvelles de »","opt":true},{"id":"champ_008","type":"text","label":"Après « la création de parts nouvelles de » (2)","opt":true},{"id":"champ_009","type":"text","label":"Après « du capital social d’une somme de »","opt":true},{"id":"champ_010","type":"text","label":"Après « et porteront jouissances à compter du »","opt":true},{"id":"champ_011","type":"text","label":"Après « de modifier comme suit les articles »","opt":true},{"id":"champ_012","type":"text","label":"Après « Article »","opt":true},{"id":"champ_013","type":"text","label":"Après « de la constitution la somme de »","opt":true},{"id":"champ_014","type":"date","label":"Après « par l’associé unique en date du »","opt":true},{"id":"champ_015","type":"date","label":"Après « en date du la somme de »","opt":true},{"id":"champ_016","type":"text","label":"Après « Article » (2)","opt":true},{"id":"champ_017","type":"text","label":"Après « est fixé à la somme de »","opt":true},{"id":"champ_018","type":"text","label":"Après « de FCFA Il est divisé en »","opt":true},{"id":"champ_019","type":"text","label":"Après « Il est divisé en parts de »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"Exemple","champ_011":"Exemple","champ_012":"Exemple","champ_013":"Exemple","champ_014":"2000-01-01","champ_015":"2000-01-01","champ_016":"Exemple","champ_017":"Exemple","champ_018":"Exemple","champ_019":"Exemple"}}
+{
+  "id": "source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "11 min",
+  "docTitle": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS",
+  "fileBase": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS",
+  "headline": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Decision de",
+      "titre": "Decision de l’associe unique",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "DECISION DE L’ASSOCIE UNIQUE",
+          "opt": true,
+          "group": "GERANT DE LA SARL «…»",
+          "aide": "…GERANT DE LA SARL ▢"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Capital",
+          "opt": true,
+          "group": "Capital … FCFA",
+          "aide": "…Capital ▢ FCFA…"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Commune",
+          "opt": true,
+          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
+          "aide": "…Siège social ABIDJAN Commune ▢ Quartier…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
+          "aide": "…Siège social ABIDJAN Commune Quartier ▢"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "BP … ; RCCM :",
+          "aide": "…BP ▢ RCCM…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Avant « RCCM »",
+          "opt": true,
+          "group": "BP … ; RCCM :",
+          "aide": "…BP ▢ RCCM…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "L'an deux",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,"
+        },
+        {
+          "id": "champ_027",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le ▢ à heures…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Société à",
+      "titre": "Société à Responsabilité Limitée Unipersonnelle",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le à ▢ heures…"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Minutes",
+          "opt": true,
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L'an deux le à heures ▢"
+        },
+        {
+          "id": "champ_030",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
+          "aide": "…Monsieur ▢ associé unique et seul…"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Avant « associé unique et seul »",
+          "opt": true,
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
+          "aide": "…Monsieur ▢ associé unique et seul…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "D’augmenter de la somme de",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Social qui est actuellement de",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Divisé en",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Parts de",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Partie 3",
+      "titre": "Première décision : Augmentation du capital",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Pour le porter à",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "FCFA par la création de",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Parts nouvelles de",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Avant « FCFA »",
+          "opt": true,
+          "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…",
+          "aide": "…la création de parts nouvelles de ▢ FCFA…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "D’une somme de",
+          "opt": true,
+          "group": "Cette augmentation est réalisée au moyen de l’émission au pair et/ou…"
+        },
+        {
+          "id": "champ_010",
+          "type": "date",
+          "label": "Porteront jouissances à compter du",
+          "opt": true,
+          "group": "Les parts nouvelles ainsi créées qui seront assujetties à toutes les…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Modifier comme suit les articles",
+          "opt": true,
+          "group": "En conséquence de la résolution qui précède, et sous la condition…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Article",
+          "opt": true,
+          "group": "Article …. : Apports",
+          "aide": "…Article ▢ Apports…"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "La somme de",
+          "opt": true,
+          "group": "Lors de la constitution, la somme de … FCFA ;",
+          "aide": "…de la constitution la somme de ▢ FCFA…"
+        },
+        {
+          "id": "champ_014",
+          "type": "date",
+          "label": "L’associé unique en date du",
+          "opt": true,
+          "group": "Lors de l’augmentation de capital décidée par l’associé unique en date…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "La somme de",
+          "opt": true,
+          "group": "Lors de l’augmentation de capital décidée par l’associé unique en date…",
+          "aide": "…en date du la somme de ▢ FCFA par souscription en…"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Article",
+          "opt": true,
+          "group": "Article …. : Capital social",
+          "aide": "…Article ▢ Capital social…"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Fixé à la somme de",
+          "opt": true,
+          "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Il est divisé en",
+          "opt": true,
+          "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Parts de",
+          "opt": true,
+          "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "La séance est levée à",
+          "opt": true,
+          "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures…"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mr …",
+          "aide": "…Mr ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**DECISION DE L’ASSOCIE UNIQUE**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**GERANT DE LA SARL «{{champ_020}}»**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société à Responsabilité Limitée Unipersonnelle**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Capital {{champ_021}} FCFA**",
+      "ind": 5
+    },
+    {
+      "k": "p",
+      "text": "**Siège social** : ABIDJAN**, Commune {{champ_022}}, Quartier {{champ_023}}**",
+      "ind": 1
+    },
+    {
+      "k": "p",
+      "text": "**BP {{champ_024}} {{champ_025}}; RCCM :**",
+      "ind": 2
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'an deux {{champ_026}}, le {{champ_027}} à {{champ_028}} heures {{champ_029}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_030}} {{champ_031}}**, associé unique et seul gérant de la société, après avoir pris connaissance des rapports du Commissaire aux comptes, a pris les décisions suivantes :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Première décision : Augmentation du capital**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique gérant décide d’augmenter de la somme de {{champ_001}} FCFA, le capital social qui est actuellement de {{champ_002}} FCFA, divisé en {{champ_003}} parts de {{champ_004}}. FCFA chacune, pour le porter à {{champ_005}} FCFA par la création de {{champ_006}}.parts nouvelles de {{champ_007}} {{champ_008}} FCFA",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Chacune, souscrites et libérées intégralement par versements d’espèces ou compensation avec une créance, certaine, liquide et exigible sur la société.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Cette augmentation est réalisée au moyen de l’émission au pair et/ou cette augmentation est réalisée au moyen de l’émission avec prime, chaque part donnant lieu au versement en sus du capital social, d’une somme de {{champ_009}} FCFA au profit de la société.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le montant total des primes sera porté à un compte « primes d’émission » qui pourra recevoir toute affectation que l’associé unique décidera.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parts nouvelles ainsi créées qui seront assujetties à toutes les dispositions statutaires, seront assimilées aux parts anciennes et porteront jouissances à compter du {{champ_010}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En conséquence de la résolution qui précède, et sous la condition suspensive de la réalisation définitive de l’augmentation de capital, l’associé unique gérant décide de modifier comme suit les articles {{champ_011}} des statuts.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**Article {{champ_012}}. : Apports**",
+      "mk": "◦"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il a été apporté à la société :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Lors de la constitution, la somme de {{champ_013}} FCFA ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Lors de l’augmentation de capital décidée par l’associé unique en date du {{champ_014}}, la somme de {{champ_015}} FCFA par souscription en numéraire.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "**Article {{champ_016}}.** : **Capital social**",
+      "mk": "◦"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social est fixé à la somme de {{champ_017}}.FCFA. Il est divisé en {{champ_018}} parts de {{champ_019}} FCFA chacune.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Deuxième décision : Transformation de la forme juridique**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique après avoir entendu la lecture du rapport du Commissaire aux comptes :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Prend acte de l’attestation du Commissaire aux comptes que :",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Les capitaux propres de la société sont au moins égaux au capital social,",
+      "mk": "◦"
+    },
+    {
+      "k": "li",
+      "text": "La société a fait approuver par les associés les bilans des deux premiers exercices ;",
+      "mk": "◦"
+    },
+    {
+      "k": "li",
+      "text": "Et décide la transformation en Société par Actions Simplifiée à compter de ce jour.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Troisième décision : Transformation - Mode d’administration**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique décide de changer le mode d’administration la société par :",
+      "al": "left"
+    },
+    {
+      "k": "li",
+      "text": "Un Président,",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Un Directeur Général,",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Un Directeur Général Adjoint,",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Quatrième décision : Transformation - Modification des statuts**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique en conséquence de la résolution qui précède et après avoir pris connaissance du projet de statuts de la société sous sa nouvelle forme juridique, adopte dans toutes dispositions lesdits statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Cinquième décision : Pouvoirs**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’associé unique, délègue tous pouvoirs sont donnés au porteur d’une copie ou d’un extrait du procès-verbal constatant les délibérations à l’effet d’accomplir toutes formalités légales ou autres."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Plus rien n’étant à l’ordre du jour, la séance est levée à {{champ_032}} heures      minutes.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De tout ce qui précède, l’associé unique gérant a dressé le présent procès-verbal qu’il a signé.",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mr {{champ_033}}**",
+      "al": "right"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "2000-01-01",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "Exemple",
+    "champ_031": "Exemple",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "2000-01-01",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "2000-01-01",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple"
+  }
+}

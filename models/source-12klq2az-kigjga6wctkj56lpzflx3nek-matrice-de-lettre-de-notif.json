@@ -1,1 +1,220 @@
-{"id":"source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif","cat":"societes-associations","sub":"Matrice Redigee","titre":"Lettre de notification d’un représentant permanent","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Lettre de notification d’un représentant permanent : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrice redigee","modèle Word","matrice","anonymisé"],"duree":"6 min","docTitle":"Lettre de notification d’un représentant permanent","fileBase":"Lettre de notification d’un représentant permanent","headline":"Lettre de notification d’un représentant permanent","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Information à compléter","req":true},{"id":"champ_002","type":"text","label":"Après « notre société en sa séance du »","opt":true},{"id":"champ_003","type":"text","label":"Identification, adresse","opt":true},{"id":"champ_004","type":"text","label":"Après « lors de son Assemblée Générale du »","opt":true},{"id":"champ_005","type":"text","label":"Après « notre société en sa séance du » (2)","opt":true},{"id":"champ_006","type":"text","label":"Après « de la démission du décès de »","opt":true},{"id":"champ_007","type":"text","label":"Après « qualité d’Administrateur avait confié à M »","opt":true},{"id":"champ_008","type":"text","label":"Après « a confié ce mandat à M »","opt":true},{"id":"champ_009","type":"text","label":"Après « Fait à »","opt":true},{"id":"champ_010","type":"date","label":"Après « Fait à le »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Lettre de notification d’un représentant permanent"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"2000-01-01"}}
+{
+  "id": "source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif",
+  "cat": "societes-associations",
+  "sub": "Matrice Redigee",
+  "titre": "Lettre de notification d’un représentant permanent",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Lettre de notification d’un représentant permanent : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrice redigee",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "5 min",
+  "docTitle": "Lettre de notification d’un représentant permanent",
+  "fileBase": "Lettre de notification d’un représentant permanent",
+  "headline": "Lettre de notification d’un représentant permanent",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Lettre au",
+      "titre": "Lettre au porteur contre récépissé ou lettre recommandée avec AR",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Société Administrée",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "En sa séance du",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "A désigné M",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Identification, adresse",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "De son Assemblée Générale du",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "En sa séance du",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Du décès de",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Avant « avait confié à M »",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…",
+          "aide": "…notre société en sa qualité d’Administrateur ▢ avait confié à M…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "En cas",
+      "titre": "En cas de désignation",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avait confié à M",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Confié ce mandat à M",
+          "opt": true,
+          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Fait à",
+          "opt": true,
+          "group": "Fait à …, le …",
+          "aide": "…Fait à ▢ le…"
+        },
+        {
+          "id": "champ_010",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Fait à …, le …",
+          "aide": "…Fait à le ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**LETTRE DE NOTIFICATION D’UN REPRESENTANT PERMANENT**"
+    },
+    {
+      "k": "p",
+      "text": "**« En-tête de la société administrateur  personne morale  »**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Lettre au porteur contre récépissé                              ou lettre recommandée avec AR**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Société Administrée",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_001}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Mesdames, Messieurs,"
+    },
+    {
+      "k": "p",
+      "text": "**En cas de désignation**"
+    },
+    {
+      "k": "p",
+      "text": "Nous avons l’honneur de vous informer que le Conseil d’Administration de notre société, en sa séance du {{champ_002}}, a désigné M {{champ_003}} {{champ_011}}, en qualité de représentant permanent pour exercer le mandat d’Administrateur qui nous a été confié par votre société (dans ses statuts, ou lors de son Assemblée Générale du {{champ_004}})."
+    },
+    {
+      "k": "p",
+      "text": "**En cas de révocation, démission et de remplacement d’un représentant permanent on indiquera**"
+    },
+    {
+      "k": "p",
+      "text": "Nous avons l’honneur de vous informer que le Conseil d’Administration de notre société, en sa séance du {{champ_005}}, a révoqué (ou a pris acte de la démission, du décès de {{champ_006}}) le mandat de représentant permanent que notre société, en sa qualité d’Administrateur, {{champ_012}} avait confié à M {{champ_007}} et qu’il a confié ce mandat à M {{champ_008}}  qui l’exercera à compter de ce jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à {{champ_009}}, le {{champ_010}}",
+      "al": "left"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_011": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_012": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "2000-01-01"
+  }
+}

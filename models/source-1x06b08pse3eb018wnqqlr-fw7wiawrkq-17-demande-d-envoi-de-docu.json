@@ -1,1 +1,281 @@
-{"id":"source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu","cat":"societes-associations","sub":"Ohada","titre":"Demande d’envoi de documents aux actionnaires","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Demande d’envoi de documents aux actionnaires : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["ohada","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Demande d’envoi de documents aux actionnaires","fileBase":"Demande d’envoi de documents aux actionnaires","headline":"Demande d’envoi de documents aux actionnaires","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Demande d’envoi de documents aux actionnaires"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu",
+  "cat": "societes-associations",
+  "sub": "Ohada",
+  "titre": "Demande d’envoi de documents aux actionnaires",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Demande d’envoi de documents aux actionnaires : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "ohada",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "6 min",
+  "docTitle": "Demande d’envoi de documents aux actionnaires",
+  "fileBase": "Demande d’envoi de documents aux actionnaires",
+  "headline": "Demande d’envoi de documents aux actionnaires",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Demande d'envoi",
+      "titre": "Demande d'envoi de documents",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Avant « Cette demande doit être »",
+          "opt": true,
+          "group": "Attention : … Cette demande doit être envoyée à tous les actionnaires…",
+          "aide": "…Attention ▢ Cette demande doit être…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "opt": true
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Montant",
+          "opt": true,
+          "group": "au capital de … CFA",
+          "aide": "…au capital de ▢ CFA…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Siège social : …"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "▢ RCCM…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "…RCCM ▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Demande d'envoi",
+      "titre": "Demande d'envoi des documents et renseignements vises a l'article 525…",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Nom de l'actionnaire",
+          "opt": true,
+          "group": "Je soussigné(e) …, demeurant … ,"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Je soussigné(e) …, demeurant … ,"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true,
+          "group": "Je soussigné(e) …, demeurant … ,"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "Je soussigné(e) …, demeurant … ,",
+          "aide": "…Je soussigné e demeurant ▢"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Nombre actions",
+          "opt": true,
+          "group": "Propriétaire de … actions nominatives de la Société … demande que me…"
+        },
+        {
+          "id": "champ_014",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Propriétaire de … actions nominatives de la Société … demande que me…",
+          "aide": "…concernant l'assemblée générale convoquée pour le ▢"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Fait à",
+          "opt": true,
+          "group": "Fait à …",
+          "aide": "…Fait à ▢"
+        },
+        {
+          "id": "champ_016",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le …",
+          "aide": "…Le ▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "**Demande d'envoi de documents**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Attention** : {{champ_001}} Cette demande doit être envoyée à tous les actionnaires (Art.525 et svts)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_002}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société anonyme avec Conseil d'administration**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**au capital de {{champ_003}} CFA**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Siège social : {{champ_004}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_005}} {{champ_006}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_007}} RCCM {{champ_008}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "DEMANDE D'ENVOI DES DOCUMENTS ET RENSEIGNEMENTS VISES A L'ARTICLE 525 AUSCGIE",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Je soussigné(e) {{champ_009}}, demeurant {{champ_010}} {{champ_011}} {{champ_012}},"
+    },
+    {
+      "k": "p",
+      "text": "Propriétaire de {{champ_013}} actions nominatives de la Société {{champ_002}} demande que me soient adressés les documents et renseignements visés à l'article 525 AUSCGIE concernant l'assemblée générale convoquée pour le {{champ_014}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En ma qualité d'actionnaire, propriétaire d'actions nominatives, je demande également à recevoir pour chacune des assemblées générales ultérieures un formulaire de procuration et les documents et renseignements visés à l’article 526 AUSCGIE."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Fait à {{champ_015}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Le {{champ_016}}**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "2000-01-01",
+    "champ_015": "Exemple",
+    "champ_016": "2000-01-01"
+  }
+}

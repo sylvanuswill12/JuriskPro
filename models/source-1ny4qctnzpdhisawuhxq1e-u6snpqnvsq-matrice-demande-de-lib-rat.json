@@ -1,1 +1,198 @@
-{"id":"source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat","cat":"societes-associations","sub":"Matrices Des Actes","titre":"Demande de libération d’actions souscrites","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Demande de libération d’actions souscrites : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices des actes","modèle Word","matrice","anonymisé"],"duree":"4 min","docTitle":"Demande de libération d’actions souscrites","fileBase":"Demande de libération d’actions souscrites","headline":"Demande de libération d’actions souscrites","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « Vous avez souscrit à »","req":true},{"id":"champ_002","type":"text","label":"Après « Vous avez souscrit à actions de »","opt":true},{"id":"champ_003","type":"text","label":"Après « chacune Votre souscription s’élevant ainsi à »","opt":true},{"id":"champ_004","type":"text","label":"Après « devez donc libérer une somme de »","opt":true},{"id":"champ_005","type":"date","label":"Après « votre convenance au plus tard le »","opt":true},{"id":"champ_006","type":"text","label":"Information à compléter","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Demande de libération d’actions souscrites"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"2000-01-01","champ_006":"Exemple"}}
+{
+  "id": "source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat",
+  "cat": "societes-associations",
+  "sub": "Matrices Des Actes",
+  "titre": "Demande de libération d’actions souscrites",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Demande de libération d’actions souscrites : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices des actes",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "5 min",
+  "docTitle": "Demande de libération d’actions souscrites",
+  "fileBase": "Demande de libération d’actions souscrites",
+  "headline": "Demande de libération d’actions souscrites",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Informations à renseigner",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_007",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Abidjan, le …",
+          "aide": "…Abidjan le ▢"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Monsieur",
+          "opt": true,
+          "group": "Monsieur …",
+          "aide": "…Monsieur ▢"
+        },
+        {
+          "id": "champ_009",
+          "type": "date",
+          "label": "Par délibération en date du",
+          "opt": true,
+          "group": "Par délibération en date du …, le conseil d’administration a décidé de…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Vous avez souscrit à",
+          "opt": true,
+          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "De",
+          "opt": true,
+          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…",
+          "aide": "…Vous avez souscrit à actions de ▢ F CFA chacune Votre…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Votre souscription s’élevant ainsi à",
+          "opt": true,
+          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Donc libérer une somme de",
+          "opt": true,
+          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+        },
+        {
+          "id": "champ_005",
+          "type": "date",
+          "label": "Convenance au plus tard le",
+          "opt": true,
+          "group": "Nous vous demandons de bien vouloir procéder à ce règlement par tous…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Le président du conseil d’administration",
+          "opt": true,
+          "aide": "▢"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "Abidjan, le {{champ_007}}",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Lettre recommandée**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur {{champ_008}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Objet : **demande de libération d’actions  souscrites**",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Cher Actionnaire,",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Par délibération en date du {{champ_009}}, le conseil d’administration a décidé de faire procéder à la libération intégrale du capital."
+    },
+    {
+      "k": "p",
+      "text": "Vous avez souscrit à  {{champ_001}} actions, de  {{champ_002}}  F CFA chacune. Votre souscription s’élevant ainsi à  **{{champ_003}}  **F CFA, a été libérée du quart ¼  lors de la constitution, vous devez donc libérer une somme de {{champ_004}} FCA."
+    },
+    {
+      "k": "p",
+      "text": "Nous vous demandons de bien vouloir procéder à ce règlement par tous moyens à votre convenance au plus tard le {{champ_005}} , délai fixé par le conseil d’administration."
+    },
+    {
+      "k": "p",
+      "text": "Nous vous rappelons que les sommes non libérées dans ledit délai seront productives de l’intérêt légal sans préjudice de dommages et intérêts s’il y a lieu."
+    },
+    {
+      "k": "p",
+      "text": "Dans cette attente,"
+    },
+    {
+      "k": "p",
+      "text": "Nous vous prions, de croire, Cher Actionnaire, à l’assurance de nos sentiments distingués."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le président du conseil d’administration",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_006}}",
+      "al": "left",
+      "ind": 6
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_007": "2000-01-01",
+    "champ_008": "Exemple",
+    "champ_009": "2000-01-01",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "2000-01-01",
+    "champ_006": "Exemple"
+  }
+}

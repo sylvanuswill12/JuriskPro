@@ -1,1 +1,1289 @@
-{"id":"source-1tlkkptjkaemvsx6gimhdsm-qw7jvjmst-matrice-statuts-associatio","cat":"societes-associations","sub":"Associations","titre":"Statuts d’association (matrice Word)","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Statuts d’association (matrice Word) : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["associations","modèle Word","matrice","anonymisé"],"duree":"9 min","docTitle":"Statuts d’association (matrice Word)","fileBase":"Statuts d’association (matrice Word)","headline":"Statuts d’association (matrice Word)","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"champ_001","type":"text","label":"Après « siège de l’association est fixé à »","req":true},{"id":"champ_002","type":"text","label":"Après « siège de l’association est fixé à » (2)","opt":true},{"id":"champ_003","type":"text","label":"Après « de l’association est fixé à Lot »","opt":true},{"id":"champ_004","type":"text","label":"Après « Ilot »","opt":true},{"id":"champ_005","type":"text","label":"Après « Ilot Boîte Postale »","opt":true},{"id":"champ_006","type":"text","label":"Après « Ilot Boîte Postale » (2)","opt":true},{"id":"champ_007","type":"text","label":"Information à compléter","opt":true},{"id":"champ_008","type":"text","label":"Après « Président de l’association est élu pour »","opt":true},{"id":"champ_009","type":"text","label":"Après « Président de l’association est élu pour » (2)","opt":true},{"id":"champ_010","type":"text","label":"Information à compléter (2)","opt":true},{"id":"champ_011","type":"text","label":"Information à compléter (3)","opt":true},{"id":"champ_012","type":"text","label":"Information à compléter (4)","opt":true},{"id":"champ_013","type":"text","label":"Après « Le Bureau exécutif est élu pour »","opt":true},{"id":"champ_014","type":"text","label":"Après « aux Comptes pour une durée de »","opt":true},{"id":"champ_015","type":"text","label":"Après « droits d’adhésion qui sont fixés à »","opt":true},{"id":"champ_016","type":"text","label":"Après « cotisations Mensuelles qui sont fixées à »","opt":true},{"id":"champ_017","type":"text","label":"Après « adopté en Assemblée Générale Constitutive à »","opt":true},{"id":"champ_018","type":"text","label":"Après « adopté en Assemblée Générale Constitutive à » (2)","opt":true},{"id":"champ_019","type":"text","label":"Après « adopté en Assemblée Générale Constitutive à » (3)","opt":true},{"id":"champ_020","type":"date","label":"Après « en Assemblée Générale Constitutive à le »","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Statuts d’association (matrice Word)"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1tlkkptjkaemvsx6gimhdsm-qw7jvjmst-matrice-statuts-associatio.docx","version":"1"},"exemple":{"champ_001":"Exemple","champ_002":"Exemple","champ_003":"Exemple","champ_004":"Exemple","champ_005":"Exemple","champ_006":"Exemple","champ_007":"Exemple","champ_008":"Exemple","champ_009":"Exemple","champ_010":"Exemple","champ_011":"Exemple","champ_012":"Exemple","champ_013":"Exemple","champ_014":"Exemple","champ_015":"Exemple","champ_016":"Exemple","champ_017":"Exemple","champ_018":"Exemple","champ_019":"Exemple","champ_020":"2000-01-01"}}
+{
+  "id": "source-1tlkkptjkaemvsx6gimhdsm-qw7jvjmst-matrice-statuts-associatio",
+  "cat": "societes-associations",
+  "sub": "Associations",
+  "titre": "Statuts d’association (matrice Word)",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Statuts d’association (matrice Word) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "associations",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "8 min",
+  "docTitle": "Statuts d’association (matrice Word)",
+  "fileBase": "Statuts d’association (matrice Word)",
+  "headline": "Statuts d’association (matrice Word)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Partie 1",
+      "titre": "Partie 1",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "MINISTERE DE",
+          "opt": true,
+          "group": "MINISTERE DE … REPUBLIQUE DE COTE D’IVOIRE"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "BP … / Tél. :",
+          "aide": "…BP ▢ Tél…"
+        },
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "De l’association est fixé à",
+          "opt": true,
+          "group": "Le siège de l’association est fixé à … Lot …."
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Avant « Lot »",
+          "opt": true,
+          "group": "Le siège de l’association est fixé à … Lot ….",
+          "aide": "…siège de l’association est fixé à ▢ Lot…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Lot",
+          "opt": true,
+          "group": "Le siège de l’association est fixé à … Lot ….",
+          "aide": "…de l’association est fixé à Lot ▢"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Ilot",
+          "opt": true,
+          "group": "Ilot … Boîte Postale … .",
+          "aide": "…Ilot ▢ Boîte Postale…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Boîte Postale",
+          "opt": true,
+          "group": "Ilot … Boîte Postale … ."
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Article 4 Siège social",
+          "opt": true,
+          "group": "Ilot … Boîte Postale … .",
+          "aide": "…Ilot Boîte Postale ▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Art. 5",
+      "titre": "Article 5 : Objet",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "L’association a pour objet",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "De l’association est élu pour",
+          "opt": true,
+          "group": "15-3 : Le Président de l’association est élu pour … ans. Il est…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Avant « ans Il est rééligible »",
+          "opt": true,
+          "group": "15-3 : Le Président de l’association est élu pour … ans. Il est…",
+          "aide": "…Président de l’association est élu pour ▢ ans Il est rééligible…"
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "L’association comprend outre un Président",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "L’association comprend outre un Président",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_012",
+          "type": "text",
+          "label": "L’association comprend outre un Président",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Bureau exécutif est élu pour",
+          "opt": true,
+          "group": "Le Bureau exécutif est élu pour … ans. Les membres sont rééligibles."
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Comptes pour une durée de",
+          "opt": true,
+          "group": "L’Assemblée Générale élit dans les mêmes conditions que celles du…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Art. 23",
+      "titre": "Article 23 : Ressources",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "D’adhésion qui sont fixés à",
+          "opt": true,
+          "group": "Des droits d’adhésion qui sont fixés à … F/CFA ;"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Mensuelles qui sont fixées à",
+          "opt": true,
+          "group": "Des cotisations Mensuelles qui sont fixées à … F/CFA ;"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "En Assemblée Générale Constitutive à",
+          "opt": true,
+          "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
+          "aide": "…adopté en Assemblée Générale Constitutive à ▢ le…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
+          "aide": "…adopté en Assemblée Générale Constitutive à ▢ le…"
+        },
+        {
+          "id": "champ_020",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
+          "aide": "…en Assemblée Générale Constitutive à le ▢"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Nom Prénoms",
+          "opt": true,
+          "group": "Nom & Prénoms … Nom & Prénoms",
+          "aide": "…Nom Prénoms ▢ Nom Prénoms…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "p",
+      "text": "MINISTERE DE {{champ_021}} REPUBLIQUE DE COTE D’IVOIRE",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Union – discipline - Travail",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "MINISTERE",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "BP {{champ_022}} / Tél. :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**S T A T U T S**",
+      "al": "center"
+    },
+    {
+      "k": "pb"
+    },
+    {
+      "k": "p",
+      "text": "**TITRE I : CONSTITUTION – DENOMINATION – SIEGE – DUREE - OBJET**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 1er : Constitution**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il est constitué entre ceux qui adhèrent aux présents statuts, une association régie par la loi N°60-315 du 21 Septembre 1960 relative aux associations."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 2 : Dénomination**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Association visée à l’article premier est dénommée **\" START LAB\"**."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 3 : Durée**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’association est constituée pour une durée indéterminée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 4 : Siège social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le siège de l’association est fixé à {{champ_001}} {{champ_002}} Lot {{champ_003}}."
+    },
+    {
+      "k": "p",
+      "text": "Ilot {{champ_004}} Boîte Postale {{champ_005}} {{champ_006}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il peut être transféré en cas de besoin en tout autre lieu du territoire national sur décision de l’Assemblée Générale."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 5 : Objet**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’association a pour objet :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_007}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**TITRE II : DE L’ACQUISITION ET DE LA PERTE DE LA QUALITE DE MEMBRE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 6 : Qualité de membre**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’association est composée de membres actifs et de membres d’honneur."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6-1** : Peuvent être admis comme membres actifs, les personnes :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Qui ont adhéré aux présents statuts ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Qui se sont acquittées de leur droit d’adhésion et qui paient régulièrement leur cotisation Mensuelle.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6-2** : Peuvent être admis comme membres d’honneur, les personnes qui ont rendu, rendent ou sont susceptibles de rendre des services éminents à l’association."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 : Perte de la qualité de membre**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La qualité de membre se perd par :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Démission ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Radiation ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Décès.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**TITRE III : ORGANISATION ADMINISTRATIVE DE L’ASSOCIATION**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’association est dotée des organes suivants :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "L’Assemblée Générale (AG) ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Le Bureau Exécutif (BE) ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Le Commissariat aux Comptes (CC).",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CHAPITRE I : L’ASSEMBLEE GENERALE**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 8 : L’Assemblée Générale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale est l’organe suprême de décision de l’association. Elle est qualifiée d’ordinaire ou d’extraordinaire suivant l’objet de ses délibérations."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 9 : Composition**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’assemblée Générale est composée des membres du Bureau Exécutif, des Commissaires aux Comptes et des membres actifs."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 10 : Pouvoirs**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale définit la politique générale de l’Association."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elle élit les membres du Bureau Exécutif et du Commissariat aux Comptes et met fin à leurs fonctions dans les conditions prévues par les présents statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elle :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Fixe le taux des cotisations et les indemnités à allouer aux membres du Bureau Exécutif et du Commissariat aux comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Entend les rapports du Bureau Exécutif et  du Commissariat aux Comptes ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Discute et approuve le bilan et le compte de l’exercice clos ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Donne quitus annuel ou définitif au Bureau Exécutif ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Prononce l’exclusion définitive des membres ou leur démission ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Donne pouvoir au Bureau Exécutif pour l’exécution de toutes les tâches de gestion ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Décide de la modification des statuts, approuve le règlement intérieur ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Prononce la dissolution de l’association et définit les modalités d’affectation de l’actif, la dissolution anticipée, le transfert du siège dans une localité, le changement de dénomination de l’association, la modification de la composition de l’Assemblée Générale et du Bureau Exécutif et de toutes modifications et extensions à titre permanent des pouvoirs du Bureau Exécutif.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 11 : Périodicité des réunions**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale se réunit une fois par an en session ordinaire sur convocation du Président du Bureau Exécutif ou de son remplaçant en cas d’empêchement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elle se réunit en session extraordinaire à la demande du Bureau Exécutif ou des 2/3 de ses membres actifs pour délibérer sur un ordre du jour bien précis."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 12 : Quorum**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale, pour délibérer valablement doit être composée de 2/3 de ses membres actifs."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les délibérations sont prises à la majorité des voix des membres présents ou représentés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nul ne peut être muni de plus de deux pouvoirs y compris le sien."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 13 : Présidence des séances**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les séances de l’Assemblée Générale réunie ordinairement ou extraordinairement sont présidées par le Président du Bureau Exécutif de l’association ou par un Président désigné parmi les membres actifs participants."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CHAPITRE II : BUREAU EXECUTIF**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 14 : Le Bureau exécutif**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Bureau Exécutif est l’organe de gestion et d’administration de l’association."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il agit conformément aux pouvoirs qui lui sont propres et ceux qui lui sont délégués par l’Assemblée Générale."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 15 : Mode de scrutin**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Pour être candidat à la Présidence du Bureau Exécutif de l’association, il faut :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Etre membre de l’Assemblée Générale ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Etre à jour de ses cotisations ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**15-1 :** L’Assemblée Générale élit le Président de l’association au scrutin secret et à la majorité absolue."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si au premier tour aucun candidat n’a pu obtenir la majorité requise, il est procédé à un second tour à la majorité simple avec les deux (02) candidats les mieux classés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas d’égalité des voix, il est procédé à un tirage au sort."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les dépouillements se feront sur place et en présence de tous les membres du bureau de vote."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**15-2 : **La proclamation des résultats se fera par le Président du bureau de vote à l’Assemblée Générale aussitôt les dépouillements terminés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**15-3 :** Le Président de l’association est élu pour {{champ_008}} {{champ_009}} ans. Il est rééligible."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 16 : Composition**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**16-1 : **Le Bureau Exécutif de l’association comprend outre un Président :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_010}}",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "{{champ_011}} {{champ_012}}",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**16-2 :** En cas de radiation, de démission, de décès ou d’empêchement absolu d’un de ses membres, le Bureau Exécutif a la faculté de se compléter à tout moment dans les limites prévues ci-dessous sauf confirmation de l’Assemblée Générale."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 17 : Mandat du Bureau Exécutif**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Bureau exécutif est élu pour {{champ_013}} ans. Les membres sont rééligibles."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 18 : Pouvoir du Bureau Exécutif**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Bureau exécutif est investi des pouvoirs les plus étendus pour agir en toutes circonstances au nom de l’association."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Délibère sur toutes les questions courantes ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Arrête l’inventaire annuel, les bilans et les comptes et établit tout document qui pourrait être soumis à l’Assemblée Générale ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Dresse un rapport d’activités à présenter à cette Assemblée Générale et fait des propositions ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Convoque l’Assemblée Générale et arrête le projet de son ordre du jour ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Exécute les décisions de l’Assemblée Générale ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Détermine le placement des fonds disponibles ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Autorise tout retrait et transfert de fonds appartenant à l’Association avec ou sans garantie ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Procède à l’installation des sections de l’association ;",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Etablit le règlement intérieur de l’association et le soumet à l’approbation de l’Assemblée Générale.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les pouvoirs ci-dessus du Bureau Exécutif sont énonciatifs et non limitatifs."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale pourra les restreindre ou les supprimer."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 19 : Réunions**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le Bureau Exécutif se réunit une fois par trimestre à compter du jour de sa mise en place et autant de fois que de besoins à la demande des 2/3 de ses membres sur un ordre du jour bien précis."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 20 : Quorum**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les délibérations du bureau exécutif ne sont valables que si les 2/3 des membres sont présents."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le vote a lieu à la majorité simple ; la voix du Président étant prépondérante en cas de partage."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**CHAPITRE III : LE COMMISSARIAT AUX COMPTES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 21 : Composition du Commissariat aux Comptes**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’Assemblée Générale élit dans les mêmes conditions que celles du Bureau Exécutif deux Commissaires aux Comptes pour une durée de {{champ_014}} ans."
+    },
+    {
+      "k": "p",
+      "text": "Ils sont rééligibles."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 22 : Attributions des Commissaires aux Comptes**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les Commissaires aux Comptes examinent les comptes annuels et dressent un rapport spécial à l’Assemblée Générale assorti de leurs observations et propositions. A cet effet, les livres, la comptabilité et généralement toutes les écritures doivent être communiqués à toutes réquisitions."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ils peuvent à quelque époque que ce soit, vérifier l’état de la caisse."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ils remplissent leurs missions dans le cadre général des lois en vigueur."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**TITRE IV : RESSOURCES FINANCIERES ET BUDGETAIRES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 23 : Ressources**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les ressources de l’association proviennent essentiellement :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Des droits d’adhésion qui sont fixés à {{champ_015}} F/CFA ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Des cotisations Mensuelles qui sont fixées à {{champ_016}} F/CFA ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "Des subventions.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 24 : Année budgétaire**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’année budgétaire de l’association commence le 1er Janvier et se termine le 31 Décembre de l’année civile en cours."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 25 : Dépôt des fonds**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les fonds de l’association sont déposés dans une banque agréée par le Bureau Exécutif et dans un compte ouvert à cet effet."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 26 : Mouvements financiers**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’ouverture des comptes et les retraits des fonds doivent comporter deux (02) signatures à savoir :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Celle du Président ou en cas d’absence ou d’empêchement celle du Vice-Président et,",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Celle du Trésorier Général ou en cas d’absence ou d’empêchement celle du Trésorier Général Adjoint.",
+      "mk": "-",
+      "ind": 1
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**TITRE V : DISPOSITIONS FINALES**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 27 : Fonctions**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les fonctions exercées dans les différents organes de l’association sont gratuites."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, l’Assemblée Générale fixe les taux de remboursement des frais de déplacement, missions ou stages effectués par les membres de l’association dans le cadre de leurs fonctions."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 28 : Modifications des statuts et dissolution de l’association**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les modifications des statuts et la dissolution de l’association conformément à l’article 10, sont proposées à l’Assemblée Générale par :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "le Bureau Exécutif ou ;",
+      "mk": "-"
+    },
+    {
+      "k": "li",
+      "text": "les 2/3 des membres actifs de l’association.",
+      "mk": "-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Elles interviennent dans les conditions fixées à l’article 12 des présents statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 29 : Liquidation**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En cas de dissolution, l’Assemblée Générale désigne un Commissaire chargé de la liquidation des biens de l’association."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’actif net est attribué à une œuvre d’intérêt public."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 : Règlement Intérieur**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Un règlement intérieur fixera les modalités d’applications des présents statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait et adopté en Assemblée Générale Constitutive à {{champ_017}} {{champ_018}}.{{champ_019}}, le {{champ_020}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**LE SECRETAIRE GENERAL                                                       LE PRESIDENT**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "(Signature)    (Signature)"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nom & Prénoms {{champ_023}} Nom & Prénoms"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1tlkkptjkaemvsx6gimhdsm-qw7jvjmst-matrice-statuts-associatio.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "Exemple",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "2000-01-01",
+    "champ_023": "Exemple"
+  }
+}

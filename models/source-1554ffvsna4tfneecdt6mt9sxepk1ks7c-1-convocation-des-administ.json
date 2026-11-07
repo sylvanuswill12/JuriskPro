@@ -1,1 +1,296 @@
-{"id":"source-1554ffvsna4tfneecdt6mt9sxepk1ks7c-1-convocation-des-administ","cat":"societes-associations","sub":"Ohada","titre":"Convocation des administrateurs au conseil","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Convocation des administrateurs au conseil : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["ohada","modèle Word","matrice","anonymisé"],"duree":"1 min","docTitle":"Convocation des administrateurs au conseil","fileBase":"Convocation des administrateurs au conseil","headline":"Convocation des administrateurs au conseil","etapes":[{"id":"informations","court":"Informations","titre":"Aucune saisie nécessaire","intro":"","champs":[{"id":"info_matrice","type":"info","text":"Cette matrice ne contient pas de zone de saisie automatique. Téléchargez-la, puis complétez-la directement dans Word."}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Convocation des administrateurs au conseil"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1554ffvsna4tfneecdt6mt9sxepk1ks7c-1-convocation-des-administ.docx","version":"1"},"exemple":{},"sansChamps":true}
+{
+  "id": "source-1554ffvsna4tfneecdt6mt9sxepk1ks7c-1-convocation-des-administ",
+  "cat": "societes-associations",
+  "sub": "Ohada",
+  "titre": "Convocation des administrateurs au conseil",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Convocation des administrateurs au conseil : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "ohada",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "7 min",
+  "docTitle": "Convocation des administrateurs au conseil",
+  "fileBase": "Convocation des administrateurs au conseil",
+  "headline": "Convocation des administrateurs au conseil",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Convocation des",
+      "titre": "Convocation des administrateurs au Conseil",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "opt": true
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Montant",
+          "opt": true,
+          "group": "au capital de … CFA",
+          "aide": "…au capital de ▢ CFA…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true,
+          "group": "Siège social : …"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "Numéro",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "▢ RCCM…"
+        },
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "group": "… RCCM …",
+          "aide": "…RCCM ▢"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Nom du membre du Conseil convoqué",
+          "opt": true
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Société anonyme",
+      "titre": "Société anonyme avec Conseil d'administration",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Numéro et rue",
+          "opt": true
+        },
+        {
+          "id": "champ_010",
+          "type": "text",
+          "label": "Boîte postale",
+          "opt": true
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Ville",
+          "opt": true,
+          "aide": "▢"
+        },
+        {
+          "id": "champ_012",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Le …,",
+          "aide": "…Le ▢"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Civilité du membre du Conseil convoqué",
+          "opt": true,
+          "group": "…,"
+        },
+        {
+          "id": "champ_014",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…",
+          "aide": "…de notre Société se réunira le ▢ à à l'effet de…"
+        },
+        {
+          "id": "champ_015",
+          "type": "text",
+          "label": "Heure",
+          "opt": true,
+          "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…",
+          "aide": "…notre Société se réunira le à ▢ à l'effet de délibérer…"
+        },
+        {
+          "id": "champ_016",
+          "type": "text",
+          "label": "Lieu de la réunion",
+          "opt": true,
+          "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Civilité du membre du Conseil convoqué",
+          "opt": true,
+          "group": "En espérant que vous pourrez assister à cette réunion, nous vous prions…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "li",
+      "text": "**Convocation des administrateurs au Conseil**",
+      "mk": "1-"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_001}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Société anonyme avec Conseil d'administration**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**au capital de {{champ_002}} CFA**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**Siège social : {{champ_003}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_004}} {{champ_005}}**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_006}} RCCM {{champ_007}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_008}}**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_009}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "p",
+      "text": "**{{champ_010}} {{champ_011}}**",
+      "al": "left",
+      "ind": 6
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le {{champ_012}},",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_013}},",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Nous avons l'honneur de vous informer que le Conseil d'administration de notre Société se réunira le {{champ_014}}, à {{champ_015}}, {{champ_016}}, à l'effet de délibérer sur l'ordre du jour suivant :"
+    },
+    {
+      "k": "p",
+      "text": "-  Mise en harmonie des statuts avec les dispositions modifiées de l’Acte uniforme relatif au droit des sociétés commerciales adopté le 30 janvier 2014 et entré en vigueur le 05 mai 2014,"
+    },
+    {
+      "k": "p",
+      "text": "-  Convocation de l'assemblée générale extraordinaire des actionnaires."
+    },
+    {
+      "k": "p",
+      "text": "Pour le cas où vous ne pourriez assister à cette réunion, vous trouverez sous ce pli une formule de procuration à remettre dûment signée à l'administrateur auquel vous donnerez mandat de vous représenter."
+    },
+    {
+      "k": "p",
+      "text": "En espérant que vous pourrez assister à cette réunion, nous vous prions d'agréer, {{champ_017}}, l'expression de nos sentiments distingués."
+    },
+    {
+      "k": "p",
+      "text": "**Le Conseil d'administration**",
+      "al": "center"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1554ffvsna4tfneecdt6mt9sxepk1ks7c-1-convocation-des-administ.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "Exemple",
+    "champ_011": "Exemple",
+    "champ_012": "2000-01-01",
+    "champ_013": "Exemple",
+    "champ_014": "2000-01-01",
+    "champ_015": "Exemple",
+    "champ_016": "Exemple",
+    "champ_017": "Exemple"
+  }
+}

@@ -1,1 +1,751 @@
-{"id":"source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir","cat":"procurations-actes-divers","sub":"Matrices Procuration","titre":"Procuration pour acquérir (prix déjà payé)","sous":"Matrice Word anonymisée, mise en page d’origine conservée.","resume":"Procuration pour acquérir (prix déjà payé) : matrice anonymisée à compléter, puis à télécharger en Word ou en PDF.","tags":["matrices procuration","modèle Word","matrice","anonymisé"],"duree":"3 min","docTitle":"Procuration pour acquérir (prix déjà payé)","fileBase":"Procuration pour acquérir (prix déjà payé)","headline":"Procuration pour acquérir (prix déjà payé)","etapes":[{"id":"informations","court":"Informations","titre":"Informations à renseigner","intro":"Complétez les champs utiles : ils seront insérés aux emplacements prévus dans le document Word.","champs":[{"id":"notaire_nom","type":"text","label":"Nom du notaire","req":true},{"id":"prenom_notaire","type":"text","label":"Prénom du notaire (facultatif)","opt":true}]},{"id":"final","court":"Télécharger","titre":"Vérifier et télécharger","final":true,"champs":[]}],"doc":[{"k":"tit","text":"Procuration pour acquérir (prix déjà payé)"},{"k":"p","text":"Le document Word source sera rempli en conservant sa mise en page originale."}],"sourceTemplate":{"file":"templates/source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir.docx","version":"1"},"exemple":{"notaire_nom":"NOTAIRE EXEMPLE","prenom_notaire":"Exemple"}}
+{
+  "id": "source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir",
+  "cat": "procurations-actes-divers",
+  "sub": "Matrices Procuration",
+  "titre": "Procuration pour acquérir (prix déjà payé)",
+  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+  "resume": "Procuration pour acquérir (prix déjà payé) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "matrices procuration",
+    "modèle Word",
+    "matrice",
+    "anonymisé"
+  ],
+  "duree": "15 min",
+  "docTitle": "Procuration pour acquérir (prix déjà payé)",
+  "fileBase": "Procuration pour acquérir (prix déjà payé)",
+  "headline": "Procuration pour acquérir (prix déjà payé)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "L’an deux",
+      "titre": "L’an deux mil dix-huit",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_001",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "LE …",
+          "aide": "…LE ▢"
+        },
+        {
+          "id": "notaire_nom",
+          "type": "text",
+          "label": "Nom du notaire",
+          "opt": true,
+          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de COTE D’IVOIRE),…"
+        },
+        {
+          "id": "prenom_notaire",
+          "type": "text",
+          "label": "Prénom du notaire",
+          "opt": true,
+          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de COTE D’IVOIRE),…",
+          "aide": "…PARDEVANT Maître ▢ Notaire à ABIDJAN République…"
+        },
+        {
+          "id": "champ_002",
+          "type": "text",
+          "label": "Madame Monsieur",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…Madame Monsieur ▢ demeurant à époux se…"
+        },
+        {
+          "id": "champ_003",
+          "type": "text",
+          "label": "Avant « demeurant à époux se »",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…Madame Monsieur ▢ demeurant à époux se…"
+        },
+        {
+          "id": "champ_004",
+          "type": "text",
+          "label": "Avant « demeurant à époux se »",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…Madame Monsieur ▢ demeurant à époux se…"
+        },
+        {
+          "id": "champ_005",
+          "type": "text",
+          "label": "Demeurant à",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…Madame Monsieur demeurant à ▢ époux se de Monsieur…"
+        },
+        {
+          "id": "champ_006",
+          "type": "text",
+          "label": "De Monsieur",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…demeurant à époux se de Monsieur ▢ avec lequel laquelle elle…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_007",
+          "type": "text",
+          "label": "Avant « avec lequel laquelle elle »",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…demeurant à époux se de Monsieur ▢ avec lequel laquelle elle…"
+        },
+        {
+          "id": "champ_008",
+          "type": "text",
+          "label": "Elle il s’est mariée à",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…"
+        },
+        {
+          "id": "champ_009",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…laquelle elle il s’est mariée à ▢ le…"
+        },
+        {
+          "id": "champ_010",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
+          "aide": "…elle il s’est mariée à le ▢"
+        },
+        {
+          "id": "champ_011",
+          "type": "text",
+          "label": "Née à",
+          "opt": true,
+          "group": "Née à …, le …,",
+          "aide": "…Née à ▢ le…"
+        },
+        {
+          "id": "champ_012",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Née à …, le …,",
+          "aide": "…Née à le ▢"
+        },
+        {
+          "id": "champ_013",
+          "type": "text",
+          "label": "Carte Nationale d’Identité numéro C",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…"
+        },
+        {
+          "id": "champ_014",
+          "type": "text",
+          "label": "Établie en",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
+          "aide": "…Nationale d’Identité numéro C établie en ▢ le et valable jusqu’au…"
+        },
+        {
+          "id": "champ_015",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
+          "aide": "…d’Identité numéro C établie en le ▢ et valable jusqu’au…"
+        },
+        {
+          "id": "champ_016",
+          "type": "date",
+          "label": "Et valable jusqu’au",
+          "opt": true,
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
+          "aide": "…établie en le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_017",
+          "type": "text",
+          "label": "Monsieur Madame",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "champ_018",
+          "type": "text",
+          "label": "Avant « demeurant à Commune de »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "champ_019",
+          "type": "text",
+          "label": "Avant « demeurant à Commune de »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "champ_020",
+          "type": "text",
+          "label": "Demeurant à",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame demeurant à ▢ Commune de Quartier BP…"
+        },
+        {
+          "id": "champ_021",
+          "type": "text",
+          "label": "Avant « Commune de Quartier BP »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame demeurant à ▢ Commune de Quartier BP…"
+        },
+        {
+          "id": "champ_022",
+          "type": "text",
+          "label": "Commune de",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame demeurant à Commune de ▢ Quartier BP ici présent…"
+        },
+        {
+          "id": "champ_023",
+          "type": "text",
+          "label": "Avant « Quartier BP ici présent »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Monsieur Madame demeurant à Commune de ▢ Quartier BP ici présent…"
+        },
+        {
+          "id": "champ_024",
+          "type": "text",
+          "label": "Quartier",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
+        },
+        {
+          "id": "champ_025",
+          "type": "text",
+          "label": "Avant « BP ici présent qui »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
+        },
+        {
+          "id": "champ_026",
+          "type": "text",
+          "label": "Avant « BP ici présent qui »",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
+        },
+        {
+          "id": "champ_027",
+          "type": "text",
+          "label": "BP",
+          "opt": true,
+          "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
+          "aide": "…demeurant à Commune de Quartier BP ▢ ici présent qui accepte…"
+        },
+        {
+          "id": "champ_028",
+          "type": "text",
+          "label": "Né à",
+          "opt": true,
+          "group": "Né à … , le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_029",
+          "type": "text",
+          "label": "Avant « le »",
+          "opt": true,
+          "group": "Né à … , le …,",
+          "aide": "…Né à ▢ le…"
+        },
+        {
+          "id": "champ_030",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Né à … , le …,",
+          "aide": "…Né à le ▢"
+        },
+        {
+          "id": "champ_031",
+          "type": "text",
+          "label": "Carte d’Identité Nationale numéro C",
+          "opt": true,
+          "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…"
+        },
+        {
+          "id": "champ_032",
+          "type": "text",
+          "label": "Établie à",
+          "opt": true,
+          "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
+          "aide": "…d’Identité Nationale numéro C établie à ▢ le et valable jusqu’au…"
+        },
+        {
+          "id": "champ_033",
+          "type": "text",
+          "label": "Avant « le et valable jusqu’au »",
+          "opt": true,
+          "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
+          "aide": "…d’Identité Nationale numéro C établie à ▢ le et valable jusqu’au…"
+        },
+        {
+          "id": "champ_034",
+          "type": "date",
+          "label": "Date",
+          "opt": true,
+          "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
+          "aide": "…Nationale numéro C établie à le ▢ et valable jusqu’au…"
+        },
+        {
+          "id": "champ_035",
+          "type": "date",
+          "label": "Et valable jusqu’au",
+          "opt": true,
+          "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
+          "aide": "…établie à le et valable jusqu’au ▢"
+        },
+        {
+          "id": "champ_036",
+          "type": "text",
+          "label": "Sise à",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…terrain urbain non bâtie sise à ▢ Commune d’une superficie de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Ont comparu",
+      "titre": "Ont comparu",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_037",
+          "type": "text",
+          "label": "Avant « Commune d’une superficie de »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…terrain urbain non bâtie sise à ▢ Commune d’une superficie de…"
+        },
+        {
+          "id": "champ_038",
+          "type": "text",
+          "label": "Commune",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…urbain non bâtie sise à Commune ▢ d’une superficie de METRES…"
+        },
+        {
+          "id": "champ_039",
+          "type": "text",
+          "label": "D’une superficie de",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…"
+        },
+        {
+          "id": "champ_040",
+          "type": "text",
+          "label": "Avant « METRES CARRES formant les »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…sise à Commune d’une superficie de ▢ METRES CARRES formant les…"
+        },
+        {
+          "id": "champ_041",
+          "type": "text",
+          "label": "Avant « et îlot 509 du »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…METRES CARRES formant les lots numéros ▢ et îlot 509 du…"
+        },
+        {
+          "id": "champ_042",
+          "type": "text",
+          "label": "Et",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…CARRES formant les lots numéros et ▢ îlot 509 du Lotissement…"
+        },
+        {
+          "id": "champ_043",
+          "type": "text",
+          "label": "Avant « îlot 509 du Lotissement »",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…CARRES formant les lots numéros et ▢ îlot 509 du Lotissement…"
+        },
+        {
+          "id": "champ_044",
+          "type": "text",
+          "label": "Îlot",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
+          "aide": "…formant les lots numéros et îlot ▢ 509 du Lotissement Commune…"
+        },
+        {
+          "id": "champ_045",
+          "type": "text",
+          "label": "Du Lotissement",
+          "opt": true,
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…"
+        },
+        {
+          "id": "champ_046",
+          "type": "text",
+          "label": "Mme",
+          "opt": true,
+          "group": "Mme … Mr …",
+          "aide": "…Mme ▢ Mr…"
+        },
+        {
+          "id": "champ_047",
+          "type": "text",
+          "label": "Mr",
+          "opt": true,
+          "group": "Mme … Mr …",
+          "aide": "…Mme Mr ▢"
+        },
+        {
+          "id": "champ_048",
+          "type": "text",
+          "label": "Avant « dans blancs »",
+          "opt": true,
+          "group": "Barres : … dans blancs",
+          "aide": "…Barres ▢ dans blancs…"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**PROCURATION POUR ACQUERIR**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L’AN  DEUX  MIL  DIX-HUIT"
+    },
+    {
+      "k": "p",
+      "text": "LE {{champ_001}}"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "PARDEVANT Maître {{notaire_nom}} {{prenom_notaire}}, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**ONT COMPARU**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Madame/ Monsieur {{champ_002}}, {{champ_003}} **{{champ_004}}, demeurant à {{champ_005}} époux (se) de **Monsieur {{champ_006}}**, {{champ_007}} avec lequel/ laquelle elle/il s’est mariée à {{champ_008}} {{champ_009}}, le {{champ_010}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Née à {{champ_011}}, le {{champ_012}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De nationalité Ivoirienne"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_013}} établie en {{champ_014}}, le {{champ_015}} et valable jusqu’au {{champ_016}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "LAQUELLE, a par ces présentes, constitué pour son mandataire spécial :",
+      "al": "left"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Monsieur/ Madame {{champ_017}}**, {{champ_018}} {{champ_019}}, demeurant à {{champ_020}} {{champ_021}}, Commune de {{champ_022}} {{champ_023}}, Quartier {{champ_024}} {{champ_025}}, {{champ_026}} BP {{champ_027}}, ici présent  qui accepte,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Né à {{champ_028}} {{champ_029}}, le {{champ_030}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "De Nationalité  Ivoirienne,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Titulaire de la Carte d’Identité Nationale numéro C {{champ_031}}, établie à {{champ_032}} {{champ_033}}, le {{champ_034}} et valable jusqu’au {{champ_035}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A QUI elle donne pouvoir de pour elle et en son nom à l'effet de :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**ACQUERIR** aux prix, charges et conditions que le mandataire jugera convenables, le bien immobilier ci-après désigné"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Une parcelle** de terrain urbain non bâtie, sise à {{champ_036}} **{{champ_037}}, Commune {{champ_038}}**, d’une superficie de {{champ_039}} **({{champ_040}}) METRES CARRES**, formant les lots numéros   (**{{champ_041}}**) et {{champ_042}} (**{{champ_043}}**), îlot {{champ_044}} **(509)** du Lotissement {{champ_045}}, Commune de"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Reconnaître que le prix a déjà été payé par l’acquereur entre les mains du vendeur, en conséquence quittancer la totalité du prix."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Signer tous avant-contrats, contrats de vente et acte d’abandon de droits ou procès-verbaux d’adjudication, accepter toutes déclarations de command ; faire toutes affirmations prescrites par la loi relativement à la sincérité du prix ; faire toutes déclarations en vue de bénéficier de tous allègements fiscaux autorisés par la loi ;"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Faire opérer toutes formalités de publicité foncière ; toutes purges, dénonciations, notifications et offres de paiement, provoquer tous ordres, y produire, payer le prix de ladite acquisition, soit entre les mains du vendeur, soit entre celles des créanciers inscrits, en faire toutes consignations, former toutes demandes en mainlevée et exercer toutes actions, pour l’exécution de ladite acquisition ; constituer tous Avocats."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aux effets ci-dessus passer et signer tous actes, procès-verbaux et registres titres et pièces quelconques, élire domicile, substituer et généralement faire le nécessaire."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**DONT ACTE EN BREVET**",
+      "al": "right"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait et passé à ABIDJAN",
+      "ind": 2
+    },
+    {
+      "k": "p",
+      "text": "En l’Etude du Notaire Soussigné",
+      "ind": 4
+    },
+    {
+      "k": "p",
+      "text": "Et après lecture faite, les Comparants ont signé avec le Notaire.",
+      "ind": 4
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Mme {{champ_046}} Mr {{champ_047}}**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Me {{notaire_nom}}**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ledit acte contenant :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Renvois :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Blancs bâtonnés :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Barres : {{champ_048}} dans blancs",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Lignes entières rayées nulles :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Mots nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Chiffres nuls :",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "**PARAPHES**"
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir.docx",
+    "version": "2"
+  },
+  "exemple": {
+    "champ_001": "2000-01-01",
+    "notaire_nom": "NOTAIRE EXEMPLE",
+    "prenom_notaire": "Exemple",
+    "champ_002": "Exemple",
+    "champ_003": "Exemple",
+    "champ_004": "Exemple",
+    "champ_005": "Exemple",
+    "champ_006": "Exemple",
+    "champ_007": "Exemple",
+    "champ_008": "Exemple",
+    "champ_009": "Exemple",
+    "champ_010": "2000-01-01",
+    "champ_011": "Exemple",
+    "champ_012": "2000-01-01",
+    "champ_013": "Exemple",
+    "champ_014": "Exemple",
+    "champ_015": "2000-01-01",
+    "champ_016": "2000-01-01",
+    "champ_017": "Exemple",
+    "champ_018": "Exemple",
+    "champ_019": "Exemple",
+    "champ_020": "Exemple",
+    "champ_021": "Exemple",
+    "champ_022": "Exemple",
+    "champ_023": "Exemple",
+    "champ_024": "Exemple",
+    "champ_025": "Exemple",
+    "champ_026": "Exemple",
+    "champ_027": "Exemple",
+    "champ_028": "Exemple",
+    "champ_029": "Exemple",
+    "champ_030": "2000-01-01",
+    "champ_031": "Exemple",
+    "champ_032": "Exemple",
+    "champ_033": "Exemple",
+    "champ_034": "2000-01-01",
+    "champ_035": "2000-01-01",
+    "champ_036": "Exemple",
+    "champ_037": "Exemple",
+    "champ_038": "Exemple",
+    "champ_039": "Exemple",
+    "champ_040": "Exemple",
+    "champ_041": "Exemple",
+    "champ_042": "Exemple",
+    "champ_043": "Exemple",
+    "champ_044": "Exemple",
+    "champ_045": "Exemple",
+    "champ_046": "Exemple",
+    "champ_047": "Exemple",
+    "champ_048": "Exemple"
+  }
+}
