@@ -1,7 +1,7 @@
 {
   "id": "source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Acte de nomination du président d’une SAS (OHADA)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Acte de nomination du président d’une SAS (OHADA) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -428,7 +428,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "denomination": "SOCIETE EXEMPLE",

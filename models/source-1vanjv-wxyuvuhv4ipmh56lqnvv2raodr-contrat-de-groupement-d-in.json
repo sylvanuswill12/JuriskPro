@@ -1,7 +1,7 @@
 {
   "id": "source-1vanjv-wxyuvuhv4ipmh56lqnvv2raodr-contrat-de-groupement-d-in",
-  "cat": "famille-successions",
-  "sub": "Contrat De Mariage",
+  "cat": "societes-associations",
+  "sub": "Matrices des actes",
   "titre": "Contrat de groupement d’intérêt économique (GIE)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Contrat de groupement d’intérêt économique (GIE) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1307,7 +1307,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1vanjv-wxyuvuhv4ipmh56lqnvv2raodr-contrat-de-groupement-d-in.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

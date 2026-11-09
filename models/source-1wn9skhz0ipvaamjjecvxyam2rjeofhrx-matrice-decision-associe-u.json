@@ -1,7 +1,7 @@
 {
   "id": "source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Décision de l’associé unique – transformation de SARL en SAS",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Décision de l’associé unique – transformation de SARL en SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -381,7 +381,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_006": "Exemple",

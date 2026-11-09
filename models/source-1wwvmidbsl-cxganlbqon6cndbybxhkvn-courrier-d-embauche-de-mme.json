@@ -1,7 +1,7 @@
 {
   "id": "source-1wwvmidbsl-cxganlbqon6cndbybxhkvn-courrier-d-embauche-de-mme",
   "cat": "travail",
-  "sub": "Contrat De Travail",
+  "sub": "Contrats de travail",
   "titre": "Courrier d’embauche",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Courrier d’embauche : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -249,7 +249,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wwvmidbsl-cxganlbqon6cndbybxhkvn-courrier-d-embauche-de-mme.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "nom_salarie": "Exemple",

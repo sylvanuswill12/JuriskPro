@@ -1,7 +1,7 @@
 {
   "id": "source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c",
   "cat": "procurations-actes-divers",
-  "sub": "Matrices Procuration",
+  "sub": "Matrices de procuration",
   "titre": "Procuration pour céder",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procuration pour céder : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -451,7 +451,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

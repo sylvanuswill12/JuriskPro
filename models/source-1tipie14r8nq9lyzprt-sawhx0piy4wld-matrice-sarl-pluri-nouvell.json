@@ -1,7 +1,7 @@
 {
   "id": "source-1tipie14r8nq9lyzprt-sawhx0piy4wld-matrice-sarl-pluri-nouvell",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Statuts de SARL pluripersonnelle (nouvelle version)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Statuts de SARL pluripersonnelle (nouvelle version) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -3694,7 +3694,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1tipie14r8nq9lyzprt-sawhx0piy4wld-matrice-sarl-pluri-nouvell.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

@@ -1,7 +1,7 @@
 {
   "id": "source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Procès-verbal d’assemblée générale",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal d’assemblée générale : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1014,7 +1014,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1-s2bayhjwtrdbt-oetyy4f0p-qgirlb-23-pv-d-ag.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

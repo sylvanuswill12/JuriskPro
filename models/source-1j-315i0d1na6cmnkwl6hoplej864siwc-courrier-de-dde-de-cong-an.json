@@ -1,7 +1,7 @@
 {
   "id": "source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an",
   "cat": "travail",
-  "sub": "Demandes De Conges",
+  "sub": "Demandes de congés",
   "titre": "Demande de congé annuel – clerc-archiviste (modèle 1)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Demande de congé annuel – clerc-archiviste (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -181,7 +181,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1j-315i0d1na6cmnkwl6hoplej864siwc-courrier-de-dde-de-cong-an.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "nom_salarie": "Exemple",

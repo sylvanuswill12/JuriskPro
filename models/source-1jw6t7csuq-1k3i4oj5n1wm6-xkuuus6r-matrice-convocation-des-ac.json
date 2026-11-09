@@ -1,7 +1,7 @@
 {
   "id": "source-1jw6t7csuq-1k3i4oj5n1wm6-xkuuus6r-matrice-convocation-des-ac",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Convocation des actionnaires à l’assemblée générale – SA",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Convocation des actionnaires à l’assemblée générale – SA : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -192,7 +192,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1jw6t7csuq-1k3i4oj5n1wm6-xkuuus6r-matrice-convocation-des-ac.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

@@ -1,0 +1,110 @@
+{
+ "garamond": {
+  "label": "JP Garamond",
+  "files": {
+   "r": "garamond-r.ttf",
+   "b": "garamond-b.ttf",
+   "i": "garamond-i.ttf",
+   "bi": "garamond-bi.ttf"
+  },
+  "asc": 0.9,
+  "desc": 0.23,
+  "upem": 1000
+ },
+ "constantia": {
+  "label": "JP Constantia",
+  "files": {
+   "r": "constantia-r.ttf",
+   "b": "constantia-b.ttf",
+   "i": "constantia-i.ttf",
+   "bi": "constantia-bi.ttf"
+  },
+  "asc": 0.96,
+  "desc": 0.25,
+  "upem": 1000
+ },
+ "gothic": {
+  "label": "JP Gothic",
+  "files": {
+   "r": "gothic-r.ttf",
+   "b": "gothic-b.ttf",
+   "i": "gothic-i.ttf",
+   "bi": "gothic-bi.ttf"
+  },
+  "asc": 1.0,
+  "desc": 0.22021484375,
+  "upem": 2048
+ },
+ "sans": {
+  "label": "JP Sans",
+  "files": {
+   "r": "sans-r.ttf",
+   "b": "sans-b.ttf",
+   "i": "sans-i.ttf",
+   "bi": "sans-bi.ttf"
+  },
+  "asc": 0.9052734375,
+  "desc": 0.2119140625,
+  "upem": 2048
+ },
+ "serif": {
+  "label": "JP Serif",
+  "files": {
+   "r": "serif-r.ttf",
+   "b": "serif-b.ttf",
+   "i": "serif-i.ttf",
+   "bi": "serif-bi.ttf"
+  },
+  "asc": 0.89111328125,
+  "desc": 0.21630859375,
+  "upem": 2048
+ },
+ "tahoma": {
+  "label": "JP Tahoma",
+  "files": {
+   "r": "tahoma-r.ttf",
+   "b": "tahoma-b.ttf",
+   "i": "tahoma-i.ttf",
+   "bi": "tahoma-bi.ttf"
+  },
+  "asc": 1.0,
+  "desc": 0.20703125,
+  "upem": 2048
+ },
+ "bookman": {
+  "label": "JP Bookman",
+  "files": {
+   "r": "bookman-r.ttf",
+   "b": "bookman-b.ttf",
+   "i": "bookman-i.ttf",
+   "bi": "bookman-bi.ttf"
+  },
+  "asc": 0.919921875,
+  "desc": 0.259765625,
+  "upem": 2048
+ },
+ "calibri": {
+  "label": "JP Calibri",
+  "files": {
+   "r": "calibri-r.ttf",
+   "b": "calibri-b.ttf",
+   "i": "calibri-i.ttf",
+   "bi": "calibri-bi.ttf"
+  },
+  "asc": 0.9521484375,
+  "desc": 0.26904296875,
+  "upem": 2048
+ },
+ "mono": {
+  "label": "JP Mono",
+  "files": {
+   "r": "mono-r.ttf",
+   "b": "mono-b.ttf",
+   "i": "mono-i.ttf",
+   "bi": "mono-bi.ttf"
+  },
+  "asc": 0.83251953125,
+  "desc": 0.30029296875,
+  "upem": 2048
+ }
+}

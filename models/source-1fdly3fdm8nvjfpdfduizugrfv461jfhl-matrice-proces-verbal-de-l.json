@@ -1,7 +1,7 @@
 {
   "id": "source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l",
   "cat": "societes-associations",
-  "sub": "Matrice Redigee",
+  "sub": "Matrices rédigées",
   "titre": "Procès-verbal d’assemblée générale ordinaire – SA et SAS",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal d’assemblée générale ordinaire – SA et SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1395,7 +1395,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

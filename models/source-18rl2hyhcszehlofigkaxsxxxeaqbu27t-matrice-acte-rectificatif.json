@@ -1,7 +1,7 @@
 {
   "id": "source-18rl2hyhcszehlofigkaxsxxxeaqbu27t-matrice-acte-rectificatif",
   "cat": "ventes-immobilier",
-  "sub": "Matrices Vente",
+  "sub": "Matrices de vente",
   "titre": "Acte rectificatif suite à la vente",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Acte rectificatif suite à la vente : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -922,7 +922,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-18rl2hyhcszehlofigkaxsxxxeaqbu27t-matrice-acte-rectificatif.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

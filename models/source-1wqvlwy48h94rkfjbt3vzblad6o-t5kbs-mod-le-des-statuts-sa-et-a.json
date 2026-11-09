@@ -1,7 +1,7 @@
 {
   "id": "source-1wqvlwy48h94rkfjbt3vzblad6o-t5kbs-mod-le-des-statuts-sa-et-a",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Statuts de SA et annexe aux statuts",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Statuts de SA et annexe aux statuts : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -2226,7 +2226,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wqvlwy48h94rkfjbt3vzblad6o-t5kbs-mod-le-des-statuts-sa-et-a.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_053": "Exemple",

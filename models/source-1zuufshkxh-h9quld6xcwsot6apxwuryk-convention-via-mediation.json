@@ -1,7 +1,7 @@
 {
   "id": "source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation",
   "cat": "procurations-actes-divers",
-  "sub": "Mediation",
+  "sub": "Médiation",
   "titre": "Convention de médiation professionnelle",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Convention de médiation professionnelle : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -476,7 +476,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

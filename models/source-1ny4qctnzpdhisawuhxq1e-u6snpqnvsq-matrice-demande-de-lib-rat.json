@@ -1,7 +1,7 @@
 {
   "id": "source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Demande de libération d’actions souscrites",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Demande de libération d’actions souscrites : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -182,7 +182,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_007": "2000-01-01",

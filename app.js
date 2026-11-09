@@ -390,48 +390,176 @@ function bindDrafts(root,repaint){
 /* ============================================================
    ÉCRAN 2 : BIBLIOTHÈQUE DES MODÈLES
    ============================================================ */
-const searchBox=()=>'<div class="search"><label class="sr" for="q">Rechercher un modèle</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Rechercher : statuts, SARL, bail, procuration…" autocomplete="off" value="'+esc(ui.q)+'"></div>';
+/* Maquette « JuriskPro Model Library » : titre, recherche + filtre, catégories défilantes, bascule « Derniers ajouts / Modèles populaires », cartes avec étoile et étiquettes. */
+const ICON_FILTER='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h8M18 6h2M4 12h2M12 12h8M4 18h10M20 18h0"/><circle cx="15" cy="6" r="2.2"/><circle cx="9" cy="12" r="2.2"/><circle cx="17" cy="18" r="2.2"/></svg>';
+const STAR_PATH='M12 3.6l2.6 5.3 5.8.85-4.2 4.1 1 5.8L12 16.9l-5.2 2.75 1-5.8-4.2-4.1 5.8-.85z';
+const STAR_ON='<svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="'+STAR_PATH+'"/></svg>';
+const STAR_OFF='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="'+STAR_PATH+'"/></svg>';
+const ICON_NEXT='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
+
+/* Favoris et usage : propres à cet appareil (localStorage, jamais bloquant). */
+const FAV_KEY='juriskpro:favs',USE_KEY='juriskpro:usage';
+function readJSON(k,d){try{const v=JSON.parse(store.get(k)||'null');return v==null?d:v;}catch(e){return d;}}
+const favList=()=>{const l=readJSON(FAV_KEY,[]);return Array.isArray(l)?l:[];};
+const isFav=id=>favList().indexOf(id)>-1;
+function toggleFav(id){const l=favList(),i=l.indexOf(id);if(i>-1) l.splice(i,1); else l.unshift(id);store.set(FAV_KEY,JSON.stringify(l));return i<0;}
+function bumpUsage(id){const u=readJSON(USE_KEY,{});if(!u||typeof u!=='object') return;u[id]=(u[id]||0)+1;store.set(USE_KEY,JSON.stringify(u));}
+
+/* « #CôteDIvoire », « #1-à-10-associés » : étiquette d'affichage d'une carte. */
+function hashtag(t){
+  const words=String(t).replace(/[’']/g,' ').split(/\s+/).filter(Boolean);
+  const s=/\d/.test(t)?words.map((w,i)=>i?w.toLowerCase():w).join('-'):words.map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join('');
+  return '#'+s;
+}
+const famShort=id=>{const f=Cat.family(id);return f?(f.court||f.titre):'';};
 const famLabel=id=>{const f=Cat.family(id);return f?f.titre:'';};
-let searchSeq=0,qTimer=0;
+
+/* État de l'écran Modèles (gardé tant que l'application reste ouverte). */
+ui.lb=ui.lb||{cat:'',tab:'new',fav:false,dur:'',tag:'',shown:30,panel:false};
+let searchSeq=0,qTimer=0,lbData=null;
+const lbFilterCount=()=>{const L=ui.lb;return (L.fav?1:0)+(L.dur?1:0)+(L.tag?1:0);};
+
 function openLibrary(){
   leave();setTitle('Modèles');
+  const L=ui.lb;
+  const puces=CAT_PUCES.map(id=>{const f=CAT_FAMILIES.find(x=>x.id===id&&x.count>0),r=CAT_RUBRIQUES.find(x=>x.id===id&&x.ids.length);return f?{id:id,t:f.court||f.titre}:r?{id:id,t:r.court}:null;}).filter(Boolean);
+  const chips='<button type="button" class="lb-chip" data-cat="" aria-pressed="'+(!L.cat)+'">Tous</button>'+
+    puces.map(c=>'<button type="button" class="lb-chip" data-cat="'+c.id+'" aria-pressed="'+(L.cat===c.id)+'">'+esc(c.t)+'</button>').join('');
   shell('modeles',
-    '<div class="page-h"><h1>Modèles</h1><p>Choisissez une famille d’actes, ou recherchez un modèle par mot-clé.</p></div>'+searchBox()+'<div id="catalog" aria-live="polite"></div>');
+    '<div class="lb-head"><h1>JuriskPro</h1><p>JuriskPro Model Library</p></div>'+
+    '<div class="lb-sticky">'+
+      '<div class="lb-searchrow">'+
+        '<div class="lb-search"><label class="sr" for="q">Recherche de modèles</label>'+ICON_SEARCH+'<input id="q" type="search" enterkeyhint="search" placeholder="Recherche de modèles…" autocomplete="off" value="'+esc(ui.q)+'"></div>'+
+        '<button type="button" class="lb-filter" id="lb-filter" aria-label="Filtres" aria-expanded="'+!!L.panel+'" aria-controls="lb-panel">'+ICON_FILTER+'<span class="lb-dot" id="lb-dot" hidden></span></button>'+
+      '</div>'+
+      '<div class="lb-panel" id="lb-panel"'+(L.panel?'':' hidden')+'>'+
+        '<label class="lb-check"><input type="checkbox" id="lb-fav"'+(L.fav?' checked':'')+'> <span>Mes favoris uniquement</span></label>'+
+        '<label class="lb-sel"><span>Durée de remplissage</span><select id="lb-dur"><option value="">Toutes</option><option value="s">10 min ou moins</option><option value="m">De 10 à 20 min</option><option value="l">Plus de 20 min</option></select></label>'+
+        '<label class="lb-sel"><span>Étiquette</span><select id="lb-tag"><option value="">Toutes</option></select></label>'+
+        '<button type="button" class="linkbtn" id="lb-reset">Réinitialiser les filtres</button>'+
+      '</div>'+
+      '<div class="lb-chiprow"><div class="lb-chips" id="lb-chips" role="group" aria-label="Catégories">'+chips+'</div><button type="button" class="lb-next" id="lb-next" aria-label="Catégories suivantes">'+ICON_NEXT+'</button></div>'+
+      '<div class="lb-tabs" id="lb-tabs" role="tablist" aria-label="Classement des modèles">'+
+        '<button type="button" role="tab" class="lb-tab" data-tab="new" aria-selected="'+(L.tab==='new')+'">Derniers ajouts</button>'+
+        '<button type="button" role="tab" class="lb-tab" data-tab="pop" aria-selected="'+(L.tab==='pop')+'">Modèles populaires</button>'+
+      '</div>'+
+    '</div>'+
+    '<div id="catalog" aria-live="polite"></div>',{cls:'lb'});
+  $('#lb-dur').value=L.dur;
   $('#q').addEventListener('input',e=>{
-    ui.q=e.target.value;const box=e.target.closest('.search');
+    ui.q=e.target.value;const box=e.target.closest('.lb-search');
     if(box) box.classList.add('loading');
-    clearTimeout(qTimer);qTimer=setTimeout(paintLibrary,220);
+    clearTimeout(qTimer);qTimer=setTimeout(()=>{ui.lb.shown=30;paintLibrary();},220);
   });
+  $('#lb-filter').onclick=()=>{L.panel=!L.panel;$('#lb-panel').hidden=!L.panel;$('#lb-filter').setAttribute('aria-expanded',String(L.panel));};
+  $('#lb-fav').onchange=e=>{L.fav=e.target.checked;L.shown=30;paintLibrary();};
+  $('#lb-dur').onchange=e=>{L.dur=e.target.value;L.shown=30;paintLibrary();};
+  $('#lb-tag').onchange=e=>{L.tag=e.target.value;L.shown=30;paintLibrary();};
+  $('#lb-reset').onclick=()=>{L.fav=false;L.dur='';L.tag='';L.shown=30;$('#lb-fav').checked=false;$('#lb-dur').value='';$('#lb-tag').value='';paintLibrary();};
+  $$('.lb-chip').forEach(b=>b.onclick=()=>{
+    L.cat=b.dataset.cat;L.shown=30;
+    $$('.lb-chip').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+    try{b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});}catch(e){}
+    paintLibrary();
+  });
+  $$('.lb-tab').forEach(b=>b.onclick=()=>{
+    L.tab=b.dataset.tab;L.shown=30;
+    $$('.lb-tab').forEach(x=>x.setAttribute('aria-selected',String(x===b)));
+    paintLibrary();
+  });
+  const row=$('#lb-chips'),nx=$('#lb-next'),rowBox=row.parentNode;
+  const sync=()=>{rowBox.classList.toggle('at-end',row.scrollLeft+row.clientWidth>=row.scrollWidth-4);rowBox.classList.toggle('no-scroll',row.scrollWidth<=row.clientWidth+2);};
+  row.addEventListener('scroll',sync,{passive:true});window.addEventListener('resize',sync);
+  nx.onclick=()=>{try{row.scrollBy({left:Math.max(120,row.clientWidth*.7),behavior:'smooth'});}catch(e){row.scrollLeft+=row.clientWidth*.7;}};
+  requestAnimationFrame(sync);
   paintLibrary();
 }
-function familiesHTML(){
-  const fams=CAT_FAMILIES.filter(f=>f.count>0),tot=fams.reduce((n,f)=>n+f.count,0);
-  return '<p class="count" role="status">'+plural(tot,'modèle','modèles')+' dans '+plural(fams.length,'famille','familles')+'</p><div class="grid">'+
-    fams.map(f=>'<article class="model model-compact"><div class="fam-body"><h3><a href="#modeles/'+f.id+'">'+esc(f.titre)+'</a></h3><p class="fam-aide">'+esc(f.aide)+'</p></div><div class="model-row-meta"><span class="pill pill-n" aria-label="'+plural(f.count,'modèle','modèles')+'" title="'+plural(f.count,'modèle','modèles')+'">'+f.count+'</span><span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>').join('')+'</div>';
+
+/* Classement. « Derniers ajouts » : date d'ajout décroissante (modèles sans date en fin). « Populaires » : sélection éditoriale
+   (models/library.json) à laquelle s'ajoutent les modèles que vous ouvrez le plus sur cet appareil. */
+function lbSort(list,tab){
+  const use=readJSON(USE_KEY,{})||{};
+  const t=(a,b)=>a.titre.localeCompare(b.titre,'fr');
+  if(tab==='pop'){
+    const sc=m=>(use[m.id]||0)*4+(m.pop?11-Math.min(m.pop,10):0);
+    return list.slice().sort((a,b)=>sc(b)-sc(a)||t(a,b));
+  }
+  return list.slice().sort((a,b)=>String(b.ajout||'').localeCompare(String(a.ajout||''))||t(a,b));
+}
+function lbFilter(list){
+  const L=ui.lb,favs=L.fav?new Set(favList()):null;
+  return list.filter(m=>{
+    if(L.cat){const r=CAT_RUBRIQUES.find(x=>x.id===L.cat);if(r){if(r.ids.indexOf(m.id)<0) return false;}else if(m.cat!==L.cat) return false;}
+    if(favs&&!favs.has(m.id)) return false;
+    if(L.dur){const n=parseInt(m.duree,10)||0;if(L.dur==='s'&&n>10) return false;if(L.dur==='m'&&(n<=10||n>20)) return false;if(L.dur==='l'&&n<=20) return false;}
+    if(L.tag&&!(m.etiq||[]).some(x=>x===L.tag)) return false;
+    return true;
+  });
+}
+function lbFillTags(all){
+  const sel=$('#lb-tag');if(!sel) return;
+  const L=ui.lb,count={};
+  all.forEach(m=>(m.etiq||[]).forEach(t=>{count[t]=(count[t]||0)+1;}));
+  const tags=Object.keys(count).sort((a,b)=>count[b]-count[a]||a.localeCompare(b,'fr')).slice(0,40);
+  sel.innerHTML='<option value="">Toutes</option>'+tags.map(t=>'<option value="'+esc(t)+'">'+esc(hashtag(t))+' ('+count[t]+')</option>').join('');
+  sel.value=tags.indexOf(L.tag)>-1?L.tag:'';if(sel.value!==L.tag) L.tag=sel.value;
 }
 function paintLibrary(){
   const el=$('#catalog');if(!el) return;
-  const box=$('.search'),q=ui.q.trim(),stop=()=>{if(box) box.classList.remove('loading');};
-  if(!q){searchSeq++;el.innerHTML=familiesHTML();stop();return;}
+  const box=$('.lb-search'),L=ui.lb,q=ui.q.trim(),stop=()=>{if(box) box.classList.remove('loading');};
   const my=++searchSeq;
-  Cat.search(q).then(res=>{
+  const dot=$('#lb-dot');if(dot){const n=lbFilterCount();dot.hidden=!n;dot.textContent=n;}
+  const tabs=$('#lb-tabs');if(tabs) tabs.classList.toggle('muted',!!q);
+  if(!lbData) el.innerHTML=SKEL(4);
+  Promise.all([Cat.all(),q?Cat.search(q):null]).then(([all,res])=>{
     if(my!==searchSeq||!$('#catalog')) return;
-    ui.res=res;ui.shown=30;el.innerHTML=resultsHTML();bindResults();stop();
+    lbData=all;lbFillTags(all);
+    let list;
+    if(res){const by={};all.forEach(m=>{by[m.id]=m;});list=lbFilter(res.map(r=>by[r.id]).filter(Boolean));}
+    else list=lbSort(lbFilter(all),L.tab);
+    ui.lbList=list;
+    el.innerHTML=lbListHTML(q);bindLibraryList();stop();
   }).catch(()=>{
     if(my!==searchSeq||!$('#catalog')) return;
-    el.innerHTML='<p class="msg err" role="status">La recherche n’est pas disponible pour le moment. Vérifiez votre connexion puis réessayez.</p>';stop();
+    el.innerHTML='<p class="msg err" role="status">La bibliothèque n’est pas disponible pour le moment. Vérifiez votre connexion puis réessayez.</p><p><button type="button" class="btn ghost" id="lb-retry">Réessayer</button></p>';
+    const r=$('#lb-retry');if(r) r.onclick=paintLibrary;stop();
   });
 }
-function resultsHTML(){
-  const res=ui.res,n=Math.min(ui.shown,res.length);
-  if(!res.length) return '<p class="empty" role="status">Aucun modèle ne correspond à « '+esc(ui.q)+' ». Essayez un mot plus court (« statuts », « bail », « vente ») ou parcourez les familles.</p><p><button type="button" class="linkbtn" id="clearq">Voir toutes les familles</button></p>';
-  return '<p class="count" role="status">'+plural(res.length,'modèle trouvé','modèles trouvés')+'</p><div class="grid">'+res.slice(0,n).map(r=>cardHTML(r,true)).join('')+'</div>'+(n<res.length?'<div class="more-wrap"><button type="button" class="btn ghost" id="more">Afficher plus de résultats</button></div>':'');
+function lbListHTML(q){
+  const list=ui.lbList,L=ui.lb,n=Math.min(L.shown,list.length),filtered=lbFilterCount()>0||L.cat;
+  if(!list.length){
+    if(L.fav&&!q&&!L.cat&&!L.dur&&!L.tag) return '<p class="empty" role="status">Aucun favori pour le moment. Touchez l’étoile d’un modèle pour le retrouver ici.</p>';
+    return '<p class="empty" role="status">'+(q?'Aucun modèle ne correspond à « '+esc(q)+' »'+(filtered?' avec ces filtres':'')+'. Essayez un mot plus court (« statuts », « bail », « vente »).':'Aucun modèle ne correspond à ces filtres.')+'</p><p><button type="button" class="linkbtn" id="lb-clear">'+(q?'Effacer la recherche':'Réinitialiser les filtres')+'</button></p>';
+  }
+  return (q||filtered?'<p class="count" role="status">'+plural(list.length,'modèle','modèles')+'</p>':'')+
+    '<div class="lb-list">'+list.slice(0,n).map(m=>cardHTML(m,false)).join('')+'</div>'+
+    (n<list.length?'<div class="more-wrap"><button type="button" class="btn ghost" id="lb-more">Afficher plus ('+(list.length-n)+' restants)</button></div>':'');
 }
-function bindResults(){
-  const el=$('#catalog'),c=$('#clearq'),b=$('#more');
-  if(c) c.onclick=()=>{ui.q='';const q=$('#q');if(q) q.value='';paintLibrary();};
-  if(b) b.onclick=()=>{ui.shown+=30;el.innerHTML=resultsHTML();bindResults();};
+function bindLibraryList(){
+  const el=$('#catalog'),c=$('#lb-clear'),b=$('#lb-more'),L=ui.lb;
+  if(c) c.onclick=()=>{
+    if(ui.q.trim()){ui.q='';const q=$('#q');if(q) q.value='';}
+    else{L.fav=false;L.dur='';L.tag='';$('#lb-fav').checked=false;$('#lb-dur').value='';$('#lb-tag').value='';}
+    paintLibrary();
+  };
+  if(b){
+    const more=()=>{L.shown+=30;el.innerHTML=lbListHTML(ui.q.trim());bindLibraryList();};
+    b.onclick=more;
+    if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();if($('#lb-more')===b) more();}},{rootMargin:'300px'});io.observe(b);}
+  }
+  const idle=window.requestIdleCallback||(fn=>setTimeout(fn,600));
+  idle(()=>(ui.lbList||[]).slice(0,4).forEach(m=>prefetchModel(m.id)));
 }
+/* Étoile : un seul écouteur pour tous les écrans qui affichent des cartes. */
+document.addEventListener('click',e=>{
+  const b=e.target.closest&&e.target.closest('[data-fav]');if(!b) return;
+  e.preventDefault();e.stopPropagation();
+  const id=b.dataset.fav,on=toggleFav(id),m=Cat.meta(id),t=m?m.titre:'ce modèle';
+  b.setAttribute('aria-pressed',String(on));b.innerHTML=on?STAR_ON:STAR_OFF;
+  b.setAttribute('aria-label',(on?'Retirer « ':'Ajouter « ')+t+(on?' » des favoris':' » aux favoris'));
+  b.classList.toggle('on',on);
+  if(!on&&ui.lb.fav&&$('#catalog')&&$('.lb-list')){ui.lbList=(ui.lbList||[]).filter(x=>x.id!==id);const el=$('#catalog');el.innerHTML=lbListHTML(ui.q.trim());bindLibraryList();}
+},true);
 /* Page d'une famille : les modèles arrivent 40 par 40 (défilement ou bouton). */
 let famToken=0;
 function openFamily(fid){
@@ -446,7 +574,7 @@ function famPage(f,n){
   more.innerHTML='';
   Cat.page(f.id,n).then(items=>{
     if(my!==famToken||!$('#famlist')) return;
-    if(n===1) list.innerHTML='<div class="grid" id="famgrid"></div>';
+    if(n===1) list.innerHTML='<div class="lb-list" id="famgrid"></div>';
     const grid=$('#famgrid');let last=grid.dataset.sub||'',h='';
     items.forEach(m=>{if(m.sub&&m.sub!==last){h+='<h3 class="sub-h fam-sub">'+esc(m.sub)+'</h3>';last=m.sub;}h+=cardHTML(m,false);});
     grid.dataset.sub=last;grid.insertAdjacentHTML('beforeend',h);
@@ -465,9 +593,12 @@ function famPage(f,n){
   });
 }
 function cardHTML(m,withFam){
-  const hasDraft=store.get(draftKey(m.id))!==null,fam=withFam?famLabel(m.cat):'';
-  return '<article class="model model-compact"><div class="fam-body"><h3><a href="#m/'+m.id+'">'+esc(m.titre)+'</a></h3>'+(m.sous?'<p class="fam-aide">'+esc(m.sous)+'</p>':'')+'</div>'+
-    '<div class="model-row-meta">'+(hasDraft?'<span class="pill">Brouillon en cours</span>':'<span class="model-open-hint">'+esc(fam||'Ouvrir le modèle')+'</span>')+'<span class="model-arrow" aria-hidden="true">'+ARROW+'</span></div></article>';
+  const hasDraft=store.get(draftKey(m.id))!==null,fav=isFav(m.id),t=esc(m.titre);
+  const tags=(m.etiq||[]).slice(0,4).map(x=>'<li>'+esc(hashtag(x))+'</li>').join('');
+  return '<article class="lb-card"><span class="lb-ico" aria-hidden="true">'+ICON_DOC+'</span><div class="lb-body"><h3><a href="#m/'+m.id+'">'+t+'</a></h3>'+
+    (tags?'<ul class="lb-tags" aria-label="Étiquettes">'+tags+'</ul>':'')+
+    (hasDraft?'<span class="pill lb-draft">Brouillon en cours</span>':'')+'</div>'+
+    '<button type="button" class="lb-star'+(fav?' on':'')+'" data-fav="'+m.id+'" aria-pressed="'+fav+'" aria-label="'+(fav?'Retirer « ':'Ajouter « ')+t+(fav?' » des favoris':' » aux favoris')+'">'+(fav?STAR_ON:STAR_OFF)+'</button></article>';
 }
 /* ============================================================
    ÉCRAN 3 : DÉTAIL DU MODÈLE
@@ -852,7 +983,7 @@ function renderAccountProfile(a){
    ============================================================ */
 function openModel(m){
   flushSave();
-  rememberRecent(m.id);
+  rememberRecent(m.id);bumpUsage(m.id);
   M=m;ui.armed='';pane='form';validationAttempted=false;touchedSteps=new Set();
   const d=readDraft(m.id);
   S=Object.assign(m.defaults(),d?d.v:{});
@@ -1358,6 +1489,15 @@ async function saveBlob(blob,name){
   a.href=u;a.download=name;a.rel='noopener';document.body.appendChild(a);a.click();
   setTimeout(()=>{a.remove();URL.revokeObjectURL(u);},5000);
 }
+// PDF : les modèles issus d'un fichier Word gardent la mise en page d'origine (polices, marges, retraits, tableaux) ;
+// en cas d'échec, on retombe sur la mise en page simplifiée plutôt que de ne rien livrer.
+async function buildPdfFor(M,r,S,title){
+  if(M.sourceTemplate&&typeof buildSourcePdf==='function'){
+    try{return await buildSourcePdf(M,r.V,S,title);}
+    catch(e){console.warn('PDF fidèle indisponible, mise en page simplifiée.',e);}
+  }
+  return buildPdf(r.blocks,r.V,title);
+}
 async function download(kind){
   if(!M) return;
   const gate=finalValidation(M,S);
@@ -1375,7 +1515,7 @@ async function download(kind){
       ?(M.sourceTemplate&&typeof buildSourceTemplateDocx==='function'
         ?await buildSourceTemplateDocx(M,r.V,S,title)
         :await buildDocx(r.blocks,r.V,title))
-      :await buildPdf(r.blocks,r.V,title);
+      :await buildPdfFor(M,r,S,title);
     const item={id:(window.crypto&&crypto.randomUUID?crypto.randomUUID():'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return (c==='x'?r:(r&3|8)).toString(16);})),modelId:M.id,modelTitle:M.titre,title:title,fileName:name,format:kind,createdAt:Date.now(),text:toText(r.blocks,r.V),values:stripV(S)};
     // La création et le téléchargement local restent possibles même si le cloud est indisponible.
     await saveBlob(blob,name);
@@ -1404,7 +1544,7 @@ async function shareDocument(){
   try{
     await JPLibs.load('jspdf');
     const r=recompute(),title=M.docTitle(r.V),name=M.fileBase(r.V)+'.pdf';
-    const blob=await buildPdf(r.blocks,r.V,title);
+    const blob=await buildPdfFor(M,r,S,title);
     const file=new File([blob],name,{type:'application/pdf'});
     if(isNativeApp()){
       await nativeShareBlob(blob,name,title);

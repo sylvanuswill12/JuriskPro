@@ -1,7 +1,7 @@
 {
   "id": "source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Convocation du conseil d’administration",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Convocation du conseil d’administration : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -197,7 +197,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_003": "Exemple",

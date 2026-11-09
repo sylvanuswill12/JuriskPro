@@ -1,7 +1,7 @@
 {
   "id": "source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Préavis de réunion adressé à un actionnaire qui en fait la demande : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -334,7 +334,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

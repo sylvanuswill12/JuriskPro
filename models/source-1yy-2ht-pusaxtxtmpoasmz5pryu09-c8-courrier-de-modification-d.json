@@ -1,7 +1,7 @@
 {
   "id": "source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d",
   "cat": "travail",
-  "sub": "Contrat De Travail",
+  "sub": "Contrats de travail",
   "titre": "Courrier de modification de contrat de travail",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Courrier de modification de contrat de travail : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -213,7 +213,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "nom_salarie": "Exemple",

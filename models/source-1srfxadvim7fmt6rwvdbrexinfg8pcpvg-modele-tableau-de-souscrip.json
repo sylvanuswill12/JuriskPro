@@ -1,7 +1,7 @@
 {
   "id": "source-1srfxadvim7fmt6rwvdbrexinfg8pcpvg-modele-tableau-de-souscrip",
   "cat": "ventes-immobilier",
-  "sub": "Promotion Immobilere",
+  "sub": "Promotion immobilière",
   "titre": "Modèle de tableau de souscription",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Modèle de tableau de souscription : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1354,7 +1354,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1srfxadvim7fmt6rwvdbrexinfg8pcpvg-modele-tableau-de-souscrip.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "programme_nom": "Exemple",

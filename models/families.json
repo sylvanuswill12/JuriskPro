@@ -1,32 +1,37 @@
 [
- {
-  "ord": 1,
-  "id": "famille-successions",
-  "titre": "Famille et successions",
-  "aide": "Contrats de mariage, adoption, donations et testaments."
- },
- {
-  "ord": 2,
-  "id": "ventes-immobilier",
-  "titre": "Ventes et immobilier",
-  "aide": "Ventes, matrices de vente, mandats, promotion immobilière et baux."
- },
- {
-  "ord": 3,
-  "id": "societes-associations",
-  "titre": "Sociétés et associations",
-  "aide": "Sociétés, associations et actes relevant de l’OHADA."
- },
- {
-  "ord": 4,
-  "id": "travail",
-  "titre": "Travail",
-  "aide": "Contrats de travail et demandes de congés."
- },
- {
-  "ord": 5,
-  "id": "procurations-actes-divers",
-  "titre": "Procurations et actes divers",
-  "aide": "Procurations, matrices des actes, protocoles, médiation, requêtes, conventions et mainlevées."
- }
+  {
+    "ord": 1,
+    "id": "famille-successions",
+    "titre": "Famille et successions",
+    "aide": "Contrats de mariage, adoption, donations et testaments.",
+    "court": "Famille"
+  },
+  {
+    "ord": 2,
+    "id": "ventes-immobilier",
+    "titre": "Ventes et immobilier",
+    "aide": "Ventes, matrices de vente, mandats, promotion immobilière et baux.",
+    "court": "Immobilier"
+  },
+  {
+    "ord": 3,
+    "id": "societes-associations",
+    "titre": "Sociétés et associations",
+    "aide": "Sociétés, associations et actes relevant de l’OHADA.",
+    "court": "Sociétés"
+  },
+  {
+    "ord": 4,
+    "id": "travail",
+    "titre": "Travail",
+    "aide": "Contrats de travail et demandes de congés.",
+    "court": "Travail"
+  },
+  {
+    "ord": 5,
+    "id": "procurations-actes-divers",
+    "titre": "Procurations et actes divers",
+    "aide": "Procurations, matrices des actes, protocoles, médiation, requêtes, conventions et mainlevées.",
+    "court": "Actes divers"
+  }
 ]

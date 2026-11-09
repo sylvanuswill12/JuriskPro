@@ -26,6 +26,12 @@ const Cat = {
     }
     return this._pages[key];
   },
+  /* Toute une famille (ou tout le catalogue) : ses pages sont chargées en parallèle puis réunies. */
+  async all(fid) {
+    const fams = (fid ? [this.family(fid)] : CAT_FAMILIES).filter((f) => f && f.count > 0);
+    const lists = await Promise.all(fams.map((f) => Promise.all(Array.from({ length: f.pages }, (_, i) => this.page(f.id, i + 1)))));
+    return [].concat(...lists.map((l) => [].concat(...l)));
+  },
   /* Correspondance id -> {t: titre, f: famille, ld: fichiers à charger}. Chargé seulement si nécessaire. */
   index() {
     if (!this._idx) this._idx = catJSON('index.json').then((d) => { this._idxData = d; return d; }).catch((e) => { this._idx = null; throw e; });

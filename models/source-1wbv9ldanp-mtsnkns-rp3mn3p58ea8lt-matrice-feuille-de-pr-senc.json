@@ -1,7 +1,7 @@
 {
   "id": "source-1wbv9ldanp-mtsnkns-rp3mn3p58ea8lt-matrice-feuille-de-pr-senc",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Feuille de présence – assemblée générale extraordinaire",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Feuille de présence – assemblée générale extraordinaire : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -398,7 +398,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wbv9ldanp-mtsnkns-rp3mn3p58ea8lt-matrice-feuille-de-pr-senc.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_023": "Exemple",

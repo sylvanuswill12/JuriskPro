@@ -1,7 +1,7 @@
 {
   "id": "source-1wgssenr67vnnb5y-xvuoaujthrxu7zbd-matrice-pv-agc",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Procès-verbal de l’assemblée générale constitutive (AGC)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal de l’assemblée générale constitutive (AGC) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -769,7 +769,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wgssenr67vnnb5y-xvuoaujthrxu7zbd-matrice-pv-agc.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "2000-01-01",

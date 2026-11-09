@@ -111,4 +111,5 @@
   }
 
   root.buildSourceTemplateDocx = buildSourceTemplateDocx;
+  root.JPTokenMap = tokenMap;
 })(window);

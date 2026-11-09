@@ -1,7 +1,7 @@
 {
   "id": "source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Décision de l’associé unique – augmentation de capital et transformation de SARL en SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -572,7 +572,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_020": "Exemple",

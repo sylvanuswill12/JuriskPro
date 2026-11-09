@@ -1146,3 +1146,68 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
   .sheet .in1{margin-left:1.1em}.sheet .in2{margin-left:2.2em}.sheet .in3{margin-left:3.3em}
   .sheet .in4{margin-left:4.4em}.sheet .in5{margin-left:5.5em}.sheet .in6{margin-left:6.6em}
 }
+
+/* ============================================================
+   Bibliothèque « JuriskPro Model Library » (maquette : recherche + filtre, catégories, onglets, cartes à étoile)
+   ============================================================ */
+.wrap.lb .top .bn-txt{display:none}
+.lb-head{padding:4px 2px 12px}
+.lb-head h1{font-size:clamp(28px,5vw,36px);letter-spacing:-.035em;line-height:1.1}
+.lb-head p{color:var(--ink-2);font-size:15px;margin-top:2px}
+.lb-sticky{position:sticky;top:env(safe-area-inset-top,0px);z-index:25;background:var(--bg);padding:6px 0 4px;margin-inline:-2px;padding-inline:2px}
+.lb-searchrow{display:flex;gap:10px;align-items:stretch}
+.lb-search{position:relative;flex:1;min-width:0;display:flex;align-items:center;gap:8px;min-height:50px;padding:0 14px;border:1.5px solid var(--line);border-radius:14px;background:var(--surface)}
+.lb-search:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.lb-search svg{flex:none;color:var(--ink-2)}
+.lb-search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font-size:16px;padding:0;min-height:46px}
+.lb-search input::-webkit-search-cancel-button{-webkit-appearance:none}
+.lb-search.loading::after{content:"";width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;opacity:.5;animation:lbspin .7s linear infinite}
+@keyframes lbspin{to{transform:rotate(360deg)}}
+.lb-filter{position:relative;flex:none;width:50px;border:1.5px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.lb-filter:hover,.lb-filter[aria-expanded=true]{border-color:var(--accent);color:var(--accent)}
+.lb-dot{position:absolute;top:-6px;right:-6px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--accent);color:var(--accent-ink);font:700 11px/18px var(--font-ui);text-align:center}
+.lb-dot[hidden],.lb-panel[hidden]{display:none}
+.lb-panel{display:grid;gap:12px;margin-top:10px;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.lb-check{display:flex;align-items:center;gap:10px;font-weight:600;font-size:14.5px;min-height:34px}
+.lb-check input{width:20px;height:20px;accent-color:var(--accent)}
+.lb-sel{display:grid;gap:4px;font-size:13px;color:var(--ink-2);font-weight:600}
+.lb-sel select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);padding:0 10px;font-size:15px;color:var(--ink)}
+.lb-panel .linkbtn{justify-self:start}
+.lb-chiprow{position:relative;margin-top:12px}
+.lb-chips{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;padding:2px 44px 2px 0}
+.lb-chips::-webkit-scrollbar{display:none}
+.lb-chip{flex:none;scroll-snap-align:start;min-height:38px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+.lb-chip:hover{border-color:var(--accent)}
+.lb-chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.lb-next{position:absolute;right:0;top:0;bottom:0;width:40px;border:0;cursor:pointer;color:var(--ink);display:grid;place-items:center;background:linear-gradient(90deg,transparent,var(--bg) 55%)}
+.lb-next svg{margin-left:10px}
+.lb-chiprow.at-end .lb-next,.lb-chiprow.no-scroll .lb-next{display:none}
+.lb-chiprow.at-end .lb-chips,.lb-chiprow.no-scroll .lb-chips{padding-right:0}
+.lb-tabs{display:flex;gap:22px;margin-top:10px;border-bottom:1px solid var(--line)}
+.lb-tab{position:relative;border:0;background:none;padding:10px 0 11px;font-size:16px;font-weight:700;color:var(--ink-2);cursor:pointer}
+.lb-tab[aria-selected=true]{color:var(--ink)}
+.lb-tab[aria-selected=true]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;border-radius:3px 3px 0 0;background:var(--accent)}
+.lb-tabs.muted{opacity:.45;pointer-events:none}
+#catalog{padding-top:12px}
+.lb-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:12px;margin-bottom:22px}
+.lb-list .fam-sub{grid-column:1/-1;margin:8px 0 0}
+.lb-card{position:relative;display:flex;gap:12px;align-items:flex-start;min-width:0;padding:14px 12px 14px 14px;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:0 3px 12px #173d2c08}
+.lb-card:hover,.lb-card:focus-within{border-color:var(--accent)}
+.lb-ico{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:var(--accent-soft);color:var(--accent)}
+.lb-ico svg{width:24px;height:24px}
+.lb-body{flex:1;min-width:0;padding-right:36px}
+.lb-body h3{font-size:16.5px;line-height:1.28;letter-spacing:-.01em}
+.lb-body h3 a{color:var(--ink);text-decoration:none}
+.lb-body h3 a::after{content:"";position:absolute;inset:0;border-radius:16px}
+.lb-body h3 a:focus-visible{outline:none}
+.lb-card:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.lb-tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none}
+.lb-tags li{padding:3px 10px;border-radius:999px;border:1px solid var(--accent-line);background:var(--accent-soft);color:var(--accent);font-size:12.5px;font-weight:600;line-height:1.35}
+.lb-draft{display:inline-block;margin-top:8px}
+.lb-star{position:absolute;top:8px;right:8px;z-index:2;width:44px;height:44px;border:0;border-radius:12px;background:transparent;color:var(--ink-2);display:grid;place-items:center;cursor:pointer}
+.lb-star:hover{color:var(--accent);background:var(--accent-soft)}
+.lb-star.on{color:#E0A400}
+:root[data-theme=dark] .lb-star.on{color:#F2C14E}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .lb-star.on{color:#F2C14E}}
+@media (max-width:640px){.lb-list{grid-template-columns:1fr}.lb-tab{font-size:15px}}
+.lb-sticky:has(.lb-panel:not([hidden])){position:static}

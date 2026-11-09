@@ -8,6 +8,7 @@
    models/<id>.json      modèle décrit par des données (voir MODELES.md)
    models/families.json  familles (id, titre, aide, ord)
    models/parcours.json  parcours (suites d'actes)
+   models/library.json   registre de la bibliothèque : date d'ajout de chaque modèle et sélection « populaires »
 
    Sortie :
    catalogue-data.js     familles + version, chargé au démarrage (quelques Ko)
@@ -39,7 +40,7 @@ const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0
 const files = {};
 for (const f of fs.readdirSync(MODELS)) {
   const m = /^(.+)\.(js|json)$/.exec(f);
-  if (!m || ['families', 'parcours'].includes(m[1])) continue;
+  if (!m || ['families', 'parcours', 'library'].includes(m[1])) continue;
   const buf = fs.readFileSync(path.join(MODELS, f));
   const text = buf.toString('utf8');
   const head = text.slice(0, 400);
@@ -52,6 +53,12 @@ for (const f of fs.readdirSync(MODELS)) {
 const families = JSON.parse(fs.readFileSync(path.join(MODELS, 'families.json'), 'utf8'));
 const parcours = JSON.parse(fs.readFileSync(path.join(MODELS, 'parcours.json'), 'utf8'));
 const famIds = new Set(families.map((f) => f.id));
+const LIB_PATH = path.join(MODELS, 'library.json');
+const library = fs.existsSync(LIB_PATH) ? JSON.parse(fs.readFileSync(LIB_PATH, 'utf8')) : {};
+library.ajouts = library.ajouts || {};
+library.populaires = library.populaires || [];
+library.rubriques = library.rubriques || [];
+library.puces = library.puces || families.map((f) => f.id);
 
 /* ---------- 2. Ordre de chargement (dépendances d'abord) ---------- */
 function loadList(name, seen = []) {
@@ -119,6 +126,46 @@ entries.forEach(({ meta, file }) => {
 entries.forEach(({ meta }) => { if (meta.next && !ids.has(meta.next)) fail('Modèle « ' + meta.id + ' » : « next » pointe vers « ' + meta.next + ' » qui n\'existe pas.'); });
 parcours.forEach((p) => p.etapes.forEach((e) => e.ids.forEach((id) => { if (!ids.has(id)) fail('Parcours « ' + p.titre + ' » : modèle inconnu « ' + id + ' ».'); })));
 
+/* ---------- 4 bis. Bibliothèque : date d'ajout, popularité, étiquettes d'affichage ---------- */
+const today = new Date().toISOString().slice(0, 10);
+let libDirty = false;
+const famCourt = {}; families.forEach((f) => { famCourt[f.id] = f.court || f.titre; });
+/* Étiquettes affichées sur les cartes (#OHADA, #CôteDIvoire…) : sous-rubrique, juridiction citée, puis mots-clés rédigés avec majuscule.
+   Les mots-clés en minuscules servent seulement à la recherche et ne s'affichent pas. */
+function etiquettes(meta) {
+  const hay = ' ' + norm([meta.titre, (meta.tags || []).join(' '), meta.resume].join(' ')) + ' ';
+  const list = [];
+  if (hay.includes(' ohada ')) list.push('OHADA');
+  if (hay.includes(' cote d ivoire ')) list.push('Côte d’Ivoire');
+  if (meta.sub) list.push(meta.sub);
+  (meta.tags || []).forEach((t) => { if (/^[A-ZÀ-Ý0-9]/.test(t)) list.push(t); });
+  const seen = new Set(), out = [];
+  list.forEach((t) => { const k = norm(t); if (k && !seen.has(k)) { seen.add(k); out.push(t); } });
+  if (out.length < 2 && !seen.has(norm(famCourt[meta.cat]))) out.push(famCourt[meta.cat]);
+  return out.slice(0, 4);
+}
+entries.forEach(({ meta }) => {
+  if (!(meta.id in library.ajouts)) {
+    if (CHECK) fail('Modèle « ' + meta.id + ' » : absent de models/library.json (lancez « npm run build:catalogue » pour y inscrire sa date d\'ajout).');
+    else { library.ajouts[meta.id] = today; libDirty = true; }
+  }
+  const d = library.ajouts[meta.id];
+  if (d && !/^\d{4}-\d{2}-\d{2}$/.test(d)) fail('Modèle « ' + meta.id + ' » : date d\'ajout invalide dans models/library.json (AAAA-MM-JJ attendu).');
+  meta.ajout = d || undefined;
+  const r = library.populaires.indexOf(meta.id);
+  meta.pop = r > -1 ? r + 1 : undefined;
+  meta.etiq = etiquettes(meta);
+});
+library.rubriques.forEach((r) => {
+  if (!r.id || !r.court) fail('models/library.json : une rubrique doit avoir « id » et « court ».');
+  if (famIds.has(r.id)) fail('models/library.json : la rubrique « ' + r.id + ' » porte le même identifiant qu\'une famille.');
+  (r.ids || []).forEach((id) => { if (!ids.has(id)) fail('models/library.json : la rubrique « ' + r.id + ' » cite un modèle inconnu « ' + id + ' ».'); });
+});
+const puceIds = new Set(families.map((f) => f.id).concat(library.rubriques.map((r) => r.id)));
+library.puces.forEach((id) => { if (!puceIds.has(id)) fail('models/library.json : la puce « ' + id + ' » n\'est ni une famille ni une rubrique.'); });
+library.populaires.forEach((id) => { if (!ids.has(id)) fail('models/library.json : « populaires » cite un modèle inconnu « ' + id + ' ».'); });
+Object.keys(library.ajouts).forEach((id) => { if (!ids.has(id) && !INCLUDE_DEV) { delete library.ajouts[id]; libDirty = !CHECK || libDirty; } });
+
 if (errors.length) {
   console.error('\n✖ Catalogue invalide :\n  - ' + errors.join('\n  - ') + '\n');
   process.exit(1);
@@ -129,10 +176,10 @@ const out = {};
 const byFam = {};
 entries.forEach(({ meta, ld }) => { (byFam[meta.cat] = byFam[meta.cat] || []).push(Object.assign({}, meta, { ld })); });
 const PAGE = 40; // modèles par page de liste : une famille de 1000 modèles se charge 40 par 40
-const fam = families.map((f) => ({ id: f.id, titre: f.titre, aide: f.aide || '', ord: f.ord || 0, count: (byFam[f.id] || []).length, pages: Math.ceil((byFam[f.id] || []).length / PAGE) }));
+const fam = families.map((f) => ({ id: f.id, titre: f.titre, aide: f.aide || '', ord: f.ord || 0, court: f.court || f.titre, count: (byFam[f.id] || []).length, pages: Math.ceil((byFam[f.id] || []).length / PAGE) }));
 Object.keys(byFam).forEach((id) => {
   const list = byFam[id].sort((a, b) => String(a.sub || '').localeCompare(String(b.sub || ''), 'fr') || (a.ord - b.ord) || a.titre.localeCompare(b.titre, 'fr'));
-  list.forEach((m) => { delete m.ord; if (m.sub === undefined) delete m.sub; if (m.next === undefined) delete m.next; delete m.cat; });
+  list.forEach((m) => { delete m.ord; if (m.sub === undefined) delete m.sub; if (m.next === undefined) delete m.next; if (m.ajout === undefined) delete m.ajout; if (m.pop === undefined) delete m.pop; delete m.cat; });
   for (let p = 0; p * PAGE < list.length; p++) out['catalogue/f-' + id + '-' + (p + 1) + '.json'] = JSON.stringify(list.slice(p * PAGE, (p + 1) * PAGE));
 });
 const idx = {};
@@ -146,7 +193,9 @@ out['catalogue-data.js'] = '/* GÉNÉRÉ par scripts/build-catalogue.cjs : ne pa
   'const CAT_VERSION=' + JSON.stringify(version) + ';\n' +
   'const CAT_PAGE=' + PAGE + ';\n' +
   'const CAT_FAMILIES=' + JSON.stringify(fam) + ';\n' +
-  'const CAT_PARCOURS=' + JSON.stringify(parcours) + ';\n';
+  'const CAT_PARCOURS=' + JSON.stringify(parcours) + ';\n' +
+  'const CAT_RUBRIQUES=' + JSON.stringify(library.rubriques.map((r) => ({ id: r.id, court: r.court, aide: r.aide || '', ids: r.ids || [] }))) + ';\n' +
+  'const CAT_PUCES=' + JSON.stringify(library.puces) + ';\n';
 
 if (CHECK) {
   let stale = [];
@@ -157,6 +206,11 @@ if (CHECK) {
   process.exit(0);
 }
 
+if (libDirty) {
+  const ordered = {}; Object.keys(library.ajouts).sort((a, b) => String(library.ajouts[a] || '').localeCompare(String(library.ajouts[b] || '')) || a.localeCompare(b)).forEach((k) => { ordered[k] = library.ajouts[k]; });
+  library.ajouts = ordered;
+  fs.writeFileSync(LIB_PATH, JSON.stringify(library, null, 1) + '\n');
+}
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 Object.keys(out).forEach((k) => fs.writeFileSync(path.join(ROOT, k), out[k]));

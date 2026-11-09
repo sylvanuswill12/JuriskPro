@@ -1,7 +1,7 @@
 {
   "id": "source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir",
   "cat": "procurations-actes-divers",
-  "sub": "Matrices Procuration",
+  "sub": "Matrices de procuration",
   "titre": "Procuration pour acquérir (prix déjà payé)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procuration pour acquérir (prix déjà payé) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -694,7 +694,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "2000-01-01",

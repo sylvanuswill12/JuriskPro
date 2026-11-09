@@ -1,7 +1,7 @@
 {
   "id": "source-19zel-owbxefq7p14qmlqkpcswbo6xasr-matrice-vente-avec-oc-par",
-  "cat": "procurations-actes-divers",
-  "sub": "Oc Convention Mainlevee",
+  "cat": "ventes-immobilier",
+  "sub": "Matrices de vente",
   "titre": "Vente avec ouverture de crédit par une banque (modèle 1)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Vente avec ouverture de crédit par une banque (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -4076,7 +4076,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-19zel-owbxefq7p14qmlqkpcswbo6xasr-matrice-vente-avec-oc-par.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

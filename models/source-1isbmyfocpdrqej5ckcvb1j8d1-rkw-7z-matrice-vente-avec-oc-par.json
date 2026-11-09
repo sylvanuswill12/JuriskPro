@@ -1,7 +1,7 @@
 {
   "id": "source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par",
   "cat": "ventes-immobilier",
-  "sub": "Matrices Vente",
+  "sub": "Matrices de vente",
   "titre": "Vente avec ouverture de crédit par une banque (modèle 2)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Vente avec ouverture de crédit par une banque (modèle 2) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -4076,7 +4076,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1isbmyfocpdrqej5ckcvb1j8d1-rkw-7z-matrice-vente-avec-oc-par.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

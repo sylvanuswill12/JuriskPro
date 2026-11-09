@@ -1,7 +1,7 @@
 {
   "id": "source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Convention d’actionnaires",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Convention d’actionnaires : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1208,7 +1208,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

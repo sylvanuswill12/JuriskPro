@@ -82,3 +82,15 @@ Un fichier `models/<identifiant>.js` qui se termine par `JPModels.add(MonModele)
 
 ## Capacité
 Testé avec 1 500 modèles : démarrage identique (aucun fichier de catalogue chargé), liste d'une famille 40 par 40, recherche en 0,2 ms, contrôle complet en 5 s. L'index de recherche pèse environ 250 octets par modèle (≈ 26 Ko compressés pour 1 500) ; au-delà de 10 000 modèles, déplacer la recherche côté serveur (Supabase).
+
+## Bibliothèque : dates, popularité, étiquettes (v36)
+
+- `models/library.json` : registre de la bibliothèque.
+  - `ajouts` : date d'ajout (AAAA-MM-JJ) de chaque modèle. Un nouveau modèle y est inscrit automatiquement, avec la date du jour, par `npm run build:catalogue`. Elle sert à l'onglet « Derniers ajouts » (elle n'est pas affichée aux utilisateurs).
+  - `populaires` : sélection éditoriale, du plus au moins populaire. Sur chaque appareil, les modèles que l'utilisateur ouvre le plus passent devant.
+- `models/families.json` : le champ `court` donne le nom de la puce de catégorie (« Sociétés », « Travail »…).
+- Étiquettes des cartes (#OHADA…) : calculées par le catalogue (sous-rubrique, juridiction citée, mots-clés rédigés avec majuscule). Les mots-clés en minuscules ne servent qu'à la recherche.
+
+## PDF fidèle (v36)
+
+Pour un modèle issu d'un fichier Word (`sourceTemplate`), le PDF téléchargé est recomposé dans le navigateur à partir de `templates/source-*.lay.json` (mise en page extraite du Word : polices, marges, retraits, interlignes, tableaux, numérotation) avec les polices de `vendor/fonts/`. Si cette étape échoue, l'application retombe sur la mise en page simplifiée. Le fichier Word téléchargé reste le document d'origine rempli, sans aucune recomposition.

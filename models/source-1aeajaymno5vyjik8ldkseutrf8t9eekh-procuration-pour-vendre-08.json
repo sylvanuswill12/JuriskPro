@@ -1,7 +1,7 @@
 {
   "id": "source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08",
   "cat": "procurations-actes-divers",
-  "sub": "Matrices Procuration",
+  "sub": "Matrices de procuration",
   "titre": "Procuration pour vendre",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procuration pour vendre : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -703,7 +703,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_003": "2000-01-01",

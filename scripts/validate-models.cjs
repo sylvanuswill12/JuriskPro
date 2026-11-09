@@ -28,7 +28,7 @@ const FIELD_TYPES = ['text', 'area', 'date', 'money', 'int', 'choice', 'select',
 const BLOCK_KINDS = ['tit', 'sous', 'part', 'art', 'sub', 'li', 'sp', 'pb', 'p', 'box', 'sigs', 'table'];
 const JUNK = /undefined|NaN|\bnull\b|\[object|\{\{|\}\}/;
 
-const files = fs.readdirSync(MODELS).filter((f) => /\.(js|json)$/.test(f) && !/^(families|parcours)\.json$/.test(f));
+const files = fs.readdirSync(MODELS).filter((f) => /\.(js|json)$/.test(f) && !/^(families|parcours|library)\.json$/.test(f));
 const info = {};
 files.forEach((f) => {
   const text = fs.readFileSync(path.join(MODELS, f), 'utf8'), head = text.slice(0, 400), name = f.replace(/\.(js|json)$/, '');

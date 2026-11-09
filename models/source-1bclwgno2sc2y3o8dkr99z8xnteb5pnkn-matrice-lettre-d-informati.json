@@ -1,7 +1,7 @@
 {
   "id": "source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Lettre d’information du conseil d’administration sur les conventions soumises à autorisation : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -200,7 +200,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1bclwgno2sc2y3o8dkr99z8xnteb5pnkn-matrice-lettre-d-informati.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

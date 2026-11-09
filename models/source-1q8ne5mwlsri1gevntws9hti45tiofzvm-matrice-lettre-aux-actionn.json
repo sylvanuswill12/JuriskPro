@@ -1,7 +1,7 @@
 {
   "id": "source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -185,7 +185,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_003": "2000-01-01",

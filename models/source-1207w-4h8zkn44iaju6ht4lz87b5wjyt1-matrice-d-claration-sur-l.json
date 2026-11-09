@@ -1,7 +1,7 @@
 {
   "id": "source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Déclaration sur l’honneur adressée au greffier en chef",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Déclaration sur l’honneur adressée au greffier en chef : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -253,7 +253,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

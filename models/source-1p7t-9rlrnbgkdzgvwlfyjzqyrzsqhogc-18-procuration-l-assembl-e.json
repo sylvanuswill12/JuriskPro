@@ -1,7 +1,7 @@
 {
   "id": "source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Procuration à l’assemblée",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procuration à l’assemblée : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -733,7 +733,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1p7t-9rlrnbgkdzgvwlfyjzqyrzsqhogc-18-procuration-l-assembl-e.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

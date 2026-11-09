@@ -1,7 +1,7 @@
 {
   "id": "source-1t60iau17nocy7zovpplhd2l5-riycmmu-matrice-pouvoir-au-conseil",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Pouvoir de représentation au conseil d’administration",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Pouvoir de représentation au conseil d’administration : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -134,7 +134,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1t60iau17nocy7zovpplhd2l5-riycmmu-matrice-pouvoir-au-conseil.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_003": "Exemple",

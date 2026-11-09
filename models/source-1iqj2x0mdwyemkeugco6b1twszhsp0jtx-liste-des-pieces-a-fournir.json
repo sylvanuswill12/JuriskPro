@@ -1,7 +1,7 @@
 {
   "id": "source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir",
   "cat": "ventes-immobilier",
-  "sub": "Promotion Immobilere",
+  "sub": "Promotion immobilière",
   "titre": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Liste des pièces à fournir pour les demandes d’agrément de promotions immobilières : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -230,7 +230,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1iqj2x0mdwyemkeugco6b1twszhsp0jtx-liste-des-pieces-a-fournir.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {},
   "sansChamps": true

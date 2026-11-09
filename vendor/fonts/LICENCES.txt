@@ -1,0 +1,10 @@
+Polices de remplacement utilisées par le moteur PDF de JuriskPro (sous-ensembles latins, sans crénage).
+Elles remplacent les polices Word d'origine (Garamond, Constantia, Century Gothic, Tahoma, Calibri,
+Times New Roman, Arial, Bookman Old Style, Courier New) pour que l'aperçu et le PDF aient la même mise en page.
+
+- garamond-*   : EB Garamond (SIL Open Font License 1.1, voir OFL-EBGaramond.txt)
+- constantia-* : Caladea (Apache License 2.0, Huerta Tipográfica / Google)
+- calibri-*    : Carlito (SIL Open Font License 1.1, Łukasz Dziedzic)
+- gothic-*, bookman-* : URW Gothic / URW Bookman, URW++ base35 (AGPL v3 avec exception d'inclusion dans les documents)
+- sans-*, serif-*, mono-* : Liberation Sans / Serif / Mono (SIL Open Font License 1.1)
+- tahoma-*     : DejaVu Sans Condensed (licence Bitstream Vera / DejaVu, libre)

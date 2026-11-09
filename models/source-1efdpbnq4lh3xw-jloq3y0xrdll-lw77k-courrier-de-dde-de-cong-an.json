@@ -1,7 +1,7 @@
 {
   "id": "source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an",
   "cat": "travail",
-  "sub": "Demandes De Conges",
+  "sub": "Demandes de congés",
   "titre": "Demande de congé annuel – secrétaire (modèle 1)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Demande de congé annuel – secrétaire (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -193,7 +193,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "nom_salarie": "Exemple",

@@ -1,7 +1,7 @@
 {
   "id": "source-1t72wqlqqn2qmycq9dsx55hna08uuvbfp-matrice-d-acte-de-nominati",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Acte de nomination du directeur général d’une SAS (OHADA)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Acte de nomination du directeur général d’une SAS (OHADA) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -421,7 +421,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1t72wqlqqn2qmycq9dsx55hna08uuvbfp-matrice-d-acte-de-nominati.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "denomination": "SOCIETE EXEMPLE",

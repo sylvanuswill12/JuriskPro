@@ -1,7 +1,7 @@
 {
   "id": "source-1prydz8xaudce5sdox1zq-sxzg1ej1fo8-matrice-assemblee-generale",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Assemblée générale constitutive d’un GIE",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Assemblée générale constitutive d’un GIE : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -259,7 +259,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1prydz8xaudce5sdox1zq-sxzg1ej1fo8-matrice-assemblee-generale.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "2000-01-01",

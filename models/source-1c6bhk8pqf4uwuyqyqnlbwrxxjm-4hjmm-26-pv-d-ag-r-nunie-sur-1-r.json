@@ -1,7 +1,7 @@
 {
   "id": "source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -451,7 +451,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

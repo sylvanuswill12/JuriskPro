@@ -1,7 +1,7 @@
 {
   "id": "source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif",
   "cat": "societes-associations",
-  "sub": "Matrice Redigee",
+  "sub": "Matrices rédigées",
   "titre": "Lettre de notification d’un représentant permanent",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Lettre de notification d’un représentant permanent : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -201,7 +201,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

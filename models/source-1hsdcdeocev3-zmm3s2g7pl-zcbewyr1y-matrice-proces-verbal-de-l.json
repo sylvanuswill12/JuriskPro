@@ -1,7 +1,7 @@
 {
   "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l",
   "cat": "societes-associations",
-  "sub": "Matrice Redigee",
+  "sub": "Matrices rédigées",
   "titre": "Procès-verbal de la réunion du conseil d’administration – SA",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal de la réunion du conseil d’administration – SA : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -3197,7 +3197,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

@@ -1,7 +1,7 @@
 {
   "id": "source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti",
   "cat": "societes-associations",
-  "sub": "Societes",
+  "sub": "Sociétés",
   "titre": "Projet de mail avec sanction pour la mise en harmonie des sociétés",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Projet de mail avec sanction pour la mise en harmonie des sociétés : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -116,7 +116,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wvdc-ya-qlminbwyvmtk9lyi44-pocef-projet-de-mail-avec-sancti.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "date_acte": "2000-01-01",

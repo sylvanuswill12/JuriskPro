@@ -1,7 +1,7 @@
 {
   "id": "source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si",
   "cat": "procurations-actes-divers",
-  "sub": "Matrices Procuration",
+  "sub": "Matrices de procuration",
   "titre": "Procuration générale (formule simplifiée)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procuration générale (formule simplifiée) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -547,7 +547,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

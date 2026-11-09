@@ -1,7 +1,7 @@
 {
   "id": "source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age",
   "cat": "societes-associations",
-  "sub": "Matrices Des Actes",
+  "sub": "Matrices des actes",
   "titre": "Convocation à une assemblée générale extraordinaire",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Convocation à une assemblée générale extraordinaire : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -195,7 +195,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1humgxp5umfo1vkykv2gleymo6q-psy0e-matrice-de-convocation-age.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

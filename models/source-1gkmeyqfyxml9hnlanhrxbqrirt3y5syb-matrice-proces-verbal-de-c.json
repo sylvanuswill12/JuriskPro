@@ -1,7 +1,7 @@
 {
   "id": "source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c",
   "cat": "societes-associations",
-  "sub": "Matrice Redigee",
+  "sub": "Matrices rédigées",
   "titre": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Procès-verbal de carence de l’assemblée générale ordinaire – SA et SAS : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -298,7 +298,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",

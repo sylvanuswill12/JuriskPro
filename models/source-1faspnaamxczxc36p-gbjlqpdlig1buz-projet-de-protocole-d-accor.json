@@ -1,7 +1,7 @@
 {
   "id": "source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor",
   "cat": "procurations-actes-divers",
-  "sub": "Protocole D Accord",
+  "sub": "Protocoles d’accord",
   "titre": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1154,7 +1154,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_002": "Exemple",

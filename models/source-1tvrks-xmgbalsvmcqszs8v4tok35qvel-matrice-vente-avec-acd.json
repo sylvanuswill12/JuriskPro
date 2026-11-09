@@ -1,7 +1,7 @@
 {
   "id": "source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd",
   "cat": "ventes-immobilier",
-  "sub": "Matrices Vente",
+  "sub": "Matrices de vente",
   "titre": "Vente avec arrêté de concession définitif (ACD)",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Vente avec arrêté de concession définitif (ACD) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -1205,7 +1205,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "reference_etude": "Exemple",

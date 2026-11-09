@@ -1,7 +1,7 @@
 {
   "id": "source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu",
   "cat": "societes-associations",
-  "sub": "Ohada",
+  "sub": "OHADA",
   "titre": "Demande d’envoi de documents aux actionnaires",
   "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
   "resume": "Demande d’envoi de documents aux actionnaires : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
@@ -258,7 +258,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1x06b08pse3eb018wnqqlr-fw7wiawrkq-17-demande-d-envoi-de-docu.docx",
-    "version": "2"
+    "version": "3"
   },
   "exemple": {
     "champ_001": "Exemple",
