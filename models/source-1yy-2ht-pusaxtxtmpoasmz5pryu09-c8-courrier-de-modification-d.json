@@ -75,7 +75,9 @@
           "label": "Nom du notaire",
           "opt": true,
           "group": "Me … A. …",
-          "aide": "…Me ▢ A…"
+          "aide": "…Me ▢ A…",
+          "profil": "nom",
+          "pq": "notaire"
         },
         {
           "id": "prenom_notaire",
@@ -83,7 +85,9 @@
           "label": "Prénom du notaire",
           "opt": true,
           "group": "Me … A. …",
-          "aide": "…Me A ▢"
+          "aide": "…Me A ▢",
+          "profil": "prenom",
+          "pq": "notaire"
         }
       ]
     },

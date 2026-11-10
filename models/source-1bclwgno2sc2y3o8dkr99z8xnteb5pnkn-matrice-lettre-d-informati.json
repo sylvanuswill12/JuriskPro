@@ -65,7 +65,8 @@
           "label": "Fait à",
           "opt": true,
           "group": "Fait à … le …",
-          "aide": "…Fait à ▢ le…"
+          "aide": "…Fait à ▢ le…",
+          "profil": "ville"
         },
         {
           "id": "champ_006",

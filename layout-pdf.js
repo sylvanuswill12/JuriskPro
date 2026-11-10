@@ -775,34 +775,159 @@
     return { fonts, data };
   }
 
-  /* ---------- PDF d'un modèle issu d'un fichier Word ---------- */
+  /* ---------- Préparation commune (PDF et aperçu) : mise en page + polices, mises en cache ---------- */
   let fontMeta = null;
-  async function buildSourcePdf(model, V, S, title) {
+  const layCache = {}, envCache = {};
+  async function prepareSource(model, V, S, needPdf) {
     const src = model && model.sourceTemplate;
     if (!src || !src.file) throw new Error('Modèle source non configuré.');
-    if (typeof JPLibs !== 'undefined') await JPLibs.load('jspdf');
-    const J = root.jspdf && root.jspdf.jsPDF;
-    if (!J) throw { code: 'lib', lib: 'jspdf' };
+    let J = null;
+    if (needPdf) {
+      if (typeof JPLibs !== 'undefined') await JPLibs.load('jspdf');
+      J = root.jspdf && root.jspdf.jsPDF;
+      if (!J) throw { code: 'lib', lib: 'jspdf' };
+    }
     const ver = encodeURIComponent(src.version || '1');
     const layUrl = './' + String(src.file).replace(/^\.\//, '').replace(/\.docx$/i, '.lay.json') + '?v=' + ver;
-    const r = await fetch(layUrl);
-    if (!r.ok) throw new Error('Mise en page introuvable : ' + layUrl);
-    const lay = await r.json();
+    if (!layCache[layUrl]) {
+      layCache[layUrl] = fetch(layUrl).then((r) => { if (!r.ok) throw new Error('Mise en page introuvable : ' + layUrl); return r.json(); })
+        .catch((e) => { delete layCache[layUrl]; throw e; });
+    }
+    const lay = await layCache[layUrl];
     if (!fontMeta) {
       const fr = await fetch('./vendor/fonts/fonts.json?v=' + ver);
       if (!fr.ok) throw new Error('Polices introuvables');
       fontMeta = await fr.json();
     }
-    const keys = Array.from(new Set((lay.fonts || []).concat(['serif']))).filter((k) => fontMeta[k]);
-    const { fonts, data } = await loadFonts(keys, './vendor/fonts/', fontMeta);
+    const keys = Array.from(new Set((lay.fonts || []).concat(['serif']))).filter((k) => fontMeta[k]).sort();
+    const ek = keys.join(',');
+    if (!envCache[ek]) {
+      envCache[ek] = loadFonts(keys, './vendor/fonts/', fontMeta).then(({ fonts, data }) => ({ env: makeEnv(fonts), data }))
+        .catch((e) => { delete envCache[ek]; throw e; });
+    }
+    const { env, data } = await envCache[ek];
     const map = typeof root.JPTokenMap === 'function' ? root.JPTokenMap(model, V, S) : {};
-    const env = makeEnv(fonts);
     const res = layoutDocument(lay, map, env);
-    const doc = toPdf(J, res, env, { fontData: data, title: title });
+    return { res, env, data, J };
+  }
+
+  async function buildSourcePdf(model, V, S, title) {
+    const P = await prepareSource(model, V, S, true);
+    const doc = toPdf(P.J, P.res, P.env, { fontData: P.data, title: title });
     return doc.output('blob');
   }
 
-  root.JPLay = { parseTTF, makeEnv, layoutDocument, layoutPara, toPdf, loadFonts, buildSourcePdf, DOTS };
+  /* ---------- Aperçu à l'écran : les mêmes opérations de dessin que le PDF, sur des <canvas> ---------- */
+  const faceP = {};
+  function ensureFaces(data) {
+    const jobs = [];
+    for (const key of Object.keys(data)) {
+      for (const st of Object.keys(data[key])) {
+        const name = 'JPL-' + key + '-' + st;
+        if (!faceP[name]) {
+          faceP[name] = (async () => {
+            const bin = atob(data[key][st]), u = new Uint8Array(bin.length);
+            for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+            const face = new FontFace(name, u.buffer);
+            await face.load();
+            document.fonts.add(face);
+            return true;
+          })().catch((e) => { delete faceP[name]; throw e; });
+        }
+        jobs.push(faceP[name]);
+      }
+    }
+    return Promise.all(jobs);
+  }
+
+  function drawPage(ctx, pg, env, scale, pw, ph) {
+    ctx.setTransform(scale, 0, 0, scale, 0, 0);
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, pw, ph);
+    ctx.textBaseline = 'alphabetic';
+    if ('fontKerning' in ctx) ctx.fontKerning = 'none';
+    ctx.lineCap = 'butt';
+    for (const o of pg.ops) {
+      if (o.t === 'text') {
+        const st = o.fl & 1 ? (o.fl & 2 ? 'bi' : 'b') : (o.fl & 2 ? 'i' : 'r');
+        const F = env.font(o.f, o.fl);
+        let out = '';
+        for (const ch of o.s) out += F.m.has(ch.codePointAt(0)) ? ch : (F.m.has(0x3F) ? '?' : ' ');
+        ctx.font = o.z + 'px "JPL-' + o.f + '-' + st + '"';
+        // zones à compléter (pointillés) : surlignées en jaune pâle
+        if (out.indexOf('…') > -1) {
+          const w = ctx.measureText(out).width;
+          ctx.fillStyle = 'rgba(255,205,90,.5)';
+          ctx.fillRect(o.x, o.y - o.z * 0.82, w, o.z * 1.05);
+        }
+        ctx.fillStyle = o.col ? '#' + o.col : '#000';
+        ctx.fillText(out, o.x, o.y);
+      } else if (o.t === 'rect') {
+        ctx.fillStyle = '#' + o.fill; ctx.fillRect(o.x, o.y, o.w, o.h);
+      } else if (o.t === 'line' || o.t === 'vline') {
+        ctx.strokeStyle = o.col ? '#' + o.col : '#000'; ctx.lineWidth = o.w || 0.5;
+        ctx.beginPath();
+        if (o.t === 'line') { ctx.moveTo(o.x1, o.y); ctx.lineTo(o.x2, o.y); } else { ctx.moveTo(o.x, o.y1); ctx.lineTo(o.x, o.y2); }
+        ctx.stroke();
+      }
+    }
+  }
+
+  function drawIfNeeded(st, p) {
+    const w = p.div.clientWidth;
+    if (!w || !st.P) return;
+    const dpr = Math.min(root.devicePixelRatio || 1, 2);
+    const pxW = Math.min(Math.round(w * dpr), 1700), pxH = Math.round(pxW * st.ph / st.pw);
+    const c = p.canvas;
+    if (c.width !== pxW || c.height !== pxH) { c.width = pxW; c.height = pxH; }
+    drawPage(c.getContext('2d'), st.P.res.pages[p.i], st.P.env, pxW / st.pw, st.pw, st.ph);
+    p.dirty = false;
+  }
+
+  function clearPreview(host) {
+    const st = host && host.__jpv;
+    if (!st) return;
+    try { st.io.disconnect(); st.ro.disconnect(); } catch (e) { /* ignore */ }
+    host.__jpv = null;
+  }
+
+  function paintHost(host, P) {
+    let st = host.__jpv;
+    const n = P.res.pages.length, pw = P.res.pw, ph = P.res.ph;
+    if (!st || st.n !== n || st.pw !== pw || st.ph !== ph) {
+      clearPreview(host);
+      host.innerHTML = '';
+      st = host.__jpv = { n, pw, ph, pages: [], P };
+      st.io = new IntersectionObserver((es) => es.forEach((e) => {
+        const p = e.target.__pg;
+        p.vis = e.isIntersecting;
+        if (p.vis) { if (p.dirty) drawIfNeeded(st, p); }
+        else if (p.canvas.width > 1) { p.canvas.width = 1; p.canvas.height = 1; p.dirty = true; }   // libère la mémoire des pages éloignées
+      }), { rootMargin: '900px 0px' });
+      st.ro = new ResizeObserver(() => st.pages.forEach((p) => { p.dirty = true; if (p.vis) drawIfNeeded(st, p); }));
+      for (let i = 0; i < n; i++) {
+        const d = document.createElement('div'), c = document.createElement('canvas');
+        d.className = 'pv-page'; d.style.aspectRatio = pw + ' / ' + ph;
+        c.setAttribute('role', 'img'); c.setAttribute('aria-label', 'Page ' + (i + 1) + ' sur ' + n + ' du document');
+        d.appendChild(c); host.appendChild(d);
+        const p = { i, div: d, canvas: c, vis: false, dirty: true };
+        d.__pg = p; st.pages.push(p); st.io.observe(d);
+      }
+      st.ro.observe(host);
+    }
+    st.P = P;
+    st.pages.forEach((p) => { p.dirty = true; if (p.vis) drawIfNeeded(st, p); });
+  }
+
+  /* Affiche le document rempli (valeurs de V, pointillés pour les vides) dans un ou plusieurs conteneurs. */
+  async function showPreview(model, V, S, hosts, stale) {
+    const P = await prepareSource(model, V, S, false);
+    await ensureFaces(P.data);
+    if (stale && stale()) return false;
+    hosts.forEach((h) => paintHost(h, P));
+    return true;
+  }
+
+  root.JPLay = { parseTTF, makeEnv, layoutDocument, layoutPara, toPdf, loadFonts, buildSourcePdf, showPreview, clearPreview, DOTS };
   root.buildSourcePdf = buildSourcePdf;
   if (typeof module !== 'undefined' && module.exports) module.exports = root.JPLay;
 })(typeof window !== 'undefined' ? window : globalThis);

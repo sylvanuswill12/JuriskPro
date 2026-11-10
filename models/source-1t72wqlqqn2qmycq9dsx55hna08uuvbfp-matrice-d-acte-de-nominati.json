@@ -190,7 +190,8 @@
           "label": "Fait à",
           "opt": true,
           "group": "Fait à …",
-          "aide": "…Fait à ▢"
+          "aide": "…Fait à ▢",
+          "profil": "ville"
         },
         {
           "id": "champ_017",

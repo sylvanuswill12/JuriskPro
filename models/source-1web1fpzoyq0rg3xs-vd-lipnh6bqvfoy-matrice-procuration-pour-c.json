@@ -27,7 +27,9 @@
           "type": "text",
           "label": "PARDEVANT Maître",
           "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN,"
+          "group": "PARDEVANT Maître …, Notaire à ABIDJAN,",
+          "profil": "maitre",
+          "pq": "notaire"
         },
         {
           "id": "champ_002",

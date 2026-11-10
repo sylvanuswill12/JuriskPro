@@ -34,7 +34,9 @@
           "type": "text",
           "label": "Nom du notaire",
           "opt": true,
-          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de Côte d’Ivoire),…"
+          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de Côte d’Ivoire),…",
+          "profil": "nom",
+          "pq": "notaire"
         },
         {
           "id": "prenom_notaire",
@@ -42,7 +44,9 @@
           "label": "Prénom du notaire",
           "opt": true,
           "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de Côte d’Ivoire),…",
-          "aide": "…PARDEVANT Maître ▢ Notaire à ABIDJAN République…"
+          "aide": "…PARDEVANT Maître ▢ Notaire à ABIDJAN République…",
+          "profil": "prenom",
+          "pq": "notaire"
         },
         {
           "id": "champ_001",

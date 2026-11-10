@@ -246,7 +246,9 @@
           "type": "text",
           "label": "Nom du notaire",
           "opt": true,
-          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à ABIDJAN –…"
+          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à ABIDJAN –…",
+          "profil": "nom",
+          "pq": "notaire"
         },
         {
           "id": "prenom_notaire",
@@ -254,7 +256,9 @@
           "label": "Prénom du notaire",
           "opt": true,
           "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à ABIDJAN –…",
-          "aide": "…modèle émanant de l’Etude de Maître ▢ Notaire à ABIDJAN République…"
+          "aide": "…modèle émanant de l’Etude de Maître ▢ Notaire à ABIDJAN République…",
+          "profil": "prenom",
+          "pq": "notaire"
         },
         {
           "id": "notaire_bp",

@@ -68,7 +68,9 @@
           "label": "Nom du notaire",
           "opt": true,
           "group": "Maître …",
-          "aide": "…Maître ▢"
+          "aide": "…Maître ▢",
+          "profil": "nom",
+          "pq": "notaire"
         },
         {
           "id": "champ_003",

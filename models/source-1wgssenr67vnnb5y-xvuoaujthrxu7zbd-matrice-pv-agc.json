@@ -173,7 +173,9 @@
           "type": "text",
           "label": "A été établie par Maître",
           "opt": true,
-          "group": "L'Assemblée Générale, après vérification, constate que le Capital…"
+          "group": "L'Assemblée Générale, après vérification, constate que le Capital…",
+          "profil": "maitre",
+          "pq": "notaire"
         },
         {
           "id": "champ_020",
@@ -188,7 +190,9 @@
           "type": "text",
           "label": "Ont été établis par Maître",
           "opt": true,
-          "group": "L’assemblée générale, après lecture, adopte article par article les…"
+          "group": "L’assemblée générale, après lecture, adopte article par article les…",
+          "profil": "maitre",
+          "pq": "notaire"
         },
         {
           "id": "champ_022",

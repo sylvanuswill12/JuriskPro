@@ -851,11 +851,46 @@ function paintControl(ds,total,head,note){
    et la photo restent locales à ce navigateur.
    ============================================================ */
 function themeMode(){return store.get('juriskpro:theme')||'auto';}
+/* ---------- Mon cabinet : informations du professionnel, reprises dans les modèles (cet appareil uniquement) ---------- */
+const CAB_KEY='juriskpro:cabinet:v1';
+const CAB_QUALITES=[['','Non précisée'],['notaire','Notaire'],['avocat','Avocat'],['huissier','Huissier de justice'],['autre','Autre']];
+function cabinetRead(){try{const o=JSON.parse(store.get(CAB_KEY)||'null');return o&&typeof o==='object'?o:{};}catch(e){return {};}}
+function cabinetSave(o){return store.set(CAB_KEY,JSON.stringify(o));}
+/* Valeurs proposées (libellé, texte) : seulement celles qui sont renseignées. */
+function cabinetChips(){
+  const c=cabinetRead(),full=[c.prenom,c.nom].filter(Boolean).join(' '),q=(CAB_QUALITES.find(x=>x[0]===c.qualite&&x[0])||[])[1];
+  return [['Nom complet',full],['Prénom',c.prenom],['Nom',c.nom],['Étude',c.etude],['Adresse',c.adresse],['BP',c.bp],['Ville',c.ville],['Tél.',c.tel],['E-mail',c.email],['Qualité',q]].filter(x=>x[1]&&String(x[1]).trim());
+}
+/* Nouveau brouillon : on remplit seulement les champs marqués « sûrs » (libellé exact, voir tools/tag_profil.py), jamais un champ déjà rempli. */
+function applyCabinet(m,S){
+  const c=cabinetRead();let n=0;
+  const val={nom:c.nom,prenom:c.prenom,maitre:[c.prenom,c.nom].filter(Boolean).join(' '),ville:c.ville};
+  m.etapes.forEach(e=>(e.champs||[]).forEach(f=>{
+    if(!f.profil||(f.pq&&f.pq!==c.qualite)) return;
+    const v=String(val[f.profil]||'').trim();
+    if(v&&!String(S[f.id]||'').trim()){S[f.id]=v;n++;}
+  }));
+  return n;
+}
 const ACCOUNT_KEY='juriskpro:account:v1';
 function accountRead(){try{return JSON.parse(store.get(ACCOUNT_KEY)||'null');}catch(e){return null;}}
 function accountSave(o){return store.set(ACCOUNT_KEY,JSON.stringify(o));}
 function accountField(id,label,type,value,placeholder,required,autocomplete){
   return '<div class="field"><label for="'+id+'">'+label+(required?' <span aria-hidden="true">*</span>':'')+'</label><input id="'+id+'" name="'+id+'" type="'+type+'" value="'+esc(value||'')+'" placeholder="'+esc(placeholder||'')+'" '+(required?'required ':'')+'autocomplete="'+autocomplete+'"></div>';
+}
+function cabinetPanelHTML(){
+  const CH='<span class="acc-chev" aria-hidden="true"></span>';
+  const c=cabinetRead(),f=(id,l,ph,ac,type)=>'<div class="field"><label for="cab-'+id+'">'+l+'</label><input id="cab-'+id+'" type="'+(type||'text')+'" value="'+esc(c[id]||'')+'" placeholder="'+esc(ph||'')+'" autocomplete="'+(ac||'off')+'"></div>';
+  const filled=cabinetChips().length;
+  return '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Mon cabinet</strong><small>'+(filled?'Informations reprises dans vos modèles':'Nom, adresse, ville : à renseigner une seule fois')+'</small></span>'+CH+'</summary><div class="acc-panel">'+
+    '<p class="aide">Ces informations restent sur cet appareil. Dans un modèle, touchez un champ : vos informations apparaissent en boutons sous le champ. Certains champs sans ambiguïté (nom du notaire, « Fait à ») se remplissent seuls dans un nouveau brouillon.</p>'+
+    '<form id="acc-cab-form" class="fields">'+
+    '<div class="field"><label for="cab-qualite">Qualité</label><select id="cab-qualite">'+CAB_QUALITES.map(q=>'<option value="'+q[0]+'"'+(c.qualite===q[0]?' selected':'')+'>'+q[1]+'</option>').join('')+'</select></div>'+
+    f('prenom','Prénom','Ex. Marie','given-name')+f('nom','Nom','Ex. KOUASSI','family-name')+
+    f('etude','Étude ou cabinet','Ex. Étude de Maître KOUASSI','organization')+
+    f('adresse','Adresse','Quartier, rue, immeuble','street-address')+f('bp','Boîte postale','Ex. 01 BP 1234','off')+f('ville','Ville','Ex. ABIDJAN','address-level2')+
+    f('tel','Téléphone','Facultatif','tel','tel')+f('email','E-mail professionnel','Facultatif','email','email')+
+    '<div class="tools"><button type="submit" class="btn">Enregistrer</button><button type="button" class="btn ghost" id="cab-clear">Effacer</button><span class="msg" id="cab-msg" role="status" aria-live="polite"></span></div></form></div></details>';
 }
 async function openAccount(){
   leave();setTitle('Compte');
@@ -907,6 +942,7 @@ function renderAccountProfile(a){
         accountField('prof-city','Ville / pays','text',a.city,'Facultatif',false,'address-level2')+
         accountField('prof-profession','Profession ou activité','text',a.profession,'Facultatif',false,'organization-title')+
         '<div class="tools"><button type="submit" class="btn">Enregistrer</button><span class="msg" id="prof-msg" role="status" aria-live="polite"></span></div></form></div></details>'+
+      cabinetPanelHTML()+
       '<details class="acc-item"><summary class="acc-row"><span class="acc-label"><strong>Sécurité et données</strong><small>Confidentialité de vos informations</small></span>'+CH+'</summary><div class="acc-panel"><p>Vos informations sont personnelles : elles ne sont ni vendues ni rendues publiques, et ne sont communiquées que pour le fonctionnement du service ou si la loi l’exige.</p><p>Choisissez un mot de passe robuste, gardez-le confidentiel et déconnectez-vous sur un appareil partagé.</p><p>Les documents générés et leur historique sont enregistrés dans votre compte. Les brouillons non terminés, les préférences et la photo de profil restent sur cet appareil.</p><p class="msg" id="acc-profile-msg" role="status" aria-live="polite"></p></div></details>'+
       '<div class="acc-row"><span class="acc-label"><strong>Brouillons</strong><small>'+(nbd?plural(nbd,'document','documents'):'Aucun document')+' sur cet appareil</small></span><button type="button" class="acc-btn" id="open-drafts">Voir</button></div>'+
     '</section>'+
@@ -970,6 +1006,15 @@ function renderAccountProfile(a){
       renderAccountProfile(updated);
     }else{accountSave(updated);renderAccountProfile(updated);}
   };
+  const cabForm=$('#acc-cab-form');
+  if(cabForm){
+    const ids=['qualite','prenom','nom','etude','adresse','bp','ville','tel','email'],cmsg=$('#cab-msg');
+    cabForm.onsubmit=e=>{
+      e.preventDefault();const o={};ids.forEach(id=>{const v=($('#cab-'+id).value||'').trim();if(v) o[id]=v;});
+      const ok=cabinetSave(o);cmsg.textContent=ok?'Enregistré sur cet appareil.':'Impossible d’enregistrer : le stockage de l’appareil est indisponible.';cmsg.className='msg '+(ok?'success':'err');
+    };
+    $('#cab-clear').onclick=()=>{store.del(CAB_KEY);ids.forEach(id=>{$('#cab-'+id).value='';});cmsg.textContent='Informations effacées.';cmsg.className='msg success';};
+  }
   $('#open-drafts').onclick=()=>go('brouillons');
   $('#acc-logout').onclick=async()=>{
     const auth=window.JuriskProAuth;
@@ -987,6 +1032,7 @@ function openModel(m){
   M=m;ui.armed='';pane='form';validationAttempted=false;touchedSteps=new Set();
   const d=readDraft(m.id);
   S=Object.assign(m.defaults(),d?d.v:{});
+  ui.cabFilled=d?0:applyCabinet(m,S);
   step=d&&Number.isInteger(d.step)?clamp(d.step,0,m.etapes.length-1):0;
   let jump=null;
   if(pendingOpen&&pendingOpen.id===m.id){
@@ -1035,7 +1081,7 @@ function openModel(m){
   if(jump) jumpToField(jump);
 }
 function setPane(p){
-  if(p==='preview'){
+  if(p==='preview'&&!(M&&M.sourceTemplate)){
     if(!(M&&M.etapes[step]&&M.etapes[step].final)) p='form';
     else if(finalValidation(M,S).blocked){p='form';updatePreviewVisibility();return;}
   }
@@ -1187,7 +1233,7 @@ function renderStep(focus,focusSel){
 function updatePreviewVisibility(){
   const finalStep=!!(M&&M.etapes[step]&&M.etapes[step].final);
   const validation=finalStep?finalValidation(M,S):null;
-  const canPreview=finalStep&&validation&&!validation.blocked;
+  const canPreview=(M&&M.sourceTemplate)?true:(finalStep&&validation&&!validation.blocked);
   const wiz=$('#wiz'),tab=$('#tab-prev'),preview=$('.preview');
   if(tab) tab.hidden=!canPreview;
   if(preview) preview.hidden=!canPreview;
@@ -1199,7 +1245,8 @@ function updatePreviewVisibility(){
 }
 function paintExNote(){
   const el=$('#exnote');if(!el) return;
-  el.innerHTML=S._ex?'<p class="exnote">Ces informations sont un exemple. Remplacez-les par les vôtres, ou choisissez « Recommencer à zéro ».</p>':'';
+  el.innerHTML=(S._ex?'<p class="exnote">Ces informations sont un exemple. Remplacez-les par les vôtres, ou choisissez « Recommencer à zéro ».</p>':'')+
+    (ui.cabFilled?'<p class="exnote">'+(ui.cabFilled>1?ui.cabFilled+' champs ont':'1 champ a')+' été repris de « Mon cabinet » : vérifiez-'+(ui.cabFilled>1?'les':'le')+'.</p>':'');
 }
 
 /* ---------- Saisie ---------- */
@@ -1209,7 +1256,15 @@ function bindStep(box){
   box.addEventListener('focusin',e=>{
     const id=e.target&&e.target.id||e.target&&e.target.name;
     if(id) flashField(id);
+    showCabinetBar(box,e.target);
   });
+  box.addEventListener('focusout',e=>{
+    const bar=box.querySelector('.cab-bar');
+    if(bar&&!(e.relatedTarget&&(bar.contains(e.relatedTarget)||(e.relatedTarget.closest&&e.relatedTarget.closest('.field')===bar.parentNode)))) bar.remove();
+  });
+  /* Toucher une valeur : elle est insérée sans quitter le champ (le clavier reste ouvert). */
+  box.addEventListener('pointerdown',e=>{const b=e.target.closest&&e.target.closest('.cab-chip');if(b){e.preventDefault();insertCabinet(box,b);b.dataset.done='1';}});
+  box.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('.cab-chip');if(!b) return;if(b.dataset.done){delete b.dataset.done;return;}insertCabinet(box,b);});
   box.addEventListener('click',onClick);
   const p=$('#prev'),n=$('#next');
   if(p) p.onclick=()=>gotoStep(step-1);
@@ -1218,6 +1273,30 @@ function bindStep(box){
   $('#reset').onclick=doReset;
   const search=$('#field-filter');
   if(search){search.value=fieldFilter;search.addEventListener('input',()=>{fieldFilter=search.value;applyFieldFilter(box);});applyFieldFilter(box);}
+}
+function showCabinetBar(box,t){
+  const old=box.querySelector('.cab-bar');
+  if(!t||!t.matches||!t.matches('input[type=text]:not([data-num]),textarea')||t.id==='field-filter'){if(old&&!(t&&old.contains(t))) old.remove();return;}
+  const field=t.closest('.field');if(!field) return;
+  if(old&&old.parentNode===field) return;
+  if(old) old.remove();
+  const chips=cabinetChips();
+  const bar=document.createElement('div');bar.className='cab-bar';
+  if(!chips.length){
+    bar.innerHTML='<a class="cab-empty" href="#compte">Renseignez « Mon cabinet » dans Compte pour reprendre vos informations d’un toucher.</a>';
+  }else{
+    bar.setAttribute('role','group');bar.setAttribute('aria-label','Reprendre une information de Mon cabinet');
+    bar.innerHTML='<span class="cab-t">Mon cabinet</span>'+chips.map((c,i)=>'<button type="button" class="cab-chip" data-v="'+esc(c[1])+'" title="'+esc(c[1])+'">'+esc(c[0])+'</button>').join('');
+  }
+  field.appendChild(bar);
+}
+function insertCabinet(box,chip){
+  const field=chip.closest('.field'),t=field&&field.querySelector('input[type=text],textarea');if(!t) return;
+  const v=chip.dataset.v||'';
+  if(!t.value.trim()){t.value=v;}
+  else{const a=t.selectionStart==null?t.value.length:t.selectionStart,b=t.selectionEnd==null?a:t.selectionEnd,pre=t.value.slice(0,a),post=t.value.slice(b);
+    const sep=pre&&!/\s$/.test(pre)?' ':'';t.value=pre+sep+v+post;const pos=(pre+sep+v).length;try{t.setSelectionRange(pos,pos);}catch(e){}}
+  t.dispatchEvent(new Event('input',{bubbles:true}));
 }
 function applyFieldFilter(box){
   const q=String(fieldFilter||'').trim().toLocaleLowerCase('fr-FR');
@@ -1356,23 +1435,43 @@ function doReset(){
 /* ---------- Aperçu ---------- */
 /* Aperçu : recalculé après une courte pause de saisie (140 ms), pas à chaque touche. */
 function schedulePreview(){clearTimeout(pvRaf);pvRaf=setTimeout(()=>{pvRaf=0;paintPreview();},140);}
-let lastMissing=0;
+let lastMissing=0,pvSeq=0;
 function paintPreview(){
   if(!M) return;
   const r=recompute(),out=renderHTML(r.blocks,r.V);
   const sheet=$('#sheet');if(!sheet) return;
-  const sc=$('#pvscroll'),top=sc?sc.scrollTop:0;
-  sheet.innerHTML=out.html;
-  const modalSheet=$('#jp-preview-sheet');
-  if(modalSheet) modalSheet.innerHTML=out.html;
-  if(sc) sc.scrollTop=top;
+  const modalSheet=$('#jp-preview-sheet'),aside=$('.preview');
   lastMissing=out.missing.size;
   const b=$('#bdg');if(b){b.hidden=!out.missing.size;b.textContent=out.missing.size;}
+  const my=++pvSeq;
+  const html=()=>{
+    const sc=$('#pvscroll'),top=sc?sc.scrollTop:0;
+    [sheet,modalSheet].forEach(h=>{if(!h) return;if(window.JPLay) JPLay.clearPreview(h);h.classList.remove('pv-canvas');h.innerHTML=out.html;});
+    if(aside) aside.classList.remove('pv-canvas-on');
+    if(sc) sc.scrollTop=top;
+  };
+  /* Modèle issu d'un fichier Word : la vraie page (polices, marges, tableaux), recalculée comme pour le PDF. */
+  if(M.sourceTemplate&&window.JPLay&&JPLay.showPreview&&window.FontFace&&window.IntersectionObserver&&window.ResizeObserver){
+    const hosts=[sheet,modalSheet].filter(Boolean);
+    JPLay.showPreview(M,r.V,S,hosts,()=>my!==pvSeq).then(ok=>{
+      if(!ok||my!==pvSeq) return;
+      hosts.forEach(h=>h.classList.add('pv-canvas'));
+      if(aside) aside.classList.add('pv-canvas-on');
+    }).catch(e=>{
+      if(my!==pvSeq) return;
+      console.warn('Aperçu fidèle indisponible, aperçu simplifié.',e);
+      html();
+    });
+    return;
+  }
+  html();
 }
 function openFullPreview(){
-  if(!(M&&M.etapes[step]&&M.etapes[step].final)) return;
-  const gate=finalValidation(M,S);
-  if(gate.blocked){setPane('form');return;}
+  if(!(M&&M.sourceTemplate)){
+    if(!(M&&M.etapes[step]&&M.etapes[step].final)) return;
+    const gate=finalValidation(M,S);
+    if(gate.blocked){setPane('form');return;}
+  }
   paintPreview();
   const modal=$('#jp-preview-modal');if(!modal)return;
   modal.hidden=false;document.body.classList.add('jp-modal-open');

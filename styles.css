@@ -1211,3 +1211,18 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]) .lb-star.on{color:#F2C14E}}
 @media (max-width:640px){.lb-list{grid-template-columns:1fr}.lb-tab{font-size:15px}}
 .lb-sticky:has(.lb-panel:not([hidden])){position:static}
+
+/* Aperçu fidèle (canvas) : la page telle qu'elle sera téléchargée */
+.sheet.pv-canvas{background:transparent;border:0;padding:0;border-radius:0;font-size:0;line-height:0}
+.pv-page{display:block;width:100%;max-width:860px;margin:0 auto 14px;background:#fff;border-radius:3px;box-shadow:0 1px 3px #0003,0 6px 18px #0002;overflow:hidden}
+.pv-page canvas{display:block;width:100%;height:auto}
+.preview.pv-canvas-on .legend span:first-child{display:none}
+.jp-preview-paper .sheet.pv-canvas{padding:0;min-height:0;background:transparent;overflow:visible}
+.jp-preview-paper:has(.pv-canvas){background:transparent;box-shadow:none;border:0;min-height:0;width:min(100%,860px)}
+
+/* Mon cabinet : boutons de reprise sous le champ actif */
+.cab-bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
+.cab-t{font-size:12px;font-weight:700;color:var(--ink-2);margin-right:2px}
+.cab-chip{min-height:36px;max-width:100%;padding:0 12px;border-radius:999px;border:1px solid var(--accent-line);background:var(--accent-soft);color:var(--accent);font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap}
+.cab-chip:hover,.cab-chip:focus-visible{border-color:var(--accent)}
+.cab-empty{font-size:12.5px;color:var(--ink-2)}

@@ -431,7 +431,9 @@
           "type": "text",
           "label": "Nom du notaire",
           "opt": true,
-          "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…"
+          "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
+          "profil": "nom",
+          "pq": "notaire"
         },
         {
           "id": "prenom_notaire",
@@ -439,7 +441,9 @@
           "label": "Prénom du notaire",
           "opt": true,
           "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
-          "aide": "…au rang des minutes de Maître ▢ Notaire dès obtention son…"
+          "aide": "…au rang des minutes de Maître ▢ Notaire dès obtention son…",
+          "profil": "prenom",
+          "pq": "notaire"
         },
         {
           "id": "champ_049",

@@ -94,3 +94,13 @@ Testé avec 1 500 modèles : démarrage identique (aucun fichier de catalogue ch
 ## PDF fidèle (v36)
 
 Pour un modèle issu d'un fichier Word (`sourceTemplate`), le PDF téléchargé est recomposé dans le navigateur à partir de `templates/source-*.lay.json` (mise en page extraite du Word : polices, marges, retraits, interlignes, tableaux, numérotation) avec les polices de `vendor/fonts/`. Si cette étape échoue, l'application retombe sur la mise en page simplifiée. Le fichier Word téléchargé reste le document d'origine rempli, sans aucune recomposition.
+
+## Aperçu fidèle et « Mon cabinet » (v38)
+
+- Aperçu : pour un modèle issu d'un fichier Word, le volet d'aperçu (et l'aperçu plein écran) affiche la vraie page, calculée par le même moteur que le PDF (`layout-pdf.js`) et dessinée sur des `<canvas>` ; les zones à compléter sont surlignées. Il est disponible à toutes les étapes. Si le moteur échoue, l'ancien aperçu simplifié s'affiche.
+- Mon cabinet (écran Compte) : qualité, prénom, nom, étude, adresse, BP, ville, téléphone, e-mail, enregistrés sur l'appareil uniquement (`juriskpro:cabinet:v1`). Sous un champ texte actif, ces valeurs apparaissent en boutons et s'insèrent d'un toucher.
+- Reprise automatique : seuls les champs marqués dans le modèle (`"profil": "nom" | "prenom" | "maitre" | "ville"`, avec `"pq": "notaire"` pour ne s'appliquer qu'à un notaire) sont remplis, et seulement dans un nouveau brouillon. Le marquage se fait avec `tools/tag_profil.py` (libellés exacts, jamais les champs ambigus comme « Ville », « Lieu » ou « BP »).
+
+## APK : fichiers embarqués
+
+`scripts/prepare-web.cjs` copie dans `www/` (donc dans l'APK) la liste de scripts de la racine. Depuis la v38, il vérifie aussi que chaque script chargé par `index.html` y figure (`template-engine.js` et `layout-pdf.js` manquaient auparavant à cette liste).
