@@ -26,7 +26,6 @@
           "id": "champ_001",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "LE …",
           "aide": "…LE ▢"
         },
@@ -34,8 +33,7 @@
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de COTE D’IVOIRE),…",
+          "group": "PARDEVANT Maître … , Notaire à … (République de COTE D’IVOIRE),…",
           "profil": "nom",
           "pq": "notaire"
         },
@@ -43,17 +41,23 @@
           "id": "prenom_notaire",
           "type": "text",
           "label": "Prénom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de COTE D’IVOIRE),…",
-          "aide": "…PARDEVANT Maître ▢ Notaire à ABIDJAN République…",
+          "group": "PARDEVANT Maître … , Notaire à … (République de COTE D’IVOIRE),…",
+          "aide": "…PARDEVANT Maître ▢ Notaire à République de…",
           "profil": "prenom",
           "pq": "notaire"
+        },
+        {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître … , Notaire à … (République de COTE D’IVOIRE),…"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Madame Monsieur",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…Madame Monsieur ▢ demeurant à époux se…"
         },
@@ -61,7 +65,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "Avant « demeurant à époux se »",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…Madame Monsieur ▢ demeurant à époux se…"
         },
@@ -69,7 +72,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "Avant « demeurant à époux se »",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…Madame Monsieur ▢ demeurant à époux se…"
         },
@@ -77,7 +79,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…Madame Monsieur demeurant à ▢ époux se de Monsieur…"
         },
@@ -116,7 +117,6 @@
           "id": "champ_009",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…laquelle elle il s’est mariée à ▢ le…"
         },
@@ -124,7 +124,6 @@
           "id": "champ_010",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Madame/ Monsieur …, … , demeurant à … époux (se) de Monsieur …, … avec…",
           "aide": "…elle il s’est mariée à le ▢"
         },
@@ -132,7 +131,6 @@
           "id": "champ_011",
           "type": "text",
           "label": "Née à",
-          "opt": true,
           "group": "Née à …, le …,",
           "aide": "…Née à ▢ le…"
         },
@@ -140,7 +138,6 @@
           "id": "champ_012",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Née à …, le …,",
           "aide": "…Née à le ▢"
         },
@@ -148,14 +145,12 @@
           "id": "champ_013",
           "type": "text",
           "label": "Carte Nationale d’Identité numéro C",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Établie en",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
           "aide": "…Nationale d’Identité numéro C établie en ▢ le et valable jusqu’au…"
         },
@@ -163,7 +158,6 @@
           "id": "champ_015",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
           "aide": "…d’Identité numéro C établie en le ▢ et valable jusqu’au…"
         },
@@ -171,7 +165,6 @@
           "id": "champ_016",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie en …, le…",
           "aide": "…établie en le et valable jusqu’au ▢"
         },
@@ -179,7 +172,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "Monsieur Madame",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
         },
@@ -187,7 +179,6 @@
           "id": "champ_018",
           "type": "text",
           "label": "Avant « demeurant à Commune de »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
         },
@@ -195,7 +186,6 @@
           "id": "champ_019",
           "type": "text",
           "label": "Avant « demeurant à Commune de »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame ▢ demeurant à Commune de…"
         },
@@ -203,7 +193,6 @@
           "id": "champ_020",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame demeurant à ▢ Commune de Quartier BP…"
         },
@@ -211,7 +200,6 @@
           "id": "champ_021",
           "type": "text",
           "label": "Avant « Commune de Quartier BP »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame demeurant à ▢ Commune de Quartier BP…"
         },
@@ -219,7 +207,6 @@
           "id": "champ_022",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame demeurant à Commune de ▢ Quartier BP ici présent…"
         },
@@ -227,7 +214,6 @@
           "id": "champ_023",
           "type": "text",
           "label": "Avant « Quartier BP ici présent »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Monsieur Madame demeurant à Commune de ▢ Quartier BP ici présent…"
         },
@@ -235,7 +221,6 @@
           "id": "champ_024",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
         },
@@ -243,7 +228,6 @@
           "id": "champ_025",
           "type": "text",
           "label": "Avant « BP ici présent qui »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
         },
@@ -251,7 +235,6 @@
           "id": "champ_026",
           "type": "text",
           "label": "Avant « BP ici présent qui »",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…Madame demeurant à Commune de Quartier ▢ BP ici présent qui…"
         },
@@ -259,7 +242,6 @@
           "id": "champ_027",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "Monsieur/ Madame …, … , demeurant à … , Commune de … , Quartier … , ……",
           "aide": "…demeurant à Commune de Quartier BP ▢ ici présent qui accepte…"
         },
@@ -267,7 +249,6 @@
           "id": "champ_028",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …,",
           "aide": "…Né à ▢ le…"
         },
@@ -275,7 +256,6 @@
           "id": "champ_029",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …,",
           "aide": "…Né à ▢ le…"
         },
@@ -283,7 +263,6 @@
           "id": "champ_030",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …,",
           "aide": "…Né à le ▢"
         },
@@ -291,14 +270,12 @@
           "id": "champ_031",
           "type": "text",
           "label": "Carte d’Identité Nationale numéro C",
-          "opt": true,
           "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
           "aide": "…d’Identité Nationale numéro C établie à ▢ le et valable jusqu’au…"
         },
@@ -306,7 +283,6 @@
           "id": "champ_033",
           "type": "text",
           "label": "Avant « le et valable jusqu’au »",
-          "opt": true,
           "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
           "aide": "…d’Identité Nationale numéro C établie à ▢ le et valable jusqu’au…"
         },
@@ -314,7 +290,6 @@
           "id": "champ_034",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
           "aide": "…Nationale numéro C établie à le ▢ et valable jusqu’au…"
         },
@@ -322,7 +297,6 @@
           "id": "champ_035",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte d’Identité Nationale numéro C …, établie à … , le…",
           "aide": "…établie à le et valable jusqu’au ▢"
         },
@@ -330,7 +304,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "Sise à",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…terrain urbain non bâtie sise à ▢ Commune d’une superficie de…"
         }
@@ -346,7 +319,6 @@
           "id": "champ_037",
           "type": "text",
           "label": "Avant « Commune d’une superficie de »",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…terrain urbain non bâtie sise à ▢ Commune d’une superficie de…"
         },
@@ -354,7 +326,6 @@
           "id": "champ_038",
           "type": "text",
           "label": "Commune",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…urbain non bâtie sise à Commune ▢ d’une superficie de METRES…"
         },
@@ -362,77 +333,71 @@
           "id": "champ_039",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…"
         },
         {
           "id": "champ_040",
           "type": "text",
-          "label": "Avant « METRES CARRES formant les »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…sise à Commune d’une superficie de ▢ METRES CARRES formant les…"
         },
         {
           "id": "champ_041",
           "type": "text",
-          "label": "Avant « et îlot 509 du »",
-          "opt": true,
+          "label": "Avant « et îlot du Lotissement »",
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
-          "aide": "…METRES CARRES formant les lots numéros ▢ et îlot 509 du…"
+          "aide": "…METRES CARRES formant les lots numéros ▢ et îlot du Lotissement…"
         },
         {
           "id": "champ_042",
           "type": "text",
           "label": "Et",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…CARRES formant les lots numéros et ▢ îlot 509 du Lotissement…"
         },
         {
           "id": "champ_043",
           "type": "text",
-          "label": "Avant « îlot 509 du Lotissement »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
-          "aide": "…CARRES formant les lots numéros et ▢ îlot 509 du Lotissement…"
+          "aide": "…CARRES formant les lots numéros et ▢ îlot du Lotissement Commune…"
         },
         {
           "id": "champ_044",
           "type": "text",
           "label": "Îlot",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…",
           "aide": "…formant les lots numéros et îlot ▢ 509 du Lotissement Commune…"
+        },
+        {
+          "id": "numero_ilot",
+          "type": "text",
+          "label": "Numéro de l’îlot",
+          "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…"
         },
         {
           "id": "champ_045",
           "type": "text",
           "label": "Du Lotissement",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie, sise à … , Commune …, d’une…"
         },
         {
           "id": "champ_046",
           "type": "text",
-          "label": "Mme",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme ▢ Mr…"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         },
         {
           "id": "champ_047",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "Avant « dans blancs »",
-          "opt": true,
           "group": "Barres : … dans blancs",
           "aide": "…Barres ▢ dans blancs…"
         }
@@ -463,7 +428,7 @@
     },
     {
       "k": "p",
-      "text": "LE {{champ_001}}"
+      "text": "LE {{champ_001_jm}}"
     },
     {
       "k": "sp"
@@ -473,7 +438,7 @@
     },
     {
       "k": "p",
-      "text": "PARDEVANT Maître {{notaire_nom}} {{prenom_notaire}}, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+      "text": "PARDEVANT Maître {{notaire_nom}} {{prenom_notaire}}, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), soussigné,"
     },
     {
       "k": "sp"
@@ -573,7 +538,7 @@
     },
     {
       "k": "p",
-      "text": "**Une parcelle** de terrain urbain non bâtie, sise à {{champ_036}} **{{champ_037}}, Commune {{champ_038}}**, d’une superficie de {{champ_039}} **({{champ_040}}) METRES CARRES**, formant les lots numéros   (**{{champ_041}}**) et {{champ_042}} (**{{champ_043}}**), îlot {{champ_044}} **(509)** du Lotissement {{champ_045}}, Commune de"
+      "text": "**Une parcelle** de terrain urbain non bâtie, sise à {{champ_036}} **{{champ_037}}, Commune {{champ_038}}**, d’une superficie de {{champ_039}} **({{champ_040}}) METRES CARRES**, formant les lots numéros   (**{{champ_041}}**) et {{champ_042}} (**{{champ_043}}**), îlot {{champ_044}} **({{numero_ilot}})** du Lotissement {{champ_045}}, Commune de"
     },
     {
       "k": "sp"
@@ -619,7 +584,7 @@
     },
     {
       "k": "p",
-      "text": "Fait et passé à ABIDJAN",
+      "text": "Fait et passé à {{ville_notaire}}",
       "ind": 2
     },
     {
@@ -698,7 +663,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1an0gydu3xznlpgixg9cvs-wq2wg0cdlj-procuration-pour-acquerir.docx",
-    "version": "3"
+    "version": "5"
   },
   "exemple": {
     "champ_001": "2000-01-01",
@@ -750,6 +715,8 @@
     "champ_045": "Exemple",
     "champ_046": "Exemple",
     "champ_047": "Exemple",
-    "champ_048": "Exemple"
+    "champ_048": "Exemple",
+    "ville_notaire": "Abidjan",
+    "numero_ilot": "509"
   }
 }

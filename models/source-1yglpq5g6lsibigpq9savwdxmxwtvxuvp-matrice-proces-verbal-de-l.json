@@ -26,14 +26,12 @@
           "id": "champ_008",
           "type": "text",
           "label": "MINISTERE DE",
-          "opt": true,
           "group": "MINISTERE DE … REPUBLIQUE DE COTE D’IVOIRE"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "BP … / Tél. :",
           "aide": "…BP ▢ Tél…"
         },
@@ -41,7 +39,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
           "aide": "…VINGT ET LE JOUR MOIS A ▢ HEURES MINUTES les fondateurs…"
         },
@@ -49,7 +46,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "Minutes",
-          "opt": true,
           "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
           "aide": "…ET LE JOUR MOIS A HEURES ▢ MINUTES les fondateurs et…"
         },
@@ -57,21 +53,18 @@
           "id": "champ_003",
           "type": "text",
           "label": "Se sont réunis à",
-          "opt": true,
           "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "L’Assemblée est présidée par Monsieur",
-          "opt": true,
           "group": "L’Assemblée est présidée par Monsieur …"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "De l’association sont effectivement présents",
-          "opt": true,
           "group": "L’Assemblée est présidée par Monsieur …",
           "aide": "…L’Assemblée est présidée par Monsieur ▢"
         },
@@ -79,14 +72,12 @@
           "id": "champ_006",
           "type": "text",
           "label": "La séance est levée à",
-          "opt": true,
           "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Minutes",
-          "opt": true,
           "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……",
           "aide": "…la séance est levée à heures ▢ minutes…"
         },
@@ -94,7 +85,6 @@
           "id": "champ_010",
           "type": "text",
           "label": "Nom Prénoms",
-          "opt": true,
           "group": "Nom & Prénoms … Nom & Prénoms",
           "aide": "…Nom Prénoms ▢ Nom Prénoms…"
         }

@@ -25,23 +25,19 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …,",
-          "aide": "…M ▢"
+          "label": "Nom et prénoms",
+          "group": "M …,"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Avant « le heures à l’effet »",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
           "aide": "…notre société qui aura lieu à ▢ le heures à l’effet…"
         },
@@ -49,17 +45,14 @@
           "id": "champ_004",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
           "aide": "…société qui aura lieu à le ▢ heures à l’effet de…"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "Veuillez agréer, M …, l’expression de nos sentiments distingués.",
-          "aide": "…Veuillez agréer M ▢ l’expression de nos sentiments…"
+          "label": "Nom et prénoms",
+          "group": "Veuillez agréer, M …, l’expression de nos sentiments distingués."
         }
       ]
     },

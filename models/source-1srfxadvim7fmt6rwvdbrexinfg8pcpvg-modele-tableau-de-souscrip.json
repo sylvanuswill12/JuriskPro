@@ -26,63 +26,54 @@
           "id": "programme_nom",
           "type": "text",
           "label": "Nom du programme",
-          "opt": true,
           "group": "APPORT PERSONNEL …"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "Ordre",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Mle",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Nom et prenoms",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Type de maison",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Prix de la villa",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Numero du lot",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numero ilot",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Montant verse",
-          "opt": true,
           "group": "Tableau – ligne 1"
         },
         {

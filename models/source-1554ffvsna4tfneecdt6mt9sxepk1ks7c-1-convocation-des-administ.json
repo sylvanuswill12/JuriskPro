@@ -25,14 +25,12 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "au capital de … CFA",
           "aide": "…au capital de ▢ CFA…"
         },
@@ -40,27 +38,23 @@
           "id": "champ_003",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -68,15 +62,13 @@
           "id": "champ_007",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "Nom du membre du Conseil convoqué",
-          "opt": true
+          "label": "Nom du membre du Conseil convoqué"
         }
       ]
     },
@@ -89,27 +81,23 @@
         {
           "id": "champ_009",
           "type": "text",
-          "label": "Numéro et rue",
-          "opt": true
+          "label": "Numéro et rue"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_012",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …,",
           "aide": "…Le ▢"
         },
@@ -117,14 +105,12 @@
           "id": "champ_013",
           "type": "text",
           "label": "Civilité du membre du Conseil convoqué",
-          "opt": true,
           "group": "…,"
         },
         {
           "id": "champ_014",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…",
           "aide": "…de notre Société se réunira le ▢ à à l'effet de…"
         },
@@ -132,7 +118,6 @@
           "id": "champ_015",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…",
           "aide": "…notre Société se réunira le à ▢ à l'effet de délibérer…"
         },
@@ -140,14 +125,12 @@
           "id": "champ_016",
           "type": "text",
           "label": "Lieu de la réunion",
-          "opt": true,
           "group": "Nous avons l'honneur de vous informer que le Conseil d'administration…"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Civilité du membre du Conseil convoqué",
-          "opt": true,
           "group": "En espérant que vous pourrez assister à cette réunion, nous vous prions…"
         }
       ]

@@ -26,7 +26,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "ENTRE LA SARL",
-          "opt": true,
           "group": "ENTRE LA SARL …",
           "aide": "…ENTRE LA SARL ▢"
         },
@@ -34,7 +33,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "ET MONSIEUR",
-          "opt": true,
           "group": "ET MONSIEUR …",
           "aide": "…ET MONSIEUR ▢"
         },
@@ -42,49 +40,60 @@
           "id": "champ_004",
           "type": "text",
           "label": "Avant « Société A Responsabilité Limitée »",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
           "aide": "…La Société ▢ Société A Responsabilité Limitée…"
+        },
+        {
+          "id": "ville_siege",
+          "type": "text",
+          "label": "Ville du siège social",
+          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
         },
         {
           "id": "commune",
           "type": "text",
           "label": "Commune",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…son siège à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+          "aide": "…ayant son siège à Commune de ▢ Quartier BP représentée par…"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…siège à ABIDJAN Commune de Quartier ▢ BP représentée par son…"
+          "aide": "…son siège à Commune de Quartier ▢ BP représentée par son…"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par son Gérant…"
+          "aide": "…siège à Commune de Quartier BP ▢ représentée par son Gérant…"
         },
         {
           "id": "champ_007",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…BP représentée par son Gérant Monsieur ▢ Opérateur Economique demeurant à…"
+          "label": "Nom et prénoms",
+          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
+        },
+        {
+          "id": "profession",
+          "type": "text",
+          "label": "Profession",
+          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP…"
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         }
       ]
     },
@@ -98,15 +107,13 @@
           "id": "champ_009",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢"
+          "aide": "…demeurant à Commune de Quartier BP ▢"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à ▢ République de le…"
         },
@@ -114,7 +121,6 @@
           "id": "champ_011",
           "type": "text",
           "label": "République de",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à République de ▢ le…"
         },
@@ -122,7 +128,6 @@
           "id": "champ_012",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à République de le ▢"
         },
@@ -130,14 +135,12 @@
           "id": "champ_013",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -145,7 +148,6 @@
           "id": "champ_015",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
@@ -153,7 +155,6 @@
           "id": "champ_016",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…établie à le et valable jusqu’au ▢"
         },
@@ -161,7 +162,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "Avant « Ci-après dénommée et pour »",
-          "opt": true,
           "group": "La Société « … », Ci-après dénommée et pour en faciliter la rédaction «…",
           "aide": "…La Société ▢ Ci-après dénommée et pour…"
         }
@@ -176,24 +176,19 @@
         {
           "id": "champ_018",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…Monsieur ▢ demeurant à Commune de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
         },
         {
           "id": "champ_019",
           "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "opt": true,
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…Monsieur ▢ demeurant à Commune de…"
+          "label": "Profession",
+          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
           "aide": "…Monsieur demeurant à ▢ Commune de Quartier BP…"
         },
@@ -201,7 +196,6 @@
           "id": "champ_021",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
           "aide": "…Monsieur demeurant à Commune de ▢ Quartier BP…"
         },
@@ -209,7 +203,6 @@
           "id": "champ_022",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
           "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
@@ -217,7 +210,6 @@
           "id": "champ_023",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
           "aide": "…demeurant à Commune de Quartier BP ▢"
         },
@@ -225,7 +217,6 @@
           "id": "champ_024",
           "type": "text",
           "label": "D’UNE PART",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
           "aide": "…demeurant à Commune de Quartier BP ▢"
         },
@@ -233,7 +224,6 @@
           "id": "champ_025",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -241,7 +231,6 @@
           "id": "champ_026",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -249,7 +238,6 @@
           "id": "champ_027",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à le ▢"
         },
@@ -257,7 +245,6 @@
           "id": "champ_028",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "De nationalité …",
           "aide": "…De nationalité ▢"
         },
@@ -265,14 +252,12 @@
           "id": "champ_029",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "Avant « établie à le et »",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
           "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
         },
@@ -280,7 +265,6 @@
           "id": "champ_031",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -288,7 +272,6 @@
           "id": "champ_032",
           "type": "text",
           "label": "Avant « le et valable jusqu’au »",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -296,7 +279,6 @@
           "id": "champ_033",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
           "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
@@ -304,17 +286,14 @@
           "id": "champ_034",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
           "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_035",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …, ci-après dénommé et pour en faciliter la rédaction, «…",
-          "aide": "…Monsieur ▢ ci-après dénommé et pour…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …, ci-après dénommé et pour en faciliter la rédaction, «…"
         }
       ]
     },
@@ -328,14 +307,12 @@
           "id": "champ_036",
           "type": "text",
           "label": "Parcelle de terrain sis à",
-          "opt": true,
           "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
         },
         {
           "id": "champ_037",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
           "aide": "…de terrain sis à Commune de ▢ par la Société le…"
         },
@@ -343,7 +320,6 @@
           "id": "champ_038",
           "type": "text",
           "label": "Par la Société",
-          "opt": true,
           "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
           "aide": "…à Commune de par la Société ▢ le VENDEUR au profit…"
         },
@@ -351,35 +327,30 @@
           "id": "champ_039",
           "type": "text",
           "label": "Au profit de Monsieur",
-          "opt": true,
           "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
         },
         {
           "id": "champ_040",
           "type": "text",
           "label": "Portant sur une superficie de",
-          "opt": true,
           "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "De permettre à la Société",
-          "opt": true,
           "group": "La convention objet des présentes, est conclue pour une durée de UN…"
         },
         {
           "id": "champ_042",
           "type": "text",
           "label": "Propose en vente à Monsieur",
-          "opt": true,
           "group": "La convention objet des présentes, est conclue pour une durée de UN…"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "ENGAGEMENTS DE LA SARL",
-          "opt": true,
           "group": "ENGAGEMENTS DE LA SARL … (LE VENDEUR)"
         }
       ]
@@ -394,7 +365,6 @@
           "id": "champ_044",
           "type": "text",
           "label": "SARL",
-          "opt": true,
           "group": "SARL …, par son Gérant s’engage aux présentes :",
           "aide": "…SARL ▢ par son Gérant s’engage…"
         },
@@ -402,35 +372,30 @@
           "id": "champ_045",
           "type": "text",
           "label": "- A Informer Monsieur",
-          "opt": true,
           "group": "- A Informer Monsieur …, de l’évolution des formalités d’obtention de…"
         },
         {
           "id": "champ_046",
           "type": "text",
           "label": "- A vendre à Monsieur",
-          "opt": true,
           "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
         },
         {
           "id": "champ_047",
           "type": "text",
           "label": "La parcelle de terrain de",
-          "opt": true,
           "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "Au prix convenu de",
-          "opt": true,
           "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
         },
         {
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
           "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
           "profil": "nom",
           "pq": "notaire"
@@ -439,7 +404,6 @@
           "id": "prenom_notaire",
           "type": "text",
           "label": "Prénom du notaire",
-          "opt": true,
           "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
           "aide": "…au rang des minutes de Maître ▢ Notaire dès obtention son…",
           "profil": "prenom",
@@ -449,30 +413,34 @@
           "id": "champ_049",
           "type": "text",
           "label": "Vente au profit de Monsieur",
-          "opt": true,
           "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Et sans en informer Monsieur",
-          "opt": true,
           "group": "- A ne pas vendre lesdites parcelles à un tiers avant l’expiration du…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "ENGAGEMENTS DE MONSIEUR",
-          "opt": true,
           "group": "ENGAGEMENTS DE MONSIEUR … (L’ACQUEREUR)"
         },
         {
           "id": "champ_052",
           "type": "text",
           "label": "MONSIEUR",
-          "opt": true,
           "group": "MONSIEUR … s’engage à son tour :",
           "aide": "…MONSIEUR ▢ s’engage à son tour…"
+        },
+        {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "A régler les frais des présentes et de l’acte de vente à son profit qui…"
         }
       ]
     },
@@ -485,30 +453,25 @@
         {
           "id": "champ_053",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … aura la jouissance de la parcelle objet des présentes à…",
-          "aide": "…Monsieur ▢ aura la jouissance de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … aura la jouissance de la parcelle objet des présentes à…"
         },
         {
           "id": "champ_054",
           "type": "text",
           "label": "Attestation de propriétés villageoise numéro",
-          "opt": true,
           "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "Le chef du village d’",
-          "opt": true,
           "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Sis dans la commune d’",
-          "opt": true,
           "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
           "aide": "…d’ sis dans la commune d’ ▢ le…"
         },
@@ -516,7 +479,6 @@
           "id": "champ_057",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
           "aide": "…sis dans la commune d’ le ▢"
         },
@@ -524,7 +486,6 @@
           "id": "champ_058",
           "type": "date",
           "label": "Article 5 ORIGINE DE PROPRIETE",
-          "opt": true,
           "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
           "aide": "…sis dans la commune d’ le ▢"
         },
@@ -532,7 +493,6 @@
           "id": "champ_059",
           "type": "text",
           "label": "Au nom de la Société",
-          "opt": true,
           "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…",
           "aide": "…Définitif au nom de la Société ▢ sont en cours par…"
         },
@@ -540,7 +500,6 @@
           "id": "champ_060",
           "type": "text",
           "label": "Ainsi qu’il résulte du",
-          "opt": true,
           "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…"
         }
       ]
@@ -555,7 +514,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Etc",
-          "opt": true,
           "group": "- Qu’il n’existe, de son chef, aucun obstacle, ni aucune restriction…",
           "aide": "…liquidation de biens de faillite etc ▢ à la conclusion du…"
         },
@@ -563,22 +521,26 @@
           "id": "champ_061",
           "type": "text",
           "label": "Présentes seront supportés par Monsieur",
-          "opt": true,
           "group": "Les frais des présentes seront supportés par Monsieur …"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "Fait à …, le …"
         },
         {
           "id": "champ_062",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Fait à ABIDJAN, le …",
-          "aide": "…Fait à ABIDJAN le ▢"
+          "group": "Fait à …, le …",
+          "aide": "…Fait à le ▢"
         },
         {
           "id": "champ_063",
           "type": "text",
           "label": "Avant « L’ACQUEREUR »",
-          "opt": true,
           "group": "SARL « … » L’ACQUEREUR …",
           "aide": "…SARL ▢ L’ACQUEREUR…"
         },
@@ -586,31 +548,25 @@
           "id": "champ_064",
           "type": "text",
           "label": "L’ACQUEREUR",
-          "opt": true,
           "group": "SARL « … » L’ACQUEREUR …",
           "aide": "…SARL L’ACQUEREUR ▢"
         },
         {
           "id": "champ_065",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mr … Mr …",
-          "aide": "…Mr ▢ Mr…"
+          "label": "Nom et prénoms",
+          "group": "Mr … Mr …"
         },
         {
           "id": "champ_066",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mr … Mr …",
-          "aide": "…Mr Mr ▢"
+          "label": "Nom",
+          "group": "Mr … Mr …"
         },
         {
           "id": "champ_067",
           "type": "text",
           "label": "En trois 3 exemplaires",
-          "opt": true,
           "group": "Mr … Mr …",
           "aide": "…Mr Mr ▢"
         },
@@ -618,7 +574,6 @@
           "id": "champ_068",
           "type": "text",
           "label": "Es-qualité",
-          "opt": true,
           "group": "Es-qualité …",
           "aide": "…Es-qualité ▢"
         }
@@ -664,7 +619,7 @@
     },
     {
       "k": "p",
-      "text": "**La Société « {{champ_004}} », Société A Responsabilité Limitée, au capital de 5.000.000 DE FRANCS CFA, ayant son siège à ABIDJAN, Commune de {{commune}}, Quartier {{champ_005}}, BP {{champ_006}},  représentée par son Gérant, Monsieur {{champ_007}}, Opérateur Economique, demeurant à ABIDJAN, Commune de {{commune}}, Quartier {{champ_008}}, BP {{champ_009}}**"
+      "text": "**La Société « {{champ_004}} », Société A Responsabilité Limitée, au capital de 5.000.000 DE FRANCS CFA, ayant son siège à {{ville_siege}}, Commune de {{commune}}, Quartier {{champ_005}}, BP {{champ_006}},  représentée par son Gérant, Monsieur {{champ_007}}, {{profession}}, demeurant à {{ville_residence}}, Commune de {{commune}}, Quartier {{champ_008}}, BP {{champ_009}}**"
     },
     {
       "k": "sp"
@@ -908,7 +863,7 @@
     },
     {
       "k": "li",
-      "text": "A régler les frais des présentes et de l’acte de vente à son profit qui sera établi par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à ABIDJAN.",
+      "text": "A régler les frais des présentes et de l’acte de vente à son profit qui sera établi par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}.",
       "mk": "-"
     },
     {
@@ -1028,7 +983,7 @@
     },
     {
       "k": "p",
-      "text": "Le présent acte fera l’objet d’un dépôt au rang des minutes de **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à ABIDJAN."
+      "text": "Le présent acte fera l’objet d’un dépôt au rang des minutes de **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}."
     },
     {
       "k": "sp"
@@ -1056,7 +1011,7 @@
     },
     {
       "k": "p",
-      "text": "Pour les formalités à faire en vertu des présentes, domicile spécial est élu par toutes les parties à ABIDJAN, en **l’Etude de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}.**"
+      "text": "Pour les formalités à faire en vertu des présentes, domicile spécial est élu par toutes les parties à {{ville_notaire}}, en **l’Etude de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}.**"
     },
     {
       "k": "sp"
@@ -1122,7 +1077,7 @@
     },
     {
       "k": "p",
-      "text": "Fait à ABIDJAN, le {{champ_062}}",
+      "text": "Fait à {{ville_signature}}, le {{champ_062}}",
       "al": "center"
     },
     {
@@ -1158,7 +1113,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_002": "Exemple",
@@ -1231,6 +1186,11 @@
     "champ_065": "Exemple",
     "champ_066": "Exemple",
     "champ_067": "Exemple",
-    "champ_068": "Exemple"
+    "champ_068": "Exemple",
+    "ville_siege": "Abidjan",
+    "profession": "Comptable",
+    "ville_residence": "Abidjan",
+    "ville_notaire": "Abidjan",
+    "ville_signature": "Abidjan"
   }
 }

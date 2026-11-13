@@ -25,63 +25,85 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … ABIDJAN, le … 2016",
-          "aide": "…Monsieur ▢ ABIDJAN le 2016…"
+          "label": "Nom",
+          "group": "Monsieur … , le …"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "Monsieur … , le …"
         },
         {
           "id": "champ_002",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Monsieur … ABIDJAN, le … 2016",
-          "aide": "…Monsieur ABIDJAN le ▢ 2016…"
+          "group": "Monsieur … , le …",
+          "aide": "…Monsieur le ▢"
+        },
+        {
+          "id": "ville_bp",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "BP …"
         },
         {
           "id": "champ_003",
           "type": "text",
-          "label": "BP ABIDJAN",
-          "opt": true,
-          "group": "BP ABIDJAN …"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "BP …"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "DU TRIBUNAL DU COMMERCE",
-          "opt": true,
           "group": "DU TRIBUNAL DU COMMERCE …"
+        },
+        {
+          "id": "ville_tribunal",
+          "type": "text",
+          "label": "Ville du tribunal compétent",
+          "group": "…"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Je soussigné Monsieur",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……"
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "Avant « Comptable demeurant à ABIDJAN »",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…Je soussigné Monsieur ▢ Comptable demeurant à ABIDJAN…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…Je soussigné Monsieur ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "profession",
+          "type": "text",
+          "label": "Profession",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…Comptable demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN né…"
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "Avant « Quartier BP ABIDJAN né »",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…Comptable demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN né…"
+          "label": "Avant « Quartier BP né à »",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
         }
       ]
     },
@@ -95,57 +117,55 @@
           "id": "champ_009",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "Avant « BP ABIDJAN né à »",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+          "label": "Avant « BP né à le »",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
         },
         {
           "id": "champ_011",
           "type": "text",
-          "label": "Avant « BP ABIDJAN né à »",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN né à…"
+          "label": "Avant « BP né à le »",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
+        },
+        {
+          "id": "ville_bp_2",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Né à",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…Commune de Quartier BP né à ▢ le atteste sur l’honneur…"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Avant « le atteste sur l’honneur »",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
           "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
         },
         {
           "id": "champ_014",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Je soussigné Monsieur … , Comptable, demeurant à ABIDJAN, Commune de ……",
-          "aide": "…Quartier BP ABIDJAN né à le ▢ atteste sur l’honneur n’avoir…"
+          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+          "aide": "…de Quartier BP né à le ▢ atteste sur l’honneur n’avoir…"
         },
         {
           "id": "champ_015",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         }
       ]
     },
@@ -160,12 +180,12 @@
   "doc": [
     {
       "k": "p",
-      "text": "**Monsieur {{champ_001}} **ABIDJAN, le {{champ_002}} 2016",
+      "text": "**Monsieur {{champ_001}} **{{ville_signature}}, le {{champ_002}}",
       "al": "left"
     },
     {
       "k": "p",
-      "text": "BP  ABIDJAN {{champ_003}}",
+      "text": "BP  {{ville_bp}} {{champ_003}}",
       "al": "left"
     },
     {
@@ -183,7 +203,7 @@
     },
     {
       "k": "p",
-      "text": "**ABIDJAN**",
+      "text": "**{{ville_tribunal}}**",
       "al": "left"
     },
     {
@@ -209,7 +229,7 @@
     },
     {
       "k": "p",
-      "text": "Je soussigné **Monsieur {{champ_005}} {{champ_006}}**, Comptable, demeurant à ABIDJAN, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, {{champ_011}} BP  ABIDJAN  , né à {{champ_012}} {{champ_013}}, le {{champ_014}}, atteste sur l’honneur n’avoir jamais fait l’objet d’aucune des interdictions énumérées par l’article 10 de l’Acte Uniforme portant sur le Droit Commercial Général de l’OHADA."
+      "text": "Je soussigné **Monsieur {{champ_005}} {{champ_006}}**, {{profession}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, {{champ_011}} BP  {{ville_bp_2}}  , né à {{champ_012}} {{champ_013}}, le {{champ_014}}, atteste sur l’honneur n’avoir jamais fait l’objet d’aucune des interdictions énumérées par l’article 10 de l’Acte Uniforme portant sur le Droit Commercial Général de l’OHADA."
     },
     {
       "k": "sp"
@@ -253,7 +273,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
@@ -270,6 +290,12 @@
     "champ_012": "Exemple",
     "champ_013": "Exemple",
     "champ_014": "2000-01-01",
-    "champ_015": "Exemple"
+    "champ_015": "Exemple",
+    "ville_signature": "Abidjan",
+    "ville_bp": "Abidjan",
+    "ville_tribunal": "Abidjan",
+    "profession": "Comptable",
+    "ville_residence": "Abidjan",
+    "ville_bp_2": "Abidjan"
   }
 }

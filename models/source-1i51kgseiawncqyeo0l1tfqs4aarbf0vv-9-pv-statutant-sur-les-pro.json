@@ -25,14 +25,12 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "au capital de … CFA",
           "aide": "…au capital de ▢ CFA…"
         },
@@ -40,27 +38,23 @@
           "id": "champ_003",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -68,7 +62,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         },
@@ -76,7 +69,6 @@
           "id": "champ_008",
           "type": "date",
           "label": "DATE",
-          "opt": true,
           "group": "PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU …",
           "aide": "…LA REUNION DU CONSEIL D'ADMINISTRATION DU ▢"
         }
@@ -92,14 +84,12 @@
           "id": "champ_009",
           "type": "date",
           "label": "Date de la réunion",
-          "opt": true,
           "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
           "aide": "…Le à ▢ le Conseil d'administration s'est…"
         },
@@ -107,7 +97,6 @@
           "id": "champ_011",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
           "aide": "…à le Conseil d'administration s'est réuni ▢ sur convocation de son…"
         },
@@ -115,133 +104,114 @@
           "id": "champ_012",
           "type": "text",
           "label": "Nom du membre du Conseil présent à la réunion du Conseil",
-          "opt": true,
           "group": "• …"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Nom du membre du Conseil représenté",
-          "opt": true,
           "group": "• …, par …"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Nom du membre du Conseil représentant",
-          "opt": true,
           "group": "• …, par …"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Nom du membre du Conseil absent",
-          "opt": true,
           "group": "• …"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Nom du Président",
-          "opt": true,
           "group": "La réunion est présidée par …, Président du Conseil d'administration."
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Nom de ou Dénomination de l'actionnaire",
-          "opt": true,
           "group": "…, actionnaire détenant … % du capital de la Société,"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Pourcentage",
-          "opt": true,
           "group": "…, actionnaire détenant … % du capital de la Société,"
         },
         {
           "id": "champ_019",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "justifiant des formalités prévues par la réglementation, la demande…",
           "aide": "…jour de l'assemblée générale extraordinaire du ▢ du projet de résolution…"
         },
         {
           "id": "champ_020",
           "type": "area",
-          "label": "Désignation du projet de résolution",
-          "opt": true
+          "label": "Désignation du projet de résolution"
         },
         {
           "id": "champ_021",
           "type": "area",
           "label": "Texte du projet",
-          "opt": true,
           "group": "Texte proposé : …"
         },
         {
           "id": "champ_022",
           "type": "area",
-          "label": "Exposé des motifs de la demande",
-          "opt": true
+          "label": "Exposé des motifs de la demande"
         },
         {
           "id": "champ_023",
           "type": "area",
           "label": "Désignation du projet de résolution",
-          "opt": true,
           "group": "- Pour le projet : …"
         },
         {
           "id": "champ_024",
           "type": "area",
           "label": "Texte du projet",
-          "opt": true,
           "group": "Texte proposé : …"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Nombre de voix pour",
-          "opt": true,
           "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Nombre de voix contre",
-          "opt": true,
           "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Nombre de voix contre",
-          "opt": true,
           "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "Nombre de voix pour",
-          "opt": true,
           "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Plus rien n'étant à l'ordre du jour, la séance est levée à ….",
           "aide": "…jour la séance est levée à ▢"
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "Nom du membre du conseil",
-          "opt": true
+          "label": "Nom du membre du conseil"
         }
       ]
     },

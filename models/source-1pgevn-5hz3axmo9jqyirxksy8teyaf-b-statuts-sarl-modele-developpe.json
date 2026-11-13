@@ -1,0 +1,3458 @@
+{
+  "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-b-statuts-sarl-modele-developpe",
+  "cat": "societes-associations",
+  "sub": "OHADA",
+  "titre": "Statuts de SARL (modèle développé)",
+  "sous": "Statuts de société à responsabilité limitée sous forme développée (article par article), avec l’état des actes accomplis pour la société en formation.",
+  "resume": "Statuts de SARL (modèle développé) : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+  "tags": [
+    "sarl",
+    "statuts",
+    "ohada",
+    "développé"
+  ],
+  "duree": "40 min",
+  "docTitle": "Statuts de SARL (modèle développé)",
+  "fileBase": "Statuts de SARL (modèle développé)",
+  "headline": "Statuts de SARL (modèle développé)",
+  "etapes": [
+    {
+      "id": "partie-1",
+      "court": "Societe a",
+      "titre": "Societe a responsabilite limitee",
+      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+      "champs": [
+        {
+          "id": "champ_357",
+          "type": "text",
+          "label": "Dénomination sociale",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        },
+        {
+          "id": "champ_358",
+          "type": "text",
+          "label": "Forme",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        },
+        {
+          "id": "champ_359",
+          "type": "text",
+          "label": "Capital",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        }
+      ]
+    },
+    {
+      "id": "partie-2",
+      "court": "Statuts",
+      "titre": "Statuts",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_360",
+          "type": "text",
+          "label": "RCCM",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        },
+        {
+          "id": "champ_362",
+          "type": "text",
+          "label": "Siège social",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        }
+      ]
+    },
+    {
+      "id": "partie-3",
+      "court": "Art. 26",
+      "titre": "Article 26 : Frais",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_087",
+          "type": "text",
+          "label": "AU CAPITAL SOCIAL DE",
+          "group": "AU CAPITAL SOCIAL DE …. F CFA (MINIMUM = 1 000 000)"
+        },
+        {
+          "id": "champ_088",
+          "type": "text",
+          "label": "ETAT PARTIE AU TRAITE OHADA",
+          "group": "RCCM : …",
+          "aide": "…RCCM ▢"
+        }
+      ]
+    },
+    {
+      "id": "partie-4",
+      "court": "Statuts",
+      "titre": "Statuts",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_093",
+          "type": "text",
+          "label": "Numéro",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        },
+        {
+          "id": "champ_095",
+          "type": "text",
+          "label": "Prénom",
+          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
+        },
+        {
+          "id": "champ_096",
+          "type": "text",
+          "label": "Nom",
+          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
+        },
+        {
+          "id": "champ_097",
+          "type": "text",
+          "label": "Qualité",
+          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
+        },
+        {
+          "id": "champ_098",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… , demeurant à …, né(e) le … à …,"
+        },
+        {
+          "id": "champ_099",
+          "type": "text",
+          "label": "Nom",
+          "group": "… , demeurant à …, né(e) le … à …,"
+        },
+        {
+          "id": "champ_100",
+          "type": "text",
+          "label": "Adresse",
+          "group": "… , demeurant à …, né(e) le … à …,"
+        },
+        {
+          "id": "champ_101",
+          "type": "date",
+          "label": "Date de naissance",
+          "group": "… , demeurant à …, né(e) le … à …,"
+        },
+        {
+          "id": "champ_102",
+          "type": "text",
+          "label": "Lieu de naissance",
+          "group": "… , demeurant à …, né(e) le … à …,"
+        }
+      ]
+    },
+    {
+      "id": "partie-5",
+      "court": "Art. 2",
+      "titre": "Article 2 : Objet",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_103",
+          "type": "text",
+          "label": "Plus particulièrement en République du",
+          "group": "La Société a pour objet en tous pays et plus particulièrement en…"
+        },
+        {
+          "id": "champ_104",
+          "type": "text",
+          "label": "Avant « indiquer l’objet social défini »",
+          "group": "La Société a pour objet en tous pays et plus particulièrement en…",
+          "aide": "…et plus particulièrement en République du ▢ indiquer l’objet social défini…"
+        },
+        {
+          "id": "champ_105",
+          "type": "text",
+          "label": "Société a pour dénomination sociale",
+          "group": "La Société a pour dénomination sociale … et pour sigle …."
+        },
+        {
+          "id": "champ_106",
+          "type": "text",
+          "label": "Et pour sigle",
+          "group": "La Société a pour dénomination sociale … et pour sigle …."
+        },
+        {
+          "id": "champ_107",
+          "type": "text",
+          "label": "Lieu",
+          "group": "Le siège social de la Société est fixé : …."
+        }
+      ]
+    },
+    {
+      "id": "partie-6",
+      "court": "Art. 5",
+      "titre": "Article 5 : Durée",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_108",
+          "type": "text",
+          "label": "Durée",
+          "group": "La durée de la Société est fixée à … à compter de la date de son…"
+        },
+        {
+          "id": "champ_113",
+          "type": "text",
+          "label": "Numéro",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        }
+      ]
+    },
+    {
+      "id": "partie-7",
+      "court": "6.1 -",
+      "titre": "6.1 - Apports en numéraire",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_115",
+          "type": "text",
+          "label": "Montant",
+          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+        },
+        {
+          "id": "champ_116",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… , demeurant …, la somme de … FCFA."
+        },
+        {
+          "id": "champ_117",
+          "type": "text",
+          "label": "Nom",
+          "group": "… , demeurant …, la somme de … FCFA."
+        },
+        {
+          "id": "champ_118",
+          "type": "text",
+          "label": "Adresse",
+          "group": "… , demeurant …, la somme de … FCFA."
+        },
+        {
+          "id": "champ_119",
+          "type": "text",
+          "label": "Montant",
+          "group": "… , demeurant …, la somme de … FCFA."
+        },
+        {
+          "id": "champ_120",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_121",
+          "type": "text",
+          "label": "Nom",
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_122",
+          "type": "text",
+          "label": "Montant versé",
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_123",
+          "type": "text",
+          "label": "Prénom",
+          "opt": true,
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_124",
+          "type": "text",
+          "label": "Nom",
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_125",
+          "type": "date",
+          "label": "D'avis de réception reçue le",
+          "group": "… , une somme de … FCFA provenant de sa communauté de biens avec son…"
+        },
+        {
+          "id": "champ_126",
+          "type": "text",
+          "label": "Montant",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_127",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_128",
+          "type": "text",
+          "label": "Montant",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_129",
+          "type": "text",
+          "label": "Montant",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        }
+      ]
+    },
+    {
+      "id": "partie-8",
+      "court": "6.1 -",
+      "titre": "6.1 - Apports en numéraire",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_130",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_131",
+          "type": "text",
+          "label": "Montant",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_132",
+          "type": "text",
+          "label": "Libérées chacune à concurrence du",
+          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+        },
+        {
+          "id": "champ_133",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+        },
+        {
+          "id": "champ_134",
+          "type": "date",
+          "label": "Date",
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…",
+          "aide": "…associés conformément à la loi le ▢ au crédit d'un compte…"
+        },
+        {
+          "id": "champ_135",
+          "type": "text",
+          "label": "De la Société en formation",
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+        },
+        {
+          "id": "champ_136",
+          "type": "text",
+          "label": "À la banque",
+          "opt": true,
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+        },
+        {
+          "id": "champ_137",
+          "type": "text",
+          "label": "Ou chez Me",
+          "opt": true,
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+        },
+        {
+          "id": "champ_138",
+          "type": "text",
+          "label": "Notaire à",
+          "opt": true,
+          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+        }
+      ]
+    },
+    {
+      "id": "partie-9",
+      "court": "6.2 -",
+      "titre": "6.2 - Apport en nature",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_139",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_140",
+          "type": "text",
+          "label": "Nom",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_141",
+          "type": "date",
+          "label": "Contrat d'apport en date du",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_142",
+          "type": "text",
+          "label": "Le fonds de commerce de",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_143",
+          "type": "text",
+          "label": "Adresse",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_144",
+          "type": "text",
+          "label": "Lieu",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_145",
+          "type": "text",
+          "label": "Numéro",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_146",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_147",
+          "type": "text",
+          "label": "Nom",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_148",
+          "type": "date",
+          "label": "Contrat d'apport en date du",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_149",
+          "type": "text",
+          "label": "Lieu",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_150",
+          "type": "text",
+          "label": "Prénom",
+          "opt": true,
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_151",
+          "type": "text",
+          "label": "Nom",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_152",
+          "type": "date",
+          "label": "D'avis de réception reçue le",
+          "group": "… apporte à la Société, dans les conditions fixées par un contrat…"
+        },
+        {
+          "id": "champ_153",
+          "type": "text",
+          "label": "Montant",
+          "group": "et qui comprend :- le nom commercial, l'enseigne, la clientèle,…"
+        },
+        {
+          "id": "champ_154",
+          "type": "text",
+          "label": "Montant",
+          "group": "- le mobilier, les installations et le matériel servant à son…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-10",
+      "court": "6.2 -",
+      "titre": "6.2 - Apport en nature",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_155",
+          "type": "text",
+          "label": "Montant",
+          "group": "- la totalité des marchandises décrites et estimées, article après…"
+        },
+        {
+          "id": "champ_156",
+          "type": "text",
+          "label": "Montant",
+          "group": "- les créances sur les débiteurs du commerce qui représentent … FCFA ;"
+        },
+        {
+          "id": "champ_157",
+          "type": "text",
+          "label": "Montant",
+          "group": "- les espèces en caisse et en dépôt à vue dans les banques pour … FCFA;"
+        },
+        {
+          "id": "champ_158",
+          "type": "text",
+          "label": "Identité de l'apporteur",
+          "group": "Total des apports de … évalués à : … FCFA.Le tout selon la consistance…"
+        },
+        {
+          "id": "champ_159",
+          "type": "text",
+          "label": "Montant",
+          "group": "Total des apports de … évalués à : … FCFA.Le tout selon la consistance…"
+        },
+        {
+          "id": "champ_160",
+          "type": "date",
+          "label": "Apportés à la date du",
+          "group": "Total des apports de … évalués à : … FCFA.Le tout selon la consistance…"
+        },
+        {
+          "id": "champ_161",
+          "type": "text",
+          "label": "Identité du commissaire",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        },
+        {
+          "id": "champ_162",
+          "type": "date",
+          "label": "Entre tous les soussignés le",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        },
+        {
+          "id": "champ_163",
+          "type": "text",
+          "label": "Identité du commissaire",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        },
+        {
+          "id": "champ_164",
+          "type": "text",
+          "label": "Commissaire aux apports désigné par",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        },
+        {
+          "id": "champ_165",
+          "type": "text",
+          "label": "Lieu",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        },
+        {
+          "id": "champ_166",
+          "type": "text",
+          "label": "Identité du fondateur",
+          "group": "Les biens sont apportés à la Société et évalués au vu du rapport annexé…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-11",
+      "court": "6.3 -",
+      "titre": "6.3 - Apports en industrie",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_167",
+          "type": "text",
+          "label": "Prénom",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_168",
+          "type": "text",
+          "label": "Nom",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_169",
+          "type": "text",
+          "label": "Prénom",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_170",
+          "type": "text",
+          "label": "Nom",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_171",
+          "type": "text",
+          "label": "Nombre",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_172",
+          "type": "text",
+          "label": "Pourcentage",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_173",
+          "type": "text",
+          "label": "Pourcentage",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        },
+        {
+          "id": "champ_174",
+          "type": "text",
+          "label": "Cet apport consistera",
+          "opt": true,
+          "group": "… , marié(e) à … , apporte son industrie à la Société et reçoit … parts…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-12",
+      "court": "6.4 -",
+      "titre": "6.4 - Récapitulation des apports",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_175",
+          "type": "text",
+          "label": "Identité de l'apporteur",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_176",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_177",
+          "type": "text",
+          "label": "Identité de l'apporteur",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_178",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_179",
+          "type": "text",
+          "label": "Identité de l'apporteur",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_180",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_181",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_182",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        },
+        {
+          "id": "champ_183",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est constitué des apports suivants : 1° … apporte à…"
+        }
+      ]
+    },
+    {
+      "id": "partie-13",
+      "court": "Art. 7",
+      "titre": "Article 7 : Capital social",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_184",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_185",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_186",
+          "type": "text",
+          "label": "Montant",
+          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_187",
+          "type": "text",
+          "label": "Avant « Intégralement libérées libérées à »",
+          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……",
+          "aide": "…d'une valeur nominale de FCFA chacune ▢ Intégralement libérées libérées à…"
+        },
+        {
+          "id": "champ_188",
+          "type": "text",
+          "label": "Libérées libérées à concurrence de",
+          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+        },
+        {
+          "id": "champ_189",
+          "type": "text",
+          "label": "Identité de l'associé",
+          "group": "- à … parts sociales numérotées de … à …;"
+        },
+        {
+          "id": "champ_190",
+          "type": "text",
+          "label": "Nombre",
+          "group": "- à … parts sociales numérotées de … à …;"
+        },
+        {
+          "id": "champ_191",
+          "type": "text",
+          "label": "Numéro",
+          "group": "- à … parts sociales numérotées de … à …;"
+        },
+        {
+          "id": "champ_192",
+          "type": "text",
+          "label": "Numéro",
+          "group": "- à … parts sociales numérotées de … à …;"
+        },
+        {
+          "id": "champ_193",
+          "type": "text",
+          "label": "Identité de l'associé",
+          "group": "- à … parts sociales numérotées de … à …."
+        },
+        {
+          "id": "champ_194",
+          "type": "text",
+          "label": "Nombre",
+          "group": "- à … parts sociales numérotées de … à …."
+        },
+        {
+          "id": "champ_195",
+          "type": "text",
+          "label": "Numéro",
+          "group": "- à … parts sociales numérotées de … à …."
+        },
+        {
+          "id": "champ_196",
+          "type": "text",
+          "label": "Numéro",
+          "group": "- à … parts sociales numérotées de … à …."
+        },
+        {
+          "id": "champ_197",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Total égal au nombre de parts composant le capital social : … parts."
+        }
+      ]
+    },
+    {
+      "id": "partie-14",
+      "court": "7.3 -",
+      "titre": "7.3 - Augmentation de capital en numéraire",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_198",
+          "type": "text",
+          "label": "D'un dépôt",
+          "group": "En cas d'augmentation de capital par souscription de parts en…"
+        },
+        {
+          "id": "champ_199",
+          "type": "text",
+          "label": "La banque ou chez Me",
+          "opt": true,
+          "group": "En cas d'augmentation de capital par souscription de parts en…"
+        },
+        {
+          "id": "champ_200",
+          "type": "text",
+          "label": "Notaire à",
+          "opt": true,
+          "group": "En cas d'augmentation de capital par souscription de parts en…"
+        },
+        {
+          "id": "champ_201",
+          "type": "text",
+          "label": "Prénom",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        },
+        {
+          "id": "champ_202",
+          "type": "text",
+          "label": "Nom",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        },
+        {
+          "id": "champ_203",
+          "type": "text",
+          "label": "Adresse",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-15",
+      "court": "11.1.2 -",
+      "titre": "11.1.2 - Cessions entre associés, conjoints, ascendants, descendants",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_204",
+          "type": "text",
+          "label": "Des associés représentant au moins",
+          "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
+        },
+        {
+          "id": "champ_205",
+          "type": "text",
+          "label": "Cette majorité étant déterminée",
+          "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
+        },
+        {
+          "id": "champ_206",
+          "type": "text",
+          "label": "Prénom",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        },
+        {
+          "id": "champ_207",
+          "type": "text",
+          "label": "Nom",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        },
+        {
+          "id": "champ_208",
+          "type": "text",
+          "label": "Adresse",
+          "group": "D'ores et déjà les associés soussignés agréent … , … pour toute cession…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-16",
+      "court": "11.1.5 -",
+      "titre": "11.1.5 - Obligation d'achat ou de rachat de parts dont le transfert…",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_209",
+          "type": "text",
+          "label": "Avant « A défaut d'accord sur »",
+          "group": "Si la Société a refusé de consentir au transfert, les associés sont…",
+          "aide": "…des parts sociales est ainsi déterminé ▢ A défaut d'accord sur…"
+        },
+        {
+          "id": "champ_210",
+          "type": "text",
+          "label": "Identité de l'un des associés",
+          "opt": true,
+          "group": "En cas de décès de …, la Société continuera avec …(son héritier ou son…"
+        },
+        {
+          "id": "champ_211",
+          "type": "text",
+          "label": "La Société continuera avec",
+          "opt": true,
+          "group": "En cas de décès de …, la Société continuera avec …(son héritier ou son…"
+        },
+        {
+          "id": "champ_212",
+          "type": "text",
+          "label": "Nom et prénoms",
+          "opt": true,
+          "group": "En cas de décès de …, la Société continuera avec …(son héritier ou son…"
+        },
+        {
+          "id": "champ_213",
+          "type": "text",
+          "label": "Ainsi déterminée",
+          "opt": true,
+          "group": "En cas de décès de …, la Société continuera avec …(son héritier ou son…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-17",
+      "court": "Art. 14",
+      "titre": "Article 14 : Gérance",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_214",
+          "type": "text",
+          "label": "Les associés pour une durée",
+          "group": "La Société est administrée par un ou plusieurs Gérants, personnes…"
+        },
+        {
+          "id": "champ_215",
+          "type": "text",
+          "label": "La Société pour une durée",
+          "group": "Est nommé Gérant de la Société pour une durée …(indéterminée/déterminée…"
+        },
+        {
+          "id": "champ_216",
+          "type": "text",
+          "label": "Identité du Gérant",
+          "group": "Est nommé Gérant de la Société pour une durée …(indéterminée/déterminée…"
+        },
+        {
+          "id": "champ_217",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Les … premiers Gérants de la Société seront nommés par décision…"
+        },
+        {
+          "id": "champ_218",
+          "type": "text",
+          "label": "Avant « contracter des emprunts autres »",
+          "group": "Chaque Gérant ne peut agir séparément pour les actes suivants : …,…",
+          "aide": "…agir séparément pour les actes suivants ▢ contracter des emprunts autres…"
+        }
+      ]
+    },
+    {
+      "id": "partie-18",
+      "court": "Art. 15",
+      "titre": "Article 15 : Pouvoirs de la Gérance",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_219",
+          "type": "text",
+          "label": "Indiquer les opérations",
+          "group": "Chaque Gérant ne peut agir séparément pour les actes suivants : …,…"
+        },
+        {
+          "id": "champ_220",
+          "type": "date",
+          "label": "Est consultée d'urgence par le",
+          "group": "Dans les cas prévus ci-dessus et sous réserve des conditions…"
+        },
+        {
+          "id": "champ_221",
+          "type": "text",
+          "label": "Identité du commissaire",
+          "group": "Les associés nomment en qualité de commissaire aux comptes titulaire,…"
+        },
+        {
+          "id": "champ_222",
+          "type": "text",
+          "label": "Identité du commissaire aux comptes suppléant",
+          "group": "Les associés nomment en qualité de commissaire aux comptes titulaire,…"
+        },
+        {
+          "id": "champ_223",
+          "type": "text",
+          "label": "Soumises aux associés à l'initiative",
+          "group": "Les décisions collectives statuant sur les comptes sociaux sont prises…"
+        }
+      ]
+    },
+    {
+      "id": "partie-19",
+      "court": "22.6.1- Modalité",
+      "titre": "22.6.1- Modalité de la consultation",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_224",
+          "type": "text",
+          "label": "Associés disposent d'un délai de",
+          "group": "Les associés disposent d'un délai de …(15 jours minimum) jours, à…"
+        },
+        {
+          "id": "champ_225",
+          "type": "date",
+          "label": "Il commence le",
+          "group": "L'exercice social a une durée de douze mois. Il commence le … pour se…"
+        },
+        {
+          "id": "champ_226",
+          "type": "date",
+          "label": "Pour se terminer le",
+          "group": "L'exercice social a une durée de douze mois. Il commence le … pour se…"
+        },
+        {
+          "id": "champ_227",
+          "type": "date",
+          "label": "Exercice social sera clos le",
+          "group": "Par exception, le premier exercice social sera clos le …."
+        },
+        {
+          "id": "champ_228",
+          "type": "text",
+          "label": "Lieu dans un délai de",
+          "group": "Toutefois, la mise en paiement des dividendes doit avoir lieu dans un…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-20",
+      "court": "Art. 31",
+      "titre": "Article 31 : Actes accomplis pour le compte de la Société en formation",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_229",
+          "type": "text",
+          "label": "Prénom",
+          "group": "Préalablement à la signature des présents statuts, … a présenté aux…"
+        },
+        {
+          "id": "champ_230",
+          "type": "text",
+          "label": "Nom",
+          "group": "Préalablement à la signature des présents statuts, … a présenté aux…"
+        },
+        {
+          "id": "champ_231",
+          "type": "text",
+          "label": "Prénom",
+          "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
+        },
+        {
+          "id": "champ_232",
+          "type": "text",
+          "label": "Nom",
+          "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "partie-21",
+      "court": "Art. 34",
+      "titre": "Article 34 : Frais",
+      "intro": "",
+      "champs": [
+        {
+          "id": "champ_233",
+          "type": "text",
+          "label": "Lieu",
+          "group": "Fait à …, le … en … exemplaires",
+          "profil": "ville"
+        },
+        {
+          "id": "champ_234",
+          "type": "date",
+          "label": "Date",
+          "group": "Fait à …, le … en … exemplaires",
+          "aide": "…Fait à le ▢ en exemplaires…"
+        },
+        {
+          "id": "champ_534",
+          "type": "date",
+          "label": "Avant « en exemplaires »",
+          "group": "Fait à …, le … en … exemplaires",
+          "aide": "…Fait à le ▢ en exemplaires…"
+        },
+        {
+          "id": "champ_235",
+          "type": "text",
+          "label": "Nombre",
+          "group": "Fait à …, le … en … exemplaires"
+        },
+        {
+          "id": "champ_236",
+          "type": "text",
+          "label": "Pour acceptation des fonctions de",
+          "group": "Signature des personnes nommées à certaines fonctions dans les statuts…"
+        }
+      ]
+    },
+    {
+      "id": "partie-22",
+      "court": "État des",
+      "titre": "État des actes accomplis pour le compte de la société en formation",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
+      "champs": [
+        {
+          "id": "champ_237",
+          "type": "text",
+          "label": "Prénom",
+          "group": "… , agissant en qualité de fondateur de la société …, société à…"
+        },
+        {
+          "id": "champ_238",
+          "type": "text",
+          "label": "Nom",
+          "group": "… , agissant en qualité de fondateur de la société …, société à…"
+        },
+        {
+          "id": "champ_242",
+          "type": "text",
+          "label": "-",
+          "group": "Déclare avoir passé, pour le compte de ladite société en cours de…",
+          "aide": "…détaillés dans l'état qui suit - ▢ préciser de quel acte…"
+        },
+        {
+          "id": "champ_243",
+          "type": "text",
+          "label": "Avant « financières administratives »",
+          "group": "- conditions de l'opération : …(financières, administratives) ;",
+          "aide": "…- conditions de l'opération ▢ financières administratives…"
+        },
+        {
+          "id": "champ_244",
+          "type": "text",
+          "label": "Durée, clauses diverses, etc.",
+          "group": "- engagement pour la société :…."
+        },
+        {
+          "id": "champ_245",
+          "type": "text",
+          "label": "Lieu",
+          "group": "Fait à …, le …",
+          "profil": "ville"
+        },
+        {
+          "id": "champ_246",
+          "type": "date",
+          "label": "Date",
+          "group": "Fait à …, le …",
+          "aide": "…Fait à le ▢"
+        }
+      ],
+      "fac": true
+    },
+    {
+      "id": "final",
+      "court": "Télécharger",
+      "titre": "Vérifier et télécharger",
+      "final": true,
+      "champs": []
+    }
+  ],
+  "sourceTemplate": {
+    "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-b-statuts-sarl-modele-developpe.docx",
+    "version": "4"
+  },
+  "exemple": {
+    "champ_357": "Exemple",
+    "champ_358": "Exemple",
+    "champ_359": "Exemple",
+    "champ_360": "Exemple",
+    "champ_362": "Exemple",
+    "champ_087": "Exemple",
+    "champ_088": "Exemple",
+    "champ_093": "Exemple",
+    "champ_095": "Exemple",
+    "champ_096": "Exemple",
+    "champ_097": "Exemple",
+    "champ_098": "Exemple",
+    "champ_099": "Exemple",
+    "champ_100": "Exemple",
+    "champ_101": "2000-01-01",
+    "champ_102": "Exemple",
+    "champ_103": "Exemple",
+    "champ_104": "Exemple",
+    "champ_105": "Exemple",
+    "champ_106": "Exemple",
+    "champ_107": "Exemple",
+    "champ_108": "Exemple",
+    "champ_113": "Exemple",
+    "champ_115": "Exemple",
+    "champ_116": "Exemple",
+    "champ_117": "Exemple",
+    "champ_118": "Exemple",
+    "champ_119": "Exemple",
+    "champ_120": "Exemple",
+    "champ_121": "Exemple",
+    "champ_122": "Exemple",
+    "champ_123": "Exemple",
+    "champ_124": "Exemple",
+    "champ_125": "2000-01-01",
+    "champ_126": "Exemple",
+    "champ_127": "Exemple",
+    "champ_128": "Exemple",
+    "champ_129": "Exemple",
+    "champ_130": "Exemple",
+    "champ_131": "Exemple",
+    "champ_132": "Exemple",
+    "champ_133": "Exemple",
+    "champ_134": "2000-01-01",
+    "champ_135": "Exemple",
+    "champ_136": "Exemple",
+    "champ_137": "Exemple",
+    "champ_138": "Exemple",
+    "champ_139": "Exemple",
+    "champ_140": "Exemple",
+    "champ_141": "2000-01-01",
+    "champ_142": "Exemple",
+    "champ_143": "Exemple",
+    "champ_144": "Exemple",
+    "champ_145": "Exemple",
+    "champ_146": "Exemple",
+    "champ_147": "Exemple",
+    "champ_148": "2000-01-01",
+    "champ_149": "Exemple",
+    "champ_150": "Exemple",
+    "champ_151": "Exemple",
+    "champ_152": "2000-01-01",
+    "champ_153": "Exemple",
+    "champ_154": "Exemple",
+    "champ_155": "Exemple",
+    "champ_156": "Exemple",
+    "champ_157": "Exemple",
+    "champ_158": "Exemple",
+    "champ_159": "Exemple",
+    "champ_160": "2000-01-01",
+    "champ_161": "Exemple",
+    "champ_162": "2000-01-01",
+    "champ_163": "Exemple",
+    "champ_164": "Exemple",
+    "champ_165": "Exemple",
+    "champ_166": "Exemple",
+    "champ_167": "Exemple",
+    "champ_168": "Exemple",
+    "champ_169": "Exemple",
+    "champ_170": "Exemple",
+    "champ_171": "Exemple",
+    "champ_172": "Exemple",
+    "champ_173": "Exemple",
+    "champ_174": "Exemple",
+    "champ_175": "Exemple",
+    "champ_176": "Exemple",
+    "champ_177": "Exemple",
+    "champ_178": "Exemple",
+    "champ_179": "Exemple",
+    "champ_180": "Exemple",
+    "champ_181": "Exemple",
+    "champ_182": "Exemple",
+    "champ_183": "Exemple",
+    "champ_184": "Exemple",
+    "champ_185": "Exemple",
+    "champ_186": "Exemple",
+    "champ_187": "Exemple",
+    "champ_188": "Exemple",
+    "champ_189": "Exemple",
+    "champ_190": "Exemple",
+    "champ_191": "Exemple",
+    "champ_192": "Exemple",
+    "champ_193": "Exemple",
+    "champ_194": "Exemple",
+    "champ_195": "Exemple",
+    "champ_196": "Exemple",
+    "champ_197": "Exemple",
+    "champ_198": "Exemple",
+    "champ_199": "Exemple",
+    "champ_200": "Exemple",
+    "champ_201": "Exemple",
+    "champ_202": "Exemple",
+    "champ_203": "Exemple",
+    "champ_204": "Exemple",
+    "champ_205": "Exemple",
+    "champ_206": "Exemple",
+    "champ_207": "Exemple",
+    "champ_208": "Exemple",
+    "champ_209": "Exemple",
+    "champ_210": "Exemple",
+    "champ_211": "Exemple",
+    "champ_212": "Exemple",
+    "champ_213": "Exemple",
+    "champ_214": "Exemple",
+    "champ_215": "Exemple",
+    "champ_216": "Exemple",
+    "champ_217": "Exemple",
+    "champ_218": "Exemple",
+    "champ_219": "Exemple",
+    "champ_220": "2000-01-01",
+    "champ_221": "Exemple",
+    "champ_222": "Exemple",
+    "champ_223": "Exemple",
+    "champ_224": "Exemple",
+    "champ_225": "2000-01-01",
+    "champ_226": "2000-01-01",
+    "champ_227": "2000-01-01",
+    "champ_228": "Exemple",
+    "champ_229": "Exemple",
+    "champ_230": "Exemple",
+    "champ_231": "Exemple",
+    "champ_232": "Exemple",
+    "champ_233": "Exemple",
+    "champ_234": "2000-01-01",
+    "champ_534": "2000-01-01",
+    "champ_235": "Exemple",
+    "champ_236": "Exemple",
+    "champ_237": "Exemple",
+    "champ_238": "Exemple",
+    "champ_242": "Exemple",
+    "champ_243": "Exemple",
+    "champ_244": "Exemple",
+    "champ_245": "Exemple",
+    "champ_246": "2000-01-01"
+  },
+  "doc": [
+    {
+      "k": "tit",
+      "text": "**MODELE DEVELOPPE DE STATUTS DE SARL**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Important : il convient de faire intervenir à l'acte toutes les personnes appelées à avoir la qualité d'associé, ainsi que le futur Gérant s'il n'est pas associé, et s'il est désigné dans les statuts.**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**«INDIQUER DENOMINATION SOCIALE»**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "SOCIETE A RESPONSABILITE LIMITEE",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "AU CAPITAL SOCIAL DE {{champ_087}}. F CFA** (MINIMUM = 1 000 000)**",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "SIEGE SOCIAL : « INDIQUER L’ADRESSE PRECISE »",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "REPUBLIQUE « INDIQUER ETAT PARTIE AU TRAITE OHADA »",
+      "al": "center"
+    },
+    {
+      "k": "p",
+      "text": "RCCM : {{champ_088}}",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**STATUTS**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Les soussignés :**"
+    },
+    {
+      "k": "p",
+      "text": "Et/ou"
+    },
+    {
+      "k": "p",
+      "text": "* Personne morale :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_357}}, {{champ_358}} au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}}, sous le numéro {{champ_093}}, dont le siège social est situé {{champ_362}},"
+    },
+    {
+      "k": "p",
+      "text": "Représentée par {{champ_095}} {{champ_096}} en sa qualité de {{champ_097}} dûment habilité aux fins des présentes,"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Et/ou"
+    },
+    {
+      "k": "p",
+      "text": "* Personne physique :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_098}} {{champ_099}}, demeurant à {{champ_100}}, né(e) le {{champ_101}} à {{champ_102}},"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Ont établi ainsi qu'il suit les statuts d'une société à responsabilité limitée devant exister entre eux et toute autre personne qui viendrait ultérieurement à acquérir la qualité d'associé."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 1 : Forme**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Il est formé entre les propriétaires des parts sociales ci-après créées et de celles qui pourraient l'être ultérieurement, une société à responsabilité limitée qui sera régie par l’Acte Uniforme de l’OHADA relatif au droit des sociétés commerciales et du Groupement d’Intérêt Economique, par toutes autres dispositions légales et réglementaires, complémentaires ou modificatives, et par les présents statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 2 : Objet**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société a pour objet en tous pays et plus particulièrement en République du {{champ_103}} {{champ_104}} (indiquer l’objet social défini par les associés)."
+    },
+    {
+      "k": "p",
+      "text": "Et, plus généralement, toutes opérations, de quelque nature qu'elles soient, juridiques, économiques, financières, civiles, commerciales, mobilières, immobilières ou industrielles, se rattachant à l'objet sus-indiqué ou à tous autres objets similaires ou connexes, de nature à favoriser, directement ou indirectement, le but poursuivi par la Société, son extension ou son développement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 3 : Dénomination sociale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société a pour dénomination sociale {{champ_105}} et pour sigle {{champ_106}}."
+    },
+    {
+      "k": "p",
+      "text": "Dans tous les actes et documents émanant de la Société et destinés aux tiers, la dénomination sociale doit être précédée ou suivie immédiatement et lisiblement des mots « société à responsabilité limitée » ou des initiales « SARL » et de l'énonciation du capital social, et de la mention du numéro de l’immatriculation de la société au Registre de Commerce et du Crédit Mobilier (art 17 AUSCGIE)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 4 : Siège social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le siège social de la Société est fixé : {{champ_107}}."
+    },
+    {
+      "k": "p",
+      "text": "Il pourra être transféré en tout autre endroit de la même ville par simple décision des organes de gérance, sous réserve de ratification par la prochaine assemblée générale extraordinaire et en tout endroit par décision extraordinaire des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société peut avoir recours à une domiciliation collective. La Société peut également être domiciliée temporairement dans le local d'habitation de son Gérant ou dans une partie d'un local à usage d'habitation en l'absence de réception de clientèle."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 5 : Durée**"
+    },
+    {
+      "k": "p",
+      "text": "La durée de la Société est fixée à {{champ_108}} à compter de la date de son immatriculation au Registre du commerce et du crédit mobilier, sauf les cas de dissolution anticipée ou de prorogation prévus aux présents statuts."
+    },
+    {
+      "k": "p",
+      "text": "Elle peut être prorogée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 6 : Apports**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6.1  -  Apports en numéraire**"
+    },
+    {
+      "k": "p",
+      "text": "Les soussignés font apport et versent à la Société, à savoir :"
+    },
+    {
+      "k": "p",
+      "text": "* Personne morale :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_357}}, {{champ_358}} au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}} sous le numéro {{champ_113}}, dont le siège social est situé {{champ_362}}, la somme de {{champ_115}} FCFA."
+    },
+    {
+      "k": "p",
+      "text": "* Personne physique :"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_116}} {{champ_117}}, demeurant {{champ_118}}, la somme de {{champ_119}} FCFA."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "En cas d'apports de biens communs par l'un des époux, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_120}} {{champ_121}}, une somme de {{champ_122}} FCFA provenant de sa communauté de biens avec son conjoint {{champ_123}} {{champ_124}}, qui a été averti(e) préalablement de cet apport par lettre recommandée avec demande d'avis de réception reçue le {{champ_125}} comportant toutes précisions utiles quant aux finalités et modalités pratiques de l'opération d'apport en numéraire à la présente Société envisagée par son conjoint."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "* En cas de libération totale des apports en numéraire, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "Soit au total une somme de {{champ_126}} FCFA, correspondant à {{champ_127}} parts sociales de la Société d'une valeur nominale de {{champ_128}} FCFA chacune, souscrites en totalité et intégralement libérées."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien en cas de libération partielle des apports en numéraire, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Soit au total une somme de {{champ_129}} FCFA, correspondant à {{champ_130}} parts sociales de la Société d'une valeur nominale de {{champ_131}} FCFA chacune, souscrites en totalité et libérées chacune à concurrence du {{champ_132}}(cinquième ou autre fraction supérieure)."
+    },
+    {
+      "k": "p",
+      "text": "La libération du surplus, à laquelle chaque associé s'oblige, interviendra en une ou plusieurs fois sur décision du Gérant et dans un délai qui ne peut excéder cinq ans à compter de l'immatriculation de la Société au Registre du commerce et du crédit mobilier."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le montant total des apports en numéraire, soit {{champ_133}} FCFA, a été déposé par les associés, conformément à la loi, le {{champ_134}} au crédit d'un compte ouvert au nom de la Société en formation {{champ_135}}(à la banque {{champ_136}} ou chez Me {{champ_137}}, notaire à {{champ_138}} ou à la Caisse des dépôts et consignations) ."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6.2  - Apport en nature**"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_139}} {{champ_140}} apporte à la Société, dans les conditions fixées par un contrat d'apport en date du {{champ_141}}, ci-annexé, sous les garanties ordinaires et de droit :-  le fonds de commerce de {{champ_142}}(nature) dont il a la propriété et qu'il exploite {{champ_143}}, immatriculé au Registre du commerce et du crédit mobilier de {{champ_144}} sous le numéro {{champ_145}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "En cas d'apport de biens communs par l'un des époux, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_146}} {{champ_147}} apporte à la Société, dans les conditions fixées par un contrat d'apport en date du {{champ_148}}, ci-annexé, sous les garanties ordinaires et de droit, le fonds de commerce de {{champ_149}} dépendant de sa communauté de biens avec son conjoint, {{champ_150}} {{champ_151}}, qui a été averti préalablement de cet apport par lettre recommandée avec demande d'avis de réception reçue le {{champ_152}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "et qui comprend :-  le nom commercial, l'enseigne, la clientèle, l'achalandage, la documentation commerciale, ainsi que le droit au bail des locaux où il est exploité, le tout évalué à la somme de {{champ_153}} FCFA ;"
+    },
+    {
+      "k": "p",
+      "text": "-  le mobilier, les installations et le matériel servant à son exploitation, évalués à {{champ_154}} FCFA ;"
+    },
+    {
+      "k": "p",
+      "text": "-  la totalité des marchandises décrites et estimées, article après article, pour une somme de {{champ_155}} FCFA;"
+    },
+    {
+      "k": "p",
+      "text": "-  les créances sur les débiteurs du commerce qui représentent {{champ_156}} FCFA ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les espèces en caisse et en dépôt à vue dans les banques pour {{champ_157}} FCFA;"
+    },
+    {
+      "k": "p",
+      "text": "Total des apports de {{champ_158}} évalués à : {{champ_159}} FCFA.Le tout selon la consistance des biens apportés à la date du {{champ_160}} et sous les conditions détaillées dans l'acte ci-annexé ."
+    },
+    {
+      "k": "p",
+      "text": "* En cas d'un commissaire aux apports désigné d'un commun accord, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "Les biens sont apportés à la Société et évalués au vu du rapport annexé aux présents statuts et établi par {{champ_161}} en qualité de commissaire aux apports désigné d'un commun accord entre tous les soussignés le {{champ_162}}."
+    },
+    {
+      "k": "p",
+      "text": "* Ou en cas d'un commissaire aux apports désigné par voie judiciaire, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Les biens sont apportés à la Société et évalués au vu du rapport annexé aux présents statuts et établi par {{champ_163}} en qualité de commissaire aux apports désigné par {{champ_164}}. (Président de la juridiction saisie) de {{champ_165}}, par une ordonnance rendue sur la requête de {{champ_166}} agissant en sa qualité de fondateur."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien en cas de non-recours au commissaire aux apports, remplacer par  :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Aucun des biens ainsi apportés à la Société ou la valeur totale de l'ensemble des apports en nature n'excédant  une valeur de 5 000 000 FCFA, les futurs associés ont décidé à l'unanimité de ne pas avoir recours à un commissaire aux apports."
+    },
+    {
+      "k": "p",
+      "text": "Les mentions, déclarations, origine de propriété et toutes les déclarations requises en la matière conformément à la loi, sont contenues dans l'acte annexé ci-après."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6.3   - Apports en industrie**"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_167}} {{champ_168}}, marié(e) à {{champ_169}} {{champ_170}}, apporte son industrie à la Société et reçoit {{champ_171}} parts sociales ouvrant droit au partage des bénéfices et de l'actif net à hauteur de {{champ_172}} % à charge de contribuer aux pertes à hauteur de {{champ_173}} %. Cet apport consistera {{champ_174}}(Indiquer la nature et la durée des prestations fournies par l'apporteur et prévoir, le cas échéant, une obligation de non-concurrence à la charge de l'apporteur)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**6.4   - Récapitulation des apports**"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social est constitué des apports suivants : 1° {{champ_175}} apporte à la Société, en espèces, un montant total de {{champ_176}} FCFA .2° {{champ_177}} apporte à la Société des biens évalués pour une valeur nette de {{champ_178}} FCFA.3° {{champ_179}} apporte à la Société des biens évalués pour une valeur nette de {{champ_180}} FCFA et des espèces pour un montant de {{champ_181}} FCFA, soit un apport total de {{champ_182}} FCFA. Total égal au montant du capital social {{champ_183}} FCFA."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 : Capital social**"
+    },
+    {
+      "k": "p",
+      "text": "**Obs. :**"
+    },
+    {
+      "k": "p",
+      "text": "Clause statutaire obligatoire (art. 61 AUSCGIE)."
+    },
+    {
+      "k": "p",
+      "text": "Le capital social est fixé à la somme de {{champ_184}} FCFA. Il est divisé en {{champ_185}} parts sociales égales d'une valeur nominale de {{champ_186}} FCFA  chacune, {{champ_187}}(Intégralement libérées/libérées à concurrence de {{champ_188}}), souscrites en totalité par les associés et attribuées à chacun d'eux en proportion de leurs apports respectifs, de la manière suivante :"
+    },
+    {
+      "k": "p",
+      "text": "-  à {{champ_189}} {{champ_190}} parts sociales numérotées de {{champ_191}} à {{champ_192}};"
+    },
+    {
+      "k": "p",
+      "text": "-  à {{champ_193}} {{champ_194}} parts sociales numérotées de {{champ_195}} à {{champ_196}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Total égal au nombre de parts composant le capital social : {{champ_197}} parts."
+    },
+    {
+      "k": "p",
+      "text": "Les soussignés déclarent que toutes les parts représentant le capital social de la Société leur appartiennent, sont réparties entre eux dans les proportions indiquées ci-dessus, correspondant à leurs apports respectifs et sont toutes libérées dans les proportions indiquées ci-dessus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "* Pour un article complet sur l'augmentation de capital, indiquer :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 bis : Augmentation du capital social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**7.1  -  Principe**"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social peut être augmenté soit par création de parts sociales nouvelles, soit par majoration du montant nominal des parts existantes. Les parts nouvelles sont souscrites et libérées soit en espèces, soit par compensation avec des créances liquides et exigibles, soit par apports en nature, soit par incorporation de bénéfices, réserves ou primes d'émission."
+    },
+    {
+      "k": "p",
+      "text": "Ces parts sociales doivent être libérées lors de la souscription, d'un quart au moins de leur valeur nominale. La libération du surplus doit intervenir, en une ou plusieurs fois, dans le délai de deux ans à compter du jour où l'augmentation de capital est devenue définitive."
+    },
+    {
+      "k": "p",
+      "text": "**7.2  -  Compétence**"
+    },
+    {
+      "k": "p",
+      "text": "L'augmentation de capital et les modalités de sa réalisation sont décidées par la collectivité des associés aux conditions édictées ci-après pour les modifications statutaires. Si l'augmentation de capital est réalisée par élévation de la valeur nominale des parts sociales existantes par incorporation de réserves ou de bénéfices, la décision sera prise par les associés représentant au moins la moitié des parts sociales. Si des parts avec prime d'émission sont créées, la décision collective des associés, portant augmentation de capital, fixe le montant de la prime d'émission et détermine son affectation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**7.3   - Augmentation de capital en numéraire**"
+    },
+    {
+      "k": "p",
+      "text": "En cas d'augmentation de capital par souscription de parts en numéraire, les associés auront proportionnellement à leur droit dans le capital un droit de préférence à la souscription des parts sociales nouvelles selon des modalités à définir par une décision extraordinaire des associés. Les fonds provenant de la libération des parts feront l'objet, dans les huit jours de leur réception, d'un dépôt {{champ_198}}(à la banque ou chez Me {{champ_199}}, notaire à {{champ_200}} ou à la Caisse des dépôts et consignations).Le retrait de ces fonds provenant de la libération des parts sociales ne pourra être effectué par le mandataire de la Société qu'après établissement du certificat du dépositaire des fonds."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**7.4   - Augmentation de capital par apport en nature**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Si l'augmentation de capital est réalisée, soit en totalité, soit en partie, par des apports en nature, la décision des associés relative à l'augmentation de capital contiendra l'évaluation de chaque apport en nature. Il y sera procédé, au vu d'un rapport annexé à cette décision et établi sous sa responsabilité par un commissaire aux apports désigné à l'unanimité par les associés ou nommé par le tribunal compétent, statuant sur requête de la Gérance ou d'un associé. Lorsque la valeur retenue est différente de celle proposée par le commissaire aux apports, les Gérants de la Société et les personnes ayant souscrit à l'augmentation du capital sont solidairement responsables pendant cinq ans, à l'égard des tiers, de la valeur attribuée auxdits apports."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 bis (formule simplifiée) : Augmentation de capital social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social peut être augmenté en vertu d'une décision collective extraordinaire des associés, conformément aux dispositions légales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 ter : Réduction du capital social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social peut également être réduit en vertu d'une décision collective extraordinaire des associés, pour quelque cause et de quelque manière que ce soit, sans que cette réduction ne puisse porter atteinte à l'égalité des associés."
+    },
+    {
+      "k": "p",
+      "text": "Le projet de réduction du capital est communiqué aux commissaires aux comptes  30 jours au moins avant la date de réunion de l'assemblée générale des associés appelée à statuer sur ce projet. Ils font connaître à l'assemblée générale des associés leur appréciation sur les causes et conditions de la réduction."
+    },
+    {
+      "k": "p",
+      "text": "Lorsque l'assemblée générale des associés approuve un projet de réduction de capital non motivée par des pertes, les créanciers, dont la créance est antérieure à la date du dépôt au greffe du procès-verbal de délibération, peuvent former opposition à la réduction de capital dans un délai d'un mois à compter de la date du dépôt."
+    },
+    {
+      "k": "p",
+      "text": "L'opposition est signifiée à la Société par acte d'huissier ou notifiée par tout moyen permettant d’établir sa réception effective par le destinataire et portée devant le tribunal compétent. Celui-ci rejette l'opposition ou ordonne, soit le remboursement des créances, soit la constitution de garanties, si la Société en offre et si elles sont jugées suffisantes. Les opérations de réduction du capital ne peuvent commencer pendant le délai d'opposition."
+    },
+    {
+      "k": "p",
+      "text": "L'achat de ses propres parts par la Société est interdit. Toutefois, l'assemblée générale des associés qui a décidé une réduction du capital social non motivée par des pertes peut autoriser le Gérant à acheter un nombre déterminé de parts sociales pour les annuler."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 7 ter (formule simplifiée) : Réduction du capital social**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le capital social peut être réduit en vertu d'une décision collective extraordinaire des associés, conformément aux dispositions de l’AUSCGIE."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 8 : Souscription et représentation des parts sociales**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parts sociales ne peuvent être représentées par des titres négociables."
+    },
+    {
+      "k": "p",
+      "text": "La propriété des parts sociales résultent seulement des présents statuts, des actes modificatifs ultérieurs et des cessions de parts régulièrement signifiées et publiées."
+    },
+    {
+      "k": "p",
+      "text": "Chaque associé peut se faire délivrer, à ses frais, des copies ou extraits des statuts et actes modificatifs, ainsi qu'il sera dit ci-après."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 9 : Droits et obligations des parts sociales**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Chaque part sociale donne droit à son propriétaire à une fraction des bénéfices et de l'actif social proportionnellement au nombre de parts sociales qu'il détient. Elle donne également le droit de participer aux décisions collectives. Toute part donne droit à une voix en assemblée générale des associés."
+    },
+    {
+      "k": "p",
+      "text": "Sauf disposition contraire de l'acte d'apport, les droits attachés aux parts d'industrie sont égaux à ceux de l'associé ayant le moins apporté."
+    },
+    {
+      "k": "p",
+      "text": "Les associés ne sont tenus à l'égard des tiers qu'à concurrence du montant de leur apport. Toutefois, lorsqu'il n'y a pas eu de commissaire aux apports ou lorsque la valeur retenue est différente de celle proposée par le commissaire aux apports, les associés sont solidairement responsables pendant cinq ans, à l'égard des tiers, de la valeur attribuée aux apports en nature lors de la constitution de la Société ou de l'augmentation de capital."
+    },
+    {
+      "k": "p",
+      "text": "La propriété d'une part sociale emporte de plein droit adhésion aux statuts et aux résolutions régulièrement prises par les associés. Les droits et obligations attachés aux parts les suivent, dans quelque main qu'elles passent. Les représentants, ayants droit, conjoint et héritiers d'un associé ne peuvent, sous quelque prétexte que ce soit, requérir l'apposition des scellés sur les biens et valeurs de la Société, ni en demander le partage ou la licitation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 10 : Indivisibilité des parts sociales**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les parts sociales sont indivisibles à l'égard de la Société qui ne reconnaît qu'un seul propriétaire pour chacune d'elles. A cet égard, les indivisions successorales sont considérées comme un seul associé quel que soit le nombre des parts possédées par cette indivision."
+    },
+    {
+      "k": "p",
+      "text": "Les copropriétaires indivis de parts sociales sont tenus de se faire représenter auprès de la Société par un mandataire commun choisi parmi eux; à défaut d'entente, il sera pourvu à la désignation de ce mandataire à la demande de l'indivisaire le plus diligent, par la juridiction compétente."
+    },
+    {
+      "k": "p",
+      "text": "En cas de démembrement de la propriété des parts sociales, le droit de vote appartient au nu-propriétaire, sauf pour les décisions concernant l'affectation des bénéfices où il est réservé à l’usufruitier."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 11 : Cession et transmission des parts sociales**"
+    },
+    {
+      "k": "p",
+      "text": "**11.1   - Cessions**"
+    },
+    {
+      "k": "p",
+      "text": "**11.1.1  - Forme de la cession**"
+    },
+    {
+      "k": "p",
+      "text": "Toute cession de parts sociales doit être constatée par un acte écrit sous seing privé ou notarié. La cession n'est rendue opposable à la Société qu'après avoir été signifiée à cette dernière par exploit d'huissier ou par tout moyen permettant d’établir sa réception effective par le destinataire ou acceptée par elle dans un acte authentique signé devant notaire conformément à l'article 317 de l’AUSCGIE. Toutefois, la signification peut être remplacée par le dépôt d'un original de l'acte de cession au siège social contre remise par le Gérant d'une attestation de ce dépôt."
+    },
+    {
+      "k": "p",
+      "text": "Elle n'est opposable aux tiers qu'après accomplissement de cette formalité et du dépôt, en annexe au Registre du commerce et du crédit mobilier, d'un exemplaire des statuts de la Société modifiés."
+    },
+    {
+      "k": "p",
+      "text": "**11.1.2  -  Cessions entre associés, conjoints, ascendants, descendants**"
+    },
+    {
+      "k": "p",
+      "text": "* En cas de parts librement cessibles, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "Les parts sociales sont librement cessibles entre associés et entre conjoints, ascendants ou descendants."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien en cas de parts cessibles sous condition d'agrément, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Les parts sociales ne sont cessibles entre associés, conjoints, ascendants ou descendants qu'avec le consentement de la majorité des associés représentant au moins (les trois quarts) des parts sociales."
+    },
+    {
+      "k": "p",
+      "text": "Le conjoint d'un associé apporteur de biens communs ou acquéreur de parts sociales à partir de fonds communs est agréé en qualité d'associé par les autres associés dans les mêmes conditions s'il a notifié postérieurement à l'apport ou l'acquisition son intention de devenir personnellement associé pour la moitié des parts sociales souscrites ou acquises."
+    },
+    {
+      "k": "li",
+      "text": "Pour donner un agrément dans les statuts, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "D'ores et déjà les associés soussignés agréent {{champ_201}} {{champ_202}}, {{champ_203}} pour toute cession de parts qui pourrait lui être consentie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**11.1.3  -  Cessions à des tiers non associés n'ayant pas la qualité de conjoints, ascendants ou descendants du cédant**"
+    },
+    {
+      "k": "p",
+      "text": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la Société à titre onéreux ou gratuit qu'avec le consentement de la majorité des associés représentant au moins {{champ_204}}( les trois quarts) des parts sociales, cette majorité étant déterminée {{champ_205}}( compte non tenu) de la personne et des parts de l'associé cédant."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Pour donner un agrément dans les statuts, ajouter  :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "D'ores et déjà les associés soussignés agréent {{champ_206}} {{champ_207}}, {{champ_208}} pour toute cession de parts qui pourrait lui être consentie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**11.1.4  -  Modalités de l'agrément**"
+    },
+    {
+      "k": "p",
+      "text": "Dans tous les cas où il y a lieu à agrément, le projet de transfert est notifié à la Société et à chacun des associés par acte d'huissier ou par lettre recommandée avec demande d'avis de réception.  Le Gérant doit convoquer l'assemblée générale des associés pour qu'elle délibère sur ledit projet ou consulter les associés par écrit sur ce projet. La décision de la Société est notifiée au cédant par lettre recommandée avec demande d'avis de réception. Si la Société n'a pas fait connaître sa décision dans le délai de trois mois à compter de la dernière des notifications prévues au présent alinéa, le consentement au transfert est réputé acquis."
+    },
+    {
+      "k": "p",
+      "text": "**11.1.5   - Obligation d'achat ou de rachat de parts dont le transfert n'est pas agréé.**"
+    },
+    {
+      "k": "p",
+      "text": "Si la Société a refusé de consentir au transfert, les associés sont tenus, dans le délai de trois mois à compter de ce refus, d'acquérir ou de faire acquérir les parts, sauf si le cédant renonce à la cession de ses parts. A la demande du Gérant, ce délai peut être prolongé par décision du tribunal compétent, sans que cette prolongation puisse excéder 120 jours. Le prix de rachat des parts sociales est ainsi déterminé :{{champ_209}}. A défaut d'accord sur le prix de rachat, celui-ci est fixé par un expert désigné conformément à l'article 319 AUSCGIE. Cet expert est tenu de respecter les règles de détermination du prix de rachat énoncées ci-dessus."
+    },
+    {
+      "k": "p",
+      "text": "La Société peut également, avec le consentement de l'associé cédant, décider, dans le même délai, de réduire son capital du montant de la valeur nominale desdites parts et de racheter ses parts au prix déterminé dans les conditions prévues ci-dessus. Un délai de paiement, qui ne saurait excéder deux ans, peut, sur justification, être accordé à la Société par le président du tribunal compétent. Les sommes dues portent intérêt au taux légal en matière commerciale."
+    },
+    {
+      "k": "p",
+      "text": "L'associé cédant ne peut imposer à ses coassociés ou à la Société le rachat de ses parts sociales que s'il les détient depuis au moins deux ans. Toutefois, cette durée minimale de détention ne s'impose pas s'il a recueilli les parts par succession, liquidation de communauté de biens entre époux, ou donation du conjoint, d'un ascendant ou d'un descendant."
+    },
+    {
+      "k": "p",
+      "text": "Si, à l'expiration du délai imparti, aucune des solutions prévues ci-dessus n'est intervenue, l'associé peut réaliser la cession initialement prévue."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Ajouter éventuellement :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Les dispositions qui précèdent sont applicables à tous les cas de cessions, y compris par voie d'adjudication publique, en vertu d'une décision de justice ou autrement, ou par voie de fusion, d'apport ou de scission ou encore à titre d'attribution en nature à la liquidation d'une autre société."
+    },
+    {
+      "k": "p",
+      "text": "**11.2   - Transmission par décès ou par suite de dissolution ou de liquidation de communauté**"
+    },
+    {
+      "k": "p",
+      "text": "En cas de décès d'un associé, la Société continuera entre les associés survivants et les héritiers et ayants droit de l'associé décédé et éventuellement son conjoint survivant, lesquels héritiers, ayants droit et conjoint survivant ne sont pas soumis à l'agrément des associés survivants. Pour l'exercice de leurs droits d'associés, les héritiers ou ayants droit doivent justifier de leur identité personnelle et de leurs qualités héréditaires. Ils doivent également justifier de la désignation d'un mandataire commun chargé de les représenter pendant la durée de l'indivision dans les conditions prévues à l'article 10 des présents statuts."
+    },
+    {
+      "k": "li",
+      "text": "Si une clause d'agrément a été prévue :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Lorsqu'elle entraîne acquisition de la qualité d'associé, la transmission des parts sociales, par voie de succession, de dissolution ou de liquidation de communauté, est soumise à l'agrément des associés dans les conditions prévues ci-dessus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Si l'agrément est accordé d'office à certains postulants en cas de décès, ajouter  :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "En cas de décès de {{champ_210}}, la Société continuera avec {{champ_211}}(son héritier ou son légataire ou son conjoint ou les associés survivants ou M. {{champ_212}}). Les ayants droit évincés ont droit à la valeur des droits sociaux de leur auteur au jour du décès, ainsi déterminée {{champ_213}}. A défaut d'accord sur cette valeur, celle-ci est fixée par un expert désigné conformément à l'article 319 AUSCGIE. Cet expert est tenu de respecter les règles de détermination de la valeur des droits sociaux énoncées ci-dessus."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**11.3   - Nantissement des parts sociales**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le nantissement des parts sociales est constaté par acte notarié ou sous seing privé enregistré et signifié à la Société et publié au registre du commerce et du crédit mobilier. Tout projet de nantissement doit être notifié à la Société. Si les associés ont donné leur consentement à un projet de nantissement de parts sociales dans les conditions prévues au présent article ci-dessus, ce consentement emportera agrément du cessionnaire en cas de réalisation forcée des parts nanties selon les dispositions des articles 391 & 322 AUSCGIE, à moins que la société ne préfère, après la cession, racheter sans délai les parts, en vue de réduire son capital social. Si la Société n'a pas fait connaître sa décision dans le délai de trois mois à compter de la notification du projet de nantissement, le consentement au nantissement, emportant agrément du cessionnaire en cas de réalisation forcée des parts nanties, est réputé acquis. Le défaut de notification du projet de nantissement à la Société comme le refus d'agrément de celui-ci par les associés, n'empêche pas le nantissement ; mais, en cas de réalisation forcée, l'adjudicataire devra être agréé comme en cas de cession de parts sociales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 12 : Réunion de toutes les parts sociales en une seule main**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La réunion de toutes les parts sociales en une seule main n'entraîne pas la dissolution de la Société qui continue d'exister avec un associé unique. Dans ce cas, l'associé unique exerce tous les pouvoirs dévolus à l'assemblée générale des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 13 : Décès, incapacité, interdiction, faillite d'un associé**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Le décès, l'incapacité, l'interdiction, la faillite de l'un quelconque des associés, personnes physiques ainsi que le redressement ou la liquidation judiciaire d'un associé personne morale n'entraînent pas la dissolution de la Société, mais si l'un de ces événements se produit en la personne du Gérant, il entraînera la cessation des fonctions de Gérant."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 14 : Gérance**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La Société est administrée par un ou plusieurs Gérants, personnes physiques, associés ou non, nommés par les associés pour une durée {{champ_214}}(indéterminée/déterminée de - nombre d'années à préciser)."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "S'il est prévu une durée déterminée du mandat de Gérant, ajouter éventuellement :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Les Gérants sont rééligibles."
+    },
+    {
+      "k": "p",
+      "text": "Les Gérants sont nommés par décision des associés représentant plus de la moitié des parts sociales. Si cette majorité n'est pas obtenue, la décision est prise sur seconde consultation à la majorité des votes émis, quel que soit le nombre de votants."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "* Si le Gérant est nommé par les statuts, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "Est nommé Gérant de la Société pour une durée {{champ_215}}(indéterminée/déterminée de - nombre d'années à préciser), {{champ_216}}, qui déclare accepter les fonctions qui lui sont confiées."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien si le Gérant unique est nommé par acte séparé, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Le premier Gérant de la Société sera nommé par décision collective des associés aussitôt après la signature des présents statuts, dans les conditions fixées au présent article."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien si plusieurs Gérants sont nommés par acte séparé, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Les {{champ_217}} premiers Gérants de la Société seront nommés par décision collective des associés aussitôt après la signature des présents statuts dans les conditions fixées au présent article."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 15 : Pouvoirs de la Gérance**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dans les rapports avec les tiers, la Gérance est investie des pouvoirs les plus étendus pour agir en toute circonstance au nom de la Société, sous réserve des pouvoirs que la loi attribue expressément aux associés. La Société est engagée même par les actes de la Gérance qui ne relèvent pas de l'objet social, à moins qu'elle ne prouve que le tiers savait que l'acte dépassait cet objet ou qu'il ne pouvait l'ignorer compte tenu des circonstances, étant exclu que la seule publication des statuts suffise à constituer cette preuve."
+    },
+    {
+      "k": "p",
+      "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus à l'alinéa précédent. Les comptes sociaux et le rapport de gestion doivent être établis par tous les Gérants."
+    },
+    {
+      "k": "p",
+      "text": "L'opposition formée par un Gérant aux actes d'un autre Gérant est sans effet à l'égard des tiers, à moins qu'il ne soit établi qu'ils en ont eu connaissance."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "En cas de restrictions des pouvoirs du Gérant, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, à titre de règlement intérieur et sans que cette clause puisse être opposée aux tiers ni invoquée par eux, il est convenu que la Gérance ne pourra, sans y être autorisée par une décision collective des associés prise à la majorité représentant plus de la moitié des parts sociales, contracter des emprunts autres que des emprunts bancaires, effectuer des achats, échanges et ventes d'immeubles autres que celui du siège social, constituer des hypothèques ou des nantissements, participer à la fondation de toute société et effectuer tous apports à des sociétés constituées ou à constituer ou prendre des intérêts dans des sociétés ayant ou non le même objet social."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "En cas de cogérance, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Chaque Gérant ne peut agir séparément pour les actes suivants : {{champ_218}}, contracter des emprunts autres que des emprunts bancaires, effectuer des ventes d'immeubles autres que celui du siège social, constitution de filiales ou d'établissements {{champ_219}}."
+    },
+    {
+      "k": "p",
+      "text": "Ces limitations de pouvoir sont inopposables aux tiers."
+    },
+    {
+      "k": "p",
+      "text": "Dans les rapports entre associés, la Gérance peut faire tous actes de gestion dans l'intérêt de la Société."
+    },
+    {
+      "k": "p",
+      "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus ci-dessus, sauf le droit pour chacun de s'opposer à toute opération avant qu'elle ne soit conclue."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 16 : Rémunération de la Gérance**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "En rémunération de ses fonctions, chacun des Gérants a droit à un traitement qui est fixé par décision ordinaire des associés, ainsi qu'au remboursement de ses frais de représentation et de déplacement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 17 : Révocation - Démission - Décès ou retrait - Remplacement**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**17.1   - Révocation du Gérant**"
+    },
+    {
+      "k": "p",
+      "text": "Tout Gérant, associé ou non, nommé ou non dans les statuts, est révocable par décision ordinaire de la collectivité des associés représentant plus de la moitié des parts sociales. Si la révocation est décidée sans juste motif, elle peut donner lieu à des dommages et intérêts. En outre, tout Gérant est révocable par les tribunaux pour juste motif à la demande de tout associé."
+    },
+    {
+      "k": "p",
+      "text": "**17.2   - Démission du Gérant**"
+    },
+    {
+      "k": "p",
+      "text": "Tout Gérant a le droit de renoncer à ses fonctions, à charge pour lui d'informer les associés de sa décision, six mois avant la clôture de l'exercice, par lettre recommandée avec demande d'avis de réception. Il sera dressé acte de ce changement, lequel ne prendra effet qu'à la date du commencement de l'exercice suivant. Cependant, la collectivité des associés pourra toujours prendre acte de la démission d'un ou des Gérants avec une date d'effet ne coïncidant pas avec la date de clôture d'un exercice."
+    },
+    {
+      "k": "p",
+      "text": "**17.3   - Décès du Gérant**"
+    },
+    {
+      "k": "p",
+      "text": "Le décès du Gérant unique n'entraîne pas la dissolution de la Société. En cas de décès d'un Gérant, la Gérance sera exercée par le Gérant survivant mais tout associé pourra provoquer une décision collective des associés à l'effet de nommer un nouveau Gérant. En cas de décès du Gérant unique, le ou les commissaire(s) aux comptes ou tout associé convoque(nt) l'assemblée générale des associés à seule fin de procéder au remplacement du Gérant. Dans ce cas, durant la période intérimaire, les mandataires du gérant décédé, en fonction au jour de son décès, continueront à exercer leurs pouvoirs afin d'assurer la gestion de la Société, sauf décision contraire de la collectivité des associés. A défaut, les associés désigneront un Gérant provisoire, associé ou non."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**17.4   - Remplacement du Gérant**"
+    },
+    {
+      "k": "p",
+      "text": "Dans les cas prévus ci-dessus et sous réserve des conditions particulières à ces cas, la collectivité des associés procède au remplacement du Gérant. Dans ce cas, elle est consultée d'urgence par le {{champ_220}}(cogérant/commissaire(s) aux comptes) en exercice ou par tout associé, ou par un mandataire de justice, à la requête de l'associé le plus diligent. En outre, en cas de révocation du Gérant, la collectivité des associés doit procéder par la même décision à la nomination de son remplaçant."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 18 : Responsabilité de la Gérance**"
+    },
+    {
+      "k": "p",
+      "text": "Les Gérants sont responsables individuellement ou solidairement selon les cas, envers la Société ou envers les tiers des infractions aux dispositions législatives ou réglementaires applicables aux sociétés à responsabilité limitée, des violations des statuts, ainsi que des fautes commises dans leur gestion."
+    },
+    {
+      "k": "p",
+      "text": "Outre l'action en réparation du préjudice subi personnellement, les associés peuvent intenter l'action sociale en responsabilité contre les Gérants, soit individuellement, soit en se groupant, à condition qu'ils représentent au moins le dixième du capital social, et en chargeant à leurs frais un ou plusieurs d'entre eux de les représenter pour soutenir cette action tant en demande qu'en défense. Les demandeurs sont habilités à poursuivre la réparation de l'entier préjudice subi par la Société à laquelle, le cas échéant, les dommages-intérêts sont alloués."
+    },
+    {
+      "k": "p",
+      "text": "Aucune décision de l'assemblée générale des associés ne peut avoir pour effet d'éteindre une action en responsabilité contre les Gérants pour fautes commises dans l'accomplissement de leur mandat."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 19 : Commissaires aux comptes**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.1   - Nomination des commissaires aux comptes**"
+    },
+    {
+      "k": "p",
+      "text": "Un ou plusieurs commissaires aux comptes titulaires et suppléants doivent être nommés par décision des associés représentant plus de la moitié du capital social si la Société remplit les critères fixés par l'article 376 AUSCGIE."
+    },
+    {
+      "k": "p",
+      "text": "La nomination d’un commissaire aux comptes peut toutefois être demandée par un ou plusieurs associés détenant au moins le dixième du capital social, même si la Société ne remplit pas les critères fixés par l'article 376 al. 1 AUSCGIE. Ils exercent leur mission de contrôle conformément à la loi. Les commissaires aux comptes sont désignés pour une durée de trois exercices."
+    },
+    {
+      "k": "li",
+      "text": "En cas de nomination des commissaires aux comptes lors de la constitution, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Les associés nomment en qualité de commissaire aux comptes titulaire, pour les trois  premiers exercices, {{champ_221}}. {{champ_222}} est nommé en qualité de commissaire aux comptes suppléant pour le cas de refus, d'empêchement, de démission ou de décès du commissaire titulaire."
+    },
+    {
+      "k": "p",
+      "text": "La durée des fonctions du commissaire expirera avec l'assemblée générale des associés qui statuera sur les comptes du dernier de ces exercices, sauf renouvellement. Les délibérations prises à défaut de désignation régulière de commissaires aux comptes ou sur le rapport de commissaires aux comptes nommés ou demeurés en fonction contrairement aux présentes dispositions sont nulles. L'action en nullité est éteinte si ces délibérations sont expressément confirmées par une assemblée générale des associés sur le rapport de commissaires régulièrement désignés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.2   - Nomination judiciaire**"
+    },
+    {
+      "k": "p",
+      "text": "Pour les sociétés ne remplissant pas les conditions prévues à l’article 376 de l’AUSCGIE, la nomination peut être demandée en justice par un ou plusieurs associés détenant au moins le dixième du capital social."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.3  -  Récusation**"
+    },
+    {
+      "k": "p",
+      "text": "Un ou plusieurs associés représentant au moins le dixième au moins du capital ainsi que le ministère public, pourront demander en justice, la récusation d'un ou plusieurs commissaires aux comptes désignés par l'assemblée générale des associés. S'il est fait droit à la demande, un nouveau commissaire aux comptes sera désigné en justice. Il demeurera en fonction jusqu'à l'entrée en fonction du commissaire aux comptes désigné par l'assemblée générale des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.4   - Fonctions des commissaires aux comptes**"
+    },
+    {
+      "k": "p",
+      "text": "Les commissaires aux comptes, en justifiant leurs appréciations, certifient que les comptes annuels sont réguliers et sincères et donnent une image fidèle du résultat des opérations de l'exercice écoulé ainsi que de la situation financière et du patrimoine de la Société à la fin de cet exercice. Ils ont pour mission permanente, à l'exclusion de toute immixtion dans la gestion, de vérifier les valeurs et les documents comptables de la Société et de contrôler la conformité de sa comptabilité aux règles en vigueur. Ils vérifient également la sincérité et la concordance avec les comptes annuels des informations données dans le rapport de gestion et dans les documents adressés aux associés sur la situation financière et les comptes annuels. Si plusieurs commissaires aux comptes sont en fonction, ils peuvent procéder séparément à leurs investigations, vérifications et contrôles, mais ils établissent un rapport commun. En cas de désaccord entre les commissaires, le rapport indique les différentes opinions exprimées. Les commissaires aux comptes portent à la connaissance de la Gérance :-  les contrôles et vérifications auxquels ils ont procédé et les différents sondages auxquels ils se sont livrés;"
+    },
+    {
+      "k": "p",
+      "text": "-  les postes du bilan et des autres documents comptables auxquels des modifications leur paraissent devoir être apportées, en faisant toutes observations utiles sur les méthodes d'évaluation utilisées pour l'établissement de ces documents ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les irrégularités et les inexactitudes qu'ils auraient découvertes ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les conclusions auxquelles conduisent les observations et rectifications ci-dessus sur les résultats de l'exercice comparés à ceux du précédent exercice. Les commissaires aux comptes signalent, à la plus prochaine assemblée générale, les irrégularités et inexactitudes relevées par eux au cours de l'accomplissement de leur mission."
+    },
+    {
+      "k": "p",
+      "text": "En outre, ils révèlent au Procureur de la République les faits délictueux dont ils ont eu connaissance, sans que leur responsabilité puisse être engagée par cette révélation. Lorsque les commissaires aux comptes relèvent, à l'occasion de l'exercice de leur mission, un fait de nature à compromettre la continuité de l'exploitation, ils doivent en saisir la Gérance et lui demander des explications."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.5   - Rémunération**"
+    },
+    {
+      "k": "p",
+      "text": "Les honoraires des commissaires aux comptes sont à la charge de la Société. Ils sont fixés dans le respect des modalités légales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.6   - Révocation**"
+    },
+    {
+      "k": "p",
+      "text": "En cas de faute ou d'empêchement, les commissaires aux comptes pourront être révoqués par décision de justice à la demande de la Gérance, du ministère public, d'un ou plusieurs associés représentant moins le dixième au moins du capital social, ou de l'assemblée générale des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**19.7   - Responsabilité**"
+    },
+    {
+      "k": "p",
+      "text": "Les commissaires aux comptes sont responsables, tant à l'égard de la Société que des tiers, des conséquences dommageables des fautes et négligences qu'ils ont commises dans l'exercice de leurs fonctions. Ils ne sont pas responsables des infractions commises par la Gérance, sauf si, en ayant eu connaissance, ils ne les ont pas révélées dans leur rapport à l'assemblée générale des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 20 : Conventions conclues entre la Société et ses associés ou Gérants**"
+    },
+    {
+      "k": "p",
+      "text": "* Si la Société a un ou plusieurs commissaires aux comptes, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "La Gérance avise le ou les commissaire(s) aux comptes des conventions intervenues directement ou par personne interposée entre la Société et l'un de ses Gérants ou associés dans le délai d'un mois à compter de la conclusion desdites conventions."
+    },
+    {
+      "k": "p",
+      "text": "Lorsque l'exécution de conventions conclues au cours d'exercices antérieurs a été poursuivie au cours du dernier exercice, le ou les commissaire(s) aux comptes sont informés de cette situation dans le délai d'un mois à compter de la clôture de l'exercice."
+    },
+    {
+      "k": "p",
+      "text": "Le ou les commissaire(s) aux comptes présentent à l'assemblée générale des associés ou joignent aux documents communiqués aux associés, en cas de consultation écrite, un rapport spécial sur les conventions contenant les mentions suivantes :"
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien si la Société n'a pas de commissaire aux comptes, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "La Gérance présente à l'assemblée générale des associés statuant sur les comptes d'un exercice ou joint aux documents communiqués aux associés, en cas de consultation écrite, un rapport spécial sur les conventions intervenues directement ou par personne interposée entre la Société et l'un de ses Gérants ou associés. Ce rapport contient les mentions suivantes :"
+    },
+    {
+      "k": "p",
+      "text": "-  l'énumération des conventions soumises à l'approbation de l'assemblée générale des associés ;"
+    },
+    {
+      "k": "p",
+      "text": "-  le nom des Gérants ou associés intéressés ;"
+    },
+    {
+      "k": "p",
+      "text": "-  la nature et l'objet desdites conventions ;"
+    },
+    {
+      "k": "p",
+      "text": "-  les modalités essentielles de ces conventions, notamment l'indication des prix ou tarifs pratiqués, des ristournes et commissions consenties, des délais de paiement accordés, des intérêts stipulés, des sûretés conférées et, le cas échéant, toutes autres indications permettant aux associés d'apprécier l'intérêt qui s'attachait à la conclusion des conventions analysées ;"
+    },
+    {
+      "k": "p",
+      "text": "-  l'importance des fournitures livrées ou des prestations de services fournies, ainsi que le montant des sommes versées ou reçues au cours de l'exercice en exécution des conventions conclues au cours d'exercices antérieurs et dont l'exécution a été poursuivie au cours du dernier exercice."
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale des associés statue sur ce rapport. Le Gérant ou l'associé intéressé ne peut pas prendre part au vote, et ses parts ne sont pas prises en compte pour le calcul du quorum et de la majorité."
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, s'il n'existe pas de commissaire aux comptes, les conventions conclues par un Gérant non associé sont soumises à l'approbation préalable de l'assemblée générale des associés."
+    },
+    {
+      "k": "p",
+      "text": "Les conventions non approuvées produisent néanmoins leurs effets, à charge, pour le Gérant, et, s'il y a lieu, pour l'associé contractant, de supporter individuellement ou solidairement, selon les cas, les conséquences dommageables de la convention pour la Société."
+    },
+    {
+      "k": "p",
+      "text": "Ces dispositions s'étendent aux conventions passées avec une société dont un associé indéfiniment responsable, Gérant, administrateur, directeur général, membre du directoire ou membre du conseil de surveillance, est simultanément Gérant ou associé de la Société."
+    },
+    {
+      "k": "p",
+      "text": "**Article 21 : Conventions interdites**"
+    },
+    {
+      "k": "p",
+      "text": "A peine de nullité du contrat, il est interdit aux Gérants ou associés autres que les personnes morales de contracter, sous quelque forme que ce soit, des emprunts auprès de la Société, de se faire consentir par elle un découvert, en compte courant ou autrement, ainsi que de faire cautionner ou avaliser par elle leurs engagements envers les tiers."
+    },
+    {
+      "k": "p",
+      "text": "Cette interdiction s'applique également aux représentants légaux des personnes morales associées, aux conjoint, ascendants et descendants des Gérants, associés ou des représentants légaux des personnes morales associées ainsi qu'à toute personne interposée."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 22 : Décisions collectives**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "La volonté des associés s'exprime par des décisions collectives qui obligent tous les associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.1   Forme et objet des décisions collectives**"
+    },
+    {
+      "k": "p",
+      "text": "Les décisions collectives statuant sur les comptes sociaux sont prises en assemblée générale. Sont également prises en assemblée les décisions soumises aux associés à l'initiative {{champ_223}}(des associés ou du ou des commissaire(s) aux comptes ou d'un mandataire désigné par justice)."
+    },
+    {
+      "k": "p",
+      "text": "* Si les autres décisions collectives peuvent être prises selon des modalités diverses, indiquer :"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les autres décisions collectives peuvent être prises au choix de la Gérance soit en assemblée générale, soit par consultation écrite des associés."
+    },
+    {
+      "k": "p",
+      "text": "**Obs. :**"
+    },
+    {
+      "k": "p",
+      "text": "Pour pouvoir être utilisées par la Gérance, la consultation écrite doit obligatoirement être prévue par les statuts. Si elles ne sont pas mentionnées, il n'est pas possible d'y recourir. Il convient, dans cette hypothèse, de supprimer l'article 22.6 et toute référence à ce mode de consultation dans les articles 20 à 22.2 et/ou l'article 22.7 et toute référence à ce mode de décision dans l'article 22.1."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien si les décisions collectives ne peuvent être prises qu'en assemblée générale, remplacer par :"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les autres décisions collectives doivent également être prises en assemblée générale des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.2   - Décisions ordinaires**"
+    },
+    {
+      "k": "p",
+      "text": "Sont qualifiées d'ordinaires, les décisions des associés autres que celles relatives à la modification des statuts. Les décisions ordinaires ont pour objet notamment de nommer ou révoquer les Gérants, donner à la Gérance les autorisations nécessaires à l'accomplissement des actes excédant ses pouvoirs tels qu'ils ont été définis à l'article 15 ci-dessus, de se prononcer sur les comptes de la Société, décider toute affectation et répartition des bénéfices, se prononcer sur les conventions visées à l'article 20 ci-dessus ou sur l'agrément de cessions ou transferts de parts sociales, droits de souscription ou d'attribution. Sauf disposition expresse contraire des présents statuts, les décisions ordinaires sont adoptées par un ou plusieurs associé(s) représentant plus de la moitié des parts sociales. Si cette majorité n'est pas obtenue, les associés sont, selon les cas, convoqués ou consultés une seconde fois, sur les mêmes questions figurant à l'ordre du jour de la première convocation ou consultation, et les décisions sont prises à la majorité des votes émis, quel que soit le nombre des votants."
+    },
+    {
+      "k": "li",
+      "text": "Si des moyens de télécommunication sont utilisés, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Conformément aux dispositions de l’AUSCGIE, sont réputés présents pour le calcul du quorum et de la majorité les associés qui participent à l'assemblée générale à distance, par correspondance, par visioconférence ou d’autres moyens permettant leur identification."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.3   - Décisions extraordinaires**"
+    },
+    {
+      "k": "p",
+      "text": "Sont qualifiées d'extraordinaires, les décisions des associés portant modification des statuts. Pour toute modification des statuts, l'assemblée générale des associés ne délibère valablement que si les associés présents ou représentés possèdent au moins les trois quarts du capital social. A défaut de ce quorum, la deuxième assemblée générale peut être prorogée à une date postérieure de deux mois au plus à celle à laquelle elle avait été convoquée. Dans l'un ou l'autre de ces deux cas, les modifications sont décidées à la majorité des deux tiers des parts détenues par les associés présents ou représentés."
+    },
+    {
+      "k": "p",
+      "text": "Par dérogation aux dispositions ci-dessus, la décision d'augmenter le capital social par incorporation de bénéfices ou de réserves est valablement décidée par les associés représentant au moins la moitié des parts sociales. Les associés ne peuvent, si ce n'est à l'unanimité, changer la nationalité de la Société."
+    },
+    {
+      "k": "li",
+      "text": "Si des moyens de télécommunicationn sont utilisés, ajouter :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Conformément aux dispositions de l’AUSCGIE, sont réputés présents pour le calcul du quorum et de la majorité les associés qui participent à l'assemblée générale distance, par correspondance, par visioconférence ou d’autres moyens permettant leur identification."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.4   - Mode de consultation des associés en cas d'assemblée générale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.4.1  -  Convocation**"
+    },
+    {
+      "k": "p",
+      "text": "Les associés sont convoqués aux assemblées générales par la Gérance ou, s'il en existe, par le ou les commissaires aux comptes. Un ou plusieurs associé(s), détenant la moitié des parts sociales ou détenant, s'ils représentent au moins le quart des associés, le quart des parts sociales, peuvent demander la réunion d'une assemblée générale."
+    },
+    {
+      "k": "p",
+      "text": "Tout associé peut demander en justice, la désignation d'un mandataire chargé de convoquer l'assemblée générale et de fixer son ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "Les associés sont convoqués quinze jours au moins avant la réunion de l'assemblée générale, par lettre au porteur contre récépissé ou par lettre recommandée avec demande d'avis de réception, télécopie ou courrier électronique. Celle-ci indique la date, lieu et  l'ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "Toute assemblée générale des associés irrégulièrement convoquée peut être annulée. Toutefois, l'action en nullité n'est pas recevable lorsque tous les associés étaient présents ou représentés."
+    },
+    {
+      "k": "p",
+      "text": "**22.4.2  -  Ordre du jour**"
+    },
+    {
+      "k": "p",
+      "text": "L'ordre du jour de l'assemblée générale des associés est arrêté par l'auteur de la convocation."
+    },
+    {
+      "k": "p",
+      "text": "Sous réserve des questions diverses, qui ne doivent présenter qu'une minime importance, les questions inscrites à l'ordre du jour sont libellées de telle sorte que leur contenu et leur portée apparaissent clairement, sans qu'il y ait lieu de se reporter à d'autres documents."
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale des associés ne peut délibérer sur une question qui n'est pas inscrite à l'ordre du jour."
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, elle peut, même si cette question n’est pas inscrite à l’ordre du jour, révoquer le gérant et procéder à son remplacement."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.4.3   - Réunion de l'assemblée générale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale des associés se réunit au siège social ou en tout autre endroit de la même ville indiquée dans la lettre de convocation. Elle est présidée par le Gérant ou par l'un des Gérants. Si aucun des Gérants n'est associé, elle est présidée par l'associé présent et acceptant qui possède ou représente le plus grand nombre de parts sociales. Si deux associés qui possèdent ou représentent le même nombre de parts sociales sont acceptants, la présidence de l'assemblée générale est assurée par le plus âgé."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Si l'utilisation de moyens de télécommunication est admise, indiquer :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "Sauf pour les décisions d'approbation des comptes sociaux, la réunion de l'assemblée générale des associés peut être organisée par des moyens de télécommunication permettant l'identification des associés, conformément aux dispositions de l’AUSCGIE."
+    },
+    {
+      "k": "p",
+      "text": "**22.4.4 Vote, représentation**"
+    },
+    {
+      "k": "p",
+      "text": "Chaque associé a le droit de participer aux décisions et dispose d'un nombre de voix égal à celui des parts sociales qu'il possède."
+    },
+    {
+      "k": "p",
+      "text": "Un associé peut se faire représenter par son conjoint ou par un autre associé à moins que la Société ne comprenne que les deux époux ou seulement deux associés."
+    },
+    {
+      "k": "p",
+      "text": "Un associé ne peut constituer un mandataire pour voter du chef d'une partie de ses parts sociales et voter en personne du chef de l'autre partie de ses parts sociales."
+    },
+    {
+      "k": "p",
+      "text": "Le mandat donné pour une assemblée générale des associés vaut pour les assemblées générales successives convoquées avec le même ordre du jour."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.4.5  -  Procès-verbaux**"
+    },
+    {
+      "k": "p",
+      "text": "Toute délibération de l'assemblée générale des associés est constatée par un procès-verbal qui indique la date et le lieu de la réunion, les nom, prénom et qualité du président, les noms et prénoms des associés présents ou représentés avec l'indication du nombre de parts sociales détenues par chacun, les documents et rapports soumis à l'assemblée, un résumé des débats, le texte des résolutions mises aux voix et le résultat des votes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "li",
+      "text": "Si l'utilisation de moyens de télécommunication est admise, indiquer :",
+      "mk": "-"
+    },
+    {
+      "k": "p",
+      "text": "En cas d'utilisation de moyens de télécommunication pour la participation aux assemblées générales, le procès-verbal doit en outre faire état de la survenance éventuelle d'un incident technique relatif à la visioconférence ou à la télécommunication électronique lorsque cet incident a perturbé le déroulement de l'assemblée."
+    },
+    {
+      "k": "p",
+      "text": "Les procès-verbaux sont établis et signés par les Gérants et, le cas échéant, par le président de séance."
+    },
+    {
+      "k": "p",
+      "text": "Les procès-verbaux sont établis sur un registre spécial tenu au siège social, coté et paraphé, soit par un juge du tribunal de commerce, soit par un juge du tribunal d'instance, soit par le maire de la commune ou un adjoint au maire."
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, les procès-verbaux peuvent être établis sur des feuilles mobiles numérotées sans discontinuité, paraphées dans les conditions prévues à l'alinéa précédent et revêtues du sceau de l'autorité qui les a paraphées. Dès qu'une feuille est remplie, même partiellement, elle doit être jointe à celles précédemment utilisées. Toute addition, suppression, substitution ou interversion de feuilles est interdite."
+    },
+    {
+      "k": "p",
+      "text": "Les copies ou extraits des procès-verbaux des délibérations des associés sont valablement certifiées conformes par un seul Gérant."
+    },
+    {
+      "k": "p",
+      "text": "Au cours de la liquidation de la Société, leur certification est valablement effectuée par un seul liquidateur."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.4.6  -  Droit de communication et d'information des associés**"
+    },
+    {
+      "k": "p",
+      "text": "En cas de convocation d'une assemblée générale autre que celle qui doit statuer sur les comptes de l'exercice, le texte des résolutions proposées, le rapport des Gérants ainsi que, le cas échéant, celui du ou des commissaire(s) aux comptes, sont adressés aux associés quinze jours au moins avant la date de l'assemblée."
+    },
+    {
+      "k": "p",
+      "text": "En outre, pendant le délai de quinze jours qui précède l'assemblée générale, les mêmes documents sont tenus, au siège social, à la disposition des associés, qui peuvent en prendre connaissance ou copie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.5 Assemblée statuant sur les comptes sociaux**"
+    },
+    {
+      "k": "p",
+      "text": "**22.5.1  - Réunion de l'assemblée**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Dans le délai de six mois qui suit la clôture de l'exercice, le rapport de gestion, les comptes annuels (bilan, compte de résultat et annexe) et l'inventaire établis par la Gérance sont soumis à l'approbation des associés réunis en assemblée générale."
+    },
+    {
+      "k": "p",
+      "text": "**22.5.2 - Droit de communication et d'information des associés**"
+    },
+    {
+      "k": "p",
+      "text": "Les comptes (bilan, compte de résultat et annexe) ainsi que le rapport de gestion établi par la Gérance sont tenus au siège social à la disposition du ou des commissaire(s) aux comptes, s'il en existe, un mois au moins avant la convocation de l'assemblée générale."
+    },
+    {
+      "k": "p",
+      "text": "Les comptes (bilan, compte de résultat et annexe), le rapport de gestion ainsi que le texte des résolutions proposées, et, le cas échéant, les rapports du ou des commissaire(s) aux comptes sur les comptes annuels sont adressés aux associés par lettre recommandée avec demande d'avis de réception, quinze jours au moins avant la date de l'assemblée générale."
+    },
+    {
+      "k": "p",
+      "text": "A compter de la communication des documents prévus à l'alinéa précédent, tout associé a la faculté de poser par écrit des questions auxquelles la gérance sera tenue de répondre au cours de l'assemblée générale."
+    },
+    {
+      "k": "p",
+      "text": "L'inventaire doit être tenu au siège social à la disposition des associés pendant un délai de quinze jours avant la date de l'assemblée générale. Les associés ne peuvent en prendre copie."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.6   - Décisions prises par consultation écrite des associés**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.6.1-  Modalité de la consultation**",
+      "al": "left"
+    },
+    {
+      "k": "p",
+      "text": "Les décisions collectives doivent nécessairement être prises en assemblée générale des associés dans les cas suivants :"
+    },
+    {
+      "k": "p",
+      "text": "-  approbation annuelle des comptes ;"
+    },
+    {
+      "k": "p",
+      "text": "-  réunion demandée par un ou plusieurs associé(s) représentant au moins, soit la moitié des parts sociales ou s’ils représentent le quart des associés, le quart des parts sociales parts sociales;"
+    },
+    {
+      "k": "p",
+      "text": "-  émission d'obligations ;"
+    },
+    {
+      "k": "p",
+      "text": "-  approbation d'une modification du capital social prévue par un projet de plan de sauvegarde ou de redressement de la Société."
+    },
+    {
+      "k": "p",
+      "text": "Dans tous les autres cas, les décisions collectives peuvent être prises par consultation écrite des associés."
+    },
+    {
+      "k": "p",
+      "text": "En cas de consultation écrite, le texte des résolutions proposées ainsi que les documents nécessaires à l'information des associés sont adressés à chacun de ceux-ci par lettre au porteur contre récépissé ou par lettre recommandée avec demande d'avis de réception, télécopie ou courrier électronique ou par voie postale."
+    },
+    {
+      "k": "p",
+      "text": "Les associés disposent d'un délai de {{champ_224}}(15 jours minimum) jours, à compter de la date de réception des projets de résolution, pour émettre leur vote par écrit."
+    },
+    {
+      "k": "p",
+      "text": "Tout associé qui n'aura pas répondu dans ce délai sera considéré comme s'étant abstenu. Pour chaque résolution, le vote est exprimé par oui ou par non."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**22.6.2   - Mention spéciale dans les procès-verbaux**"
+    },
+    {
+      "k": "p",
+      "text": "En cas de consultation écrite, les procès-verbaux sont tenus dans les mêmes conditions que celles visées à l'article 22.4.5 des présents statuts, relatif aux décisions prises en assemblées générales. Toutefois, il y est mentionné que la consultation a été effectuée par écrit. La réponse de chaque associé est annexée à ces procès-verbaux."
+    },
+    {
+      "k": "p",
+      "text": "**Article 23  : Droit de communication permanent, d'information et de contrôle des associés**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**23.1   - Droit de communication permanent**"
+    },
+    {
+      "k": "p",
+      "text": "Tout associé a le droit, à toute époque, d'obtenir, au siège social, la délivrance d'une copie certifiée des statuts en vigueur au jour de la demande. La Société doit annexer à ce document la liste des Gérants et, le cas échéant, des commissaires aux comptes en exercice. L'associé a également le droit, à toute époque, de prendre par lui-même et au siège social, connaissance des documents suivants : comptes annuels (comptes de résultat, bilans et annexes), inventaires, rapports soumis aux assemblées générales et procès-verbaux de ces assemblées concernant les trois derniers exercices. Sauf en ce qui concerne l'inventaire, le droit de prendre connaissance emporte celui de prendre copie. A cette fin, il peut se faire assister d'un expert inscrit sur une des listes établies par les cours et tribunaux."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**23.2 - Expertise**"
+    },
+    {
+      "k": "p",
+      "text": "Un ou plusieurs associés représentant au moins le dixième du capital social peuvent demander soit individuellement, soit en se groupant sous quelque forme que ce soit, la désignation en justice d'un ou plusieurs experts chargés de présenter un rapport sur une ou plusieurs opérations de gestion. Le ministère public est habilité à agir aux mêmes fins."
+    },
+    {
+      "k": "p",
+      "text": "**23.3   - Procédure d'alerte**"
+    },
+    {
+      "k": "p",
+      "text": "Tout associé non Gérant peut, deux fois par exercice, poser par écrit des questions à la Gérance sur tout fait de nature à compromettre la continuité de l'exploitation. La réponse de la Gérance est communiquée au(x) commissaire(s) aux comptes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 24 - Exercice social**"
+    },
+    {
+      "k": "p",
+      "text": "L'exercice social a une durée de douze mois. Il commence le {{champ_225}} pour se terminer le {{champ_226}}."
+    },
+    {
+      "k": "p",
+      "text": "Par exception, le premier exercice social sera clos le {{champ_227}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 25 : Comptes sociaux**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**25.1   - Établissement des comptes sociaux**"
+    },
+    {
+      "k": "p",
+      "text": "A la clôture de chaque exercice, la Gérance dresse l'inventaire des divers éléments de l'actif et du passif existant à cette date. Elle dresse également le compte de résultat, le bilan et l'annexe. Le montant des engagements cautionnés, avalisés ou garantis est mentionné à la suite du bilan, ainsi qu'un état des sûretés consenties par la Société. Elle établit un rapport de gestion sur la situation de la Société et son activité au cours de l'exercice écoulé, les résultats de cette activité, les progrès réalisés et les difficultés rencontrées, l'évolution prévisible de cette situation et les perspectives d'avenir, les événements importants survenus entre la date de clôture de l'exercice et la date à laquelle le rapport est établi, enfin les activités en matière de recherche et de développement. Le rapport doit aussi mentionner le montant des dividendes versés au titre des trois derniers exercices précédents."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**25.2  -  Formes et méthodes d'évaluation des comptes sociaux**"
+    },
+    {
+      "k": "p",
+      "text": "Le compte de résultat, le bilan et l'annexe sont établis après chaque exercice selon les mêmes formes et les mêmes méthodes d'évaluation que les années précédentes, sauf si un changement exceptionnel est intervenu dans la situation de la Société. Dans ce dernier cas, les modifications doivent être décrites et justifiées dans l'annexe. Elles doivent aussi être signalées dans le rapport de gestion, et le cas échéant, dans le rapport du ou des commissaire(s) aux comptes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**25.3   - Amortissements et provisions**"
+    },
+    {
+      "k": "p",
+      "text": "Même en cas d'absence ou d'insuffisance du bénéfice, il est procédé par la Gérance aux amortissements et provisions nécessaires. Les frais de constitution de la Société sont amortis avant toute distribution de bénéfices."
+    },
+    {
+      "k": "p",
+      "text": "**Article 27 : Affectation et répartition des bénéfices**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.1  - Définitions**"
+    },
+    {
+      "k": "p",
+      "text": "**27.1.1   - Réserve légale**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "A peine de nullité de toute délibération contraire, il est fait sur le bénéfice de l'exercice diminué, le cas échéant, des pertes antérieures, un prélèvement d'un vingtième au moins affecté à la formation d'un fonds de réserve dit « réserve légale »."
+    },
+    {
+      "k": "p",
+      "text": "Ce prélèvement cesse d'être obligatoire lorsque la réserve atteint le dixième du capital social ; il reprend son cours lorsque, pour une raison quelconque, la réserve légale est descendue en dessous de ce dixième."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.1.2   - Bénéfice distribuable**"
+    },
+    {
+      "k": "p",
+      "text": "Le bénéfice distribuable est constitué par le bénéfice de l'exercice, diminué le cas échéant des pertes antérieures ainsi que des sommes à porter en réserve en application de la loi ou des statuts et augmenté du report bénéficiaire."
+    },
+    {
+      "k": "p",
+      "text": "En outre, l'assemblée générale des associés peut décider la mise en distribution de sommes prélevées sur les réserves dont elle a la disposition ; en ce cas, la décision indique expressément les postes de réserve sur lesquels les prélèvements sont effectués."
+    },
+    {
+      "k": "p",
+      "text": "Hors le cas de réduction du capital social, aucune distribution ne peut être faite aux associés lorsque les capitaux propres sont ou deviendraient, à la suite de celle-ci, inférieurs au montant du capital augmenté des réserves que la loi ou les statuts ne permettent pas de distribuer."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.1.3   - Réserves et report à nouveau**"
+    },
+    {
+      "k": "p",
+      "text": "L'assemblée générale des associés peut décider l'inscription, à un fonds de réserve et au compte report à nouveau, de tout ou partie des bénéfices distribuables. Elle fixe l'affectation ou l'emploi des bénéfices ainsi inscrits à ces comptes."
+    },
+    {
+      "k": "p",
+      "text": "**27.1.4  -  Sommes distribuables**"
+    },
+    {
+      "k": "p",
+      "text": "Le total du bénéfice et des réserves distribuables, diminué le cas échéant des sommes inscrites à un fonds de réserve et au compte report à nouveau, constitue les sommes distribuables."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.2   - Répartition des bénéfices - Dividendes**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.2.1   - Affectation des bénéfices**"
+    },
+    {
+      "k": "p",
+      "text": "Après approbation des comptes et constatation de l'existence des sommes distribuables, l'assemblée générale des associés détermine la part attribuée aux associés sous forme de dividendes."
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, lorsqu'un bilan établi au cours ou à la fin de l'exercice et certifié par un ou des commissaire(s) aux comptes fait apparaître que la Société - depuis la clôture de l'exercice précédent, après constitution des amortissements et provisions nécessaires et déduction faite s'il y a lieu des pertes antérieures ainsi que des sommes à porter en réserves en application de la loi ou des statuts et compte tenu du report bénéficiaire - a réalisé un bénéfice, il peut être distribué des acomptes sur dividendes avant l'approbation des comptes de l'exercice."
+    },
+    {
+      "k": "p",
+      "text": "Le montant de ces acomptes ne peut excéder le montant du bénéfice défini au précédent alinéa."
+    },
+    {
+      "k": "p",
+      "text": "Tout dividende distribué en violation des règles ci-dessus énoncées est un dividende fictif."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.2.2   - Paiement des dividendes**"
+    },
+    {
+      "k": "p",
+      "text": "Conformément à l'article 346 AUSCGIE, la prescription de cinq ans est applicable aux dividendes non réclamés."
+    },
+    {
+      "k": "p",
+      "text": "Les modalités de mise en paiement des dividendes, votés par l'assemblée générale des associés, sont fixées par elle ou, à défaut, par la Gérance."
+    },
+    {
+      "k": "p",
+      "text": "Toutefois, la mise en paiement des dividendes doit avoir lieu dans un délai de {{champ_228}}(maximum 9) mois après la clôture de l'exercice ; la prolongation de ce délai peut être accordée par la juridiction compétente, à la demande de la Gérance."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**27.2.3  -  Répétition des dividendes**"
+    },
+    {
+      "k": "p",
+      "text": "Aucune répétition de dividendes ne peut être exigée, hors les cas de distribution de dividendes fictifs, ou de distribution d'un intérêt fixe ou intercalaire. Dans ces cas, l'action en répétition se prescrit par trois ans à compter de la mise en distribution des dividendes."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 28 : Comptes courants d'associés**"
+    },
+    {
+      "k": "p",
+      "text": "**Obs. :**"
+    },
+    {
+      "k": "p",
+      "text": "Il est préférable de ne pas fixer le taux de l'intérêt, ni de prévoir le fonctionnement de ces comptes dans les statuts."
+    },
+    {
+      "k": "p",
+      "text": "Chaque associé a la possibilité, avec le consentement de la Gérance, de procéder à des avances en comptes courants d'associés afin de financer les besoins de la Société. Les conditions de fonctionnement de ces comptes, la fixation des intérêts, les délais pour retirer les sommes sont arrêtés dans chaque cas par accord entre la Gérance et les intéressés en appliquant les dispositions de l'article 20 des présents statuts."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 29 : Transformation**"
+    },
+    {
+      "k": "p",
+      "text": "La transformation de la Société en société en nom collectif, en société par actions simplifiée, en commandite simple, exige l'accord unanime des associés."
+    },
+    {
+      "k": "p",
+      "text": "La transformation en société anonyme est décidée à la majorité requise pour la modification des statuts."
+    },
+    {
+      "k": "p",
+      "text": "La décision de transformation est précédée de la mise à disposition d'un rapport du ou des commissaire(s) aux comptes sur la situation de la Société."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 : Dissolution**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.1   - Dissolution à l'arrivée du terme à défaut de prorogation**"
+    },
+    {
+      "k": "p",
+      "text": "La Société est dissoute à l'arrivée du terme à défaut de prorogation. Un an au moins avant la date d'expiration de la société, la Gérance devra provoquer une réunion de la collectivité des associés à l'effet de décider, dans les conditions requises pour les décisions collectives extraordinaires, si la Société doit être prorogée. La décision des associés sera dans tous les cas rendue publique. A défaut par la Gérance de procéder à cette convocation, tout associé pourra demander au président du tribunal de commerce, statuant sur requête, la désignation d'un mandataire chargé de consulter les associés sur cette question."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.2  - Dissolution anticipée**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.2.1   - Réunion de toutes les parts en une seule main**"
+    },
+    {
+      "k": "p",
+      "text": "**Obs. :**"
+    },
+    {
+      "k": "p",
+      "text": "La Société devient une SARLU, et les pouvoirs des associés sont dévolus à l'associé unique."
+    },
+    {
+      "k": "p",
+      "text": "La réunion de toutes les parts sociales en une seule main n'entraîne pas la dissolution de plein droit de la Société."
+    },
+    {
+      "k": "p",
+      "text": "En cas de décision de dissolution prise par l'associé unique personne physique, les dispositions de l'article 30 bis des présents statuts seront appliquées. Si la décision de dissolution est prise par l'associé unique personne morale, celle-ci entraîne la transmission universelle du patrimoine de la Société à l'associé unique, sans qu'il y ait lieu à liquidation."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.2.2  -  Décision des associés**"
+    },
+    {
+      "k": "p",
+      "text": "La dissolution anticipée de la Société peut être décidée à tout moment par les associés, dans les conditions requises pour les décisions collectives extraordinaires."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.2.3 Capitaux propres inférieurs à la moitié du capital**"
+    },
+    {
+      "k": "p",
+      "text": "Si, du fait de pertes constatées dans les documents comptables, les capitaux propres de la Société deviennent inférieurs à la moitié du capital social, les associés décident, dans les quatre mois qui suivent l'approbation des comptes ayant fait apparaître cette perte, s'il y a lieu à dissolution anticipée de la Société."
+    },
+    {
+      "k": "p",
+      "text": "Si la dissolution est écartée, la société est tenue, dans les deux (2) ans qui suivent la date de clôture de l’exercice déficitaire, de reconstituer ses capitaux propres jusqu’à ce ceux-ci soient à la hauteur de la moitié au moins du capital social."
+    },
+    {
+      "k": "p",
+      "text": "A défaut, la Société est tenue de réduire son capital d'un montant au moins égal à celui des pertes qui n'ont pu être imputées sur les réserves, à la condition que cette réduction de capital n’ait pas pour effet de réduire le capital à un montant inférieur à celui du capital légal."
+    },
+    {
+      "k": "p",
+      "text": "Dans les deux cas, la résolution adoptée par les associés est publiée dans un journal habilité à recevoir les annonces légales dans le département du siège social, déposée au greffe du tribunal de commerce du lieu de ce siège et inscrite au Registre du commerce et des sociétés. A défaut par la Gérance ou le(s) commissaire(s) aux comptes de provoquer une décision ou si les associés n'ont pu délibérer valablement, tout intéressé peut demander en justice la dissolution de la Société."
+    },
+    {
+      "k": "p",
+      "text": "I    l en est de même si les dispositions de l'alinéa 2 ci-dessus n'ont pas été appliquées."
+    },
+    {
+      "k": "p",
+      "text": "* En cas de formule complète et conventionnelle, indiquer :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 bis : Liquidation**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.3  -  Ouverture de la liquidation et effets**"
+    },
+    {
+      "k": "p",
+      "text": "La Société entre en liquidation dès l'instant de sa dissolution pour quelque cause que ce soit ; sa dénomination sociale est alors suivie de la mention « société en liquidation ».Cette mention ainsi que le nom du ou des liquidateur(s) doivent figurer sur tous les actes et documents émanant de la Société et destinées aux tiers, notamment sur toutes lettres, factures, annonces et publications diverses. La personnalité morale de la Société subsiste, pour les besoins de la liquidation, jusqu'à la clôture de celle-ci. La dissolution de la Société ne produit ses effets à l'égard des tiers qu'à compter de la date à laquelle elle est publiée au Registre du commerce et du crédit mobilier. La dissolution de la Société n'entraîne pas de plein droit la résiliation des baux des immeubles utilisés pour son activité sociale, y compris les locaux d'habitation dépendant de ces immeubles. Si, en cas de cessation du bail, l'obligation de garantie ne peut plus être assurée dans les termes de celui-ci, il peut y être substitué, par décision de la juridiction compétente, toute garantie offerte par le cessionnaire ou un tiers, et jugée suffisante."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.4  -Désignation du ou des liquidateur(s)**"
+    },
+    {
+      "k": "p",
+      "text": "Les fonctions de la Gérance prennent fin par la dissolution de la Société. La collectivité des associés conserve les mêmes pouvoirs qu'avant la dissolution de la Société. Elle règle le mode de liquidation et nomme un ou plusieurs liquidateurs dont elle détermine les pouvoirs. Les liquidateurs exercent leurs fonctions conformément à la loi. Si les associés n'ont pu nommer un liquidateur, celui-ci est désigné, à la demande de tout intéressé par décision de justice. La Gérance doit remettre ses comptes aux liquidateurs accompagnés de toutes pièces justificatives en vue de leur approbation par une décision collective des associés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.5 -  Contrôle de la liquidation**"
+    },
+    {
+      "k": "p",
+      "text": "Les commissaires aux comptes existant en cours de vie sociale continuent, après la dissolution de la Société, d'exercer leurs fonctions comme auparavant. En l'absence de commissaire aux comptes, les associés peuvent, par une décision prise à la majorité du capital, désigner un ou plusieurs mandataires chargés de contrôler les opérations de liquidation. Leurs pouvoirs, leurs obligations et leur rémunération sont fixés par l'assemblée générale des associés qui les nomme. Un ou plusieurs contrôleurs peuvent également être désignés par décision de justice à la demande du liquidateur ou à la demande de tout intéressé, le liquidateur dûment appelé."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**30.6  -  Fin de la liquidation**"
+    },
+    {
+      "k": "p",
+      "text": "Les associés sont convoqués en fin de liquidation pour statuer sur le compte définitif de liquidation, sur le quitus à donner au liquidateur pour sa gestion et la décharge de son mandat, et pour constater la clôture de la liquidation. Les associés statuent aux conditions des assemblées générales ordinaires annuelles d'approbation des comptes. A défaut de convocation, tout associé peut demander au tribunal compétent, la désignation d'un mandataire chargé de procéder à la convocation."
+    },
+    {
+      "k": "p",
+      "text": "* Ou bien en cas de formule brève, remplacer par :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 bis : Liquidation**"
+    },
+    {
+      "k": "p",
+      "text": "La liquidation, quelle qu'en soit la cause, sera effectuée conformément aux dispositions légales."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "* En cas de contestations réglées par recours aux tribunaux, indiquer :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 ter : Contestations réglées par recours aux tribunaux**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les contestations qui pourraient s'élever au cours de l'existence de la Société ou après sa dissolution pendant le cours des opérations de liquidation, soit entre les associés et la Société, soit entre associés, concernant l'interprétation ou l'exécution des présents statuts ou plus généralement au sujet des affaires sociales, seront jugées conformément à la loi et soumises à la juridiction des tribunaux compétents du lieu du siège social."
+    },
+    {
+      "k": "p",
+      "text": "A cet effet, en cas de contestation, tout associé doit faire élection de domicile dans le ressort du tribunal compétent du lieu du siège social et toutes assignations et significations sont régulièrement faites à ce domicile."
+    },
+    {
+      "k": "p",
+      "text": "A défaut d'élection de domicile, les assignations et significations sont valablement faites au parquet du Procureur de la République près le tribunal de grande instance du lieu du siège social."
+    },
+    {
+      "k": "p",
+      "text": "* En cas de contestations réglées par l'arbitrage remplacer par :"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 30 ter : Contestations réglées par l'arbitrage**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Toutes les contestations qui pourraient s'élever au cours de l'existence de la Société ou après sa dissolution pendant le cours des opérations de liquidation, soit entre les associés et la Société, soit entre associés concernant l'interprétation ou l'exécution des présents statuts ou plus généralement au sujet des affaires sociales, seront soumises à l'arbitrage."
+    },
+    {
+      "k": "p",
+      "text": "A défaut d'accord entre les parties sur la désignation d'un arbitre unique, chacune des parties devra désigner un arbitre, dans les trente jours de la constatation du désaccord sur ce choix et notifier cette désignation par lettre recommandée avec demande d'avis de réception aux autres parties."
+    },
+    {
+      "k": "p",
+      "text": "Les arbitres ainsi désignés devront choisir un tiers arbitre. A défaut, il sera nommé par le Centre d’arbitrage."
+    },
+    {
+      "k": "p",
+      "text": "A défaut d'accord sur cette désignation, dans un délai d'un mois à compter de l'acceptation de leur désignation, il y sera procédé par voie judiciaire d'ordonnance du président du tribunal de commerce du lieu du siège social saisi par action d’une des parties ou un arbitre."
+    },
+    {
+      "k": "p",
+      "text": "Les arbitres ainsi désignés statuent comme amiables compositeurs et en dernier ressort."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 31 : Actes accomplis pour le compte de la Société en formation**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Préalablement à la signature des présents statuts, {{champ_229}} {{champ_230}} a présenté aux soussignés, l'état des actes accomplis pour le compte de la Société en formation, avec l'indication, pour chacun d'eux, de l'engagement qui en résultera pour la Société. Cet état est annexé aux statuts et la signature de ces derniers emportera reprise des engagements par la Société, lorsque celle-ci aura été immatriculée au Registre du commerce et des sociétés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 32 : Délais**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les délais stipulés aux présents statuts doivent être décomptés selon les règles de computation de délais fixées par le code de procédure civile."
+    },
+    {
+      "k": "p",
+      "text": "**Article 33 : Publicité**"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Les formalités de constitution accomplies, un avis sera inséré dans un journal d'annonces légales paraissant dans la ville du siège social. A cet effet, tous pouvoirs sont donnés à {{champ_231}} {{champ_232}} pour effectuer les différentes formalités prescrites par la loi."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Article 34 : Frais**"
+    },
+    {
+      "k": "p",
+      "text": "Tous les frais, droits et honoraires des présents et de ses suites seront pris en charge par la Société lorsqu'elle aura été immatriculée au Registre du commerce et des sociétés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à {{champ_233}}, le {{champ_234}} {{champ_534}} en {{champ_235}} exemplaires"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Signature"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**Important : **Signature des associés et le cas échéant de leur conjoint commun en biens, précédée de la mention manuscrite « Lu et approuvé »."
+    },
+    {
+      "k": "p",
+      "text": "Signature des personnes nommées à certaines fonctions dans les statuts précédés de la mention manuscrite « Lu et approuvé - Bon pour acceptation des fonctions de {{champ_236}} »."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "**État des actes accomplis pour le compte de la société en formation**",
+      "al": "center"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "{{champ_237}} {{champ_238}}, agissant en qualité de fondateur de la société {{champ_357}}, société à responsabilité limitée au capital de {{champ_359}}, dont le siège social est/sera situé {{champ_362}},"
+    },
+    {
+      "k": "p",
+      "text": "Déclare avoir passé, pour le compte de ladite société en cours de constitution, les actes et engagements détaillés dans l'état qui suit :-  {{champ_242}}( préciser de quel acte il s'agit, par exemple : un contrat de location, l'embauche de salariés, etc) ;"
+    },
+    {
+      "k": "p",
+      "text": "-  conditions de l'opération : {{champ_243}}(financières, administratives) ;"
+    },
+    {
+      "k": "p",
+      "text": "-  engagement pour la société :{{champ_244}}."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Conformément aux articles 107 et 108 AUSCGIE, cet état a été présenté aux associés, préalablement à la signature des statuts."
+    },
+    {
+      "k": "p",
+      "text": "Il est destiné à être annexé auxdits statuts, dont la signature par les associés emportera reprise de ces actes au compte de la société au moment de son immatriculation au Registre du commerce et des sociétés."
+    },
+    {
+      "k": "sp"
+    },
+    {
+      "k": "p",
+      "text": "Fait à {{champ_245}}, le {{champ_246}}"
+    },
+    {
+      "k": "p",
+      "text": "Signature"
+    }
+  ]
+}

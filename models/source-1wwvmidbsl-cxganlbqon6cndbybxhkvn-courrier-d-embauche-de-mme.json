@@ -23,10 +23,22 @@
       "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
       "champs": [
         {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "…, le …"
+        },
+        {
+          "id": "date_lettre",
+          "type": "date",
+          "label": "Date de la lettre",
+          "group": "…, le …"
+        },
+        {
           "id": "nom_salarie",
           "type": "text",
           "label": "Nom du salarié",
-          "opt": true,
           "group": "Mme …",
           "aide": "…Mme ▢"
         },
@@ -34,31 +46,39 @@
           "id": "nom_naissance_salarie",
           "type": "text",
           "label": "Nom de naissance",
-          "opt": true,
-          "group": "née … A. …",
+          "group": "née …",
           "aide": "…née ▢ A…"
         },
         {
           "id": "prenom_salarie",
           "type": "text",
           "label": "Prénom du salarié",
-          "opt": true,
-          "group": "née … A. …",
+          "group": "née …",
           "aide": "…née A ▢"
+        },
+        {
+          "id": "fonction_salarie",
+          "type": "text",
+          "label": "Fonction du salarié",
+          "group": "…"
+        },
+        {
+          "id": "ville_destinataire",
+          "type": "text",
+          "label": "Ville du destinataire",
+          "group": "…"
         },
         {
           "id": "reference_etude",
           "type": "text",
-          "label": "Référence de l’étude",
+          "label": "Référence du courrier (ex. : 542/2026)",
           "opt": true,
-          "group": "Nos réf : … 542/2011",
-          "aide": "…Nos réf ▢ 542 2011…"
+          "group": "Nos réf : …"
         },
         {
           "id": "partie_2",
           "type": "text",
           "label": "Deuxième partie",
-          "opt": true,
           "group": "Madame …,",
           "aide": "…Madame ▢"
         },
@@ -66,15 +86,43 @@
           "id": "date_acte",
           "type": "date",
           "label": "Date de l’acte",
-          "opt": true,
           "group": "Faisant suite à nos différents entretiens, je vous informe que je vous…"
+        },
+        {
+          "id": "salaire_net",
+          "type": "money",
+          "label": "Salaire net mensuel (FCFA)",
+          "group": "Par conséquent, vous percevrez un salaire net de … FCFA (…) qui…"
+        },
+        {
+          "id": "horaire",
+          "type": "text",
+          "label": "Horaire du matin",
+          "group": "le matin : … et,"
+        },
+        {
+          "id": "horaire_2",
+          "type": "text",
+          "label": "Horaire de l’après-midi",
+          "group": "l’après-midi : …."
+        },
+        {
+          "id": "horaire_3",
+          "type": "text",
+          "label": "Horaire du matin",
+          "group": "le matin : … et,"
+        },
+        {
+          "id": "horaire_4",
+          "type": "text",
+          "label": "Horaire de l’après-midi",
+          "group": "l’après-midi : …."
         },
         {
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "Me … A. …",
+          "group": "Me …",
           "aide": "…Me ▢ A…",
           "profil": "nom",
           "pq": "notaire"
@@ -83,8 +131,7 @@
           "id": "prenom_notaire",
           "type": "text",
           "label": "Prénom du notaire",
-          "opt": true,
-          "group": "Me … A. …",
+          "group": "Me …",
           "aide": "…Me A ▢",
           "profil": "prenom",
           "pq": "notaire"
@@ -102,7 +149,7 @@
   "doc": [
     {
       "k": "p",
-      "text": "ABIDJAN, le 05 Décembre 2011",
+      "text": "{{ville_signature}}, le {{date_lettre}}",
       "al": "center"
     },
     {
@@ -119,13 +166,13 @@
     },
     {
       "k": "p",
-      "text": "**née {{nom_naissance_salarie}} A. {{prenom_salarie}}**",
+      "text": "**née {{nom_naissance_salarie}} {{prenom_salarie}}**",
       "al": "left",
       "ind": 6
     },
     {
       "k": "p",
-      "text": "**Secrétaire**",
+      "text": "**{{fonction_salarie}}**",
       "ind": 6
     },
     {
@@ -133,7 +180,7 @@
     },
     {
       "k": "p",
-      "text": "**ABIDJAN**",
+      "text": "**{{ville_destinataire}}**",
       "ind": 6
     },
     {
@@ -141,7 +188,7 @@
     },
     {
       "k": "p",
-      "text": "Nos réf : {{reference_etude}} 542/2011"
+      "text": "Nos réf : {{reference_etude}}"
     },
     {
       "k": "p",
@@ -162,14 +209,14 @@
     },
     {
       "k": "p",
-      "text": "Faisant suite à nos différents entretiens, je vous informe que je vous embauche en qualité de Secrétaire en mon Etude à compter du {{date_acte}}."
+      "text": "Faisant suite à nos différents entretiens, je vous informe que je vous embauche en qualité de {{fonction_salarie}} en mon Etude à compter du {{date_acte}}."
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "Par conséquent, vous percevrez un salaire net de **150.000 FCFA** (**cent cinquante mille francs CFA**) qui évoluera en fonction du volume d’activités de l’Etude."
+      "text": "Par conséquent, vous percevrez un salaire net de **{{salaire_net}} FCFA ({{salaire_net_fcfa}})** qui évoluera en fonction du volume d’activités de l’Etude."
     },
     {
       "k": "sp"
@@ -183,12 +230,12 @@
     },
     {
       "k": "li",
-      "text": "le matin : 08h-12h30 et,",
+      "text": "le matin : {{horaire}} et,",
       "mk": "-"
     },
     {
       "k": "li",
-      "text": "l’après-midi : 14h-17h30.",
+      "text": "l’après-midi : {{horaire_2}}.",
       "mk": "-"
     },
     {
@@ -203,12 +250,12 @@
     },
     {
       "k": "li",
-      "text": "le matin : 07h30-12h30 et,",
+      "text": "le matin : {{horaire_3}} et,",
       "mk": "-"
     },
     {
       "k": "li",
-      "text": "l’après-midi : 13h30-16h30.",
+      "text": "l’après-midi : {{horaire_4}}.",
       "mk": "-"
     },
     {
@@ -247,13 +294,13 @@
     },
     {
       "k": "p",
-      "text": "**Me {{notaire_nom}} A. {{prenom_notaire}}**",
+      "text": "**Me {{notaire_nom}} {{prenom_notaire}}**",
       "al": "right"
     }
   ],
   "sourceTemplate": {
     "file": "templates/source-1wwvmidbsl-cxganlbqon6cndbybxhkvn-courrier-d-embauche-de-mme.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "nom_salarie": "Exemple",
@@ -263,6 +310,15 @@
     "partie_2": "Exemple",
     "date_acte": "2000-01-01",
     "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple"
+    "prenom_notaire": "Exemple",
+    "ville_signature": "Abidjan",
+    "date_lettre": "2000-01-01",
+    "fonction_salarie": "Secrétaire",
+    "ville_destinataire": "Abidjan",
+    "salaire_net": "150000",
+    "horaire": "08h-12h30",
+    "horaire_2": "08h-12h30",
+    "horaire_3": "08h-12h30",
+    "horaire_4": "08h-12h30"
   }
 }

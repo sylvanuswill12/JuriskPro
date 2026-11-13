@@ -26,7 +26,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "DU",
-          "opt": true,
           "group": "PROCES VERBAL CONSTATANT LE DEFAUT DE QUORUM DE L’ASSEMBLEE GENERALE…",
           "aide": "…QUORUM DE L’ASSEMBLEE GENERALE ORDINAIRE DU ▢"
         },
@@ -34,15 +33,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "L’an",
-          "opt": true,
-          "group": "L’an … , et le … à ….,",
-          "aide": "…L’an ▢ et le à…"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
           "group": "L’an … , et le … à ….,",
           "aide": "…L’an ▢ et le à…"
         },
@@ -50,7 +40,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "Avant « et le à »",
-          "opt": true,
           "group": "L’an … , et le … à ….,",
           "aide": "…L’an ▢ et le à…"
         },
@@ -58,15 +47,6 @@
           "id": "champ_004",
           "type": "date",
           "label": "Et le",
-          "opt": true,
-          "group": "L’an … , et le … à ….,",
-          "aide": "…L’an et le ▢ à…"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
           "group": "L’an … , et le … à ….,",
           "aide": "…L’an et le ▢ à…"
         },
@@ -74,7 +54,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "L’an … , et le … à ….,",
           "aide": "…L’an et le à ▢"
         },
@@ -82,52 +61,43 @@
           "id": "champ_006",
           "type": "text",
           "label": "En Assemblée Générale Ordinaire à",
-          "opt": true,
           "group": "Les actionnaires ou les associés de la société se sont réunis en…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "L’Assemblée est présidée par M",
-          "opt": true,
           "group": "L’Assemblée est présidée par M …, (Président du Conseil…"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … et M …, actionnaires ou associés représentant le plus grand nombre…",
-          "aide": "…M ▢ et M actionnaires ou…"
+          "label": "Nom et prénoms",
+          "group": "M … et M …, actionnaires ou associés représentant le plus grand nombre…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Et M",
-          "opt": true,
           "group": "M … et M …, actionnaires ou associés représentant le plus grand nombre…",
           "aide": "…M et M ▢ actionnaires ou associés représentant…"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … a été désigné comme secrétaire.",
-          "aide": "…M ▢ a été désigné comme…"
+          "label": "Nom et prénoms",
+          "group": "M … a été désigné comme secrétaire."
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Associés présents ou représentés possèdent",
-          "opt": true,
           "group": "D’après la feuille de présence, certifiée sincère et véritable par les…"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Actions",
-          "opt": true,
           "group": "D’après la feuille de présence, certifiée sincère et véritable par les…",
           "aide": "…associés présents ou représentés possèdent actions ▢ représentant % du capital…"
         },
@@ -135,7 +105,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "Représentant",
-          "opt": true,
           "group": "D’après la feuille de présence, certifiée sincère et véritable par les…",
           "aide": "…présents ou représentés possèdent actions représentant ▢ % du capital social…"
         },
@@ -143,35 +112,30 @@
           "id": "champ_013",
           "type": "text",
           "label": "Même ordre du jour savoir",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Même ordre du jour savoir",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Même ordre du jour savoir",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Déclare la séance levée à",
-          "opt": true,
           "group": "Le Président déclare la séance levée à … heures … minutes."
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Minutes",
-          "opt": true,
           "group": "Le Président déclare la séance levée à … heures … minutes.",
           "aide": "…déclare la séance levée à heures ▢ minutes…"
         },
@@ -179,7 +143,6 @@
           "id": "champ_021",
           "type": "text",
           "label": "Même ordre du jour savoir",
-          "opt": true,
           "group": "De tout ce que dessus, il a été dressé le présent procès-verbal qui a…",
           "aide": "…les membres du bureau après lecture ▢"
         },
@@ -187,14 +150,12 @@
           "id": "champ_022",
           "type": "text",
           "label": "Le Président",
-          "opt": true,
           "group": "Le Président … Les scrutateurs … Le secrétaire"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Les scrutateurs",
-          "opt": true,
           "group": "Le Président … Les scrutateurs … Le secrétaire"
         }
       ]
@@ -230,7 +191,7 @@
     },
     {
       "k": "p",
-      "text": "L’an {{champ_002}} {{champ_018}} {{champ_003}}, et le {{champ_004}} {{champ_019}} à {{champ_005}}.,"
+      "text": "L’an {{champ_002}} {{champ_003}}, et le {{champ_004}} à {{champ_005}}.,"
     },
     {
       "k": "p",
@@ -298,15 +259,13 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1gkmeyqfyxml9hnlanhrxbqrirt3y5syb-matrice-proces-verbal-de-c.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
     "champ_002": "Exemple",
-    "champ_018": "Exemple",
     "champ_003": "Exemple",
     "champ_004": "2000-01-01",
-    "champ_019": "Exemple",
     "champ_005": "Exemple",
     "champ_006": "Exemple",
     "champ_007": "Exemple",

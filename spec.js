@@ -37,6 +37,9 @@ const JPSpec = (function () {
     throw new Error('condition non reconnue : ' + JSON.stringify(c));
   }
 
+  /* « de » devant un nom de ville : d’Abidjan, de Bouaké (le h reste muet ou aspiré selon le mot : on ne l’élide pas) */
+  const deElide = (v) => { v = String(v == null ? '' : v).trim(); return !v ? '' : (/^[aeiouàâäéèêëîïôöùûü]/i.test(v) ? 'd’' + v : 'de ' + v); };
+
   /* ---------- Textes avec {{champs}} ---------- */
   const plain = (tpl, V) => String(tpl == null ? '' : tpl).replace(/\{\{\??(\w+)\}\}/g, (m, k) => (V[k] == null ? '' : String(V[k])));
   const firstKey = (tpl) => { const m = /\{\{\??(\w+)\}\}/.exec(String(tpl)); return m ? m[1] : null; };
@@ -122,16 +125,24 @@ const JPSpec = (function () {
       flat.forEach((f) => {
         if (DISPLAY.indexOf(f.type) > -1) return;
         const raw = String(S[f.id] == null ? '' : S[f.id]).trim(), id = f.id;
-        if (f.type === 'date') { V[id] = raw ? dateFr(raw) : ''; V._src[id] = id; }
+        if (f.type === 'date') {
+          V[id] = raw ? dateFr(raw) : ''; V._src[id] = id;
+          // « 15 mars » sans l’année : pour les actes dont « L’AN DEUX MIL … » est déjà écrit dans le texte (modèles Word : {{champ_jm}})
+          V[id + '_jm'] = raw ? dateFr(raw).replace(/\s\d{4}$/, '') : ''; V._src[id + '_jm'] = id;
+        }
         else if (f.type === 'money') {
           const n = Number(String(raw).replace(/\s/g, ''));
           V[id] = raw && isFinite(n) ? fmt(n) : ''; V[id + '_lettres'] = raw && isFinite(n) ? lettres(n) : '';
-          V._src[id] = id; V._src[id + '_lettres'] = id;
+          V[id + '_fcfa'] = raw && isFinite(n) ? fcfa(n) : '';
+          V._src[id] = id; V._src[id + '_lettres'] = id; V._src[id + '_fcfa'] = id;
         } else if (f.type === 'choice' || f.type === 'select') {
           V[id] = raw; const o = (f.opts || []).filter((x) => x.v === raw)[0]; V[id + '_t'] = o ? o.t : ''; V._src[id + '_t'] = id;
         } else {
           V[id] = raw;
           if (f.upper) { V[id + '_maj'] = raw.toUpperCase(); V._src[id + '_maj'] = id; }
+          // « de Bouaké » / « d’Abidjan » : l’élision suit la ville saisie (modèles Word : {{champ_de}} et {{champ_de_maj}})
+          V[id + '_de'] = deElide(raw); V[id + '_de_maj'] = deElide(raw).toUpperCase();
+          V._src[id + '_de'] = id; V._src[id + '_de_maj'] = id;
         }
       });
       Object.keys(spec.calc || {}).forEach((name) => {
@@ -181,6 +192,7 @@ const JPSpec = (function () {
       fileBase: (V) => fileSlug(plain(spec.fileBase || spec.docTitle || spec.titre, V)) || fileSlug(spec.titre),
       finalNote: spec.finalNote || '',
       sourceTemplate: spec.sourceTemplate || null,
+      etapesAuChoix: !!spec.etapesAuChoix, noteForm: spec.noteForm || '',
       headline: (S) => plain(spec.headline || (first ? '{{' + first.id + '}}' : ''), S),
     };
   }

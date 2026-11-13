@@ -625,8 +625,9 @@ function openDetail(m){
     (d?'<p class="status-line warn"><strong>Un brouillon existe</strong> pour ce modèle, modifié le '+esc(fmtWhen(d.t))+'.</p>':'')+
     '<div class="cta-row"><a class="btn big" href="#'+m.id+'">'+(d?'Reprendre le brouillon':'Utiliser ce modèle')+'</a></div>'+
     '<section class="block"><h2>Ce que vous allez renseigner</h2><ol class="secs">'+secs.map(e=>'<li><strong>'+esc(e.titre)+'</strong>'+(e.intro?'<span>'+esc(e.intro)+'</span>':'')+'</li>').join('')+'</ol></section>'+
+    (m.noteForm?'<p class="status-line"><strong>À savoir :</strong> '+esc(m.noteForm)+'</p>':'')+
     (extrait?'<section class="block"><h2>Aperçu</h2><p class="note">Début du document, rempli avec les données d’exemple du modèle (non reprises dans votre brouillon).</p><div class="sheet-scroll"><div class="sheet sheet-ex" aria-label="Extrait du document">'+extrait+'</div></div></section>':'')+
-    (sourcePdf?'<section class="block"><h2>Aperçu intégral</h2><p class="note">Toutes les pages de la matrice Word anonymisée. Les zones à compléter apparaissent en pointillés ; vos données seront insérées dans le Word et le PDF téléchargés (le Word garde exactement la mise en page d’origine, le PDF en reprend le texte et la structure).</p><div class="source-preview" data-pdf="./'+esc(sourcePdf)+'"><p class="pv-status" role="status">Chargement de l’aperçu…</p></div><p class="pv-open"><a class="btn ghost" href="./'+esc(sourcePdf)+'" target="_blank" rel="noopener">Ouvrir l’aperçu en PDF</a></p></section>':'')+
+    (sourcePdf?'<section class="block"><h2>Aperçu</h2><p class="note">Début du document. Les zones à compléter apparaissent en pointillés ; vos informations les remplaceront dans le Word et le PDF téléchargés.</p><div class="sheet-scroll"><div class="source-preview source-mini" data-pdf="./'+esc(sourcePdf)+'" data-pages="1" aria-label="Extrait du document"><p class="pv-status" role="status">Chargement de l’aperçu…</p></div></div></section>':'')+
     '</article>',
     {back:'#modeles',backLabel:'Retour aux modèles',title:m.titre,cls:'detail-on'});
   renderPdfPreview($('.source-preview'));
@@ -643,7 +644,7 @@ async function pdfWorkerUrl(){
 async function renderPdfPreview(box){
   if(!box) return;
   const url=box.dataset.pdf,status=box.querySelector('.pv-status');
-  const fail=()=>{if(status&&box.isConnected) status.textContent='L’aperçu n’a pas pu s’afficher ici. Utilisez le bouton « Ouvrir l’aperçu en PDF » ci-dessous.';};
+  const fail=()=>{if(status&&box.isConnected) status.textContent='L’aperçu n’a pas pu s’afficher ici.';};
   let doc=null,io=null;
   try{
     await JPLibs.load('pdfjs');
@@ -654,7 +655,7 @@ async function renderPdfPreview(box){
     const first=await doc.getPage(1),b1=first.getViewport({scale:1});
     if(status) status.remove();
     const wrap=document.createElement('div');wrap.className='pdf-pages';box.appendChild(wrap);
-    const total=doc.numPages,cssW=()=>Math.max(240,wrap.clientWidth||box.clientWidth||320);
+    const total=Math.min(doc.numPages,Math.max(1,parseInt(box.dataset.pages,10)||doc.numPages)),cssW=()=>Math.max(240,wrap.clientWidth||box.clientWidth||320);
     const pages=[];
     for(let i=1;i<=total;i++){
       const d=document.createElement('div');d.className='pdf-page';d.dataset.n=String(i);
@@ -1081,7 +1082,7 @@ function openModel(m){
   if(jump) jumpToField(jump);
 }
 function setPane(p){
-  if(p==='preview'&&!(M&&M.sourceTemplate)){
+  if(p==='preview'){
     if(!(M&&M.etapes[step]&&M.etapes[step].final)) p='form';
     else if(finalValidation(M,S).blocked){p='form';updatePreviewVisibility();return;}
   }
@@ -1110,7 +1111,9 @@ function renderSteps(){
     const hasRequired=stepFields.length>0||hasFields;
     const allFilled=stepFields.every(f=>S[f.id]!=null&&String(S[f.id]).trim()!=='');
     const hasProblem=analyse(M,S).probs.some(p=>p.step===i);
-    if((touchedSteps.has(i)||validationAttempted)&&hasRequired&&allFilled&&!hasProblem)goodByStep.add(i);
+    let anyFilled=false;
+    eachField(M,(f,si)=>{if(si===i&&!anyFilled&&!['info','title','action'].includes(f.type)&&!f.profil){const v=S[f.id];if(v!=null&&String(v).trim()!=='')anyFilled=true;}});
+    if((touchedSteps.has(i)||validationAttempted)&&hasRequired&&allFilled&&(stepFields.length>0||anyFilled)&&!hasProblem)goodByStep.add(i);
   });
   $('#steps').innerHTML=M.etapes.map((e,i)=>{
     const bad=validationAttempted&&!e.final&&badByStep.has(i),good=!e.final&&!bad&&goodByStep.has(i);
@@ -1213,12 +1216,12 @@ function renderStep(focus,focusSel){
   else{
     const body=stepFieldsHTML(e);
     const pg=stepProgress(e);
-    box.innerHTML='<section class="card" aria-labelledby="st-h"><h2 id="st-h" tabindex="-1">'+esc(e.titre)+'</h2>'+(e.intro?'<p class="intro">'+esc(e.intro)+'</p>':'')+
+    box.innerHTML='<section class="card" aria-labelledby="st-h"><h2 id="st-h" tabindex="-1">'+esc(e.titre)+'</h2>'+(M.noteForm?'<p class="intro">'+esc(M.noteForm)+'</p>':'')+(e.intro?'<p class="intro">'+esc(e.intro)+'</p>':'')+
       '<div class="field-search"><label for="field-filter">Rechercher un champ</label><input id="field-filter" type="search" placeholder="Ex. adresse, montant, date, notaire" autocomplete="off"></div>'+ 
       '<p class="form-progress" role="status">'+(pg.missing?('<strong>'+pg.missing+' champ'+(pg.missing>1?'s':'')+' obligatoire'+(pg.missing>1?'s':'')+' à compléter</strong> · '):'')+pg.done+' / '+pg.total+' champ'+(pg.total>1?'s':'')+' renseigné'+(pg.done>1?'s':'')+'</p>'+ 
       '<div class="fields">'+body+'</div>'+ 
       '<div class="nav"><button type="button" class="btn ghost" id="prev"'+(step===0?' disabled':'')+'>Précédent</button><button type="button" class="btn" id="next">'+(step===M.etapes.length-2?'Vérifier le document':'Continuer')+'</button></div>'+
-      '<div class="tools"><button type="button" class="linkbtn" id="ex">Remplir avec un exemple</button><button type="button" class="linkbtn'+(ui.armed==='reset'?' armed':'')+'" id="reset">'+(ui.armed==='reset'?'Confirmer : tout effacer':'Recommencer à zéro')+'</button></div>'+
+      '<div class="tools">'+(M.sourceTemplate?'':'<button type="button" class="linkbtn" id="ex">Remplir avec un exemple</button>')+'<button type="button" class="linkbtn'+(ui.armed==='reset'?' armed':'')+'" id="reset">'+(ui.armed==='reset'?'Confirmer : tout effacer':'Recommencer à zéro')+'</button></div>'+
       '<div id="exnote"></div></section>';
     bindStep(box);
     paintExNote();
@@ -1233,7 +1236,7 @@ function renderStep(focus,focusSel){
 function updatePreviewVisibility(){
   const finalStep=!!(M&&M.etapes[step]&&M.etapes[step].final);
   const validation=finalStep?finalValidation(M,S):null;
-  const canPreview=(M&&M.sourceTemplate)?true:(finalStep&&validation&&!validation.blocked);
+  const canPreview=!!(finalStep&&validation&&!validation.blocked);
   const wiz=$('#wiz'),tab=$('#tab-prev'),preview=$('.preview');
   if(tab) tab.hidden=!canPreview;
   if(preview) preview.hidden=!canPreview;
@@ -1269,7 +1272,7 @@ function bindStep(box){
   const p=$('#prev'),n=$('#next');
   if(p) p.onclick=()=>gotoStep(step-1);
   if(n) n.onclick=()=>gotoStep(step+1);
-  $('#ex').onclick=loadExample;
+  if($('#ex')) $('#ex').onclick=loadExample;
   $('#reset').onclick=doReset;
   const search=$('#field-filter');
   if(search){search.value=fieldFilter;search.addEventListener('input',()=>{fieldFilter=search.value;applyFieldFilter(box);});applyFieldFilter(box);}
@@ -1438,6 +1441,7 @@ function schedulePreview(){clearTimeout(pvRaf);pvRaf=setTimeout(()=>{pvRaf=0;pai
 let lastMissing=0,pvSeq=0;
 function paintPreview(){
   if(!M) return;
+  { const asd=$('.preview'),mod=$('#jp-preview-modal'); if(asd&&asd.hidden&&(!mod||mod.hidden)) return; }
   const r=recompute(),out=renderHTML(r.blocks,r.V);
   const sheet=$('#sheet');if(!sheet) return;
   const modalSheet=$('#jp-preview-sheet'),aside=$('.preview');
@@ -1467,11 +1471,9 @@ function paintPreview(){
   html();
 }
 function openFullPreview(){
-  if(!(M&&M.sourceTemplate)){
-    if(!(M&&M.etapes[step]&&M.etapes[step].final)) return;
-    const gate=finalValidation(M,S);
-    if(gate.blocked){setPane('form');return;}
-  }
+  if(!(M&&M.etapes[step]&&M.etapes[step].final)) return;
+  const gate=finalValidation(M,S);
+  if(gate.blocked){setPane('form');return;}
   paintPreview();
   const modal=$('#jp-preview-modal');if(!modal)return;
   modal.hidden=false;document.body.classList.add('jp-modal-open');

@@ -1226,3 +1226,7 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .cab-chip{min-height:36px;max-width:100%;padding:0 12px;border-radius:999px;border:1px solid var(--accent-line);background:var(--accent-soft);color:var(--accent);font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap}
 .cab-chip:hover,.cab-chip:focus-visible{border-color:var(--accent)}
 .cab-empty{font-size:12.5px;color:var(--ink-2)}
+
+/* Petit aperçu du début du document sur la page de présentation (tous les modèles) */
+.source-mini{margin-top:0;max-height:420px;position:relative;overflow:hidden;-webkit-mask-image:linear-gradient(#000 80%,transparent);mask-image:linear-gradient(#000 80%,transparent)}
+.source-mini .pdf-n{display:none}

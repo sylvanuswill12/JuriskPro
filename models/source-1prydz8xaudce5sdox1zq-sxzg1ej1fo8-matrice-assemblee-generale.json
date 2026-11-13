@@ -26,7 +26,6 @@
           "id": "champ_001",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …",
           "aide": "…Le ▢"
         },
@@ -34,7 +33,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "Avant « se sont réunis en »",
-          "opt": true,
           "group": "Les fondateurs du groupement d’intérêt économique, dénommé «…» se sont…",
           "aide": "…fondateurs du groupement d’intérêt économique dénommé ▢ se sont réunis en…"
         },
@@ -42,7 +40,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "Ces membres sont nommés pour",
-          "opt": true,
           "group": "Ces membres sont nommés pour … ans renouvelables."
         }
       ]
@@ -82,7 +79,7 @@
     },
     {
       "k": "p",
-      "text": "Le {{champ_001}}"
+      "text": "Le {{champ_001_jm}}"
     },
     {
       "k": "sp"
@@ -259,7 +256,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1prydz8xaudce5sdox1zq-sxzg1ej1fo8-matrice-assemblee-generale.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "2000-01-01",

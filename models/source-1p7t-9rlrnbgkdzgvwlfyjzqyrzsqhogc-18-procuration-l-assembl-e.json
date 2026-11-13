@@ -26,55 +26,47 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Nous retenons l'hypothèse où »",
-          "opt": true,
           "group": "Attention : … Nous retenons l'hypothèse où le pouvoir est établi par la…",
           "aide": "…Attention ▢ Nous retenons l'hypothèse où…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Montant du capital",
-          "opt": true,
           "group": "au capital de … FCFA"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numéro d'immatriculation",
-          "opt": true,
           "group": "… RCCM …"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Ville d'immatriculation",
-          "opt": true,
           "group": "… RCCM …"
         }
       ]
@@ -89,49 +81,42 @@
           "id": "champ_009",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
           "aide": "…ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "Nombre actions",
-          "opt": true
+          "label": "Nombre actions"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Nom du détenteur du capital",
-          "opt": true,
           "group": "Nom et Prénom : …,"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Domicile : …"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Boîte postale",
-          "opt": true,
           "group": "Domicile : …"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "Domicile : …",
           "aide": "…Domicile ▢"
         },
@@ -155,21 +140,18 @@
           "id": "champ_017",
           "type": "text",
           "label": "Nom du détenteur du capital",
-          "opt": true,
           "group": "Dénomination : …,"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Forme",
-          "opt": true,
           "group": "Forme juridique : …,"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "Au capital de … CFA,",
           "aide": "…Au capital de ▢ CFA…"
         },
@@ -177,21 +159,18 @@
           "id": "champ_020",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : … ,"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Boîte Postale",
-          "opt": true,
           "group": "Siège social : … ,"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "Siège social : … ,",
           "aide": "…Siège social ▢"
         },
@@ -199,56 +178,48 @@
           "id": "champ_023",
           "type": "text",
           "label": "Numéro d'immatriculation",
-          "opt": true,
           "group": "Immatriculée au registre du commerce et des sociétés sous le numéro ……"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Ville d'immatriculation",
-          "opt": true,
           "group": "Immatriculée au registre du commerce et des sociétés sous le numéro ……"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Nom du représentant légal de la société actionnaire",
-          "opt": true,
           "group": "Représentée par …, en qualité de représentant légal de la Société …"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Dénomination sociale de la société actionnaire",
-          "opt": true,
           "group": "Représentée par …, en qualité de représentant légal de la Société …"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Nom du détenteur du capital",
-          "opt": true,
           "group": "Nom ou Dénomination : …"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Domicile ou Siège social : …"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Boîte postale",
-          "opt": true,
           "group": "Domicile ou Siège social : …"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "Domicile ou Siège social : …",
           "aide": "…Domicile ou Siège social ▢"
         },
@@ -256,21 +227,18 @@
           "id": "champ_031",
           "type": "text",
           "label": "Nom du représentant de l'indivision",
-          "opt": true,
           "group": "Représentée par …,"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Nombre d'actions",
-          "opt": true,
           "group": "de … actions nominatives"
         },
         {
           "id": "champ_033",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "aux fins de représenter le titulaire à l'assemblée générale…",
           "aide": "…Société qui sont convoqués pour le ▢ à à à l'effet…"
         },
@@ -278,7 +246,6 @@
           "id": "champ_034",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "aux fins de représenter le titulaire à l'assemblée générale…",
           "aide": "…qui sont convoqués pour le à ▢ à à l'effet de…"
         },
@@ -286,7 +253,6 @@
           "id": "champ_035",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "aux fins de représenter le titulaire à l'assemblée générale…",
           "aide": "…sont convoqués pour le à à ▢ à l'effet de délibérer…"
         },
@@ -294,7 +260,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à …",
           "aide": "…Fait à ▢",
           "profil": "ville"
@@ -303,7 +268,6 @@
           "id": "champ_037",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …",
           "aide": "…Le ▢"
         },
@@ -311,7 +275,6 @@
           "id": "champ_038",
           "type": "text",
           "label": "Avant « Faire précéder la signature »",
-          "opt": true,
           "group": "Attention : … Faire précéder la signature de la mention \"Bon pour…",
           "aide": "…Attention ▢ Faire précéder la signature…"
         },

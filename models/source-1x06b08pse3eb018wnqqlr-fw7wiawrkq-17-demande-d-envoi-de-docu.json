@@ -26,21 +26,18 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Cette demande doit être »",
-          "opt": true,
           "group": "Attention : … Cette demande doit être envoyée à tous les actionnaires…",
           "aide": "…Attention ▢ Cette demande doit être…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "au capital de … CFA",
           "aide": "…au capital de ▢ CFA…"
         },
@@ -48,27 +45,23 @@
           "id": "champ_004",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -76,7 +69,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         }
@@ -92,28 +84,24 @@
           "id": "champ_009",
           "type": "text",
           "label": "Nom de l'actionnaire",
-          "opt": true,
           "group": "Je soussigné(e) …, demeurant … ,"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Je soussigné(e) …, demeurant … ,"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Boîte postale",
-          "opt": true,
           "group": "Je soussigné(e) …, demeurant … ,"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "Je soussigné(e) …, demeurant … ,",
           "aide": "…Je soussigné e demeurant ▢"
         },
@@ -121,14 +109,12 @@
           "id": "champ_013",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "Propriétaire de … actions nominatives de la Société … demande que me…"
         },
         {
           "id": "champ_014",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Propriétaire de … actions nominatives de la Société … demande que me…",
           "aide": "…concernant l'assemblée générale convoquée pour le ▢"
         },
@@ -136,7 +122,6 @@
           "id": "champ_015",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à …",
           "aide": "…Fait à ▢",
           "profil": "ville"
@@ -145,7 +130,6 @@
           "id": "champ_016",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …",
           "aide": "…Le ▢"
         }

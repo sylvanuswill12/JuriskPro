@@ -26,21 +26,18 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Pour les assemblées générales »",
-          "opt": true,
           "group": "Attention : … Pour les assemblées générales ordinaires, le quorum…",
           "aide": "…Attention ▢ Pour les assemblées générales…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "au capital de … FCFA",
           "aide": "…au capital de ▢ FCFA…"
         },
@@ -48,27 +45,23 @@
           "id": "champ_004",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -76,7 +69,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         }
@@ -92,7 +84,6 @@
           "id": "champ_009",
           "type": "date",
           "label": "DATE",
-          "opt": true,
           "group": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
           "aide": "…PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
         },
@@ -100,7 +91,6 @@
           "id": "champ_010",
           "type": "text",
           "label": "Avant « L’AUSCGIE dans son article »",
-          "opt": true,
           "group": "Attention : … L’AUSCGIE dans son article 134 prévoit que les décisions…",
           "aide": "…Attention ▢ L’AUSCGIE dans son article…"
         },
@@ -108,7 +98,6 @@
           "id": "champ_011",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…Le ▢ à les actionnaires de…"
         },
@@ -116,7 +105,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…Le à ▢ les actionnaires de la…"
         },
@@ -124,7 +112,6 @@
           "id": "champ_013",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…sont réunis en assemblée générale extraordinaire ▢ sur convocation faite par…"
         },
@@ -132,14 +119,12 @@
           "id": "champ_014",
           "type": "text",
           "label": "Nom du Journal",
-          "opt": true,
           "group": "Chaque actionnaire a été convoqué - par lettre recommandée- par lettre…"
         },
         {
           "id": "champ_015",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Chaque actionnaire a été convoqué - par lettre recommandée- par lettre…",
           "aide": "…Journal d'annonces légales en date du ▢"
         },
@@ -147,77 +132,66 @@
           "id": "champ_016",
           "type": "text",
           "label": "Nom du Commissaire présent",
-          "opt": true,
           "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Nom du Commissaire absent",
-          "opt": true,
           "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Nom du Président du Conseil",
-          "opt": true,
           "group": "… préside la séance en sa qualité de - Président- Présidente du …."
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Organe d'administration",
-          "opt": true,
           "group": "… préside la séance en sa qualité de - Président- Présidente du …."
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Nom du Président de séance",
-          "opt": true,
           "group": "… préside la séance en sa qualité de …."
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Qualité du Président de séance",
-          "opt": true,
           "group": "… préside la séance en sa qualité de …."
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Nom du premier scrutateur à l'assemblée",
-          "opt": true,
           "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Nom du deuxième scrutateur à l'assemblée",
-          "opt": true,
           "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Nom du Secrétaire de séance",
-          "opt": true,
           "group": "… est - désigné- désignée comme secrétaire."
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Nombre actions total",
-          "opt": true,
           "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
         },
         {
           "id": "champ_026",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "- un exemplaire du Journal d'annonces légales … en date du … ;",
           "aide": "…Journal d'annonces légales en date du ▢"
         },
@@ -225,7 +199,6 @@
           "id": "champ_027",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "- Si un actionnaire a présenté des projets de résolutions : le texte…",
           "aide": "…du Conseil d'administration en date du ▢ ayant statué sur ces…"
         },
@@ -233,7 +206,6 @@
           "id": "champ_028",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le Président indique que l'assemblée aura également à délibérer sur…",
           "aide": "…du Conseil d'administration en date du ▢"
         },
@@ -241,7 +213,6 @@
           "id": "champ_029",
           "type": "area",
           "label": "Désignation du projet de résolution",
-          "opt": true,
           "group": "…."
         },
         {
@@ -255,20 +226,17 @@
         {
           "id": "champ_031",
           "type": "area",
-          "label": "Détail de la réponse du Président aux questions écrites des actionnaires",
-          "opt": true
+          "label": "Détail de la réponse du Président aux questions écrites des actionnaires"
         },
         {
           "id": "champ_032",
           "type": "area",
-          "label": "Rapportez les termes du débat",
-          "opt": true
+          "label": "Rapportez les termes du débat"
         },
         {
           "id": "champ_033",
           "type": "area",
-          "label": "Rapportez les termes de la discussion",
-          "opt": true
+          "label": "Rapportez les termes de la discussion"
         }
       ]
     },
@@ -282,14 +250,12 @@
           "id": "champ_034",
           "type": "area",
           "label": "Références de la loi",
-          "opt": true,
           "group": "L'assemblée générale extraordinaire, après avoir entendu la lecture du…"
         },
         {
           "id": "champ_035",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "L'assemblée générale extraordinaire, après avoir entendu la lecture du…",
           "aide": "…les dispositions de la loi du ▢"
         },
@@ -297,7 +263,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
@@ -305,21 +270,18 @@
           "id": "champ_037",
           "type": "text",
           "label": "Titre",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
         {
           "id": "champ_038",
           "type": "area",
-          "label": "Texte de l'article modifié",
-          "opt": true
+          "label": "Texte de l'article modifié"
         },
         {
           "id": "champ_039",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "L'article … – … est supprimé et remplacé par :",
           "aide": "…L'article ▢ est supprimé et remplacé…"
         },
@@ -327,7 +289,6 @@
           "id": "champ_040",
           "type": "text",
           "label": "Titre",
-          "opt": true,
           "group": "L'article … – … est supprimé et remplacé par :",
           "aide": "…L'article ▢ est supprimé et remplacé…"
         },
@@ -335,7 +296,6 @@
           "id": "champ_041",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
@@ -343,21 +303,18 @@
           "id": "champ_042",
           "type": "text",
           "label": "Titre",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
         {
           "id": "champ_043",
           "type": "area",
-          "label": "Texte du nouvel article",
-          "opt": true
+          "label": "Texte du nouvel article"
         },
         {
           "id": "champ_044",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "- Les articles … – … sont supprimés.",
           "aide": "…- Les articles ▢ sont supprimés…"
         },
@@ -365,7 +322,6 @@
           "id": "champ_045",
           "type": "text",
           "label": "Titre",
-          "opt": true,
           "group": "- Les articles … – … sont supprimés.",
           "aide": "…- Les articles ▢ sont supprimés…"
         },
@@ -373,7 +329,6 @@
           "id": "champ_046",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
@@ -381,49 +336,42 @@
           "id": "champ_047",
           "type": "text",
           "label": "Titre",
-          "opt": true,
           "group": "Article … – …",
           "aide": "…Article ▢"
         },
         {
           "id": "champ_048",
           "type": "area",
-          "label": "Texte du nouvel article",
-          "opt": true
+          "label": "Texte du nouvel article"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_052",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… Résolution - Délégation de pouvoir en vue d'accomplir les formalités",
           "aide": "▢ Résolution - Délégation de…"
         },
@@ -431,35 +379,30 @@
           "id": "champ_054",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_057",
           "type": "text",
           "label": "Nombre de voix",
-          "opt": true,
           "group": "Cette résolution, mise aux voix, est - adoptée à l'unanimité- adoptée à…"
         },
         {
           "id": "champ_058",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "L'ordre du jour étant épuisé et personne ne demandant plus la parole,…",
           "aide": "…Président déclare la séance levée à ▢"
         },
@@ -467,21 +410,18 @@
           "id": "champ_059",
           "type": "text",
           "label": "Nom du Président",
-          "opt": true,
           "group": "… Le Secrétaire"
         },
         {
           "id": "champ_060",
           "type": "text",
           "label": "Nom du Secrétaire",
-          "opt": true,
           "group": "… Les Scrutateurs"
         },
         {
           "id": "champ_061",
           "type": "text",
-          "label": "Nom du premier scrutateur",
-          "opt": true
+          "label": "Nom du premier scrutateur"
         }
       ]
     },

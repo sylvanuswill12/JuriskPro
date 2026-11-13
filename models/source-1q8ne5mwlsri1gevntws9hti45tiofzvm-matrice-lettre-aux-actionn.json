@@ -26,21 +26,18 @@
           "id": "champ_003",
           "type": "date",
           "label": "Par délibération en date du",
-          "opt": true,
           "group": "Par délibération en date du …, le conseil d’administration (ou…"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Vous avez souscrit à",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…",
           "aide": "…Vous avez souscrit à actions de ▢ F CFA chacune Votre…"
         },
@@ -48,35 +45,30 @@
           "id": "champ_006",
           "type": "text",
           "label": "Votre souscription s’élevant ainsi à",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Donc libérer une somme de",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_008",
           "type": "date",
           "label": "Convenance au plus tard le",
-          "opt": true,
           "group": "Nous vous demandons de bien vouloir procéder à ce règlement par tous…"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "Nous vous prions",
-          "opt": true,
           "group": "Nous vous prions …"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Ou l’administrateur général",
-          "opt": true,
           "aide": "▢"
         }
       ]

@@ -26,7 +26,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "DECISION DE L’ASSOCIE UNIQUE",
-          "opt": true,
           "group": "GERANT DE LA SARL «…»",
           "aide": "…GERANT DE LA SARL ▢"
         },
@@ -34,31 +33,33 @@
           "id": "champ_007",
           "type": "text",
           "label": "Capital",
-          "opt": true,
           "group": "Capital … FCFA",
           "aide": "…Capital ▢ FCFA…"
+        },
+        {
+          "id": "ville_siege",
+          "type": "text",
+          "label": "Ville du siège social",
+          "group": "Siège social : …, Commune …, Quartier …"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Commune",
-          "opt": true,
-          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
-          "aide": "…Siège social ABIDJAN Commune ▢ Quartier…"
+          "group": "Siège social : …, Commune …, Quartier …",
+          "aide": "…Siège social Commune ▢ Quartier…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
-          "aide": "…Siège social ABIDJAN Commune Quartier ▢"
+          "group": "Siège social : …, Commune …, Quartier …",
+          "aide": "…Siège social Commune Quartier ▢"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "BP … ; RCCM :",
           "aide": "…BP ▢ RCCM…"
         },
@@ -66,22 +67,20 @@
           "id": "champ_011",
           "type": "text",
           "label": "Avant « RCCM »",
-          "opt": true,
           "group": "BP … ; RCCM :",
           "aide": "…BP ▢ RCCM…"
         },
         {
           "id": "champ_012",
           "type": "text",
-          "label": "L'an deux",
-          "opt": true,
-          "group": "L'an deux …, le … à … heures …,"
+          "label": "Année (en lettres, à la suite de « L’an deux »)",
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L’an deux ▢"
         },
         {
           "id": "champ_013",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le ▢ à heures…"
         }
@@ -97,7 +96,6 @@
           "id": "champ_014",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le à ▢ heures…"
         },
@@ -105,62 +103,49 @@
           "id": "champ_015",
           "type": "text",
           "label": "Minutes",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le à heures ▢"
         },
         {
           "id": "champ_016",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
-          "aide": "…Monsieur ▢ associé unique et seul…"
+          "label": "Nom",
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…"
         },
         {
           "id": "champ_017",
           "type": "text",
-          "label": "Avant « associé unique et seul »",
-          "opt": true,
-          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
-          "aide": "…Monsieur ▢ associé unique et seul…"
+          "label": "Prénoms",
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "Nomme pour une durée de",
-          "opt": true,
           "group": "L’associé unique nomme pour une durée de …., en sa qualité de :"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Président, Monsieur ….",
-          "aide": "…Président Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Président, Monsieur …."
         },
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Directeur Général, Monsieur ….",
-          "aide": "…Directeur Général Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Directeur Général, Monsieur …."
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Directeur Général Adjoint, Monsieur …",
-          "aide": "…Directeur Général Adjoint Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Directeur Général Adjoint, Monsieur …"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Messieurs",
-          "opt": true,
           "group": "Messieurs …., intervenant, déclarent accepter ces fonctions et que rien…",
           "aide": "…Messieurs ▢ intervenant déclarent accepter ces…"
         },
@@ -168,16 +153,13 @@
           "id": "champ_018",
           "type": "text",
           "label": "La séance est levée à",
-          "opt": true,
           "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures…"
         },
         {
           "id": "champ_019",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mr …",
-          "aide": "…Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mr …"
         }
       ]
     },
@@ -212,7 +194,7 @@
     },
     {
       "k": "p",
-      "text": "**Siège social** : ABIDJAN**, Commune {{champ_008}}, Quartier {{champ_009}}**",
+      "text": "**Siège social** : {{ville_siege}}**, Commune {{champ_008}}, Quartier {{champ_009}}**",
       "ind": 1
     },
     {
@@ -228,7 +210,7 @@
     },
     {
       "k": "p",
-      "text": "L'an deux {{champ_012}}, le {{champ_013}} à {{champ_014}} heures {{champ_015}},"
+      "text": "L'an deux {{champ_012}}, le {{champ_013_jm}} à {{champ_014}} heures {{champ_015}},"
     },
     {
       "k": "sp"
@@ -381,7 +363,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wn9skhz0ipvaamjjecvxyam2rjeofhrx-matrice-decision-associe-u.docx",
-    "version": "3"
+    "version": "6"
   },
   "exemple": {
     "champ_006": "Exemple",
@@ -402,6 +384,7 @@
     "champ_004": "Exemple",
     "champ_005": "Exemple",
     "champ_018": "Exemple",
-    "champ_019": "Exemple"
+    "champ_019": "Exemple",
+    "ville_siege": "Abidjan"
   }
 }

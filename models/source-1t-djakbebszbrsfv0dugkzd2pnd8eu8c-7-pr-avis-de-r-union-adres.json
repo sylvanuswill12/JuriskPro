@@ -26,55 +26,47 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Les Sociétés ne sont »",
-          "opt": true,
           "group": "Attention : … Les Sociétés ne sont pas tenues d'adresser spontanément…",
           "aide": "…Attention ▢ Les Sociétés ne sont…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Montant du capital",
-          "opt": true,
           "group": "au capital de … CFA"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numéro d'immatriculation",
-          "opt": true,
           "group": "… RCCM …"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Ville d'immatriculation",
-          "opt": true,
           "group": "… RCCM …"
         }
       ]
@@ -89,33 +81,28 @@
           "id": "champ_009",
           "type": "text",
           "label": "Nom ou Dénomination de l'actionnaire",
-          "opt": true,
           "group": "…(Ou de son représentant)"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "Numéro et rue",
-          "opt": true
+          "label": "Numéro et rue"
         },
         {
           "id": "champ_011",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_013",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …,",
           "aide": "…Le ▢"
         },
@@ -123,14 +110,12 @@
           "id": "champ_014",
           "type": "text",
           "label": "Civilité de l'actionnaire",
-          "opt": true,
           "group": "… (Ou de son représentant),"
         },
         {
           "id": "champ_015",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Pour faire suite à votre demande effectuée, je vous informe qu'une…",
           "aide": "…générale extraordinaire est prévue pour le ▢ à l'effet de statuer…"
         },
@@ -138,7 +123,6 @@
           "id": "champ_016",
           "type": "text",
           "label": "Avant « Si les statuts subordonnent »",
-          "opt": true,
           "group": "Attention : … Si les statuts subordonnent l'accès à l'assemblée à la…",
           "aide": "…Attention ▢ Si les statuts subordonnent…"
         }

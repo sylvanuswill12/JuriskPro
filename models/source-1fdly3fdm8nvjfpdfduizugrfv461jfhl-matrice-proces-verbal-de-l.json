@@ -26,62 +26,33 @@
           "id": "champ_001",
           "type": "text",
           "label": "GENERALE ORDINAIRE DU",
-          "opt": true,
           "group": "GENERALE ORDINAIRE DU …"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "L’an",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
-          "aide": "…L’an ▢ le à…"
-        },
-        {
-          "id": "champ_076",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
+          "group": "L’an …; le … à …,",
           "aide": "…L’an ▢ le à…"
         },
         {
           "id": "champ_003",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
-          "aide": "…L’an le ▢ à…"
-        },
-        {
-          "id": "champ_077",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
+          "group": "L’an …; le … à …,",
           "aide": "…L’an le ▢ à…"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "À",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
-          "aide": "…L’an le à ▢"
-        },
-        {
-          "id": "champ_078",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
-          "group": "L’an … ; le … à … ,",
+          "group": "L’an …; le … à …,",
           "aide": "…L’an le à ▢"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "Les actionnaires de la société se sont réunis en Assemblée Générale…",
           "aide": "…réunis en Assemblée Générale Ordinaire à ▢ sur convocation faite par…"
         },
@@ -89,21 +60,18 @@
           "id": "champ_079",
           "type": "text",
           "label": "Été annexés les pouvoirs des",
-          "opt": true,
           "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
         },
         {
           "id": "champ_080",
           "type": "text",
           "label": "Qui a été émargée par",
-          "opt": true,
           "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "L’assemblée est présidée par M",
-          "opt": true,
           "group": "L’assemblée est présidée par M …, (Président du Conseil…"
         },
         {
@@ -116,60 +84,50 @@
         {
           "id": "champ_007",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…",
-          "aide": "…M ▢ et M actionnaires représentant…"
+          "label": "Nom et prénoms",
+          "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Et M",
-          "opt": true,
           "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…",
           "aide": "…M et M ▢ actionnaires représentant le plus…"
         },
         {
           "id": "champ_009",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … a été désigné comme secrétaire.",
-          "aide": "…M ▢ a été désigné comme…"
+          "label": "Nom et prénoms",
+          "group": "M … a été désigné comme secrétaire."
         },
         {
           "id": "champ_082",
           "type": "text",
           "label": "Par les scrutateurs permet de",
-          "opt": true,
           "group": "La feuille de présence certifiée sincère et véritable par les…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Actionnaires présents ou représentés possèdent",
-          "opt": true,
           "group": "La feuille de présence certifiée sincère et véritable par les…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Actions représentant",
-          "opt": true,
           "group": "La feuille de présence certifiée sincère et véritable par les…"
         },
         {
           "id": "champ_083",
           "type": "text",
           "label": "Tous ceux prévus par l’Acte",
-          "opt": true,
           "group": "Le Président déclare que les documents ci-dessus et tous ceux prévus…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Approbation des comptes arrêtés au",
-          "opt": true,
           "group": "Examen et approbation des comptes arrêtés au … ;"
         }
       ]
@@ -184,56 +142,48 @@
           "id": "champ_013",
           "type": "date",
           "label": "Société pendant l’exercice clos le",
-          "opt": true,
           "group": "Du rapport du Conseil d’Administration (ou de l’Administrateur Général)…"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "D’un résultat déficitaire de FCFA",
-          "opt": true,
           "group": "L’Assemblée Générale, après avoir pris connaissance des états…"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "D’un résultat bénéficiaire de FCFA",
-          "opt": true,
           "group": "L’Assemblée Générale, après avoir pris connaissance des états…"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "D’affecter ce résultat comme suit",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "D’affecter ce résultat comme suit",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "D’affecter ce résultat comme suit",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -248,14 +198,12 @@
           "id": "champ_021",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "D’affecter ce résultat comme suit",
-          "opt": true,
           "group": "Cette résolution est adoptée …",
           "aide": "…Cette résolution est adoptée ▢"
         },
@@ -263,44 +211,30 @@
           "id": "champ_023",
           "type": "text",
           "label": "Aux fonctions d’Administrateur de M",
-          "opt": true,
           "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Lors de la réunion du",
-          "opt": true,
           "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
-        },
-        {
-          "id": "champ_084",
-          "type": "text",
-          "label": "En toutes lettres",
-          "opt": true,
-          "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…",
-          "aide": "…d’Administration lors de la réunion du ▢ en remplacement de M…"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "L’Assemblée Générale, ratifie la nomination aux fonctions…"
         },
         {
           "id": "champ_026",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "En conséquence, M … exercera ses fonctions pour la durée du mandat de…",
-          "aide": "…En conséquence M ▢ exercera ses fonctions pour…"
+          "label": "Nom et prénoms",
+          "group": "En conséquence, M … exercera ses fonctions pour la durée du mandat de…"
         },
         {
           "id": "champ_027",
           "type": "date",
           "label": "Comptes de l’exercice clos le",
-          "opt": true,
           "group": "En conséquence, M … exercera ses fonctions pour la durée du mandat de…"
         }
       ]
@@ -315,53 +249,42 @@
           "id": "champ_028",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_029",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …, présent à l’assemblée, déclare accepter le mandat d’Administrateur…",
-          "aide": "…M ▢ présent à l’assemblée déclare…"
+          "label": "Nom et prénoms",
+          "group": "M …, présent à l’assemblée, déclare accepter le mandat d’Administrateur…"
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …",
-          "aide": "…M ▢"
+          "label": "Nom et prénoms",
+          "group": "M …"
         },
         {
           "id": "champ_031",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …",
-          "aide": "…M ▢"
+          "label": "Nom et prénoms",
+          "group": "M …"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Comptes de l’exercice clos en",
-          "opt": true,
           "group": "en qualité de nouveaux Administrateurs ou de nouvel Administrateur…"
         },
         {
           "id": "champ_033",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … et M …, présents à l’assemblée, déclarent accepter le mandat…",
-          "aide": "…M ▢ et M présents à…"
+          "label": "Nom et prénoms",
+          "group": "M … et M …, présents à l’assemblée, déclarent accepter le mandat…"
         },
         {
           "id": "champ_034",
           "type": "text",
           "label": "Et M",
-          "opt": true,
           "group": "M … et M …, présents à l’assemblée, déclarent accepter le mandat…",
           "aide": "…M et M ▢ présents à l’assemblée déclarent…"
         },
@@ -369,88 +292,67 @@
           "id": "champ_035",
           "type": "text",
           "label": "Ou de Président de M",
-          "opt": true,
           "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
         },
         {
           "id": "champ_036",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "L’Assemblée constatant que le mandat d’Administrateur ou…",
-          "aide": "…ou de Président de M M ▢ arrive nt arrive à…"
+          "label": "Nom et prénoms",
+          "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
         },
         {
           "id": "champ_037",
           "type": "text",
           "label": "Sur les comptes clos en",
-          "opt": true,
           "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
         },
         {
           "id": "champ_038",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_039",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement…",
-          "aide": "…M ▢ M présent s à…"
+          "label": "Nom et prénoms",
+          "group": "M …, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement…"
         },
         {
           "id": "champ_040",
           "type": "text",
           "label": "Ou de Président de M",
-          "opt": true,
           "group": "L’Assemblée Générale décide de mettre fin, à compter de ce jour, au…"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "En remplacement dudit M",
-          "opt": true,
           "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
         },
         {
           "id": "champ_042",
           "type": "text",
-          "label": "Administrateur Général ou Président M",
-          "opt": true,
-          "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
-        },
-        {
-          "id": "champ_085",
-          "type": "text",
           "label": "Prénom, nom, domicile",
-          "opt": true,
           "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "Écoulé et tenue dans l’année",
-          "opt": true,
           "group": "En remplacement dudit M … l’Assemblée Générale nomme comme…"
         },
         {
           "id": "champ_044",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_045",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … (nouvel Administrateur ou nouvel Administrateur Général ou nouveau…",
-          "aide": "…M ▢ nouvel Administrateur ou nouvel…"
+          "label": "Nom et prénoms",
+          "group": "M … (nouvel Administrateur ou nouvel Administrateur Général ou nouveau…"
         }
       ]
     },
@@ -463,45 +365,37 @@
         {
           "id": "champ_046",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … en qualité de Commissaire aux comptes titulaire ;",
-          "aide": "…M ▢ en qualité de Commissaire…"
+          "label": "Nom et prénoms",
+          "group": "M … en qualité de Commissaire aux comptes titulaire ;"
         },
         {
           "id": "champ_047",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … en qualité de Commissaire aux comptes suppléant ;",
-          "aide": "…M ▢ en qualité de Commissaire…"
+          "label": "Nom et prénoms",
+          "group": "M … en qualité de Commissaire aux comptes suppléant ;"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "Comptes de l’exercice clos en",
-          "opt": true,
           "group": "Pour une durée de six exercices sociaux, soit jusqu’à à l’issue de…"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_086",
           "type": "text",
           "label": "D’indemnité de fonction la somme",
-          "opt": true,
           "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…",
           "aide": "…d’indemnité de fonction la somme de ▢ FCFA au titre de…"
         },
@@ -509,7 +403,6 @@
           "id": "champ_051",
           "type": "text",
           "label": "FCFA au titre de l’année",
-          "opt": true,
           "group": "L’Assemblée Générale décide d’allouer aux Administrateurs(ou à certains…"
         },
         {
@@ -537,24 +430,19 @@
         {
           "id": "champ_054",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …, Commissaire aux comptes titulaire ;",
-          "aide": "…M ▢ Commissaire aux comptes titulaire…"
+          "label": "Nom et prénoms",
+          "group": "M …, Commissaire aux comptes titulaire ;"
         },
         {
           "id": "champ_055",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …, Commissaire aux comptes suppléant ;",
-          "aide": "…M ▢ Commissaire aux comptes suppléant…"
+          "label": "Nom et prénoms",
+          "group": "M …, Commissaire aux comptes suppléant ;"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "En",
-          "opt": true,
           "group": "est arrivé à expiration, décide de le renouveler pour une période de…",
           "aide": "…les comptes de l’exercice clos en ▢"
         },
@@ -569,7 +457,6 @@
           "id": "champ_058",
           "type": "text",
           "label": "Que le mandat de M",
-          "opt": true,
           "group": "L’Assemblée Générale constatant que le mandat de M … Commissaire aux…"
         },
         {
@@ -583,7 +470,6 @@
           "id": "champ_060",
           "type": "text",
           "label": "L’Assemblée Générale désigne M",
-          "opt": true,
           "group": "En conséquence de la résolution précédente, l’Assemblée Générale…"
         }
       ]
@@ -598,7 +484,6 @@
           "id": "champ_061",
           "type": "text",
           "label": "Comptes de l’exercice clos en",
-          "opt": true,
           "group": "En conséquence de la résolution précédente, l’Assemblée Générale…"
         },
         {
@@ -619,7 +504,6 @@
           "id": "champ_064",
           "type": "text",
           "label": "Les opérations conclues entre M",
-          "opt": true,
           "group": "Après avoir entendu la lecture du rapport spécial du Commissaire aux…"
         },
         {
@@ -633,21 +517,18 @@
           "id": "champ_066",
           "type": "text",
           "label": "Etant précise que M",
-          "opt": true,
           "group": "Etant précise que M … n’a pas pris part au vote et ses actions n’ont…"
         },
         {
           "id": "champ_067",
           "type": "text",
           "label": "Lors de la séance du",
-          "opt": true,
           "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
         },
         {
           "id": "champ_087",
           "type": "text",
           "label": "Ancienne adresse",
-          "opt": true,
           "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
         }
       ]
@@ -662,7 +543,6 @@
           "id": "champ_088",
           "type": "text",
           "label": "Nouvelle adresse",
-          "opt": true,
           "group": "L’assemblée Générale ratifie la décision prise par le Conseil…"
         },
         {
@@ -676,42 +556,36 @@
           "id": "champ_069",
           "type": "text",
           "label": "Lors de la séance du",
-          "opt": true,
           "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
         },
         {
           "id": "champ_089",
           "type": "text",
           "label": "Nouvelle adresse",
-          "opt": true,
           "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
         },
         {
           "id": "champ_090",
           "type": "text",
           "label": "Indiquer les lieux",
-          "opt": true,
           "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
         },
         {
           "id": "champ_091",
           "type": "text",
           "label": "Indiquer les lieux",
-          "opt": true,
           "group": "L’assemblée Générale décide de ne pas ratifier la décision prise par le…"
         },
         {
           "id": "champ_070",
           "type": "text",
           "label": "L’article n°",
-          "opt": true,
           "group": "L’article n° … des statuts est ainsi modifié :"
         },
         {
           "id": "champ_071",
           "type": "text",
           "label": "Siège social est fixé à",
-          "opt": true,
           "group": "‘‘ Le siège social est fixé à … ’’"
         }
       ]
@@ -733,28 +607,24 @@
           "id": "champ_073",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_074",
           "type": "text",
           "label": "Cette résolution est adoptée",
-          "opt": true,
           "group": "Cette résolution est adoptée …"
         },
         {
           "id": "champ_075",
           "type": "text",
           "label": "Déclare la séance levée à",
-          "opt": true,
           "group": "L’ordre du jour étant épuisé, et personne ne demandant plus la parole,…"
         },
         {
           "id": "champ_092",
           "type": "text",
           "label": "Le Président",
-          "opt": true,
           "group": "Le Président … Les Scrutateurs Le Secrétaire"
         }
       ]
@@ -798,7 +668,7 @@
     },
     {
       "k": "p",
-      "text": "L’an {{champ_002}} {{champ_076}} ; le {{champ_003}} {{champ_077}} à {{champ_004}} {{champ_078}},",
+      "text": "L’an {{champ_002}}; le {{champ_003}} à {{champ_004}},",
       "ind": 1
     },
     {
@@ -1081,7 +951,7 @@
     },
     {
       "k": "p",
-      "text": "L’Assemblée Générale, ratifie la nomination aux fonctions d’Administrateur de M {{champ_023}}, faite à titre provisoire par le Conseil d’Administration lors de la réunion  du {{champ_024}} {{champ_084}}, en remplacement de M {{champ_025}}, démissionnaire (ou décédé)."
+      "text": "L’Assemblée Générale, ratifie la nomination aux fonctions d’Administrateur de M {{champ_023}}, faite à titre provisoire par le Conseil d’Administration lors de la réunion  du {{champ_024}}, en remplacement de M {{champ_025}}, démissionnaire (ou décédé)."
     },
     {
       "k": "p",
@@ -1159,7 +1029,7 @@
     },
     {
       "k": "p",
-      "text": "En remplacement dudit M {{champ_041}} l’Assemblée Générale nomme comme Administrateur ou Administrateur Général ou Président M {{champ_042}} {{champ_085}} pour la durée restant à courir du mandat de son prédécesseur, soit jusqu’au jour de la réunion de L’Assemblée Générale Ordinaire des actionnaires qui statuera sur les comptes de l’exercice écoulé et tenue dans l’année {{champ_043}}"
+      "text": "En remplacement dudit M {{champ_041}} l’Assemblée Générale nomme comme Administrateur ou Administrateur Général ou Président M {{champ_042}} pour la durée restant à courir du mandat de son prédécesseur, soit jusqu’au jour de la réunion de L’Assemblée Générale Ordinaire des actionnaires qui statuera sur les comptes de l’exercice écoulé et tenue dans l’année {{champ_043}}"
     },
     {
       "k": "p",
@@ -1395,16 +1265,13 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
     "champ_002": "Exemple",
-    "champ_076": "Exemple",
     "champ_003": "2000-01-01",
-    "champ_077": "Exemple",
     "champ_004": "Exemple",
-    "champ_078": "Exemple",
     "champ_005": "Exemple",
     "champ_079": "Exemple",
     "champ_080": "Exemple",
@@ -1430,7 +1297,6 @@
     "champ_022": "Exemple",
     "champ_023": "Exemple",
     "champ_024": "Exemple",
-    "champ_084": "Exemple",
     "champ_025": "Exemple",
     "champ_026": "Exemple",
     "champ_027": "2000-01-01",
@@ -1449,7 +1315,6 @@
     "champ_040": "Exemple",
     "champ_041": "Exemple",
     "champ_042": "Exemple",
-    "champ_085": "Exemple",
     "champ_043": "Exemple",
     "champ_044": "Exemple",
     "champ_045": "Exemple",
@@ -1490,5 +1355,7 @@
     "champ_074": "Exemple",
     "champ_075": "Exemple",
     "champ_092": "Exemple"
-  }
+  },
+  "etapesAuChoix": true,
+  "noteForm": "Ce modèle réunit plusieurs résolutions possibles (approbation des comptes, ratifications, nominations, indemnités…). Remplissez seulement celles qui vous concernent : les parties laissées vides restent en pointillés dans le document."
 }

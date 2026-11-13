@@ -26,21 +26,18 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Conformément à L’AUSCGIE le »",
-          "opt": true,
           "group": "Attention : … Conformément à L’AUSCGIE le quorum requis sur première…",
           "aide": "…Attention ▢ Conformément à L’AUSCGIE le…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Montant",
-          "opt": true,
           "group": "au capital de … CFA",
           "aide": "…au capital de ▢ CFA…"
         },
@@ -48,27 +45,23 @@
           "id": "champ_004",
           "type": "text",
           "label": "Numéro et rue",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -76,7 +69,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         }
@@ -92,7 +84,6 @@
           "id": "champ_009",
           "type": "date",
           "label": "DATE",
-          "opt": true,
           "group": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
           "aide": "…PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
         },
@@ -100,7 +91,6 @@
           "id": "champ_010",
           "type": "text",
           "label": "Avant « L’AUSCGIE dans son article »",
-          "opt": true,
           "group": "Attention : … L’AUSCGIE dans son article 134 prévoit que les décisions…",
           "aide": "…Attention ▢ L’AUSCGIE dans son article…"
         },
@@ -108,7 +98,6 @@
           "id": "champ_011",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…Le ▢ à les actionnaires de…"
         },
@@ -116,7 +105,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…Le à ▢ les actionnaires de la…"
         },
@@ -124,7 +112,6 @@
           "id": "champ_013",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
           "aide": "…sont réunis en assemblée générale extraordinaire ▢ sur convocation faite par…"
         },
@@ -132,84 +119,72 @@
           "id": "champ_014",
           "type": "text",
           "label": "Nom du Commissaire présent",
-          "opt": true,
           "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Nom du Commissaire absent",
-          "opt": true,
           "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Nom du Président du Conseil",
-          "opt": true,
           "group": "… préside la séance en sa qualité de - Président- Présidente du Organe…"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Nom du Président de séance",
-          "opt": true,
           "group": "… préside la séance en sa qualité de …."
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Qualité du Président de séance",
-          "opt": true,
           "group": "… préside la séance en sa qualité de …."
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Nom du premier scrutateur à l'assemblée",
-          "opt": true,
           "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Nom du deuxième scrutateur à l'assemblée",
-          "opt": true,
           "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Nom du Secrétaire de séance",
-          "opt": true,
           "group": "… est - désigné- désignée comme secrétaire."
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Nombre actions total",
-          "opt": true,
           "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Pourcentage",
-          "opt": true,
           "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Pourcentage",
-          "opt": true,
           "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Puis, le Président déclare la séance levée à ….",
           "aide": "…Président déclare la séance levée à ▢"
         }
@@ -225,27 +200,23 @@
           "id": "champ_026",
           "type": "text",
           "label": "Nom du Président",
-          "opt": true,
           "group": "… Le Secrétaire"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Nom du Secrétaire",
-          "opt": true,
           "group": "… Les Scrutateurs"
         },
         {
           "id": "champ_028",
           "type": "text",
-          "label": "Nom du premier scrutateur",
-          "opt": true
+          "label": "Nom du premier scrutateur"
         },
         {
           "id": "champ_029",
           "type": "text",
-          "label": "Nom du second scrutateur",
-          "opt": true
+          "label": "Nom du second scrutateur"
         }
       ]
     },

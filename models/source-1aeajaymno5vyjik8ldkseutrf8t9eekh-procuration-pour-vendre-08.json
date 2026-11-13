@@ -26,7 +26,6 @@
           "id": "champ_003",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "LE …",
           "aide": "…LE ▢"
         },
@@ -34,58 +33,71 @@
           "id": "champ_004",
           "type": "text",
           "label": "PARDEVANT Maître",
-          "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE),…",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…",
           "profil": "maitre",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…"
+        },
+        {
           "id": "champ_005",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame ▢ demeurant à Commune de…"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame ▢ demeurant à Commune de…"
         },
         {
           "id": "champ_007",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame demeurant à Commune de ▢ BP épouse de Monsieur…"
         },
         {
           "id": "champ_009",
           "type": "text",
-          "label": "Avant « BP ABIDJAN épouse de »",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+          "label": "Avant « BP épouse de Monsieur »",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame demeurant à Commune de ▢ BP épouse de Monsieur…"
         },
         {
           "id": "champ_010",
           "type": "text",
-          "label": "Avant « BP ABIDJAN épouse de »",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN épouse de…"
+          "label": "Avant « BP épouse de Monsieur »",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
+          "aide": "…Madame demeurant à Commune de ▢ BP épouse de Monsieur…"
+        },
+        {
+          "id": "ville_bp",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         }
       ]
     },
@@ -98,44 +110,41 @@
         {
           "id": "champ_011",
           "type": "text",
-          "label": "BP ABIDJAN",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Épouse de Monsieur",
           "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         },
         {
           "id": "commune",
           "type": "text",
           "label": "Commune",
           "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         },
         {
           "id": "champ_013",
           "type": "date",
           "label": "Date",
           "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…",
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…",
           "aide": "…mariée à la Mairie de le ▢ sous le régime de…"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Sous le régime de la",
-          "opt": true,
-          "group": "Madame . …, … , demeurant à ABIDJAN, Commune de … , … BP ABIDJAN …,…"
+          "group": "Madame . …, … , demeurant à …, Commune de … , … BP … , épouse de…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Née à",
-          "opt": true,
           "group": "Née à … le …,",
           "aide": "…Née à ▢ le…"
         },
@@ -143,7 +152,6 @@
           "id": "champ_016",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Née à … le …,",
           "aide": "…Née à le ▢"
         },
@@ -151,118 +159,118 @@
           "id": "champ_017",
           "type": "text",
           "label": "Carte Nationale d’Identité numéro C",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…"
+        },
+        {
+          "id": "lieu_delivrance",
+          "type": "text",
+          "label": "Lieu de délivrance de la pièce d’identité",
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le ……"
         },
         {
           "id": "champ_018",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
-          "aide": "…numéro C établie à ABIDJAN le ▢ et valable jusqu’au…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…",
+          "aide": "…d’Identité numéro C établie à le ▢ et valable jusqu’au…"
         },
         {
           "id": "champ_019",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
-          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…",
+          "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_020",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+          "label": "Nom",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,"
         },
         {
           "id": "champ_021",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+          "label": "Prénoms",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,"
         },
         {
           "id": "champ_022",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…Monsieur ▢ demeurant à Commune de…"
         },
         {
           "id": "champ_023",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…Monsieur ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…Monsieur ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "ville_residence_2",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…Monsieur demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN…"
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…Monsieur demeurant à Commune de ▢ Quartier BP…"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN…"
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ ABIDJAN…"
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…demeurant à Commune de Quartier BP ▢"
+        },
+        {
+          "id": "ville_bp_2",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,"
         },
         {
           "id": "champ_027",
           "type": "text",
-          "label": "ABIDJAN",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "Son mandataire spécial son père",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…demeurant à Commune de Quartier BP ▢"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Son mandataire spécial son père",
-          "opt": true,
-          "group": "Monsieur … , … , demeurant à ABIDJAN, Commune de …, Quartier …, BP ……",
-          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+          "group": "Monsieur … , … , demeurant à …, Commune de …, Quartier …, BP … , … ,",
+          "aide": "…demeurant à Commune de Quartier BP ▢"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … (…), le …,",
           "aide": "…Né à ▢ le…"
         },
         {
           "id": "champ_031",
           "type": "text",
-          "label": "Avant « le »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Né à … (…), le …,",
           "aide": "…Né à ▢ le…"
         },
@@ -270,7 +278,6 @@
           "id": "champ_032",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … (…), le …,",
           "aide": "…Né à le ▢"
         },
@@ -278,29 +285,31 @@
           "id": "champ_033",
           "type": "text",
           "label": "Carte Nationale d’Identité numéro C",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…"
+        },
+        {
+          "id": "lieu_delivrance_2",
+          "type": "text",
+          "label": "Lieu de délivrance de la pièce d’identité",
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…"
         },
         {
           "id": "champ_034",
           "type": "date",
           "label": "Le et valable jusqu’au",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à…",
-          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie à …, le…",
+          "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_035",
           "type": "text",
           "label": "Un terrain bati sis à",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
         },
         {
           "id": "champ_036",
           "type": "text",
           "label": "Avant « Commune de objet du »",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
           "aide": "…- Un terrain bati sis à ▢ Commune de objet du…"
         },
@@ -308,7 +317,6 @@
           "id": "champ_037",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
           "aide": "…terrain bati sis à Commune de ▢ objet du Titre Foncier…"
         },
@@ -316,14 +324,12 @@
           "id": "champ_038",
           "type": "text",
           "label": "Objet du Titre Foncier numéro",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
         },
         {
           "id": "champ_039",
           "type": "text",
-          "label": "Avant « d’une superficie de inscrit »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…",
           "aide": "…de objet du Titre Foncier numéro ▢ d’une superficie de inscrit…"
         }
@@ -339,29 +345,24 @@
           "id": "champ_040",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "De la Circonscription Foncière de",
-          "opt": true,
           "group": "- Un terrain bati sis à … , Commune de … objet du Titre Foncier numéro…"
         },
         {
           "id": "champ_001",
           "type": "text",
-          "label": "Mme",
-          "opt": true,
-          "group": "Mme … Me ….",
-          "aide": "…Mme ▢ Me…"
+          "label": "Nom et prénoms",
+          "group": "Mme … Me …."
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Me",
-          "opt": true,
           "group": "Mme … Me ….",
           "aide": "…Mme Me ▢"
         },
@@ -369,7 +370,6 @@
           "id": "champ_042",
           "type": "text",
           "label": "Avant « dans blancs »",
-          "opt": true,
           "group": "Barres : … dans blancs",
           "aide": "…Barres ▢ dans blancs…"
         }
@@ -401,7 +401,7 @@
     },
     {
       "k": "p",
-      "text": "LE {{champ_003}}",
+      "text": "LE {{champ_003_jm}}",
       "al": "left"
     },
     {
@@ -409,7 +409,7 @@
     },
     {
       "k": "p",
-      "text": "PARDEVANT **Maître {{champ_004}}**, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+      "text": "PARDEVANT **Maître {{champ_004}}**, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), soussigné,"
     },
     {
       "k": "p",
@@ -421,7 +421,7 @@
     },
     {
       "k": "p",
-      "text": "**Madame . {{champ_005}}**, {{champ_006}} {{champ_007}}, demeurant à ABIDJAN, Commune de {{champ_008}} {{champ_009}}, {{champ_010}} BP  ABIDJAN {{champ_011}}, épouse de **Monsieur {{champ_012}} **avec lequel elle s’est mariée à la Mairie de {{commune}}, le {{champ_013}} sous le régime de la {{champ_014}} de biens."
+      "text": "**Madame . {{champ_005}}**, {{champ_006}} {{champ_007}}, demeurant à {{ville_residence}}, Commune de {{champ_008}} {{champ_009}}, {{champ_010}} BP  {{ville_bp}} {{champ_011}}, épouse de **Monsieur {{champ_012}} **avec lequel elle s’est mariée à la Mairie de {{commune}}, le {{champ_013}} sous le régime de la {{champ_014}} de biens."
     },
     {
       "k": "sp"
@@ -442,7 +442,7 @@
     },
     {
       "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_017}} établie à ABIDJAN, le {{champ_018}} et valable jusqu’au {{champ_019}}."
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_017}} établie à {{lieu_delivrance}}, le {{champ_018}} et valable jusqu’au {{champ_019}}."
     },
     {
       "k": "sp"
@@ -457,7 +457,7 @@
     },
     {
       "k": "p",
-      "text": "**Monsieur {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}}, demeurant à ABIDJAN, Commune de {{champ_024}}, Quartier {{champ_025}},  BP {{champ_026}} ABIDJAN {{champ_027}}, {{champ_028}} {{champ_029}},"
+      "text": "**Monsieur {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}}, demeurant à {{ville_residence_2}}, Commune de {{champ_024}}, Quartier {{champ_025}},  BP {{champ_026}} {{ville_bp_2}} {{champ_027}}, {{champ_028}} {{champ_029}},"
     },
     {
       "k": "sp"
@@ -478,7 +478,7 @@
     },
     {
       "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_033}} établie à ABIDJAN, le  et valable jusqu’au {{champ_034}}."
+      "text": "Titulaire de la Carte Nationale d’Identité numéro C {{champ_033}} établie à {{lieu_delivrance_2}}, le  et valable jusqu’au {{champ_034}}."
     },
     {
       "k": "sp"
@@ -636,7 +636,7 @@
     },
     {
       "k": "p",
-      "text": "Fait et passé à ABIDJAN,"
+      "text": "Fait et passé à {{ville_notaire}},"
     },
     {
       "k": "p",
@@ -705,7 +705,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1aeajaymno5vyjik8ldkseutrf8t9eekh-procuration-pour-vendre-08.docx",
-    "version": "3"
+    "version": "5"
   },
   "exemple": {
     "champ_003": "2000-01-01",
@@ -750,6 +750,13 @@
     "champ_041": "Exemple",
     "champ_001": "Exemple",
     "champ_002": "Exemple",
-    "champ_042": "Exemple"
+    "champ_042": "Exemple",
+    "ville_notaire": "Abidjan",
+    "ville_residence": "Abidjan",
+    "ville_bp": "Abidjan",
+    "lieu_delivrance": "Abidjan",
+    "ville_residence_2": "Abidjan",
+    "ville_bp_2": "Abidjan",
+    "lieu_delivrance_2": "Abidjan"
   }
 }

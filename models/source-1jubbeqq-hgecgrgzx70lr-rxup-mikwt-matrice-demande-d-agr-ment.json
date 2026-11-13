@@ -26,39 +26,40 @@
           "id": "champ_004",
           "type": "text",
           "label": "ADRESSE",
-          "opt": true,
-          "group": "ADRESSE … ABIDJAN, le …",
+          "group": "ADRESSE … , le …",
           "aide": "…ADRESSE ▢ ABIDJAN le…"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "ADRESSE … , le …"
         },
         {
           "id": "champ_001",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "ADRESSE … ABIDJAN, le …",
-          "aide": "…ADRESSE ABIDJAN le ▢"
-        },
-        {
-          "id": "champ_002",
-          "type": "date",
-          "label": "Information à compléter",
-          "opt": true,
-          "group": "ADRESSE … ABIDJAN, le …",
+          "group": "ADRESSE … , le …",
           "aide": "…ADRESSE ABIDJAN le ▢"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Information à compléter",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Information à compléter",
-          "opt": true,
           "aide": "▢"
+        },
+        {
+          "id": "ville_prefecture",
+          "type": "text",
+          "label": "Ville de la préfecture",
+          "group": "…"
         }
       ]
     },
@@ -73,7 +74,7 @@
   "doc": [
     {
       "k": "p",
-      "text": "ADRESSE {{champ_004}} ABIDJAN, le {{champ_001}} {{champ_002}}",
+      "text": "ADRESSE {{champ_004}} {{ville_signature}}, le {{champ_001}}",
       "al": "left"
     },
     {
@@ -91,7 +92,7 @@
     },
     {
       "k": "p",
-      "text": "D’ABIDJAN",
+      "text": "{{ville_prefecture_de_maj}}",
       "al": "left"
     },
     {
@@ -202,13 +203,14 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1jubbeqq-hgecgrgzx70lr-rxup-mikwt-matrice-demande-d-agr-ment.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_004": "Exemple",
     "champ_001": "2000-01-01",
-    "champ_002": "2000-01-01",
     "champ_003": "Exemple",
-    "champ_005": "Exemple"
+    "champ_005": "Exemple",
+    "ville_signature": "Abidjan",
+    "ville_prefecture": "Abidjan"
   }
 }

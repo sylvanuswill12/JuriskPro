@@ -41,6 +41,13 @@
       // un champ resté vide garde ses pointillés : le Word reste complétable à la main, comme l’aperçu et le PDF
       map['{{' + f.id + '}}'] = empty ? DOTS : raw;
       map['{{' + f.id + '_maj}}'] = empty ? DOTS : String(raw).toUpperCase();
+      // formes dérivées calculées avec la valeur saisie : « de / d’ + ville », montant en lettres, montant en toutes lettres + FCFA, date sans l’année
+      ['_de', '_de_maj', '_lettres', '_fcfa', '_jm'].forEach((sfx) => {
+        const key = f.id + sfx;
+        if (!V || !Object.prototype.hasOwnProperty.call(V, key)) return;
+        const dv = V[key], blank = dv == null || String(dv).trim() === '';
+        map['{{' + key + '}}'] = blank ? (sfx === '_de' ? 'de ' + DOTS : sfx === '_de_maj' ? 'DE ' + DOTS : DOTS) : dv;
+      });
     });
     return map;
   }

@@ -70,13 +70,34 @@ function neededIds(m,s){
     try{const V=m.compute(s2),out=renderHTML(m.blocks(s2,V),V),ix=buildIndex(m);_needVal=[...out.missing].filter(id=>ix[id]&&!opt.has(id));}
     catch(e){_needVal=[];}
   }
-  if(typeof M!=='undefined'&&m===M) DYN=new Set(_needVal);
-  return _needVal;
+  /* Parties facultatives (variantes, clauses qui ne concernent pas tous les cas) : leurs champs ne deviennent
+     obligatoires que si on commence à les remplir. Les autres parties restent soumises à la règle commune. */
+  let ids=_needVal;
+  if(m.etapesAuChoix||m.etapes.some(e=>e.fac)){
+    const eng=engagedSteps(m,s),ix2=buildIndex(m);
+    ids=_needVal.filter(id=>{const x=ix2[id];return !x||!stepFree(m,m.etapes[x.step])||eng.has(x.step);});
+  }
+  if(typeof M!=='undefined'&&m===M) DYN=new Set(ids);
+  return ids;
+}
+/* Une partie « au choix » est engagée dès qu'un de ses champs est rempli (hors reprise automatique de « Mon cabinet »). */
+const stepFree=(m,e)=>!!(m&&m.etapesAuChoix||e&&e.fac);
+function engagedSteps(m,s){
+  const on=new Set();
+  eachField(m,(f,si)=>{
+    if(['info','title','action'].includes(f.type)||f.profil) return;
+    const v=s[f.id];if(v!=null&&String(v).trim()!=='') on.add(si);
+  });
+  return on;
 }
 let _anK='',_anV=null;
 function analyse(m,s){const k=m.id+'§'+JSON.stringify(s);if(k===_anK) return _anV;const v=analyseRaw(m,s);_anK=k;_anV=v;return v;}
 function finalValidation(m,s){
   const an=analyse(m,s),req=requiredMissing(m,s);
+  if(m.etapesAuChoix&&!engagedSteps(m,s).size){
+    let first=null;eachField(m,(f,si)=>{if(!first&&si===0&&!['info','title','action'].includes(f.type)) first=f;});
+    if(first) req.unshift({id:first.id,step:0,label:'Au moins une partie du document (complétez celle qui vous concerne)'});
+  }
   return {an:an,req:req,blocked:req.length>0||an.probs.length>0};
 }
 function firstCorrectionStep(v){
@@ -88,7 +109,10 @@ function firstCorrectionStep(v){
 /* ---------- Analyse d'un état (contrôles réellement effectués) ---------- */
 function analyseRaw(m,s){
   const ix=buildIndex(m),V=m.compute(s),bl=m.blocks(s,V),out=renderHTML(bl,V);
-  const miss=[...out.missing].filter(id=>ix[id]);
+  const eng=(m.etapesAuChoix||m.etapes.some(e=>e.fac))?engagedSteps(m,s):null;
+  const unused=si=>!!eng&&stepFree(m,m.etapes[si])&&!eng.has(si);
+  const miss=[...out.missing].filter(id=>ix[id]&&!unused(ix[id].step));
+  const skipped=[...out.missing].filter(id=>ix[id]&&unused(ix[id].step)).length;
   const probs=[];
   eachField(m,(f,si,rep,i)=>{
     if(f.type!=='info') return;
@@ -98,6 +122,6 @@ function analyseRaw(m,s){
   });
   const per=m.etapes.map(()=>0);
   miss.forEach(id=>{per[ix[id].step]++;});
-  const secs=m.etapes.map((e,i)=>({i:i,t:e.court||e.titre,full:e.titre,final:!!e.final,n:per[i]})).filter(x=>!x.final);
-  return {ix:ix,miss:miss,missAll:out.missing.size,probs:probs,secs:secs,done:secs.filter(x=>!x.n).length};
+  const secs=m.etapes.map((e,i)=>({i:i,t:e.court||e.titre,full:e.titre,final:!!e.final,n:per[i]})).filter(x=>!x.final&&!unused(x.i));
+  return {ix:ix,miss:miss,missAll:out.missing.size-skipped,probs:probs,secs:secs,done:secs.filter(x=>!x.n).length};
 }

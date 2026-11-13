@@ -23,40 +23,41 @@
       "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
       "champs": [
         {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "…, le …"
+        },
+        {
           "id": "champ_007",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Abidjan, le …",
-          "aide": "…Abidjan le ▢"
+          "group": "…, le …",
+          "aide": "…le ▢"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         },
         {
           "id": "champ_009",
           "type": "date",
           "label": "Par délibération en date du",
-          "opt": true,
           "group": "Par délibération en date du …, le conseil d’administration a décidé de…"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "Vous avez souscrit à",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…",
           "aide": "…Vous avez souscrit à actions de ▢ F CFA chacune Votre…"
         },
@@ -64,28 +65,24 @@
           "id": "champ_003",
           "type": "text",
           "label": "Votre souscription s’élevant ainsi à",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Donc libérer une somme de",
-          "opt": true,
           "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
         },
         {
           "id": "champ_005",
           "type": "date",
           "label": "Convenance au plus tard le",
-          "opt": true,
           "group": "Nous vous demandons de bien vouloir procéder à ce règlement par tous…"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Le président du conseil d’administration",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -101,7 +98,7 @@
   "doc": [
     {
       "k": "p",
-      "text": "Abidjan, le {{champ_007}}",
+      "text": "{{ville_signature}}, le {{champ_007}}",
       "al": "left"
     },
     {
@@ -182,7 +179,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1ny4qctnzpdhisawuhxq1e-u6snpqnvsq-matrice-demande-de-lib-rat.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_007": "2000-01-01",
@@ -193,6 +190,7 @@
     "champ_003": "Exemple",
     "champ_004": "Exemple",
     "champ_005": "2000-01-01",
-    "champ_006": "Exemple"
+    "champ_006": "Exemple",
+    "ville_signature": "Abidjan"
   }
 }

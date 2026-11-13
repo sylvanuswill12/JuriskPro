@@ -25,30 +25,25 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …,",
-          "aide": "…M ▢"
+          "label": "Nom et prénoms",
+          "group": "M …,"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Prions d’assister à l’assemblée générale",
-          "opt": true,
           "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Société qui sera réunie à",
-          "opt": true,
           "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
         },
         {
           "id": "champ_004",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…",
           "aide": "…société qui sera réunie à le ▢ à heures à l’effet…"
         },
@@ -56,7 +51,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "À heures",
-          "opt": true,
           "group": "Nous vous prions d’assister à l’assemblée générale … de notre société…"
         },
         {
@@ -69,10 +63,8 @@
         {
           "id": "champ_007",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "Nous vous prions d’agréer, M …, l’expression de nos sentiments…",
-          "aide": "…Nous vous prions d’agréer M ▢ l’expression de nos sentiments…"
+          "label": "Nom et prénoms",
+          "group": "Nous vous prions d’agréer, M …, l’expression de nos sentiments…"
         }
       ]
     },

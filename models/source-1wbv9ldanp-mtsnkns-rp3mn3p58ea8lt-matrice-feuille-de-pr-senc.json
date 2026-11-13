@@ -26,14 +26,12 @@
           "id": "champ_023",
           "type": "text",
           "label": "DE L’ASSEMBLEE GENERALE EXTRAORDINAIRE DU",
-          "opt": true,
           "group": "FEUILLE DE PRESENCE DE L’ASSEMBLEE GENERALE EXTRAORDINAIRE DU …"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Actions »",
-          "opt": true,
           "group": "Nombre d’actions constituant le capital : …. Actions",
           "aide": "…Nombre d’actions constituant le capital ▢ Actions…"
         },
@@ -41,87 +39,71 @@
           "id": "champ_024",
           "type": "text",
           "label": "Nom, prénom, adresse",
-          "opt": true,
           "group": "Actionnaires présents ou représentés …"
         },
         {
           "id": "champ_025",
           "type": "text",
-          "label": "Nom, prénom, adresse",
-          "opt": true
+          "label": "Nom, prénom, adresse"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 1"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Mandataires(nom, prénom, adresse)",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 1"
         },
         {
           "id": "champ_026",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         },
         {
           "id": "champ_027",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         },
         {
           "id": "champ_028",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         },
         {
           "id": "champ_029",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "De voix émises",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "De voix émises",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "De voix émises",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "De voix émises",
-          "opt": true,
           "group": "….",
           "aide": "▢"
         },
@@ -129,35 +111,30 @@
           "id": "champ_012",
           "type": "text",
           "label": "Mandataires(nom, prénom, adresse)",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 2"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Actionnaires présents ou représentés (nom, prénom, adresse)",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 3"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 3"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Colonne 3",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 3"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Mandataires(nom, prénom, adresse)",
-          "opt": true,
           "group": "Papier entete de la societe – ligne 3"
         },
         {
@@ -221,7 +198,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "Totalisant",
-          "opt": true,
           "group": "Les scrutateurs certifient sincère et véritable la présente feuille de…",
           "aide": "…l’ensemble des actionnaires sont présents totalisant ▢ actions et un représentant…"
         },
@@ -229,7 +205,6 @@
           "id": "champ_009",
           "type": "text",
           "label": "Et auxquelles sont attachées",
-          "opt": true,
           "group": "Les scrutateurs certifient sincère et véritable la présente feuille de…"
         }
       ]

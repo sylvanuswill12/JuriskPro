@@ -43,9 +43,9 @@ Un modèle indique sa famille dans `cat`. La page d'une famille affiche ses mod�
 
 | type | rôle |
 |---|---|
-| `text`, `area` | texte court / long (`upper: true` fournit aussi `{{nom_maj}}`) |
-| `date` | date ; `{{id}}` donne « 15 janvier 2026 » ; `"def": "@today"` = aujourd'hui |
-| `money` | montant ; `{{id}}` = « 2 500 000 », `{{id_lettres}}` = en toutes lettres |
+| `text`, `area` | texte court / long (`upper: true` fournit aussi `{{nom_maj}}` ; `{{id_de}}` / `{{id_de_maj}}` donnent « de Bouaké » / « d’Abidjan » avec l'élision correcte) |
+| `date` | date ; `{{id}}` donne « 15 janvier 2026 », `{{id_jm}}` donne « 15 janvier » (sans l'année, pour un acte dont « L'AN DEUX MIL … » est déjà écrit) ; `"def": "@today"` = aujourd'hui |
+| `money` | montant ; `{{id}}` = « 2 500 000 », `{{id_lettres}}` = en toutes lettres, `{{id_fcfa}}` = en toutes lettres + « francs CFA » |
 | `int` | nombre entier |
 | `choice` (`"variant": "seg"` pour des boutons) | choix ; `{{id}}` = valeur, `{{id_t}}` = libellé ; `opts` : liste `[{"v","t"}]` ou `"civilite"`, `"ouinon"` |
 | `select` | liste déroulante (mêmes `opts`) |
@@ -100,6 +100,25 @@ Pour un modèle issu d'un fichier Word (`sourceTemplate`), le PDF téléchargé 
 - Aperçu : pour un modèle issu d'un fichier Word, le volet d'aperçu (et l'aperçu plein écran) affiche la vraie page, calculée par le même moteur que le PDF (`layout-pdf.js`) et dessinée sur des `<canvas>` ; les zones à compléter sont surlignées. Il est disponible à toutes les étapes. Si le moteur échoue, l'ancien aperçu simplifié s'affiche.
 - Mon cabinet (écran Compte) : qualité, prénom, nom, étude, adresse, BP, ville, téléphone, e-mail, enregistrés sur l'appareil uniquement (`juriskpro:cabinet:v1`). Sous un champ texte actif, ces valeurs apparaissent en boutons et s'insèrent d'un toucher.
 - Reprise automatique : seuls les champs marqués dans le modèle (`"profil": "nom" | "prenom" | "maitre" | "ville"`, avec `"pq": "notaire"` pour ne s'appliquer qu'à un notaire) sont remplis, et seulement dans un nouveau brouillon. Le marquage se fait avec `tools/tag_profil.py` (libellés exacts, jamais les champs ambigus comme « Ville », « Lieu » ou « BP »).
+
+## Aucune valeur « en dur » dans un modèle Word (v39)
+
+Un lieu, une date ou une valeur qui change d'un dossier à l'autre ne doit jamais être écrit dans le Word : c'est un `{{champ}}` relié au formulaire. Seules restent en dur les constantes juridiques (articles, seuils légaux, noms d'institutions) et, à la demande du cabinet, l'année des actes notariés (« L'AN DEUX MIL … »). Outils :
+
+- `tools/scan_literals.py` et `tools/scan_literals2.py` : inventaire des valeurs écrites en dur (villes, dates, jours, montants, noms propres) dans `templates/source-*.docx`.
+- `tools/fix_literals.py <projet> <bak34>` : convertit ces valeurs en champs (`ville_notaire`, `ville_signature`, `date_lettre`, `salaire_net`, …) et fusionne les jetons doubles du type `{{a}}({{b}})` en un seul champ (écriture en lettres calculée par `_lettres` / `_fcfa`). `ville_notaire` et `ville_signature` portent `profil` / `pq` : ils se remplissent depuis « Mon cabinet ».
+- `tools/relabel.py <projet>` : renomme les libellés trop génériques à partir du texte voisin.
+- `tools/year_jm.py <projet>` : un champ date placé juste sous « L'AN DEUX MIL … » utilise `{{id_jm}}` pour ne pas afficher deux années.
+- `tools/split_sarl.py` : sépare un fichier Word qui contient plusieurs versions (modèle simplifié / développé / autres actes) en autant de modèles distincts. **Règle** : deux versions d'un même acte = deux modèles, jamais un seul.
+
+## Mêmes règles pour tous les modèles, convertis ou non (v39)
+
+- **Champs obligatoires** : un champ est obligatoire (astérisque rouge) sauf `"opt": true`. Dans un modèle converti d'un Word, `opt` n'est posé que pour les champs qui ne concernent pas tous les cas (lignes de tableau supplémentaires, alternatives « ou », mentions entre parenthèses, conjoint, libellé « facultatif »). `tools/set_required.py <projet>` applique cette règle (classement dans `tools/classify_opt.py`).
+- **Parties facultatives** : une étape marquée `"fac": true` (variante, clause qui ne concerne pas tous les cas) n'exige ses champs que si on commence à la remplir. Un modèle marqué `"etapesAuChoix": true` (plusieurs actes ou résolutions dans un même Word) traite toutes ses étapes ainsi et exige au moins une partie remplie ; `"noteForm"` est le message affiché en tête de chaque étape et sur la page de présentation.
+- **Coche verte** : une étape devient verte seulement quand ses champs obligatoires sont remplis ; une étape sans champ obligatoire ne devient verte que si on y a saisi quelque chose.
+- **Aperçu et téléchargement** : disponibles uniquement à l'étape finale, quand tous les champs obligatoires sont remplis et qu'aucune incohérence n'est signalée.
+- **Page de présentation** : un petit aperçu du début du document (première page seulement, fondu en bas), sans aperçu complet.
+- Le bouton « Remplir avec un exemple » n'existe que pour les modèles qui ont de vraies données d'exemple (pas pour les modèles convertis).
 
 ## APK : fichiers embarqués
 

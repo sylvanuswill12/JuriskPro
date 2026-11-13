@@ -25,16 +25,13 @@
         {
           "id": "champ_001",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … est nommé Président du Conseil d’Administration ou Président…",
-          "aide": "…M ▢ est nommé Président du…"
+          "label": "Nom et prénoms",
+          "group": "M … est nommé Président du Conseil d’Administration ou Président…"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "M … est nommé Président du Conseil d’Administration ou Président…"
         },
         {
@@ -48,37 +45,31 @@
           "id": "champ_004",
           "type": "date",
           "label": "Comptes de l’exercice clos le",
-          "opt": true,
           "group": "M … est nommé Président du Conseil d’Administration ou Président…"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "M",
+          "label": "Nom et prénoms",
           "opt": true,
-          "group": "M … accepte ces fonctions et déclare qu’il n’exerce pas simultanément…",
-          "aide": "…M ▢ accepte ces fonctions et…"
+          "group": "M … accepte ces fonctions et déclare qu’il n’exerce pas simultanément…"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … en sa qualité de Président (de Président- Directeur Général) est…",
-          "aide": "…M ▢ en sa qualité de…"
+          "label": "Nom et prénoms",
+          "group": "M … en sa qualité de Président (de Président- Directeur Général) est…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Une rémunération déterminée comme suit",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Une rémunération déterminée comme suit",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -92,38 +83,32 @@
         {
           "id": "champ_009",
           "type": "text",
-          "label": "M",
+          "label": "Nom et prénoms",
           "opt": true,
-          "group": "M … le Président expose que pour des raisons personnelles (ou d’autres,…",
-          "aide": "…M ▢ le Président expose que…"
+          "group": "M … le Président expose que pour des raisons personnelles (ou d’autres,…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Et décide de nommer M",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil procède au remplacement du…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Sur les comptes de l’exercice",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil procède au remplacement du…"
         },
         {
           "id": "champ_012",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "Remerciant le Conseil de la confiance qui lui est témoignée, M ……",
-          "aide": "…confiance qui lui est témoignée M ▢ accepte ces fonctions qu’il…"
+          "label": "Nom et prénoms",
+          "group": "Remerciant le Conseil de la confiance qui lui est témoignée, M ……"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "De M",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de mettre fin à compter de ce jour,…",
           "aide": "…ou de Président-Directeur Général de M ▢"
         },
@@ -131,21 +116,18 @@
           "id": "champ_014",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Le Conseil d’Administration nomme M",
-          "opt": true,
           "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
         },
         {
           "id": "champ_016",
           "type": "date",
           "label": "Comptes de l’exercice clos le",
-          "opt": true,
           "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
         }
       ]
@@ -160,7 +142,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "De M",
-          "opt": true,
           "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
           "aide": "…acte de l’empêchement temporaire de M ▢ Président du Conseil d’Administration…"
         },
@@ -168,7 +149,6 @@
           "id": "champ_221",
           "type": "text",
           "label": "Depuis",
-          "opt": true,
           "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
           "aide": "…d’Administration ou de Président-Directeur Général depuis ▢ le…"
         },
@@ -176,7 +156,6 @@
           "id": "champ_018",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
           "aide": "…ou de Président-Directeur Général depuis le ▢"
         },
@@ -184,44 +163,37 @@
           "id": "champ_019",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Conseil d’Administration délègue à M",
-          "opt": true,
           "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Pour une durée de",
-          "opt": true,
           "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
         },
         {
           "id": "champ_222",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…",
           "aide": "…de la cessation de fonctions de ▢ M Président du Conseil…"
         },
         {
           "id": "champ_022",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…",
-          "aide": "…la cessation de fonctions de M ▢ Président du Conseil d’Administration…"
+          "label": "Nom et prénoms",
+          "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…"
         },
         {
           "id": "champ_023",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…",
           "aide": "…ou de Président-Directeur Général depuis le ▢"
         },
@@ -229,22 +201,18 @@
           "id": "champ_024",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
         },
         {
           "id": "champ_025",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…",
-          "aide": "…d’Administration délègue à ou nomme M ▢ Administrateur les fonctions en…"
+          "label": "Nom et prénoms",
+          "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
         },
         {
           "id": "champ_223",
           "type": "text",
           "label": "De Président du Conseil d’Administration",
-          "opt": true,
           "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
         }
       ]
@@ -259,60 +227,49 @@
           "id": "champ_026",
           "type": "text",
           "label": "Le Conseil d’Administration nomme M",
-          "opt": true,
           "group": "Le Conseil d’Administration nomme M … (Administrateur ou non…"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Société pour une durée de",
-          "opt": true,
           "group": "Le Conseil d’Administration nomme M … (Administrateur ou non…"
         },
         {
           "id": "champ_028",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … exercera ses fonctions jusqu’au … ;",
-          "aide": "…M ▢ exercera ses fonctions jusqu’au…"
+          "label": "Nom et prénoms",
+          "group": "M … exercera ses fonctions jusqu’au … ;"
         },
         {
           "id": "champ_029",
           "type": "date",
           "label": "Exercera ses fonctions jusqu’au",
-          "opt": true,
           "group": "M … exercera ses fonctions jusqu’au … ;"
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …, en sa qualité de Directeur Général, assure la Direction Générale…",
-          "aide": "…M ▢ en sa qualité de…"
+          "label": "Nom et prénoms",
+          "group": "M …, en sa qualité de Directeur Général, assure la Direction Générale…"
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "Limites fixées par l’Acte Uniforme",
-          "opt": true,
           "group": "Le Directeur Général aura droit à une rémunération déterminée comme…",
           "aide": "…à une rémunération déterminée comme suit ▢"
         },
         {
           "id": "champ_032",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…",
-          "aide": "…M ▢ le Président expose que…"
+          "label": "Nom et prénoms",
+          "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…"
         },
         {
           "id": "champ_033",
           "type": "text",
           "label": "Le Président expose que M",
-          "opt": true,
           "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…"
         }
       ]
@@ -334,67 +291,49 @@
           "id": "champ_035",
           "type": "text",
           "label": "Cette démission et remercie M",
-          "opt": true,
           "group": "Le Conseil accepte cette démission et remercie M … pour les efforts…"
         },
         {
           "id": "champ_036",
           "type": "text",
           "label": "Procède au remplacement de M",
-          "opt": true,
           "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
         },
         {
           "id": "champ_037",
           "type": "text",
           "label": "Et décide de nommer M",
-          "opt": true,
           "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
         },
         {
           "id": "champ_038",
           "type": "text",
           "label": "Société pour une durée de",
-          "opt": true,
           "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
-        },
-        {
-          "id": "champ_224",
-          "type": "text",
-          "label": "Directeur Général et son remplacement",
-          "opt": true,
-          "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…",
-          "aide": "…la société pour une durée de ▢"
         },
         {
           "id": "champ_225",
           "type": "text",
           "label": "À préciser",
-          "opt": true,
           "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…",
           "aide": "…la société pour une durée de ▢"
         },
         {
           "id": "champ_039",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M … exercera ses fonctions conformément aux dispositions légales et…",
-          "aide": "…M ▢ exercera ses fonctions conformément…"
+          "label": "Nom et prénoms",
+          "group": "M … exercera ses fonctions conformément aux dispositions légales et…"
         },
         {
           "id": "champ_040",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…",
-          "aide": "…ses fonctions le Directeur Général M ▢ aura droit à préciser…"
+          "label": "Nom et prénoms",
+          "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "Aura droit à",
-          "opt": true,
           "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…"
         },
         {
@@ -417,7 +356,6 @@
           "id": "champ_043",
           "type": "text",
           "label": "De Directeur Général de M",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de mettre fin, à compter de ce jour,…"
         },
         {
@@ -439,35 +377,30 @@
           "id": "champ_046",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
         },
         {
           "id": "champ_047",
           "type": "text",
           "label": "Le Conseil d’Administration nomme M",
-          "opt": true,
           "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
         },
         {
           "id": "champ_048",
           "type": "date",
           "label": "Comptes de l’exercice clos le",
-          "opt": true,
           "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Un projet de convention entre",
-          "opt": true,
           "group": "Le Président du Conseil d’Administration (ou le Président-Directeur…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Éléments du projet de convention",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -482,56 +415,48 @@
           "id": "champ_051",
           "type": "text",
           "label": "Éléments du projet de convention",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_052",
           "type": "text",
           "label": "Étant précisé que M",
-          "opt": true,
           "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Soumis à l’unanimité ou par",
-          "opt": true,
           "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
         },
         {
           "id": "champ_054",
           "type": "text",
           "label": "Voix contre",
-          "opt": true,
           "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "Voix et autorise M",
-          "opt": true,
           "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "De la démission de M",
-          "opt": true,
           "group": "Le Président expose qu’un poste (ou plusieurs postes) d’Administrateur…"
         },
         {
           "id": "champ_057",
           "type": "text",
           "label": "Administrateur en remplacement de M",
-          "opt": true,
           "group": "Il précise que le nombre d’Administrateurs restant n’est pas inférieur…"
         },
         {
           "id": "champ_058",
           "type": "text",
           "label": "Le Conseil nomme M",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……"
         }
       ]
@@ -560,21 +485,18 @@
           "id": "champ_061",
           "type": "text",
           "label": "En remplacement de M",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……"
         },
         {
           "id": "champ_062",
           "type": "text",
           "label": "Si la nomination de M",
-          "opt": true,
           "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…"
         },
         {
           "id": "champ_226",
           "type": "text",
           "label": "Soit jusqu’à",
-          "opt": true,
           "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…",
           "aide": "…mandat de son prédécesseur soit jusqu’à ▢ l’Assemblée Générale Ordinaire qui…"
         },
@@ -582,21 +504,18 @@
           "id": "champ_063",
           "type": "date",
           "label": "Comptes de l’exercice clos le",
-          "opt": true,
           "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…"
         },
         {
           "id": "champ_227",
           "type": "text",
           "label": "Le Conseil d’",
-          "opt": true,
           "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
         },
         {
           "id": "champ_064",
           "type": "text",
-          "label": "Qui était précédemment fixé à",
-          "opt": true,
+          "label": "Ancienne adresse",
           "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
         }
       ]
@@ -608,60 +527,39 @@
       "intro": "",
       "champs": [
         {
-          "id": "champ_228",
-          "type": "text",
-          "label": "Ancienne adresse",
-          "opt": true,
-          "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
-        },
-        {
           "id": "champ_065",
           "type": "text",
-          "label": "À",
-          "opt": true,
-          "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…",
-          "aide": "…qui était précédemment fixé à à ▢ à compter du…"
-        },
-        {
-          "id": "champ_229",
-          "type": "text",
           "label": "Nouvelle adresse",
-          "opt": true,
           "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
         },
         {
           "id": "champ_066",
           "type": "date",
           "label": "À compter du",
-          "opt": true,
           "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
         },
         {
           "id": "champ_067",
           "type": "text",
           "label": "Décide de modifier l’article n°",
-          "opt": true,
           "group": "En conséquence de ce qui précède, le Conseil d’Administration décide de…"
         },
         {
           "id": "champ_068",
           "type": "text",
           "label": "Article n°",
-          "opt": true,
           "group": "Article n° … Siège social"
         },
         {
           "id": "champ_069",
           "type": "text",
           "label": "Siège social est fixé à",
-          "opt": true,
           "group": "« Le siège social est fixé à … »"
         },
         {
           "id": "champ_230",
           "type": "text",
           "label": "Le Conseil d’",
-          "opt": true,
           "group": "Le Conseil d’ … Administration a procédé à l’examen du registre des…"
         }
       ]
@@ -676,70 +574,60 @@
           "id": "champ_070",
           "type": "text",
           "label": "Le 31 décembre",
-          "opt": true,
           "group": "Le Conseil d’ … Administration a procédé à l’examen du registre des…"
         },
         {
           "id": "champ_183",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_184",
           "type": "text",
           "label": "%",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_185",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_186",
           "type": "text",
           "label": "%",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_187",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 3"
         },
         {
           "id": "champ_188",
           "type": "text",
           "label": "%",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 3"
         },
         {
           "id": "champ_189",
           "type": "text",
           "label": "Nombre",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 4"
         },
         {
           "id": "champ_071",
           "type": "date",
           "label": "% du capital social le",
-          "opt": true,
           "group": "Le Conseil constate que les actions attribuées gratuitement aux membres…"
         },
         {
           "id": "champ_072",
           "type": "text",
           "label": "100 %",
-          "opt": true,
           "group": "Nombre d’actions attribuées gratuitement au personnel salarié : …",
           "aide": "…d’actions attribuées gratuitement au personnel salarié ▢"
         },
@@ -747,140 +635,120 @@
           "id": "champ_190",
           "type": "text",
           "label": "Nom desdirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_191",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_192",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_193",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_194",
           "type": "text",
           "label": "Nom desdirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_195",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_196",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_197",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_198",
           "type": "text",
           "label": "Nom desdirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_199",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_200",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_201",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_202",
           "type": "text",
           "label": "Nom desdirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_203",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_204",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_205",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_206",
           "type": "text",
           "label": "Nom des salariés nondirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_207",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_208",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_209",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         }
       ]
@@ -895,84 +763,72 @@
           "id": "champ_210",
           "type": "text",
           "label": "Nom des salariés nondirigeants",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_211",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_212",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_213",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_231",
           "type": "text",
           "label": "Salariés par les sociétés liées",
-          "opt": true,
           "group": "Actions attribuées gratuitement à l’ensemble des salariés par les…"
         },
         {
           "id": "champ_232",
           "type": "text",
           "label": "Valeurs des",
-          "opt": true,
           "group": "Valeurs des … actions"
         },
         {
           "id": "champ_214",
           "type": "text",
           "label": "Dénomination desSociétés liées",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_215",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_216",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 1"
         },
         {
           "id": "champ_217",
           "type": "text",
           "label": "Dénomination desSociétés liées",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_218",
           "type": "text",
           "label": "Nombre actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         },
         {
           "id": "champ_219",
           "type": "text",
           "label": "Valeurs des actions",
-          "opt": true,
           "group": "P. Etat de la participation des salariés au capita – ligne 2"
         }
       ]
@@ -987,21 +843,18 @@
           "id": "champ_233",
           "type": "text",
           "label": "De l’Assemblée Générale Ordinaire annuelle",
-          "opt": true,
           "group": "S. Convocation de l’Assemblée Générale Ordinaire annuelle …"
         },
         {
           "id": "champ_073",
           "type": "date",
           "label": "Assemblée Générale Ordinaire annuelle le",
-          "opt": true,
           "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…"
         },
         {
           "id": "champ_074",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…",
           "aide": "…Assemblée Générale Ordinaire annuelle le à ▢ au à l’effet de…"
         },
@@ -1009,7 +862,6 @@
           "id": "champ_075",
           "type": "text",
           "label": "Au",
-          "opt": true,
           "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…",
           "aide": "…Générale Ordinaire annuelle le à au ▢ à l’effet de délibérer…"
         },
@@ -1017,28 +869,18 @@
           "id": "champ_076",
           "type": "text",
           "label": "L’ordre du jour ainsi arrêté",
-          "opt": true,
           "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…"
         },
         {
           "id": "champ_077",
           "type": "text",
-          "label": "Transfert du siège social de",
-          "opt": true,
-          "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
-        },
-        {
-          "id": "champ_234",
-          "type": "text",
           "label": "Ancienne adresse",
-          "opt": true,
           "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
         },
         {
           "id": "champ_235",
           "type": "text",
           "label": "Avant « à à compter du »",
-          "opt": true,
           "group": "Le Conseil d’Administration propose le transfert du siège social de … à…",
           "aide": "…le transfert du siège social de ▢ à à compter du…"
         }
@@ -1053,30 +895,19 @@
         {
           "id": "champ_078",
           "type": "text",
-          "label": "À",
-          "opt": true,
-          "group": "Le Conseil d’Administration propose le transfert du siège social de … à…",
-          "aide": "…transfert du siège social de à ▢ à compter du pour…"
-        },
-        {
-          "id": "champ_236",
-          "type": "text",
           "label": "Nouvelle adresse",
-          "opt": true,
           "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
         },
         {
           "id": "champ_079",
           "type": "date",
           "label": "À compter du",
-          "opt": true,
           "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
         },
         {
           "id": "champ_080",
           "type": "text",
           "label": "Territoire étranger d’une autre ville",
-          "opt": true,
           "group": "Le Conseil d’Administration propose le transfert du siège social de … à…",
           "aide": "…compter du pour les raisons suivantes ▢"
         },
@@ -1084,7 +915,6 @@
           "id": "champ_081",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…de convoquer l’Assemblée Générale Extraordinaire le ▢ à heures au à…"
         },
@@ -1092,65 +922,49 @@
           "id": "champ_082",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
         },
         {
           "id": "champ_083",
           "type": "text",
-          "label": "Heures au",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
-        },
-        {
-          "id": "champ_237",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
-          "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         },
         {
           "id": "champ_238",
           "type": "text",
           "label": "Exigibles avant AGE",
-          "opt": true,
           "group": "V. Augmentation de capital en numéraire ou par compensation de créances…"
         },
         {
           "id": "champ_084",
           "type": "text",
           "label": "D’une augmentation de capital de",
-          "opt": true,
           "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
         },
         {
           "id": "champ_085",
           "type": "text",
           "label": "Par émission de",
-          "opt": true,
           "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
         },
         {
           "id": "champ_086",
           "type": "text",
           "label": "Compensation avec des créances certaines",
-          "opt": true,
           "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
         },
         {
           "id": "champ_087",
           "type": "text",
           "label": "Une prime d’émission de FCFA",
-          "opt": true,
           "group": "Ces actions émises avec une prime d’émission de FCFA … devraient être…"
         },
         {
           "id": "champ_239",
           "type": "text",
           "label": "Présenté à l’Assemblée Générale Extraordinaire",
-          "opt": true,
           "group": "Ces actions émises avec une prime d’émission de FCFA … devraient être…",
           "aide": "…la date de la présente assemblée ▢"
         },
@@ -1158,28 +972,24 @@
           "id": "champ_088",
           "type": "text",
           "label": "Souscription sera réservée à MM",
-          "opt": true,
           "group": "Variante : la souscription sera réservée à MM … En conséquence, il sera…"
         },
         {
           "id": "champ_089",
           "type": "text",
           "label": "Souscription au profit de MM",
-          "opt": true,
           "group": "Variante : la souscription sera réservée à MM … En conséquence, il sera…"
         },
         {
           "id": "champ_090",
           "type": "date",
           "label": "Convoquer l’Assemblée Générale Extraordinaire le",
-          "opt": true,
           "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……"
         },
         {
           "id": "champ_091",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
           "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
         },
@@ -1187,7 +997,6 @@
           "id": "champ_092",
           "type": "text",
           "label": "Au",
-          "opt": true,
           "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
           "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
         },
@@ -1195,7 +1004,6 @@
           "id": "champ_240",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
           "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
         }
@@ -1211,14 +1019,12 @@
           "id": "champ_093",
           "type": "text",
           "label": "Actions nouvelles seront reçues du",
-          "opt": true,
           "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…"
         },
         {
           "id": "champ_094",
           "type": "text",
           "label": "Au",
-          "opt": true,
           "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
           "aide": "…actions nouvelles seront reçues du au ▢ inclus au…"
         },
@@ -1226,38 +1032,25 @@
           "id": "champ_241",
           "type": "text",
           "label": "Inclus",
-          "opt": true,
           "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
           "aide": "…nouvelles seront reçues du au inclus ▢ au…"
         },
         {
           "id": "champ_095",
           "type": "text",
-          "label": "Au",
-          "opt": true,
-          "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
-          "aide": "…seront reçues du au inclus au ▢"
-        },
-        {
-          "id": "champ_242",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
-          "aide": "…seront reçues du au inclus au ▢"
+          "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…"
         },
         {
           "id": "champ_096",
           "type": "text",
           "label": "Montant des souscriptions reçues du",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
         },
         {
           "id": "champ_097",
           "type": "text",
           "label": "Au",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…",
           "aide": "…montant des souscriptions reçues du au ▢ s’élève à FCFA représentant…"
         },
@@ -1265,28 +1058,24 @@
           "id": "champ_098",
           "type": "text",
           "label": "S’élève à FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
         },
         {
           "id": "champ_099",
           "type": "text",
           "label": "L’augmentation de capital de FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
         },
         {
           "id": "champ_100",
           "type": "text",
           "label": "Par l’Assemblée Générale Extraordinaire du",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
         },
         {
           "id": "champ_101",
           "type": "text",
           "label": "Soit à FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le montant des…",
           "aide": "…des souscriptions recueillies soit à FCFA ▢"
         },
@@ -1294,28 +1083,24 @@
           "id": "champ_102",
           "type": "text",
           "label": "Comme suit les articles n°",
-          "opt": true,
           "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
         },
         {
           "id": "champ_103",
           "type": "text",
           "label": "De capital limitée à FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
         },
         {
           "id": "champ_104",
           "type": "date",
           "label": "Date de souscription par M",
-          "opt": true,
           "group": "Constate qu’à la date de souscription par M … de … actions nouvelles…"
         },
         {
           "id": "champ_105",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "Constate qu’à la date de souscription par M … de … actions nouvelles…",
           "aide": "…date de souscription par M de ▢ actions nouvelles représentant une…"
         },
@@ -1323,77 +1108,66 @@
           "id": "champ_106",
           "type": "text",
           "label": "Représentant une dette de FCFA",
-          "opt": true,
           "group": "Constate qu’à la date de souscription par M … de … actions nouvelles…"
         },
         {
           "id": "champ_107",
           "type": "text",
           "label": "Société d’une somme de FCFA",
-          "opt": true,
           "group": "Constate qu’à la date de souscription par M … de … actions nouvelles…"
         },
         {
           "id": "champ_108",
           "type": "text",
           "label": "Par l’Assemblée Générale Extraordinaire du",
-          "opt": true,
           "group": "Le Conseil après examen de la Déclaration Notariée de Souscription et…"
         },
         {
           "id": "champ_109",
           "type": "date",
           "label": "Est devenue définitive le",
-          "opt": true,
           "group": "Le Conseil après examen de la Déclaration Notariée de Souscription et…"
         },
         {
           "id": "champ_110",
           "type": "text",
           "label": "Modification apportée à l’article n°",
-          "opt": true,
           "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
         },
         {
           "id": "champ_111",
           "type": "text",
           "label": "Par l’Assemblée Générale Extraordinaire du",
-          "opt": true,
           "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
         },
         {
           "id": "champ_112",
           "type": "text",
           "label": "L’article n°",
-          "opt": true,
           "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
         },
         {
           "id": "champ_113",
           "type": "text",
           "label": "Article n°",
-          "opt": true,
           "group": "Article n° … : capital social"
         },
         {
           "id": "champ_114",
           "type": "text",
           "label": "Fixé à la somme de",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
         },
         {
           "id": "champ_115",
           "type": "text",
           "label": "Divisé en",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
         },
         {
           "id": "champ_116",
           "type": "text",
           "label": "Actions de",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
         }
       ]
@@ -1408,21 +1182,18 @@
           "id": "champ_117",
           "type": "text",
           "label": "D’augmentation de capital de FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration décide d’un projet d’augmentation de…"
         },
         {
           "id": "champ_118",
           "type": "text",
           "label": "Pour le porter de FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration décide d’un projet d’augmentation de…"
         },
         {
           "id": "champ_119",
           "type": "text",
           "label": "À FCFA",
-          "opt": true,
           "group": "Le Conseil d’Administration décide d’un projet d’augmentation de…",
           "aide": "…le porter de FCFA à FCFA ▢ par incorporation de sommes…"
         },
@@ -1430,7 +1201,6 @@
           "id": "champ_120",
           "type": "text",
           "label": "Primes",
-          "opt": true,
           "group": "Le Conseil d’Administration décide d’un projet d’augmentation de…",
           "aide": "…les réserves report à nouveau primes ▢"
         },
@@ -1438,21 +1208,18 @@
           "id": "champ_121",
           "type": "text",
           "label": "Il sera créé",
-          "opt": true,
           "group": "Il sera créé … actions nouvelles attribuées gratuitement aux…"
         },
         {
           "id": "champ_122",
           "type": "text",
           "label": "Aux actionnaires à raison de",
-          "opt": true,
           "group": "Il sera créé … actions nouvelles attribuées gratuitement aux…"
         },
         {
           "id": "champ_123",
           "type": "text",
           "label": "Actions nouvelles contre",
-          "opt": true,
           "group": "Il sera créé … actions nouvelles attribuées gratuitement aux…"
         },
         {
@@ -1474,31 +1241,20 @@
           "id": "champ_126",
           "type": "date",
           "label": "Générale Extraordinaire le",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         },
         {
           "id": "champ_127",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
         },
         {
           "id": "champ_128",
           "type": "text",
-          "label": "Heures au",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
-        },
-        {
-          "id": "champ_243",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
-          "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         }
       ]
     },
@@ -1512,14 +1268,12 @@
           "id": "champ_129",
           "type": "text",
           "label": "Décide de procéder",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le compte de…"
         },
         {
           "id": "champ_130",
           "type": "text",
           "label": "Avant « augmentation de capital par »",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le compte de…",
           "aide": "…au personnel salarié décide de procéder ▢ augmentation de capital par…"
         },
@@ -1527,42 +1281,36 @@
           "id": "champ_131",
           "type": "text",
           "label": "De capital par émission de",
-          "opt": true,
           "group": "Le Conseil d’Administration après avoir constaté que le compte de…"
         },
         {
           "id": "champ_132",
           "type": "text",
           "label": "Comme suit les articles n°",
-          "opt": true,
           "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
         },
         {
           "id": "champ_133",
           "type": "text",
           "label": "Capital aux termes duquel MM",
-          "opt": true,
           "group": "Approuve le projet d’augmentation de capital aux termes duquel MM ……"
         },
         {
           "id": "champ_134",
           "type": "text",
           "label": "Valeur",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_135",
           "type": "text",
           "label": "Valeur",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_136",
           "type": "text",
           "label": "Valeur",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -1577,72 +1325,55 @@
           "id": "champ_220",
           "type": "text",
           "label": "Valeur",
-          "opt": true,
           "group": "AD. Augmentation de capital par rapport en nature  – ligne 1"
         },
         {
           "id": "champ_137",
           "type": "text",
           "label": "Un apport net de FCFA",
-          "opt": true,
           "group": "Soit un apport net de FCFA …, sous réserve de l’évaluation du…"
         },
         {
           "id": "champ_138",
           "type": "text",
           "label": "Ces apports seront rémunérés par",
-          "opt": true,
           "group": "Ces apports seront rémunérés par … actions nouvelles."
         },
         {
           "id": "champ_139",
           "type": "text",
           "label": "Une prime d’apport de FCFA",
-          "opt": true,
           "group": "Ces actions seront émises avec une prime d’apport de FCFA …"
         },
         {
           "id": "champ_140",
           "type": "date",
           "label": "Actionnaires qui sera convoquée le",
-          "opt": true,
           "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…"
         },
         {
           "id": "champ_141",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…",
           "aide": "…actionnaires qui sera convoquée le à ▢ heures au sur l’ordre…"
         },
         {
           "id": "champ_142",
           "type": "text",
-          "label": "Heures au",
-          "opt": true,
-          "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…"
-        },
-        {
-          "id": "champ_244",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…",
-          "aide": "…sera convoquée le à heures au ▢ sur l’ordre du jour…"
+          "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…"
         },
         {
           "id": "champ_143",
           "type": "text",
           "label": "Propose la désignation de M",
-          "opt": true,
           "group": "Propose la désignation de M …. en qualité de Commissaire aux apports. ……"
         },
         {
           "id": "champ_245",
           "type": "text",
           "label": "Avant « A défaut d’unanimité des »",
-          "opt": true,
           "group": "Propose la désignation de M …. en qualité de Commissaire aux apports. ……",
           "aide": "…en qualité de Commissaire aux apports ▢ A défaut d’unanimité des…"
         }
@@ -1658,14 +1389,12 @@
           "id": "champ_144",
           "type": "text",
           "label": "Pour le ramener de FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de Proposer…"
         },
         {
           "id": "champ_145",
           "type": "text",
           "label": "À FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de Proposer…",
           "aide": "…le ramener de FCFA à FCFA ▢ pour absorber la perte…"
         },
@@ -1673,45 +1402,31 @@
           "id": "champ_146",
           "type": "text",
           "label": "Absorber la perte de FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de Proposer…"
         },
         {
           "id": "champ_147",
           "type": "date",
           "label": "Convoquer l’Assemblée Générale Extraordinaire le",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         },
         {
           "id": "champ_148",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
         },
         {
           "id": "champ_149",
           "type": "text",
-          "label": "Au",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
-          "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
-        },
-        {
-          "id": "champ_246",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
-          "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         },
         {
           "id": "champ_150",
           "type": "text",
           "label": "Pour le ramener de FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…"
         }
       ]
@@ -1726,7 +1441,6 @@
           "id": "champ_151",
           "type": "text",
           "label": "À FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…",
           "aide": "…le ramener de FCFA à FCFA ▢ par voie de remboursement…"
         },
@@ -1734,14 +1448,12 @@
           "id": "champ_152",
           "type": "text",
           "label": "Action d’une somme de FCFA",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…"
         },
         {
           "id": "champ_153",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…de convoquer l’Assemblée Générale Extraordinaire le ▢ à heures au à…"
         },
@@ -1749,37 +1461,25 @@
           "id": "champ_154",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
           "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
         },
         {
           "id": "champ_155",
           "type": "text",
-          "label": "Heures au",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
-        },
-        {
-          "id": "champ_247",
-          "type": "text",
           "label": "Lieu",
-          "opt": true,
-          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
-          "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+          "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
         },
         {
           "id": "champ_156",
           "type": "text",
           "label": "Condition suspensive prévue par l’article",
-          "opt": true,
           "group": "Constate la réalisation de la condition suspensive prévue par l’article…"
         },
         {
           "id": "champ_157",
           "type": "text",
           "label": "De réduction de capital peuvent",
-          "opt": true,
           "group": "Constate que les opérations de réduction de capital peuvent ……"
         }
       ]
@@ -1794,7 +1494,6 @@
           "id": "champ_158",
           "type": "text",
           "label": "Avant « conformément aux modalités de »",
-          "opt": true,
           "group": "Constate que les opérations de réduction de capital peuvent ……",
           "aide": "…opérations de réduction de capital peuvent ▢ conformément aux modalités de…"
         },
@@ -1802,29 +1501,18 @@
           "id": "champ_159",
           "type": "text",
           "label": "De l’Assemblée Générale Extraordinaire du",
-          "opt": true,
           "group": "Constate que les opérations de réduction de capital peuvent ……"
         },
         {
           "id": "champ_160",
           "type": "text",
           "label": "Fixe au",
-          "opt": true,
           "group": "Fixe au … la date à compter de laquelle le remboursement de FCFA … par…"
-        },
-        {
-          "id": "champ_248",
-          "type": "date",
-          "label": "Date",
-          "opt": true,
-          "group": "Fixe au … la date à compter de laquelle le remboursement de FCFA … par…",
-          "aide": "…Fixe au ▢ la date à compter…"
         },
         {
           "id": "champ_161",
           "type": "text",
           "label": "Laquelle le remboursement de FCFA",
-          "opt": true,
           "group": "Fixe au … la date à compter de laquelle le remboursement de FCFA … par…"
         },
         {
@@ -1845,7 +1533,6 @@
           "id": "champ_164",
           "type": "date",
           "label": "Au plus tard le",
-          "opt": true,
           "group": "Après en avoir délibéré, le Conseil d’Administration décide à…"
         }
       ]
@@ -1875,7 +1562,6 @@
           "id": "champ_167",
           "type": "text",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Nature et forme : ….",
           "aide": "…Nature et forme ▢"
         },
@@ -1883,14 +1569,12 @@
           "id": "champ_168",
           "type": "text",
           "label": "Valeur nominale du titre FCFA",
-          "opt": true,
           "group": "Valeur nominale du titre FCFA …"
         },
         {
           "id": "champ_169",
           "type": "text",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Valeur nominale du titre FCFA …",
           "aide": "…Valeur nominale du titre FCFA ▢"
         },
@@ -1898,14 +1582,12 @@
           "id": "champ_170",
           "type": "text",
           "label": "Nombre de titres à émettre",
-          "opt": true,
           "group": "Nombre de titres à émettre …"
         },
         {
           "id": "champ_171",
           "type": "text",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Nombre de titres à émettre …",
           "aide": "…Nombre de titres à émettre ▢"
         },
@@ -1913,7 +1595,6 @@
           "id": "champ_172",
           "type": "text",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Taux d’intérêt : …",
           "aide": "…Taux d’intérêt ▢"
         },
@@ -1921,7 +1602,6 @@
           "id": "champ_173",
           "type": "text",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Modalités d’attribution : …",
           "aide": "…Modalités d’attribution ▢"
         },
@@ -1929,7 +1609,6 @@
           "id": "champ_174",
           "type": "date",
           "label": "Emission de valeurs mobilières composées",
-          "opt": true,
           "group": "Date d’attribution : …",
           "aide": "…Date d’attribution ▢"
         },
@@ -1937,21 +1616,18 @@
           "id": "champ_175",
           "type": "text",
           "label": "Conversion en titre de capital",
-          "opt": true,
           "group": "Date limite d’option pour la conversion en titre de capital …"
         },
         {
           "id": "champ_176",
           "type": "text",
           "label": "Pour les titres de créances",
-          "opt": true,
           "group": "Modalités de remboursement pour les titres de créances …."
         },
         {
           "id": "champ_177",
           "type": "text",
           "label": "Aux actionnaires ou à MM",
-          "opt": true,
           "group": "La souscription des valeurs mobilières serait réservée par préférence…"
         }
       ]
@@ -1981,21 +1657,18 @@
           "id": "champ_180",
           "type": "text",
           "label": "Minimum d’Administrateurs au Conseil d'Administration",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_181",
           "type": "text",
           "label": "Préférence auront les caractéristiques suivantes",
-          "opt": true,
           "group": "Ces actions de préférence auront les caractéristiques suivantes …. et…"
         },
         {
           "id": "champ_182",
           "type": "text",
           "label": "Minimum d’Administrateurs au Conseil d'Administration",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -2171,7 +1844,7 @@
     },
     {
       "k": "p",
-      "text": "Après en avoir délibérer, le Conseil procède au remplacement de M {{champ_036}} et décide de nommer M {{champ_037}} en qualité de Directeur Général de la société pour une durée de {{champ_038}} {{champ_224}} {{champ_225}}."
+      "text": "Après en avoir délibérer, le Conseil procède au remplacement de M {{champ_036}} et décide de nommer M {{champ_037}} en qualité de Directeur Général de la société pour une durée de {{champ_038}} {{champ_225}}."
     },
     {
       "k": "p",
@@ -2273,7 +1946,7 @@
     },
     {
       "k": "p",
-      "text": "Le Conseil d’ {{champ_227}} Administration décide de transférer le siège social qui était précédemment fixé à {{champ_064}} {{champ_228}} à {{champ_065}} {{champ_229}} à compter du {{champ_066}}"
+      "text": "Le Conseil d’ {{champ_227}} Administration décide de transférer le siège social qui était précédemment fixé à {{champ_064}} à {{champ_065}} à compter du {{champ_066}}"
     },
     {
       "k": "p",
@@ -2641,11 +2314,11 @@
     },
     {
       "k": "p",
-      "text": "Le Conseil d’Administration propose le transfert du siège social de {{champ_077}} {{champ_234}} {{champ_235}} à {{champ_078}} {{champ_236}} à compter du {{champ_079}} pour les raisons suivantes : {{champ_080}}."
+      "text": "Le Conseil d’Administration propose le transfert du siège social de {{champ_077}} {{champ_235}} à {{champ_078}} à compter du {{champ_079}} pour les raisons suivantes : {{champ_080}}."
     },
     {
       "k": "p",
-      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_081}} à {{champ_082}} heures au {{champ_083}} {{champ_237}} à l’effet de délibérer sur l’ordre du jour suivant :"
+      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_081}} à {{champ_082}} heures au {{champ_083}} à l’effet de délibérer sur l’ordre du jour suivant :"
     },
     {
       "k": "p",
@@ -2726,7 +2399,7 @@
     },
     {
       "k": "li",
-      "text": "Les souscriptions aux actions nouvelles seront reçues du {{champ_093}} au {{champ_094}} inclus {{champ_241}} au {{champ_095}} {{champ_242}} ;",
+      "text": "Les souscriptions aux actions nouvelles seront reçues du {{champ_093}} au {{champ_094}} inclus {{champ_241}} au {{champ_095}};",
       "mk": "-"
     },
     {
@@ -2826,7 +2499,7 @@
     },
     {
       "k": "p",
-      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée     Générale Extraordinaire  le {{champ_126}} à {{champ_127}} heures au {{champ_128}} {{champ_243}} à l’effet de délibérer sur l’ordre du jour suivant :"
+      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée     Générale Extraordinaire  le {{champ_126}} à {{champ_127}} heures au {{champ_128}} à l’effet de délibérer sur l’ordre du jour suivant :"
     },
     {
       "k": "li",
@@ -2925,7 +2598,7 @@
     },
     {
       "k": "li",
-      "text": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des actionnaires qui sera convoquée le {{champ_140}} à {{champ_141}} heures au {{champ_142}} {{champ_244}} sur l’ordre du jour suivant :",
+      "text": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des actionnaires qui sera convoquée le {{champ_140}} à {{champ_141}} heures au {{champ_142}} sur l’ordre du jour suivant :",
       "mk": "-"
     },
     {
@@ -2982,7 +2655,7 @@
     },
     {
       "k": "p",
-      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire le {{champ_147}} à {{champ_148}} heures, au {{champ_149}} {{champ_246}}, à l’effet de délibérer sur l’ordre du jour suivant :"
+      "text": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire le {{champ_147}} à {{champ_148}} heures, au {{champ_149}}, à l’effet de délibérer sur l’ordre du jour suivant :"
     },
     {
       "k": "li",
@@ -3031,7 +2704,7 @@
     },
     {
       "k": "p",
-      "text": "Le  Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_153}} à {{champ_154}} heures au {{champ_155}} {{champ_247}} à l’effet de délibérer sur l’ordre du jour suivant :"
+      "text": "Le  Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_153}} à {{champ_154}} heures au {{champ_155}} à l’effet de délibérer sur l’ordre du jour suivant :"
     },
     {
       "k": "li",
@@ -3087,7 +2760,7 @@
     },
     {
       "k": "li",
-      "text": "Fixe au {{champ_160}} {{champ_248}} la date à compter  de laquelle le remboursement de FCFA {{champ_161}} par action pourra être obtenu du siège social ;",
+      "text": "Fixe au {{champ_160}} la date à compter  de laquelle le remboursement de FCFA {{champ_161}} par action pourra être obtenu du siège social ;",
       "mk": "-"
     },
     {
@@ -3197,7 +2870,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
@@ -3241,7 +2914,6 @@
     "champ_036": "Exemple",
     "champ_037": "Exemple",
     "champ_038": "Exemple",
-    "champ_224": "Exemple",
     "champ_225": "Exemple",
     "champ_039": "Exemple",
     "champ_040": "Exemple",
@@ -3271,9 +2943,7 @@
     "champ_063": "2000-01-01",
     "champ_227": "Exemple",
     "champ_064": "Exemple",
-    "champ_228": "Exemple",
     "champ_065": "Exemple",
-    "champ_229": "Exemple",
     "champ_066": "2000-01-01",
     "champ_067": "Exemple",
     "champ_068": "Exemple",
@@ -3327,16 +2997,13 @@
     "champ_075": "Exemple",
     "champ_076": "Exemple",
     "champ_077": "Exemple",
-    "champ_234": "Exemple",
     "champ_235": "Exemple",
     "champ_078": "Exemple",
-    "champ_236": "Exemple",
     "champ_079": "2000-01-01",
     "champ_080": "Exemple",
     "champ_081": "2000-01-01",
     "champ_082": "Exemple",
     "champ_083": "Exemple",
-    "champ_237": "Exemple",
     "champ_238": "Exemple",
     "champ_084": "Exemple",
     "champ_085": "Exemple",
@@ -3353,7 +3020,6 @@
     "champ_094": "Exemple",
     "champ_241": "Exemple",
     "champ_095": "Exemple",
-    "champ_242": "Exemple",
     "champ_096": "Exemple",
     "champ_097": "Exemple",
     "champ_098": "Exemple",
@@ -3387,7 +3053,6 @@
     "champ_126": "2000-01-01",
     "champ_127": "Exemple",
     "champ_128": "Exemple",
-    "champ_243": "Exemple",
     "champ_129": "Exemple",
     "champ_130": "Exemple",
     "champ_131": "Exemple",
@@ -3403,7 +3068,6 @@
     "champ_140": "2000-01-01",
     "champ_141": "Exemple",
     "champ_142": "Exemple",
-    "champ_244": "Exemple",
     "champ_143": "Exemple",
     "champ_245": "Exemple",
     "champ_144": "Exemple",
@@ -3412,20 +3076,17 @@
     "champ_147": "2000-01-01",
     "champ_148": "Exemple",
     "champ_149": "Exemple",
-    "champ_246": "Exemple",
     "champ_150": "Exemple",
     "champ_151": "Exemple",
     "champ_152": "Exemple",
     "champ_153": "2000-01-01",
     "champ_154": "Exemple",
     "champ_155": "Exemple",
-    "champ_247": "Exemple",
     "champ_156": "Exemple",
     "champ_157": "Exemple",
     "champ_158": "Exemple",
     "champ_159": "Exemple",
     "champ_160": "Exemple",
-    "champ_248": "2000-01-01",
     "champ_161": "Exemple",
     "champ_162": "Exemple",
     "champ_163": "Exemple",
@@ -3448,5 +3109,7 @@
     "champ_180": "Exemple",
     "champ_181": "Exemple",
     "champ_182": "Exemple"
-  }
+  },
+  "etapesAuChoix": true,
+  "noteForm": "Ce modèle réunit plusieurs décisions possibles du conseil (remplacement du président, directeur général, conventions, cooptation, augmentation de capital…). Remplissez seulement celles qui vous concernent : les parties laissées vides restent en pointillés dans le document."
 }

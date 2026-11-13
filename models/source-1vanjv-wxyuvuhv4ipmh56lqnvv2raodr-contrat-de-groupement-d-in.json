@@ -26,7 +26,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "- M",
-          "opt": true,
           "group": "- M … (nom, raison sociale ou dénomination sociale, forme juridique,…",
           "aide": "…- M ▢ nom raison sociale ou…"
         },
@@ -34,7 +33,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "- M",
-          "opt": true,
           "group": "- M … (nom, raison sociale ou dénomination sociale, forme juridique,…",
           "aide": "…- M ▢ nom raison sociale ou…"
         },
@@ -42,7 +40,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "- etc",
-          "opt": true,
           "group": "- etc …",
           "aide": "…- etc ▢"
         },
@@ -50,7 +47,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "ARTICLE 2 Dénomination",
-          "opt": true,
           "group": "Le Groupement d’Intérêt Economique a pour dénomination « … ».",
           "aide": "…Groupement d’Intérêt Economique a pour dénomination ▢"
         },
@@ -58,14 +54,12 @@
           "id": "champ_058",
           "type": "text",
           "label": "Préciser l’objet du GIE",
-          "opt": true,
           "group": "-…"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "- …",
           "aide": "…- ▢"
         },
@@ -73,7 +67,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "- …",
           "aide": "…- ▢"
         },
@@ -81,7 +74,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Crédit Mobilier jusqu’au 31 Décembre",
-          "opt": true,
           "group": "L’exercice commence le 1er Janvier et finit le 31 Décembre de chaque…"
         }
       ]
@@ -96,56 +88,48 @@
           "id": "champ_008",
           "type": "text",
           "label": "Constitué pour une durée de",
-          "opt": true,
           "group": "Le Groupement d’Intérêt Economique est constitué pour une durée de ……"
         },
         {
           "id": "champ_009",
           "type": "date",
           "label": "Il arrive à expiration le",
-          "opt": true,
           "group": "Il arrive à expiration le …"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Economique a un capital de",
-          "opt": true,
           "group": "Le Groupement d’Intérêt Economique a un capital de … FCFA divisé en ……"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "FCFA divisé en",
-          "opt": true,
           "group": "Le Groupement d’Intérêt Economique a un capital de … FCFA divisé en ……"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Parts de",
-          "opt": true,
           "group": "Le Groupement d’Intérêt Economique a un capital de … FCFA divisé en ……"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Représentatif d’apports en numéraire pour",
-          "opt": true,
           "group": "Le capital est représentatif d’apports en numéraire pour … FCFA et…"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Et d’apports en nature pour",
-          "opt": true,
           "group": "Le capital est représentatif d’apports en numéraire pour … FCFA et…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         }
       ]
@@ -160,133 +144,114 @@
           "id": "champ_016",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_020",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Nombre de parts",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "Total",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "Total",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Total",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_033",
           "type": "text",
           "label": "Total",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_034",
           "type": "text",
           "label": "Refus d’autorisation",
-          "opt": true,
           "group": "Etc.…",
           "aide": "…Etc ▢"
         },
@@ -294,7 +259,6 @@
           "id": "champ_059",
           "type": "text",
           "label": "À préciser",
-          "opt": true,
           "group": "L’augmentation du capital peut être réalisée par apports nouve aux, en…",
           "aide": "…par élévation du nominal des parts ▢"
         }
@@ -317,14 +281,12 @@
           "id": "champ_060",
           "type": "text",
           "label": "Préciser",
-          "opt": true,
           "group": "Le retrait doit être notifié au Groupement d’Intérêt Economique et aux…"
         },
         {
           "id": "champ_036",
           "type": "text",
           "label": "Adressé dans un délai de",
-          "opt": true,
           "group": "Le retrait doit être notifié au Groupement d’Intérêt Economique et aux…"
         },
         {
@@ -338,7 +300,6 @@
           "id": "champ_061",
           "type": "text",
           "label": "Préciser les raisons pouvant entraîner l’exclusion",
-          "opt": true,
           "group": "Tout membre du Groupement d’Intérêt Economique qui aura fait ou qui se…"
         },
         {
@@ -352,14 +313,12 @@
           "id": "champ_039",
           "type": "text",
           "label": "Ordinaire pour une durée de",
-          "opt": true,
           "group": "Les Administrateurs sont désignés par l’Assemblée Générale Ordinaire…"
         },
         {
           "id": "champ_040",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "- …",
           "aide": "…- ▢"
         }
@@ -375,7 +334,6 @@
           "id": "champ_041",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "- …",
           "aide": "…- ▢"
         },
@@ -383,7 +341,6 @@
           "id": "champ_042",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "-…",
           "aide": "…- ▢"
         },
@@ -391,7 +348,6 @@
           "id": "champ_043",
           "type": "text",
           "label": "-",
-          "opt": true,
           "group": "- …",
           "aide": "…- ▢"
         },
@@ -399,22 +355,12 @@
           "id": "champ_044",
           "type": "text",
           "label": "Ses pouvoirs",
-          "opt": true,
-          "group": "Ses pouvoirs … ."
-        },
-        {
-          "id": "champ_062",
-          "type": "text",
-          "label": "À préciser",
-          "opt": true,
-          "group": "Ses pouvoirs … .",
-          "aide": "…Ses pouvoirs ▢"
+          "group": "Ses pouvoirs …."
         },
         {
           "id": "champ_045",
           "type": "text",
           "label": "Convoquée dans les délais ci-après",
-          "opt": true,
           "group": "Pour l’Assemblée Générale Ordinaire chargée de statuer sur les comptes…",
           "aide": "…chargée de statuer sur les comptes ▢"
         },
@@ -422,7 +368,6 @@
           "id": "champ_046",
           "type": "text",
           "label": "Convoquée dans les délais ci-après",
-          "opt": true,
           "group": "Pour les autres Assemblées Générales Ordinaires : … ;",
           "aide": "…Pour les autres Assemblées Générales Ordinaires ▢"
         },
@@ -430,7 +375,6 @@
           "id": "champ_047",
           "type": "text",
           "label": "Convoquée dans les délais ci-après",
-          "opt": true,
           "group": "Pour les autres Assemblées Générales Extraordinaires : …",
           "aide": "…Pour les autres Assemblées Générales Extraordinaires ▢"
         }
@@ -446,28 +390,24 @@
           "id": "champ_048",
           "type": "text",
           "label": "Délibère valablement si",
-          "opt": true,
           "group": "L’Assemblée Générale Ordinaire : délibère valablement si … membres sont…"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Prises à la majorité de",
-          "opt": true,
           "group": "Les décisions sont prises à la majorité de …"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Délibère valablement si",
-          "opt": true,
           "group": "L’Assemblée Générale Extraordinaire : délibère valablement si … membres…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Prises à la majorité de",
-          "opt": true,
           "group": "Les décisions sont prises à la majorité de …"
         },
         {
@@ -482,21 +422,18 @@
           "id": "champ_052",
           "type": "text",
           "label": "L’Assemblée Générale peut décider que",
-          "opt": true,
           "group": "L’Assemblée Générale peut décider que …% du bénéfice revenant à chaque…"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Aura atteint la somme de",
-          "opt": true,
           "group": "Lorsque ce montant aura atteint la somme de … ou le pourcentage de … %…"
         },
         {
           "id": "champ_054",
           "type": "text",
           "label": "Ou le pourcentage de",
-          "opt": true,
           "group": "Lorsque ce montant aura atteint la somme de … ou le pourcentage de … %…"
         }
       ]
@@ -511,21 +448,18 @@
           "id": "champ_055",
           "type": "text",
           "label": "Compte courant est indisponible jusqu’à",
-          "opt": true,
           "group": "Lorsque ce montant aura atteint la somme de … ou le pourcentage de … %…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Il est nommé pour",
-          "opt": true,
           "group": "Il est nommé pour … exercices par l’Assemblée Générale (Assemblée…"
         },
         {
           "id": "champ_064",
           "type": "text",
           "label": "À préciser",
-          "opt": true,
           "group": "Le contrôleur de la gestion est rémunéré comme suit …",
           "aide": "…la gestion est rémunéré comme suit ▢"
         },
@@ -533,7 +467,6 @@
           "id": "champ_057",
           "type": "text",
           "label": "Durée de six 6 exercices",
-          "opt": true,
           "group": "Si le Groupement d’Intérêt Economique n’émet pas d’obligations, le…",
           "aide": "…d’investigations durée du mandat rémunération etc ▢"
         },
@@ -541,7 +474,6 @@
           "id": "champ_065",
           "type": "text",
           "label": "Préciser, sinon ce sera l’unanimité qui sera requise",
-          "opt": true,
           "group": "Par la décision de ses membres aux conditions de quorum et de majorité…"
         }
       ]
@@ -1054,7 +986,7 @@
     },
     {
       "k": "p",
-      "text": "Ses pouvoirs {{champ_044}} {{champ_062}}."
+      "text": "Ses pouvoirs {{champ_044}}."
     },
     {
       "k": "p",
@@ -1307,7 +1239,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1vanjv-wxyuvuhv4ipmh56lqnvv2raodr-contrat-de-groupement-d-in.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
@@ -1358,7 +1290,6 @@
     "champ_042": "Exemple",
     "champ_043": "Exemple",
     "champ_044": "Exemple",
-    "champ_062": "Exemple",
     "champ_045": "Exemple",
     "champ_046": "Exemple",
     "champ_047": "Exemple",

@@ -26,14 +26,12 @@
           "id": "date_acte",
           "type": "date",
           "label": "Date de l’acte",
-          "opt": true,
           "group": "Conformément à l’article 908 dudit Acte, le délai pour la mise en…"
         },
         {
           "id": "partie_1",
           "type": "text",
           "label": "Première partie",
-          "opt": true,
           "group": "Je vous prie de croire, Monsieur …, à l’assurance de mes salutations…",
           "aide": "…Je vous prie de croire Monsieur ▢ à l’assurance de mes…"
         }

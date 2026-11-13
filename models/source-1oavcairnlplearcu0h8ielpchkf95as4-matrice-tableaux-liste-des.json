@@ -26,7 +26,6 @@
           "id": "champ_196",
           "type": "text",
           "label": "PROFESSION",
-          "opt": true,
           "group": "PROFESSION …",
           "aide": "…PROFESSION ▢"
         },
@@ -34,35 +33,30 @@
           "id": "champ_001",
           "type": "text",
           "label": "Nom et prenoms",
-          "opt": true,
           "group": "Liste des membres fondateurs – ligne 1"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "Liste des membres fondateurs – ligne 1"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Profession",
-          "opt": true,
           "group": "Liste des membres fondateurs – ligne 1"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Contacts",
-          "opt": true,
           "group": "Liste des membres fondateurs – ligne 1"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Nationalite",
-          "opt": true,
           "group": "Liste des membres fondateurs – ligne 1"
         },
         {
@@ -400,7 +394,6 @@
           "id": "champ_197",
           "type": "text",
           "label": "PROFESSION",
-          "opt": true,
           "group": "PROFESSION …",
           "aide": "…PROFESSION ▢"
         },
@@ -408,35 +401,30 @@
           "id": "champ_051",
           "type": "text",
           "label": "Nom et prenoms",
-          "opt": true,
           "group": "Liste des membres du bureau executif – ligne 1"
         },
         {
           "id": "champ_052",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "Liste des membres du bureau executif – ligne 1"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Profession",
-          "opt": true,
           "group": "Liste des membres du bureau executif – ligne 1"
         },
         {
           "id": "champ_054",
           "type": "text",
           "label": "Contacts",
-          "opt": true,
           "group": "Liste des membres du bureau executif – ligne 1"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "Nationalite",
-          "opt": true,
           "group": "Liste des membres du bureau executif – ligne 1"
         },
         {
@@ -774,7 +762,6 @@
           "id": "champ_198",
           "type": "text",
           "label": "PROFESSION",
-          "opt": true,
           "group": "PROFESSION …",
           "aide": "…PROFESSION ▢"
         },
@@ -782,35 +769,30 @@
           "id": "champ_101",
           "type": "text",
           "label": "Nom et prenoms",
-          "opt": true,
           "group": "Liste des membres du commissariat aux comptes – ligne 1"
         },
         {
           "id": "champ_102",
           "type": "text",
           "label": "Fonction",
-          "opt": true,
           "group": "Liste des membres du commissariat aux comptes – ligne 1"
         },
         {
           "id": "champ_103",
           "type": "text",
           "label": "Profession",
-          "opt": true,
           "group": "Liste des membres du commissariat aux comptes – ligne 1"
         },
         {
           "id": "champ_104",
           "type": "text",
           "label": "Contacts",
-          "opt": true,
           "group": "Liste des membres du commissariat aux comptes – ligne 1"
         },
         {
           "id": "champ_105",
           "type": "text",
           "label": "Nationalite",
-          "opt": true,
           "group": "Liste des membres du commissariat aux comptes – ligne 1"
         },
         {
@@ -1148,21 +1130,18 @@
           "id": "champ_151",
           "type": "text",
           "label": "Nom et prenoms",
-          "opt": true,
           "group": "Liste de presence a l’assemblee generale – ligne 1"
         },
         {
           "id": "champ_152",
           "type": "text",
           "label": "Nationalite",
-          "opt": true,
           "group": "Liste de presence a l’assemblee generale – ligne 1"
         },
         {
           "id": "champ_153",
           "type": "text",
           "label": "Contacts",
-          "opt": true,
           "group": "Liste de presence a l’assemblee generale – ligne 1"
         },
         {
@@ -2222,5 +2201,7 @@
     "champ_193": "Exemple",
     "champ_194": "Exemple",
     "champ_195": "Exemple"
-  }
+  },
+  "etapesAuChoix": true,
+  "noteForm": "Ce modèle réunit plusieurs listes (membres fondateurs, bureau exécutif, commissariat aux comptes, présence à l’assemblée). Remplissez seulement celles dont vous avez besoin : les listes laissées vides restent en pointillés dans le document."
 }

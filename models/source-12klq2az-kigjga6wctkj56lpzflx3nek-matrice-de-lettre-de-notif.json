@@ -26,28 +26,18 @@
           "id": "champ_001",
           "type": "text",
           "label": "Société Administrée",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "En sa séance du",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
         },
         {
           "id": "champ_003",
           "type": "text",
-          "label": "A désigné M",
-          "opt": true,
-          "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
           "label": "Identification, adresse",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
         },
         {
@@ -61,7 +51,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "En sa séance du",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
         },
         {
@@ -75,7 +64,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "Avant « avait confié à M »",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…",
           "aide": "…notre société en sa qualité d’Administrateur ▢ avait confié à M…"
         }
@@ -91,21 +79,18 @@
           "id": "champ_007",
           "type": "text",
           "label": "Avait confié à M",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Confié ce mandat à M",
-          "opt": true,
           "group": "Nous avons l’honneur de vous informer que le Conseil d’Administration…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à …, le …",
           "aide": "…Fait à ▢ le…",
           "profil": "ville"
@@ -114,7 +99,6 @@
           "id": "champ_010",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Fait à …, le …",
           "aide": "…Fait à le ▢"
         }
@@ -178,7 +162,7 @@
     },
     {
       "k": "p",
-      "text": "Nous avons l’honneur de vous informer que le Conseil d’Administration de notre société, en sa séance du {{champ_002}}, a désigné M {{champ_003}} {{champ_011}}, en qualité de représentant permanent pour exercer le mandat d’Administrateur qui nous a été confié par votre société (dans ses statuts, ou lors de son Assemblée Générale du {{champ_004}})."
+      "text": "Nous avons l’honneur de vous informer que le Conseil d’Administration de notre société, en sa séance du {{champ_002}}, a désigné M {{champ_003}}, en qualité de représentant permanent pour exercer le mandat d’Administrateur qui nous a été confié par votre société (dans ses statuts, ou lors de son Assemblée Générale du {{champ_004}})."
     },
     {
       "k": "p",
@@ -202,13 +186,12 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-12klq2az-kigjga6wctkj56lpzflx3nek-matrice-de-lettre-de-notif.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
     "champ_002": "Exemple",
     "champ_003": "Exemple",
-    "champ_011": "Exemple",
     "champ_004": "Exemple",
     "champ_005": "Exemple",
     "champ_006": "Exemple",

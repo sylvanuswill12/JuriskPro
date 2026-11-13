@@ -26,28 +26,24 @@
           "id": "champ_001",
           "type": "text",
           "label": "Le Bureau Exécutif comprend",
-          "opt": true,
           "group": "Le Bureau Exécutif comprend ….membres."
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Aux Comptes est composé de",
-          "opt": true,
           "group": "Le Commissariat aux Comptes est composé de ….membres."
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Adopté en Assemblée Générale à",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale à … ., le …"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale à … ., le …",
           "aide": "…et adopté en Assemblée Générale à ▢ le…"
         },
@@ -55,7 +51,6 @@
           "id": "champ_005",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale à … ., le …",
           "aide": "…adopté en Assemblée Générale à le ▢"
         },
@@ -63,7 +58,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "Nom Prénoms",
-          "opt": true,
           "group": "Nom & Prénoms … Nom & Prénoms",
           "aide": "…Nom Prénoms ▢ Nom Prénoms…"
         }

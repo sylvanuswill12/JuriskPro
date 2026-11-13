@@ -33,56 +33,67 @@
           "id": "champ_001",
           "type": "text",
           "label": "AU PROFIT DE",
-          "opt": true,
           "group": "AU PROFIT DE … ET OUVERTURE DE CREDIT PAR …"
         },
         {
           "id": "banque",
           "type": "text",
           "label": "Banque",
-          "opt": true,
           "group": "AU PROFIT DE … ET OUVERTURE DE CREDIT PAR …"
+        },
+        {
+          "id": "date_acte",
+          "type": "date",
+          "label": "Date de l’acte",
+          "group": "LE …"
         },
         {
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE),…",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…",
           "profil": "nom",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…"
+        },
+        {
           "id": "champ_020",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Nom",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , …."
         },
         {
           "id": "champ_021",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Prénoms",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , …."
         },
         {
           "id": "champ_022",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame ▢ demeurant à Commune de…"
         },
         {
           "id": "champ_023",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…1 Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , …."
         }
       ]
     },
@@ -96,71 +107,67 @@
           "id": "champ_024",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_025",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_026",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_027",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_028",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…1 Madame demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…demeurant à ABIDJAN Commune de BP ▢ ABIDJAN…"
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…Madame demeurant à Commune de BP ▢"
+        },
+        {
+          "id": "ville_bp",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , …."
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "ABIDJAN",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…à ABIDJAN Commune de BP ABIDJAN ▢"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , …."
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "ONT COMPARU",
-          "opt": true,
-          "group": "1) Madame … , … ,demeurant à ABIDJAN, Commune de … , … , … BP … ABIDJAN…",
-          "aide": "…à ABIDJAN Commune de BP ABIDJAN ▢"
+          "group": "1) Madame … , … ,demeurant à …, Commune de … , … , … BP … , ….",
+          "aide": "…Madame demeurant à Commune de BP ▢"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Née à",
-          "opt": true,
           "group": "Née à … , le …,",
           "aide": "…Née à ▢ le…"
         },
@@ -168,7 +175,6 @@
           "id": "champ_033",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Née à … , le …,",
           "aide": "…Née à ▢ le…"
         },
@@ -176,7 +182,6 @@
           "id": "champ_034",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Née à … , le …,",
           "aide": "…Née à le ▢"
         },
@@ -184,7 +189,6 @@
           "id": "champ_035",
           "type": "text",
           "label": "De Nationalité",
-          "opt": true,
           "group": "De Nationalité … ,",
           "aide": "…De Nationalité ▢"
         },
@@ -192,7 +196,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "ONT COMPARU",
-          "opt": true,
           "group": "De Nationalité … ,",
           "aide": "…De Nationalité ▢"
         },
@@ -200,14 +203,12 @@
           "id": "champ_037",
           "type": "text",
           "label": "Carte Nationale d’Identité numéro C",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et …."
         },
         {
           "id": "champ_038",
           "type": "date",
           "label": "Établie le",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et ….",
           "aide": "…Nationale d’Identité numéro C établie le ▢ et…"
         },
@@ -215,25 +216,20 @@
           "id": "champ_039",
           "type": "text",
           "label": "Et",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro C … établie le … et ….",
           "aide": "…d’Identité numéro C établie le et ▢"
         },
         {
           "id": "champ_040",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…",
-          "aide": "…Madame ▢ ci-après dénommée dans le…"
+          "label": "Nom",
+          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…"
         },
         {
           "id": "champ_041",
           "type": "text",
-          "label": "Avant « ci-après dénommée dans le »",
-          "opt": true,
-          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…",
-          "aide": "…Madame ▢ ci-après dénommée dans le…"
+          "label": "Prénoms",
+          "group": "Madame … , ci-après dénommée dans le corps de l'acte et pour en…"
         }
       ]
     },
@@ -246,16 +242,13 @@
         {
           "id": "champ_042",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "2) Monsieur … ,",
-          "aide": "…2 Monsieur ▢"
+          "label": "Nom",
+          "group": "2) Monsieur … ,"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "DE PREMIERE PART",
-          "opt": true,
           "group": "2) Monsieur … ,",
           "aide": "…2 Monsieur ▢"
         },
@@ -264,61 +257,60 @@
           "type": "text",
           "label": "Et son épouse Madame",
           "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…"
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…"
         },
         {
           "id": "champ_045",
           "type": "text",
           "label": "Avant « tous deux demeurant à »",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
           "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
         },
         {
           "id": "champ_046",
           "type": "text",
           "label": "Avant « tous deux demeurant à »",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
           "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
         },
         {
           "id": "champ_047",
           "type": "text",
           "label": "Avant « tous deux demeurant à »",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
           "aide": "…et son épouse Madame ▢ tous deux demeurant à…"
+        },
+        {
+          "id": "ville_residence_2",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
-          "aide": "…deux demeurant à ABIDJAN Commune de ▢ Quartier…"
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
+          "aide": "…tous deux demeurant à Commune de ▢ Quartier…"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Avant « Quartier »",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
           "aide": "…deux demeurant à ABIDJAN Commune de ▢ Quartier…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "et son épouse Madame … , … , tous deux demeurant à ABIDJAN, Commune de…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢"
+          "group": "et son épouse Madame … , … , tous deux demeurant à …, Commune de … ,…",
+          "aide": "…deux demeurant à Commune de Quartier ▢"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Monsieur à",
-          "opt": true,
           "group": "Monsieur à … , le …, …",
           "aide": "…Monsieur à ▢ le…"
         },
@@ -326,7 +318,6 @@
           "id": "champ_052",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Monsieur à … , le …, …",
           "aide": "…Monsieur à ▢ le…"
         },
@@ -334,7 +325,6 @@
           "id": "champ_053",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Monsieur à … , le …, …",
           "aide": "…Monsieur à le ▢"
         },
@@ -342,7 +332,6 @@
           "id": "champ_054",
           "type": "date",
           "label": "Nés savoir",
-          "opt": true,
           "group": "Monsieur à … , le …, …",
           "aide": "…Monsieur à le ▢"
         },
@@ -350,7 +339,6 @@
           "id": "champ_055",
           "type": "text",
           "label": "Madame à",
-          "opt": true,
           "group": "Madame à … , le …,",
           "aide": "…Madame à ▢ le…"
         },
@@ -358,7 +346,6 @@
           "id": "champ_056",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Madame à … , le …,",
           "aide": "…Madame à ▢ le…"
         },
@@ -366,7 +353,6 @@
           "id": "champ_057",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Madame à … , le …,",
           "aide": "…Madame à le ▢"
         },
@@ -374,53 +360,51 @@
           "id": "champ_058",
           "type": "text",
           "label": "Tous les deux de nationalité",
-          "opt": true,
           "group": "Tous les deux de nationalité …"
         },
         {
           "id": "partie_1",
           "type": "text",
           "label": "Première partie",
-          "opt": true,
-          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à …,…",
           "aide": "…Monsieur ▢ de la Carte Nationale…"
         },
         {
           "id": "champ_059",
           "type": "text",
           "label": "Carte Nationale d’Identité numéro C",
-          "opt": true,
-          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…"
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à …,…"
+        },
+        {
+          "id": "lieu_delivrance",
+          "type": "text",
+          "label": "Lieu de délivrance de la pièce d’identité",
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à …,…"
         },
         {
           "id": "champ_060",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
-          "aide": "…numéro C établie à ABIDJAN le ▢ et valable jusqu’au…"
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à …,…",
+          "aide": "…d’Identité numéro C établie à le ▢ et valable jusqu’au…"
         },
         {
           "id": "champ_061",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
-          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à…",
-          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+          "group": "Monsieur …, de la Carte Nationale d’Identité numéro C …, établie à …,…",
+          "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_062",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
-          "aide": "…Madame ▢ de numéro délivrée à…"
+          "label": "Nom et prénoms",
+          "group": "Madame …, de … numéro … délivrée à … par l’Office National…"
         },
         {
           "id": "champ_063",
           "type": "text",
           "label": "De",
-          "opt": true,
           "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
           "aide": "…Madame de ▢ numéro délivrée à par…"
         },
@@ -428,7 +412,6 @@
           "id": "champ_064",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
           "aide": "…Madame de numéro ▢ délivrée à par l’Office…"
         },
@@ -436,7 +419,6 @@
           "id": "champ_065",
           "type": "text",
           "label": "Délivrée à",
-          "opt": true,
           "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
           "aide": "…Madame de numéro délivrée à ▢ par l’Office National d’Identification…"
         },
@@ -444,7 +426,6 @@
           "id": "champ_066",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
           "aide": "…à par l’Office National d’Identification le ▢ et valable jusqu’au…"
         },
@@ -452,33 +433,33 @@
           "id": "champ_067",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Madame …, de … numéro … délivrée à … par l’Office National…",
           "aide": "…National d’Identification le et valable jusqu’au ▢"
         },
         {
           "id": "champ_068",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
-          "aide": "…Monsieur ▢ et Madame se sont…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…"
         },
         {
           "id": "champ_069",
           "type": "text",
           "label": "Et",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…",
           "aide": "…Monsieur et ▢ Madame se sont mariés…"
         },
         {
           "id": "champ_070",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
-          "aide": "…Monsieur et Madame ▢ se sont mariés à…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…"
+        },
+        {
+          "id": "lieu_mariage",
+          "type": "text",
+          "label": "Ville du mariage",
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…"
         }
       ]
     },
@@ -492,62 +473,56 @@
           "id": "champ_071",
           "type": "text",
           "label": "À la Mairie de",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…"
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…"
         },
         {
           "id": "champ_072",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…",
-          "aide": "…ABIDJAN à la Mairie de le ▢ sous le régime…"
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…",
+          "aide": "…à à la Mairie de le ▢ sous le régime…"
         },
         {
           "id": "champ_073",
           "type": "text",
           "label": "Sous le régime",
-          "opt": true,
-          "group": "Monsieur … et … Madame … se sont mariés à ABIDJAN, à la Mairie de …, le…"
+          "group": "Monsieur … et … Madame … se sont mariés à …, à la Mairie de …, le …,…"
         },
         {
           "id": "champ_074",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…",
-          "aide": "…Monsieur ▢ conjointement et solidairement ci-après…"
+          "label": "Nom",
+          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…"
         },
         {
           "id": "champ_075",
           "type": "text",
-          "label": "Avant « conjointement et solidairement ci-après »",
-          "opt": true,
-          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…",
-          "aide": "…Monsieur ▢ conjointement et solidairement ci-après…"
+          "label": "Prénoms",
+          "group": "Monsieur … ,conjointement et solidairement ci-après dénommés dans le…"
         },
         {
           "id": "champ_076",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
-          "aide": "…3 Monsieur ▢ Directeur Général de la…"
+          "label": "Nom",
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;"
         },
         {
           "id": "champ_077",
           "type": "text",
-          "label": "Avant « Directeur Général de la »",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
-          "aide": "…3 Monsieur ▢ Directeur Général de la…"
+          "label": "Prénoms",
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;"
         },
         {
           "id": "champ_078",
           "type": "text",
           "label": "Directeur Général de la Société",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…"
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;"
+        },
+        {
+          "id": "ville_residence_3",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;"
         }
       ]
     },
@@ -560,31 +535,28 @@
         {
           "id": "champ_079",
           "type": "text",
-          "label": "Demeurant à ABIDJAN",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;",
+          "aide": "…Général de la Société demeurant à ▢ BP…"
         },
         {
           "id": "champ_080",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
-          "aide": "…la Société demeurant à ABIDJAN BP ▢"
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;",
+          "aide": "…de la Société demeurant à BP ▢"
         },
         {
           "id": "champ_081",
           "type": "text",
           "label": "DE DEUXIEME PART",
-          "opt": true,
-          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à ABIDJAN…",
-          "aide": "…la Société demeurant à ABIDJAN BP ▢"
+          "group": "3) Monsieur … , Directeur Général de la Société …, demeurant à … BP … ;",
+          "aide": "…de la Société demeurant à BP ▢"
         },
         {
           "id": "champ_082",
           "type": "text",
           "label": "La Société",
-          "opt": true,
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
           "aide": "…La Société ▢ Société au capital de…"
         },
@@ -592,7 +564,6 @@
           "id": "champ_083",
           "type": "text",
           "label": "Société",
-          "opt": true,
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
           "aide": "…La Société Société ▢ au capital de FRANCS…"
         },
@@ -600,15 +571,13 @@
           "id": "champ_084",
           "type": "text",
           "label": "Au capital de",
-          "opt": true,
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
           "aide": "…La Société Société au capital de ▢ FRANCS CFA dont le…"
         },
         {
           "id": "champ_085",
           "type": "text",
-          "label": "Avant « FRANCS CFA dont le »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
           "aide": "…La Société Société au capital de ▢ FRANCS CFA dont le…"
         },
@@ -616,84 +585,83 @@
           "id": "champ_086",
           "type": "text",
           "label": "Dont le siège est à",
-          "opt": true,
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+          "aide": "…CFA dont le siège est à ▢ BP immatriculée au Registre…"
         },
         {
           "id": "champ_087",
           "type": "text",
-          "label": "Avant « BP ABIDJAN immatriculée au »",
-          "opt": true,
+          "label": "Avant « BP immatriculée au Registre »",
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+          "aide": "…CFA dont le siège est à ▢ BP immatriculée au Registre…"
         },
         {
           "id": "champ_088",
           "type": "text",
-          "label": "Avant « BP ABIDJAN immatriculée au »",
-          "opt": true,
+          "label": "Avant « BP immatriculée au Registre »",
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+          "aide": "…CFA dont le siège est à ▢ BP immatriculée au Registre…"
         },
         {
           "id": "champ_089",
           "type": "text",
-          "label": "Avant « BP ABIDJAN immatriculée au »",
-          "opt": true,
+          "label": "Avant « BP immatriculée au Registre »",
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…CFA dont le siège est à ▢ BP ABIDJAN immatriculée au…"
+          "aide": "…CFA dont le siège est à ▢ BP immatriculée au Registre…"
         },
         {
           "id": "champ_090",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…dont le siège est à BP ▢ ABIDJAN immatriculée au Registre…"
+          "aide": "…dont le siège est à BP ▢ immatriculée au Registre de…"
+        },
+        {
+          "id": "ville_bp_2",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…"
         },
         {
           "id": "champ_091",
           "type": "text",
-          "label": "ABIDJAN",
-          "opt": true,
-          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…",
-          "aide": "…le siège est à BP ABIDJAN ▢ immatriculée au Registre de…"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…"
+        },
+        {
+          "id": "ville_rccm",
+          "type": "text",
+          "label": "Ville du registre du commerce (RCCM)",
+          "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…"
         },
         {
           "id": "champ_092",
           "type": "text",
-          "label": "Mobilier d’ABIDJAN sous le numéro",
-          "opt": true,
+          "label": "Sous le numéro",
           "group": "La Société … Société …, au capital de … (…) FRANCS CFA dont le siège…"
         },
         {
           "id": "champ_093",
           "type": "text",
           "label": "La loi que par l’article",
-          "opt": true,
           "group": "EN VERTU des pouvoirs qui lui ont été conférés en sa qualité de…"
         },
         {
           "id": "champ_094",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … nommé aux fonctions de Directeur Général par délibération du…",
-          "aide": "…Monsieur ▢ nommé aux fonctions de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … nommé aux fonctions de Directeur Général par délibération du…"
         },
         {
           "id": "champ_095",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Monsieur … nommé aux fonctions de Directeur Général par délibération du…"
         },
         {
           "id": "champ_096",
           "type": "text",
           "label": "La Société",
-          "opt": true,
           "group": "La Société … ci-après dénomméeau cours du présent acte pour en…",
           "aide": "…La Société ▢ ci-après dénomméeau cours du…"
         }
@@ -703,13 +671,12 @@
       "id": "partie-6",
       "court": "De troisieme",
       "titre": "De troisieme part",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_097",
           "type": "text",
           "label": "VENTE PAR MADAME",
-          "opt": true,
           "group": "VENTE PAR MADAME …",
           "aide": "…VENTE PAR MADAME ▢"
         },
@@ -717,21 +684,18 @@
           "id": "champ_098",
           "type": "text",
           "label": "AU PROFIT DE",
-          "opt": true,
           "group": "AU PROFIT DE …"
         },
         {
           "id": "champ_099",
           "type": "text",
           "label": "Urbain non bâtie sise à",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         },
         {
           "id": "champ_100",
           "type": "text",
           "label": "Avant « Quartier d’une superficie de »",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…terrain urbain non bâtie sise à ▢ Quartier d’une superficie de…"
         },
@@ -739,7 +703,6 @@
           "id": "champ_101",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
         },
@@ -747,7 +710,6 @@
           "id": "champ_102",
           "type": "text",
           "label": "Avant « d’une superficie de METRES »",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
         },
@@ -755,18 +717,17 @@
           "id": "champ_103",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         },
         {
           "id": "champ_104",
           "type": "text",
           "label": "Avant « m² formant le lot »",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…Quartier d’une superficie de METRES CARRES ▢ m² formant le lot…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-7",
@@ -778,14 +739,12 @@
           "id": "champ_105",
           "type": "text",
           "label": "Formant le lot numéro",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         },
         {
           "id": "champ_106",
           "type": "text",
-          "label": "Avant « îlot numéro du lotissement »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…CARRES m² formant le lot numéro ▢ îlot numéro du lotissement…"
         },
@@ -793,15 +752,13 @@
           "id": "champ_107",
           "type": "text",
           "label": "Îlot numéro",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
         },
         {
           "id": "champ_108",
           "type": "text",
-          "label": "Avant « du lotissement de à »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
         },
@@ -809,21 +766,18 @@
           "id": "champ_109",
           "type": "text",
           "label": "Du lotissement de",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         },
         {
           "id": "champ_110",
           "type": "text",
           "label": "Détacher du Titre Foncier numéro",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         },
         {
           "id": "champ_111",
           "type": "text",
-          "label": "Avant « de la Circonscription Foncière »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…",
           "aide": "…à détacher du Titre Foncier numéro ▢ de la Circonscription Foncière…"
         },
@@ -831,7 +785,6 @@
           "id": "champ_112",
           "type": "text",
           "label": "De la Circonscription Foncière de",
-          "opt": true,
           "group": "Une parcelle de terrain urbain non bâtie sise à … , Quartier … , d’une…"
         }
       ]
@@ -846,28 +799,24 @@
           "id": "champ_113",
           "type": "text",
           "label": "VENDEUR pour l’avoir acquis de",
-          "opt": true,
           "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
         },
         {
           "id": "champ_114",
           "type": "date",
           "label": "Notaire soussigné en date des",
-          "opt": true,
           "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
         },
         {
           "id": "champ_115",
           "type": "text",
           "label": "Mutation de Propriété Foncière numéro",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
         },
         {
           "id": "champ_116",
           "type": "text",
           "label": "Avant « en date du délivré »",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…",
           "aide": "…de Mutation de Propriété Foncière numéro ▢ en date du délivré…"
         },
@@ -875,28 +824,30 @@
           "id": "champ_117",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
         },
         {
           "id": "champ_118",
           "type": "text",
           "label": "Foncière et des Hypothèques de",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
+        },
+        {
+          "id": "ville_bien",
+          "type": "text",
+          "label": "Ville où se situe le bien",
+          "group": "A ce sujet, le VENDEUR déclare qu’il n’existe à sa connaissance aucune…"
         },
         {
           "id": "champ_119",
           "type": "text",
           "label": "Moyennant le prix principal de",
-          "opt": true,
           "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…"
         },
         {
           "id": "champ_120",
           "type": "text",
-          "label": "Avant « DE FRANCS CFA qui »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…",
           "aide": "…acceptée moyennant le prix principal de ▢ DE FRANCS CFA qui…"
         }
@@ -912,28 +863,24 @@
           "id": "champ_121",
           "type": "text",
           "label": "Tiré par le BENEFICIAIRE sur",
-          "opt": true,
           "group": "En outre, la présente vente est consentie et acceptée moyennant le prix…"
         },
         {
           "id": "champ_122",
           "type": "text",
           "label": "OUVERTURE DE CREDIT PAR",
-          "opt": true,
           "group": "OUVERTURE DE CREDIT PAR …"
         },
         {
           "id": "champ_123",
           "type": "text",
           "label": "D’une durée de",
-          "opt": true,
           "group": "La BANQUE ouvre par ces présentes, dans ses livres au BENEFICIAIRE qui…"
         },
         {
           "id": "champ_124",
           "type": "text",
-          "label": "Avant « MOIS »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "La BANQUE ouvre par ces présentes, dans ses livres au BENEFICIAIRE qui…",
           "aide": "…CFA en principal d’une durée de ▢ MOIS…"
         },
@@ -941,14 +888,12 @@
           "id": "champ_125",
           "type": "text",
           "label": "BENEFICIAIRE qui s’y oblige en",
-          "opt": true,
           "group": "Le remboursement des avances consenties en réalisation du présent…"
         },
         {
           "id": "champ_126",
           "type": "text",
-          "label": "Avant « MENSUALITES égales constantes et »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Le remboursement des avances consenties en réalisation du présent…",
           "aide": "…le BENEFICIAIRE qui s’y oblige en ▢ MENSUALITES égales constantes et…"
         },
@@ -956,14 +901,12 @@
           "id": "champ_127",
           "type": "text",
           "label": "Et consécutives d’un montant de",
-          "opt": true,
           "group": "Le remboursement des avances consenties en réalisation du présent…"
         },
         {
           "id": "champ_128",
           "type": "text",
           "label": "Avant « FCFA en principal »",
-          "opt": true,
           "group": "Le remboursement des avances consenties en réalisation du présent…",
           "aide": "…consécutives d’un montant de FRANCS CFA ▢ FCFA en principal…"
         }
@@ -979,37 +922,31 @@
           "id": "champ_129",
           "type": "text",
           "label": "Ces",
-          "opt": true,
           "group": "Ces … (…) mensualités seront exigibles de mois en mois, conformément au…",
           "aide": "…Ces ▢ mensualités seront exigibles de…"
         },
         {
           "id": "champ_130",
           "type": "text",
-          "label": "Avant « mensualités seront exigibles de »",
-          "opt": true,
-          "group": "Ces … (…) mensualités seront exigibles de mois en mois, conformément au…",
-          "aide": "…Ces ▢ mensualités seront exigibles de…"
+          "label": "Ces (en chiffres)",
+          "group": "Ces … (…) mensualités seront exigibles de mois en mois, conformément au…"
         },
         {
           "id": "champ_131",
           "type": "text",
           "label": "Payer entre les mains de",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_132",
           "type": "text",
           "label": "Urbain non bâtie sise à",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_133",
           "type": "text",
           "label": "Avant « Quartier d’une superficie de »",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…terrain urbain non bâtie sise à ▢ Quartier d’une superficie de…"
         },
@@ -1017,7 +954,6 @@
           "id": "champ_134",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
         },
@@ -1025,7 +961,6 @@
           "id": "champ_135",
           "type": "text",
           "label": "Avant « d’une superficie de METRES »",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…urbain non bâtie sise à Quartier ▢ d’une superficie de METRES…"
         },
@@ -1033,7 +968,6 @@
           "id": "champ_136",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         }
       ]
@@ -1048,7 +982,6 @@
           "id": "champ_137",
           "type": "text",
           "label": "Avant « m² formant le lot »",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…Quartier d’une superficie de METRES CARRES ▢ m² formant le lot…"
         },
@@ -1056,14 +989,12 @@
           "id": "champ_138",
           "type": "text",
           "label": "Formant le lot numéro",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_139",
           "type": "text",
-          "label": "Avant « îlot numéro du lotissement »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…CARRES m² formant le lot numéro ▢ îlot numéro du lotissement…"
         },
@@ -1071,15 +1002,13 @@
           "id": "champ_140",
           "type": "text",
           "label": "Îlot numéro",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
         },
         {
           "id": "champ_141",
           "type": "text",
-          "label": "Avant « du lotissement de à »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…formant le lot numéro îlot numéro ▢ du lotissement de à…"
         },
@@ -1087,23 +1016,27 @@
           "id": "champ_142",
           "type": "text",
           "label": "Du lotissement de",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_143",
           "type": "text",
           "label": "Détacher du Titre Foncier numéro",
-          "opt": true,
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_144",
           "type": "text",
-          "label": "Avant « de la Circonscription Foncière »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…",
           "aide": "…à détacher du Titre Foncier numéro ▢ de la Circonscription Foncière…"
+        },
+        {
+          "id": "circonscription_fonciere",
+          "type": "text",
+          "label": "Circonscription foncière",
+          "opt": true,
+          "group": "1/- Payer entre les mains de …, vendeur, le prix d’acquisition d’une…"
         },
         {
           "id": "champ_145",
@@ -1125,21 +1058,18 @@
           "id": "champ_146",
           "type": "text",
           "label": "Ouvert dans les livres d’",
-          "opt": true,
           "group": "Le déblocage des fonds se fera directement par la BANQUE sur le compte…"
         },
         {
           "id": "champ_147",
           "type": "text",
           "label": "A hauteur de",
-          "opt": true,
           "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…"
         },
         {
           "id": "champ_148",
           "type": "text",
-          "label": "Avant « DE FRANCS CFA représentant »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…",
           "aide": "…A hauteur de ▢ DE FRANCS CFA représentant…"
         },
@@ -1147,21 +1077,18 @@
           "id": "champ_149",
           "type": "text",
           "label": "Par chèque à l’ordre de",
-          "opt": true,
           "group": "A hauteur de … (…) DE FRANCS CFA, représentant le prix de vente du…"
         },
         {
           "id": "champ_150",
           "type": "text",
           "label": "A hauteur de",
-          "opt": true,
           "group": "A hauteur de … (…)FRANCS CFA, représentant les frais, droits et…"
         },
         {
           "id": "champ_151",
           "type": "text",
-          "label": "Avant « FRANCS CFA représentant les »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "A hauteur de … (…)FRANCS CFA, représentant les frais, droits et…",
           "aide": "…A hauteur de ▢ FRANCS CFA représentant les…"
         },
@@ -1169,14 +1096,12 @@
           "id": "champ_152",
           "type": "text",
           "label": "A hauteur de",
-          "opt": true,
           "group": "A hauteur de … (…) FRANCS CFA, sur le compte du BENEFICIAIRE ouvert…"
         },
         {
           "id": "champ_153",
           "type": "text",
-          "label": "Avant « FRANCS CFA sur le »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "A hauteur de … (…) FRANCS CFA, sur le compte du BENEFICIAIRE ouvert…",
           "aide": "…A hauteur de ▢ FRANCS CFA sur le…"
         }
@@ -1192,43 +1117,43 @@
           "id": "champ_154",
           "type": "text",
           "label": "Tenu de l’appartenance de Monsieur",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_155",
           "type": "text",
           "label": "Au personnel de",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_156",
           "type": "text",
           "label": "Le crédit consenti de",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_157",
           "type": "text",
           "label": "Avant « F CFA en principal »",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…",
           "aide": "…le crédit consenti de FRANCS CFA ▢ F CFA en principal…"
+        },
+        {
+          "id": "taux_interet",
+          "type": "text",
+          "label": "Taux d’intérêt annuel (%)",
+          "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_158",
           "type": "text",
           "label": "Au cas où Monsieur",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_159",
           "type": "text",
           "label": "Avant « ne ferait plus partie »",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…",
           "aide": "…10% Toutefois au cas où Monsieur ▢ ne ferait plus partie…"
         },
@@ -1236,21 +1161,18 @@
           "id": "champ_160",
           "type": "text",
           "label": "Ferait plus partie du personnel",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_161",
           "type": "text",
           "label": "Intérêts au taux appliqué par",
-          "opt": true,
           "group": "Compte tenu de l’appartenance de Monsieur … au personnel de …, le…"
         },
         {
           "id": "champ_162",
           "type": "text",
           "label": "Du crédit s’élève à",
-          "opt": true,
           "group": "Le taux effectif global (TEG) du crédit s’élève à …"
         }
       ]
@@ -1265,7 +1187,6 @@
           "id": "champ_163",
           "type": "text",
           "label": "Et écrit de la BANQUE",
-          "opt": true,
           "group": "9) En cas de faillite, de liquidation, règlement judiciaire ou…",
           "aide": "…en principal intérêts frais et accessoires ▢"
         },
@@ -1273,56 +1194,48 @@
           "id": "champ_164",
           "type": "text",
           "label": "Cas de décès de Monsieur",
-          "opt": true,
           "group": "12) En cas de décès de Monsieur … avant complète libération ;"
         },
         {
           "id": "champ_165",
           "type": "text",
           "label": "Au cas où Monsieur",
-          "opt": true,
           "group": "14) Au cas où Monsieur … ne serait plus employé par …;"
         },
         {
           "id": "champ_166",
           "type": "text",
           "label": "Ne serait plus employé par",
-          "opt": true,
           "group": "14) Au cas où Monsieur … ne serait plus employé par …;"
         },
         {
           "id": "champ_167",
           "type": "text",
           "label": "Au cas où Monsieur",
-          "opt": true,
           "group": "16) Au cas où Monsieur … ne ferait plus partie du personnel du … avant…"
         },
         {
           "id": "champ_168",
           "type": "text",
           "label": "Plus partie du personnel du",
-          "opt": true,
           "group": "16) Au cas où Monsieur … ne ferait plus partie du personnel du … avant…"
         },
         {
           "id": "champ_169",
           "type": "text",
           "label": "IV du Titre Foncier numéro",
-          "opt": true,
           "group": "19) A défaut de publication des droits du BENEFICIAIRE à la section IV…"
         },
         {
           "id": "champ_170",
           "type": "text",
           "label": "De la Circonscription Foncière de",
-          "opt": true,
           "group": "19) A défaut de publication des droits du BENEFICIAIRE à la section IV…"
         },
         {
           "id": "champ_171",
           "type": "text",
           "label": "Au nom de la communauté",
-          "opt": true,
           "group": "20) A défaut de l’accomplissement des formalités de mutation au nom de…"
         }
       ]
@@ -1337,7 +1250,6 @@
           "id": "champ_172",
           "type": "text",
           "label": "L’objet de l’affectation hypothécaire ci-après",
-          "opt": true,
           "group": "2) A ne faire aucune opération susceptible de diminuer la valeur de…",
           "aide": "…résilier les baux modifier ceux existants ▢"
         },
@@ -1345,7 +1257,6 @@
           "id": "champ_173",
           "type": "text",
           "label": "L’objet de l’affectation hypothécaire ci-après",
-          "opt": true,
           "group": "3) Maintenir constamment les loyers dudit immeuble à leur juste valeur…",
           "aide": "…BANQUE ainsi qu’il sera précisé ci-après ▢"
         },
@@ -1353,45 +1264,44 @@
           "id": "champ_174",
           "type": "text",
           "label": "Agios frais d’encaissement ou autres",
-          "opt": true,
           "group": "11) Il est bien entendu que l’accord de la BANQUE deviendrait caduc si…",
           "aide": "…crédit deviendraient automatiquement exigibles en totalité ▢"
+        },
+        {
+          "id": "ville_paiement",
+          "type": "text",
+          "label": "Ville où les paiements sont effectués",
+          "group": "Tous les paiements à faire en vertu des présentes auront lieu à …, au…"
         },
         {
           "id": "champ_175",
           "type": "text",
           "label": "Tant que Monsieur",
-          "opt": true,
           "group": "Tant que Monsieur … sera employé de …, tous les paiements à faire en…"
         },
         {
           "id": "champ_176",
           "type": "text",
           "label": "Sera employé de",
-          "opt": true,
           "group": "Tant que Monsieur … sera employé de …, tous les paiements à faire en…"
         },
         {
           "id": "champ_177",
           "type": "text",
           "label": "Au cas où Monsieur",
-          "opt": true,
           "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
         },
         {
           "id": "champ_178",
           "type": "text",
           "label": "Ne serait plus employé de",
-          "opt": true,
           "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
         },
         {
           "id": "champ_179",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…",
-          "aide": "…ne serait plus employé de Monsieur ▢ s’engage d’ores et déjà…"
+          "label": "Nom et prénoms",
+          "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
         }
       ]
     },
@@ -1405,28 +1315,24 @@
           "id": "champ_180",
           "type": "text",
           "label": "À ouvrir un compte à",
-          "opt": true,
           "group": "Au cas où Monsieur … ne serait plus employé de …, Monsieur … s’engage…"
         },
         {
           "id": "champ_181",
           "type": "text",
           "label": "Qu’il souscrive à l’ordre de",
-          "opt": true,
           "group": "La BANQUE pourra exiger du BENEFICIAIRE qu’il souscrive à l’ordre de ……"
         },
         {
           "id": "champ_182",
           "type": "text",
           "label": "Promet d’employer la somme de",
-          "opt": true,
           "group": "Le BENEFICIAIRE promet d’employer la somme de … (…) FRANCS CFA montant…"
         },
         {
           "id": "champ_183",
           "type": "text",
-          "label": "Avant « FRANCS CFA montant en »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Le BENEFICIAIRE promet d’employer la somme de … (…) FRANCS CFA montant…",
           "aide": "…BENEFICIAIRE promet d’employer la somme de ▢ FRANCS CFA montant en…"
         },
@@ -1434,28 +1340,24 @@
           "id": "champ_184",
           "type": "text",
           "label": "Pour l’avoir acquis de Madame",
-          "opt": true,
           "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
         },
         {
           "id": "champ_185",
           "type": "date",
           "label": "Notaire soussigné en date des",
-          "opt": true,
           "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
         },
         {
           "id": "champ_186",
           "type": "text",
           "label": "Mutation de Propriété Foncière numéro",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
         },
         {
           "id": "champ_187",
           "type": "text",
           "label": "Avant « en date du délivré »",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…",
           "aide": "…de Mutation de Propriété Foncière numéro ▢ en date du délivré…"
         }
@@ -1465,34 +1367,30 @@
       "id": "partie-17",
       "court": "Designation et",
       "titre": "Designation et origine du bien donne engarantie",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_188",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
         },
         {
           "id": "champ_189",
           "type": "text",
           "label": "Foncière et des Hypothèques de",
-          "opt": true,
           "group": "La pleine propriété du VENDEUR est confirmée par le Certificat de…"
         },
         {
           "id": "champ_190",
           "type": "text",
           "label": "- De la somme de",
-          "opt": true,
           "group": "1° - De la somme de … FRANCS CFA, ci …"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Ci",
-          "opt": true,
           "group": "1° - De la somme de … FRANCS CFA, ci …",
           "aide": "…la somme de FRANCS CFA ci ▢"
         },
@@ -1516,7 +1414,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "Colonne 2",
-          "opt": true,
           "group": "Designation et origine du bien donne engarantie – ligne 1"
         },
         {
@@ -1539,14 +1436,12 @@
           "id": "champ_018",
           "type": "text",
           "label": "Colonne 2",
-          "opt": true,
           "group": "Designation et origine du bien donne engarantie – ligne 2"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Ci",
-          "opt": true,
           "group": "4° - Et des intérêts dont la loi conserve le rang au même titre que le…",
           "aide": "…principal portés ici pour MEMOIRE ci ▢"
         },
@@ -1554,7 +1449,6 @@
           "id": "champ_192",
           "type": "text",
           "label": "Avant « FRANCS CFA ci »",
-          "opt": true,
           "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
           "aide": "…en principal et accesoires sauf MEMOIRE ▢ FRANCS CFA ci…"
         },
@@ -1562,7 +1456,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Avant « FRANCS CFA ci »",
-          "opt": true,
           "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
           "aide": "…en principal et accesoires sauf MEMOIRE ▢ FRANCS CFA ci…"
         },
@@ -1570,7 +1463,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "Ci",
-          "opt": true,
           "group": "TOTAL à inscrire en principal et accesoires, sauf MEMOIRE : … .FRANCS…",
           "aide": "…accesoires sauf MEMOIRE FRANCS CFA ci ▢"
         },
@@ -1578,120 +1470,104 @@
           "id": "champ_019",
           "type": "text",
           "label": "Colonne 2",
-          "opt": true,
           "group": "Designation et origine du bien donne engarantie – ligne 4"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-18",
       "court": "Partie 18",
       "titre": "Condition suspensive",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_009",
           "type": "text",
           "label": "Bien vendu au nom de",
-          "opt": true,
           "group": "La garantie ci-dessus est conférée sous réserve de la réalisation de la…"
         },
         {
           "id": "champ_193",
           "type": "text",
           "label": "Pour une période de",
-          "opt": true,
           "group": "Il est expressément convenu entre les parties, conformément à l’article…"
         },
         {
           "id": "champ_194",
           "type": "text",
-          "label": "Avant « ANS à compter de »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Il est expressément convenu entre les parties, conformément à l’article…",
           "aide": "…aura effet pour une période de ▢ ANS à compter de…"
         },
         {
           "id": "champ_195",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…",
-          "aide": "…Monsieur ▢ s’engage à souscrire auprès…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…"
         },
         {
           "id": "champ_196",
           "type": "text",
           "label": "Pour un montant minimum de",
-          "opt": true,
           "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…"
         },
         {
           "id": "champ_197",
           "type": "text",
-          "label": "Avant « FRANCS FCFA et à »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Monsieur … s’engage à souscrire auprès d’une compagnie d’Assurance…",
           "aide": "…ce pour un montant minimum de ▢ FRANCS FCFA et à…"
         },
         {
           "id": "champ_198",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … s’oblige à maintenir assuré, tant qu’il sera susceptible…",
-          "aide": "…Monsieur ▢ s’oblige à maintenir assuré…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … s’oblige à maintenir assuré, tant qu’il sera susceptible…"
         },
         {
           "id": "champ_199",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … s’oblige à justifier à tout moment et à première demande de…",
-          "aide": "…Monsieur ▢ s’oblige à justifier à…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … s’oblige à justifier à tout moment et à première demande de…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-19",
       "court": "Degats des",
       "titre": "Degats des eaux",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_200",
           "type": "text",
           "label": "Et à première demande de",
-          "opt": true,
           "group": "Monsieur … s’oblige à justifier à tout moment et à première demande de…"
         },
         {
           "id": "champ_201",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……",
-          "aide": "…Monsieur ▢ fera établir un avenant…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……"
         },
         {
           "id": "champ_202",
           "type": "text",
           "label": "Aux termes duquel",
-          "opt": true,
           "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……"
         },
         {
           "id": "champ_203",
           "type": "text",
           "label": "Il remettra à",
-          "opt": true,
           "group": "Monsieur … fera établir un avenant à ladite police, aux termes duquel ……"
         },
         {
           "id": "champ_204",
           "type": "text",
           "label": "Avant « si elle ne juge »",
-          "opt": true,
           "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…",
           "aide": "…assurance soit de défaut de renouvellement ▢ si elle ne juge…"
         },
@@ -1699,7 +1575,6 @@
           "id": "champ_205",
           "type": "text",
           "label": "Avant « si elle ne juge »",
-          "opt": true,
           "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…",
           "aide": "…assurance soit de défaut de renouvellement ▢ si elle ne juge…"
         },
@@ -1707,28 +1582,24 @@
           "id": "champ_206",
           "type": "text",
           "label": "Souscrire au nom de Monsieur",
-          "opt": true,
           "group": "Dans le cas, soit de cessation de cette assurance, soit de défaut de…"
         },
         {
           "id": "champ_207",
           "type": "text",
           "label": "Sera contractée au nom de",
-          "opt": true,
           "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…"
         },
         {
           "id": "champ_208",
           "type": "text",
           "label": "Pour un montant minimum de",
-          "opt": true,
           "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…"
         },
         {
           "id": "champ_209",
           "type": "text",
-          "label": "Avant « FRANCS FCFA »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Cette assurance sera contractée au nom de … pour un montant minimum de…",
           "aide": "…de pour un montant minimum de ▢ FRANCS FCFA…"
         },
@@ -1736,63 +1607,54 @@
           "id": "champ_210",
           "type": "text",
           "label": "À la charge de Monsieur",
-          "opt": true,
           "group": "Les frais de la police et les primes et cotisations annuelles de…"
         },
         {
           "id": "champ_211",
           "type": "text",
           "label": "S’ils sont avancés par",
-          "opt": true,
           "group": "Les frais de la police et les primes et cotisations annuelles de…"
         },
         {
           "id": "champ_212",
           "type": "text",
           "label": "Débit du compte de Monsieur",
-          "opt": true,
           "group": "Les frais de la police et les primes et cotisations annuelles de…"
         },
         {
           "id": "champ_213",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…",
-          "aide": "…En outre Monsieur ▢ consent dès à présent…"
+          "label": "Nom et prénoms",
+          "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…"
         },
         {
           "id": "champ_214",
           "type": "text",
           "label": "Qui sera alors dû à",
-          "opt": true,
           "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…"
         },
         {
           "id": "champ_215",
           "type": "text",
           "label": "Avant « toutes indemnités allouées en »",
-          "opt": true,
           "group": "En outre, Monsieur … consent, dès à présent, que la BANQUE touche, sur…",
           "aide": "…ce qui sera alors dû à ▢ toutes indemnités allouées en…"
         },
         {
           "id": "champ_216",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … autorise … de manière permanente et irrévocable, à souscrire…",
-          "aide": "…Monsieur ▢ autorise de manière permanente…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … autorise … de manière permanente et irrévocable, à souscrire…"
         },
         {
           "id": "champ_217",
           "type": "text",
           "label": "Autorise",
-          "opt": true,
           "group": "Monsieur … autorise … de manière permanente et irrévocable, à souscrire…",
           "aide": "…Monsieur autorise ▢ de manière permanente et…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-20",
@@ -1804,61 +1666,50 @@
           "id": "champ_010",
           "type": "text",
           "label": "SUR LA TETE DE MONSIEUR",
-          "opt": true,
           "group": "SUR LA TETE DE MONSIEUR …"
         },
         {
           "id": "champ_218",
           "type": "text",
           "label": "XVIII - DELEGATION D’ASSURANCE DECES-INVALIDITE",
-          "opt": true,
           "group": "SUR LA TETE DE MONSIEUR …",
           "aide": "…SUR LA TETE DE MONSIEUR ▢"
         },
         {
           "id": "champ_011",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … consent à l’attribution à la BANQUE du bénéfice d’une…",
-          "aide": "…Monsieur ▢ consent à l’attribution à…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … consent à l’attribution à la BANQUE du bénéfice d’une…"
         },
         {
           "id": "champ_219",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "A cette fin, Monsieur … déclare avoir demandé à user de la faculté…",
-          "aide": "…A cette fin Monsieur ▢ déclare avoir demandé à…"
+          "label": "Nom et prénoms",
+          "group": "A cette fin, Monsieur … déclare avoir demandé à user de la faculté…"
         },
         {
           "id": "champ_220",
           "type": "text",
           "label": "Convention d’assurance groupe passée par",
-          "opt": true,
           "group": "A cette fin, Monsieur … déclare avoir demandé à user de la faculté…"
         },
         {
           "id": "champ_221",
           "type": "text",
           "label": "La signature de Monsieur",
-          "opt": true,
           "group": "La signature de Monsieur … d’une déclaration d’affiliation marque son…"
         },
         {
           "id": "champ_222",
           "type": "text",
           "label": "Ici les conditions que Monsieur",
-          "opt": true,
           "group": "La signature de Monsieur … d’une déclaration d’affiliation marque son…"
         },
         {
           "id": "champ_223",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … autorise la BANQUE de façon permanente et irrévocable à…",
-          "aide": "…Monsieur ▢ autorise la BANQUE de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … autorise la BANQUE de façon permanente et irrévocable à…"
         }
       ]
     },
@@ -1866,35 +1717,37 @@
       "id": "partie-21",
       "court": "Clause speciale",
       "titre": "Clause speciale",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_224",
           "type": "text",
           "label": "Le BENEFICIAIRE restera employé de",
-          "opt": true,
           "group": "Il est à noter que, concernant les primes des assurances ci-dessus…"
         },
         {
           "id": "champ_225",
           "type": "text",
           "label": "De départ du BENEFICIAIRE d’",
-          "opt": true,
           "group": "En cas de départ du BENEFICIAIRE d’ …, le BENEFICIAIRE s’engage à…"
+        },
+        {
+          "id": "conservation_ville",
+          "type": "text",
+          "label": "Ville de la conservation de la propriété foncière",
+          "group": "Les Comparants requièrent expressément Madame le Conservateur de la…"
         },
         {
           "id": "champ_226",
           "type": "text",
           "label": "La somme de",
-          "opt": true,
           "group": "Le VENDEUR reconnaît avoir reçu de l’ACQUEREUR ce jour, au moyen d’un…",
           "aide": "…moyen d’un chèque la somme de ▢ DE FRANCS CFA représentant…"
         },
         {
           "id": "champ_227",
           "type": "text",
-          "label": "Avant « DE FRANCS CFA représentant »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Le VENDEUR reconnaît avoir reçu de l’ACQUEREUR ce jour, au moyen d’un…",
           "aide": "…moyen d’un chèque la somme de ▢ DE FRANCS CFA représentant…"
         },
@@ -1902,33 +1755,28 @@
           "id": "champ_228",
           "type": "text",
           "label": "En ce qui concerne Madame",
-          "opt": true,
           "group": "1) En ce qui concerne Madame …"
         },
         {
           "id": "champ_229",
           "type": "text",
           "label": "Qui concerne Monsieur et Madame",
-          "opt": true,
           "group": "2) En ce qui concerne Monsieur et Madame …"
         },
         {
           "id": "champ_230",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
-          "aide": "…Madame ▢ comparante de première part…"
+          "label": "Nom",
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…"
         },
         {
           "id": "champ_231",
           "type": "text",
-          "label": "Avant « comparante de première part »",
-          "opt": true,
-          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
-          "aide": "…Madame ▢ comparante de première part…"
+          "label": "Prénoms",
+          "group": "Madame … , comparante de première part et Monsieur et Madame … ,…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-22",
@@ -1940,14 +1788,12 @@
           "id": "champ_232",
           "type": "text",
           "label": "Part et Monsieur et Madame",
-          "opt": true,
           "group": "Madame … , comparante de première part et Monsieur et Madame … ,…"
         },
         {
           "id": "champ_233",
           "type": "text",
           "label": "Avant « comparants de deuxième part »",
-          "opt": true,
           "group": "Madame … , comparante de première part et Monsieur et Madame … ,…",
           "aide": "…première part et Monsieur et Madame ▢ comparants de deuxième part…"
         },
@@ -1955,14 +1801,12 @@
           "id": "champ_234",
           "type": "text",
           "label": "Comme l’atteste l’état foncier numéro",
-          "opt": true,
           "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…"
         },
         {
           "id": "champ_235",
           "type": "text",
           "label": "Du",
-          "opt": true,
           "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…",
           "aide": "…l’atteste l’état foncier numéro 2018 du ▢ délivré par Madame le…"
         },
@@ -1970,14 +1814,12 @@
           "id": "champ_236",
           "type": "text",
           "label": "De la Propriété Foncière de",
-          "opt": true,
           "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…"
         },
         {
           "id": "champ_237",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "L’immeuble cédé et donné en garantie n’est grevé d’aucun droit réel au…",
           "aide": "…de la Propriété Foncière de le ▢ dont une copie demeurera…"
         },
@@ -1985,16 +1827,19 @@
           "id": "champ_238",
           "type": "text",
           "label": "XXVII - ATTRIBUTION DE JURIDICTION",
-          "opt": true,
           "group": "ARTICLE XXVII - ATTRIBUTION DE JURIDICTION …"
+        },
+        {
+          "id": "ville_tribunal",
+          "type": "text",
+          "label": "Ville du tribunal compétent",
+          "group": "Le Tribunal de Commerce … sera seul compétent pour connaître de tous…"
         },
         {
           "id": "champ_012",
           "type": "text",
-          "label": "Mme",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme ▢ Mr…"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         }
       ]
     },
@@ -2007,32 +1852,25 @@
         {
           "id": "champ_013",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         },
         {
           "id": "champ_014",
           "type": "text",
-          "label": "Mme",
-          "opt": true,
-          "group": "Mme …. Mr …",
-          "aide": "…Mme ▢ Mr…"
+          "label": "Nom et prénoms",
+          "group": "Mme …. Mr …"
         },
         {
           "id": "champ_015",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mme …. Mr …",
-          "aide": "…Mme Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mme …. Mr …"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Avant « Es-qualités »",
-          "opt": true,
           "group": "… Es-qualités",
           "aide": "▢ Es-qualités…"
         },
@@ -2040,7 +1878,6 @@
           "id": "champ_239",
           "type": "text",
           "label": "Avant « dans blancs »",
-          "opt": true,
           "group": "Barres : … dans blancs",
           "aide": "…Barres ▢ dans blancs…"
         }
@@ -2082,14 +1919,14 @@
     },
     {
       "k": "p",
-      "text": "LES"
+      "text": "LE {{date_acte_jm}}"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "PARDEVANT** Maître {{notaire_nom}}**, Notaire à ABIDJAN (République de COTE D’IVOIRE), soussigné,"
+      "text": "PARDEVANT** Maître {{notaire_nom}}**, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), soussigné,"
     },
     {
       "k": "p",
@@ -2101,7 +1938,7 @@
     },
     {
       "k": "p",
-      "text": "**1) Madame {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}},demeurant à ABIDJAN, Commune de {{champ_024}} {{champ_025}}, {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}} ABIDJAN {{champ_030}}, {{champ_031}}."
+      "text": "**1) Madame {{champ_020}} {{champ_021}}**, {{champ_022}} {{champ_023}},demeurant à {{ville_residence}}, Commune de {{champ_024}} {{champ_025}}, {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}} {{ville_bp}} {{champ_030}}, {{champ_031}}."
     },
     {
       "k": "sp"
@@ -2144,7 +1981,7 @@
     },
     {
       "k": "p",
-      "text": "et son épouse Madame {{champ_044}} **{{champ_045}}, {{champ_046}} **{{champ_047}}, tous deux demeurant à ABIDJAN, Commune de {{champ_048}} {{champ_049}}, Quartier {{champ_050}}."
+      "text": "et son épouse Madame {{champ_044}} **{{champ_045}}, {{champ_046}} **{{champ_047}}, tous deux demeurant à {{ville_residence_2}}, Commune de {{champ_048}} {{champ_049}}, Quartier {{champ_050}}."
     },
     {
       "k": "sp"
@@ -2186,7 +2023,7 @@
     },
     {
       "k": "p",
-      "text": "Monsieur {{partie_1}}, de la Carte Nationale d’Identité numéro C {{champ_059}}, établie à  ABIDJAN, le {{champ_060}} et valable jusqu’au {{champ_061}}."
+      "text": "Monsieur {{partie_1}}, de la Carte Nationale d’Identité numéro C {{champ_059}}, établie à  {{lieu_delivrance}}, le {{champ_060}} et valable jusqu’au {{champ_061}}."
     },
     {
       "k": "sp"
@@ -2200,7 +2037,7 @@
     },
     {
       "k": "p",
-      "text": "**Monsieur {{champ_068}} **et {{champ_069}} **Madame {{champ_070}} **se sont mariés à ABIDJAN, à la Mairie de {{champ_071}}, le {{champ_072}}, sous le régime {{champ_073}}."
+      "text": "**Monsieur {{champ_068}} **et {{champ_069}} **Madame {{champ_070}} **se sont mariés à {{lieu_mariage}}, à la Mairie de {{champ_071}}, le {{champ_072}}, sous le régime {{champ_073}}."
     },
     {
       "k": "sp"
@@ -2222,7 +2059,7 @@
     },
     {
       "k": "p",
-      "text": "**3) Monsieur {{champ_076}} {{champ_077}},** Directeur Général de la Société {{champ_078}}, demeurant à ABIDJAN {{champ_079}} BP {{champ_080}} {{champ_081}};"
+      "text": "**3) Monsieur {{champ_076}} {{champ_077}},** Directeur Général de la Société {{champ_078}}, demeurant à {{ville_residence_3}} {{champ_079}} BP {{champ_080}} {{champ_081}};"
     },
     {
       "k": "sp"
@@ -2237,7 +2074,7 @@
     },
     {
       "k": "p",
-      "text": "La Société {{champ_082}} Société {{champ_083}}, au capital de {{champ_084}} **({{champ_085}}) FRANCS CFA** dont le siège est à {{champ_086}} {{champ_087}}, {{champ_088}} {{champ_089}}, BP {{champ_090}} ABIDJAN {{champ_091}}, immatriculée au Registre de Commerce et du Crédit Mobilier d’ABIDJAN sous le numéro {{champ_092}}."
+      "text": "La Société {{champ_082}} Société {{champ_083}}, au capital de {{champ_084}} **({{champ_085}}) FRANCS CFA** dont le siège est à {{champ_086}} {{champ_087}}, {{champ_088}} {{champ_089}}, BP {{champ_090}} {{ville_bp_2}} {{champ_091}}, immatriculée au Registre de Commerce et du Crédit Mobilier {{ville_rccm_de}} sous le numéro {{champ_092}}."
     },
     {
       "k": "sp"
@@ -2423,7 +2260,7 @@
     },
     {
       "k": "p",
-      "text": "A ce sujet, le** VENDEUR** déclare qu’il n’existe à sa connaissance aucune servitude grevant le bien vendu autre que celles résultant de la situation naturelle des lieux, des plans d’aménagement et des dispositions d’urbanisme en vigueur à ABIDJAN."
+      "text": "A ce sujet, le** VENDEUR** déclare qu’il n’existe à sa connaissance aucune servitude grevant le bien vendu autre que celles résultant de la situation naturelle des lieux, des plans d’aménagement et des dispositions d’urbanisme en vigueur à {{ville_bien}}."
     },
     {
       "k": "sp"
@@ -2565,7 +2402,7 @@
     },
     {
       "k": "p",
-      "text": "**1/-** Payer entre les mains de {{champ_131}}, vendeur, le prix d’acquisition d’une parcelle de terrain urbain non bâtie sise à {{champ_132}} **{{champ_133}}**, Quartier {{champ_134}} **{{champ_135}}**, d’une superficie de {{champ_136}} **METRES CARRES ({{champ_137}} m²)**, formant le lot numéro {{champ_138}} **({{champ_139}})**, îlot numéro {{champ_140}} (**{{champ_141}}**) du lotissement de {{champ_142}}, à détacher du **T**itre **F**oncier numéro {{champ_143}} **({{champ_144}})** de la Circonscription Foncière de **BINGERVILLE**, soit ** ({{champ_145}}) DE FRANCS CFA**."
+      "text": "**1/-** Payer entre les mains de {{champ_131}}, vendeur, le prix d’acquisition d’une parcelle de terrain urbain non bâtie sise à {{champ_132}} **{{champ_133}}**, Quartier {{champ_134}} **{{champ_135}}**, d’une superficie de {{champ_136}} **METRES CARRES ({{champ_137}} m²)**, formant le lot numéro {{champ_138}} **({{champ_139}})**, îlot numéro {{champ_140}} (**{{champ_141}}**) du lotissement de {{champ_142}}, à détacher du **T**itre **F**oncier numéro {{champ_143}} **({{champ_144}})** de la Circonscription Foncière {{circonscription_fonciere_de}}, soit ** ({{champ_145}}) DE FRANCS CFA**."
     },
     {
       "k": "sp"
@@ -2703,7 +2540,7 @@
     },
     {
       "k": "p",
-      "text": "Compte tenu de l’appartenance de  **Monsieur {{champ_154}} **au personnel de {{champ_155}}, le crédit consenti de {{champ_156}} **FRANCS CFA ({{champ_157}} F CFA)** en principal est productif d’intérêts au taux fixe de 2%paran. Ces intérêts seront passibles de la **T**axe sur les **O**pérations **B**ancaires (TOB), soit actuellement dix pour cent l’an (10%). Toutefois, au cas où **Monsieur {{champ_158}} {{champ_159}}**, ne ferait plus partie du personnel {{champ_160}} le crédit produira des intérêts au taux appliqué par {{champ_161}} à sa clientèle en pareille circonstance. Ces intérêts seront passibles de la Taxe sur les Opérations Bancaires (TOB)."
+      "text": "Compte tenu de l’appartenance de  **Monsieur {{champ_154}} **au personnel de {{champ_155}}, le crédit consenti de {{champ_156}} **FRANCS CFA ({{champ_157}} F CFA)** en principal est productif d’intérêts au taux fixe de {{taux_interet}}%paran. Ces intérêts seront passibles de la **T**axe sur les **O**pérations **B**ancaires (TOB), soit actuellement dix pour cent l’an (10%). Toutefois, au cas où **Monsieur {{champ_158}} {{champ_159}}**, ne ferait plus partie du personnel {{champ_160}} le crédit produira des intérêts au taux appliqué par {{champ_161}} à sa clientèle en pareille circonstance. Ces intérêts seront passibles de la Taxe sur les Opérations Bancaires (TOB)."
     },
     {
       "k": "sp"
@@ -3066,7 +2903,7 @@
     },
     {
       "k": "p",
-      "text": "Tous les paiements à faire en vertu des présentes auront lieu à ABIDJAN, au siège de LA **BANQUE**, ou en toutes autres agences de ladite **BANQUE** ou des comptes viendraient à être ouverts au nom de **L'ACQUEREUR**."
+      "text": "Tous les paiements à faire en vertu des présentes auront lieu à {{ville_paiement}}, au siège de LA **BANQUE**, ou en toutes autres agences de ladite **BANQUE** ou des comptes viendraient à être ouverts au nom de **L'ACQUEREUR**."
     },
     {
       "k": "sp"
@@ -3700,7 +3537,7 @@
     },
     {
       "k": "p",
-      "text": "Les Comparants requièrent expressément **Madame le Conservateur de la Propriété Foncière d’ALLOBE** de formaliser les présentes conformément aux stipulations qui y sont contenues."
+      "text": "Les Comparants requièrent expressément **Madame le Conservateur de la Propriété Foncière {{conservation_ville_de}}** de formaliser les présentes conformément aux stipulations qui y sont contenues."
     },
     {
       "k": "sp"
@@ -3943,7 +3780,7 @@
     },
     {
       "k": "p",
-      "text": "Le Tribunal de Commerce d’ABIDJAN sera seul compétent pour connaître de tous litiges relatifs à l’exécution des présentes."
+      "text": "Le Tribunal de Commerce {{ville_tribunal_de}} sera seul compétent pour connaître de tous litiges relatifs à l’exécution des présentes."
     },
     {
       "k": "sp"
@@ -3972,7 +3809,7 @@
     },
     {
       "k": "p",
-      "text": "Fait et passé à ABIDJAN"
+      "text": "Fait et passé à {{ville_notaire}}"
     },
     {
       "k": "p",
@@ -4078,7 +3915,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-19zel-owbxefq7p14qmlqkpcswbo6xasr-matrice-vente-avec-oc-par.docx",
-    "version": "3"
+    "version": "5"
   },
   "exemple": {
     "reference_etude": "Exemple",
@@ -4323,6 +4160,22 @@
     "champ_014": "Exemple",
     "champ_015": "Exemple",
     "champ_016": "Exemple",
-    "champ_239": "Exemple"
+    "champ_239": "Exemple",
+    "date_acte": "2000-01-01",
+    "ville_notaire": "Abidjan",
+    "ville_residence": "Abidjan",
+    "ville_bp": "Abidjan",
+    "ville_residence_2": "Abidjan",
+    "lieu_delivrance": "Abidjan",
+    "lieu_mariage": "Abidjan",
+    "ville_residence_3": "Abidjan",
+    "ville_bp_2": "Abidjan",
+    "ville_rccm": "Abidjan",
+    "ville_bien": "Abidjan",
+    "circonscription_fonciere": "Bingerville",
+    "taux_interet": "2",
+    "ville_paiement": "Abidjan",
+    "conservation_ville": "Abidjan",
+    "ville_tribunal": "Abidjan"
   }
 }

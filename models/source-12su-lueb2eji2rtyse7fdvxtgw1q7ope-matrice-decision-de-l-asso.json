@@ -26,7 +26,6 @@
           "id": "champ_020",
           "type": "text",
           "label": "DECISION DE L’ASSOCIE UNIQUE",
-          "opt": true,
           "group": "GERANT DE LA SARL «…»",
           "aide": "…GERANT DE LA SARL ▢"
         },
@@ -34,31 +33,33 @@
           "id": "champ_021",
           "type": "text",
           "label": "Capital",
-          "opt": true,
           "group": "Capital … FCFA",
           "aide": "…Capital ▢ FCFA…"
+        },
+        {
+          "id": "ville_siege",
+          "type": "text",
+          "label": "Ville du siège social",
+          "group": "Siège social : …, Commune …, Quartier …"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Commune",
-          "opt": true,
-          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
-          "aide": "…Siège social ABIDJAN Commune ▢ Quartier…"
+          "group": "Siège social : …, Commune …, Quartier …",
+          "aide": "…Siège social Commune ▢ Quartier…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Siège social : ABIDJAN, Commune …, Quartier …",
-          "aide": "…Siège social ABIDJAN Commune Quartier ▢"
+          "group": "Siège social : …, Commune …, Quartier …",
+          "aide": "…Siège social Commune Quartier ▢"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "BP … ; RCCM :",
           "aide": "…BP ▢ RCCM…"
         },
@@ -66,22 +67,20 @@
           "id": "champ_025",
           "type": "text",
           "label": "Avant « RCCM »",
-          "opt": true,
           "group": "BP … ; RCCM :",
           "aide": "…BP ▢ RCCM…"
         },
         {
           "id": "champ_026",
           "type": "text",
-          "label": "L'an deux",
-          "opt": true,
-          "group": "L'an deux …, le … à … heures …,"
+          "label": "Année (en lettres, à la suite de « L’an deux »)",
+          "group": "L'an deux …, le … à … heures …,",
+          "aide": "…L’an deux ▢"
         },
         {
           "id": "champ_027",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le ▢ à heures…"
         }
@@ -97,7 +96,6 @@
           "id": "champ_028",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le à ▢ heures…"
         },
@@ -105,52 +103,43 @@
           "id": "champ_029",
           "type": "text",
           "label": "Minutes",
-          "opt": true,
           "group": "L'an deux …, le … à … heures …,",
           "aide": "…L'an deux le à heures ▢"
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
-          "aide": "…Monsieur ▢ associé unique et seul…"
+          "label": "Nom",
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…"
         },
         {
           "id": "champ_031",
           "type": "text",
-          "label": "Avant « associé unique et seul »",
-          "opt": true,
-          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…",
-          "aide": "…Monsieur ▢ associé unique et seul…"
+          "label": "Prénoms",
+          "group": "Monsieur … , associé unique et seul gérant de la société, après avoir…"
         },
         {
           "id": "champ_001",
           "type": "text",
           "label": "D’augmenter de la somme de",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Social qui est actuellement de",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Divisé en",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Parts de",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         }
       ]
@@ -165,28 +154,24 @@
           "id": "champ_005",
           "type": "text",
           "label": "Pour le porter à",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "FCFA par la création de",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Parts nouvelles de",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Avant « FCFA »",
-          "opt": true,
           "group": "L’associé unique gérant décide d’augmenter de la somme de … FCFA, le…",
           "aide": "…la création de parts nouvelles de ▢ FCFA…"
         },
@@ -194,28 +179,24 @@
           "id": "champ_009",
           "type": "text",
           "label": "D’une somme de",
-          "opt": true,
           "group": "Cette augmentation est réalisée au moyen de l’émission au pair et/ou…"
         },
         {
           "id": "champ_010",
           "type": "date",
           "label": "Porteront jouissances à compter du",
-          "opt": true,
           "group": "Les parts nouvelles ainsi créées qui seront assujetties à toutes les…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Modifier comme suit les articles",
-          "opt": true,
           "group": "En conséquence de la résolution qui précède, et sous la condition…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Article",
-          "opt": true,
           "group": "Article …. : Apports",
           "aide": "…Article ▢ Apports…"
         },
@@ -223,7 +204,6 @@
           "id": "champ_013",
           "type": "text",
           "label": "La somme de",
-          "opt": true,
           "group": "Lors de la constitution, la somme de … FCFA ;",
           "aide": "…de la constitution la somme de ▢ FCFA…"
         },
@@ -231,14 +211,12 @@
           "id": "champ_014",
           "type": "date",
           "label": "L’associé unique en date du",
-          "opt": true,
           "group": "Lors de l’augmentation de capital décidée par l’associé unique en date…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "La somme de",
-          "opt": true,
           "group": "Lors de l’augmentation de capital décidée par l’associé unique en date…",
           "aide": "…en date du la somme de ▢ FCFA par souscription en…"
         },
@@ -246,7 +224,6 @@
           "id": "champ_016",
           "type": "text",
           "label": "Article",
-          "opt": true,
           "group": "Article …. : Capital social",
           "aide": "…Article ▢ Capital social…"
         },
@@ -254,37 +231,31 @@
           "id": "champ_017",
           "type": "text",
           "label": "Fixé à la somme de",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Il est divisé en",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Parts de",
-          "opt": true,
           "group": "Le capital social est fixé à la somme de ….FCFA. Il est divisé en ……"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "La séance est levée à",
-          "opt": true,
           "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures…"
         },
         {
           "id": "champ_033",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mr …",
-          "aide": "…Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mr …"
         }
       ]
     },
@@ -319,7 +290,7 @@
     },
     {
       "k": "p",
-      "text": "**Siège social** : ABIDJAN**, Commune {{champ_022}}, Quartier {{champ_023}}**",
+      "text": "**Siège social** : {{ville_siege}}**, Commune {{champ_022}}, Quartier {{champ_023}}**",
       "ind": 1
     },
     {
@@ -335,7 +306,7 @@
     },
     {
       "k": "p",
-      "text": "L'an deux {{champ_026}}, le {{champ_027}} à {{champ_028}} heures {{champ_029}},"
+      "text": "L'an deux {{champ_026}}, le {{champ_027_jm}} à {{champ_028}} heures {{champ_029}},"
     },
     {
       "k": "sp"
@@ -572,7 +543,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-12su-lueb2eji2rtyse7fdvxtgw1q7ope-matrice-decision-de-l-asso.docx",
-    "version": "3"
+    "version": "6"
   },
   "exemple": {
     "champ_020": "Exemple",
@@ -607,6 +578,7 @@
     "champ_018": "Exemple",
     "champ_019": "Exemple",
     "champ_032": "Exemple",
-    "champ_033": "Exemple"
+    "champ_033": "Exemple",
+    "ville_siege": "Abidjan"
   }
 }

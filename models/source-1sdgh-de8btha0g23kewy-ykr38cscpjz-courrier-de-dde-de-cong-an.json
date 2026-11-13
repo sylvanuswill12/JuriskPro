@@ -26,23 +26,33 @@
           "id": "nom_salarie",
           "type": "text",
           "label": "Nom du salarié",
-          "opt": true,
-          "group": "Mme … ABIDJAN, le 28 Août 2017",
-          "aide": "…Mme ▢ ABIDJAN le 28 Août…"
+          "group": "Mme … , le …",
+          "aide": "…Mme ▢ le…"
         },
         {
           "id": "champ_001",
           "type": "text",
-          "label": "Avant « ABIDJAN le 28 Août »",
-          "opt": true,
-          "group": "Mme … ABIDJAN, le 28 Août 2017",
-          "aide": "…Mme ▢ ABIDJAN le 28 Août…"
+          "label": "Avant « le »",
+          "group": "Mme … , le …",
+          "aide": "…Mme ▢ le…"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "Mme … , le …"
+        },
+        {
+          "id": "date_lettre",
+          "type": "date",
+          "label": "Date de la lettre",
+          "group": "Mme … , le …"
         },
         {
           "id": "nom_naissance_salarie",
           "type": "text",
           "label": "Nom de naissance",
-          "opt": true,
           "group": "née …",
           "aide": "…née ▢"
         },
@@ -50,7 +60,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "Information à compléter",
-          "opt": true,
           "group": "née …",
           "aide": "…née ▢"
         },
@@ -58,7 +67,6 @@
           "id": "prenom_salarie",
           "type": "text",
           "label": "Prénom du salarié",
-          "opt": true,
           "group": "née …",
           "aide": "…née ▢"
         },
@@ -66,24 +74,41 @@
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
           "group": "Maître …",
           "aide": "…Maître ▢",
           "profil": "nom",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "…"
+        },
+        {
           "id": "champ_003",
           "type": "text",
           "label": "Demande de congé annuel",
-          "opt": true,
           "group": "Objet : Demande de congé annuel …"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Compte tenu de",
-          "opt": true,
+          "group": "Compte tenu de …, je viens par la présente solliciter auprès de vous…"
+        },
+        {
+          "id": "debut_conge",
+          "type": "date",
+          "label": "Début du congé demandé",
+          "group": "Compte tenu de …, je viens par la présente solliciter auprès de vous…"
+        },
+        {
+          "id": "fin_conge",
+          "type": "date",
+          "label": "Fin du congé demandé",
           "group": "Compte tenu de …, je viens par la présente solliciter auprès de vous…"
         }
       ]
@@ -99,7 +124,7 @@
   "doc": [
     {
       "k": "p",
-      "text": "**Mme {{nom_salarie}} {{champ_001}} **ABIDJAN, le 28 Août 2017"
+      "text": "**Mme {{nom_salarie}} {{champ_001}} **{{ville_signature}}, le {{date_lettre}}"
     },
     {
       "k": "p",
@@ -129,7 +154,7 @@
     },
     {
       "k": "p",
-      "text": "**ABIDJAN**",
+      "text": "**{{ville_notaire}}**",
       "ind": 6
     },
     {
@@ -154,7 +179,7 @@
     },
     {
       "k": "p",
-      "text": "Compte tenu de {{champ_004}}, je viens par la présente solliciter auprès de vous l’obtention de mon congé annuel allant de la période du 04 Septembre au 04 Octobre 2017 inclus."
+      "text": "Compte tenu de {{champ_004}}, je viens par la présente solliciter auprès de vous l’obtention de mon congé annuel allant de la période du {{debut_conge}} au {{fin_conge}} inclus."
     },
     {
       "k": "sp"
@@ -190,7 +215,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1sdgh-de8btha0g23kewy-ykr38cscpjz-courrier-de-dde-de-cong-an.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "nom_salarie": "Exemple",
@@ -200,6 +225,11 @@
     "prenom_salarie": "Exemple",
     "notaire_nom": "NOTAIRE EXEMPLE",
     "champ_003": "Exemple",
-    "champ_004": "Exemple"
+    "champ_004": "Exemple",
+    "ville_signature": "Abidjan",
+    "date_lettre": "2000-01-01",
+    "ville_notaire": "Abidjan",
+    "debut_conge": "2000-01-01",
+    "fin_conge": "2000-01-01"
   }
 }

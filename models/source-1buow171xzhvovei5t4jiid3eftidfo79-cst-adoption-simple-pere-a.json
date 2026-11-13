@@ -33,16 +33,14 @@
           "id": "champ_001",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "L’AN DEUX MIL QUATORZE LE … HUIT AOUT",
+          "group": "L’AN DEUX MIL QUATORZE LE …",
           "aide": "…L’AN DEUX MIL QUATORZE LE ▢ HUIT AOUT…"
         },
         {
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de Côte d’Ivoire),…",
+          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
           "profil": "nom",
           "pq": "notaire"
         },
@@ -50,33 +48,35 @@
           "id": "prenom_notaire",
           "type": "text",
           "label": "Prénom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître … , Notaire à ABIDJAN (République de Côte d’Ivoire),…",
-          "aide": "…PARDEVANT Maître ▢ Notaire à ABIDJAN République…",
+          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
+          "aide": "…PARDEVANT Maître ▢ Notaire à République de…",
           "profil": "prenom",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…"
+        },
+        {
           "id": "champ_002",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
-          "aide": "…Monsieur ▢ demeurant à Commune de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,"
         },
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "opt": true,
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
-          "aide": "…Monsieur ▢ demeurant à Commune de…"
+          "label": "Profession",
+          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,"
         },
         {
           "id": "champ_004",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
           "aide": "…Monsieur demeurant à ▢ Commune de Quartier BP…"
         },
@@ -84,7 +84,6 @@
           "id": "commune",
           "type": "text",
           "label": "Commune",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
           "aide": "…Monsieur demeurant à Commune de ▢ Quartier BP…"
         }
@@ -100,7 +99,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
           "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
@@ -108,7 +106,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …,",
           "aide": "…demeurant à Commune de Quartier BP ▢"
         },
@@ -116,7 +113,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à ▢ République de le…"
         },
@@ -124,7 +120,6 @@
           "id": "champ_008",
           "type": "text",
           "label": "République de",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à République de ▢ le…"
         },
@@ -132,7 +127,6 @@
           "id": "champ_009",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … (République de …), le …,",
           "aide": "…Né à République de le ▢"
         },
@@ -140,14 +134,12 @@
           "id": "champ_010",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -155,7 +147,6 @@
           "id": "champ_012",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
@@ -163,23 +154,19 @@
           "id": "champ_013",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_014",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…",
-          "aide": "…Monsieur ▢ demeurant à époux de…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…",
           "aide": "…Monsieur demeurant à ▢ époux de Madame avec…"
         },
@@ -194,21 +181,18 @@
           "id": "champ_017",
           "type": "date",
           "label": "Laquelle il s’est marié le",
-          "opt": true,
           "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "À la mairie de",
-          "opt": true,
           "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "République de",
-          "opt": true,
           "group": "Monsieur …, demeurant à …, époux de Madame …, avec laquelle il s’est…",
           "aide": "…à la mairie de République de ▢"
         },
@@ -216,7 +200,6 @@
           "id": "champ_020",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … (République de …), le …, …",
           "aide": "…Né à ▢ République de le…"
         },
@@ -224,7 +207,6 @@
           "id": "champ_021",
           "type": "text",
           "label": "République de",
-          "opt": true,
           "group": "Né à … (République de …), le …, …",
           "aide": "…Né à République de ▢ le…"
         },
@@ -232,7 +214,6 @@
           "id": "champ_022",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … (République de …), le …, …",
           "aide": "…Né à République de le ▢"
         },
@@ -240,7 +221,6 @@
           "id": "champ_023",
           "type": "date",
           "label": "Expressément à l’adoption simple par",
-          "opt": true,
           "group": "Né à … (République de …), le …, …",
           "aide": "…Né à République de le ▢"
         },
@@ -248,14 +228,12 @@
           "id": "champ_024",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -263,7 +241,6 @@
           "id": "champ_026",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
@@ -271,7 +248,6 @@
           "id": "champ_027",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
           "aide": "…établie à le et valable jusqu’au ▢"
         },
@@ -279,14 +255,12 @@
           "id": "champ_028",
           "type": "text",
           "label": "De l’enfant mineur",
-          "opt": true,
           "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…"
         },
         {
           "id": "prenom_partie",
           "type": "text",
           "label": "Prénom de la partie",
-          "opt": true,
           "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
           "aide": "…De l’enfant mineur ▢ né e à le…"
         },
@@ -294,7 +268,6 @@
           "id": "champ_029",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
           "aide": "…De l’enfant mineur né e à ▢ le ainsi qu’il résulte…"
         },
@@ -302,17 +275,14 @@
           "id": "champ_030",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
           "aide": "…l’enfant mineur né e à le ▢ ainsi qu’il résulte de…"
         },
         {
           "id": "champ_031",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Demeurant avec sa mère, Madame …",
-          "aide": "…Demeurant avec sa mère Madame ▢"
+          "label": "Nom et prénoms",
+          "group": "Demeurant avec sa mère, Madame …"
         }
       ]
     },
@@ -326,38 +296,31 @@
           "id": "champ_032",
           "type": "text",
           "label": "Avant « En l’Etude du Notaire »",
-          "opt": true,
-          "group": "Fait et passé à ABIDJAN, … En l’Etude du Notaire soussigné … Et après…",
+          "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…",
           "aide": "…Fait et passé à ABIDJAN ▢ En l’Etude du Notaire…"
         },
         {
           "id": "champ_033",
           "type": "text",
           "label": "En l’Etude du Notaire soussigné",
-          "opt": true,
-          "group": "Fait et passé à ABIDJAN, … En l’Etude du Notaire soussigné … Et après…"
+          "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…"
         },
         {
           "id": "champ_034",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mr … Me …",
-          "aide": "…Mr ▢ Me…"
+          "label": "Nom",
+          "group": "Mr … Me …"
         },
         {
           "id": "champ_035",
           "type": "text",
-          "label": "Avant « Me »",
-          "opt": true,
-          "group": "Mr … Me …",
-          "aide": "…Mr ▢ Me…"
+          "label": "Prénoms",
+          "group": "Mr … Me …"
         },
         {
           "id": "champ_036",
           "type": "text",
           "label": "Avant « Mots nuls Chiffres nuls »",
-          "opt": true,
           "group": "Renvois : … Mots nuls : … Chiffres nuls : … Blancs bâtonnés : … Barres…",
           "aide": "…Renvois ▢ Mots nuls Chiffres nuls…"
         },
@@ -365,7 +328,6 @@
           "id": "champ_037",
           "type": "text",
           "label": "Avant « Chiffres nuls Blancs bâtonnés »",
-          "opt": true,
           "group": "Renvois : … Mots nuls : … Chiffres nuls : … Blancs bâtonnés : … Barres…",
           "aide": "…Renvois Mots nuls ▢ Chiffres nuls Blancs bâtonnés…"
         },
@@ -373,7 +335,6 @@
           "id": "champ_038",
           "type": "text",
           "label": "Avant « Blancs bâtonnés Barres dans »",
-          "opt": true,
           "group": "Renvois : … Mots nuls : … Chiffres nuls : … Blancs bâtonnés : … Barres…",
           "aide": "…Renvois Mots nuls Chiffres nuls ▢ Blancs bâtonnés Barres dans…"
         },
@@ -381,7 +342,6 @@
           "id": "champ_039",
           "type": "text",
           "label": "Avant « Barres dans les blancs »",
-          "opt": true,
           "group": "Renvois : … Mots nuls : … Chiffres nuls : … Blancs bâtonnés : … Barres…",
           "aide": "…Mots nuls Chiffres nuls Blancs bâtonnés ▢ Barres dans les blancs…"
         },
@@ -389,7 +349,6 @@
           "id": "champ_040",
           "type": "text",
           "label": "Avant « Lignes entières rayées nulles »",
-          "opt": true,
           "group": "Renvois : … Mots nuls : … Chiffres nuls : … Blancs bâtonnés : … Barres…",
           "aide": "…Blancs bâtonnés Barres dans les blancs ▢ Lignes entières rayées nulles…"
         }
@@ -422,7 +381,7 @@
     },
     {
       "k": "p",
-      "text": "L’AN DEUX MIL QUATORZE                                        LE {{champ_001}} HUIT   AOUT",
+      "text": "L’AN DEUX MIL QUATORZE                                        LE {{champ_001_jm}}",
       "al": "left"
     },
     {
@@ -433,7 +392,7 @@
     },
     {
       "k": "p",
-      "text": "PARDEVANT** Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, **Notaire à ABIDJAN (République de Côte d’Ivoire), soussigné**,**"
+      "text": "PARDEVANT** Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, **Notaire à {{ville_notaire}} (République de Côte d’Ivoire), soussigné**,**"
     },
     {
       "k": "sp"
@@ -544,7 +503,7 @@
     },
     {
       "k": "p",
-      "text": "Fait et passé à ABIDJAN, {{champ_032}} En l’Etude du Notaire soussigné {{champ_033}} Et après lecture faite, les comparants ont signé avec le Notaire.",
+      "text": "Fait et passé à {{ville_notaire}}, {{champ_032}} En l’Etude du Notaire soussigné {{champ_033}} Et après lecture faite, les comparants ont signé avec le Notaire.",
       "al": "left"
     },
     {
@@ -581,7 +540,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1buow171xzhvovei5t4jiid3eftidfo79-cst-adoption-simple-pere-a.docx",
-    "version": "3"
+    "version": "5"
   },
   "exemple": {
     "reference_etude": "Exemple",
@@ -628,6 +587,7 @@
     "champ_037": "Exemple",
     "champ_038": "Exemple",
     "champ_039": "Exemple",
-    "champ_040": "Exemple"
+    "champ_040": "Exemple",
+    "ville_notaire": "Abidjan"
   }
 }

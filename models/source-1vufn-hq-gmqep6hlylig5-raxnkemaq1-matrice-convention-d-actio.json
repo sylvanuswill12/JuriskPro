@@ -26,22 +26,25 @@
           "id": "champ_001",
           "type": "text",
           "label": "Crédit Mobilier sous le numéro",
-          "opt": true,
+          "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…"
+        },
+        {
+          "id": "ville_siege",
+          "type": "text",
+          "label": "Ville du siège social",
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+          "aide": "…son siège social à Commune de ▢ Quartier BP représentée par…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Avant « Quartier BP représentée par »",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
         },
@@ -49,15 +52,13 @@
           "id": "champ_012",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+          "aide": "…siège social à Commune de Quartier ▢ BP représentée par Monsieur…"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Avant « BP représentée par Monsieur »",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
         },
@@ -65,15 +66,13 @@
           "id": "champ_014",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+          "aide": "…social à Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Avant « représentée par Monsieur Directeur »",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
         },
@@ -81,7 +80,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "Représentée par Monsieur",
-          "opt": true,
           "group": "La Société XX SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…de Quartier BP représentée par Monsieur ▢ Directeur Général dûment habilité…"
         }
@@ -97,22 +95,25 @@
           "id": "champ_003",
           "type": "text",
           "label": "Crédit Mobilier sous le numéro",
-          "opt": true,
+          "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…"
+        },
+        {
+          "id": "ville_siege_2",
+          "type": "text",
+          "label": "Ville du siège social",
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
+          "aide": "…son siège social à Commune de ▢ Quartier BP représentée par…"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Avant « Quartier BP représentée par »",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…siège social à ABIDJAN Commune de ▢ Quartier BP représentée par…"
         },
@@ -120,15 +121,13 @@
           "id": "champ_018",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
+          "aide": "…siège social à Commune de Quartier ▢ BP représentée par Monsieur…"
         },
         {
           "id": "champ_019",
           "type": "text",
           "label": "Avant « BP représentée par Monsieur »",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…social à ABIDJAN Commune de Quartier ▢ BP représentée par Monsieur…"
         },
@@ -136,15 +135,13 @@
           "id": "champ_020",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
+          "aide": "…social à Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Avant « représentée par Monsieur Directeur »",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…à ABIDJAN Commune de Quartier BP ▢ représentée par Monsieur Directeur…"
         },
@@ -152,79 +149,75 @@
           "id": "champ_004",
           "type": "text",
           "label": "Représentée par Monsieur",
-          "opt": true,
           "group": "La Société YY SA, immatriculée au Registre de Commerce et du Crédit…",
           "aide": "…de Quartier BP représentée par Monsieur ▢ Directeur Général dûment habilité…"
+        },
+        {
+          "id": "nom_personne",
+          "type": "text",
+          "label": "Nom et prénoms de l’actionnaire",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…Administrateur de la société demeurant à ▢ Commune de Quartier BP…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Avant « Commune de Quartier BP »",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…Administrateur de la société demeurant à ▢ Commune de Quartier BP…"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…la société demeurant à Commune de ▢ Quartier BP…"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Avant « Quartier BP »",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…la société demeurant à Commune de ▢ Quartier BP…"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…société demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Avant « BP »",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…société demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "Avant « BP »",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…société demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Monsieur TT, Administrateur de la société, demeurant à … , Commune de ……",
+          "group": "Monsieur …, Administrateur de la société, demeurant à … , Commune de ……",
           "aide": "…demeurant à Commune de Quartier BP ▢"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -232,7 +225,6 @@
           "id": "champ_031",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -240,7 +232,6 @@
           "id": "champ_032",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à le ▢"
         },
@@ -248,7 +239,6 @@
           "id": "champ_033",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "De nationalité …",
           "aide": "…De nationalité ▢"
         },
@@ -256,14 +246,12 @@
           "id": "champ_034",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…"
         },
         {
           "id": "champ_035",
           "type": "text",
           "label": "Établie à",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -271,7 +259,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "Avant « le et valable jusqu’au »",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
           "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
         },
@@ -279,7 +266,6 @@
           "id": "champ_037",
           "type": "date",
           "label": "Le et valable jusqu’au",
-          "opt": true,
           "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à … , le et…",
           "aide": "…établie à le et valable jusqu’au ▢"
         }
@@ -295,14 +281,12 @@
           "id": "champ_038",
           "type": "text",
           "label": "XX SA",
-          "opt": true,
           "group": "XX SA …: … moitié des membres au moins"
         },
         {
           "id": "champ_039",
           "type": "text",
           "label": "Avant « moitié des membres au »",
-          "opt": true,
           "group": "XX SA …: … moitié des membres au moins",
           "aide": "…XX SA ▢ moitié des membres au…"
         },
@@ -310,14 +294,12 @@
           "id": "champ_040",
           "type": "text",
           "label": "YY SA",
-          "opt": true,
           "group": "YY SA …: … x des membres"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "Avant « x des membres »",
-          "opt": true,
           "group": "YY SA …: … x des membres",
           "aide": "…YY SA ▢ x des membres…"
         },
@@ -325,78 +307,74 @@
           "id": "champ_042",
           "type": "text",
           "label": "Monsieur TT",
-          "opt": true,
-          "group": "Monsieur TT …: … x des membres"
+          "group": "Monsieur … : … x des membres"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "Avant « x des membres »",
-          "opt": true,
-          "group": "Monsieur TT …: … x des membres",
+          "group": "Monsieur … : … x des membres",
           "aide": "…Monsieur TT ▢ x des membres…"
         },
         {
           "id": "champ_044",
           "type": "text",
           "label": "Le CABINET",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…"
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…"
+        },
+        {
+          "id": "ville_cabinet",
+          "type": "text",
+          "label": "Ville du cabinet",
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…"
         },
         {
           "id": "champ_045",
           "type": "text",
           "label": "Commune",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
-          "aide": "…Le CABINET ABIDJAN Commune ▢ Quartier BP Tél 225…"
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
+          "aide": "…Le CABINET Commune ▢ Quartier BP Tél 225…"
         },
         {
           "id": "champ_046",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
-          "aide": "…Le CABINET ABIDJAN Commune Quartier ▢ BP Tél 225 Fax…"
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
+          "aide": "…Le CABINET Commune Quartier ▢ BP Tél 225 Fax…"
         },
         {
           "id": "champ_047",
           "type": "text",
           "label": "Avant « BP Tél 225 Fax »",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
           "aide": "…Le CABINET ABIDJAN Commune Quartier ▢ BP Tél 225 Fax…"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
-          "aide": "…Le CABINET ABIDJAN Commune Quartier BP ▢ Tél 225 Fax 225…"
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
+          "aide": "…Le CABINET Commune Quartier BP ▢ Tél 225 Fax 225…"
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Avant « Tél 225 Fax 225 »",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
           "aide": "…Le CABINET ABIDJAN Commune Quartier BP ▢ Tél 225 Fax 225…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "Avant « Fax 225 chargé d’assister »",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
           "aide": "…ABIDJAN Commune Quartier BP Tél 225 ▢ Fax 225 chargé d’assister…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Avant « chargé d’assister et de »",
-          "opt": true,
-          "group": "Le CABINET …, ABIDJAN, Commune …, Quartier … , BP … , Tél. : (225) …,…",
+          "group": "Le CABINET …, …, Commune …, Quartier … , BP … , Tél. : (225) …, Fax :…",
           "aide": "…Quartier BP Tél 225 Fax 225 ▢ chargé d’assister et de…"
         }
       ]
@@ -411,38 +389,70 @@
           "id": "champ_005",
           "type": "text",
           "label": "CDC pendant une durée de",
-          "opt": true,
           "group": "Toutefois, avant toute distribution de dividende ; prorata quotité du…"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Avant « ans un dividende exceptionnel »",
-          "opt": true,
           "group": "Toutefois, avant toute distribution de dividende ; prorata quotité du…",
           "aide": "…la CDC pendant une durée de ▢ ans un dividende exceptionnel…"
+        },
+        {
+          "id": "pourcentage",
+          "type": "text",
+          "label": "Dividende exceptionnel (% du revenu net)",
+          "group": "Toutefois, avant toute distribution de dividende ; prorata quotité du…"
+        },
+        {
+          "id": "pourcentage_2",
+          "type": "text",
+          "label": "Pourcentage du dividende prioritaire",
+          "group": "Les actions détenues par la société XX SA sont des actions à dividende…"
+        },
+        {
+          "id": "pourcentage_3",
+          "type": "text",
+          "label": "Pourcentage du dividende prioritaire",
+          "group": "Les actions détenues par la société YY SA sont des actions à dividende…"
+        },
+        {
+          "id": "pourcentage_4",
+          "type": "text",
+          "label": "Pourcentage du dividende prioritaire",
+          "group": "Les actions détenues par Monsieur … sont des actions à dividende…"
+        },
+        {
+          "id": "pourcentage_5",
+          "type": "text",
+          "label": "Pourcentage du dividende prioritaire",
+          "group": "Le bénéfice sera réparti à hauteur de …% aux actions à dividende…"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "Fait à …, le …."
         },
         {
           "id": "champ_007",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Fait à ABIDJAN, le ….",
-          "aide": "…Fait à ABIDJAN le ▢"
+          "group": "Fait à …, le ….",
+          "aide": "…Fait à le ▢"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "En",
-          "opt": true,
           "group": "En … (…) exemplaires",
           "aide": "…En ▢ exemplaires…"
         },
         {
           "id": "champ_009",
           "type": "text",
-          "label": "Avant « exemplaires »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "En … (…) exemplaires",
           "aide": "…En ▢ exemplaires…"
         },
@@ -450,24 +460,19 @@
           "id": "champ_052",
           "type": "text",
           "label": "Pour la Société XX SA",
-          "opt": true,
           "group": "Pour la Société XX SA … Pour la Société YY SA"
         },
         {
           "id": "champ_053",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … Monsieur …",
-          "aide": "…Monsieur ▢ Monsieur…"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … Monsieur …"
         },
         {
           "id": "champ_054",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … Monsieur …",
-          "aide": "…Monsieur Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur … Monsieur …"
         }
       ]
     },
@@ -504,7 +509,7 @@
     },
     {
       "k": "p",
-      "text": "La **Société XX SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_001}}, et ayant son siège social à ABIDJAN, Commune de {{champ_010}} {{champ_011}}, Quartier {{champ_012}} {{champ_013}},  BP {{champ_014}} {{champ_015}}, représentée par Monsieur {{champ_002}}, Directeur Général, dûment habilité aux fins des présentes."
+      "text": "La **Société XX SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_001}}, et ayant son siège social à {{ville_siege}}, Commune de {{champ_010}} {{champ_011}}, Quartier {{champ_012}} {{champ_013}},  BP {{champ_014}} {{champ_015}}, représentée par Monsieur {{champ_002}}, Directeur Général, dûment habilité aux fins des présentes."
     },
     {
       "k": "sp"
@@ -526,14 +531,14 @@
     },
     {
       "k": "p",
-      "text": "La **Société YY SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_003}}, et ayant son siège social à ABIDJAN, Commune de {{champ_016}} {{champ_017}}, Quartier {{champ_018}} {{champ_019}},  BP {{champ_020}} {{champ_021}}, représentée par Monsieur {{champ_004}}, Directeur Général, dûment habilité aux fins des présentes."
+      "text": "La **Société YY SA**, immatriculée au Registre de Commerce et du Crédit Mobilier sous le numéro {{champ_003}}, et ayant son siège social à {{ville_siege_2}}, Commune de {{champ_016}} {{champ_017}}, Quartier {{champ_018}} {{champ_019}},  BP {{champ_020}} {{champ_021}}, représentée par Monsieur {{champ_004}}, Directeur Général, dûment habilité aux fins des présentes."
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**Monsieur TT**, Administrateur de la société, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}}"
+      "text": "**Monsieur {{nom_personne}}**, Administrateur de la société, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}}"
     },
     {
       "k": "sp"
@@ -707,7 +712,7 @@
     },
     {
       "k": "li",
-      "text": "**Monsieur TT** {{champ_042}}: {{champ_043}} **x des membres**",
+      "text": "**Monsieur {{nom_personne}}** {{champ_042}}: {{champ_043}} **x des membres**",
       "mk": "3."
     },
     {
@@ -729,7 +734,7 @@
     },
     {
       "k": "p",
-      "text": "**Le CABINET {{champ_044}}, ABIDJAN, Commune {{champ_045}}, Quartier {{champ_046}} {{champ_047}}, BP {{champ_048}} {{champ_049}}, Tél. : (225) {{champ_050}}, Fax : (225) {{champ_051}}**, chargé d’assister et de conseiller la société **WWW SA** conformément au protocole d’accord signé à cet effet."
+      "text": "**Le CABINET {{champ_044}}, {{ville_cabinet}}, Commune {{champ_045}}, Quartier {{champ_046}} {{champ_047}}, BP {{champ_048}} {{champ_049}}, Tél. : (225) {{champ_050}}, Fax : (225) {{champ_051}}**, chargé d’assister et de conseiller la société **WWW SA** conformément au protocole d’accord signé à cet effet."
     },
     {
       "k": "sp"
@@ -984,7 +989,7 @@
     },
     {
       "k": "p",
-      "text": "**Toutefois, avant toute distribution de dividende ; prorata quotité du capital détenu dans la société WWW SA, il est payé à la CDC pendant une durée de {{champ_005}}.{{champ_006}} ans un dividende exceptionnel de 10% du revenu net.**"
+      "text": "**Toutefois, avant toute distribution de dividende ; prorata quotité du capital détenu dans la société WWW SA, il est payé à la CDC pendant une durée de {{champ_005}}.{{champ_006}} ans un dividende exceptionnel de {{pourcentage}}% du revenu net.**"
     },
     {
       "k": "sp"
@@ -1005,28 +1010,28 @@
     },
     {
       "k": "p",
-      "text": "**Les actions détenues par la société XX SA sont des actions à dividende prioritaire à hauteur de 30%.**"
+      "text": "**Les actions détenues par la société XX SA sont des actions à dividende prioritaire à hauteur de {{pourcentage_2}}%.**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**Les actions détenues par la société YY SA sont des actions à dividende prioritaire à hauteur de 20%.**"
+      "text": "**Les actions détenues par la société YY SA sont des actions à dividende prioritaire à hauteur de {{pourcentage_3}}%.**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**Les actions détenues par Monsieur TT sont des actions à dividende prioritaire à hauteur de 10%.**"
+      "text": "**Les actions détenues par Monsieur {{nom_personne}} sont des actions à dividende prioritaire à hauteur de {{pourcentage_4}}%.**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**Le bénéfice sera réparti à hauteur de 60% aux actions à dividende prioritaire et les 40% restant seront répartis aux actions ordinaires.**"
+      "text": "**Le bénéfice sera réparti à hauteur de {{pourcentage_5}}% aux actions à dividende prioritaire et les 40% restant seront répartis aux actions ordinaires.**"
     },
     {
       "k": "sp"
@@ -1127,7 +1132,7 @@
     },
     {
       "k": "p",
-      "text": "Adresse de **Monsieur TT** :"
+      "text": "Adresse de **Monsieur {{nom_personne}}** :"
     },
     {
       "k": "sp"
@@ -1169,7 +1174,7 @@
     },
     {
       "k": "p",
-      "text": "Fait à ABIDJAN, le {{champ_007}}.",
+      "text": "Fait à {{ville_signature}}, le {{champ_007}}.",
       "al": "right"
     },
     {
@@ -1202,13 +1207,13 @@
     },
     {
       "k": "p",
-      "text": "**Monsieur TT**",
+      "text": "**Monsieur {{nom_personne}}**",
       "al": "center"
     }
   ],
   "sourceTemplate": {
     "file": "templates/source-1vufn-hq-gmqep6hlylig5-raxnkemaq1-matrice-convention-d-actio.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_001": "Exemple",
@@ -1264,6 +1269,16 @@
     "champ_009": "Exemple",
     "champ_052": "Exemple",
     "champ_053": "Exemple",
-    "champ_054": "Exemple"
+    "champ_054": "Exemple",
+    "ville_siege": "Abidjan",
+    "ville_siege_2": "Abidjan",
+    "nom_personne": "Kouassi Yao",
+    "ville_cabinet": "Abidjan",
+    "pourcentage": "10",
+    "pourcentage_2": "10",
+    "pourcentage_3": "10",
+    "pourcentage_4": "10",
+    "pourcentage_5": "10",
+    "ville_signature": "Abidjan"
   }
 }

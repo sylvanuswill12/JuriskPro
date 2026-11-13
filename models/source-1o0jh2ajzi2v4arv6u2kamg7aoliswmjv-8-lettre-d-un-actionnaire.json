@@ -26,52 +26,44 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « Préalablement à la réunion »",
-          "opt": true,
           "group": "Attention : … Préalablement à la réunion d'une assemblée, les…",
           "aide": "…Attention ▢ Préalablement à la réunion…"
         },
         {
           "id": "champ_002",
           "type": "text",
-          "label": "Nom du détenteur de capitaux",
-          "opt": true
+          "label": "Nom du détenteur de capitaux"
         },
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Numéro et rue",
-          "opt": true
+          "label": "Numéro et rue"
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Boîte postale",
-          "opt": true
+          "label": "Boîte postale"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "Dénomination sociale",
-          "opt": true
+          "label": "Dénomination sociale"
         },
         {
           "id": "champ_007",
           "type": "text",
-          "label": "Numéro et rue",
-          "opt": true
+          "label": "Numéro et rue"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "▢ RCCM…"
         },
@@ -79,7 +71,6 @@
           "id": "champ_009",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "… RCCM …",
           "aide": "…RCCM ▢"
         },
@@ -87,7 +78,6 @@
           "id": "champ_010",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …,",
           "aide": "…Le ▢"
         },
@@ -95,48 +85,41 @@
           "id": "champ_011",
           "type": "text",
           "label": "Civilité du président",
-          "opt": true,
           "group": "… le Président,"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Pourcentage",
-          "opt": true,
           "group": "- Je détiens- Nous détenons … % du capital de la Société … ainsi qu'il…"
         },
         {
           "id": "champ_013",
           "type": "date",
           "label": "Date de l'assemblée",
-          "opt": true,
           "group": "- Je vous demande- Nous vous demandons de bien vouloir inscrire à…"
         },
         {
           "id": "champ_014",
           "type": "area",
           "label": "Désignation du projet de résolution",
-          "opt": true,
           "group": "• …"
         },
         {
           "id": "champ_015",
           "type": "area",
           "label": "Texte du projet",
-          "opt": true,
           "group": "Texte proposé : …"
         },
         {
           "id": "champ_016",
           "type": "area",
-          "label": "Exposé des motifs de la demande",
-          "opt": true
+          "label": "Exposé des motifs de la demande"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Civilité du président",
-          "opt": true,
           "group": "- Je vous prie- Nous vous prions d'agréer, … le Président, l'expression…"
         }
       ]

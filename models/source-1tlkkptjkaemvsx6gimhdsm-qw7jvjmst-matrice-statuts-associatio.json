@@ -26,14 +26,12 @@
           "id": "champ_021",
           "type": "text",
           "label": "MINISTERE DE",
-          "opt": true,
           "group": "MINISTERE DE … REPUBLIQUE DE COTE D’IVOIRE"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "BP",
-          "opt": true,
           "group": "BP … / Tél. :",
           "aide": "…BP ▢ Tél…"
         },
@@ -41,14 +39,12 @@
           "id": "champ_001",
           "type": "text",
           "label": "De l’association est fixé à",
-          "opt": true,
           "group": "Le siège de l’association est fixé à … Lot …."
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Avant « Lot »",
-          "opt": true,
           "group": "Le siège de l’association est fixé à … Lot ….",
           "aide": "…siège de l’association est fixé à ▢ Lot…"
         },
@@ -56,7 +52,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "Lot",
-          "opt": true,
           "group": "Le siège de l’association est fixé à … Lot ….",
           "aide": "…de l’association est fixé à Lot ▢"
         },
@@ -64,7 +59,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "Ilot",
-          "opt": true,
           "group": "Ilot … Boîte Postale … .",
           "aide": "…Ilot ▢ Boîte Postale…"
         },
@@ -72,14 +66,12 @@
           "id": "champ_005",
           "type": "text",
           "label": "Boîte Postale",
-          "opt": true,
           "group": "Ilot … Boîte Postale … ."
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Article 4 Siège social",
-          "opt": true,
           "group": "Ilot … Boîte Postale … .",
           "aide": "…Ilot Boîte Postale ▢"
         }
@@ -95,21 +87,18 @@
           "id": "champ_007",
           "type": "text",
           "label": "L’association a pour objet",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "De l’association est élu pour",
-          "opt": true,
           "group": "15-3 : Le Président de l’association est élu pour … ans. Il est…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Avant « ans Il est rééligible »",
-          "opt": true,
           "group": "15-3 : Le Président de l’association est élu pour … ans. Il est…",
           "aide": "…Président de l’association est élu pour ▢ ans Il est rééligible…"
         },
@@ -117,35 +106,30 @@
           "id": "champ_010",
           "type": "text",
           "label": "L’association comprend outre un Président",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "L’association comprend outre un Président",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "L’association comprend outre un Président",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Bureau exécutif est élu pour",
-          "opt": true,
           "group": "Le Bureau exécutif est élu pour … ans. Les membres sont rééligibles."
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Comptes pour une durée de",
-          "opt": true,
           "group": "L’Assemblée Générale élit dans les mêmes conditions que celles du…"
         }
       ]
@@ -160,28 +144,24 @@
           "id": "champ_015",
           "type": "text",
           "label": "D’adhésion qui sont fixés à",
-          "opt": true,
           "group": "Des droits d’adhésion qui sont fixés à … F/CFA ;"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Mensuelles qui sont fixées à",
-          "opt": true,
           "group": "Des cotisations Mensuelles qui sont fixées à … F/CFA ;"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "En Assemblée Générale Constitutive à",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …"
         },
         {
           "id": "champ_018",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
           "aide": "…adopté en Assemblée Générale Constitutive à ▢ le…"
         },
@@ -189,7 +169,6 @@
           "id": "champ_019",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
           "aide": "…adopté en Assemblée Générale Constitutive à ▢ le…"
         },
@@ -197,7 +176,6 @@
           "id": "champ_020",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Fait et adopté en Assemblée Générale Constitutive à … .…, le …",
           "aide": "…en Assemblée Générale Constitutive à le ▢"
         },
@@ -205,7 +183,6 @@
           "id": "champ_023",
           "type": "text",
           "label": "Nom Prénoms",
-          "opt": true,
           "group": "Nom & Prénoms … Nom & Prénoms",
           "aide": "…Nom Prénoms ▢ Nom Prénoms…"
         }

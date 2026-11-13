@@ -26,7 +26,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Les administrateurs de la société",
-          "opt": true,
           "group": "Les administrateurs de la société …"
         },
         {
@@ -40,14 +39,12 @@
           "id": "champ_007",
           "type": "text",
           "label": "Identité et qualité",
-          "opt": true,
           "group": "personnes concernées par la convention : … ;"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Etc",
-          "opt": true,
           "group": "nature et objet de la convention (avance, prêt, compte courant,…",
           "aide": "…prêt compte courant acquisition cession etc ▢"
         },
@@ -55,7 +52,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "Etc",
-          "opt": true,
           "group": "modalités de la convention (prix convenus, taux d’intérêt prévus, etc…",
           "aide": "…prix convenus taux d’intérêt prévus etc ▢"
         },
@@ -63,7 +59,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à … le …",
           "aide": "…Fait à ▢ le…",
           "profil": "ville"
@@ -72,7 +67,6 @@
           "id": "champ_006",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Fait à … le …",
           "aide": "…Fait à le ▢"
         }

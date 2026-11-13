@@ -25,81 +25,75 @@
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Madame",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Nom",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Prénoms",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
         },
         {
           "id": "champ_005",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+          "aide": "…Madame ▢ demeurant à Commune de…"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "Avant « demeurant à ABIDJAN Commune »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…Madame ▢ demeurant à ABIDJAN Commune…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+          "aide": "…Madame ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ Quartier BP épouse de…"
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+          "aide": "…Madame demeurant à Commune de ▢ Quartier BP épouse de…"
         },
         {
           "id": "champ_008",
           "type": "text",
           "label": "Avant « Quartier BP épouse de »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
           "aide": "…Madame demeurant à ABIDJAN Commune de ▢ Quartier BP épouse de…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP épouse de Monsieur…"
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+          "aide": "…Madame demeurant à Commune de Quartier ▢ BP épouse de Monsieur…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Avant « BP épouse de Monsieur »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
           "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP épouse de Monsieur…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ épouse de Monsieur avec…"
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+          "aide": "…demeurant à Commune de Quartier BP ▢ épouse de Monsieur avec…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Avant « épouse de Monsieur avec »",
-          "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
           "aide": "…à ABIDJAN Commune de Quartier BP ▢ épouse de Monsieur avec…"
         },
         {
@@ -107,28 +101,27 @@
           "type": "text",
           "label": "Épouse de Monsieur",
           "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…"
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "S’est mariée à la Mairie",
           "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…"
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
         },
         {
           "id": "champ_015",
           "type": "date",
           "label": "Date",
           "opt": true,
-          "group": "Madame … , … , demeurant à ABIDJAN, Commune de … , Quartier … , BP … ,…",
+          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
           "aide": "…s’est mariée à la Mairie le ▢"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Née à",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à ▢ le…"
         },
@@ -136,7 +129,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à ▢ le…"
         },
@@ -144,7 +136,6 @@
           "id": "champ_018",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à le ▢"
         },
@@ -152,7 +143,6 @@
           "id": "champ_019",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "De nationalité …",
           "aide": "…De nationalité ▢"
         }
@@ -167,81 +157,75 @@
         {
           "id": "champ_020",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
-          "aide": "…Monsieur ▢ Commerçant demeurant à Commune…"
+          "label": "Nom",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
         },
         {
           "id": "champ_021",
           "type": "text",
-          "label": "Avant « Commerçant demeurant à Commune »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
-          "aide": "…Monsieur ▢ Commerçant demeurant à Commune…"
+          "label": "Prénoms",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+        },
+        {
+          "id": "profession",
+          "type": "text",
+          "label": "Profession",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Avant « Commune de Quartier BP »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
         },
         {
           "id": "champ_024",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
         },
         {
           "id": "champ_025",
           "type": "text",
           "label": "Avant « Quartier BP époux de »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
         },
         {
           "id": "champ_027",
           "type": "text",
           "label": "Avant « BP époux de madame »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
         },
         {
           "id": "champ_028",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Avant « époux de madame avec »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
         },
         {
@@ -249,14 +233,13 @@
           "type": "text",
           "label": "Époux de madame",
           "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…"
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "Avant « avec laquelle il s’est »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…de Quartier BP époux de madame ▢ avec laquelle il s’est…"
         },
         {
@@ -264,36 +247,32 @@
           "type": "text",
           "label": "Laquelle il s’est marié à",
           "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…"
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
         },
         {
           "id": "champ_033",
           "type": "text",
           "label": "Avant « à la Mairie de »",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…avec laquelle il s’est marié à ▢ à la Mairie de…"
         },
         {
           "id": "champ_034",
           "type": "text",
           "label": "À la Mairie de",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…"
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
         },
         {
           "id": "champ_035",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Monsieur … , Commerçant, demeurant à … , Commune de … , Quartier … , BP…",
+          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
           "aide": "…à à la Mairie de le ▢"
         },
         {
           "id": "champ_036",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -301,7 +280,6 @@
           "id": "champ_037",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -309,7 +287,6 @@
           "id": "champ_038",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à le ▢"
         },
@@ -317,7 +294,6 @@
           "id": "champ_039",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "De nationalité …",
           "aide": "…De nationalité ▢"
         },
@@ -325,7 +301,6 @@
           "id": "champ_040",
           "type": "text",
           "label": "Titulaire du",
-          "opt": true,
           "group": "Titulaire du …",
           "aide": "…Titulaire du ▢"
         },
@@ -333,7 +308,6 @@
           "id": "champ_041",
           "type": "text",
           "label": "ET",
-          "opt": true,
           "group": "Ci-après dénommé « LE PRENEUR » …",
           "aide": "…Ci-après dénommé LE PRENEUR ▢"
         }
@@ -349,14 +323,12 @@
           "id": "champ_042",
           "type": "text",
           "label": "Une villa de",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
         },
         {
           "id": "champ_043",
           "type": "text",
-          "label": "Avant « pièces principales avec dépendances »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…Une villa de ▢ pièces principales avec dépendances…"
         },
@@ -364,7 +336,6 @@
           "id": "champ_044",
           "type": "text",
           "label": "Sise à",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
         },
@@ -372,7 +343,6 @@
           "id": "champ_045",
           "type": "text",
           "label": "Avant « Commune de Quartier formant »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
         },
@@ -380,7 +350,6 @@
           "id": "champ_046",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
         },
@@ -388,7 +357,6 @@
           "id": "champ_047",
           "type": "text",
           "label": "Avant « Quartier formant le lot »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
         },
@@ -396,7 +364,6 @@
           "id": "champ_048",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
         },
@@ -404,7 +371,6 @@
           "id": "champ_049",
           "type": "text",
           "label": "Avant « formant le lot numéro »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
         },
@@ -412,14 +378,12 @@
           "id": "champ_050",
           "type": "text",
           "label": "Formant le lot numéro",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Avant « ilôt numéro du lotissement »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…de Quartier formant le lot numéro ▢ ilôt numéro du lotissement…"
         },
@@ -427,14 +391,12 @@
           "id": "champ_052",
           "type": "text",
           "label": "Ilôt numéro",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Avant « du lotissement d’une superficie »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…formant le lot numéro ilôt numéro ▢ du lotissement d’une superficie…"
         },
@@ -442,21 +404,18 @@
           "id": "champ_054",
           "type": "text",
           "label": "Du lotissement",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Avant « m² comprenant un grand »",
-          "opt": true,
           "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
           "aide": "…lotissement d’une superficie de mètres carrés ▢ m² comprenant un grand…"
         }
@@ -472,14 +431,12 @@
           "id": "champ_057",
           "type": "text",
           "label": "Accepté pour une durée de",
-          "opt": true,
           "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
         },
         {
           "id": "champ_058",
           "type": "text",
-          "label": "Avant « ans qui commence à »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…",
           "aide": "…et accepté pour une durée de ▢ ans qui commence à…"
         },
@@ -487,28 +444,24 @@
           "id": "champ_059",
           "type": "date",
           "label": "Qui commence à courir le",
-          "opt": true,
           "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
         },
         {
           "id": "champ_060",
           "type": "date",
           "label": "Pour se terminer le",
-          "opt": true,
           "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
         },
         {
           "id": "champ_061",
           "type": "text",
           "label": "À l’expiration du délai de",
-          "opt": true,
           "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……"
         },
         {
           "id": "champ_062",
           "type": "text",
-          "label": "Avant « ans sus-visé »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……",
           "aide": "…reconduction à l’expiration du délai de ▢ ans sus-visé…"
         },
@@ -516,7 +469,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Etc",
-          "opt": true,
           "group": "Le PRENEUR devra jouir des lieux en bon père de famille, il devra…",
           "aide": "…de l’hygiène de la salubrité etc ▢"
         },
@@ -524,7 +476,6 @@
           "id": "champ_063",
           "type": "text",
           "label": "Moyennant un loyer mensuel de",
-          "opt": true,
           "group": "Le présent bail est respectivement consenti et accepté moyennant un…"
         }
       ]
@@ -539,7 +490,6 @@
           "id": "champ_064",
           "type": "text",
           "label": "Avant « FCFA lequel loyer est »",
-          "opt": true,
           "group": "Le présent bail est respectivement consenti et accepté moyennant un…",
           "aide": "…un loyer mensuel de FRANCS CFA ▢ FCFA lequel loyer est…"
         },
@@ -547,14 +497,12 @@
           "id": "champ_065",
           "type": "text",
           "label": "Ce titre la somme de",
-          "opt": true,
           "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…"
         },
         {
           "id": "champ_066",
           "type": "text",
           "label": "Avant « FCFA représentant deux 02 »",
-          "opt": true,
           "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…",
           "aide": "…titre la somme de FRANCS CFA ▢ FCFA représentant deux 02…"
         },
@@ -562,14 +510,19 @@
           "id": "champ_002",
           "type": "text",
           "label": "Expressément compétence au Tribunal de",
-          "opt": true,
           "group": "Pour l’exécution des présentes et de leurs suites, les parties font…"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "Fait à …,"
         },
         {
           "id": "champ_067",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …",
           "aide": "…Le ▢"
         },
@@ -577,24 +530,19 @@
           "id": "champ_068",
           "type": "text",
           "label": "LE PRENEUR",
-          "opt": true,
           "group": "LE BAILLEUR LE PRENEUR …"
         },
         {
           "id": "champ_069",
           "type": "text",
-          "label": "Mme",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme ▢ Mr…"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         },
         {
           "id": "champ_070",
           "type": "text",
-          "label": "Mr",
-          "opt": true,
-          "group": "Mme … Mr …",
-          "aide": "…Mme Mr ▢"
+          "label": "Nom et prénoms",
+          "group": "Mme … Mr …"
         }
       ]
     },
@@ -627,7 +575,7 @@
     },
     {
       "k": "p",
-      "text": "**Madame {{champ_003}} {{champ_004}}**, {{champ_005}} {{champ_006}}, demeurant à ABIDJAN, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, BP {{champ_011}} {{champ_012}}, épouse de Monsieur** {{champ_013}} **avec lequel elle s’est mariée à la Mairie {{champ_014}}, le {{champ_015}}"
+      "text": "**Madame {{champ_003}} {{champ_004}}**, {{champ_005}} {{champ_006}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, BP {{champ_011}} {{champ_012}}, épouse de Monsieur** {{champ_013}} **avec lequel elle s’est mariée à la Mairie {{champ_014}}, le {{champ_015}}"
     },
     {
       "k": "sp"
@@ -671,7 +619,7 @@
     },
     {
       "k": "p",
-      "text": "Monsieur {{champ_020}} **{{champ_021}}**, Commerçant, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}},  BP {{champ_028}} {{champ_029}}, époux de madame {{champ_030}} {{champ_031}}, avec laquelle il s’est marié à {{champ_032}} {{champ_033}}, à la Mairie de {{champ_034}}, le {{champ_035}}"
+      "text": "Monsieur {{champ_020}} **{{champ_021}}**, {{profession}}, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}},  BP {{champ_028}} {{champ_029}}, époux de madame {{champ_030}} {{champ_031}}, avec laquelle il s’est marié à {{champ_032}} {{champ_033}}, à la Mairie de {{champ_034}}, le {{champ_035}}"
     },
     {
       "k": "sp"
@@ -1145,7 +1093,7 @@
     },
     {
       "k": "p",
-      "text": "Fait à ABIDJAN,",
+      "text": "Fait à {{ville_signature}},",
       "al": "left"
     },
     {
@@ -1178,7 +1126,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1znk4tk9e7eoj7-obnthhjvkhpnaqbetg-matrice-bail-a-usage-d-hab.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_003": "Exemple",
@@ -1250,6 +1198,9 @@
     "champ_067": "2000-01-01",
     "champ_068": "Exemple",
     "champ_069": "Exemple",
-    "champ_070": "Exemple"
+    "champ_070": "Exemple",
+    "ville_residence": "Abidjan",
+    "profession": "Comptable",
+    "ville_signature": "Abidjan"
   }
 }

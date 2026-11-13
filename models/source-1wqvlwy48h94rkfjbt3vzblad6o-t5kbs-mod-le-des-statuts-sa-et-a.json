@@ -26,28 +26,24 @@
           "id": "champ_053",
           "type": "text",
           "label": "Dénomination sociale",
-          "opt": true,
           "group": "…,"
         },
         {
           "id": "champ_054",
           "type": "text",
           "label": "Capital social",
-          "opt": true,
           "group": "Au capital de … Franc CFA"
         },
         {
           "id": "champ_055",
           "type": "text",
           "label": "Adresse du siège social",
-          "opt": true,
           "group": "Siège social : …"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "(Code postal) …",
           "aide": "…Code postal ▢"
         },
@@ -55,7 +51,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Avant « né ou née le »",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;",
           "aide": "▢ né ou née le…"
         },
@@ -63,7 +58,6 @@
           "id": "champ_002",
           "type": "text",
           "label": "Avant « né ou née le »",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;",
           "aide": "▢ né ou née le…"
         },
@@ -71,7 +65,6 @@
           "id": "champ_003",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;",
           "aide": "…né ou née le ▢ à demeurant…"
         },
@@ -79,7 +72,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;",
           "aide": "…né ou née le à ▢ demeurant…"
         }
@@ -95,7 +87,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "Demeurant",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;",
           "aide": "…né ou née le à demeurant ▢"
         },
@@ -103,14 +94,12 @@
           "id": "champ_057",
           "type": "text",
           "label": "Régime matrimonial",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, … ;"
         },
         {
           "id": "champ_006",
           "type": "text",
           "label": "Avant « né ou née le »",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …",
           "aide": "▢ né ou née le…"
         },
@@ -118,7 +107,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Avant « né ou née le »",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …",
           "aide": "▢ né ou née le…"
         },
@@ -126,7 +114,6 @@
           "id": "champ_008",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …",
           "aide": "…né ou née le ▢ à demeurant…"
         },
@@ -134,7 +121,6 @@
           "id": "champ_009",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …",
           "aide": "…né ou née le à ▢ demeurant…"
         },
@@ -142,7 +128,6 @@
           "id": "champ_010",
           "type": "text",
           "label": "Demeurant",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …",
           "aide": "…né ou née le à demeurant ▢"
         },
@@ -150,14 +135,12 @@
           "id": "champ_058",
           "type": "text",
           "label": "Régime matrimonial",
-          "opt": true,
           "group": "… né (ou née) le … à …, demeurant …, …"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Avant « Répéter cet élément autant »",
-          "opt": true,
           "group": "… (Répéter cet élément autant que de besoin).",
           "aide": "▢ Répéter cet élément autant…"
         }
@@ -173,7 +156,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "La Société",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…La Société ▢ Société au capital de…"
         },
@@ -181,14 +163,12 @@
           "id": "champ_059",
           "type": "text",
           "label": "Préciser la forme choisie",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Au capital de",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…La Société Société au capital de ▢ FCFA ayant son siège…"
         },
@@ -203,14 +183,12 @@
           "id": "champ_061",
           "type": "text",
           "label": "Adresse du siège social",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…"
         },
         {
           "id": "champ_062",
           "type": "text",
           "label": "Ville",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…Commerce et du Crédit Mobilier de ▢ sous le numéro RCCM…"
         },
@@ -218,7 +196,6 @@
           "id": "champ_014",
           "type": "text",
           "label": "Avant « représentée par agissant ès »",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…Mobilier de sous le numéro RCCM ▢ représentée par agissant ès…"
         },
@@ -226,7 +203,6 @@
           "id": "champ_015",
           "type": "text",
           "label": "Avant « agissant ès qualités de »",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…sous le numéro RCCM représentée par ▢ agissant ès qualités de…"
         },
@@ -234,7 +210,6 @@
           "id": "champ_016",
           "type": "text",
           "label": "Avant « spécialement habilité aux fins »",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…représentée par agissant ès qualités de ▢ spécialement habilité aux fins…"
         },
@@ -242,7 +217,6 @@
           "id": "champ_017",
           "type": "text",
           "label": "Avant « en date du ont »",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…des présentes en vertu d'une délibération ▢ en date du ont…"
         },
@@ -250,7 +224,6 @@
           "id": "champ_018",
           "type": "date",
           "label": "Avant « ont établi ainsi qu'il »",
-          "opt": true,
           "group": "La Société …, Société … au capital de … FCFA, ayant son siège social à…",
           "aide": "…vertu d'une délibération en date du ▢ ont établi ainsi qu'il…"
         }
@@ -266,56 +239,48 @@
           "id": "champ_063",
           "type": "text",
           "label": "Préciser la Ville",
-          "opt": true,
           "group": "Le siège de la Société est à … ."
         },
         {
           "id": "champ_064",
           "type": "text",
           "label": "Boîte ou code postal",
-          "opt": true,
           "group": "Le siège de la Société est à … ."
         },
         {
           "id": "champ_065",
           "type": "text",
           "label": "Adresse du siège social",
-          "opt": true,
           "group": "Le siège de la Société est à … ."
         },
         {
           "id": "champ_066",
           "type": "date",
           "label": "Date d'ouverture de l'exercice social",
-          "opt": true,
           "group": "2 – L'année sociale commence le … et finit le …."
         },
         {
           "id": "champ_067",
           "type": "date",
           "label": "Date de clôture de l'exercice social",
-          "opt": true,
           "group": "2 – L'année sociale commence le … et finit le …."
         },
         {
           "id": "champ_068",
           "type": "date",
           "label": "Date de clôture du premier exercice social",
-          "opt": true,
           "group": "Exceptionnellement, le premier exercice social comprend le temps écoulé…"
         },
         {
           "id": "champ_069",
           "type": "text",
           "label": "Pourcentage de libération des actions",
-          "opt": true,
           "group": "Toutes les actions d'origine formant le capital initial représentent…"
         },
         {
           "id": "champ_019",
           "type": "date",
           "label": "Dépositaire des fonds établi le",
-          "opt": true,
           "group": "Toutes les actions d'origine formant le capital initial représentent…"
         }
       ]
@@ -330,14 +295,12 @@
           "id": "champ_020",
           "type": "text",
           "label": "Ou Mme",
-          "opt": true,
           "group": "Toutes les actions d'origine formant le capital initial représentent…"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "Soit",
-          "opt": true,
           "group": "La somme totale versée par les actionnaires, soit … FCFA, a été déposée…",
           "aide": "…totale versée par les actionnaires soit ▢ FCFA a été déposée…"
         },
@@ -345,14 +308,12 @@
           "id": "champ_022",
           "type": "text",
           "label": "Été déposée au compte numéro",
-          "opt": true,
           "group": "La somme totale versée par les actionnaires, soit … FCFA, a été déposée…"
         },
         {
           "id": "champ_023",
           "type": "text",
           "label": "Avant « apporte à la Société »",
-          "opt": true,
           "group": "… apporte à la Société, sous les garanties ordinaires et de droit, les…",
           "aide": "▢ apporte à la Société…"
         },
@@ -360,21 +321,18 @@
           "id": "champ_024",
           "type": "text",
           "label": "Au vu du rapport de",
-          "opt": true,
           "group": "Il a été procédé à l'évaluation de ces apports au vu du rapport de …,…"
         },
         {
           "id": "champ_070",
           "type": "text",
           "label": "Mme, Mlle, M.",
-          "opt": true,
           "group": "Il a été procédé à l'évaluation de ces apports au vu du rapport de …,…"
         },
         {
           "id": "champ_025",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Il a été procédé à l'évaluation de ces apports au vu du rapport de …,…",
           "aide": "…du lieu du siège social le ▢"
         },
@@ -391,7 +349,7 @@
       "id": "partie-6",
       "court": "2. Apports",
       "titre": "2. Apports en nature (au cas où il en existe)",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_027",
@@ -404,72 +362,64 @@
           "id": "champ_028",
           "type": "text",
           "label": "Évalué à la somme de",
-          "opt": true,
-          "group": "En rémunération de cet apport en nature évalué à la somme de … CFCFA,…"
+          "group": "En rémunération de cet apport en nature évalué à la somme de … FCFA, M.…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "Ou Mme",
-          "opt": true,
-          "group": "En rémunération de cet apport en nature évalué à la somme de … CFCFA,…"
+          "group": "En rémunération de cet apport en nature évalué à la somme de … FCFA, M.…"
         },
         {
           "id": "champ_030",
           "type": "text",
           "label": "S'est vu attribuer",
-          "opt": true,
-          "group": "En rémunération de cet apport en nature évalué à la somme de … CFCFA,…"
+          "group": "En rémunération de cet apport en nature évalué à la somme de … FCFA, M.…"
         },
         {
           "id": "champ_071",
           "type": "text",
           "label": "Valeur nominale des actions",
-          "opt": true,
-          "group": "En rémunération de cet apport en nature évalué à la somme de … CFCFA,…"
+          "group": "En rémunération de cet apport en nature évalué à la somme de … FCFA, M.…"
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "L'apport ci-dessus désigné évalué à",
-          "opt": true,
           "group": "En contrepartie de l'apport ci-dessus désigné évalué à … FCFA, il est…"
         },
         {
           "id": "champ_032",
           "type": "text",
           "label": "Il est attribué à",
-          "opt": true,
           "group": "En contrepartie de l'apport ci-dessus désigné évalué à … FCFA, il est…"
         },
         {
           "id": "champ_033",
           "type": "text",
           "label": "Avant « actions d'une valeur nominale »",
-          "opt": true,
           "group": "En contrepartie de l'apport ci-dessus désigné évalué à … FCFA, il est…",
           "aide": "…à FCFA il est attribué à ▢ actions d'une valeur nominale…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-7",
       "court": "Rémunération de",
       "titre": "Rémunération de l'apport",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_072",
           "type": "text",
           "label": "Valeur nominale des actions",
-          "opt": true,
           "group": "En contrepartie de l'apport ci-dessus désigné évalué à … FCFA, il est…"
         },
         {
           "id": "champ_034",
           "type": "text",
           "label": "Avant « Franc CFA ci FCFA »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA",
           "aide": "▢ Franc CFA ci FCFA…"
         },
@@ -477,7 +427,6 @@
           "id": "champ_035",
           "type": "text",
           "label": "Avant « FCFA »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA",
           "aide": "…Franc CFA ci ▢ FCFA…"
         },
@@ -485,7 +434,6 @@
           "id": "champ_036",
           "type": "text",
           "label": "Avant « Franc CFA ci FCFA »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA",
           "aide": "▢ Franc CFA ci FCFA…"
         },
@@ -493,7 +441,6 @@
           "id": "champ_037",
           "type": "text",
           "label": "Avant « FCFA »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA",
           "aide": "…Franc CFA ci ▢ FCFA…"
         },
@@ -501,7 +448,6 @@
           "id": "champ_038",
           "type": "text",
           "label": "Avant « Franc CFA ci FCFA »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA correspondant au montant du capital social.",
           "aide": "▢ Franc CFA ci FCFA…"
         },
@@ -509,7 +455,6 @@
           "id": "champ_039",
           "type": "text",
           "label": "Avant « FCFA correspondant au montant »",
-          "opt": true,
           "group": "… Franc CFA, ci : … FCFA correspondant au montant du capital social.",
           "aide": "…Franc CFA ci ▢ FCFA correspondant au montant…"
         },
@@ -517,10 +462,10 @@
           "id": "champ_073",
           "type": "text",
           "label": "Nombre total d'actions émises par la Société",
-          "opt": true,
           "group": "1. Le capital social est fixé à la somme de … Franc CFA. Il est divisé…"
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-8",
@@ -532,21 +477,18 @@
           "id": "champ_074",
           "type": "text",
           "label": "Valeur nominale des actions",
-          "opt": true,
           "group": "1. Le capital social est fixé à la somme de … Franc CFA. Il est divisé…"
         },
         {
           "id": "champ_040",
           "type": "text",
           "label": "Il est composé de",
-          "opt": true,
           "group": "Autre formule, en cas d’apport en nature : Le capital social est fixé à…"
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "Libérées",
-          "opt": true,
           "group": "Autre formule, en cas d’apport en nature : Le capital social est fixé à…",
           "aide": "…composé de actions de numéraire libérées ▢ % de leur valeur…"
         },
@@ -554,35 +496,30 @@
           "id": "champ_042",
           "type": "text",
           "label": "Leur valeur nominale et de",
-          "opt": true,
           "group": "Autre formule, en cas d’apport en nature : Le capital social est fixé à…"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "Ne peut être inférieur à",
-          "opt": true,
           "group": "Le capital social ne peut être inférieur à …. FCFA, ni réduit, par…"
         },
         {
           "id": "champ_044",
           "type": "text",
           "label": "Est fixé à",
-          "opt": true,
           "group": "Le capital statutaire en deçà duquel le capital est susceptible…"
         },
         {
           "id": "champ_045",
           "type": "text",
           "label": "Administrateurs ne sont éligibles que",
-          "opt": true,
           "group": "Autre formule : Les administrateurs ne sont éligibles que … fois."
         },
         {
           "id": "champ_046",
           "type": "text",
           "label": "Administrateur doit être propriétaire de",
-          "opt": true,
           "group": "Chaque administrateur doit être propriétaire de … actions."
         }
       ]
@@ -597,21 +534,18 @@
           "id": "champ_075",
           "type": "text",
           "label": "Mme, Mlle, M.",
-          "opt": true,
           "group": "À défaut d'accord sur cette désignation, il y sera procédé par voie…"
         },
         {
           "id": "champ_076",
           "type": "text",
           "label": "Nom, prénom usuel de l'administrateur 1",
-          "opt": true,
           "group": ". …, demeurant …"
         },
         {
           "id": "champ_077",
           "type": "text",
           "label": "Adresse de l'administrateur 1",
-          "opt": true,
           "group": ". …, demeurant …"
         },
         {
@@ -646,7 +580,6 @@
           "id": "champ_047",
           "type": "text",
           "label": "Avant « Chacun d'eux accepte lesdites »",
-          "opt": true,
           "group": "Sont nommés administrateurs de la Société pour une durée de six années…",
           "aide": "…statuer sur les comptes de l'exercice ▢ Chacun d'eux accepte lesdites…"
         }
@@ -656,55 +589,48 @@
       "id": "partie-10",
       "court": "Partie 10",
       "titre": "Élément répétable autant que de besoin",
-      "intro": "",
+      "intro": "Partie facultative : à compléter seulement si elle vous concerne. Laissée vide, elle reste en pointillés dans le document.",
       "champs": [
         {
           "id": "champ_082",
           "type": "text",
           "label": "Identification du Commissaire titulaire",
-          "opt": true,
           "group": ". …, demeurant … est nommé Commissaire aux Comptes titulaire de la…"
         },
         {
           "id": "champ_083",
           "type": "text",
           "label": "Adresse du Commissaire titulaire",
-          "opt": true,
           "group": ". …, demeurant … est nommé Commissaire aux Comptes titulaire de la…"
         },
         {
           "id": "champ_084",
           "type": "text",
           "label": "Identification du Commissaire suppléant",
-          "opt": true,
           "group": ". …, demeurant …, est nommé Commissaire aux Comptes suppléant de la…"
         },
         {
           "id": "champ_085",
           "type": "text",
           "label": "Adresse du Commissaire suppléant",
-          "opt": true,
           "group": ". …, demeurant …, est nommé Commissaire aux Comptes suppléant de la…"
         },
         {
           "id": "champ_048",
           "type": "text",
           "label": "Les actionnaires donnent mandat à",
-          "opt": true,
           "group": "En outre, les actionnaires donnent mandat à … de prendre pour le compte…"
         },
         {
           "id": "champ_086",
           "type": "text",
           "label": "Indiquer les engagements autorisés",
-          "opt": true,
           "group": "…."
         },
         {
           "id": "champ_049",
           "type": "text",
           "label": "Avant « est spécialement mandaté pour »",
-          "opt": true,
           "group": "Les formalités de publicité prescrites par l’Acte uniforme relatif au…",
           "aide": "…la diligence de la Direction Générale ▢ est spécialement mandaté pour…"
         },
@@ -712,11 +638,24 @@
           "id": "champ_050",
           "type": "text",
           "label": "Avant « originaux »",
-          "opt": true,
           "group": "Fait en (…) originaux.",
           "aide": "…Fait en ▢ originaux…"
+        },
+        {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "À …"
+        },
+        {
+          "id": "date_signature",
+          "type": "date",
+          "label": "Date de signature",
+          "group": "Le …."
         }
-      ]
+      ],
+      "fac": true
     },
     {
       "id": "partie-11",
@@ -725,33 +664,15 @@
       "intro": "",
       "champs": [
         {
-          "id": "champ_051",
-          "type": "date",
-          "label": "Date",
-          "opt": true,
-          "group": "Le …/…/2014.",
-          "aide": "…Le ▢ 2014…"
-        },
-        {
-          "id": "champ_052",
-          "type": "date",
-          "label": "Avant « 2014 »",
-          "opt": true,
-          "group": "Le …/…/2014.",
-          "aide": "…Le ▢ 2014…"
-        },
-        {
           "id": "champ_087",
           "type": "text",
           "label": "Identification de la banque dépositaire des fonds",
-          "opt": true,
           "group": "Ouverture d'un compte bancaire à … pour dépôt des fonds constituant le…"
         },
         {
           "id": "champ_088",
           "type": "text",
           "label": "Adresse de la banque dépositaire des fonds",
-          "opt": true,
           "group": "Ouverture d'un compte bancaire à … pour dépôt des fonds constituant le…"
         }
       ]
@@ -1018,7 +939,7 @@
     },
     {
       "k": "p",
-      "text": "En rémunération de cet apport en nature évalué à la somme de {{champ_028}} CFCFA, M. ou Mme {{champ_029}} s'est vu attribuer {{champ_030}} actions de {{champ_071}} FCFA chacune, entièrement libérées."
+      "text": "En rémunération de cet apport en nature évalué à la somme de {{champ_028}} FCFA, M. ou Mme {{champ_029}} s'est vu attribuer {{champ_030}} actions de {{champ_071}} FCFA chacune, entièrement libérées."
     },
     {
       "k": "p",
@@ -2185,12 +2106,12 @@
     },
     {
       "k": "p",
-      "text": "**À Abidjan**",
+      "text": "**À {{ville_signature}}**",
       "al": "center"
     },
     {
       "k": "p",
-      "text": "**Le {{champ_051}}/{{champ_052}}/2014.**",
+      "text": "**Le {{date_signature}}.**",
       "al": "center"
     },
     {
@@ -2226,7 +2147,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1wqvlwy48h94rkfjbt3vzblad6o-t5kbs-mod-le-des-statuts-sa-et-a.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_053": "Exemple",
@@ -2313,9 +2234,9 @@
     "champ_086": "Exemple",
     "champ_049": "Exemple",
     "champ_050": "Exemple",
-    "champ_051": "2000-01-01",
-    "champ_052": "2000-01-01",
     "champ_087": "Exemple",
-    "champ_088": "Exemple"
+    "champ_088": "Exemple",
+    "ville_signature": "Abidjan",
+    "date_signature": "2000-01-01"
   }
 }

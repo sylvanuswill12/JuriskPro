@@ -34,7 +34,6 @@
           "id": "vendeur_nom",
           "type": "text",
           "label": "Vendeur",
-          "opt": true,
           "group": "PAR MONSIEUR … .",
           "aide": "…PAR MONSIEUR ▢"
         },
@@ -42,7 +41,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Information à compléter",
-          "opt": true,
           "group": "PAR MONSIEUR … .",
           "aide": "…PAR MONSIEUR ▢"
         },
@@ -50,14 +48,12 @@
           "id": "acquereur_nom",
           "type": "text",
           "label": "Acquéreur",
-          "opt": true,
           "group": "AU PROFIT DE MONSIEUR … ."
         },
         {
           "id": "champ_002",
           "type": "text",
           "label": "Information à compléter",
-          "opt": true,
           "group": "AU PROFIT DE MONSIEUR … .",
           "aide": "…AU PROFIT DE MONSIEUR ▢"
         },
@@ -65,7 +61,6 @@
           "id": "champ_011",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "LE …",
           "aide": "…LE ▢"
         },
@@ -73,18 +68,25 @@
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE), …",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE), …",
           "profil": "nom",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE), …"
+        },
+        {
           "id": "champ_012",
           "type": "text",
-          "label": "L’AN DEUX MIL SEIZE",
+          "label": "Mention après « République de Côte d’Ivoire » (ex. : soussigné)",
           "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN (République de COTE D’IVOIRE), …",
-          "aide": "…à ABIDJAN République de COTE D’IVOIRE ▢"
+          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE), …",
+          "aide": "…(République de COTE D’IVOIRE), ▢"
         }
       ]
     },
@@ -97,72 +99,80 @@
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Avant « Entrepreneur demeurant à ABIDJAN »",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…1- Monsieur ▢ Entrepreneur demeurant à ABIDJAN…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…1- Monsieur ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "profession",
+          "type": "text",
+          "label": "Profession",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……"
+        },
+        {
+          "id": "ville_residence",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…Entrepreneur demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN…"
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…1- Monsieur demeurant à Commune de ▢ Quartier BP…"
         },
         {
           "id": "champ_014",
           "type": "text",
-          "label": "Avant « Quartier BP ABIDJAN »",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…Entrepreneur demeurant à ABIDJAN Commune de ▢ Quartier BP ABIDJAN…"
+          "label": "Avant « Quartier BP »",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…1- Monsieur demeurant à Commune de ▢ Quartier BP…"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "Quartier",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN…"
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_016",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_004",
           "type": "text",
-          "label": "Avant « BP ABIDJAN »",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP ABIDJAN…"
+          "label": "Avant « BP »",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
         },
         {
           "id": "champ_005",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ ABIDJAN…"
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……",
+          "aide": "…demeurant à Commune de Quartier BP ▢"
+        },
+        {
+          "id": "ville_bp",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……"
         },
         {
           "id": "champ_006",
           "type": "text",
-          "label": "ABIDJAN",
-          "opt": true,
-          "group": "1- Monsieur … , Entrepreneur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…ABIDJAN Commune de Quartier BP ABIDJAN ▢"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "1- Monsieur … , …, demeurant à …, Commune de … , Quartier … , … BP …. ……"
         },
         {
           "id": "champ_017",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -170,7 +180,6 @@
           "id": "champ_018",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -178,7 +187,6 @@
           "id": "champ_019",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à le ▢"
         },
@@ -186,24 +194,33 @@
           "id": "champ_007",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à ABIDJAN,…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
+        },
+        {
+          "id": "lieu_delivrance",
+          "type": "text",
+          "label": "Lieu de délivrance de la pièce d’identité",
+          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
         },
         {
           "id": "champ_020",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à ABIDJAN,…",
-          "aide": "…d’Identité numéro établie à ABIDJAN le ▢ et valable jusqu’au…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
         {
           "id": "champ_021",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à ABIDJAN,…",
-          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+          "aide": "…établie à le et valable jusqu’au ▢"
+        },
+        {
+          "id": "date_acte_vente",
+          "type": "date",
+          "label": "Date de l’acte de vente initial",
+          "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…"
         }
       ]
     },
@@ -217,14 +234,18 @@
           "id": "commune",
           "type": "text",
           "label": "Commune",
-          "opt": true,
+          "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…"
+        },
+        {
+          "id": "date_enregistrement",
+          "type": "date",
+          "label": "Date d’enregistrement de l’acte",
           "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Volume",
-          "opt": true,
           "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…",
           "aide": "…mil quatorze au régistre ACP volume ▢ folio numéro bordereau…"
         },
@@ -232,7 +253,6 @@
           "id": "champ_023",
           "type": "text",
           "label": "Folio",
-          "opt": true,
           "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…",
           "aide": "…quatorze au régistre ACP volume folio ▢ numéro bordereau…"
         },
@@ -240,7 +260,6 @@
           "id": "champ_024",
           "type": "text",
           "label": "Numéro",
-          "opt": true,
           "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…",
           "aide": "…au régistre ACP volume folio numéro ▢ bordereau…"
         },
@@ -248,63 +267,78 @@
           "id": "champ_025",
           "type": "text",
           "label": "Bordereau",
-          "opt": true,
           "group": "I- Aux termes d’un acte de vente sous conditions suspensives de la…",
           "aide": "…régistre ACP volume folio numéro bordereau ▢"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "Avant « Technicien supérieur demeurant à »",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…Monsieur ▢ Technicien supérieur demeurant à…"
+          "label": "Avant « demeurant à Commune de »",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,",
+          "aide": "…Monsieur ▢ demeurant à Commune de…"
+        },
+        {
+          "id": "profession_2",
+          "type": "text",
+          "label": "Profession",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,"
+        },
+        {
+          "id": "ville_residence_2",
+          "type": "text",
+          "label": "Ville de résidence",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,"
         },
         {
           "id": "champ_026",
           "type": "text",
           "label": "Commune de",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…supérieur demeurant à ABIDJAN Commune de ▢ BP ABIDJAN Célibataire majeur…"
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,",
+          "aide": "…Monsieur demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_027",
           "type": "text",
-          "label": "Avant « BP ABIDJAN Célibataire majeur »",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…supérieur demeurant à ABIDJAN Commune de ▢ BP ABIDJAN Célibataire majeur…"
+          "label": "Avant « BP »",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,",
+          "aide": "…Monsieur demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_028",
           "type": "text",
-          "label": "Avant « BP ABIDJAN Célibataire majeur »",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…supérieur demeurant à ABIDJAN Commune de ▢ BP ABIDJAN Célibataire majeur…"
+          "label": "Avant « BP »",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,",
+          "aide": "…Monsieur demeurant à Commune de ▢ BP…"
         },
         {
           "id": "champ_029",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…demeurant à ABIDJAN Commune de BP ▢ ABIDJAN Célibataire majeur…"
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,",
+          "aide": "…Monsieur demeurant à Commune de BP ▢"
+        },
+        {
+          "id": "ville_bp_2",
+          "type": "text",
+          "label": "Ville de la boîte postale",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,"
         },
         {
           "id": "champ_030",
           "type": "text",
-          "label": "ABIDJAN",
-          "opt": true,
-          "group": "Monsieur … , Technicien supérieur, demeurant à ABIDJAN, Commune de … ,…",
-          "aide": "…à ABIDJAN Commune de BP ABIDJAN ▢ Célibataire majeur…"
+          "label": "Code de la boîte postale (ex. : 01)",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,"
+        },
+        {
+          "id": "situation_matrimoniale",
+          "type": "text",
+          "label": "Situation matrimoniale",
+          "group": "Monsieur … , …, demeurant à …, Commune de … , … BP … , …,"
         },
         {
           "id": "champ_031",
           "type": "text",
           "label": "Né à",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -312,7 +346,6 @@
           "id": "champ_032",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à ▢ le…"
         },
@@ -320,7 +353,6 @@
           "id": "champ_033",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Né à … , le …",
           "aide": "…Né à le ▢"
         },
@@ -328,40 +360,53 @@
           "id": "champ_034",
           "type": "text",
           "label": "La Carte Nationale d’Identité numéro",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à …, le ……"
         },
         {
           "id": "champ_035",
           "type": "text",
-          "label": "Avant « établie à ABIDJAN le »",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à…",
-          "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à ABIDJAN le…"
+          "label": "Avant « établie à le et »",
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à …, le ……",
+          "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
+        },
+        {
+          "id": "lieu_delivrance_2",
+          "type": "text",
+          "label": "Lieu de délivrance de la pièce d’identité",
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à …, le ……"
         },
         {
           "id": "champ_036",
           "type": "date",
           "label": "Date",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à…",
-          "aide": "…d’Identité numéro établie à ABIDJAN le ▢ et valable jusqu’au…"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à …, le ……",
+          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
         },
         {
           "id": "champ_037",
           "type": "date",
           "label": "Et valable jusqu’au",
-          "opt": true,
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à…",
-          "aide": "…à ABIDJAN le et valable jusqu’au ▢"
+          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à …, le ……",
+          "aide": "…établie à le et valable jusqu’au ▢"
         },
         {
           "id": "champ_038",
           "type": "text",
           "label": "Avant « comparant aux présentes »",
-          "opt": true,
           "group": "Monsieur … , comparant aux présentes,",
           "aide": "…Monsieur ▢ comparant aux présentes…"
+        },
+        {
+          "id": "nombre_terrains",
+          "type": "text",
+          "label": "Nombre de terrains (en lettres et en chiffres)",
+          "group": "… terrains urbains nus, sis à …, Commune de …, formant les lots numéros…"
+        },
+        {
+          "id": "ville_bien",
+          "type": "text",
+          "label": "Ville où se situe le bien",
+          "group": "… terrains urbains nus, sis à …, Commune de …, formant les lots numéros…"
         }
       ]
     },
@@ -375,35 +420,36 @@
           "id": "champ_039",
           "type": "text",
           "label": "De la Circonscription Foncière de",
-          "opt": true,
-          "group": "Quatre (04) terrains urbains nus, sis à ABIDJAN, Commune de …, formant…"
+          "group": "… terrains urbains nus, sis à …, Commune de …, formant les lots numéros…"
         },
         {
           "id": "champ_040",
           "type": "text",
           "label": "Moyennant le prix de",
-          "opt": true,
-          "group": "Moyennant le prix de … DE FRANCS CFA (000 FCFA)."
+          "group": "Moyennant le prix de … DE FRANCS CFA (… FCFA)."
+        },
+        {
+          "id": "prix_chiffres",
+          "type": "text",
+          "label": "Prix en chiffres (FCFA)",
+          "group": "Moyennant le prix de … DE FRANCS CFA (… FCFA)."
         },
         {
           "id": "champ_041",
           "type": "text",
           "label": "L’Arrêté de Concession Définitif numéro",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_042",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_043",
           "type": "text",
           "label": "Avant « au profit de Monsieur »",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…",
           "aide": "…du que la vente par Monsieur ▢ au profit de Monsieur…"
         },
@@ -411,7 +457,6 @@
           "id": "champ_044",
           "type": "text",
           "label": "Avant « porte effectivement sur les »",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…",
           "aide": "…par Monsieur au profit de Monsieur ▢ porte effectivement sur les…"
         },
@@ -419,14 +464,12 @@
           "id": "champ_045",
           "type": "text",
           "label": "Effectivement sur les lots numéros",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_046",
           "type": "text",
           "label": "Avant « à îlot d’une superficie »",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…",
           "aide": "…porte effectivement sur les lots numéros ▢ à îlot d’une superficie…"
         },
@@ -434,7 +477,6 @@
           "id": "champ_047",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…",
           "aide": "…effectivement sur les lots numéros à ▢ îlot d’une superficie de…"
         },
@@ -442,7 +484,6 @@
           "id": "champ_048",
           "type": "text",
           "label": "Îlot",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…",
           "aide": "…sur les lots numéros à îlot ▢ d’une superficie de mètres…"
         },
@@ -450,35 +491,48 @@
           "id": "champ_049",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_050",
           "type": "text",
           "label": "L’objet du Titre Foncier numéro",
-          "opt": true,
+          "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
+        },
+        {
+          "id": "circonscription_fonciere",
+          "type": "text",
+          "label": "Circonscription foncière",
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_051",
           "type": "text",
           "label": "Sur le Titre Foncier numéro",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
         },
         {
           "id": "champ_052",
           "type": "text",
           "label": "De vente visé au paragraphe",
-          "opt": true,
           "group": "II- Il ressort des vérifications faites au Service du Cadastre et…"
+        },
+        {
+          "id": "reference_lettre_ministere",
+          "type": "text",
+          "label": "Numéro de la lettre ministérielle",
+          "group": "III- Aux termes d’une lettre numéro … en date du …, le Ministre d’etat,…"
+        },
+        {
+          "id": "date_lettre_ministere",
+          "type": "date",
+          "label": "Date de la lettre ministérielle",
+          "group": "III- Aux termes d’une lettre numéro … en date du …, le Ministre d’etat,…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Avant « ACQUEREUR comparant aux présentes »",
-          "opt": true,
           "group": "IV- Monsieur … , ACQUEREUR, comparant aux présentes, se trouve dans…",
           "aide": "…IV- Monsieur ▢ ACQUEREUR comparant aux présentes…"
         }
@@ -494,14 +548,12 @@
           "id": "champ_010",
           "type": "text",
           "label": "Qui sera désormais le numéro",
-          "opt": true,
           "group": "Par les présente, le Notaire soussigné rectifie l’acte de vente visé en…"
         },
         {
           "id": "champ_053",
           "type": "text",
           "label": "Avant « au profit de Monsieur »",
-          "opt": true,
           "group": "Hormis les clauses rectificatives des présentes, la vente consentie par…",
           "aide": "…présentes la vente consentie par Monsieur ▢ au profit de Monsieur…"
         },
@@ -509,7 +561,6 @@
           "id": "champ_054",
           "type": "text",
           "label": "Avant « reste soumise aux mêmes »",
-          "opt": true,
           "group": "Hormis les clauses rectificatives des présentes, la vente consentie par…",
           "aide": "…par Monsieur au profit de Monsieur ▢ reste soumise aux mêmes…"
         },
@@ -517,14 +568,12 @@
           "id": "champ_055",
           "type": "text",
           "label": "Foncière et des Hypothèque de",
-          "opt": true,
           "group": "Le Notaire soussigné requiert expressément le Conservateur de la…"
         },
         {
           "id": "champ_056",
           "type": "text",
           "label": "Avant « à la Section IV »",
-          "opt": true,
           "group": "Le Notaire soussigné requiert expressément le Conservateur de la…",
           "aide": "…par l’inscription des droits de Monsieur ▢ à la Section IV…"
         },
@@ -532,14 +581,12 @@
           "id": "champ_057",
           "type": "text",
           "label": "IV du Titre Foncier numéro",
-          "opt": true,
           "group": "Le Notaire soussigné requiert expressément le Conservateur de la…"
         },
         {
           "id": "champ_058",
           "type": "text",
           "label": "Avant « Me »",
-          "opt": true,
           "group": "Mr … Me …",
           "aide": "…Mr ▢ Me…"
         },
@@ -547,7 +594,6 @@
           "id": "champ_059",
           "type": "text",
           "label": "Avant « dans blancs »",
-          "opt": true,
           "group": "Barres : … dans blancs",
           "aide": "…Barres ▢ dans blancs…"
         }
@@ -594,14 +640,14 @@
     },
     {
       "k": "p",
-      "text": "LE {{champ_011}}"
+      "text": "LE {{champ_011_jm}}"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "PARDEVANT** Maître {{notaire_nom}}**, Notaire à ABIDJAN (République de COTE D’IVOIRE), {{champ_012}}"
+      "text": "PARDEVANT** Maître {{notaire_nom}}**, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), {{champ_012}}"
     },
     {
       "k": "p",
@@ -613,7 +659,7 @@
     },
     {
       "k": "p",
-      "text": "**1- Monsieur {{acquereur_nom}} {{champ_003}}**, Entrepreneur, demeurant à ABIDJAN, Commune de {{champ_013}} {{champ_014}}, Quartier {{champ_015}} {{champ_016}}, {{champ_004}} BP {{champ_005}}. ABIDJAN {{champ_006}}.,"
+      "text": "**1- Monsieur {{acquereur_nom}} {{champ_003}}**, {{profession}}, demeurant à {{ville_residence}}, Commune de {{champ_013}} {{champ_014}}, Quartier {{champ_015}} {{champ_016}}, {{champ_004}} BP {{champ_005}}. {{ville_bp}} {{champ_006}}.,"
     },
     {
       "k": "sp"
@@ -634,7 +680,7 @@
     },
     {
       "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_007}}, établie à ABIDJAN, le {{champ_020}} et valable jusqu’au {{champ_021}}"
+      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_007}}, établie à {{lieu_delivrance}}, le {{champ_020}} et valable jusqu’au {{champ_021}}"
     },
     {
       "k": "sp"
@@ -653,14 +699,14 @@
     },
     {
       "k": "p",
-      "text": "**I- Aux termes d’un acte de vente sous conditions suspensives de la création d’un Titre Foncier et de l’obtention de l’Arrêté de Concession Définitive établi au nom du VENDEUR réçu au rang des minutes de Maitre {{vendeur_nom}}, Notaire à ABIDJAN, le quatorze Mai deux mil quatorze et enregistré à {{commune}}, le vingt deux Mai deux mil quatorze, au régistre ACP, volume {{champ_022}}, folio {{champ_023}}, numéro {{champ_024}}, bordereau {{champ_025}},**"
+      "text": "**I- Aux termes d’un acte de vente sous conditions suspensives de la création d’un Titre Foncier et de l’obtention de l’Arrêté de Concession Définitive établi au nom du VENDEUR réçu au rang des minutes de Maitre {{vendeur_nom}}, Notaire à {{ville_notaire}}, le {{date_acte_vente}} et enregistré à {{commune}}, le {{date_enregistrement}}, au régistre ACP, volume {{champ_022}}, folio {{champ_023}}, numéro {{champ_024}}, bordereau {{champ_025}},**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**Monsieur {{vendeur_nom}} {{champ_008}}**, Technicien supérieur, demeurant à ABIDJAN, Commune de {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}} ABIDJAN {{champ_030}}, Célibataire majeur,"
+      "text": "**Monsieur {{vendeur_nom}} {{champ_008}}**, {{profession_2}}, demeurant à {{ville_residence_2}}, Commune de {{champ_026}} {{champ_027}}, {{champ_028}} BP {{champ_029}} {{ville_bp_2}} {{champ_030}}, {{situation_matrimoniale}},"
     },
     {
       "k": "sp"
@@ -681,7 +727,7 @@
     },
     {
       "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_034}} {{champ_035}}, établie à ABIDJAN, le {{champ_036}} et valable jusqu’au {{champ_037}}"
+      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_034}} {{champ_035}}, établie à {{lieu_delivrance_2}}, le {{champ_036}} et valable jusqu’au {{champ_037}}"
     },
     {
       "k": "sp"
@@ -709,28 +755,28 @@
     },
     {
       "k": "p",
-      "text": "Quatre (04) terrains urbains nus, sis à ABIDJAN, Commune de {{commune}}, formant les lots numéros  , îlot, d’une superficie de  mètres carrés et faisant l’objet du Titre Foncier numero  de la Circonscription Foncière de** {{champ_039}}**"
+      "text": "{{nombre_terrains}} terrains urbains nus, sis à {{ville_bien}}, Commune de {{commune}}, formant les lots numéros  , îlot, d’une superficie de  mètres carrés et faisant l’objet du Titre Foncier numero  de la Circonscription Foncière de** {{champ_039}}**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "Moyennant le prix de {{champ_040}} **DE FRANCS CFA (000 FCFA).**"
+      "text": "Moyennant le prix de {{champ_040}} **DE FRANCS CFA ({{prix_chiffres}} FCFA).**"
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**II**- Il ressort des vérifications faites au Service du Cadastre et confirmé par l’**A**rrêté de **C**oncession **D**éfinitif numéro {{champ_041}} en date du {{champ_042}}, que la vente par **Monsieur {{vendeur_nom}} {{champ_043}} **au profit de** Monsieur {{acquereur_nom}} {{champ_044}}**, porte effectivement sur les lots numéros {{champ_045}} **({{champ_046}} à {{champ_047}})**, îlot {{champ_048}}, d’une superficie de {{champ_049}} **mètres carrés** et faisant l’objet du **T**itre **F**oncier numéro {{champ_050}} de la Circonscription Foncière de **BINGERVILLE **et non sur le** T**itre **F**oncier numéro {{champ_051}} de la Circonscription Foncière de **BINGERVILLE **comme indiqué dans la clause** DESIGNATION** de l’acte de vente visé au paragraphe {{champ_052}}."
+      "text": "**II**- Il ressort des vérifications faites au Service du Cadastre et confirmé par l’**A**rrêté de **C**oncession **D**éfinitif numéro {{champ_041}} en date du {{champ_042}}, que la vente par **Monsieur {{vendeur_nom}} {{champ_043}} **au profit de** Monsieur {{acquereur_nom}} {{champ_044}}**, porte effectivement sur les lots numéros {{champ_045}} **({{champ_046}} à {{champ_047}})**, îlot {{champ_048}}, d’une superficie de {{champ_049}} **mètres carrés** et faisant l’objet du **T**itre **F**oncier numéro {{champ_050}} de la Circonscription Foncière {{circonscription_fonciere_de}} et non sur le** T**itre **F**oncier numéro {{champ_051}} de la Circonscription Foncière {{circonscription_fonciere_de}} comme indiqué dans la clause** DESIGNATION** de l’acte de vente visé au paragraphe {{champ_052}}."
     },
     {
       "k": "sp"
     },
     {
       "k": "p",
-      "text": "**III**- Aux termes d’une lettre numéro 1016/MEMEF/DGI en date du trente et un Août deux mil cinq, le Ministre d’etat, Ministre de l’economie et des Finances a confirmé la non exigence de l’autorisation ministérielle dans les ventes immobilières de terrains situés dans un périmètre ayant fait l’objet d’un lotissement régulièrement approuvé et publié conformément aux dispositions de l’article 17 de la loi numéro 62-253 du trent et un Juillet mil neuf cent soixante deux."
+      "text": "**III**- Aux termes d’une lettre numéro {{reference_lettre_ministere}} en date du {{date_lettre_ministere}}, le Ministre d’etat, Ministre de l’economie et des Finances a confirmé la non exigence de l’autorisation ministérielle dans les ventes immobilières de terrains situés dans un périmètre ayant fait l’objet d’un lotissement régulièrement approuvé et publié conformément aux dispositions de l’article 17 de la loi numéro 62-253 du trent et un Juillet mil neuf cent soixante deux."
     },
     {
       "k": "sp"
@@ -744,7 +790,7 @@
     },
     {
       "k": "p",
-      "text": "En conséquence de ce qui précède et pour mettre l’acte de vente du quatorze Mai deux mil quatorze visé en l’exposé, en concordance avec les documents cadastraux et fonciers er en conformité avec la règlementation en vigueur, le comparant a requis le Notaire soussigné d’établir les présentes."
+      "text": "En conséquence de ce qui précède et pour mettre l’acte de vente du {{date_acte_vente}} visé en l’exposé, en concordance avec les documents cadastraux et fonciers er en conformité avec la règlementation en vigueur, le comparant a requis le Notaire soussigné d’établir les présentes."
     },
     {
       "k": "sp"
@@ -773,7 +819,7 @@
     },
     {
       "k": "p",
-      "text": "Par les présente, le Notaire soussigné rectifie l’acte de vente visé en l’exposé qui précède reçu au rang des minutes du Notaire sus-nommé le **quatorze Mai deux mil quatorze **et le numéro du **T**itre **F**oncier relatif au bien immobilier qui sera désormais le numéro {{champ_010}}.de la **C**irconscription **F**oncière de **BINGERVILLE**."
+      "text": "Par les présente, le Notaire soussigné rectifie l’acte de vente visé en l’exposé qui précède reçu au rang des minutes du Notaire sus-nommé le **{{date_acte_vente}} **et le numéro du **T**itre **F**oncier relatif au bien immobilier qui sera désormais le numéro {{champ_010}}.de la **C**irconscription **F**oncière {{circonscription_fonciere_de}}."
     },
     {
       "k": "p",
@@ -791,7 +837,7 @@
     },
     {
       "k": "p",
-      "text": "Hormis les clauses rectificatives des présentes, la vente consentie par **Monsieur {{vendeur_nom}} {{champ_053}} **au profit de **Monsieur {{acquereur_nom}} {{champ_054}} **reste soumise aux mêmes conditions et clauses prévues dans l’acte du quatorze Mai deux mil quatorze."
+      "text": "Hormis les clauses rectificatives des présentes, la vente consentie par **Monsieur {{vendeur_nom}} {{champ_053}} **au profit de **Monsieur {{acquereur_nom}} {{champ_054}} **reste soumise aux mêmes conditions et clauses prévues dans l’acte du {{date_acte_vente}}."
     },
     {
       "k": "sp"
@@ -855,7 +901,7 @@
     },
     {
       "k": "p",
-      "text": "Fait et passé à ABIDJAN,"
+      "text": "Fait et passé à {{ville_notaire}},"
     },
     {
       "k": "p",
@@ -924,7 +970,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-18rl2hyhcszehlofigkaxsxxxeaqbu27t-matrice-acte-rectificatif.docx",
-    "version": "3"
+    "version": "6"
   },
   "exemple": {
     "reference_etude": "Exemple",
@@ -990,6 +1036,24 @@
     "champ_056": "Exemple",
     "champ_057": "Exemple",
     "champ_058": "Exemple",
-    "champ_059": "Exemple"
+    "champ_059": "Exemple",
+    "ville_notaire": "Abidjan",
+    "profession": "Comptable",
+    "ville_residence": "Abidjan",
+    "ville_bp": "Abidjan",
+    "lieu_delivrance": "Abidjan",
+    "date_acte_vente": "2000-01-01",
+    "date_enregistrement": "2000-01-01",
+    "profession_2": "Comptable",
+    "ville_residence_2": "Abidjan",
+    "ville_bp_2": "Abidjan",
+    "situation_matrimoniale": "Célibataire majeur",
+    "lieu_delivrance_2": "Abidjan",
+    "nombre_terrains": "Quatre (04)",
+    "ville_bien": "Abidjan",
+    "prix_chiffres": "10 000 000",
+    "circonscription_fonciere": "Bingerville",
+    "reference_lettre_ministere": "1016/MEMEF/DGI",
+    "date_lettre_ministere": "2000-01-01"
   }
 }

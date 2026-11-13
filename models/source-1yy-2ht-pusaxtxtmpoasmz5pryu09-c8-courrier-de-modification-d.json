@@ -23,10 +23,22 @@
       "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
       "champs": [
         {
+          "id": "ville_signature",
+          "type": "text",
+          "label": "Fait à (ville)",
+          "profil": "ville",
+          "group": "…, le …"
+        },
+        {
+          "id": "date_lettre",
+          "type": "date",
+          "label": "Date de la lettre",
+          "group": "…, le …"
+        },
+        {
           "id": "nom_salarie",
           "type": "text",
           "label": "Nom du salarié",
-          "opt": true,
           "group": "Mme …",
           "aide": "…Mme ▢"
         },
@@ -34,47 +46,53 @@
           "id": "nom_naissance_salarie",
           "type": "text",
           "label": "Nom de naissance",
-          "opt": true,
-          "group": "née … A. …",
+          "group": "née …",
           "aide": "…née ▢ A…"
         },
         {
           "id": "prenom_salarie",
           "type": "text",
           "label": "Prénom du salarié",
-          "opt": true,
-          "group": "née … A. …",
+          "group": "née …",
           "aide": "…née A ▢"
+        },
+        {
+          "id": "ville_destinataire",
+          "type": "text",
+          "label": "Ville du destinataire",
+          "group": "…"
         },
         {
           "id": "reference_etude",
           "type": "text",
-          "label": "Référence de l’étude",
+          "label": "Référence du courrier (ex. : 542/2026)",
           "opt": true,
-          "group": "Nos réf : … 1776/2016",
-          "aide": "…Nos réf ▢ 1776 2016…"
+          "group": "Nos réf : …"
         },
         {
           "id": "partie_2",
           "type": "text",
           "label": "Deuxième partie",
-          "opt": true,
           "group": "Madame …,",
           "aide": "…Madame ▢"
+        },
+        {
+          "id": "jour_entretien",
+          "type": "text",
+          "label": "Jour du mois de l’entretien (ex. : 09)",
+          "group": "Faisant suite à notre entretien du … courant, je vous confirme la…"
         },
         {
           "id": "date_acte",
           "type": "date",
           "label": "Date de l’acte",
-          "opt": true,
           "group": "Si la présente retient votre agrément, je vous serai reconnaissante de…"
         },
         {
           "id": "notaire_nom",
           "type": "text",
           "label": "Nom du notaire",
-          "opt": true,
-          "group": "Me … A. …",
+          "group": "Me …",
           "aide": "…Me ▢ A…",
           "profil": "nom",
           "pq": "notaire"
@@ -83,8 +101,7 @@
           "id": "prenom_notaire",
           "type": "text",
           "label": "Prénom du notaire",
-          "opt": true,
-          "group": "Me … A. …",
+          "group": "Me …",
           "aide": "…Me A ▢",
           "profil": "prenom",
           "pq": "notaire"
@@ -102,7 +119,7 @@
   "doc": [
     {
       "k": "p",
-      "text": "ABIDJAN, le 13 Mai 2016",
+      "text": "{{ville_signature}}, le {{date_lettre}}",
       "al": "center"
     },
     {
@@ -119,7 +136,7 @@
     },
     {
       "k": "p",
-      "text": "**née {{nom_naissance_salarie}} A. {{prenom_salarie}}**",
+      "text": "**née {{nom_naissance_salarie}} {{prenom_salarie}}**",
       "al": "left",
       "ind": 6
     },
@@ -133,12 +150,12 @@
     },
     {
       "k": "p",
-      "text": "**ABIDJAN**",
+      "text": "**{{ville_destinataire}}**",
       "ind": 6
     },
     {
       "k": "p",
-      "text": "Nos réf : {{reference_etude}} 1776/2016"
+      "text": "Nos réf : {{reference_etude}}"
     },
     {
       "k": "p",
@@ -159,7 +176,7 @@
     },
     {
       "k": "p",
-      "text": "Faisant suite à notre entretien du 09 courant, je vous confirme la proposition de la modification de votre contrat de travail pour le poste d’archiviste."
+      "text": "Faisant suite à notre entretien du {{jour_entretien}} courant, je vous confirme la proposition de la modification de votre contrat de travail pour le poste d’archiviste."
     },
     {
       "k": "sp"
@@ -187,7 +204,7 @@
     },
     {
       "k": "p",
-      "text": "Si la présente retient votre agrément, je vous serai reconnaissante de bien vouloir signer le document précédé de la mention « BON POUR ACCORD ». Dans lequel cas, cette modification sera effective à compter du **Mardi {{date_acte}}**."
+      "text": "Si la présente retient votre agrément, je vous serai reconnaissante de bien vouloir signer le document précédé de la mention « BON POUR ACCORD ». Dans lequel cas, cette modification sera effective à compter du **{{date_acte}}**."
     },
     {
       "k": "sp"
@@ -211,13 +228,13 @@
     },
     {
       "k": "p",
-      "text": "**Me {{notaire_nom}} A. {{prenom_notaire}}**",
+      "text": "**Me {{notaire_nom}} {{prenom_notaire}}**",
       "al": "right"
     }
   ],
   "sourceTemplate": {
     "file": "templates/source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "nom_salarie": "Exemple",
@@ -227,6 +244,10 @@
     "partie_2": "Exemple",
     "date_acte": "2000-01-01",
     "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple"
+    "prenom_notaire": "Exemple",
+    "ville_signature": "Abidjan",
+    "date_lettre": "2000-01-01",
+    "ville_destinataire": "Abidjan",
+    "jour_entretien": "09"
   }
 }

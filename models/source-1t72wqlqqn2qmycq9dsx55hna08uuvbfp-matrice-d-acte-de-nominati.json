@@ -26,37 +26,31 @@
           "id": "denomination",
           "type": "text",
           "label": "Dénomination sociale",
-          "opt": true,
           "aide": "▢"
         },
         {
           "id": "capital",
           "type": "money",
           "label": "Capital social",
-          "opt": true,
           "group": "Société par Actions Simplifiée au capital de … F CFA"
         },
         {
           "id": "siege",
           "type": "area",
           "label": "Siège ou adresse",
-          "opt": true,
           "group": "Siège social : …",
           "aide": "…Siège social ▢"
         },
         {
           "id": "champ_001",
           "type": "text",
-          "label": "M",
-          "opt": true,
-          "group": "M …",
-          "aide": "…M ▢"
+          "label": "Nom et prénoms",
+          "group": "M …"
         },
         {
           "id": "champ_002",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "né(e) le … à …",
           "aide": "…né e le ▢ à…"
         },
@@ -64,7 +58,6 @@
           "id": "champ_003",
           "type": "text",
           "label": "À",
-          "opt": true,
           "group": "né(e) le … à …",
           "aide": "…né e le à ▢"
         },
@@ -72,7 +65,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "demeurant à …",
           "aide": "…demeurant à ▢"
         },
@@ -80,7 +72,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "de nationalité …",
           "aide": "…de nationalité ▢"
         }
@@ -96,7 +87,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "La Société",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…",
           "aide": "…La Société ▢ Société au capital de…"
         },
@@ -104,14 +94,12 @@
           "id": "champ_019",
           "type": "text",
           "label": "Forme sociale",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…"
         },
         {
           "id": "champ_007",
           "type": "text",
           "label": "Au capital de",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…",
           "aide": "…La Société Société au capital de ▢ F CFA ayant son…"
         },
@@ -119,21 +107,18 @@
           "id": "champ_008",
           "type": "text",
           "label": "Ayant son siège social à",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…"
         },
         {
           "id": "champ_009",
           "type": "text",
           "label": "Crédit Mobilier sous le numéro",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "RCCM",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…",
           "aide": "…Crédit Mobilier sous le numéro RCCM ▢ représentée par M en…"
         },
@@ -141,7 +126,6 @@
           "id": "champ_011",
           "type": "text",
           "label": "Représentée par M",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…",
           "aide": "…le numéro RCCM représentée par M ▢ en qualité de dûment…"
         },
@@ -149,7 +133,6 @@
           "id": "champ_012",
           "type": "text",
           "label": "En qualité de",
-          "opt": true,
           "group": "La Société …, Société … au capital de … F CFA ayant son siège social à…",
           "aide": "…représentée par M en qualité de ▢ dûment habilité à l'effet…"
         }
@@ -165,7 +148,6 @@
           "id": "champ_013",
           "type": "text",
           "label": "Avant « demeurant au pour une »",
-          "opt": true,
           "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
           "aide": "▢ demeurant au pour une…"
         },
@@ -173,7 +155,6 @@
           "id": "champ_014",
           "type": "text",
           "label": "Demeurant au",
-          "opt": true,
           "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
           "aide": "…demeurant au ▢ pour une durée indéterminée…"
         },
@@ -181,14 +162,12 @@
           "id": "champ_015",
           "type": "text",
           "label": "Général percevra une rémunération de",
-          "opt": true,
           "group": "Le Directeur Général percevra une rémunération de … FCFA"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à …",
           "aide": "…Fait à ▢",
           "profil": "ville"
@@ -197,7 +176,6 @@
           "id": "champ_017",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Le …",
           "aide": "…Le ▢"
         },
@@ -205,7 +183,6 @@
           "id": "champ_018",
           "type": "text",
           "label": "En",
-          "opt": true,
           "group": "En … exemplaires originaux.",
           "aide": "…En ▢ exemplaires originaux…"
         }

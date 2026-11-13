@@ -25,16 +25,19 @@
         {
           "id": "champ_003",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur …",
-          "aide": "…Monsieur ▢"
+          "label": "Nom et prénoms",
+          "group": "Monsieur …"
+        },
+        {
+          "id": "ville_destinataire",
+          "type": "text",
+          "label": "Ville du destinataire",
+          "group": "…"
         },
         {
           "id": "partie_1",
           "type": "text",
           "label": "Première partie",
-          "opt": true,
           "group": "Monsieur …,",
           "aide": "…Monsieur ▢"
         },
@@ -42,14 +45,12 @@
           "id": "champ_004",
           "type": "text",
           "label": "Lieu",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…"
         },
         {
           "id": "champ_005",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
           "aide": "…société qui aura lieu à le ▢ à heures à l’effet…"
         },
@@ -57,7 +58,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "Heure",
-          "opt": true,
           "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
           "aide": "…qui aura lieu à le à ▢ heures à l’effet de…"
         },
@@ -65,7 +65,6 @@
           "id": "champ_001",
           "type": "text",
           "label": "Fait à",
-          "opt": true,
           "group": "Fait à … . le …",
           "aide": "…Fait à ▢ le…",
           "profil": "ville"
@@ -74,7 +73,6 @@
           "id": "champ_007",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Fait à … . le …",
           "aide": "…Fait à ▢ le…"
         },
@@ -82,7 +80,6 @@
           "id": "champ_002",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Fait à … . le …",
           "aide": "…Fait à le ▢"
         }
@@ -114,7 +111,7 @@
     },
     {
       "k": "p",
-      "text": "ABIDJAN",
+      "text": "{{ville_destinataire}}",
       "ind": 6
     },
     {
@@ -198,7 +195,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-17rnl1oztse1rbxyeqhzhr-ov-d6hkc2a-matrice-convocation-du-ca.docx",
-    "version": "3"
+    "version": "4"
   },
   "exemple": {
     "champ_003": "Exemple",
@@ -208,6 +205,7 @@
     "champ_006": "Exemple",
     "champ_001": "Exemple",
     "champ_007": "Exemple",
-    "champ_002": "2000-01-01"
+    "champ_002": "2000-01-01",
+    "ville_destinataire": "Abidjan"
   }
 }

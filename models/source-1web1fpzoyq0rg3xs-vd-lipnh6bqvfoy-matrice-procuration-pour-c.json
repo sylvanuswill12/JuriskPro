@@ -26,24 +26,28 @@
           "id": "champ_001",
           "type": "text",
           "label": "PARDEVANT Maître",
-          "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à ABIDJAN,",
+          "group": "PARDEVANT Maître …, Notaire à …,",
           "profil": "maitre",
           "pq": "notaire"
         },
         {
+          "id": "ville_notaire",
+          "type": "text",
+          "label": "Ville de l’étude du notaire",
+          "profil": "ville",
+          "pq": "notaire",
+          "group": "PARDEVANT Maître …, Notaire à …,"
+        },
+        {
           "id": "champ_002",
           "type": "text",
-          "label": "Mademoiselle",
-          "opt": true,
-          "group": "Mademoiselle … Etudiante, demeurant à …",
-          "aide": "…Mademoiselle ▢ Etudiante demeurant à…"
+          "label": "Nom et prénoms",
+          "group": "Mademoiselle … Etudiante, demeurant à …"
         },
         {
           "id": "champ_003",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
           "group": "Mademoiselle … Etudiante, demeurant à …",
           "aide": "…Mademoiselle Etudiante demeurant à ▢"
         },
@@ -51,7 +55,6 @@
           "id": "champ_004",
           "type": "text",
           "label": "De nationalité",
-          "opt": true,
           "group": "De nationalité ….",
           "aide": "…De nationalité ▢"
         },
@@ -59,7 +62,6 @@
           "id": "champ_005",
           "type": "text",
           "label": "Née à",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à ▢ le…"
         },
@@ -67,7 +69,6 @@
           "id": "champ_006",
           "type": "text",
           "label": "Avant « le »",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à ▢ le…"
         },
@@ -75,17 +76,14 @@
           "id": "champ_007",
           "type": "date",
           "label": "Date",
-          "opt": true,
           "group": "Née à … , le …",
           "aide": "…Née à le ▢"
         },
         {
           "id": "champ_008",
           "type": "text",
-          "label": "Monsieur",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
-          "aide": "…Monsieur ▢ administrateur des services financiers…"
+          "label": "Nom",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;"
         }
       ]
     },
@@ -98,70 +96,66 @@
         {
           "id": "champ_009",
           "type": "text",
-          "label": "Avant « administrateur des services financiers »",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
-          "aide": "…Monsieur ▢ administrateur des services financiers…"
+          "label": "Prénoms",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;"
+        },
+        {
+          "id": "profession",
+          "type": "text",
+          "label": "Profession",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;"
         },
         {
           "id": "champ_010",
           "type": "text",
           "label": "Demeurant à",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;",
           "aide": "…administrateur des services financiers demeurant à ▢ BP…"
         },
         {
           "id": "champ_011",
           "type": "text",
           "label": "Avant « BP »",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;",
           "aide": "…administrateur des services financiers demeurant à ▢ BP…"
         },
         {
           "id": "champ_012",
           "type": "text",
           "label": "Avant « BP »",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;",
           "aide": "…administrateur des services financiers demeurant à ▢ BP…"
         },
         {
           "id": "champ_013",
           "type": "text",
           "label": "BP",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;",
           "aide": "…des services financiers demeurant à BP ▢"
         },
         {
           "id": "champ_014",
           "type": "text",
           "label": "Constitué pour son mandataire spécial",
-          "opt": true,
-          "group": "Monsieur … , administrateur des services financiers, demeurant à … , ……",
+          "group": "Monsieur … , …, demeurant à … , … BP … ;",
           "aide": "…des services financiers demeurant à BP ▢"
         },
         {
           "id": "champ_015",
           "type": "text",
           "label": "De terrain urbain située à",
-          "opt": true,
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
         },
         {
           "id": "champ_016",
           "type": "text",
           "label": "D’une superficie de",
-          "opt": true,
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
         },
         {
           "id": "champ_017",
           "type": "text",
-          "label": "Avant « mètres carrés formant le »",
-          "opt": true,
+          "label": "En chiffres",
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
           "aide": "…urbain située à d’une superficie de ▢ mètres carrés formant le…"
         },
@@ -169,14 +163,18 @@
           "id": "champ_018",
           "type": "text",
           "label": "Carrés formant le lot numéro",
-          "opt": true,
+          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+        },
+        {
+          "id": "lotissement",
+          "type": "text",
+          "label": "Lotissement",
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
         },
         {
           "id": "commune",
           "type": "text",
           "label": "Commune",
-          "opt": true,
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
           "aide": "…carrés formant le lot numéro de ▢ -LES-DEUX-PLATEAUX immatriculée au nom…"
         },
@@ -184,7 +182,12 @@
           "id": "champ_019",
           "type": "text",
           "label": "De l’Etat sous le numéro",
-          "opt": true,
+          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+        },
+        {
+          "id": "circonscription_fonciere",
+          "type": "text",
+          "label": "Circonscription foncière",
           "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
         }
       ]
@@ -199,30 +202,33 @@
           "id": "champ_020",
           "type": "text",
           "label": "Modèle de l’Etude de Maître",
-          "opt": true,
-          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à ABIDJAN (République…"
+          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…"
         },
         {
           "id": "champ_021",
           "type": "text",
           "label": "01BP",
-          "opt": true,
-          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à ABIDJAN (République…",
-          "aide": "…ABIDJAN République de Côte d’Ivoire 01BP ▢ ABIDJAN 01…"
+          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…",
+          "aide": "…à République de Côte d’Ivoire 01BP ▢ 01…"
         },
         {
           "id": "champ_022",
           "type": "text",
           "label": "Fait et passé à",
-          "opt": true,
           "group": "Fait et passé à …"
         },
         {
           "id": "champ_023",
           "type": "text",
-          "label": "L’an DEUX MILLE",
-          "opt": true,
-          "group": "L’an DEUX MILLE …,"
+          "label": "Année (en lettres, à la suite de « L’an deux mille »)",
+          "group": "L’an DEUX MILLE …,",
+          "aide": "…L’an DEUX MILLE ▢"
+        },
+        {
+          "id": "jour_mois_signature",
+          "type": "text",
+          "label": "Jour et mois de signature (en lettres)",
+          "group": "Le …"
         }
       ]
     },
@@ -247,7 +253,7 @@
     },
     {
       "k": "p",
-      "text": "PARDEVANT Maître {{champ_001}}, Notaire à ABIDJAN,"
+      "text": "PARDEVANT Maître {{champ_001}}, Notaire à {{ville_notaire}},"
     },
     {
       "k": "sp"
@@ -290,7 +296,7 @@
     },
     {
       "k": "p",
-      "text": "Monsieur {{champ_008}} {{champ_009}}, administrateur des services financiers, demeurant à {{champ_010}} {{champ_011}}, {{champ_012}} BP {{champ_013}} {{champ_014}};"
+      "text": "Monsieur {{champ_008}} {{champ_009}}, {{profession}}, demeurant à {{champ_010}} {{champ_011}}, {{champ_012}} BP {{champ_013}} {{champ_014}};"
     },
     {
       "k": "sp"
@@ -311,7 +317,7 @@
     },
     {
       "k": "p",
-      "text": "Une parcelle de terrain urbain située à {{champ_015}} d’une superficie de {{champ_016}} ({{champ_017}}) mètres carrés formant le lot numéro {{champ_018}} de {{commune}}-LES-DEUX-PLATEAUX, immatriculée au nom de l’Etat sous le numéro {{champ_019}} de la circonscription foncière de BINGERVILLE."
+      "text": "Une parcelle de terrain urbain située à {{champ_015}} d’une superficie de {{champ_016}} ({{champ_017}}) mètres carrés formant le lot numéro {{champ_018}} de {{lotissement}}, immatriculée au nom de l’Etat sous le numéro {{champ_019}} de la circonscription foncière {{circonscription_fonciere_de}}."
     },
     {
       "k": "sp"
@@ -413,7 +419,7 @@
     },
     {
       "k": "p",
-      "text": "Etabli sur modèle de l’Etude de Maître {{champ_020}} Notaire à ABIDJAN (République de Côte d’Ivoire) 01BP {{champ_021}} ABIDJAN 01.",
+      "text": "Etabli sur modèle de l’Etude de Maître {{champ_020}} Notaire à {{ville_notaire}} (République de Côte d’Ivoire) 01BP {{champ_021}} {{ville_notaire}} 01.",
       "al": "left",
       "ind": 1
     },
@@ -440,7 +446,7 @@
     },
     {
       "k": "p",
-      "text": "Le Premier Avril",
+      "text": "Le {{jour_mois_signature}}",
       "al": "left",
       "ind": 1
     },
@@ -453,7 +459,7 @@
   ],
   "sourceTemplate": {
     "file": "templates/source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c.docx",
-    "version": "3"
+    "version": "5"
   },
   "exemple": {
     "champ_001": "Exemple",
@@ -479,6 +485,11 @@
     "champ_020": "Exemple",
     "champ_021": "Exemple",
     "champ_022": "Exemple",
-    "champ_023": "Exemple"
+    "champ_023": "Exemple",
+    "ville_notaire": "Abidjan",
+    "profession": "Comptable",
+    "lotissement": "Cocody-Les-Deux-Plateaux",
+    "circonscription_fonciere": "Bingerville",
+    "jour_mois_signature": "premier avril"
   }
 }
