@@ -1,0 +1,451 @@
+{
+ "id": "source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l-r05-renouvellement-mandat-dadminis",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux d’assemblée générale ordinaire",
+ "titre": "PV d’assemblée générale ordinaire – Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président",
+ "sous": "Procès-verbal d’assemblée générale ordinaire (SA et SAS) : renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président.",
+ "resume": "PV d’assemblée générale ordinaire – Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "assemblée générale ordinaire",
+  "procès-verbal",
+  "sa",
+  "sas",
+  "résolution"
+ ],
+ "duree": "8 min",
+ "docTitle": "PV d’assemblée générale ordinaire – Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président",
+ "fileBase": "PV d’assemblée générale ordinaire – Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président",
+ "headline": "PV d’assemblée générale ordinaire – Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Assemblée 1",
+   "titre": "Assemblée générale ordinaire",
+   "champs": [
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Date de l’assemblée (titre du procès-verbal)",
+     "group": "GENERALE ORDINAIRE DU …"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "L’an (année de la réunion)",
+     "group": "L’an …; le … à …,",
+     "aide": "…L’an ▢ le à…"
+    },
+    {
+     "id": "champ_003",
+     "type": "date",
+     "label": "Date de la réunion",
+     "group": "L’an …; le … à …,",
+     "aide": "…L’an le ▢ à…"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Heure de la réunion",
+     "group": "L’an …; le … à …,",
+     "aide": "…L’an le à ▢"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Lieu de la réunion",
+     "group": "Les actionnaires de la société se sont réunis en Assemblée Générale…",
+     "aide": "…réunis en Assemblée Générale Ordinaire à ▢ sur convocation faite par…"
+    },
+    {
+     "id": "champ_079",
+     "type": "text",
+     "label": "Nombre d’actionnaires représentés par mandataire",
+     "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
+    },
+    {
+     "id": "champ_080",
+     "type": "text",
+     "label": "Qui a été émargée par",
+     "group": "Il a été établi une feuille de présence, à laquelle ont été annexés les…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Président de l’assemblée (nom et prénoms)",
+     "group": "L’assemblée est présidée par M …, (Président du Conseil…"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Assemblée 2",
+   "titre": "Assemblée générale ordinaire (suite)",
+   "champs": [
+    {
+     "id": "champ_081",
+     "type": "date",
+     "label": "Ou le",
+     "group": "L’assemblée est présidée par M …, (Président du Conseil…",
+     "opt": true
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Et M",
+     "group": "M … et M … actionnaires représentant le plus grand nombre d’actions…",
+     "aide": "…M et M ▢ actionnaires représentant le plus…"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … a été désigné comme secrétaire."
+    },
+    {
+     "id": "champ_082",
+     "type": "text",
+     "label": "Par les scrutateurs permet de",
+     "group": "La feuille de présence certifiée sincère et véritable par les…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Actionnaires présents ou représentés possèdent",
+     "group": "La feuille de présence certifiée sincère et véritable par les…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Actions représentant",
+     "group": "La feuille de présence certifiée sincère et véritable par les…"
+    },
+    {
+     "id": "champ_083",
+     "type": "text",
+     "label": "Tous ceux prévus par l’Acte",
+     "group": "Le Président déclare que les documents ci-dessus et tous ceux prévus…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Résolution",
+   "titre": "Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président",
+   "champs": [
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Ou de Président de M",
+     "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Sur les comptes clos en",
+     "group": "L’Assemblée constatant que le mandat d’Administrateur ou…"
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "Cette résolution est adoptée",
+     "group": "Cette résolution est adoptée …"
+    },
+    {
+     "id": "champ_039",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M …, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement…"
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Clôture",
+   "titre": "Clôture et signatures",
+   "champs": [
+    {
+     "id": "champ_075",
+     "type": "text",
+     "label": "Déclare la séance levée à",
+     "group": "L’ordre du jour étant épuisé, et personne ne demandant plus la parole,…"
+    },
+    {
+     "id": "champ_092",
+     "type": "text",
+     "label": "Le Président",
+     "group": "Le Président … Les Scrutateurs Le Secrétaire"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1fdly3fdm8nvjfpdfduizugrfv461jfhl-matrice-proces-verbal-de-l-r05-renouvellement-mandat-dadminis.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "2000-01-01",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_079": "Exemple",
+  "champ_080": "Exemple",
+  "champ_006": "Exemple",
+  "champ_081": "2000-01-01",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_082": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_083": "Exemple",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_039": "Exemple",
+  "champ_075": "Exemple",
+  "champ_092": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**PROCES-VERBAL DE L’ASSEMBLEE GENERALE**"
+  },
+  {
+   "k": "p",
+   "text": "**ORDINAIRE – SA & SAS**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**« Papier en-tête société »**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PROCES VERBAL DES DELIBERATIONS DE L’ASSEMBLEE**"
+  },
+  {
+   "k": "p",
+   "text": "**GENERALE ORDINAIRE DU {{champ_001}}**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’an {{champ_002}}; le {{champ_003}} à {{champ_004}},",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Les actionnaires de la société se sont réunis en **Assemblée Générale Ordinaire      **à {{champ_005}}, sur convocation  faite par le Président du Conseil d’Administration ou le Président Directeur Général, ou l’Administrateur Général.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il a été établi une feuille de présence, à laquelle ont été annexés les pouvoirs des {{champ_079}} actionnaires représentés par des mandataires, et qui a été émargée par {{champ_080}} chaque membre en entrant en séance.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’assemblée est présidée par **M **{{champ_006}}, (Président du Conseil d’Administration, ou  le {{champ_081}} Président Directeur Général, ou l’Administrateur Général, à préciser).",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**M {{champ_007}}** et **M {{champ_008}} **actionnaires représentant le plus grand nombre  d’actions présents  et acceptant sont appelés comme scrutateurs.",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "**M {{champ_009}}** a été  désigné comme secrétaire."
+  },
+  {
+   "k": "p",
+   "text": "La feuille de présence certifiée sincère et véritable par les scrutateurs permet de {{champ_082}} constater que les actionnaires présents ou  représentés possèdent {{champ_010}} actions représentant {{champ_011}} %  du capital social.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence, l’assemblée est déclarée régulièrement constituée et peut délibérer  valablement.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président dépose sur le bureau, et met à la disposition des membres de l’assemblée :",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Un exemplaire du journal d’annonces légales ayant fait paraître la convocation ou les copies  des lettres avec avis de réception ou récépissés ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "La feuille de présence de l’assemblée certifiée sincère et véritable par les scrutateurs  et à laquelle sont annexés les pouvoirs des actionnaires  représentés par des mandataires ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Les états financiers ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le rapport du Conseil d’Administration ou de l’Administrateur Général ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Les rapports du Commissaire aux comptes ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le texte des résolutions présentées à l’assemblée ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "La liste des administrateurs ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "La liste des actionnaires ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le montant global certifié par le Commissaire aux comptes des rémunérations versées  aux cinq ou dix dirigeants sociaux et salariés les mieux rémunérés.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Le Président déclare que les documents ci-dessus et tous ceux prévus par l’Acte {{champ_083}} Uniforme et les règlements ont été tenus à la disposition des actionnaires à compter du jour de la convocation.",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "L’assemblée lui donne acte de ses déclarations.",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Le Président rappelle  ensuite que l’assemblée  est appelée à délibérer sur l’ordre du jour suivant :",
+   "ind": 1
+  },
+  {
+   "k": "li",
+   "text": "Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Questions diverses.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Puis il est donné  lecture :"
+  },
+  {
+   "k": "li",
+   "text": "Du rapport du Conseil d’Administration (ou de l’Administrateur Général) exposant l’activité de la société  au cours de l’exercice écoulé et les résultats de cette activité ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Du rapport du Commissaire aux comptes.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "La discussion est ouverte par la suite.",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Diverses observations sont échangées portant sur la marche de la société et les points soulevés par l’ordre du jour (résumé des discussions).",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Personne ne demandant plus la parole, le Président  met aux voix les résolutions suivantes figurant à l’ordre du jour :",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "**Première résolution : Renouvellement mandat d’Administrateurs ou d’Administrateur Général ou du Président**"
+  },
+  {
+   "k": "p",
+   "text": "L’Assemblée constatant que le mandat d’Administrateur ou d’Administrateur Général ou de Président de M {{champ_035}}, M {{champ_036}} arrive(nt) arrive à expiration lors de la présente assemblée, décide de renouveler son (ou leurs) mandat(s) pour une durée de six ans (ou moins) qui expirera à l’issue de l’Assemblée Générale qui statuera sur les comptes clos en  {{champ_037}}"
+  },
+  {
+   "k": "p",
+   "text": "Cette résolution est adoptée {{champ_038}}"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_039}}, M, présent(s) à l’assemblée déclare(nt) accepter le renouvellement  de son (ou leurs) mandat, en précisant qu’il n’est frappé d’aucune incompatibilité ou interdiction  susceptibles de l’empêcher d’exercer les fonctions d’Administrateur ou d’Administrateur Général ou de Président de la société."
+  },
+  {
+   "k": "p",
+   "text": "L’ordre du jour étant épuisé, et personne ne demandant plus la parole, le Président déclare la séance levée à {{champ_075}} heures."
+  },
+  {
+   "k": "p",
+   "text": "De tout ce que dessus, il a été dressé le présent Procès-Verbal qui a été signé par les membres du bureau après lecture."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président {{champ_092}} Les Scrutateurs    Le Secrétaire"
+  }
+ ]
+}

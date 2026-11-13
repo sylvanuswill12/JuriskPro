@@ -1,0 +1,175 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d01-remplacement-du-president-ou-presi",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Remplacement du Président (ou Président-Directeur Général)",
+ "sous": "Décision du conseil d’administration d’une société anonyme : remplacement du Président (ou Président-Directeur Général).",
+ "resume": "PV du conseil d’administration – Remplacement du Président (ou Président-Directeur Général) : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Remplacement du Président (ou Président-Directeur Général)",
+ "fileBase": "PV du conseil d’administration – Remplacement du Président (ou Président-Directeur Général)",
+ "headline": "PV du conseil d’administration – Remplacement du Président (ou Président-Directeur Général)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Remplacement du Président (ou Président-Directeur Général)",
+   "champs": [
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … est nommé Président du Conseil d’Administration ou Président…"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "M … est nommé Président du Conseil d’Administration ou Président…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Ou pour une durée de",
+     "group": "M … est nommé Président du Conseil d’Administration ou Président…",
+     "opt": true
+    },
+    {
+     "id": "champ_004",
+     "type": "date",
+     "label": "Comptes de l’exercice clos le",
+     "group": "M … est nommé Président du Conseil d’Administration ou Président…"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … accepte ces fonctions et déclare qu’il n’exerce pas simultanément…",
+     "opt": true
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … en sa qualité de Président (de Président- Directeur Général) est…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Une rémunération déterminée comme suit",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Une rémunération déterminée comme suit",
+     "aide": "▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d01-remplacement-du-president-ou-presi.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "2000-01-01",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Remplacement du Président (ou Président-Directeur Général)**"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_001}} est nommé Président du Conseil d’Administration ou Président Directeur Général, en remplacement de M {{champ_002}} (démissionnaire ou décédé ou révoqué) pour la durée de mandat d’Administrateur, (ou pour une durée de {{champ_003}}), soit jusqu’à l’issue de la réunion de l’Assemblée Générale qui statuera sur les comptes de l’exercice clos le {{champ_004}}"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_005}} accepte ces fonctions et déclare qu’il n’exerce pas simultanément plus de trois mandats de Président du Conseil d’Administration (ou de Président- Directeur Général selon le cas) et qu’il ne cumule pas ce mandat avec plus de deux mandats d’Administrateur Général ou de Directeur Général de sociétés anonymes ayant leur siège sur le territoire d’un même Etat partie."
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_006}} en sa qualité de Président (de Président- Directeur Général) est investi des pouvoirs que lui reconnaît l’Acte Uniforme relatif au Droit des Sociétés Commerciales et du Groupement d’intérêt Economique."
+  },
+  {
+   "k": "p",
+   "text": "Ajouter l’une ou l’autre formule suivante :"
+  },
+  {
+   "k": "li",
+   "text": "**Cas de Président du Conseil d’Administration : **Le Président du Conseil d’Administration préside les réunions du Conseil d’Administration et les Assemblées Générales. Il veille à ce que le  Conseil d’Administration assure le contrôle de la gestion des de la société confiée au Directeur Général. A toute époque de l’année, il opère les vérifications qu’il juge opportunes et peut se faire communiquer tous les documents qu’il estime utiles à l’accomplissement de sa mission.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Le Président du Conseil d’Administration est tenu de communiquer à chaque Administrateur ces documents et informations."
+  },
+  {
+   "k": "li",
+   "text": "**Cas du Président-Directeur Général :** Le Président-Directeur Général préside le Conseil d’Administration et les Assemblées Générales. Il assure la Direction Générale  de la société et représente celle-ci dans ses rapports avec les tiers.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Il est tenu de communiquer à chaque Administrateur tous les documents et informations nécessaires à l’accomplissement de sa mission."
+  },
+  {
+   "k": "p",
+   "text": "Pour l’exercice de ces fonctions, il est investi des pouvoirs les plus étendus qu’il exerce dans la limite de l’objet social et sous réserve de ceux expressément attribuées aux Assemblées Générales ou spécialement réservés  au Conseil  d’Administration par les dispositions légales ou statutaires."
+  },
+  {
+   "k": "p",
+   "text": "Dans ses rapports avec les tiers, la société est engagée par les actes du Président-Directeur Général dans les conditions et limites fixées par l’Acte Uniforme relatif au Droit des Sociétés Commerciales et du Groupement d’intérêt Economique."
+  },
+  {
+   "k": "p",
+   "text": "Le Président du Conseil d’Administration (le Président-Directeur Général) aura droit à une rémunération déterminée comme suit :"
+  },
+  {
+   "k": "li",
+   "text": "{{champ_007}}",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "{{champ_008}}",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Il aura droit également au remboursement de ses frais de représentation et de déplacement."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

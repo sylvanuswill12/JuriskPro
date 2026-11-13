@@ -1,0 +1,84 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d31-appel-du-capital-liberation",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Appel du capital (libération)",
+ "sous": "Décision du conseil d’administration d’une société anonyme : appel du capital (libération).",
+ "resume": "PV du conseil d’administration – Appel du capital (libération) : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Appel du capital (libération)",
+ "fileBase": "PV du conseil d’administration – Appel du capital (libération)",
+ "headline": "PV du conseil d’administration – Appel du capital (libération)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Appel du capital (libération)",
+   "champs": [
+    {
+     "id": "champ_162",
+     "type": "text",
+     "label": "Ou par",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide à…",
+     "opt": true
+    },
+    {
+     "id": "champ_163",
+     "type": "text",
+     "label": "Voix contre",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide à…",
+     "opt": true
+    },
+    {
+     "id": "champ_164",
+     "type": "date",
+     "label": "Au plus tard le",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide à…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d31-appel-du-capital-liberation.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_162": "Exemple",
+  "champ_163": "Exemple",
+  "champ_164": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Appel du capital (libération)**"
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibéré, le Conseil d’Administration décide à l’unanimité (ou par {{champ_162}} voix contre {{champ_163}} voix) de faire procéder à la libération du (1/4 ; 1/2 ; ou de l’intégralité) du capital social, laquelle pourra intervenir au moyen de versements en numéraire ou par compensation.il charge son Président (ou le Directeur Général) d’en informer les actionnaires, par lettre recommandée au porteur contre récépissé (ou avec accusé de réception) et de leur demander de procéder au règlement des sommes dues par chacun d’eux, au plus tard le {{champ_164}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

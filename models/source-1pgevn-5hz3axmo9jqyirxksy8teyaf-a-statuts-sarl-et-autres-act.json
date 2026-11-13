@@ -1,1502 +1,1502 @@
 {
-  "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-a-statuts-sarl-et-autres-act",
-  "cat": "societes-associations",
-  "sub": "OHADA",
-  "titre": "Statuts de SARL (modèle simplifié)",
-  "sous": "Statuts de société à responsabilité limitée sous forme simplifiée, avec l’état des actes accomplis pour la société en formation.",
-  "resume": "Statuts de SARL (modèle simplifié) : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "sarl",
-    "statuts",
-    "ohada",
-    "simplifié"
-  ],
-  "duree": "40 min",
-  "docTitle": "Statuts de SARL (modèle simplifié)",
-  "fileBase": "Statuts de SARL (modèle simplifié)",
-  "headline": "Statuts de SARL (modèle simplifié)",
-  "etapes": [
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-a-statuts-sarl-et-autres-act",
+ "cat": "societes-associations",
+ "sub": "OHADA",
+ "titre": "Statuts de SARL (modèle simplifié)",
+ "sous": "Statuts de société à responsabilité limitée sous forme simplifiée, avec l’état des actes accomplis pour la société en formation.",
+ "resume": "Statuts de SARL (modèle simplifié) : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "statuts",
+  "ohada",
+  "simplifié"
+ ],
+ "duree": "40 min",
+ "docTitle": "Statuts de SARL (modèle simplifié)",
+ "fileBase": "Statuts de SARL (modèle simplifié)",
+ "headline": "Statuts de SARL (modèle simplifié)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Societe a",
+   "titre": "Societe a responsabilite limitee",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Societe a",
-      "titre": "Societe a responsabilite limitee",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "AU CAPITAL SOCIAL DE",
-          "group": "AU CAPITAL SOCIAL DE …. F CFA (MINIMUM = 1 000 000 sauf disposition…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "ETAT PARTIE AU TRAITE OHADA",
-          "group": "RCCM : …",
-          "aide": "…RCCM ▢"
-        },
-        {
-          "id": "champ_357",
-          "type": "text",
-          "label": "Dénomination sociale",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_358",
-          "type": "text",
-          "label": "Forme",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_359",
-          "type": "text",
-          "label": "Capital",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "AU CAPITAL SOCIAL DE",
+     "group": "AU CAPITAL SOCIAL DE …. F CFA (MINIMUM = 1 000 000 sauf disposition…"
     },
     {
-      "id": "partie-2",
-      "court": "Statuts",
-      "titre": "Statuts",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_360",
-          "type": "text",
-          "label": "RCCM",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Numéro",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_362",
-          "type": "text",
-          "label": "Siège social",
-          "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Prénom",
-          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Nom",
-          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Qualité",
-          "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Prénom",
-          "group": "… , demeurant à …, né(e) le … à …,"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Nom",
-          "group": "… , demeurant à …, né(e) le … à …,"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Adresse",
-          "group": "… , demeurant à …, né(e) le … à …,"
-        },
-        {
-          "id": "champ_015",
-          "type": "date",
-          "label": "Date de naissance",
-          "group": "… , demeurant à …, né(e) le … à …,"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Lieu de naissance",
-          "group": "… , demeurant à …, né(e) le … à …,"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "ETAT PARTIE AU TRAITE OHADA",
+     "group": "RCCM : …",
+     "aide": "…RCCM ▢"
     },
     {
-      "id": "partie-3",
-      "court": "Art. 2",
-      "titre": "Article 2 : Objet",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Plus particulièrement en République du",
-          "group": "La Société a pour objet en tous pays et plus particulièrement en…"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Avant « l’accomplissement des activités suivantes »",
-          "group": "La Société a pour objet en tous pays et plus particulièrement en…",
-          "aide": "…et plus particulièrement en République du ▢ l’accomplissement des activités suivantes…"
-        },
-        {
-          "id": "champ_371",
-          "type": "text",
-          "label": "À compléter par l’objet social défini par les associés",
-          "group": "…."
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "Société a pour dénomination sociale",
-          "group": "La Société a pour dénomination sociale … et pour sigle …."
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Et pour sigle",
-          "group": "La Société a pour dénomination sociale … et pour sigle …."
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Avant « lieu adresse précise ne »",
-          "group": "Le siège social de la Société est fixé : …(lieu – adresse précise – ne…",
-          "aide": "…social de la Société est fixé ▢ lieu adresse précise ne…"
-        }
-      ]
+     "id": "champ_357",
+     "type": "text",
+     "label": "Dénomination sociale",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     },
     {
-      "id": "partie-4",
-      "court": "Art. 5",
-      "titre": "Article 5 : Durée",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Durée",
-          "group": "La durée de la Société est fixée à … à compter de la date de son…"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "Numéro",
-          "group": "…, …, au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        }
-      ]
+     "id": "champ_358",
+     "type": "text",
+     "label": "Forme",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     },
     {
-      "id": "partie-5",
-      "court": "Art. 6",
-      "titre": "Article 6 : Apports",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "Montant",
-          "group": "…, …, au capital de … FCFA, immatriculée au Registre du commerce et du…"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "Prénom",
-          "group": "… , demeurant à …, la somme de … FCFA."
-        },
-        {
-          "id": "champ_031",
-          "type": "text",
-          "label": "Nom",
-          "group": "… , demeurant à …, la somme de … FCFA."
-        },
-        {
-          "id": "champ_032",
-          "type": "text",
-          "label": "Adresse",
-          "group": "… , demeurant à …, la somme de … FCFA."
-        },
-        {
-          "id": "champ_033",
-          "type": "text",
-          "label": "Montant",
-          "group": "… , demeurant à …, la somme de … FCFA."
-        },
-        {
-          "id": "champ_034",
-          "type": "text",
-          "label": "Prénom",
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_035",
-          "type": "text",
-          "label": "Nom",
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_036",
-          "type": "text",
-          "label": "Montant versé",
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_037",
-          "type": "text",
-          "label": "Prénom",
-          "opt": true,
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_038",
-          "type": "text",
-          "label": "Nom",
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_039",
-          "type": "date",
-          "label": "D'avis de réception reçue le",
-          "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
-        },
-        {
-          "id": "champ_040",
-          "type": "text",
-          "label": "Montant",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_041",
-          "type": "text",
-          "label": "Nombre",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_042",
-          "type": "text",
-          "label": "Montant",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_043",
-          "type": "text",
-          "label": "Montant",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        }
-      ]
-    },
-    {
-      "id": "partie-6",
-      "court": "Art. 6",
-      "titre": "Article 6 : Apports",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_044",
-          "type": "text",
-          "label": "Nombre",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_045",
-          "type": "text",
-          "label": "Montant",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_046",
-          "type": "text",
-          "label": "Libérées chacune à concurrence du",
-          "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
-        },
-        {
-          "id": "champ_047",
-          "type": "text",
-          "label": "Montant",
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
-        },
-        {
-          "id": "champ_048",
-          "type": "date",
-          "label": "Date",
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…",
-          "aide": "…associés conformément à la loi le ▢ au crédit d'un compte…"
-        },
-        {
-          "id": "champ_049",
-          "type": "text",
-          "label": "La Société en formation à",
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
-        },
-        {
-          "id": "champ_050",
-          "type": "text",
-          "label": "La banque ou chez Me",
-          "opt": true,
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
-        },
-        {
-          "id": "champ_051",
-          "type": "text",
-          "label": "Notaire à",
-          "opt": true,
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
-        },
-        {
-          "id": "champ_052",
-          "type": "text",
-          "label": "En est justifié au moyen",
-          "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
-        }
-      ]
-    },
-    {
-      "id": "partie-7",
-      "court": "Art. 7",
-      "titre": "Article 7 : Capital social",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_053",
-          "type": "text",
-          "label": "Montant",
-          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
-        },
-        {
-          "id": "champ_054",
-          "type": "text",
-          "label": "Nombre",
-          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
-        },
-        {
-          "id": "champ_055",
-          "type": "text",
-          "label": "Montant",
-          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
-        },
-        {
-          "id": "champ_056",
-          "type": "text",
-          "label": "Avant « Intégralement libérées libérées à »",
-          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……",
-          "aide": "…d'une valeur nominale de FCFA chacune ▢ Intégralement libérées libérées à…"
-        },
-        {
-          "id": "champ_057",
-          "type": "text",
-          "label": "Libérées libérées à concurrence de",
-          "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
-        },
-        {
-          "id": "champ_058",
-          "type": "text",
-          "label": "Identité de l'associé",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
-        },
-        {
-          "id": "champ_059",
-          "type": "text",
-          "label": "Nombre",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
-        },
-        {
-          "id": "champ_060",
-          "type": "text",
-          "label": "Numéro",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
-        },
-        {
-          "id": "champ_061",
-          "type": "text",
-          "label": "Numéro",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
-        },
-        {
-          "id": "champ_062",
-          "type": "text",
-          "label": "Identité de l'associé",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …."
-        },
-        {
-          "id": "champ_063",
-          "type": "text",
-          "label": "Nombre",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …."
-        },
-        {
-          "id": "champ_064",
-          "type": "text",
-          "label": "Numéro",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …."
-        },
-        {
-          "id": "champ_065",
-          "type": "text",
-          "label": "Numéro",
-          "group": "- à … à concurrence de … parts sociales numérotées de … à …."
-        },
-        {
-          "id": "champ_066",
-          "type": "text",
-          "label": "Nombre",
-          "group": "Total égal au nombre de parts sociales composant le capital social ……"
-        }
-      ]
-    },
-    {
-      "id": "partie-8",
-      "court": "Art. 10",
-      "titre": "Article 10 : Admission de nouveaux associés",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_067",
-          "type": "text",
-          "label": "Des associés représentant au moins",
-          "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
-        },
-        {
-          "id": "champ_068",
-          "type": "text",
-          "label": "Cette majorité est déterminée",
-          "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
-        },
-        {
-          "id": "champ_069",
-          "type": "text",
-          "label": "La Société continuera avec",
-          "group": "En cas de décès de l'un des associés, la Société continuera avec …. Les…"
-        },
-        {
-          "id": "champ_070",
-          "type": "text",
-          "label": "Avant « A défaut d'accord sur »",
-          "group": "En cas de décès de l'un des associés, la Société continuera avec …. Les…",
-          "aide": "…sociaux de leur auteur ainsi déterminée ▢ A défaut d'accord sur…"
-        },
-        {
-          "id": "champ_071",
-          "type": "text",
-          "label": "Les associés pour une durée",
-          "group": "La Société est administrée par un ou plusieurs Gérants, personnes…"
-        },
-        {
-          "id": "champ_072",
-          "type": "text",
-          "label": "La Société pour une durée",
-          "group": "Est nommé premier Gérant de la Société pour une durée …( de - durée à…"
-        }
-      ]
-    },
-    {
-      "id": "partie-9",
-      "court": "Art. 13",
-      "titre": "Article 13 : Gérance",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_073",
-          "type": "text",
-          "label": "Identité du Gérant",
-          "group": "Est nommé premier Gérant de la Société pour une durée …( de - durée à…"
-        },
-        {
-          "id": "champ_074",
-          "type": "text",
-          "label": "Associés disposent d'un délai de",
-          "group": "Les associés disposent d'un délai de …(15 jours minimum) à compter de…"
-        },
-        {
-          "id": "champ_075",
-          "type": "date",
-          "label": "Il commence le",
-          "group": "Chaque exercice social a une durée de douze mois. Il commence le … pour…"
-        },
-        {
-          "id": "champ_076",
-          "type": "date",
-          "label": "Pour se terminer le",
-          "group": "Chaque exercice social a une durée de douze mois. Il commence le … pour…"
-        },
-        {
-          "id": "champ_077",
-          "type": "date",
-          "label": "Premier exercice sera clos le",
-          "group": "Par exception, le premier exercice sera clos le …."
-        }
-      ]
-    },
-    {
-      "id": "partie-10",
-      "court": "Art. 20",
-      "titre": "Article 20 : Exercice social",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_078",
-          "type": "text",
-          "label": "Prénom",
-          "group": "Les soussignés donnent mandat à … à l'effet de prendre les engagements…"
-        },
-        {
-          "id": "champ_079",
-          "type": "text",
-          "label": "Nom",
-          "group": "Les soussignés donnent mandat à … à l'effet de prendre les engagements…"
-        },
-        {
-          "id": "champ_080",
-          "type": "text",
-          "label": "À l'un des associés ajouter",
-          "group": "….",
-          "aide": "▢"
-        },
-        {
-          "id": "champ_081",
-          "type": "text",
-          "label": "Prénom",
-          "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
-        }
-      ]
-    },
-    {
-      "id": "partie-11",
-      "court": "Art. 25",
-      "titre": "Article 25 : Publicité",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_082",
-          "type": "text",
-          "label": "Nom",
-          "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
-        },
-        {
-          "id": "champ_083",
-          "type": "text",
-          "label": "Lieu",
-          "group": "Fait à …, le …",
-          "profil": "ville"
-        },
-        {
-          "id": "champ_084",
-          "type": "date",
-          "label": "Date",
-          "group": "Fait à …, le …",
-          "aide": "…Fait à le ▢"
-        },
-        {
-          "id": "champ_085",
-          "type": "text",
-          "label": "Nombre",
-          "group": "En … exemplaires."
-        }
-      ]
-    },
-    {
-      "id": "partie-12",
-      "court": "Art. 26",
-      "titre": "Article 26 : Frais",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_086",
-          "type": "text",
-          "label": "De la société en formation",
-          "aide": "▢"
-        }
-      ]
-    },
-    {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_359",
+     "type": "text",
+     "label": "Capital",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-a-statuts-sarl-et-autres-act.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_357": "Exemple",
-    "champ_358": "Exemple",
-    "champ_359": "Exemple",
-    "champ_360": "Exemple",
-    "champ_007": "Exemple",
-    "champ_362": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "2000-01-01",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_371": "Exemple",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_027": "Exemple",
-    "champ_029": "Exemple",
-    "champ_030": "Exemple",
-    "champ_031": "Exemple",
-    "champ_032": "Exemple",
-    "champ_033": "Exemple",
-    "champ_034": "Exemple",
-    "champ_035": "Exemple",
-    "champ_036": "Exemple",
-    "champ_037": "Exemple",
-    "champ_038": "Exemple",
-    "champ_039": "2000-01-01",
-    "champ_040": "Exemple",
-    "champ_041": "Exemple",
-    "champ_042": "Exemple",
-    "champ_043": "Exemple",
-    "champ_044": "Exemple",
-    "champ_045": "Exemple",
-    "champ_046": "Exemple",
-    "champ_047": "Exemple",
-    "champ_048": "2000-01-01",
-    "champ_049": "Exemple",
-    "champ_050": "Exemple",
-    "champ_051": "Exemple",
-    "champ_052": "Exemple",
-    "champ_053": "Exemple",
-    "champ_054": "Exemple",
-    "champ_055": "Exemple",
-    "champ_056": "Exemple",
-    "champ_057": "Exemple",
-    "champ_058": "Exemple",
-    "champ_059": "Exemple",
-    "champ_060": "Exemple",
-    "champ_061": "Exemple",
-    "champ_062": "Exemple",
-    "champ_063": "Exemple",
-    "champ_064": "Exemple",
-    "champ_065": "Exemple",
-    "champ_066": "Exemple",
-    "champ_067": "Exemple",
-    "champ_068": "Exemple",
-    "champ_069": "Exemple",
-    "champ_070": "Exemple",
-    "champ_071": "Exemple",
-    "champ_072": "Exemple",
-    "champ_073": "Exemple",
-    "champ_074": "Exemple",
-    "champ_075": "2000-01-01",
-    "champ_076": "2000-01-01",
-    "champ_077": "2000-01-01",
-    "champ_078": "Exemple",
-    "champ_079": "Exemple",
-    "champ_080": "Exemple",
-    "champ_081": "Exemple",
-    "champ_082": "Exemple",
-    "champ_083": "Exemple",
-    "champ_084": "2000-01-01",
-    "champ_085": "Exemple",
-    "champ_086": "Exemple"
-  },
-  "doc": [
+  {
+   "id": "partie-2",
+   "court": "Statuts",
+   "titre": "Statuts",
+   "intro": "",
+   "champs": [
     {
-      "k": "p",
-      "text": "**MODELE SIMPLIFIE DES STATUTS DE SARL**",
-      "al": "center"
+     "id": "champ_360",
+     "type": "text",
+     "label": "RCCM",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     },
     {
-      "k": "p",
-      "text": "**Important : il convient de faire intervenir à l'acte toutes les personnes appelées à avoir la qualité d'associé, ainsi que le futur Gérant s'il n'est pas associé, et s'il est désigné dans les statuts.**"
+     "id": "champ_007",
+     "type": "text",
+     "label": "Numéro",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     },
     {
-      "k": "sp"
+     "id": "champ_362",
+     "type": "text",
+     "label": "Siège social",
+     "group": "…, … au capital de … FCFA, immatriculée au Registre du commerce et du…"
     },
     {
-      "k": "sp"
+     "id": "champ_009",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
     },
     {
-      "k": "p",
-      "text": "**«INDIQUER DENOMINATION SOCIALE»**",
-      "al": "center"
+     "id": "champ_010",
+     "type": "text",
+     "label": "Nom",
+     "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
     },
     {
-      "k": "p",
-      "text": "SOCIETE A RESPONSABILITE LIMITEE",
-      "al": "center"
+     "id": "champ_011",
+     "type": "text",
+     "label": "Qualité",
+     "group": "Représentée par … en sa qualité de … dûment habilité aux fins des…"
     },
     {
-      "k": "p",
-      "text": "AU CAPITAL SOCIAL DE {{champ_001}}. F CFA** (MINIMUM = 1 000 000 sauf disposition national contraire)**",
-      "al": "center"
+     "id": "champ_012",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… , demeurant à …, né(e) le … à …,"
     },
     {
-      "k": "p",
-      "text": "SIEGE SOCIAL : « INDIQUER L’ADRESSE PRECISE »",
-      "al": "center"
+     "id": "champ_013",
+     "type": "text",
+     "label": "Nom",
+     "group": "… , demeurant à …, né(e) le … à …,"
     },
     {
-      "k": "p",
-      "text": "REPUBLIQUE « INDIQUER ETAT PARTIE AU TRAITE OHADA »",
-      "al": "center"
+     "id": "champ_014",
+     "type": "text",
+     "label": "Adresse",
+     "group": "… , demeurant à …, né(e) le … à …,"
     },
     {
-      "k": "p",
-      "text": "RCCM : {{champ_002}}",
-      "al": "center"
+     "id": "champ_015",
+     "type": "date",
+     "label": "Date de naissance",
+     "group": "… , demeurant à …, né(e) le … à …,"
     },
     {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**STATUTS**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Les soussignés :**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Et/ou"
-    },
-    {
-      "k": "p",
-      "text": "* Personne morale :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_357}}, {{champ_358}} au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}}, sous le numéro {{champ_007}}, dont le siège social est situé {{champ_362}},"
-    },
-    {
-      "k": "p",
-      "text": "Représentée par {{champ_009}} {{champ_010}} en sa qualité de {{champ_011}} dûment habilité aux fins des présentes,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Et/ou"
-    },
-    {
-      "k": "p",
-      "text": "* Personne physique :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_012}} {{champ_013}}, demeurant à {{champ_014}}, né(e) le {{champ_015}} à {{champ_016}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "ont établi ainsi qu'il suit les statuts d'une société à responsabilité limitée devant exister entre eux et toute autre personne qui viendrait ultérieurement à acquérir la qualité d'associé."
-    },
-    {
-      "k": "p",
-      "text": "**Article 1 : Forme**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il est formé entre les propriétaires des parts sociales ci-après créées et de celles qui pourraient l'être ultérieurement, une société à responsabilité limitée qui sera régie par l’Acte Uniforme de l’OHADA relatif au droit des sociétés commerciales et du Groupement d’Intérêt Economique, par toutes autres dispositions légales et réglementaires, complémentaires ou modificatives, et par les présents statuts."
-    },
-    {
-      "k": "p",
-      "text": "Toutes dispositions qui seraient contraires aux textes suscités et aux présents statuts seront réputées non écrites."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 2 : Objet**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La Société a pour objet en tous pays et plus particulièrement en République du {{champ_017}} {{champ_018}} l’accomplissement des activités suivantes :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_371}}."
-    },
-    {
-      "k": "p",
-      "text": "Et, plus généralement, toutes opérations, de quelque nature qu'elles soient, juridiques, économiques, financières, civiles, commerciales, mobilières, immobilières ou industrielles, se rattachant à l'objet sus-indiqué ou à tous autres objets similaires ou connexes, de nature à favoriser, directement ou indirectement, le but poursuivi par la Société, son extension ou son développement."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 3 : Dénomination sociale**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La Société a pour dénomination sociale {{champ_019}} et pour sigle {{champ_020}}."
-    },
-    {
-      "k": "p",
-      "text": "Dans tous les actes et documents émanant de la Société et destinés aux tiers, la dénomination sociale doit être précédée ou suivie immédiatement et lisiblement des mots « société à responsabilité limitée » ou des initiales « SARL »,de l'énonciation du capital social, et de la mention du numéro de l’immatriculation de la société au Registre de Commerce et du Crédit Mobilier."
-    },
-    {
-      "k": "p",
-      "text": "**Article 4 : Siège social**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le siège social de la Société est fixé : {{champ_021}}(lieu – adresse précise – ne pas se limiter à l’indication de la seule boîte postale)"
-    },
-    {
-      "k": "p",
-      "text": "Il pourra être transféré en tout autre endroit de la même ville par simple décision des organes de gérance, sous réserve de ratification par la prochaine assemblée générale extraordinaire et en tout endroit par décision extraordinaire des associés."
-    },
-    {
-      "k": "p",
-      "text": "La Société peut avoir recours à une domiciliation collective. La Société peut également être domiciliée temporairement dans le local d'habitation de son Gérant ou dans une partie d'un local à usage d'habitation en l'absence de réception de clientèle."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 5 : Durée**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La durée de la Société est fixée à {{champ_022}} à compter de la date de son immatriculation au Registre du commerce et du crédit mobilier, sauf les cas de dissolution anticipée ou de prorogation prévus aux présents statuts."
-    },
-    {
-      "k": "p",
-      "text": "Elle peut être prorogée sur décision collective des associés."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 6 : Apports**"
-    },
-    {
-      "k": "p",
-      "text": "Les soussignés font apport et versent à la Société, à savoir :"
-    },
-    {
-      "k": "p",
-      "text": "* Personne morale :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_357}}, {{champ_358}}, au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}}, sous le numéro {{champ_027}}, dont le siège social est situé {{champ_362}}, la somme de {{champ_029}} FCFA."
-    },
-    {
-      "k": "p",
-      "text": "* Personne physique :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_030}} {{champ_031}}, demeurant à {{champ_032}}, la somme de {{champ_033}} FCFA."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "En cas d'apports de biens communs par l'un des époux, ajouter :",
-      "mk": "-"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_034}} {{champ_035}} une somme de {{champ_036}} provenant de sa communauté de biens avec son conjoint {{champ_037}} {{champ_038}}, qui a été averti(e) préalablement de cet apport par lettre recommandée avec demande d'avis de réception reçue le {{champ_039}} comportant toutes précisions utiles quant aux finalités et modalités pratiques de l'opération d'apport en numéraire à la Société envisagée par son conjoint,"
-    },
-    {
-      "k": "p",
-      "text": "* En cas de libération totale des apports en numéraire, indiquer :"
-    },
-    {
-      "k": "p",
-      "text": "Soit au total une somme de {{champ_040}} FCFA, correspondant à {{champ_041}} parts sociales de la Société d'une valeur nominale de {{champ_042}} FCFA chacune, souscrites en totalité et intégralement libérées."
-    },
-    {
-      "k": "p",
-      "text": "* Ou bien en cas de libération partielle des apports en numéraire, remplacer par :"
-    },
-    {
-      "k": "p",
-      "text": "Soit au total une somme de {{champ_043}} FCFA, correspondant à {{champ_044}} parts sociales de la Société d'une valeur nominale de {{champ_045}} FCFA chacune, souscrites en totalité et libérées chacune à concurrence du {{champ_046}}(cinquième ou autre fraction supérieure)."
-    },
-    {
-      "k": "p",
-      "text": "La libération du surplus, à laquelle chaque associé s'oblige interviendra en une ou plusieurs fois sur décision du Gérant et dans un délai qui ne peut excéder deux ans à compter de l'immatriculation de la Société au Registre du commerce et des sociétés."
-    },
-    {
-      "k": "p",
-      "text": "Le montant total des apports en numéraire, soit {{champ_047}} FCFA, a été déposé par les associés, conformément à la loi, le {{champ_048}} au crédit d'un compte ouvert au nom de la Société en formation à {{champ_049}}(Identité de la banque ou chez Me {{champ_050}}, notaire à {{champ_051}} ou à la Caisse des dépôts et consignations) ainsi qu'il en est justifié au moyen {{champ_052}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 7 : Capital social**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le capital social est fixé à la somme de {{champ_053}} FCFA. Il est divisé en {{champ_054}} parts sociales égales d'une valeur nominale de {{champ_055}} FCFA chacune, {{champ_056}}(Intégralement libérées/libérées à concurrence de {{champ_057}}), souscrites en totalité par les associés et attribuées à chacun d'eux en proportion de leurs apports respectifs, de la manière suivante :"
-    },
-    {
-      "k": "p",
-      "text": "-  à {{champ_058}} à concurrence de {{champ_059}} parts sociales numérotées de {{champ_060}} à {{champ_061}};"
-    },
-    {
-      "k": "p",
-      "text": "-  à {{champ_062}} à concurrence de {{champ_063}} parts sociales numérotées de {{champ_064}} à {{champ_065}}."
-    },
-    {
-      "k": "p",
-      "text": "Total égal au nombre de parts sociales composant le capital social {{champ_066}} parts."
-    },
-    {
-      "k": "p",
-      "text": "Les soussignés déclarent que toutes les parts, représentant le capital social de la Société leur appartiennent, sont réparties entre eux dans les proportions indiquées ci-dessus, correspondant à leurs apports respectifs et sont toutes libérées dans les proportions indiquées ci-dessus."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 8 : Droits des associés**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Chaque part sociale donne droit à son propriétaire à une fraction des bénéfices et de l'actif social de la Société proportionnellement au nombre de parts sociales qu'il détient. Elle donne également le droit de participer aux décisions collectives. Toute part donne droit à une voix en assemblée générale."
-    },
-    {
-      "k": "p",
-      "text": "Les associés ne sont tenus à l'égard des tiers qu'à concurrence du montant de leur apport."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 9 : Cession et transmission des parts sociales**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toute cession des parts sociales doit être constatée par un acte écrit sous seing privé ou notarié. La cession n'est rendue opposable à la Société qu'après avoir été signifiée à cette dernière par exploit d'huissier ou par tout moyen permettant d’établir sa réception effective par le destinataire ou acceptée par elle dans un acte authentique signé devant notaire conformément à l'article 317 de l’AUSCGIE."
-    },
-    {
-      "k": "p",
-      "text": "Toutefois, la signification peut être remplacée par le dépôt d'un original de l'acte de cession au siège social contre remise par le Gérant d'une attestation de ce dépôt."
-    },
-    {
-      "k": "p",
-      "text": "Elle n'est opposable aux tiers qu'après accomplissement de l’une de ces formalités, en annexe au registre du commerce et du crédit mobilier, d'un exemplaire des statuts de la société modifiés."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 10 : Admission de nouveaux associés**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "* En cas de régime légal sans agrément sauf en cas de cession à des tiers étrangers, indiquer :"
-    },
-    {
-      "k": "p",
-      "text": "Les parts sociales sont librement transmissibles par voie successorale ou testamentaire, ou en cas de liquidation de communauté de biens entre époux. Elles sont librement cessibles entre conjoints, entre ascendants et descendants et entre associés."
-    },
-    {
-      "k": "p",
-      "text": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la Société qu'avec le consentement de la majorité des associés représentant au moins {{champ_067}}( les trois quarts) des parts sociales. Cette majorité est déterminée {{champ_068}}(compte tenu/compte non tenu) de la personne et des parts de l'associé cédant."
-    },
-    {
-      "k": "li",
-      "text": "Si l'agrément est accordé d'office à certains postulants en cas de décès, ajouter :",
-      "mk": "-"
-    },
-    {
-      "k": "p",
-      "text": "En cas de décès de l'un des associés, la Société continuera avec {{champ_069}}. Les ayants droit évincés ont droit à la valeur des droits sociaux de leur auteur, ainsi déterminée, {{champ_070}}. A défaut d'accord sur cette valeur, celle-ci est fixée par un expert désigné conformément à l'article 319 AUSCGIE. Cet expert est tenu de respecter les règles de détermination de la valeur des droits sociaux énoncées ci-dessus."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 11 : Nantissement de parts sociales**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le nantissement de parts sociales est constaté par écrit notarié ou sous seing privé enregistré et signifié à la Société et publié au registre du commerce et du crédit mobilier."
-    },
-    {
-      "k": "p",
-      "text": "Tout projet de nantissement doit être notifié à la Société."
-    },
-    {
-      "k": "p",
-      "text": "Si les associés ont donné leur consentement à un projet de nantissement de parts sociales, soit par notification à l'intéressé de sa décision prise aux conditions de l'article 10, soit par défaut de réponse dans le délai de trois mois à compter de la demande, ce consentement emportera agrément du cessionnaire en cas de réalisation forcée des parts nanties selon les dispositions des articles 319 & 322 AUSCGIE, à moins que la Société ne préfère après la cession racheter sans délai les parts en vue de réduire son capital social."
-    },
-    {
-      "k": "p",
-      "text": "Si la Société n'a pas fait connaître sa décision dans le délai de trois mois à compter de la notification du projet de nantissement, le consentement au nantissement emportant agrément du cessionnaire en cas de réalisation forcée des parts nanties, est réputé acquis."
-    },
-    {
-      "k": "p",
-      "text": "Le défaut de notification du projet de nantissement à la Société, comme le refus d'agrément de celui-ci par les associés, n'empêche pas le nantissement ; mais, en cas de réalisation forcée, l'adjudicataire devra être agréé comme en cas de cession de parts sociales."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 12 : Réunion de toutes les parts sociales en une seule main**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La réunion de toutes les parts sociales en une seule main n'entraîne pas la dissolution de la Société qui continue d'exister avec un associé unique. Dans ce cas l'associé unique exerce tous les pouvoirs dévolus à l'assemblée générale des associés."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 13 : Gérance**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La Société est administrée par un ou plusieurs Gérants, personnes physiques, associés ou non, nommés par les associés pour une durée {{champ_071}}(indéterminée/déterminée de - nombre d'années à préciser)."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "S'il est prévu une durée déterminée du mandat de Gérant, ajouter éventuellement :",
-      "mk": "-"
-    },
-    {
-      "k": "p",
-      "text": "Les Gérants sont rééligibles."
-    },
-    {
-      "k": "p",
-      "text": "Les Gérants sont nommés par décision des associés représentant plus de la moitié des parts sociales. Si cette majorité n'est pas obtenue, la décision est prise sur seconde consultation à la majorité des votes émis, quel que soit le nombre de votants."
-    },
-    {
-      "k": "p",
-      "text": "Les Gérants sont révoqués par décision ordinaire de la collectivité des associés représentant plus de la moitié des parts sociales ou à défaut par la juridiction compétente, dans le ressort de laquelle est situé le siège social à la demande de tout associé. Si cette majorité n'est pas obtenue, la décision est prise sur seconde consultation à la majorité des votes émis, quel que soit le nombre de votants. Si la révocation est décidée sans juste motif, elle peut donner lieu à des dommages et intérêts."
-    },
-    {
-      "k": "p",
-      "text": "Est nommé premier Gérant de la Société pour une durée {{champ_072}}( de - durée à préciser) Madame / Monsieur {{champ_073}}, qui déclare accepter les fonctions qui lui sont confiées."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 14 : Pouvoirs de la Gérance**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Dans les rapports avec les tiers, le Gérant est investie des pouvoirs les plus étendus pour agir en toute circonstance au nom de la Société, sous réserve des pouvoirs que la loi attribue expressément aux associés. La Société est engagée même par les actes du Gérant qui ne relèvent pas de l'objet social, à moins qu'elle ne prouve que le tiers savait que l'acte dépassait cet objet ou qu'il ne pouvait l'ignorer compte tenu des circonstances, étant exclu que la seule publication des statuts suffise à constituer cette preuve."
-    },
-    {
-      "k": "p",
-      "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus à l'alinéa précédent. Les comptes sociaux et le rapport de gestion doivent être établis par tous les Gérants."
-    },
-    {
-      "k": "p",
-      "text": "L'opposition formée par un Gérant aux actes d'un autre Gérant est sans effet à l'égard des tiers, à moins qu'il ne soit établi qu'ils en ont eu connaissance."
-    },
-    {
-      "k": "p",
-      "text": "Dans les rapports entre associés, la Gérance peut faire tous actes de gestion dans l'intérêt de la Société."
-    },
-    {
-      "k": "p",
-      "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus ci-dessus, sauf le droit pour chacun de s'opposer à toute opération avant qu'elle ne soit"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 15 : Décisions collectives**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La volonté des associés s'exprime par des décisions collectives qui obligent tous les associés."
-    },
-    {
-      "k": "p",
-      "text": "Les décisions collectives doivent nécessairement être prises en assemblée générale des associés dans les cas suivants :"
-    },
-    {
-      "k": "p",
-      "text": "-  approbation annuelle des comptes ;"
-    },
-    {
-      "k": "p",
-      "text": "-  réunion demandée par un ou plusieurs associé(s) représentant au moins, soit la moitié des parts sociales ou s’ils représentent le quart des associés, le quart des parts sociales parts sociales;"
-    },
-    {
-      "k": "p",
-      "text": "-  émission d'obligations ;"
-    },
-    {
-      "k": "p",
-      "text": "-  approbation d'une modification du capital social prévue par un projet de plan de sauvegarde ou de redressement de la Société."
-    },
-    {
-      "k": "p",
-      "text": "Toutes les autres décisions collectives sont prises, au choix de la Gérance, soit en assemblée générale, soit par voie de consultation écrite des associés."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 16 : Participation des associés aux décisions collectives**"
-    },
-    {
-      "k": "p",
-      "text": "Chaque associé a le droit de participer aux décisions collectives, et dispose d'un nombre de voix égal à celui des parts sociales qu'il possède."
-    },
-    {
-      "k": "p",
-      "text": "Un associé peut se faire représenter aux assemblées générales par un autre associé ou par son conjoint, à moins que la Société ne comprenne que les deux époux ou seulement deux associés. Un associé ne peut constituer un mandataire pour voter du chef d'une partie de ses parts sociales et voter en personne du chef de l'autre partie de ses parts sociales."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 17 : Décisions ordinaires**"
-    },
-    {
-      "k": "p",
-      "text": "Sont qualifiées d'ordinaires, les décisions autres que celles relatives à la modification des statuts."
-    },
-    {
-      "k": "p",
-      "text": "Sauf disposition expresse contraire des présents statuts, les décisions sont adoptées par un ou plusieurs associés représentant plus de la moitié des parts sociales."
-    },
-    {
-      "k": "p",
-      "text": "Si cette majorité n'est pas obtenue, les associés sont convoqués ou consultés une seconde fois et les décisions sont prises à la seule majorité des votes émis mais à la condition expresse de ne porter que sur les questions ayant fait l’objet de la première consultation."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 18 : Décisions extraordinaires**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Sont qualifiées d'extraordinaires, les décisions des associés portant sur la modification des statuts."
-    },
-    {
-      "k": "p",
-      "text": "Pour toute modification des statuts, l'assemblée générale des associés ne délibère valablement que si les associés présents ou représentés possèdent au moins les trois quarts du capital."
-    },
-    {
-      "k": "p",
-      "text": "Par dérogation aux dispositions ci-dessus, la décision d'augmenter le capital social par incorporation de bénéfices ou de réserves est valablement décidée par les associés représentant au moins la moitié des parts sociales."
-    },
-    {
-      "k": "p",
-      "text": "Ces conditions de majorité sont rigoureuses et ne sont susceptibles d’aucune décroissance, même en cas de consultations successives sur les mêmes objets. Par dérogation,  la décision d’augmenter le capital par incorporation des bénéfices ou réserves est prise par les associés représentant au moins la moitié des parts sociales."
-    },
-    {
-      "k": "p",
-      "text": "Les décisions portant augmentation des engagements des associés, transformation de la Société en société en nom collectif ou en société par actions simplifiées, changement de nationalité de la Société sont prises à l’unanimité."
-    },
-    {
-      "k": "p",
-      "text": "**Article 19 : Consultations écrites**"
-    },
-    {
-      "k": "p",
-      "text": "Les décisions collectives autres que celles devant nécessairement être prises en assemblée générale des associés peuvent être prises par consultation écrite des associés à l'initiative des Gérants ou de l'un d'eux. Les décisions résultent d'un vote formulé par écrit."
-    },
-    {
-      "k": "p",
-      "text": "En cas de consultation écrite, le texte des résolutions proposées ainsi que les documents nécessaires à l'information des associés sont adressés à chacun d'eux par lettre au porteur contre récépissé ou par lettre recommandée avec demande d'avis de réception, télécopie ou courrier électronique ou par voie postale."
-    },
-    {
-      "k": "p",
-      "text": "Les associés disposent d'un délai de {{champ_074}}(15 jours minimum) à compter de la date de réception des projets de résolutions pour émettre leur vote par écrit."
-    },
-    {
-      "k": "p",
-      "text": "Tout associé qui n'aura pas répondu dans ce délai sera considéré comme s'étant abstenu. Pour chaque résolution, le vote est exprimé par oui ou par non."
-    },
-    {
-      "k": "p",
-      "text": "Les décisions sont adoptées à l'issue de la consultation aux conditions de majorité prévues par les articles 17 et 18 des présents statuts selon l'objet de la consultation."
-    },
-    {
-      "k": "p",
-      "text": "En cas de consultation écrite, les procès-verbaux sont tenus dans les mêmes conditions que celles visées à l'article 15 des présents statuts. Toutefois, il y est mentionné que la consultation a été effectuée par écrit. La réponse de chaque associé est annexée à ces procès-verbaux."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 20 : Exercice social**"
-    },
-    {
-      "k": "p",
-      "text": "Chaque exercice social a une durée de douze mois. Il commence le {{champ_075}} pour se terminer le {{champ_076}}."
-    },
-    {
-      "k": "p",
-      "text": "Par exception, le premier exercice sera clos le {{champ_077}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 21 : Bénéfices distribuables**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le bénéfice distribuable est le résultat de l’exercice, augmenté du report bénéficiaire et diminué des pertes antérieures ainsi que des sommes portées en réserve en application de la loi ou des statuts."
-    },
-    {
-      "k": "p",
-      "text": "Hors le cas de réduction du capital social, aucune distribution ne peut être faite aux associés lorsque les capitaux propres sont ou deviendraient, à la suite de celle-ci, inférieurs au montant du capital augmenté des réserves que la loi ou les statuts ne permettent pas de distribuer."
-    },
-    {
-      "k": "p",
-      "text": "L'assemblée générale peut, après constatation de l'existence de réserves à sa disposition, décider en outre la mise en distribution des sommes prélevées sur ces réserves ; en ce cas, la décision indique expressément les postes de réserve sur lesquels les prélèvements sont effectués."
-    },
-    {
-      "k": "p",
-      "text": "Le total du bénéfice et des réserves distribuables, diminué le cas échéant des sommes inscrites à un fonds de réserve et au compte report à nouveau, constitue les sommes distribuables."
-    },
-    {
-      "k": "p",
-      "text": "Après approbation des comptes et constatation de l'existence des sommes distribuables, l'assemblée générale des associés détermine la part attribuée aux associés sous forme de dividendes."
-    },
-    {
-      "k": "p",
-      "text": "Les sommes dont la mise en distribution est décidée sont réparties entre les associés proportionnellement au nombre de leurs parts sociales."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 22 : Fin de la société**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A l'arrivée du terme de la Société ou en cas de dissolution anticipée, une décision des associés nomme un ou plusieurs liquidateur(s) dont elle détermine les pouvoirs et qui exercent leurs fonctions conformément à la loi."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 23 : Contestations**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toutes contestations qui pourraient s'élever au cours de l'existence de la Société ou après sa dissolution pendant le cours des opérations de liquidation, soit entre les associés et la Société, soit entre associés concernant l'interprétation ou l'exécution des présents statuts ou plus généralement au sujet des affaires sociales, seront jugées conformément à la loi et soumises à la juridiction des tribunaux compétents du lieu du siège social."
-    },
-    {
-      "k": "p",
-      "text": "A cet effet, en cas de contestation, tout associé est tenu de faire élection de domicile dans le ressort du tribunal compétent du lieu du siège social et toutes assignations ou significations sont régulièrement faites à ce domicile élu, sans avoir égard au domicile réel."
-    },
-    {
-      "k": "p",
-      "text": "A défaut d'élection de domicile, les assignations et significations seront valablement faites au parquet du tribunal compétent."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 24 : Actes accomplis pour le compte de la société en formation**"
-    },
-    {
-      "k": "p",
-      "text": "Il est annexé aux présents statuts un état des actes passés pour le compte de la Société en formation et l'engagement qui en résultera pour la Société. La signature des statuts emportera reprise des engagements par la Société, lorsque celle-ci aura été immatriculée au Registre du commerce et du crédit mobilier."
-    },
-    {
-      "k": "p",
-      "text": "Les associés ont pris connaissance de cet état avant la signature des statuts."
-    },
-    {
-      "k": "p",
-      "text": "Pour donner un mandat à l'un des associés, ajouter :"
-    },
-    {
-      "k": "p",
-      "text": "Les soussignés donnent mandat à {{champ_078}} {{champ_079}} à l'effet de prendre les engagements suivants au nom et pour le compte de la Société :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_080}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 25 : Publicité**"
-    },
-    {
-      "k": "p",
-      "text": "Les formalités de constitution accomplies, un avis sera inséré dans un journal d'annonces légales paraissant dans le lieu de situation du siège social. A cet effet, tous pouvoirs sont donnés à {{champ_081}} {{champ_082}} pour effectuer les différentes formalités prescrites par la loi."
-    },
-    {
-      "k": "p",
-      "text": "**Article 26 : Frais**"
-    },
-    {
-      "k": "p",
-      "text": "Les frais, droits et honoraires des présents statuts et de ses suites seront pris en charge par la Société lorsqu'elle aura été immatriculée au Registre du commerce et du crédit mobilier."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait à {{champ_083}}, le {{champ_084}}"
-    },
-    {
-      "k": "p",
-      "text": "En {{champ_085}} exemplaires."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Important : **Signature de tous les associés préalablement précédée de la mention manuscrite « **Lu et approuvé** »."
-    },
-    {
-      "k": "p",
-      "text": "Signature du Gérant précédée de la mention manuscrite « **Bon pour acceptation des fonctions de gérant **»."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ANNEXE**"
-    },
-    {
-      "k": "p",
-      "text": "**État des actes accomplis pour le compte de la société en formation**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_086}}"
+     "id": "champ_016",
+     "type": "text",
+     "label": "Lieu de naissance",
+     "group": "… , demeurant à …, né(e) le … à …,"
     }
-  ]
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Art. 2",
+   "titre": "Article 2 : Objet",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Plus particulièrement en République du",
+     "group": "La Société a pour objet en tous pays et plus particulièrement en…"
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Avant « l’accomplissement des activités suivantes »",
+     "group": "La Société a pour objet en tous pays et plus particulièrement en…",
+     "aide": "…et plus particulièrement en République du ▢ l’accomplissement des activités suivantes…"
+    },
+    {
+     "id": "champ_371",
+     "type": "text",
+     "label": "À compléter par l’objet social défini par les associés",
+     "group": "…."
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "Société a pour dénomination sociale",
+     "group": "La Société a pour dénomination sociale … et pour sigle …."
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Et pour sigle",
+     "group": "La Société a pour dénomination sociale … et pour sigle …."
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Avant « lieu adresse précise ne »",
+     "group": "Le siège social de la Société est fixé : …(lieu – adresse précise – ne…",
+     "aide": "…social de la Société est fixé ▢ lieu adresse précise ne…"
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Art. 5",
+   "titre": "Article 5 : Durée",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Durée",
+     "group": "La durée de la Société est fixée à … à compter de la date de son…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Numéro",
+     "group": "…, …, au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Art. 6",
+   "titre": "Article 6 : Apports",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Montant",
+     "group": "…, …, au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… , demeurant à …, la somme de … FCFA."
+    },
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Nom",
+     "group": "… , demeurant à …, la somme de … FCFA."
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Adresse",
+     "group": "… , demeurant à …, la somme de … FCFA."
+    },
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "Montant",
+     "group": "… , demeurant à …, la somme de … FCFA."
+    },
+    {
+     "id": "champ_034",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Nom",
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Montant versé",
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Prénom",
+     "opt": true,
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "Nom",
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_039",
+     "type": "date",
+     "label": "D'avis de réception reçue le",
+     "group": "… une somme de … provenant de sa communauté de biens avec son conjoint…"
+    },
+    {
+     "id": "champ_040",
+     "type": "text",
+     "label": "Montant",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "Montant",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "Montant",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    }
+   ]
+  },
+  {
+   "id": "partie-6",
+   "court": "Art. 6",
+   "titre": "Article 6 : Apports",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_045",
+     "type": "text",
+     "label": "Montant",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "Libérées chacune à concurrence du",
+     "group": "Soit au total une somme de … FCFA, correspondant à … parts sociales de…"
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "Montant",
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+    },
+    {
+     "id": "champ_048",
+     "type": "date",
+     "label": "Date",
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…",
+     "aide": "…associés conformément à la loi le ▢ au crédit d'un compte…"
+    },
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "La Société en formation à",
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "La banque ou chez Me",
+     "opt": true,
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+    },
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "Notaire à",
+     "opt": true,
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "En est justifié au moyen",
+     "group": "Le montant total des apports en numéraire, soit … FCFA, a été déposé…"
+    }
+   ]
+  },
+  {
+   "id": "partie-7",
+   "court": "Art. 7",
+   "titre": "Article 7 : Capital social",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Montant",
+     "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+    },
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "Montant",
+     "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+    },
+    {
+     "id": "champ_056",
+     "type": "text",
+     "label": "Avant « Intégralement libérées libérées à »",
+     "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……",
+     "aide": "…d'une valeur nominale de FCFA chacune ▢ Intégralement libérées libérées à…"
+    },
+    {
+     "id": "champ_057",
+     "type": "text",
+     "label": "Libérées libérées à concurrence de",
+     "group": "Le capital social est fixé à la somme de … FCFA. Il est divisé en ……"
+    },
+    {
+     "id": "champ_058",
+     "type": "text",
+     "label": "Identité de l'associé",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
+    },
+    {
+     "id": "champ_059",
+     "type": "text",
+     "label": "Nombre",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
+    },
+    {
+     "id": "champ_060",
+     "type": "text",
+     "label": "Numéro",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
+    },
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "Numéro",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …;"
+    },
+    {
+     "id": "champ_062",
+     "type": "text",
+     "label": "Identité de l'associé",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …."
+    },
+    {
+     "id": "champ_063",
+     "type": "text",
+     "label": "Nombre",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …."
+    },
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "Numéro",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …."
+    },
+    {
+     "id": "champ_065",
+     "type": "text",
+     "label": "Numéro",
+     "group": "- à … à concurrence de … parts sociales numérotées de … à …."
+    },
+    {
+     "id": "champ_066",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Total égal au nombre de parts sociales composant le capital social ……"
+    }
+   ]
+  },
+  {
+   "id": "partie-8",
+   "court": "Art. 10",
+   "titre": "Article 10 : Admission de nouveaux associés",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_067",
+     "type": "text",
+     "label": "Des associés représentant au moins",
+     "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
+    },
+    {
+     "id": "champ_068",
+     "type": "text",
+     "label": "Cette majorité est déterminée",
+     "group": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la…"
+    },
+    {
+     "id": "champ_069",
+     "type": "text",
+     "label": "La Société continuera avec",
+     "group": "En cas de décès de l'un des associés, la Société continuera avec …. Les…"
+    },
+    {
+     "id": "champ_070",
+     "type": "text",
+     "label": "Avant « A défaut d'accord sur »",
+     "group": "En cas de décès de l'un des associés, la Société continuera avec …. Les…",
+     "aide": "…sociaux de leur auteur ainsi déterminée ▢ A défaut d'accord sur…"
+    },
+    {
+     "id": "champ_071",
+     "type": "text",
+     "label": "Les associés pour une durée",
+     "group": "La Société est administrée par un ou plusieurs Gérants, personnes…"
+    },
+    {
+     "id": "champ_072",
+     "type": "text",
+     "label": "La Société pour une durée",
+     "group": "Est nommé premier Gérant de la Société pour une durée …( de - durée à…"
+    }
+   ]
+  },
+  {
+   "id": "partie-9",
+   "court": "Art. 13",
+   "titre": "Article 13 : Gérance",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_073",
+     "type": "text",
+     "label": "Identité du Gérant",
+     "group": "Est nommé premier Gérant de la Société pour une durée …( de - durée à…"
+    },
+    {
+     "id": "champ_074",
+     "type": "text",
+     "label": "Associés disposent d'un délai de",
+     "group": "Les associés disposent d'un délai de …(15 jours minimum) à compter de…"
+    },
+    {
+     "id": "champ_075",
+     "type": "date",
+     "label": "Il commence le",
+     "group": "Chaque exercice social a une durée de douze mois. Il commence le … pour…"
+    },
+    {
+     "id": "champ_076",
+     "type": "date",
+     "label": "Pour se terminer le",
+     "group": "Chaque exercice social a une durée de douze mois. Il commence le … pour…"
+    },
+    {
+     "id": "champ_077",
+     "type": "date",
+     "label": "Premier exercice sera clos le",
+     "group": "Par exception, le premier exercice sera clos le …."
+    }
+   ]
+  },
+  {
+   "id": "partie-10",
+   "court": "Art. 20",
+   "titre": "Article 20 : Exercice social",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_078",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Les soussignés donnent mandat à … à l'effet de prendre les engagements…"
+    },
+    {
+     "id": "champ_079",
+     "type": "text",
+     "label": "Nom",
+     "group": "Les soussignés donnent mandat à … à l'effet de prendre les engagements…"
+    },
+    {
+     "id": "champ_080",
+     "type": "text",
+     "label": "À l'un des associés ajouter",
+     "group": "….",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_081",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
+    }
+   ]
+  },
+  {
+   "id": "partie-11",
+   "court": "Art. 25",
+   "titre": "Article 25 : Publicité",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_082",
+     "type": "text",
+     "label": "Nom",
+     "group": "Les formalités de constitution accomplies, un avis sera inséré dans un…"
+    },
+    {
+     "id": "champ_083",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_084",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    },
+    {
+     "id": "champ_085",
+     "type": "text",
+     "label": "Nombre",
+     "group": "En … exemplaires."
+    }
+   ]
+  },
+  {
+   "id": "partie-12",
+   "court": "Art. 26",
+   "titre": "Article 26 : Frais",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_086",
+     "type": "text",
+     "label": "De la société en formation",
+     "aide": "▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-a-statuts-sarl-et-autres-act.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_357": "Exemple",
+  "champ_358": "Exemple",
+  "champ_359": "Exemple",
+  "champ_360": "Exemple",
+  "champ_007": "Exemple",
+  "champ_362": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "2000-01-01",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_371": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_027": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple",
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "Exemple",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_039": "2000-01-01",
+  "champ_040": "Exemple",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple",
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "Exemple",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "2000-01-01",
+  "champ_049": "Exemple",
+  "champ_050": "Exemple",
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple",
+  "champ_056": "Exemple",
+  "champ_057": "Exemple",
+  "champ_058": "Exemple",
+  "champ_059": "Exemple",
+  "champ_060": "Exemple",
+  "champ_061": "Exemple",
+  "champ_062": "Exemple",
+  "champ_063": "Exemple",
+  "champ_064": "Exemple",
+  "champ_065": "Exemple",
+  "champ_066": "Exemple",
+  "champ_067": "Exemple",
+  "champ_068": "Exemple",
+  "champ_069": "Exemple",
+  "champ_070": "Exemple",
+  "champ_071": "Exemple",
+  "champ_072": "Exemple",
+  "champ_073": "Exemple",
+  "champ_074": "Exemple",
+  "champ_075": "2000-01-01",
+  "champ_076": "2000-01-01",
+  "champ_077": "2000-01-01",
+  "champ_078": "Exemple",
+  "champ_079": "Exemple",
+  "champ_080": "Exemple",
+  "champ_081": "Exemple",
+  "champ_082": "Exemple",
+  "champ_083": "Exemple",
+  "champ_084": "2000-01-01",
+  "champ_085": "Exemple",
+  "champ_086": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**MODELE SIMPLIFIE DES STATUTS DE SARL**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Important : il convient de faire intervenir à l'acte toutes les personnes appelées à avoir la qualité d'associé, ainsi que le futur Gérant s'il n'est pas associé, et s'il est désigné dans les statuts.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**«INDIQUER DENOMINATION SOCIALE»**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "SOCIETE A RESPONSABILITE LIMITEE",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "AU CAPITAL SOCIAL DE {{champ_001}}. F CFA** (MINIMUM = 1 000 000 sauf disposition national contraire)**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "SIEGE SOCIAL : « INDIQUER L’ADRESSE PRECISE »",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "REPUBLIQUE « INDIQUER ETAT PARTIE AU TRAITE OHADA »",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "RCCM : {{champ_002}}",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**STATUTS**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Les soussignés :**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne morale :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_357}}, {{champ_358}} au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}}, sous le numéro {{champ_007}}, dont le siège social est situé {{champ_362}},"
+  },
+  {
+   "k": "p",
+   "text": "Représentée par {{champ_009}} {{champ_010}} en sa qualité de {{champ_011}} dûment habilité aux fins des présentes,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne physique :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_012}} {{champ_013}}, demeurant à {{champ_014}}, né(e) le {{champ_015}} à {{champ_016}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "ont établi ainsi qu'il suit les statuts d'une société à responsabilité limitée devant exister entre eux et toute autre personne qui viendrait ultérieurement à acquérir la qualité d'associé."
+  },
+  {
+   "k": "p",
+   "text": "**Article 1 : Forme**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il est formé entre les propriétaires des parts sociales ci-après créées et de celles qui pourraient l'être ultérieurement, une société à responsabilité limitée qui sera régie par l’Acte Uniforme de l’OHADA relatif au droit des sociétés commerciales et du Groupement d’Intérêt Economique, par toutes autres dispositions légales et réglementaires, complémentaires ou modificatives, et par les présents statuts."
+  },
+  {
+   "k": "p",
+   "text": "Toutes dispositions qui seraient contraires aux textes suscités et aux présents statuts seront réputées non écrites."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 2 : Objet**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La Société a pour objet en tous pays et plus particulièrement en République du {{champ_017}} {{champ_018}} l’accomplissement des activités suivantes :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_371}}."
+  },
+  {
+   "k": "p",
+   "text": "Et, plus généralement, toutes opérations, de quelque nature qu'elles soient, juridiques, économiques, financières, civiles, commerciales, mobilières, immobilières ou industrielles, se rattachant à l'objet sus-indiqué ou à tous autres objets similaires ou connexes, de nature à favoriser, directement ou indirectement, le but poursuivi par la Société, son extension ou son développement."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 3 : Dénomination sociale**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La Société a pour dénomination sociale {{champ_019}} et pour sigle {{champ_020}}."
+  },
+  {
+   "k": "p",
+   "text": "Dans tous les actes et documents émanant de la Société et destinés aux tiers, la dénomination sociale doit être précédée ou suivie immédiatement et lisiblement des mots « société à responsabilité limitée » ou des initiales « SARL »,de l'énonciation du capital social, et de la mention du numéro de l’immatriculation de la société au Registre de Commerce et du Crédit Mobilier."
+  },
+  {
+   "k": "p",
+   "text": "**Article 4 : Siège social**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le siège social de la Société est fixé : {{champ_021}}(lieu – adresse précise – ne pas se limiter à l’indication de la seule boîte postale)"
+  },
+  {
+   "k": "p",
+   "text": "Il pourra être transféré en tout autre endroit de la même ville par simple décision des organes de gérance, sous réserve de ratification par la prochaine assemblée générale extraordinaire et en tout endroit par décision extraordinaire des associés."
+  },
+  {
+   "k": "p",
+   "text": "La Société peut avoir recours à une domiciliation collective. La Société peut également être domiciliée temporairement dans le local d'habitation de son Gérant ou dans une partie d'un local à usage d'habitation en l'absence de réception de clientèle."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 5 : Durée**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La durée de la Société est fixée à {{champ_022}} à compter de la date de son immatriculation au Registre du commerce et du crédit mobilier, sauf les cas de dissolution anticipée ou de prorogation prévus aux présents statuts."
+  },
+  {
+   "k": "p",
+   "text": "Elle peut être prorogée sur décision collective des associés."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 6 : Apports**"
+  },
+  {
+   "k": "p",
+   "text": "Les soussignés font apport et versent à la Société, à savoir :"
+  },
+  {
+   "k": "p",
+   "text": "* Personne morale :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_357}}, {{champ_358}}, au capital de {{champ_359}} FCFA, immatriculée au Registre du commerce et du crédit mobilier de {{champ_360}}, sous le numéro {{champ_027}}, dont le siège social est situé {{champ_362}}, la somme de {{champ_029}} FCFA."
+  },
+  {
+   "k": "p",
+   "text": "* Personne physique :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_030}} {{champ_031}}, demeurant à {{champ_032}}, la somme de {{champ_033}} FCFA."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "En cas d'apports de biens communs par l'un des époux, ajouter :",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_034}} {{champ_035}} une somme de {{champ_036}} provenant de sa communauté de biens avec son conjoint {{champ_037}} {{champ_038}}, qui a été averti(e) préalablement de cet apport par lettre recommandée avec demande d'avis de réception reçue le {{champ_039}} comportant toutes précisions utiles quant aux finalités et modalités pratiques de l'opération d'apport en numéraire à la Société envisagée par son conjoint,"
+  },
+  {
+   "k": "p",
+   "text": "* En cas de libération totale des apports en numéraire, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Soit au total une somme de {{champ_040}} FCFA, correspondant à {{champ_041}} parts sociales de la Société d'une valeur nominale de {{champ_042}} FCFA chacune, souscrites en totalité et intégralement libérées."
+  },
+  {
+   "k": "p",
+   "text": "* Ou bien en cas de libération partielle des apports en numéraire, remplacer par :"
+  },
+  {
+   "k": "p",
+   "text": "Soit au total une somme de {{champ_043}} FCFA, correspondant à {{champ_044}} parts sociales de la Société d'une valeur nominale de {{champ_045}} FCFA chacune, souscrites en totalité et libérées chacune à concurrence du {{champ_046}}(cinquième ou autre fraction supérieure)."
+  },
+  {
+   "k": "p",
+   "text": "La libération du surplus, à laquelle chaque associé s'oblige interviendra en une ou plusieurs fois sur décision du Gérant et dans un délai qui ne peut excéder deux ans à compter de l'immatriculation de la Société au Registre du commerce et des sociétés."
+  },
+  {
+   "k": "p",
+   "text": "Le montant total des apports en numéraire, soit {{champ_047}} FCFA, a été déposé par les associés, conformément à la loi, le {{champ_048}} au crédit d'un compte ouvert au nom de la Société en formation à {{champ_049}}(Identité de la banque ou chez Me {{champ_050}}, notaire à {{champ_051}} ou à la Caisse des dépôts et consignations) ainsi qu'il en est justifié au moyen {{champ_052}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 7 : Capital social**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le capital social est fixé à la somme de {{champ_053}} FCFA. Il est divisé en {{champ_054}} parts sociales égales d'une valeur nominale de {{champ_055}} FCFA chacune, {{champ_056}}(Intégralement libérées/libérées à concurrence de {{champ_057}}), souscrites en totalité par les associés et attribuées à chacun d'eux en proportion de leurs apports respectifs, de la manière suivante :"
+  },
+  {
+   "k": "p",
+   "text": "-  à {{champ_058}} à concurrence de {{champ_059}} parts sociales numérotées de {{champ_060}} à {{champ_061}};"
+  },
+  {
+   "k": "p",
+   "text": "-  à {{champ_062}} à concurrence de {{champ_063}} parts sociales numérotées de {{champ_064}} à {{champ_065}}."
+  },
+  {
+   "k": "p",
+   "text": "Total égal au nombre de parts sociales composant le capital social {{champ_066}} parts."
+  },
+  {
+   "k": "p",
+   "text": "Les soussignés déclarent que toutes les parts, représentant le capital social de la Société leur appartiennent, sont réparties entre eux dans les proportions indiquées ci-dessus, correspondant à leurs apports respectifs et sont toutes libérées dans les proportions indiquées ci-dessus."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 8 : Droits des associés**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Chaque part sociale donne droit à son propriétaire à une fraction des bénéfices et de l'actif social de la Société proportionnellement au nombre de parts sociales qu'il détient. Elle donne également le droit de participer aux décisions collectives. Toute part donne droit à une voix en assemblée générale."
+  },
+  {
+   "k": "p",
+   "text": "Les associés ne sont tenus à l'égard des tiers qu'à concurrence du montant de leur apport."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 9 : Cession et transmission des parts sociales**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toute cession des parts sociales doit être constatée par un acte écrit sous seing privé ou notarié. La cession n'est rendue opposable à la Société qu'après avoir été signifiée à cette dernière par exploit d'huissier ou par tout moyen permettant d’établir sa réception effective par le destinataire ou acceptée par elle dans un acte authentique signé devant notaire conformément à l'article 317 de l’AUSCGIE."
+  },
+  {
+   "k": "p",
+   "text": "Toutefois, la signification peut être remplacée par le dépôt d'un original de l'acte de cession au siège social contre remise par le Gérant d'une attestation de ce dépôt."
+  },
+  {
+   "k": "p",
+   "text": "Elle n'est opposable aux tiers qu'après accomplissement de l’une de ces formalités, en annexe au registre du commerce et du crédit mobilier, d'un exemplaire des statuts de la société modifiés."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 10 : Admission de nouveaux associés**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "* En cas de régime légal sans agrément sauf en cas de cession à des tiers étrangers, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Les parts sociales sont librement transmissibles par voie successorale ou testamentaire, ou en cas de liquidation de communauté de biens entre époux. Elles sont librement cessibles entre conjoints, entre ascendants et descendants et entre associés."
+  },
+  {
+   "k": "p",
+   "text": "Les parts sociales ne peuvent être cédées à des tiers étrangers à la Société qu'avec le consentement de la majorité des associés représentant au moins {{champ_067}}( les trois quarts) des parts sociales. Cette majorité est déterminée {{champ_068}}(compte tenu/compte non tenu) de la personne et des parts de l'associé cédant."
+  },
+  {
+   "k": "li",
+   "text": "Si l'agrément est accordé d'office à certains postulants en cas de décès, ajouter :",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "En cas de décès de l'un des associés, la Société continuera avec {{champ_069}}. Les ayants droit évincés ont droit à la valeur des droits sociaux de leur auteur, ainsi déterminée, {{champ_070}}. A défaut d'accord sur cette valeur, celle-ci est fixée par un expert désigné conformément à l'article 319 AUSCGIE. Cet expert est tenu de respecter les règles de détermination de la valeur des droits sociaux énoncées ci-dessus."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 11 : Nantissement de parts sociales**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le nantissement de parts sociales est constaté par écrit notarié ou sous seing privé enregistré et signifié à la Société et publié au registre du commerce et du crédit mobilier."
+  },
+  {
+   "k": "p",
+   "text": "Tout projet de nantissement doit être notifié à la Société."
+  },
+  {
+   "k": "p",
+   "text": "Si les associés ont donné leur consentement à un projet de nantissement de parts sociales, soit par notification à l'intéressé de sa décision prise aux conditions de l'article 10, soit par défaut de réponse dans le délai de trois mois à compter de la demande, ce consentement emportera agrément du cessionnaire en cas de réalisation forcée des parts nanties selon les dispositions des articles 319 & 322 AUSCGIE, à moins que la Société ne préfère après la cession racheter sans délai les parts en vue de réduire son capital social."
+  },
+  {
+   "k": "p",
+   "text": "Si la Société n'a pas fait connaître sa décision dans le délai de trois mois à compter de la notification du projet de nantissement, le consentement au nantissement emportant agrément du cessionnaire en cas de réalisation forcée des parts nanties, est réputé acquis."
+  },
+  {
+   "k": "p",
+   "text": "Le défaut de notification du projet de nantissement à la Société, comme le refus d'agrément de celui-ci par les associés, n'empêche pas le nantissement ; mais, en cas de réalisation forcée, l'adjudicataire devra être agréé comme en cas de cession de parts sociales."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 12 : Réunion de toutes les parts sociales en une seule main**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La réunion de toutes les parts sociales en une seule main n'entraîne pas la dissolution de la Société qui continue d'exister avec un associé unique. Dans ce cas l'associé unique exerce tous les pouvoirs dévolus à l'assemblée générale des associés."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 13 : Gérance**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La Société est administrée par un ou plusieurs Gérants, personnes physiques, associés ou non, nommés par les associés pour une durée {{champ_071}}(indéterminée/déterminée de - nombre d'années à préciser)."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "S'il est prévu une durée déterminée du mandat de Gérant, ajouter éventuellement :",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Les Gérants sont rééligibles."
+  },
+  {
+   "k": "p",
+   "text": "Les Gérants sont nommés par décision des associés représentant plus de la moitié des parts sociales. Si cette majorité n'est pas obtenue, la décision est prise sur seconde consultation à la majorité des votes émis, quel que soit le nombre de votants."
+  },
+  {
+   "k": "p",
+   "text": "Les Gérants sont révoqués par décision ordinaire de la collectivité des associés représentant plus de la moitié des parts sociales ou à défaut par la juridiction compétente, dans le ressort de laquelle est situé le siège social à la demande de tout associé. Si cette majorité n'est pas obtenue, la décision est prise sur seconde consultation à la majorité des votes émis, quel que soit le nombre de votants. Si la révocation est décidée sans juste motif, elle peut donner lieu à des dommages et intérêts."
+  },
+  {
+   "k": "p",
+   "text": "Est nommé premier Gérant de la Société pour une durée {{champ_072}}( de - durée à préciser) Madame / Monsieur {{champ_073}}, qui déclare accepter les fonctions qui lui sont confiées."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 14 : Pouvoirs de la Gérance**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Dans les rapports avec les tiers, le Gérant est investie des pouvoirs les plus étendus pour agir en toute circonstance au nom de la Société, sous réserve des pouvoirs que la loi attribue expressément aux associés. La Société est engagée même par les actes du Gérant qui ne relèvent pas de l'objet social, à moins qu'elle ne prouve que le tiers savait que l'acte dépassait cet objet ou qu'il ne pouvait l'ignorer compte tenu des circonstances, étant exclu que la seule publication des statuts suffise à constituer cette preuve."
+  },
+  {
+   "k": "p",
+   "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus à l'alinéa précédent. Les comptes sociaux et le rapport de gestion doivent être établis par tous les Gérants."
+  },
+  {
+   "k": "p",
+   "text": "L'opposition formée par un Gérant aux actes d'un autre Gérant est sans effet à l'égard des tiers, à moins qu'il ne soit établi qu'ils en ont eu connaissance."
+  },
+  {
+   "k": "p",
+   "text": "Dans les rapports entre associés, la Gérance peut faire tous actes de gestion dans l'intérêt de la Société."
+  },
+  {
+   "k": "p",
+   "text": "En cas de pluralité de Gérants, ceux-ci détiennent séparément les pouvoirs prévus ci-dessus, sauf le droit pour chacun de s'opposer à toute opération avant qu'elle ne soit"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 15 : Décisions collectives**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La volonté des associés s'exprime par des décisions collectives qui obligent tous les associés."
+  },
+  {
+   "k": "p",
+   "text": "Les décisions collectives doivent nécessairement être prises en assemblée générale des associés dans les cas suivants :"
+  },
+  {
+   "k": "p",
+   "text": "-  approbation annuelle des comptes ;"
+  },
+  {
+   "k": "p",
+   "text": "-  réunion demandée par un ou plusieurs associé(s) représentant au moins, soit la moitié des parts sociales ou s’ils représentent le quart des associés, le quart des parts sociales parts sociales;"
+  },
+  {
+   "k": "p",
+   "text": "-  émission d'obligations ;"
+  },
+  {
+   "k": "p",
+   "text": "-  approbation d'une modification du capital social prévue par un projet de plan de sauvegarde ou de redressement de la Société."
+  },
+  {
+   "k": "p",
+   "text": "Toutes les autres décisions collectives sont prises, au choix de la Gérance, soit en assemblée générale, soit par voie de consultation écrite des associés."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 16 : Participation des associés aux décisions collectives**"
+  },
+  {
+   "k": "p",
+   "text": "Chaque associé a le droit de participer aux décisions collectives, et dispose d'un nombre de voix égal à celui des parts sociales qu'il possède."
+  },
+  {
+   "k": "p",
+   "text": "Un associé peut se faire représenter aux assemblées générales par un autre associé ou par son conjoint, à moins que la Société ne comprenne que les deux époux ou seulement deux associés. Un associé ne peut constituer un mandataire pour voter du chef d'une partie de ses parts sociales et voter en personne du chef de l'autre partie de ses parts sociales."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 17 : Décisions ordinaires**"
+  },
+  {
+   "k": "p",
+   "text": "Sont qualifiées d'ordinaires, les décisions autres que celles relatives à la modification des statuts."
+  },
+  {
+   "k": "p",
+   "text": "Sauf disposition expresse contraire des présents statuts, les décisions sont adoptées par un ou plusieurs associés représentant plus de la moitié des parts sociales."
+  },
+  {
+   "k": "p",
+   "text": "Si cette majorité n'est pas obtenue, les associés sont convoqués ou consultés une seconde fois et les décisions sont prises à la seule majorité des votes émis mais à la condition expresse de ne porter que sur les questions ayant fait l’objet de la première consultation."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 18 : Décisions extraordinaires**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Sont qualifiées d'extraordinaires, les décisions des associés portant sur la modification des statuts."
+  },
+  {
+   "k": "p",
+   "text": "Pour toute modification des statuts, l'assemblée générale des associés ne délibère valablement que si les associés présents ou représentés possèdent au moins les trois quarts du capital."
+  },
+  {
+   "k": "p",
+   "text": "Par dérogation aux dispositions ci-dessus, la décision d'augmenter le capital social par incorporation de bénéfices ou de réserves est valablement décidée par les associés représentant au moins la moitié des parts sociales."
+  },
+  {
+   "k": "p",
+   "text": "Ces conditions de majorité sont rigoureuses et ne sont susceptibles d’aucune décroissance, même en cas de consultations successives sur les mêmes objets. Par dérogation,  la décision d’augmenter le capital par incorporation des bénéfices ou réserves est prise par les associés représentant au moins la moitié des parts sociales."
+  },
+  {
+   "k": "p",
+   "text": "Les décisions portant augmentation des engagements des associés, transformation de la Société en société en nom collectif ou en société par actions simplifiées, changement de nationalité de la Société sont prises à l’unanimité."
+  },
+  {
+   "k": "p",
+   "text": "**Article 19 : Consultations écrites**"
+  },
+  {
+   "k": "p",
+   "text": "Les décisions collectives autres que celles devant nécessairement être prises en assemblée générale des associés peuvent être prises par consultation écrite des associés à l'initiative des Gérants ou de l'un d'eux. Les décisions résultent d'un vote formulé par écrit."
+  },
+  {
+   "k": "p",
+   "text": "En cas de consultation écrite, le texte des résolutions proposées ainsi que les documents nécessaires à l'information des associés sont adressés à chacun d'eux par lettre au porteur contre récépissé ou par lettre recommandée avec demande d'avis de réception, télécopie ou courrier électronique ou par voie postale."
+  },
+  {
+   "k": "p",
+   "text": "Les associés disposent d'un délai de {{champ_074}}(15 jours minimum) à compter de la date de réception des projets de résolutions pour émettre leur vote par écrit."
+  },
+  {
+   "k": "p",
+   "text": "Tout associé qui n'aura pas répondu dans ce délai sera considéré comme s'étant abstenu. Pour chaque résolution, le vote est exprimé par oui ou par non."
+  },
+  {
+   "k": "p",
+   "text": "Les décisions sont adoptées à l'issue de la consultation aux conditions de majorité prévues par les articles 17 et 18 des présents statuts selon l'objet de la consultation."
+  },
+  {
+   "k": "p",
+   "text": "En cas de consultation écrite, les procès-verbaux sont tenus dans les mêmes conditions que celles visées à l'article 15 des présents statuts. Toutefois, il y est mentionné que la consultation a été effectuée par écrit. La réponse de chaque associé est annexée à ces procès-verbaux."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 20 : Exercice social**"
+  },
+  {
+   "k": "p",
+   "text": "Chaque exercice social a une durée de douze mois. Il commence le {{champ_075}} pour se terminer le {{champ_076}}."
+  },
+  {
+   "k": "p",
+   "text": "Par exception, le premier exercice sera clos le {{champ_077}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 21 : Bénéfices distribuables**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le bénéfice distribuable est le résultat de l’exercice, augmenté du report bénéficiaire et diminué des pertes antérieures ainsi que des sommes portées en réserve en application de la loi ou des statuts."
+  },
+  {
+   "k": "p",
+   "text": "Hors le cas de réduction du capital social, aucune distribution ne peut être faite aux associés lorsque les capitaux propres sont ou deviendraient, à la suite de celle-ci, inférieurs au montant du capital augmenté des réserves que la loi ou les statuts ne permettent pas de distribuer."
+  },
+  {
+   "k": "p",
+   "text": "L'assemblée générale peut, après constatation de l'existence de réserves à sa disposition, décider en outre la mise en distribution des sommes prélevées sur ces réserves ; en ce cas, la décision indique expressément les postes de réserve sur lesquels les prélèvements sont effectués."
+  },
+  {
+   "k": "p",
+   "text": "Le total du bénéfice et des réserves distribuables, diminué le cas échéant des sommes inscrites à un fonds de réserve et au compte report à nouveau, constitue les sommes distribuables."
+  },
+  {
+   "k": "p",
+   "text": "Après approbation des comptes et constatation de l'existence des sommes distribuables, l'assemblée générale des associés détermine la part attribuée aux associés sous forme de dividendes."
+  },
+  {
+   "k": "p",
+   "text": "Les sommes dont la mise en distribution est décidée sont réparties entre les associés proportionnellement au nombre de leurs parts sociales."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 22 : Fin de la société**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A l'arrivée du terme de la Société ou en cas de dissolution anticipée, une décision des associés nomme un ou plusieurs liquidateur(s) dont elle détermine les pouvoirs et qui exercent leurs fonctions conformément à la loi."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 23 : Contestations**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toutes contestations qui pourraient s'élever au cours de l'existence de la Société ou après sa dissolution pendant le cours des opérations de liquidation, soit entre les associés et la Société, soit entre associés concernant l'interprétation ou l'exécution des présents statuts ou plus généralement au sujet des affaires sociales, seront jugées conformément à la loi et soumises à la juridiction des tribunaux compétents du lieu du siège social."
+  },
+  {
+   "k": "p",
+   "text": "A cet effet, en cas de contestation, tout associé est tenu de faire élection de domicile dans le ressort du tribunal compétent du lieu du siège social et toutes assignations ou significations sont régulièrement faites à ce domicile élu, sans avoir égard au domicile réel."
+  },
+  {
+   "k": "p",
+   "text": "A défaut d'élection de domicile, les assignations et significations seront valablement faites au parquet du tribunal compétent."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 24 : Actes accomplis pour le compte de la société en formation**"
+  },
+  {
+   "k": "p",
+   "text": "Il est annexé aux présents statuts un état des actes passés pour le compte de la Société en formation et l'engagement qui en résultera pour la Société. La signature des statuts emportera reprise des engagements par la Société, lorsque celle-ci aura été immatriculée au Registre du commerce et du crédit mobilier."
+  },
+  {
+   "k": "p",
+   "text": "Les associés ont pris connaissance de cet état avant la signature des statuts."
+  },
+  {
+   "k": "p",
+   "text": "Pour donner un mandat à l'un des associés, ajouter :"
+  },
+  {
+   "k": "p",
+   "text": "Les soussignés donnent mandat à {{champ_078}} {{champ_079}} à l'effet de prendre les engagements suivants au nom et pour le compte de la Société :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_080}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 25 : Publicité**"
+  },
+  {
+   "k": "p",
+   "text": "Les formalités de constitution accomplies, un avis sera inséré dans un journal d'annonces légales paraissant dans le lieu de situation du siège social. A cet effet, tous pouvoirs sont donnés à {{champ_081}} {{champ_082}} pour effectuer les différentes formalités prescrites par la loi."
+  },
+  {
+   "k": "p",
+   "text": "**Article 26 : Frais**"
+  },
+  {
+   "k": "p",
+   "text": "Les frais, droits et honoraires des présents statuts et de ses suites seront pris en charge par la Société lorsqu'elle aura été immatriculée au Registre du commerce et du crédit mobilier."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_083}}, le {{champ_084}}"
+  },
+  {
+   "k": "p",
+   "text": "En {{champ_085}} exemplaires."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Important : **Signature de tous les associés préalablement précédée de la mention manuscrite « **Lu et approuvé** »."
+  },
+  {
+   "k": "p",
+   "text": "Signature du Gérant précédée de la mention manuscrite « **Bon pour acceptation des fonctions de gérant **»."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ANNEXE**"
+  },
+  {
+   "k": "p",
+   "text": "**État des actes accomplis pour le compte de la société en formation**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_086}}"
+  }
+ ]
 }

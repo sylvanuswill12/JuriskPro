@@ -1,0 +1,204 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d32-emission-de-valeurs-mobilieres-com",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Emission de valeurs mobilières composées",
+ "sous": "Décision du conseil d’administration d’une société anonyme : emission de valeurs mobilières composées.",
+ "resume": "PV du conseil d’administration – Emission de valeurs mobilières composées : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "6 min",
+ "docTitle": "PV du conseil d’administration – Emission de valeurs mobilières composées",
+ "fileBase": "PV du conseil d’administration – Emission de valeurs mobilières composées",
+ "headline": "PV du conseil d’administration – Emission de valeurs mobilières composées",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision 1",
+   "titre": "Emission de valeurs mobilières composées",
+   "champs": [
+    {
+     "id": "champ_165",
+     "type": "text",
+     "label": "Ou par",
+     "group": "Le Conseil, après en avoir délibéré, décide à l’unanimité (ou par ……",
+     "opt": true
+    },
+    {
+     "id": "champ_166",
+     "type": "text",
+     "label": "Contre",
+     "group": "Le Conseil, après en avoir délibéré, décide à l’unanimité (ou par ……",
+     "aide": "…à l’unanimité ou par voix contre ▢ voix de demander à…",
+     "opt": true
+    },
+    {
+     "id": "champ_167",
+     "type": "text",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Nature et forme : ….",
+     "aide": "…Nature et forme ▢"
+    },
+    {
+     "id": "champ_168",
+     "type": "text",
+     "label": "Valeur nominale du titre FCFA",
+     "group": "Valeur nominale du titre FCFA …"
+    },
+    {
+     "id": "champ_169",
+     "type": "text",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Valeur nominale du titre FCFA …",
+     "aide": "…Valeur nominale du titre FCFA ▢"
+    },
+    {
+     "id": "champ_170",
+     "type": "text",
+     "label": "Nombre de titres à émettre",
+     "group": "Nombre de titres à émettre …"
+    },
+    {
+     "id": "champ_171",
+     "type": "text",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Nombre de titres à émettre …",
+     "aide": "…Nombre de titres à émettre ▢"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Décision 2",
+   "titre": "Emission de valeurs mobilières composées (suite)",
+   "champs": [
+    {
+     "id": "champ_172",
+     "type": "text",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Taux d’intérêt : …",
+     "aide": "…Taux d’intérêt ▢"
+    },
+    {
+     "id": "champ_173",
+     "type": "text",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Modalités d’attribution : …",
+     "aide": "…Modalités d’attribution ▢"
+    },
+    {
+     "id": "champ_174",
+     "type": "date",
+     "label": "Emission de valeurs mobilières composées",
+     "group": "Date d’attribution : …",
+     "aide": "…Date d’attribution ▢"
+    },
+    {
+     "id": "champ_175",
+     "type": "text",
+     "label": "Conversion en titre de capital",
+     "group": "Date limite d’option pour la conversion en titre de capital …"
+    },
+    {
+     "id": "champ_176",
+     "type": "text",
+     "label": "Pour les titres de créances",
+     "group": "Modalités de remboursement pour les titres de créances …."
+    },
+    {
+     "id": "champ_177",
+     "type": "text",
+     "label": "Aux actionnaires ou à MM",
+     "group": "La souscription des valeurs mobilières serait réservée par préférence…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d32-emission-de-valeurs-mobilieres-com.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_165": "Exemple",
+  "champ_166": "Exemple",
+  "champ_167": "Exemple",
+  "champ_168": "Exemple",
+  "champ_169": "Exemple",
+  "champ_170": "Exemple",
+  "champ_171": "Exemple",
+  "champ_172": "Exemple",
+  "champ_173": "Exemple",
+  "champ_174": "2000-01-01",
+  "champ_175": "Exemple",
+  "champ_176": "Exemple",
+  "champ_177": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Emission de valeurs mobilières composées**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil, après  en avoir délibéré, décide à l’unanimité (ou par {{champ_165}} voix, contre {{champ_166}} voix) de demander à l’Assemblée Générale d’autoriser le Conseil à procéder en une ou plusieurs fois, à l’émission de valeurs mobilières donnant accès au capital ou donnant droit à l’attribution  d’un titre de créance qui auront les caractéristiques suivantes :"
+  },
+  {
+   "k": "p",
+   "text": "Nature et forme : {{champ_167}}."
+  },
+  {
+   "k": "p",
+   "text": "Valeur nominale du titre FCFA {{champ_168}} {{champ_169}}"
+  },
+  {
+   "k": "p",
+   "text": "Nombre de titres à émettre {{champ_170}} {{champ_171}}"
+  },
+  {
+   "k": "p",
+   "text": "Taux d’intérêt : {{champ_172}}"
+  },
+  {
+   "k": "p",
+   "text": "Modalités d’attribution : {{champ_173}}"
+  },
+  {
+   "k": "p",
+   "text": "Date d’attribution : {{champ_174}}"
+  },
+  {
+   "k": "p",
+   "text": "Date limite d’option pour la conversion en titre de capital {{champ_175}}"
+  },
+  {
+   "k": "p",
+   "text": "Modalités de remboursement pour les titres de créances {{champ_176}}."
+  },
+  {
+   "k": "p",
+   "text": "La souscription des valeurs mobilières serait réservée par préférence aux actionnaires ou à MM {{champ_177}} l’émission emporte également, au profit des porteurs, renonciation des actionnaires à leur droit préférentiel de souscription au titre de capital auquel les valeurs mobilières émises donneront droit. Pour le cas où les souscriptions à titre irréductible n’absorberaient par la totalité de l’opération, le Conseil serait autorisé à utiliser, à son choix, l’une ou l’autre des facultés prévues par l’article 579 de l’Acte Uniforme relatif au droit des sociétés et du  Groupement d’intérêt Economique."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

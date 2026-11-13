@@ -1,0 +1,110 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d08-revocation-empechement-temporaire",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Révocation, empêchement temporaire ou définitif du Directeur Général",
+ "sous": "Décision du conseil d’administration d’une société anonyme : révocation, empêchement temporaire ou définitif du Directeur Général.",
+ "resume": "PV du conseil d’administration – Révocation, empêchement temporaire ou définitif du Directeur Général : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Révocation, empêchement temporaire ou définitif du Directeur Général",
+ "fileBase": "PV du conseil d’administration – Révocation, empêchement temporaire ou définitif du Directeur Général",
+ "headline": "PV du conseil d’administration – Révocation, empêchement temporaire ou définitif du Directeur Général",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Révocation, empêchement temporaire ou définitif du Directeur Général",
+   "champs": [
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "De Directeur Général de M",
+     "group": "Le Conseil d’Administration décide de mettre fin, à compter de ce jour,…"
+    },
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "Définitif du Directeur Général M",
+     "group": "Le Conseil d’Administration décide de mettre fin, à compter de ce jour,…",
+     "opt": true
+    },
+    {
+     "id": "champ_045",
+     "type": "date",
+     "label": "Date",
+     "group": "Le Conseil d’Administration décide de mettre fin, à compter de ce jour,…",
+     "aide": "…du Directeur Général M depuis le ▢",
+     "opt": true
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "Le Conseil d’Administration nomme M",
+     "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
+    },
+    {
+     "id": "champ_048",
+     "type": "date",
+     "label": "Comptes de l’exercice clos le",
+     "group": "En remplacement de M … et sur proposition de son Président, le Conseil…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d08-revocation-empechement-temporaire.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "2000-01-01",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Révocation, empêchement temporaire ou définitif du Directeur Général**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration décide de mettre fin, à compter de ce jour, au mandat de  Directeur Général de M {{champ_043}} (le Conseil d’Administration constate ou encore prend acte de l’empêchement temporaire ou définitif du Directeur Général M {{champ_044}} depuis le {{champ_045}})"
+  },
+  {
+   "k": "p",
+   "text": "En remplacement de M {{champ_046}} et sur proposition de son Président, le Conseil d’Administration nomme M {{champ_047}} pour la durée restant à courir du mandat de son prédécesseur, soit jusqu’à l’issue de la réunion de l’Assemblée Générale Ordinaire qui sera appelée à statuer sur les comptes de l’exercice clos le {{champ_048}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

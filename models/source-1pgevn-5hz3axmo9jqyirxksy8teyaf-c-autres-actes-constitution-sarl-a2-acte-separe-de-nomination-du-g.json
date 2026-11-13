@@ -1,0 +1,376 @@
+{
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a2-acte-separe-de-nomination-du-g",
+ "cat": "societes-associations",
+ "sub": "Actes de constitution de SARL",
+ "titre": "Acte séparé de nomination du gérant",
+ "sous": "Acte distinct des statuts par lequel les associés nomment le gérant et fixent sa rémunération.",
+ "resume": "Acte séparé de nomination du gérant : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "constitution",
+  "gérant",
+  "ohada"
+ ],
+ "duree": "9 min",
+ "docTitle": "Acte séparé de nomination du gérant",
+ "fileBase": "Acte séparé de nomination du gérant",
+ "headline": "Acte séparé de nomination du gérant",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Acte 1",
+   "titre": "Acte séparé de nomination du gérant",
+   "champs": [
+    {
+     "id": "champ_357",
+     "type": "text",
+     "label": "Dénomination sociale",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_358",
+     "type": "text",
+     "label": "Forme",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_359",
+     "type": "text",
+     "label": "Capital",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_360",
+     "type": "text",
+     "label": "RCCM",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_272",
+     "type": "text",
+     "label": "Numéro",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé à ……"
+    },
+    {
+     "id": "champ_362",
+     "type": "text",
+     "label": "Siège social",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_274",
+     "type": "text",
+     "label": "Prénom",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé à ……"
+    },
+    {
+     "id": "champ_275",
+     "type": "text",
+     "label": "Nom",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé à ……"
+    },
+    {
+     "id": "champ_276",
+     "type": "text",
+     "label": "Qualité",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé à ……"
+    },
+    {
+     "id": "champ_277",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… , demeurant à …,"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Acte 2",
+   "titre": "Acte séparé de nomination du gérant (suite)",
+   "champs": [
+    {
+     "id": "champ_278",
+     "type": "text",
+     "label": "Nom",
+     "group": "… , demeurant à …,"
+    },
+    {
+     "id": "champ_279",
+     "type": "text",
+     "label": "Adresse",
+     "group": "… , demeurant à …,"
+    },
+    {
+     "id": "champ_283",
+     "type": "date",
+     "label": "Date",
+     "group": "Après avoir exposé qu'une société à responsabilité limitée a été…"
+    },
+    {
+     "id": "champ_284",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Après avoir exposé qu'une société à responsabilité limitée a été…"
+    },
+    {
+     "id": "champ_285",
+     "type": "text",
+     "label": "Numéro",
+     "group": "Après avoir exposé qu'une société à responsabilité limitée a été…"
+    },
+    {
+     "id": "champ_286",
+     "type": "text",
+     "label": "Période",
+     "group": "Après avoir exposé qu'une société à responsabilité limitée a été…"
+    },
+    {
+     "id": "champ_287",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    },
+    {
+     "id": "champ_288",
+     "type": "text",
+     "label": "Nom",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    },
+    {
+     "id": "champ_289",
+     "type": "text",
+     "label": "Période",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    },
+    {
+     "id": "champ_290",
+     "type": "text",
+     "label": "Sur les comptes de l'exercice",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Acte 3",
+   "titre": "Acte séparé de nomination du gérant (suite)",
+   "champs": [
+    {
+     "id": "champ_291",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    },
+    {
+     "id": "champ_292",
+     "type": "text",
+     "label": "Nom",
+     "group": "Les associés soussignés nomment … aux fonctions de Gérant de la société…"
+    },
+    {
+     "id": "champ_293",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… accepte les fonctions de Gérant et affirme n'exercer aucune autre…"
+    },
+    {
+     "id": "champ_294",
+     "type": "text",
+     "label": "Nom",
+     "group": "… accepte les fonctions de Gérant et affirme n'exercer aucune autre…"
+    },
+    {
+     "id": "champ_295",
+     "type": "text",
+     "label": "Préciser",
+     "group": "Les fonctions de Gérant ne seront pas rémunérées. En revanche, le…"
+    },
+    {
+     "id": "champ_296",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_297",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    },
+    {
+     "id": "champ_298",
+     "type": "text",
+     "label": "Nombre",
+     "group": "en … exemplaires"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a2-acte-separe-de-nomination-du-g.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_357": "Exemple",
+  "champ_358": "Exemple",
+  "champ_359": "Exemple",
+  "champ_360": "Exemple",
+  "champ_362": "Exemple",
+  "champ_272": "Exemple",
+  "champ_274": "Exemple",
+  "champ_275": "Exemple",
+  "champ_276": "Exemple",
+  "champ_277": "Exemple",
+  "champ_278": "Exemple",
+  "champ_279": "Exemple",
+  "champ_283": "2000-01-01",
+  "champ_284": "2000-01-01",
+  "champ_285": "Exemple",
+  "champ_286": "Exemple",
+  "champ_287": "Exemple",
+  "champ_288": "Exemple",
+  "champ_289": "Exemple",
+  "champ_290": "Exemple",
+  "champ_291": "Exemple",
+  "champ_292": "Exemple",
+  "champ_293": "Exemple",
+  "champ_294": "Exemple",
+  "champ_295": "Exemple",
+  "champ_296": "Exemple",
+  "champ_297": "2000-01-01",
+  "champ_298": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**Acte séparé de nomination du gérant**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Les soussignés,**"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne morale :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_357}}, {{champ_358}}, {{champ_359}}, {{champ_360}}, sous le numéro {{champ_272}}, dont le siège social est situé à {{champ_362}} représentée par {{champ_274}} {{champ_275}}, en sa qualité de {{champ_276}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne physique :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_277}} {{champ_278}}, demeurant à {{champ_279}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Agissant en qualité de seuls associés de la société {{champ_357}}, société à responsabilité limitée en cours de formation au capital de {{champ_359}}, dont le siège social est situé {{champ_362}},"
+  },
+  {
+   "k": "p",
+   "text": "Après avoir exposé qu'une société à responsabilité limitée a été constituée entre eux, aux termes (d’un acte notarié ou d'un acte sous seing privé) en date du {{champ_283}}, à {{champ_284}} qui sera enregistré et publié en même temps que le présent acte, et que les statuts de cette société, établis à l'acte prévoient dans leur article {{champ_285}} la nomination d'un gérant par acte postérieur pour une durée de {{champ_286}},"
+  },
+  {
+   "k": "p",
+   "text": "Ont procédé à cette nomination ainsi qu'il suit."
+  },
+  {
+   "k": "p",
+   "text": "* En cas de fonction à durée déterminée, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Les associés soussignés nomment {{champ_287}} {{champ_288}} aux fonctions de Gérant de la société pour une durée de {{champ_289}} qui expirera à l'issue de l'assemblée générale des associés qui statuera sur les comptes de l'exercice {{champ_290}}(Année)."
+  },
+  {
+   "k": "p",
+   "text": "* Ou bien en cas de fonction à durée indéterminée, remplacer par :"
+  },
+  {
+   "k": "p",
+   "text": "Les associés soussignés nomment {{champ_291}} {{champ_292}} aux fonctions de Gérant de la société pour une durée indéterminée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_293}} {{champ_294}} accepte les fonctions de Gérant et affirme n'exercer aucune autre fonction et n'être frappé d'aucune incapacité ou interdiction susceptible de l'empêcher d'exercer ce mandat."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "* En cas de rémunération du gérant, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "En rémunération de ses fonctions, le Gérant aura droit à une rémunération dont les modalités seront fixées lors de la prochaine délibération de l'assemblée générale des associés."
+  },
+  {
+   "k": "p",
+   "text": "* En l'absence de rémunération du gérant, remplacer par :"
+  },
+  {
+   "k": "p",
+   "text": "Les fonctions de Gérant ne seront pas rémunérées. En revanche, le remboursement de ses frais interviendra selon les modalités suivantes : {{champ_295}}."
+  },
+  {
+   "k": "p",
+   "text": "Tous pouvoirs sont accordés au porteur d'une copie ou d'un extrait des présentes pour accomplir les formalités de publicité ou de dépôt prévues par la loi."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_296}}, le {{champ_297}}"
+  },
+  {
+   "k": "p",
+   "text": "en {{champ_298}} exemplaires"
+  },
+  {
+   "k": "p",
+   "text": "Signatures"
+  },
+  {
+   "k": "p",
+   "text": "L'acte est signé par tous les associés,"
+  },
+  {
+   "k": "p",
+   "text": "le Gérant fera précéder sa signature de la mention manuscrite « Bon pour acceptation des fonctions de gérant »."
+  }
+ ]
+}

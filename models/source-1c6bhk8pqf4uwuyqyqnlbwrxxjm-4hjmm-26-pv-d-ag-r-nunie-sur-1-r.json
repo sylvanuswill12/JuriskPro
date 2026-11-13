@@ -1,458 +1,458 @@
 {
-  "id": "source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r",
-  "cat": "societes-associations",
-  "sub": "OHADA",
-  "titre": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "ohada",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "10 min",
-  "docTitle": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
-  "fileBase": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
-  "headline": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
-  "etapes": [
+ "id": "source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r",
+ "cat": "societes-associations",
+ "sub": "OHADA",
+ "titre": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "ohada",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "10 min",
+ "docTitle": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
+ "fileBase": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
+ "headline": "Procès-verbal d’assemblée réunie sur 1re convocation constatant l’absence de quorum",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Procès-verbal d'assemblée réunie sur 1ère convocation constatant…",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Procès-verbal d'assemblée réunie sur 1ère convocation constatant…",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Avant « Conformément à L’AUSCGIE le »",
-          "group": "Attention : … Conformément à L’AUSCGIE le quorum requis sur première…",
-          "aide": "…Attention ▢ Conformément à L’AUSCGIE le…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Dénomination sociale"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Montant",
-          "group": "au capital de … CFA",
-          "aide": "…au capital de ▢ CFA…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Numéro et rue",
-          "group": "Siège social : …"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Boîte postale"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Ville",
-          "aide": "▢"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Numéro",
-          "group": "… RCCM …",
-          "aide": "▢ RCCM…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Ville",
-          "group": "… RCCM …",
-          "aide": "…RCCM ▢"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Avant « Conformément à L’AUSCGIE le »",
+     "group": "Attention : … Conformément à L’AUSCGIE le quorum requis sur première…",
+     "aide": "…Attention ▢ Conformément à L’AUSCGIE le…"
     },
     {
-      "id": "partie-2",
-      "court": "Société anonyme",
-      "titre": "Société anonyme à Conseil d'administration",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "date",
-          "label": "DATE",
-          "group": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
-          "aide": "…PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Avant « L’AUSCGIE dans son article »",
-          "group": "Attention : … L’AUSCGIE dans son article 134 prévoit que les décisions…",
-          "aide": "…Attention ▢ L’AUSCGIE dans son article…"
-        },
-        {
-          "id": "champ_011",
-          "type": "date",
-          "label": "Date",
-          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
-          "aide": "…Le ▢ à les actionnaires de…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Heure",
-          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
-          "aide": "…Le à ▢ les actionnaires de la…"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Lieu",
-          "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
-          "aide": "…sont réunis en assemblée générale extraordinaire ▢ sur convocation faite par…"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Nom du Commissaire présent",
-          "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Nom du Commissaire absent",
-          "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Nom du Président du Conseil",
-          "group": "… préside la séance en sa qualité de - Président- Présidente du Organe…"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Nom du Président de séance",
-          "group": "… préside la séance en sa qualité de …."
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Qualité du Président de séance",
-          "group": "… préside la séance en sa qualité de …."
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "Nom du premier scrutateur à l'assemblée",
-          "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Nom du deuxième scrutateur à l'assemblée",
-          "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Nom du Secrétaire de séance",
-          "group": "… est - désigné- désignée comme secrétaire."
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Nombre actions total",
-          "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
-        },
-        {
-          "id": "champ_023",
-          "type": "text",
-          "label": "Pourcentage",
-          "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
-        },
-        {
-          "id": "champ_024",
-          "type": "text",
-          "label": "Pourcentage",
-          "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Heure",
-          "group": "Puis, le Président déclare la séance levée à ….",
-          "aide": "…Président déclare la séance levée à ▢"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "Dénomination sociale"
     },
     {
-      "id": "partie-3",
-      "court": "Le Président",
-      "titre": "Le Président de l'assemblée",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Nom du Président",
-          "group": "… Le Secrétaire"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "Nom du Secrétaire",
-          "group": "… Les Scrutateurs"
-        },
-        {
-          "id": "champ_028",
-          "type": "text",
-          "label": "Nom du premier scrutateur"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "Nom du second scrutateur"
-        }
-      ]
+     "id": "champ_003",
+     "type": "text",
+     "label": "Montant",
+     "group": "au capital de … CFA",
+     "aide": "…au capital de ▢ CFA…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_004",
+     "type": "text",
+     "label": "Numéro et rue",
+     "group": "Siège social : …"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Boîte postale"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Ville",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Numéro",
+     "group": "… RCCM …",
+     "aide": "▢ RCCM…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Ville",
+     "group": "… RCCM …",
+     "aide": "…RCCM ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**Procès-verbal d'assemblée réunie sur 1ère convocation constatant l'absence de quorum**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Attention** : {{champ_001}} Conformément à L’AUSCGIE le quorum requis sur première convocation, pour les assemblées générales ordinaires, est d'un quart des actions ayant le droit de vote (art. 549 AUSCGIE). Pour les assemblées générales extraordinaires, le quorum requis sur première convocation est de moitié des actions ayant le droit de vote sur première convocation et d'un quart sur deuxième convocation (art. 553 AUSCGIE)"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_002}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Société anonyme à Conseil d'administration**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**au capital de {{champ_003}} CFA**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Siège social : {{champ_004}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_005}} {{champ_006}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_007}} RCCM {{champ_008}}**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU {{champ_009}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Attention** : {{champ_010}} L’AUSCGIE dans son article 134 prévoit que les décisions de l'assemblée doivent être constatées par un procès-verbal dont les mentions y sont déterminées."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le {{champ_011}}, à {{champ_012}}, les actionnaires de la Société {{champ_002}} se sont réunis en assemblée générale extraordinaire, {{champ_013}}, sur convocation faite par le Conseil d'administration."
-    },
-    {
-      "k": "p",
-      "text": "Il a été établi une feuille de présence qui a été émargée par chaque membre de l'assemblée en entrant en séance- à laquelle sont annexés les pouvoirs des actionnaires représentés et les formulaires de vote par correspondance."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En cas de présence de Commissaires aux comptes à l'assemblée"
-    },
-    {
-      "k": "p",
-      "text": "Commissaire(s) aux comptes présent(s) à l'assemblée :"
-    },
-    {
-      "k": "p",
-      "text": "• {{champ_014}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est présent- convoquée, est présente."
-    },
-    {
-      "k": "p",
-      "text": "En cas d'absence de Commissaires aux comptes à l'assemblée"
-    },
-    {
-      "k": "p",
-      "text": "Commissaire(s) aux comptes absent(s) à l'assemblée :"
-    },
-    {
-      "k": "p",
-      "text": "• {{champ_015}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est absent et excusé- convoquée, est absente et excusée."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La séance est présidée par le Président du Conseil"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_016}} préside la séance en sa qualité de - Président- Présidente du Organe d'administration."
-    },
-    {
-      "k": "p",
-      "text": "La séance est présidée par quelqu'un d'autre"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_017}} préside la séance en sa qualité de {{champ_018}}."
-    },
-    {
-      "k": "p",
-      "text": "{{champ_019}} et {{champ_020}}, présents et acceptant, représentant tant par eux-mêmes que comme mandataires le plus grand nombre de voix, sont appelés comme scrutateurs."
-    },
-    {
-      "k": "p",
-      "text": "{{champ_021}} est - désigné- désignée comme secrétaire."
-    },
-    {
-      "k": "p",
-      "text": "La feuille de présence, certifiée sincère et véritable par les membres du bureau, permet de constater que les actionnaires présents, représentés ou ayant voté par correspondance possèdent {{champ_022}} actions, soit – {{champ_023}} % du capital social- {{champ_024}} % des actions ayant droit de vote."
-    },
-    {
-      "k": "p",
-      "text": "Le Président constate d'après la feuille de présence certifiée exacte par les membres du bureau que les actionnaires présents ou représentés ou votant par correspondance possèdent moins du - quart des actions composant le capital social- quart des actions ayant le droit de vote. En conséquence, faute de réunir le quorum requis, l'assemblée générale ne peut valablement délibérer."
-    },
-    {
-      "k": "p",
-      "text": "Il déclare qu'une nouvelle assemblée sera convoquée sur le même ordre du jour et qu'un quorum du - cinquième des actions composant le capital social- cinquième des actions ayant le droit de vote est requis pour cette assemblée."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Puis, le Président déclare la séance levée à {{champ_025}}."
-    },
-    {
-      "k": "p",
-      "text": "De tout ce que dessus il a été dressé le présent procès-verbal qui, après lecture, a été signé par les membres du bureau."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Le Président de l'assemblée**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_026}}    Le Secrétaire**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_027}}    Les Scrutateurs**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_028}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_029}}**",
-      "al": "center"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "2000-01-01",
-    "champ_010": "Exemple",
-    "champ_011": "2000-01-01",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "Exemple",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "Exemple",
-    "champ_028": "Exemple",
-    "champ_029": "Exemple"
+  {
+   "id": "partie-2",
+   "court": "Société anonyme",
+   "titre": "Société anonyme à Conseil d'administration",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "date",
+     "label": "DATE",
+     "group": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU …",
+     "aide": "…PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU ▢"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Avant « L’AUSCGIE dans son article »",
+     "group": "Attention : … L’AUSCGIE dans son article 134 prévoit que les décisions…",
+     "aide": "…Attention ▢ L’AUSCGIE dans son article…"
+    },
+    {
+     "id": "champ_011",
+     "type": "date",
+     "label": "Date",
+     "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+     "aide": "…Le ▢ à les actionnaires de…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Heure",
+     "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+     "aide": "…Le à ▢ les actionnaires de la…"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Le …, à …, les actionnaires de la Société … se sont réunis en assemblée…",
+     "aide": "…sont réunis en assemblée générale extraordinaire ▢ sur convocation faite par…"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Nom du Commissaire présent",
+     "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Nom du Commissaire absent",
+     "group": "• …, Commissaire aux comptes - titulaire- suppléant, régulièrement -…"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Nom du Président du Conseil",
+     "group": "… préside la séance en sa qualité de - Président- Présidente du Organe…"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Nom du Président de séance",
+     "group": "… préside la séance en sa qualité de …."
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Qualité du Président de séance",
+     "group": "… préside la séance en sa qualité de …."
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "Nom du premier scrutateur à l'assemblée",
+     "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Nom du deuxième scrutateur à l'assemblée",
+     "group": "… et …, présents et acceptant, représentant tant par eux-mêmes que…"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Nom du Secrétaire de séance",
+     "group": "… est - désigné- désignée comme secrétaire."
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Nombre actions total",
+     "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "Pourcentage",
+     "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "Pourcentage",
+     "group": "La feuille de présence, certifiée sincère et véritable par les membres…"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Heure",
+     "group": "Puis, le Président déclare la séance levée à ….",
+     "aide": "…Président déclare la séance levée à ▢"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Le Président",
+   "titre": "Le Président de l'assemblée",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Nom du Président",
+     "group": "… Le Secrétaire"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Nom du Secrétaire",
+     "group": "… Les Scrutateurs"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "Nom du premier scrutateur"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Nom du second scrutateur"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Procès-verbal d'assemblée réunie sur 1ère convocation constatant l'absence de quorum**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Attention** : {{champ_001}} Conformément à L’AUSCGIE le quorum requis sur première convocation, pour les assemblées générales ordinaires, est d'un quart des actions ayant le droit de vote (art. 549 AUSCGIE). Pour les assemblées générales extraordinaires, le quorum requis sur première convocation est de moitié des actions ayant le droit de vote sur première convocation et d'un quart sur deuxième convocation (art. 553 AUSCGIE)"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_002}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Société anonyme à Conseil d'administration**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**au capital de {{champ_003}} CFA**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Siège social : {{champ_004}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_005}} {{champ_006}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_007}} RCCM {{champ_008}}**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU {{champ_009}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Attention** : {{champ_010}} L’AUSCGIE dans son article 134 prévoit que les décisions de l'assemblée doivent être constatées par un procès-verbal dont les mentions y sont déterminées."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le {{champ_011}}, à {{champ_012}}, les actionnaires de la Société {{champ_002}} se sont réunis en assemblée générale extraordinaire, {{champ_013}}, sur convocation faite par le Conseil d'administration."
+  },
+  {
+   "k": "p",
+   "text": "Il a été établi une feuille de présence qui a été émargée par chaque membre de l'assemblée en entrant en séance- à laquelle sont annexés les pouvoirs des actionnaires représentés et les formulaires de vote par correspondance."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En cas de présence de Commissaires aux comptes à l'assemblée"
+  },
+  {
+   "k": "p",
+   "text": "Commissaire(s) aux comptes présent(s) à l'assemblée :"
+  },
+  {
+   "k": "p",
+   "text": "• {{champ_014}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est présent- convoquée, est présente."
+  },
+  {
+   "k": "p",
+   "text": "En cas d'absence de Commissaires aux comptes à l'assemblée"
+  },
+  {
+   "k": "p",
+   "text": "Commissaire(s) aux comptes absent(s) à l'assemblée :"
+  },
+  {
+   "k": "p",
+   "text": "• {{champ_015}}, Commissaire aux comptes - titulaire- suppléant, régulièrement - convoqué, est absent et excusé- convoquée, est absente et excusée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La séance est présidée par le Président du Conseil"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_016}} préside la séance en sa qualité de - Président- Présidente du Organe d'administration."
+  },
+  {
+   "k": "p",
+   "text": "La séance est présidée par quelqu'un d'autre"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_017}} préside la séance en sa qualité de {{champ_018}}."
+  },
+  {
+   "k": "p",
+   "text": "{{champ_019}} et {{champ_020}}, présents et acceptant, représentant tant par eux-mêmes que comme mandataires le plus grand nombre de voix, sont appelés comme scrutateurs."
+  },
+  {
+   "k": "p",
+   "text": "{{champ_021}} est - désigné- désignée comme secrétaire."
+  },
+  {
+   "k": "p",
+   "text": "La feuille de présence, certifiée sincère et véritable par les membres du bureau, permet de constater que les actionnaires présents, représentés ou ayant voté par correspondance possèdent {{champ_022}} actions, soit – {{champ_023}} % du capital social- {{champ_024}} % des actions ayant droit de vote."
+  },
+  {
+   "k": "p",
+   "text": "Le Président constate d'après la feuille de présence certifiée exacte par les membres du bureau que les actionnaires présents ou représentés ou votant par correspondance possèdent moins du - quart des actions composant le capital social- quart des actions ayant le droit de vote. En conséquence, faute de réunir le quorum requis, l'assemblée générale ne peut valablement délibérer."
+  },
+  {
+   "k": "p",
+   "text": "Il déclare qu'une nouvelle assemblée sera convoquée sur le même ordre du jour et qu'un quorum du - cinquième des actions composant le capital social- cinquième des actions ayant le droit de vote est requis pour cette assemblée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Puis, le Président déclare la séance levée à {{champ_025}}."
+  },
+  {
+   "k": "p",
+   "text": "De tout ce que dessus il a été dressé le présent procès-verbal qui, après lecture, a été signé par les membres du bureau."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Le Président de l'assemblée**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_026}}    Le Secrétaire**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_027}}    Les Scrutateurs**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_028}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_029}}**",
+   "al": "center"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1c6bhk8pqf4uwuyqyqnlbwrxxjm-4hjmm-26-pv-d-ag-r-nunie-sur-1-r.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "2000-01-01",
+  "champ_010": "Exemple",
+  "champ_011": "2000-01-01",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple"
+ }
 }

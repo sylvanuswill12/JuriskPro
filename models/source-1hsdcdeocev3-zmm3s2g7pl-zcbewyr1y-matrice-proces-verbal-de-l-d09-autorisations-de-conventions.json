@@ -1,0 +1,132 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d09-autorisations-de-conventions",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Autorisations de conventions",
+ "sous": "Décision du conseil d’administration d’une société anonyme : autorisations de conventions.",
+ "resume": "PV du conseil d’administration – Autorisations de conventions : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Autorisations de conventions",
+ "fileBase": "PV du conseil d’administration – Autorisations de conventions",
+ "headline": "PV du conseil d’administration – Autorisations de conventions",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Autorisations de conventions",
+   "champs": [
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "Un projet de convention entre",
+     "group": "Le Président du Conseil d’Administration (ou le Président-Directeur…"
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "Éléments du projet de convention",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "Éléments du projet de convention",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "Étant précisé que M",
+     "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
+    },
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Soumis à l’unanimité ou par",
+     "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
+    },
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "Voix contre",
+     "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "Voix et autorise M",
+     "group": "Après en avoir ensuite délibérée, étant précisé que M … (personne…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d09-autorisations-de-conventions.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_049": "Exemple",
+  "champ_050": "Exemple",
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Autorisations de conventions**"
+  },
+  {
+   "k": "p",
+   "text": "Le Président du Conseil d’Administration (ou le Président-Directeur Général) présente un projet de convention entre {{champ_049}} (personne concernée) et la société. Il rappelle que cette convention requiert l’autorisation  préalable du Conseil d’Administration conformément aux dispositions légales."
+  },
+  {
+   "k": "p",
+   "text": "Le Président expose les éléments du projet de convention :"
+  },
+  {
+   "k": "li",
+   "text": "{{champ_050}}",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "{{champ_051}}",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir ensuite délibérée, étant précisé que M {{champ_052}} (personne concernée par la convention) n’a pas pris part au vote, le Conseil autorise la convention dont le projet lui a été soumis à l’unanimité ou par {{champ_053}} voix contre {{champ_054}} voix et autorise M {{champ_055}}(le Président ou, s’il est intéressé par la convention, un Administrateur) à conclure la convention et lui donne tous permis à cet effet."
+  },
+  {
+   "k": "p",
+   "text": "Le Commissaire aux comptes sera informé de l’autorisation accordée dans le délai d’un mois à compter de la conclusion de la convention."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

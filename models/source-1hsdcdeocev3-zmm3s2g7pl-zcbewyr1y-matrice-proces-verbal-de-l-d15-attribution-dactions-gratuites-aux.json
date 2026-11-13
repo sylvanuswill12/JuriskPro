@@ -1,0 +1,530 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d15-attribution-dactions-gratuites-aux",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé",
+ "sous": "Décision du conseil d’administration d’une société anonyme : attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé.",
+ "resume": "PV du conseil d’administration – Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "10 min",
+ "docTitle": "PV du conseil d’administration – Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé",
+ "fileBase": "PV du conseil d’administration – Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé",
+ "headline": "PV du conseil d’administration – Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision 1",
+   "titre": "Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé",
+   "champs": [
+    {
+     "id": "champ_190",
+     "type": "text",
+     "label": "Nom desdirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_191",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_192",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_193",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_194",
+     "type": "text",
+     "label": "Nom desdirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_195",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_196",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_197",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_198",
+     "type": "text",
+     "label": "Nom desdirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_199",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_200",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Décision 2",
+   "titre": "Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé (suite)",
+   "champs": [
+    {
+     "id": "champ_201",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_202",
+     "type": "text",
+     "label": "Nom desdirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_203",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_204",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_205",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_206",
+     "type": "text",
+     "label": "Nom des salariés nondirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_207",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_208",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_209",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_210",
+     "type": "text",
+     "label": "Nom des salariés nondirigeants",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_211",
+     "type": "text",
+     "label": "Fonction",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Décision 3",
+   "titre": "Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé (suite)",
+   "champs": [
+    {
+     "id": "champ_212",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_213",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_231",
+     "type": "text",
+     "label": "Salariés par les sociétés liées",
+     "group": "Actions attribuées gratuitement à l’ensemble des salariés par les…"
+    },
+    {
+     "id": "champ_232",
+     "type": "text",
+     "label": "Valeurs des",
+     "group": "Valeurs des … actions"
+    },
+    {
+     "id": "champ_214",
+     "type": "text",
+     "label": "Dénomination desSociétés liées",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_215",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_216",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_217",
+     "type": "text",
+     "label": "Dénomination desSociétés liées",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_218",
+     "type": "text",
+     "label": "Nombre actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_219",
+     "type": "text",
+     "label": "Valeurs des actions",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d15-attribution-dactions-gratuites-aux.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_190": "Exemple",
+  "champ_191": "Exemple",
+  "champ_192": "Exemple",
+  "champ_193": "Exemple",
+  "champ_194": "Exemple",
+  "champ_195": "Exemple",
+  "champ_196": "Exemple",
+  "champ_197": "Exemple",
+  "champ_198": "Exemple",
+  "champ_199": "Exemple",
+  "champ_200": "Exemple",
+  "champ_201": "Exemple",
+  "champ_202": "Exemple",
+  "champ_203": "Exemple",
+  "champ_204": "Exemple",
+  "champ_205": "Exemple",
+  "champ_206": "Exemple",
+  "champ_207": "Exemple",
+  "champ_208": "Exemple",
+  "champ_209": "Exemple",
+  "champ_210": "Exemple",
+  "champ_211": "Exemple",
+  "champ_212": "Exemple",
+  "champ_213": "Exemple",
+  "champ_231": "Exemple",
+  "champ_232": "Exemple",
+  "champ_214": "Exemple",
+  "champ_215": "Exemple",
+  "champ_216": "Exemple",
+  "champ_217": "Exemple",
+  "champ_218": "Exemple",
+  "champ_219": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Attribution d’actions gratuites aux dirigeants et aux salariés non dirigeants dont le nombre est plus élevé**"
+  },
+  {
+   "k": "p",
+   "text": "Le Président  informe le Conseil d’Administration des attributions gratuites réalisées au titre de l’exercice conformément aux articles 626-1 et suivants :"
+  },
+  {
+   "k": "li",
+   "text": "Actions gratuites attribuées aux dirigeants par la société",
+   "mk": "-"
+  },
+  {
+   "k": "table",
+   "cols": [
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**Nom des**",
+      "**dirigeants**"
+     ],
+     [
+      "",
+      "**Fonction**"
+     ],
+     [
+      "",
+      "**Nombre actions**"
+     ],
+     [
+      "",
+      "**Valeurs des**",
+      "**actions**"
+     ]
+    ],
+    [
+     [
+      "",
+      "{{champ_190}}"
+     ],
+     "{{champ_191}}",
+     "{{champ_192}}",
+     "{{champ_193}}"
+    ],
+    [
+     [
+      "",
+      "{{champ_194}}"
+     ],
+     "{{champ_195}}",
+     "{{champ_196}}",
+     "{{champ_197}}"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Actions gratuites attribuées aux dirigeants par les sociétés liées",
+   "mk": "-"
+  },
+  {
+   "k": "table",
+   "cols": [
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**Nom des**",
+      "**dirigeants**"
+     ],
+     [
+      "",
+      "**Fonction**"
+     ],
+     [
+      "",
+      "**Nombre actions**"
+     ],
+     [
+      "",
+      "**Valeurs des**",
+      "**actions**"
+     ]
+    ],
+    [
+     [
+      "",
+      "{{champ_198}}"
+     ],
+     "{{champ_199}}",
+     "{{champ_200}}",
+     "{{champ_201}}"
+    ],
+    [
+     [
+      "",
+      "{{champ_202}}"
+     ],
+     "{{champ_203}}",
+     "{{champ_204}}",
+     "{{champ_205}}"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Actions gratuites attribuées aux dix salariés non dirigeants sociaux dont le nombre est plus élevé",
+   "mk": "-"
+  },
+  {
+   "k": "table",
+   "cols": [
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**Nom des salariés non**",
+      "**dirigeants**"
+     ],
+     [
+      "",
+      "**Fonction**"
+     ],
+     [
+      "",
+      "**Nombre actions**"
+     ],
+     [
+      "",
+      "**Valeurs des**",
+      "**actions**"
+     ]
+    ],
+    [
+     [
+      "",
+      "{{champ_206}}"
+     ],
+     "{{champ_207}}",
+     "{{champ_208}}",
+     "{{champ_209}}"
+    ],
+    [
+     [
+      "",
+      "{{champ_210}}"
+     ],
+     "{{champ_211}}",
+     "{{champ_212}}",
+     "{{champ_213}}"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Actions attribuées gratuitement à l’ensemble des salariés par les sociétés liées {{champ_231}}",
+   "mk": "-"
+  },
+  {
+   "k": "table",
+   "cols": [
+    50.6,
+    24.7,
+    24.7
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**Dénomination des**",
+      "**Sociétés liées**"
+     ],
+     [
+      "",
+      "**Nombre actions**"
+     ],
+     [
+      "",
+      "**Valeurs des {{champ_232}} actions**"
+     ]
+    ],
+    [
+     [
+      "",
+      "{{champ_214}}"
+     ],
+     "{{champ_215}}",
+     "{{champ_216}}"
+    ],
+    [
+     [
+      "",
+      "{{champ_217}}"
+     ],
+     "{{champ_218}}",
+     "{{champ_219}}"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Après examen, le Conseil constate que les attributions d’actions gratuites aux dirigeants sont conformes à la loi puis, arrête les grandes lignes de son rapport spécial destiné à informer l’Assemblée Générale annuelle conformément à l’article 624-4."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

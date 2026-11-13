@@ -1,240 +1,240 @@
 {
-  "id": "source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an",
-  "cat": "travail",
-  "sub": "Demandes de congés",
-  "titre": "Demande de congé annuel – secrétaire (modèle 1)",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Demande de congé annuel – secrétaire (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "demandes de conges",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "4 min",
-  "docTitle": "Demande de congé annuel – secrétaire (modèle 1)",
-  "fileBase": "Demande de congé annuel – secrétaire (modèle 1)",
-  "headline": "Demande de congé annuel – secrétaire (modèle 1)",
-  "etapes": [
+ "id": "source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an",
+ "cat": "travail",
+ "sub": "Demandes de congés",
+ "titre": "Demande de congé annuel – secrétaire (modèle 1)",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Demande de congé annuel – secrétaire (modèle 1) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "demandes de conges",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "4 min",
+ "docTitle": "Demande de congé annuel – secrétaire (modèle 1)",
+ "fileBase": "Demande de congé annuel – secrétaire (modèle 1)",
+ "headline": "Demande de congé annuel – secrétaire (modèle 1)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Informations à renseigner",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Informations à renseigner",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "ville_signature",
-          "type": "text",
-          "label": "Fait à (ville)",
-          "profil": "ville",
-          "group": "…, le …"
-        },
-        {
-          "id": "date_lettre",
-          "type": "date",
-          "label": "Date de la lettre",
-          "group": "…, le …"
-        },
-        {
-          "id": "nom_salarie",
-          "type": "text",
-          "label": "Nom du salarié",
-          "group": "Mme …",
-          "aide": "…Mme ▢"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Information à compléter",
-          "group": "Mme …",
-          "aide": "…Mme ▢"
-        },
-        {
-          "id": "nom_naissance_salarie",
-          "type": "text",
-          "label": "Nom de naissance",
-          "group": "née …",
-          "aide": "…née ▢"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Information à compléter",
-          "group": "née …",
-          "aide": "…née ▢"
-        },
-        {
-          "id": "prenom_salarie",
-          "type": "text",
-          "label": "Prénom du salarié",
-          "group": "née …",
-          "aide": "…née ▢"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Secrétaire",
-          "group": "Secrétaire …",
-          "aide": "…Secrétaire ▢"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "group": "Maître …",
-          "aide": "…Maître ▢",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Demande de congé annuel",
-          "group": "Objet: Demande de congé annuel …"
-        },
-        {
-          "id": "debut_conge",
-          "type": "date",
-          "label": "Début du congé demandé",
-          "group": "Je viens par la présente solliciter auprès de vous l’obtention de mon…"
-        },
-        {
-          "id": "fin_conge",
-          "type": "date",
-          "label": "Fin du congé demandé",
-          "group": "Je viens par la présente solliciter auprès de vous l’obtention de mon…"
-        }
-      ]
+     "id": "ville_signature",
+     "type": "text",
+     "label": "Fait à (ville)",
+     "profil": "ville",
+     "group": "…, le …"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "date_lettre",
+     "type": "date",
+     "label": "Date de la lettre",
+     "group": "…, le …"
+    },
+    {
+     "id": "nom_salarie",
+     "type": "text",
+     "label": "Nom du salarié",
+     "group": "Mme …",
+     "aide": "…Mme ▢"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Information à compléter",
+     "group": "Mme …",
+     "aide": "…Mme ▢"
+    },
+    {
+     "id": "nom_naissance_salarie",
+     "type": "text",
+     "label": "Nom de naissance",
+     "group": "née …",
+     "aide": "…née ▢"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Information à compléter",
+     "group": "née …",
+     "aide": "…née ▢"
+    },
+    {
+     "id": "prenom_salarie",
+     "type": "text",
+     "label": "Prénom du salarié",
+     "group": "née …",
+     "aide": "…née ▢"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Secrétaire",
+     "group": "Secrétaire …",
+     "aide": "…Secrétaire ▢"
+    },
+    {
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "group": "Maître …",
+     "aide": "…Maître ▢",
+     "profil": "nom",
+     "pq": "notaire"
+    },
+    {
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "…"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Demande de congé annuel",
+     "group": "Objet: Demande de congé annuel …"
+    },
+    {
+     "id": "debut_conge",
+     "type": "date",
+     "label": "Début du congé demandé",
+     "group": "Je viens par la présente solliciter auprès de vous l’obtention de mon…"
+    },
+    {
+     "id": "fin_conge",
+     "type": "date",
+     "label": "Fin du congé demandé",
+     "group": "Je viens par la présente solliciter auprès de vous l’obtention de mon…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "{{ville_signature}}, le {{date_lettre}}"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{nom_salarie}}** {{champ_001}}"
-    },
-    {
-      "k": "p",
-      "text": "**née {{nom_naissance_salarie}} {{champ_002}} {{prenom_salarie}}**"
-    },
-    {
-      "k": "p",
-      "text": "**Secrétaire {{champ_003}}**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Maître {{notaire_nom}}",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "Notaire"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{ville_notaire}}**",
-      "ind": 6
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Objet**: Demande de congé annuel {{champ_004}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Mon Cher Maître,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je viens par la présente solliciter auprès de vous l’obtention de mon congé annuel dont la première quinzaine s’étend de la période du {{debut_conge}} au {{fin_conge}} inclus."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Vous en souhaitant bonne réception,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Et dans l’attente d’une suite favorable,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je vous prie de croire, mon Cher Maître, en l'assurance de mes sentiments dévoués."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{nom_salarie}} {{prenom_salarie}}**"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "nom_salarie": "Exemple",
-    "champ_001": "Exemple",
-    "nom_naissance_salarie": "Exemple",
-    "champ_002": "Exemple",
-    "prenom_salarie": "Exemple",
-    "champ_003": "Exemple",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "champ_004": "Exemple",
-    "ville_signature": "Abidjan",
-    "date_lettre": "2000-01-01",
-    "ville_notaire": "Abidjan",
-    "debut_conge": "2000-01-01",
-    "fin_conge": "2000-01-01"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "{{ville_signature}}, le {{date_lettre}}"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{nom_salarie}}** {{champ_001}}"
+  },
+  {
+   "k": "p",
+   "text": "**née {{nom_naissance_salarie}} {{champ_002}} {{prenom_salarie}}**"
+  },
+  {
+   "k": "p",
+   "text": "**Secrétaire {{champ_003}}**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Maître {{notaire_nom}}",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "Notaire"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{ville_notaire}}**",
+   "ind": 6
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Objet**: Demande de congé annuel {{champ_004}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Mon Cher Maître,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je viens par la présente solliciter auprès de vous l’obtention de mon congé annuel dont la première quinzaine s’étend de la période du {{debut_conge}} au {{fin_conge}} inclus."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Vous en souhaitant bonne réception,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et dans l’attente d’une suite favorable,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je vous prie de croire, mon Cher Maître, en l'assurance de mes sentiments dévoués."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{nom_salarie}} {{prenom_salarie}}**"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1efdpbnq4lh3xw-jloq3y0xrdll-lw77k-courrier-de-dde-de-cong-an.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "nom_salarie": "Exemple",
+  "champ_001": "Exemple",
+  "nom_naissance_salarie": "Exemple",
+  "champ_002": "Exemple",
+  "prenom_salarie": "Exemple",
+  "champ_003": "Exemple",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "champ_004": "Exemple",
+  "ville_signature": "Abidjan",
+  "date_lettre": "2000-01-01",
+  "ville_notaire": "Abidjan",
+  "debut_conge": "2000-01-01",
+  "fin_conge": "2000-01-01"
+ }
 }

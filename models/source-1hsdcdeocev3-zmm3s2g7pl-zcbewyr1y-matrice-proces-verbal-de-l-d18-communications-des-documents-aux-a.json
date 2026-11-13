@@ -1,0 +1,53 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d18-communications-des-documents-aux-a",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Communications des documents aux actionnaires",
+ "sous": "Décision du conseil d’administration d’une société anonyme : communications des documents aux actionnaires.",
+ "resume": "PV du conseil d’administration – Communications des documents aux actionnaires : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Communications des documents aux actionnaires",
+ "fileBase": "PV du conseil d’administration – Communications des documents aux actionnaires",
+ "headline": "PV du conseil d’administration – Communications des documents aux actionnaires",
+ "etapes": [
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d18-communications-des-documents-aux-a.docx",
+  "version": "5"
+ },
+ "exemple": {},
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Communications des documents aux actionnaires**"
+  },
+  {
+   "k": "p",
+   "text": "Le conseil  charge son Président ou le Président Directeur Général de prendre toutes les mesures utiles en vue de permettre  aux actionnaires d’exercer  leur droit de communication des documents et renseignements relatifs à la prochaine assemblée dans les conditions et délais prévus par les dispositions légales et  réglementaires."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

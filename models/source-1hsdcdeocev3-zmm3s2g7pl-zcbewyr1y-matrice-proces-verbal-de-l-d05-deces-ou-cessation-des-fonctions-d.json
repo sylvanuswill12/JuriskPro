@@ -1,0 +1,109 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d05-deces-ou-cessation-des-fonctions-d",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "sous": "Décision du conseil d’administration d’une société anonyme : décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général.",
+ "resume": "PV du conseil d’administration – Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "fileBase": "PV du conseil d’administration – Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "headline": "PV du conseil d’administration – Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général",
+   "champs": [
+    {
+     "id": "champ_222",
+     "type": "text",
+     "label": "De",
+     "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…",
+     "aide": "…de la cessation de fonctions de ▢ M Président du Conseil…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…"
+    },
+    {
+     "id": "champ_023",
+     "type": "date",
+     "label": "Date",
+     "group": "Le Conseil d’Administration constate le décès (ou prend acte de la…",
+     "aide": "…ou de Président-Directeur Général depuis le ▢"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
+    },
+    {
+     "id": "champ_223",
+     "type": "text",
+     "label": "De Président du Conseil d’Administration",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à (ou…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d05-deces-ou-cessation-des-fonctions-d.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_222": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "2000-01-01",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_223": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Décès ou cessation des fonctions du Président du Conseil d’Administration ou du Président-Directeur Général**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration constate le décès (ou prend acte de la cessation de fonctions), de {{champ_222}} M {{champ_022}} Président du Conseil d’Administration (ou de Président-Directeur Général) depuis le {{champ_023}}"
+  },
+  {
+   "k": "p",
+   "text": "En remplacement de M {{champ_024}}, le Conseil d’Administration délègue à (ou nomme) M {{champ_025}} Administrateur les fonctions (en qualité) de Président du Conseil d’Administration {{champ_223}} (ou de Président-Directeur Général) jusqu’à la nomination de celui-ci."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

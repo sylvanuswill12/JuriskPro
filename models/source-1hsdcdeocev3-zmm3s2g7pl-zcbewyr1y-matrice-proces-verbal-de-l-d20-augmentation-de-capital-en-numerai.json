@@ -1,0 +1,194 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d20-augmentation-de-capital-en-numerai",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE",
+ "sous": "Décision du conseil d’administration d’une société anonyme : augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE.",
+ "resume": "PV du conseil d’administration – Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "5 min",
+ "docTitle": "PV du conseil d’administration – Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE",
+ "fileBase": "PV du conseil d’administration – Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE",
+ "headline": "PV du conseil d’administration – Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE",
+   "champs": [
+    {
+     "id": "champ_084",
+     "type": "text",
+     "label": "D’une augmentation de capital de",
+     "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
+    },
+    {
+     "id": "champ_085",
+     "type": "text",
+     "label": "Par émission de",
+     "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
+    },
+    {
+     "id": "champ_086",
+     "type": "text",
+     "label": "Compensation avec des créances certaines",
+     "group": "Apres en avoir délibéré, le Conseil d’Administration décide le principe…"
+    },
+    {
+     "id": "champ_087",
+     "type": "text",
+     "label": "Une prime d’émission de FCFA",
+     "group": "Ces actions émises avec une prime d’émission de FCFA … devraient être…"
+    },
+    {
+     "id": "champ_239",
+     "type": "text",
+     "label": "Présenté à l’Assemblée Générale Extraordinaire",
+     "group": "Ces actions émises avec une prime d’émission de FCFA … devraient être…",
+     "aide": "…la date de la présente assemblée ▢"
+    },
+    {
+     "id": "champ_088",
+     "type": "text",
+     "label": "Souscription sera réservée à MM",
+     "group": "Variante : la souscription sera réservée à MM … En conséquence, il sera…"
+    },
+    {
+     "id": "champ_089",
+     "type": "text",
+     "label": "Souscription au profit de MM",
+     "group": "Variante : la souscription sera réservée à MM … En conséquence, il sera…"
+    },
+    {
+     "id": "champ_090",
+     "type": "date",
+     "label": "Convoquer l’Assemblée Générale Extraordinaire le",
+     "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……"
+    },
+    {
+     "id": "champ_091",
+     "type": "text",
+     "label": "Heure",
+     "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
+     "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
+    },
+    {
+     "id": "champ_092",
+     "type": "text",
+     "label": "Au",
+     "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
+     "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+    },
+    {
+     "id": "champ_240",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le ……",
+     "aide": "…Générale Extraordinaire le à heures au ▢ à l’effet de délibérer…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d20-augmentation-de-capital-en-numerai.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_084": "Exemple",
+  "champ_085": "Exemple",
+  "champ_086": "Exemple",
+  "champ_087": "Exemple",
+  "champ_239": "Exemple",
+  "champ_088": "Exemple",
+  "champ_089": "Exemple",
+  "champ_090": "2000-01-01",
+  "champ_091": "Exemple",
+  "champ_092": "Exemple",
+  "champ_240": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Augmentation de capital en numéraire ou par compensation de créances certaines, liquides, exigibles avant AGE**"
+  },
+  {
+   "k": "p",
+   "text": "Apres en avoir délibéré, le Conseil d’Administration décide le principe d’une augmentation de capital de {{champ_084}} par émission de {{champ_085}} actions nouvelles à libérer en numéraire ou par compensation avec des créances certaines {{champ_086}} liquides, exigibles sur la société."
+  },
+  {
+   "k": "p",
+   "text": "Ces actions émises avec une prime d’émission de FCFA {{champ_087}} devraient être libérées en totalité à la souscription (ou le 1/4  à la souscription  et le solde serait libéré en une ou plusieurs fois sur appel du Conseil d’Administration dans un délai qui ne peut excéder 3 ans à compter de la date de la présente assemblée). {{champ_239}}"
+  },
+  {
+   "k": "p",
+   "text": "**Variante : **la souscription sera réservée à **MM {{champ_088}} **En conséquence, il sera demandé aux actionnaires de bien vouloir décider  de la suppression  du droit préférentiel de souscription au profit de **MM {{champ_089}}.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil décide de convoquer l’Assemblée Générale Extraordinaire le {{champ_090}} à {{champ_091}} heures,  au {{champ_092}}. {{champ_240}}, à l’effet de délibérer sur l’ordre du jour suivant :"
+  },
+  {
+   "k": "li",
+   "text": "Rapport du Conseil d’Administration,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Rapport du Commissaire aux comptes,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Augmentation du capital en numéraire ou compensation  de créances certaines, liquides, exigibles,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Conditions et modalités de réalisations,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Pouvoirs à déléguer au Conseil d’Administration,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Modification des statuts.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Puis le Conseil d’Administration arrête les grandes lignes de son rapport qui sera présenté à l’Assemblée Générale Extraordinaire."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d27-augmentation-de-capital-par-rappor",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire",
+ "sous": "Décision du conseil d’administration d’une société anonyme : augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire.",
+ "resume": "PV du conseil d’administration – Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "6 min",
+ "docTitle": "PV du conseil d’administration – Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire",
+ "fileBase": "PV du conseil d’administration – Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire",
+ "headline": "PV du conseil d’administration – Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision 1",
+   "titre": "Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire",
+   "champs": [
+    {
+     "id": "champ_133",
+     "type": "text",
+     "label": "Capital aux termes duquel MM",
+     "group": "Approuve le projet d’augmentation de capital aux termes duquel MM ……"
+    },
+    {
+     "id": "champ_134",
+     "type": "text",
+     "label": "Valeur",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_135",
+     "type": "text",
+     "label": "Valeur",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_136",
+     "type": "text",
+     "label": "Valeur",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_220",
+     "type": "text",
+     "label": "Valeur",
+     "group": "AD. Augmentation de capital par rapport en nature  – ligne 1"
+    },
+    {
+     "id": "champ_137",
+     "type": "text",
+     "label": "Un apport net de FCFA",
+     "group": "Soit un apport net de FCFA …, sous réserve de l’évaluation du…"
+    },
+    {
+     "id": "champ_138",
+     "type": "text",
+     "label": "Ces apports seront rémunérés par",
+     "group": "Ces apports seront rémunérés par … actions nouvelles."
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Décision 2",
+   "titre": "Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire (suite)",
+   "champs": [
+    {
+     "id": "champ_139",
+     "type": "text",
+     "label": "Une prime d’apport de FCFA",
+     "group": "Ces actions seront émises avec une prime d’apport de FCFA …"
+    },
+    {
+     "id": "champ_140",
+     "type": "date",
+     "label": "Actionnaires qui sera convoquée le",
+     "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…"
+    },
+    {
+     "id": "champ_141",
+     "type": "text",
+     "label": "Heure",
+     "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…",
+     "aide": "…actionnaires qui sera convoquée le à ▢ heures au sur l’ordre…"
+    },
+    {
+     "id": "champ_142",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des…"
+    },
+    {
+     "id": "champ_143",
+     "type": "text",
+     "label": "Propose la désignation de M",
+     "group": "Propose la désignation de M …. en qualité de Commissaire aux apports. ……"
+    },
+    {
+     "id": "champ_245",
+     "type": "text",
+     "label": "Avant « A défaut d’unanimité des »",
+     "group": "Propose la désignation de M …. en qualité de Commissaire aux apports. ……",
+     "aide": "…en qualité de Commissaire aux apports ▢ A défaut d’unanimité des…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d27-augmentation-de-capital-par-rappor.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_133": "Exemple",
+  "champ_134": "Exemple",
+  "champ_135": "Exemple",
+  "champ_136": "Exemple",
+  "champ_220": "Exemple",
+  "champ_137": "Exemple",
+  "champ_138": "Exemple",
+  "champ_139": "Exemple",
+  "champ_140": "2000-01-01",
+  "champ_141": "Exemple",
+  "champ_142": "Exemple",
+  "champ_143": "Exemple",
+  "champ_245": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Augmentation de capital par rapport en nature avant Assemblée Générale Extraordinaire**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration :"
+  },
+  {
+   "k": "li",
+   "text": "Approuve le projet d’augmentation de capital aux termes duquel MM {{champ_133}} feraient apport  à la société des biens suivants :",
+   "mk": "-"
+  },
+  {
+   "k": "table",
+   "cols": [
+    75.0,
+    25.0
+   ],
+   "head": [
+    "Désignation",
+    "Valeur"
+   ],
+   "rows": [
+    [
+     [
+      "{{champ_134}}",
+      "{{champ_135}}",
+      "{{champ_136}}"
+     ],
+     "{{champ_220}}"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Soit un apport net de FCFA {{champ_137}}, sous réserve  de l’évaluation  du Commissaire aux apports qui sera désigné à l’unanimité des actionnaires ou à défaut par le Président de la juridiction compétente."
+  },
+  {
+   "k": "p",
+   "text": "Ces apports seront rémunérés par {{champ_138}} actions nouvelles.",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Ces actions  seront émises avec une prime d’apport de FCFA {{champ_139}}",
+   "ind": 1
+  },
+  {
+   "k": "li",
+   "text": "Décide de soumettre le projet à l’Assemblée Générale Extraordinaire des actionnaires qui sera convoquée le {{champ_140}} à {{champ_141}} heures au {{champ_142}} sur l’ordre du jour suivant :",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Rapport du Conseil d’Administration,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Rapport du Commissaire aux comptes,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Augmentation de capital,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Approbation apport en nature,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Constatation de la réalisation définitive de l’augmentation du capital,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Modification corrélative des statuts,",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Pouvoirs.",
+   "mk": "•"
+  },
+  {
+   "k": "li",
+   "text": "Propose la désignation de **M {{champ_143}}.** en qualité de Commissaire aux apports. {{champ_245}} A défaut d’unanimité des actionnaires le conseil charge son Président de faire le nécessaire en vue de la désignation du Commissaire aux apports par le Président de la juridiction compétente.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

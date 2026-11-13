@@ -1,0 +1,127 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d33-emission-des-actions-de-preference",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Emission des actions de préférence",
+ "sous": "Décision du conseil d’administration d’une société anonyme : emission des actions de préférence.",
+ "resume": "PV du conseil d’administration – Emission des actions de préférence : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Emission des actions de préférence",
+ "fileBase": "PV du conseil d’administration – Emission des actions de préférence",
+ "headline": "PV du conseil d’administration – Emission des actions de préférence",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Emission des actions de préférence",
+   "champs": [
+    {
+     "id": "champ_178",
+     "type": "text",
+     "label": "Ou par",
+     "group": "Le Conseil, après en avoir délibéré, décide à l’unanimité (ou par ……",
+     "opt": true
+    },
+    {
+     "id": "champ_179",
+     "type": "text",
+     "label": "Contre",
+     "group": "Le Conseil, après en avoir délibéré, décide à l’unanimité (ou par ……",
+     "aide": "…à l’unanimité ou par voix contre ▢ voix de proposer à…",
+     "opt": true
+    },
+    {
+     "id": "champ_180",
+     "type": "text",
+     "label": "Minimum d’Administrateurs au Conseil d'Administration",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_181",
+     "type": "text",
+     "label": "Préférence auront les caractéristiques suivantes",
+     "group": "Ces actions de préférence auront les caractéristiques suivantes …. et…"
+    },
+    {
+     "id": "champ_182",
+     "type": "text",
+     "label": "Minimum d’Administrateurs au Conseil d'Administration",
+     "aide": "▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d33-emission-des-actions-de-preference.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_178": "Exemple",
+  "champ_179": "Exemple",
+  "champ_180": "Exemple",
+  "champ_181": "Exemple",
+  "champ_182": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Emission des actions de préférence**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil, après en avoir délibéré, décide à l’unanimité (ou par {{champ_178}} voix, contre {{champ_179}} voix) de proposer à l’Assemblée Générale l’émission  des actions de préférences avec ou sans droit de vote assorties des droits particuliers de toute nature à titre temporaire ou permanent suivants :"
+  },
+  {
+   "k": "li",
+   "text": "Droit de vote double,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Droits particuliers dans les bénéfices sociaux,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Droits particuliers d’obtention d’un nombre minimum d’Administrateurs au Conseil d'Administration",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "{{champ_180}}",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Ces actions de préférence auront les caractéristiques suivantes {{champ_181}}.  et auront les incidences suivantes sur la situation des titulaires de capital  et de valeurs mobilières composées donnant accès au capital"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_182}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

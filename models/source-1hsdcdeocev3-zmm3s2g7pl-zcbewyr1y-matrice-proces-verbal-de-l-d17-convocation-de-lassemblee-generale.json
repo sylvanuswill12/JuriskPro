@@ -1,0 +1,91 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d17-convocation-de-lassemblee-generale",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Convocation de l’Assemblée Générale Ordinaire annuelle",
+ "sous": "Décision du conseil d’administration d’une société anonyme : convocation de l’Assemblée Générale Ordinaire annuelle.",
+ "resume": "PV du conseil d’administration – Convocation de l’Assemblée Générale Ordinaire annuelle : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Convocation de l’Assemblée Générale Ordinaire annuelle",
+ "fileBase": "PV du conseil d’administration – Convocation de l’Assemblée Générale Ordinaire annuelle",
+ "headline": "PV du conseil d’administration – Convocation de l’Assemblée Générale Ordinaire annuelle",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Convocation de l’Assemblée Générale Ordinaire annuelle",
+   "champs": [
+    {
+     "id": "champ_073",
+     "type": "date",
+     "label": "Assemblée Générale Ordinaire annuelle le",
+     "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…"
+    },
+    {
+     "id": "champ_074",
+     "type": "text",
+     "label": "À",
+     "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…",
+     "aide": "…Assemblée Générale Ordinaire annuelle le à ▢ au à l’effet de…"
+    },
+    {
+     "id": "champ_075",
+     "type": "text",
+     "label": "Au",
+     "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…",
+     "aide": "…Générale Ordinaire annuelle le à au ▢ à l’effet de délibérer…"
+    },
+    {
+     "id": "champ_076",
+     "type": "text",
+     "label": "L’ordre du jour ainsi arrêté",
+     "group": "En conséquence de ce qui précède, le Conseil, sur la proposition de son…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d17-convocation-de-lassemblee-generale.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_073": "2000-01-01",
+  "champ_074": "Exemple",
+  "champ_075": "Exemple",
+  "champ_076": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Convocation de l’Assemblée Générale Ordinaire annuelle**"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence de ce qui précède, le Conseil, sur la proposition de son Président, décide de convoquer les actionnaires en Assemblée Générale Ordinaire annuelle le {{champ_073}} à {{champ_074}}, au {{champ_075}} à l’effet de délibérer sur l’ordre du jour ainsi arrêté {{champ_076}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

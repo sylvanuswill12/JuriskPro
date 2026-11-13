@@ -110,6 +110,7 @@ Un lieu, une date ou une valeur qui change d'un dossier à l'autre ne doit jamai
 - `tools/relabel.py <projet>` : renomme les libellés trop génériques à partir du texte voisin.
 - `tools/year_jm.py <projet>` : un champ date placé juste sous « L'AN DEUX MIL … » utilise `{{id_jm}}` pour ne pas afficher deux années.
 - `tools/split_sarl.py` : sépare un fichier Word qui contient plusieurs versions (modèle simplifié / développé / autres actes) en autant de modèles distincts. **Règle** : deux versions d'un même acte = deux modèles, jamais un seul.
+- `tools/split_multi.py <projet>` (v40) : sépare les Word qui regroupent plusieurs actes — autres actes de constitution de SARL (5), tableaux (4), procès-verbaux d'assemblée générale ordinaire SA/SAS (17 résolutions) et procès-verbaux du conseil d'administration SA (33 décisions) — en modèles indépendants (un Word, un PDF et un formulaire par acte). **Règle** : plusieurs actes dans un même Word = plusieurs modèles ; `etapesAuChoix` n'est plus utilisé par défaut. Les variantes de clauses d'un même acte (ex. convention d'actionnaires) ne sont pas séparées. Après `split_multi.py`, relancer `tools/chain.sh <projet>` puis `tools/set_required.py <projet>`.
 
 ## Mêmes règles pour tous les modèles, convertis ou non (v39)
 

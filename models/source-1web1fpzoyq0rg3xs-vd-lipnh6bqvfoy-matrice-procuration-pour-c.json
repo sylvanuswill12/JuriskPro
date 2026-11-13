@@ -1,495 +1,495 @@
 {
-  "id": "source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c",
-  "cat": "procurations-actes-divers",
-  "sub": "Matrices de procuration",
-  "titre": "Procuration pour céder",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Procuration pour céder : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices procuration",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "8 min",
-  "docTitle": "Procuration pour céder",
-  "fileBase": "Procuration pour céder",
-  "headline": "Procuration pour céder",
-  "etapes": [
+ "id": "source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c",
+ "cat": "procurations-actes-divers",
+ "sub": "Matrices de procuration",
+ "titre": "Procuration pour céder",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Procuration pour céder : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices procuration",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "8 min",
+ "docTitle": "Procuration pour céder",
+ "fileBase": "Procuration pour céder",
+ "headline": "Procuration pour céder",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Procuration pour",
+   "titre": "Procuration pour ceder",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Procuration pour",
-      "titre": "Procuration pour ceder",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "PARDEVANT Maître",
-          "group": "PARDEVANT Maître …, Notaire à …,",
-          "profil": "maitre",
-          "pq": "notaire"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "PARDEVANT Maître …, Notaire à …,"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mademoiselle … Etudiante, demeurant à …"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Mademoiselle … Etudiante, demeurant à …",
-          "aide": "…Mademoiselle Etudiante demeurant à ▢"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité ….",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Née à",
-          "group": "Née à … , le …",
-          "aide": "…Née à ▢ le…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Née à … , le …",
-          "aide": "…Née à ▢ le…"
-        },
-        {
-          "id": "champ_007",
-          "type": "date",
-          "label": "Date",
-          "group": "Née à … , le …",
-          "aide": "…Née à le ▢"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Nom",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "PARDEVANT Maître",
+     "group": "PARDEVANT Maître …, Notaire à …,",
+     "profil": "maitre",
+     "pq": "notaire"
     },
     {
-      "id": "partie-2",
-      "court": "A comparu",
-      "titre": "A comparu",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Prénoms",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;"
-        },
-        {
-          "id": "profession",
-          "type": "text",
-          "label": "Profession",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;",
-          "aide": "…administrateur des services financiers demeurant à ▢ BP…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Avant « BP »",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;",
-          "aide": "…administrateur des services financiers demeurant à ▢ BP…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Avant « BP »",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;",
-          "aide": "…administrateur des services financiers demeurant à ▢ BP…"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "BP",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;",
-          "aide": "…des services financiers demeurant à BP ▢"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Constitué pour son mandataire spécial",
-          "group": "Monsieur … , …, demeurant à … , … BP … ;",
-          "aide": "…des services financiers demeurant à BP ▢"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "De terrain urbain située à",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "D’une superficie de",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
-          "aide": "…urbain située à d’une superficie de ▢ mètres carrés formant le…"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Carrés formant le lot numéro",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        },
-        {
-          "id": "lotissement",
-          "type": "text",
-          "label": "Lotissement",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        },
-        {
-          "id": "commune",
-          "type": "text",
-          "label": "Commune",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
-          "aide": "…carrés formant le lot numéro de ▢ -LES-DEUX-PLATEAUX immatriculée au nom…"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "De l’Etat sous le numéro",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        },
-        {
-          "id": "circonscription_fonciere",
-          "type": "text",
-          "label": "Circonscription foncière",
-          "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
-        }
-      ]
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "PARDEVANT Maître …, Notaire à …,"
     },
     {
-      "id": "partie-3",
-      "court": "Dont acte",
-      "titre": "Dont acte en brevet",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Modèle de l’Etude de Maître",
-          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "01BP",
-          "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…",
-          "aide": "…à République de Côte d’Ivoire 01BP ▢ 01…"
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Fait et passé à",
-          "group": "Fait et passé à …"
-        },
-        {
-          "id": "champ_023",
-          "type": "text",
-          "label": "Année (en lettres, à la suite de « L’an deux mille »)",
-          "group": "L’an DEUX MILLE …,",
-          "aide": "…L’an DEUX MILLE ▢"
-        },
-        {
-          "id": "jour_mois_signature",
-          "type": "text",
-          "label": "Jour et mois de signature (en lettres)",
-          "group": "Le …"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mademoiselle … Etudiante, demeurant à …"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_003",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Mademoiselle … Etudiante, demeurant à …",
+     "aide": "…Mademoiselle Etudiante demeurant à ▢"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité ….",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Née à",
+     "group": "Née à … , le …",
+     "aide": "…Née à ▢ le…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Née à … , le …",
+     "aide": "…Née à ▢ le…"
+    },
+    {
+     "id": "champ_007",
+     "type": "date",
+     "label": "Date",
+     "group": "Née à … , le …",
+     "aide": "…Née à le ▢"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Nom",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;"
     }
-  ],
-  "doc": [
-    {
-      "k": "tit",
-      "text": "**PROCURATION POUR CEDER**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PARDEVANT Maître {{champ_001}}, Notaire à {{ville_notaire}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**A COMPARU**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Mademoiselle {{champ_002}} Etudiante, demeurant à {{champ_003}}"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_004}}."
-    },
-    {
-      "k": "p",
-      "text": "Née à {{champ_005}} {{champ_006}}, le {{champ_007}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Lequel a, par ces présentes, constitué pour son mandataire spécial :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Monsieur {{champ_008}} {{champ_009}}, {{profession}}, demeurant à {{champ_010}} {{champ_011}}, {{champ_012}} BP {{champ_013}} {{champ_014}};"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Auquel il donne pouvoir de, pour lui et en son nom,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "CEDER conjointement et solidairement avec le mandataire, aux personnes, prix, charges et conditions que ledit mandataire jugera convenables,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Une parcelle de terrain urbain située à {{champ_015}} d’une superficie de {{champ_016}} ({{champ_017}}) mètres carrés formant le lot numéro {{champ_018}} de {{lotissement}}, immatriculée au nom de l’Etat sous le numéro {{champ_019}} de la circonscription foncière {{circonscription_fonciere_de}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ensemble les constructions édifiées sur ladite parcelle."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Etablir la désignation complète des biens cédés ; établir l’origine de propriété ; fixer l’époque d’entrée en jouissance, faire toutes déclarations sur les servitudes et sur l’urbanisme."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Obliger le CONSTITUANT conjointement et solidairement avec le mandataire, à toutes garanties et aux rapports de toutes mainlevées ainsi que de toutes justifications qu’il y aurait lieu ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Recevoir le prix soit comptant, soit aux termes convenus ou par anticipation, reconnaitre tous paiements antérieurs consentir toutes délégations aux créanciers inscrits, accepter toutes garanties, transporter avec ou sans garantie, tout ou parties du prix de cession."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire toutes affirmations prescrites par loi concernant la sincérité du prix de cession."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire toutes déclarations d’état civil et autres, déclarer notamment comme le comparant le fait ici :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Que son état civil est bien celui indiqué en tête des présentes ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Qu’il n’a jamais été et n’est pas en état de cessation de paiements, de règlement judiciaire, de faillite ou de liquidation de biens ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Qu’il n’est frappé d’aucune mesure d’incapacité légale ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De toutes sommes reçues, donner quittance.",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A défaut de paiement exercer toutes poursuites nécessaires depuis les préliminaires de la conciliation jusqu’à l’obtention de tous jugements et arrêts, produire à tous ordres et distributions, toucher le montant de toutes collocations.",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Aux effets ci-dessus, passer et signer tous actes, élire domicile, substituer et généralement faire le nécessaire.",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DONT ACTE EN BREVET**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Etabli sur modèle de l’Etude de Maître {{champ_020}} Notaire à {{ville_notaire}} (République de Côte d’Ivoire) 01BP {{champ_021}} {{ville_notaire}} 01.",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait et passé à {{champ_022}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "En l’Etude du notaire soussigné,",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "L’an DEUX MILLE {{champ_023}},",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Le {{jour_mois_signature}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Et, après lecture faite, le comparant a signé avec le Notaire.",
-      "al": "left",
-      "ind": 1
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c.docx",
-    "version": "5"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "2000-01-01",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "Exemple",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "commune": "Exemple",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "ville_notaire": "Abidjan",
-    "profession": "Comptable",
-    "lotissement": "Cocody-Les-Deux-Plateaux",
-    "circonscription_fonciere": "Bingerville",
-    "jour_mois_signature": "premier avril"
+  {
+   "id": "partie-2",
+   "court": "A comparu",
+   "titre": "A comparu",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Prénoms",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;"
+    },
+    {
+     "id": "profession",
+     "type": "text",
+     "label": "Profession",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;",
+     "aide": "…administrateur des services financiers demeurant à ▢ BP…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Avant « BP »",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;",
+     "aide": "…administrateur des services financiers demeurant à ▢ BP…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Avant « BP »",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;",
+     "aide": "…administrateur des services financiers demeurant à ▢ BP…"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "BP",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;",
+     "aide": "…des services financiers demeurant à BP ▢"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Constitué pour son mandataire spécial",
+     "group": "Monsieur … , …, demeurant à … , … BP … ;",
+     "aide": "…des services financiers demeurant à BP ▢"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "De terrain urbain située à",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "D’une superficie de",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
+     "aide": "…urbain située à d’une superficie de ▢ mètres carrés formant le…"
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Carrés formant le lot numéro",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    },
+    {
+     "id": "lotissement",
+     "type": "text",
+     "label": "Lotissement",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    },
+    {
+     "id": "commune",
+     "type": "text",
+     "label": "Commune",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…",
+     "aide": "…carrés formant le lot numéro de ▢ -LES-DEUX-PLATEAUX immatriculée au nom…"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "De l’Etat sous le numéro",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    },
+    {
+     "id": "circonscription_fonciere",
+     "type": "text",
+     "label": "Circonscription foncière",
+     "group": "Une parcelle de terrain urbain située à … d’une superficie de … (…)…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Dont acte",
+   "titre": "Dont acte en brevet",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Modèle de l’Etude de Maître",
+     "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "01BP",
+     "group": "Etabli sur modèle de l’Etude de Maître … Notaire à … (République de…",
+     "aide": "…à République de Côte d’Ivoire 01BP ▢ 01…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Fait et passé à",
+     "group": "Fait et passé à …"
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "Année (en lettres, à la suite de « L’an deux mille »)",
+     "group": "L’an DEUX MILLE …,",
+     "aide": "…L’an DEUX MILLE ▢"
+    },
+    {
+     "id": "jour_mois_signature",
+     "type": "text",
+     "label": "Jour et mois de signature (en lettres)",
+     "group": "Le …"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**PROCURATION POUR CEDER**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PARDEVANT Maître {{champ_001}}, Notaire à {{ville_notaire}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**A COMPARU**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Mademoiselle {{champ_002}} Etudiante, demeurant à {{champ_003}}"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_004}}."
+  },
+  {
+   "k": "p",
+   "text": "Née à {{champ_005}} {{champ_006}}, le {{champ_007}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Lequel a, par ces présentes, constitué pour son mandataire spécial :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Monsieur {{champ_008}} {{champ_009}}, {{profession}}, demeurant à {{champ_010}} {{champ_011}}, {{champ_012}} BP {{champ_013}} {{champ_014}};"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Auquel il donne pouvoir de, pour lui et en son nom,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "CEDER conjointement et solidairement avec le mandataire, aux personnes, prix, charges et conditions que ledit mandataire jugera convenables,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Une parcelle de terrain urbain située à {{champ_015}} d’une superficie de {{champ_016}} ({{champ_017}}) mètres carrés formant le lot numéro {{champ_018}} de {{lotissement}}, immatriculée au nom de l’Etat sous le numéro {{champ_019}} de la circonscription foncière {{circonscription_fonciere_de}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ensemble les constructions édifiées sur ladite parcelle."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Etablir la désignation complète des biens cédés ; établir l’origine de propriété ; fixer l’époque d’entrée en jouissance, faire toutes déclarations sur les servitudes et sur l’urbanisme."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Obliger le CONSTITUANT conjointement et solidairement avec le mandataire, à toutes garanties et aux rapports de toutes mainlevées ainsi que de toutes justifications qu’il y aurait lieu ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Recevoir le prix soit comptant, soit aux termes convenus ou par anticipation, reconnaitre tous paiements antérieurs consentir toutes délégations aux créanciers inscrits, accepter toutes garanties, transporter avec ou sans garantie, tout ou parties du prix de cession."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire toutes affirmations prescrites par loi concernant la sincérité du prix de cession."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire toutes déclarations d’état civil et autres, déclarer notamment comme le comparant le fait ici :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Que son état civil est bien celui indiqué en tête des présentes ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Qu’il n’a jamais été et n’est pas en état de cessation de paiements, de règlement judiciaire, de faillite ou de liquidation de biens ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Qu’il n’est frappé d’aucune mesure d’incapacité légale ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De toutes sommes reçues, donner quittance.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A défaut de paiement exercer toutes poursuites nécessaires depuis les préliminaires de la conciliation jusqu’à l’obtention de tous jugements et arrêts, produire à tous ordres et distributions, toucher le montant de toutes collocations.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Aux effets ci-dessus, passer et signer tous actes, élire domicile, substituer et généralement faire le nécessaire.",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DONT ACTE EN BREVET**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Etabli sur modèle de l’Etude de Maître {{champ_020}} Notaire à {{ville_notaire}} (République de Côte d’Ivoire) 01BP {{champ_021}} {{ville_notaire}} 01.",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait et passé à {{champ_022}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "En l’Etude du notaire soussigné,",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "L’an DEUX MILLE {{champ_023}},",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Le {{jour_mois_signature}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Et, après lecture faite, le comparant a signé avec le Notaire.",
+   "al": "left",
+   "ind": 1
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1web1fpzoyq0rg3xs-vd-lipnh6bqvfoy-matrice-procuration-pour-c.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "2000-01-01",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "commune": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "ville_notaire": "Abidjan",
+  "profession": "Comptable",
+  "lotissement": "Cocody-Les-Deux-Plateaux",
+  "circonscription_fonciere": "Bingerville",
+  "jour_mois_signature": "premier avril"
+ }
 }

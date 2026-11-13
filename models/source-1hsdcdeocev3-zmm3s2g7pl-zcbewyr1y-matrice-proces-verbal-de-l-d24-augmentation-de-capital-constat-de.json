@@ -1,0 +1,142 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d24-augmentation-de-capital-constat-de",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire",
+ "sous": "Décision du conseil d’administration d’une société anonyme : augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire.",
+ "resume": "PV du conseil d’administration – Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "5 min",
+ "docTitle": "PV du conseil d’administration – Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire",
+ "fileBase": "PV du conseil d’administration – Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire",
+ "headline": "PV du conseil d’administration – Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire",
+   "champs": [
+    {
+     "id": "champ_108",
+     "type": "text",
+     "label": "Par l’Assemblée Générale Extraordinaire du",
+     "group": "Le Conseil après examen de la Déclaration Notariée de Souscription et…"
+    },
+    {
+     "id": "champ_109",
+     "type": "date",
+     "label": "Est devenue définitive le",
+     "group": "Le Conseil après examen de la Déclaration Notariée de Souscription et…"
+    },
+    {
+     "id": "champ_110",
+     "type": "text",
+     "label": "Modification apportée à l’article n°",
+     "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
+    },
+    {
+     "id": "champ_111",
+     "type": "text",
+     "label": "Par l’Assemblée Générale Extraordinaire du",
+     "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
+    },
+    {
+     "id": "champ_112",
+     "type": "text",
+     "label": "L’article n°",
+     "group": "Il constate qu’à la même date, la modification apportée à l’article n°……"
+    },
+    {
+     "id": "champ_113",
+     "type": "text",
+     "label": "Article n°",
+     "group": "Article n° … : capital social"
+    },
+    {
+     "id": "champ_114",
+     "type": "text",
+     "label": "Fixé à la somme de",
+     "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
+    },
+    {
+     "id": "champ_115",
+     "type": "text",
+     "label": "Divisé en",
+     "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
+    },
+    {
+     "id": "champ_116",
+     "type": "text",
+     "label": "Actions de",
+     "group": "Le capital social est fixé à la somme de … FCFA, divisé en … actions de…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d24-augmentation-de-capital-constat-de.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_108": "Exemple",
+  "champ_109": "2000-01-01",
+  "champ_110": "Exemple",
+  "champ_111": "Exemple",
+  "champ_112": "Exemple",
+  "champ_113": "Exemple",
+  "champ_114": "Exemple",
+  "champ_115": "Exemple",
+  "champ_116": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Augmentation de capital : constat de la réalisation définitive après Assemblée Générale Extraordinaire**"
+  },
+  {
+   "k": "p",
+   "text": "Après  en avoir délibéré, le Conseil adopte les résolutions suivantes :"
+  },
+  {
+   "k": "li",
+   "text": "Le Conseil après examen de la Déclaration Notariée de Souscription et de Versement, constate que l’augmentation de capital décidée par l’Assemblée Générale  Extraordinaire  du {{champ_108}} est devenue définitive le {{champ_109}}",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Il constate qu’à la même date, la modification apportée à l’article n°{{champ_110}} des statuts par l’Assemblée Générale Extraordinaire du {{champ_111}} est devenue définitive.  En conséquence, à compter de cette date, l’article n°{{champ_112}} des statuts est ainsi rédigé :",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "**Article n° {{champ_113}} : capital social**"
+  },
+  {
+   "k": "p",
+   "text": "Le capital social est fixé à la somme de {{champ_114}} FCFA, divisé en {{champ_115}} actions de {{champ_116}} FCFA chacune."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

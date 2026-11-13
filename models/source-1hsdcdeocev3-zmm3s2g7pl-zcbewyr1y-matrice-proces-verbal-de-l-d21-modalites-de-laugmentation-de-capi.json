@@ -1,0 +1,106 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d21-modalites-de-laugmentation-de-capi",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire",
+ "sous": "Décision du conseil d’administration d’une société anonyme : modalités de l’augmentation de capital après Assemblée Générale Extraordinaire.",
+ "resume": "PV du conseil d’administration – Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire",
+ "fileBase": "PV du conseil d’administration – Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire",
+ "headline": "PV du conseil d’administration – Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire",
+   "champs": [
+    {
+     "id": "champ_093",
+     "type": "text",
+     "label": "Actions nouvelles seront reçues du",
+     "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…"
+    },
+    {
+     "id": "champ_094",
+     "type": "text",
+     "label": "Au",
+     "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
+     "aide": "…actions nouvelles seront reçues du au ▢ inclus au…"
+    },
+    {
+     "id": "champ_241",
+     "type": "text",
+     "label": "Inclus",
+     "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…",
+     "aide": "…nouvelles seront reçues du au inclus ▢ au…"
+    },
+    {
+     "id": "champ_095",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Les souscriptions aux actions nouvelles seront reçues du … au … inclus…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d21-modalites-de-laugmentation-de-capi.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_093": "Exemple",
+  "champ_094": "Exemple",
+  "champ_241": "Exemple",
+  "champ_095": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Modalités de l’augmentation de capital après Assemblée Générale Extraordinaire**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil  arrête les décisions suivantes :"
+  },
+  {
+   "k": "li",
+   "text": "Les souscriptions aux actions nouvelles seront reçues du {{champ_093}} au {{champ_094}} inclus {{champ_241}} au {{champ_095}};",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "La souscription sera close dès que tous les droits de souscription à titre irréductible auront été exercés ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le montant  de l’augmentation de capital sera limité au montant des souscriptions recueillies à condition que celui-ci atteigne 97% de l’augmentation de capital autorisée par l’Assemblée Générale Extraordinaire.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

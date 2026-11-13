@@ -1,0 +1,151 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d10-cooptation-dadministrateurs",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Cooptation d’Administrateurs",
+ "sous": "Décision du conseil d’administration d’une société anonyme : cooptation d’Administrateurs.",
+ "resume": "PV du conseil d’administration – Cooptation d’Administrateurs : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "5 min",
+ "docTitle": "PV du conseil d’administration – Cooptation d’Administrateurs",
+ "fileBase": "PV du conseil d’administration – Cooptation d’Administrateurs",
+ "headline": "PV du conseil d’administration – Cooptation d’Administrateurs",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Cooptation d’Administrateurs",
+   "champs": [
+    {
+     "id": "champ_056",
+     "type": "text",
+     "label": "De la démission de M",
+     "group": "Le Président expose qu’un poste (ou plusieurs postes) d’Administrateur…"
+    },
+    {
+     "id": "champ_057",
+     "type": "text",
+     "label": "Administrateur en remplacement de M",
+     "group": "Il précise que le nombre d’Administrateurs restant n’est pas inférieur…"
+    },
+    {
+     "id": "champ_058",
+     "type": "text",
+     "label": "Le Conseil nomme M",
+     "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……"
+    },
+    {
+     "id": "champ_059",
+     "type": "text",
+     "label": "À l’unanimité ou à",
+     "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……",
+     "opt": true
+    },
+    {
+     "id": "champ_060",
+     "type": "text",
+     "label": "Voix contre",
+     "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……",
+     "opt": true
+    },
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "Après en avoir délibéré, le Conseil nomme M … (à l’unanimité ou à ……"
+    },
+    {
+     "id": "champ_062",
+     "type": "text",
+     "label": "Si la nomination de M",
+     "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…"
+    },
+    {
+     "id": "champ_226",
+     "type": "text",
+     "label": "Soit jusqu’à",
+     "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…",
+     "aide": "…mandat de son prédécesseur soit jusqu’à ▢ l’Assemblée Générale Ordinaire qui…"
+    },
+    {
+     "id": "champ_063",
+     "type": "date",
+     "label": "Comptes de l’exercice clos le",
+     "group": "Si la nomination de M … est ratifiée par cette Assemblée Générale,…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d10-cooptation-dadministrateurs.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_056": "Exemple",
+  "champ_057": "Exemple",
+  "champ_058": "Exemple",
+  "champ_059": "Exemple",
+  "champ_060": "Exemple",
+  "champ_061": "Exemple",
+  "champ_062": "Exemple",
+  "champ_226": "Exemple",
+  "champ_063": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Cooptation d’Administrateurs**"
+  },
+  {
+   "k": "p",
+   "text": "(Délai : 3 mois maximum à compter du jour ou se produit la vacance)"
+  },
+  {
+   "k": "p",
+   "text": "Le Président expose qu’un poste (ou plusieurs postes) d’Administrateur est vacant du fait du décès ou de la démission de M {{champ_056}}"
+  },
+  {
+   "k": "p",
+   "text": "Il précise que le nombre d’Administrateurs restant n’est pas inférieur au minimum statutaire, mais est égal ou supérieur au minimum légal, il y a lieu  de procéder à la nomination  d’un nouvel Administrateur en remplacement de M {{champ_057}}"
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibéré, le Conseil nomme M {{champ_058}} (à l’unanimité ou à {{champ_059}} voix contre {{champ_060}} voix) en remplacement de M {{champ_061}} à titre provisoire."
+  },
+  {
+   "k": "p",
+   "text": "Cette nomination sera soumise  à la ratification de la prochaine Assemblée Générale Ordinaire."
+  },
+  {
+   "k": "p",
+   "text": "Si la nomination de M {{champ_062}} est ratifiée par cette Assemblée Générale, celui-ci conservera ses fonctions pour la durée restant à courir du mandat de son prédécesseur, soit jusqu’à {{champ_226}} l’Assemblée Générale Ordinaire qui statuera sur les comptes de l’exercice clos le {{champ_063}}"
+  },
+  {
+   "k": "p",
+   "text": "(Si l’Administrateur est coopté est présent, terminer par l’acceptation du mandat en précisant l’absence d’interdiction et/ou d’incompatibilités)."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

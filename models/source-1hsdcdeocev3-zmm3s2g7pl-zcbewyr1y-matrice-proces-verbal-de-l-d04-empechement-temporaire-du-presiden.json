@@ -1,0 +1,110 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d04-empechement-temporaire-du-presiden",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général",
+ "sous": "Décision du conseil d’administration d’une société anonyme : empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général.",
+ "resume": "PV du conseil d’administration – Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général",
+ "fileBase": "PV du conseil d’administration – Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général",
+ "headline": "PV du conseil d’administration – Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général",
+   "champs": [
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "De M",
+     "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
+     "aide": "…acte de l’empêchement temporaire de M ▢ Président du Conseil d’Administration…"
+    },
+    {
+     "id": "champ_221",
+     "type": "text",
+     "label": "Depuis",
+     "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
+     "aide": "…d’Administration ou de Président-Directeur Général depuis ▢ le…"
+    },
+    {
+     "id": "champ_018",
+     "type": "date",
+     "label": "Date",
+     "group": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement…",
+     "aide": "…ou de Président-Directeur Général depuis le ▢"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Conseil d’Administration délègue à M",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Pour une durée de",
+     "group": "En remplacement de M …, le Conseil d’Administration délègue à M ……"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d04-empechement-temporaire-du-presiden.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_017": "Exemple",
+  "champ_221": "Exemple",
+  "champ_018": "2000-01-01",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Empêchement temporaire du Président du Conseil d’Administration ou Président-Directeur Général**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration constate (ou prend acte de) l’empêchement temporaire, de  M {{champ_017}} Président du Conseil d’Administration (ou de Président-Directeur Général) depuis {{champ_221}} le {{champ_018}}"
+  },
+  {
+   "k": "p",
+   "text": "En remplacement de M {{champ_019}}, le Conseil d’Administration délègue à M {{champ_020}} Administrateurs, les fonctions de Président du Conseil d’Administration (ou de Président-Directeur Général) pour une durée de {{champ_021}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

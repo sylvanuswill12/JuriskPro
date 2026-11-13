@@ -1,0 +1,134 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d19-transfert-du-siege-social-en-toute",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville",
+ "sous": "Décision du conseil d’administration d’une société anonyme : transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville.",
+ "resume": "PV du conseil d’administration – Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville",
+ "fileBase": "PV du conseil d’administration – Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville",
+ "headline": "PV du conseil d’administration – Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville",
+   "champs": [
+    {
+     "id": "champ_077",
+     "type": "text",
+     "label": "Ancienne adresse",
+     "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
+    },
+    {
+     "id": "champ_235",
+     "type": "text",
+     "label": "Avant « à à compter du »",
+     "group": "Le Conseil d’Administration propose le transfert du siège social de … à…",
+     "aide": "…le transfert du siège social de ▢ à à compter du…"
+    },
+    {
+     "id": "champ_078",
+     "type": "text",
+     "label": "Nouvelle adresse",
+     "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
+    },
+    {
+     "id": "champ_079",
+     "type": "date",
+     "label": "À compter du",
+     "group": "Le Conseil d’Administration propose le transfert du siège social de … à…"
+    },
+    {
+     "id": "champ_080",
+     "type": "text",
+     "label": "Territoire étranger d’une autre ville",
+     "group": "Le Conseil d’Administration propose le transfert du siège social de … à…",
+     "aide": "…compter du pour les raisons suivantes ▢"
+    },
+    {
+     "id": "champ_081",
+     "type": "date",
+     "label": "Date",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
+     "aide": "…de convoquer l’Assemblée Générale Extraordinaire le ▢ à heures au à…"
+    },
+    {
+     "id": "champ_082",
+     "type": "text",
+     "label": "Heure",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
+     "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
+    },
+    {
+     "id": "champ_083",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d19-transfert-du-siege-social-en-toute.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_077": "Exemple",
+  "champ_235": "Exemple",
+  "champ_078": "Exemple",
+  "champ_079": "2000-01-01",
+  "champ_080": "Exemple",
+  "champ_081": "2000-01-01",
+  "champ_082": "Exemple",
+  "champ_083": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Transfert du siège social en toute autre ville de l’Etat partie ou sur le territoire étranger d’une autre ville**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration propose le transfert du siège social de {{champ_077}} {{champ_235}} à {{champ_078}} à compter du {{champ_079}} pour les raisons suivantes : {{champ_080}}."
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_081}} à {{champ_082}} heures au {{champ_083}} à l’effet de délibérer sur l’ordre du jour suivant :"
+  },
+  {
+   "k": "p",
+   "text": "Transfert du siège social",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Puis le Conseil d’ Administration arrête les grandes lignes de son rapport qui sera présenté à l’Assemblée Générale Extraordinaire."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

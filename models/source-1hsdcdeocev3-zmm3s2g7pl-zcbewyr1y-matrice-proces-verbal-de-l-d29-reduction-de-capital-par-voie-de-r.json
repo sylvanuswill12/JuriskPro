@@ -1,0 +1,147 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d29-reduction-de-capital-par-voie-de-r",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Réduction de capital par voie de remboursement",
+ "sous": "Décision du conseil d’administration d’une société anonyme : réduction de capital par voie de remboursement.",
+ "resume": "PV du conseil d’administration – Réduction de capital par voie de remboursement : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Réduction de capital par voie de remboursement",
+ "fileBase": "PV du conseil d’administration – Réduction de capital par voie de remboursement",
+ "headline": "PV du conseil d’administration – Réduction de capital par voie de remboursement",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Réduction de capital par voie de remboursement",
+   "champs": [
+    {
+     "id": "champ_150",
+     "type": "text",
+     "label": "Pour le ramener de FCFA",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…"
+    },
+    {
+     "id": "champ_151",
+     "type": "text",
+     "label": "À FCFA",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…",
+     "aide": "…le ramener de FCFA à FCFA ▢ par voie de remboursement…"
+    },
+    {
+     "id": "champ_152",
+     "type": "text",
+     "label": "Action d’une somme de FCFA",
+     "group": "Après en avoir délibéré, le Conseil d’Administration décide de proposer…"
+    },
+    {
+     "id": "champ_153",
+     "type": "date",
+     "label": "Date",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
+     "aide": "…de convoquer l’Assemblée Générale Extraordinaire le ▢ à heures au à…"
+    },
+    {
+     "id": "champ_154",
+     "type": "text",
+     "label": "Heure",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…",
+     "aide": "…convoquer l’Assemblée Générale Extraordinaire le à ▢ heures au à l’effet…"
+    },
+    {
+     "id": "champ_155",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Le Conseil d’Administration décide de convoquer l’Assemblée Générale…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d29-reduction-de-capital-par-voie-de-r.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_150": "Exemple",
+  "champ_151": "Exemple",
+  "champ_152": "Exemple",
+  "champ_153": "2000-01-01",
+  "champ_154": "Exemple",
+  "champ_155": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Réduction de capital par voie de remboursement**"
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibéré, le Conseil d’Administration décide de proposer à l’Assemblée Générale Extraordinaire un projet de réduction de capital pour le ramener de FCFA {{champ_150}} à  FCFA {{champ_151}} par voie de remboursement à chaque action d’une somme de  FCFA {{champ_152}}"
+  },
+  {
+   "k": "p",
+   "text": "Cette réduction sera réalisée par diminution de la valeur nominale (ou encore par réduction du nombre des actions)."
+  },
+  {
+   "k": "p",
+   "text": "Cette réduction non motivée par des pertes ouvrira un droit d’opposition des créanciers dans un délai de 30 jours à compter du jour de dépôt du procès-verbal de la délibération de l’Assemblée Générale Extraordinaire qui a décidé la réduction de capital."
+  },
+  {
+   "k": "p",
+   "text": "Le  Conseil d’Administration décide de convoquer l’Assemblée Générale Extraordinaire   le {{champ_153}} à {{champ_154}} heures au {{champ_155}} à l’effet de délibérer sur l’ordre du jour suivant :"
+  },
+  {
+   "k": "li",
+   "text": "Rapport du Conseil d’Administration,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Rapport  du Commissaire aux comptes,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Réduction du capital,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Modification corrélative des statuts,",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Pouvoirs.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Puis le Conseil d’Administration arrête les grandes lignes de son rapport qui sera présenté à l’Assemblée Générale Extraordinaire."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

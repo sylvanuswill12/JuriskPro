@@ -1,142 +1,142 @@
 {
-  "id": "source-1j3c8n783cqnwli1fp9qtwqwuc4lgbynp-matrice-convocation-des-me",
-  "cat": "societes-associations",
-  "sub": "Matrices des actes",
-  "titre": "Convocation des membres du conseil d’administration",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Convocation des membres du conseil d’administration : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices des actes",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "4 min",
-  "docTitle": "Convocation des membres du conseil d’administration",
-  "fileBase": "Convocation des membres du conseil d’administration",
-  "headline": "Convocation des membres du conseil d’administration",
-  "etapes": [
+ "id": "source-1j3c8n783cqnwli1fp9qtwqwuc4lgbynp-matrice-convocation-des-me",
+ "cat": "societes-associations",
+ "sub": "Matrices des actes",
+ "titre": "Convocation des membres du conseil d’administration",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Convocation des membres du conseil d’administration : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices des actes",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "4 min",
+ "docTitle": "Convocation des membres du conseil d’administration",
+ "fileBase": "Convocation des membres du conseil d’administration",
+ "headline": "Convocation des membres du conseil d’administration",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Papier entete",
+   "titre": "Papier entete",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Papier entete",
-      "titre": "Papier entete",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "M …,"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Lieu",
-          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Avant « le heures à l’effet »",
-          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
-          "aide": "…notre société qui aura lieu à ▢ le heures à l’effet…"
-        },
-        {
-          "id": "champ_004",
-          "type": "date",
-          "label": "Date",
-          "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
-          "aide": "…société qui aura lieu à le ▢ heures à l’effet de…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Veuillez agréer, M …, l’expression de nos sentiments distingués."
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M …,"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_002",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Avant « le heures à l’effet »",
+     "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
+     "aide": "…notre société qui aura lieu à ▢ le heures à l’effet…"
+    },
+    {
+     "id": "champ_004",
+     "type": "date",
+     "label": "Date",
+     "group": "Nous vous prions d’assister à la réunion du conseil d’administration de…",
+     "aide": "…société qui aura lieu à le ▢ heures à l’effet de…"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Veuillez agréer, M …, l’expression de nos sentiments distingués."
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "PAPIER ENTETE",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "M",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Administrateur",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Adresse",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "M {{champ_001}},",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nous vous prions d’assister à la réunion du conseil d’administration de notre société qui aura lieu à {{champ_002}} {{champ_003}}, le {{champ_004}} heures    à l’effet de délibérer sur l’ordre du jour suivant :",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Veuillez agréer, M {{champ_005}}, l’expression de nos sentiments distingués.",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le conseil d’administration",
-      "al": "left",
-      "ind": 6
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1j3c8n783cqnwli1fp9qtwqwuc4lgbynp-matrice-convocation-des-me.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "2000-01-01",
-    "champ_005": "Exemple"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "PAPIER ENTETE",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "M",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Administrateur",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Adresse",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_001}},",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nous vous prions d’assister à la réunion du conseil d’administration de notre société qui aura lieu à {{champ_002}} {{champ_003}}, le {{champ_004}} heures    à l’effet de délibérer sur l’ordre du jour suivant :",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Veuillez agréer, M {{champ_005}}, l’expression de nos sentiments distingués.",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le conseil d’administration",
+   "al": "left",
+   "ind": 6
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1j3c8n783cqnwli1fp9qtwqwuc4lgbynp-matrice-convocation-des-me.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "2000-01-01",
+  "champ_005": "Exemple"
+ }
 }

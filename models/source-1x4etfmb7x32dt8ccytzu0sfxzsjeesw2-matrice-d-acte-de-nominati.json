@@ -1,435 +1,435 @@
 {
-  "id": "source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati",
-  "cat": "societes-associations",
-  "sub": "Matrices des actes",
-  "titre": "Acte de nomination du président d’une SAS (OHADA)",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Acte de nomination du président d’une SAS (OHADA) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices des actes",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "8 min",
-  "docTitle": "Acte de nomination du président d’une SAS (OHADA)",
-  "fileBase": "Acte de nomination du président d’une SAS (OHADA)",
-  "headline": "Acte de nomination du président d’une SAS (OHADA)",
-  "etapes": [
+ "id": "source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati",
+ "cat": "societes-associations",
+ "sub": "Matrices des actes",
+ "titre": "Acte de nomination du président d’une SAS (OHADA)",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Acte de nomination du président d’une SAS (OHADA) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices des actes",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "8 min",
+ "docTitle": "Acte de nomination du président d’une SAS (OHADA)",
+ "fileBase": "Acte de nomination du président d’une SAS (OHADA)",
+ "headline": "Acte de nomination du président d’une SAS (OHADA)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Partie 1",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Partie 1",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "denomination",
-          "type": "text",
-          "label": "Dénomination sociale",
-          "aide": "▢"
-        },
-        {
-          "id": "capital",
-          "type": "money",
-          "label": "Capital social",
-          "group": "Société par Actions Simplifiée au capital de … F CFA"
-        },
-        {
-          "id": "siege",
-          "type": "area",
-          "label": "Siège ou adresse",
-          "group": "Siège social : …",
-          "aide": "…Siège social ▢"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "M …"
-        },
-        {
-          "id": "champ_002",
-          "type": "date",
-          "label": "Date",
-          "group": "né(e) le … à …",
-          "aide": "…né e le ▢ à…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "À",
-          "group": "né(e) le … à …",
-          "aide": "…né e le à ▢"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "demeurant à …",
-          "aide": "…demeurant à ▢"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "de nationalité …",
-          "aide": "…de nationalité ▢"
-        }
-      ]
+     "id": "denomination",
+     "type": "text",
+     "label": "Dénomination sociale",
+     "aide": "▢"
     },
     {
-      "id": "partie-2",
-      "court": "Partie 2",
-      "titre": "Associé(s) personne(s) morale(s)",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "La Société",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
-          "aide": "…La Société ▢ Société au capital de…"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Forme sociale",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Au capital de",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
-          "aide": "…La Société Société au capital de ▢ FCFA ayant son siège…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Ayant son siège social à",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Crédit Mobilier sous le numéro",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "RCCM",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
-          "aide": "…Crédit Mobilier sous le numéro RCCM ▢ représentée par M en…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Représentée par M",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
-          "aide": "…le numéro RCCM représentée par M ▢ en qualité de dûment…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "En qualité de",
-          "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
-          "aide": "…représentée par M en qualité de ▢ dûment habilité à l'effet…"
-        }
-      ]
+     "id": "capital",
+     "type": "money",
+     "label": "Capital social",
+     "group": "Société par Actions Simplifiée au capital de … F CFA"
     },
     {
-      "id": "partie-3",
-      "court": "I –",
-      "titre": "I – Nomination du Président",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Avant « demeurant au pour une »",
-          "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
-          "aide": "▢ demeurant au pour une…"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Demeurant au",
-          "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
-          "aide": "…demeurant au ▢ pour une durée indéterminée…"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Président percevra une rémunération de",
-          "group": "Le Président percevra une rémunération de …"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "III Rémunération du Président",
-          "group": "Le Président percevra une rémunération de …",
-          "aide": "…Le Président percevra une rémunération de ▢"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Fait à",
-          "group": "Fait à …",
-          "aide": "…Fait à ▢",
-          "profil": "ville"
-        },
-        {
-          "id": "champ_018",
-          "type": "date",
-          "label": "Date",
-          "group": "Le …",
-          "aide": "…Le ▢"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "En",
-          "group": "En … exemplaires originaux.",
-          "aide": "…En ▢ exemplaires originaux…"
-        }
-      ]
+     "id": "siege",
+     "type": "area",
+     "label": "Siège ou adresse",
+     "group": "Siège social : …",
+     "aide": "…Siège social ▢"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M …"
+    },
+    {
+     "id": "champ_002",
+     "type": "date",
+     "label": "Date",
+     "group": "né(e) le … à …",
+     "aide": "…né e le ▢ à…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "À",
+     "group": "né(e) le … à …",
+     "aide": "…né e le à ▢"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "demeurant à …",
+     "aide": "…demeurant à ▢"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "de nationalité …",
+     "aide": "…de nationalité ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**{{denomination}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "Société par Actions Simplifiée au capital de {{capital}} F CFA",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "Siège social : {{siege}}",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "EN COURS DE CONSTITUTION ACTE DE NOMINATION DU PRESIDENT",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les soussignés :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Associé(s) personne(s) physique(s)**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "M {{champ_001}}"
-    },
-    {
-      "k": "p",
-      "text": "né(e) le {{champ_002}} à {{champ_003}}"
-    },
-    {
-      "k": "p",
-      "text": "demeurant à {{champ_004}}"
-    },
-    {
-      "k": "p",
-      "text": "de nationalité {{champ_005}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Associé(s) personne(s) morale(s)**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La Société {{champ_006}}, Société {{champ_020}} au capital de {{champ_007}} FCFA ayant son siège social à {{champ_008}} immatriculée au Registre du Commerce et du Crédit Mobilier sous le numéro {{champ_009}} RCCM {{champ_010}} représentée par M {{champ_011}}, en qualité de {{champ_012}} dûment habilité à l'effet des présentes."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Se sont réunis à l’issue de la signature des statuts de la Société {{denomination}} pour désigner d’un commun accord le premier Président de la Société, conformément aux dispositions de l’article 16 des Statuts de ladite Société."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A cet effet, ils ont convenu ce qui suit :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**I – Nomination du Président**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les soussignés nomment en qualité de Président de la Société :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_013}} demeurant au {{champ_014}}, pour une durée indéterminée, qui n’entrera effectivement en fonction qu’à partir du jour où la Société aura été immatriculée au Registre du Commerce et du Crédit Mobilier, et qui déclare accepter les fonctions qui viennent de lui être confiées."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il affirme n’être frappé d’aucune incapacité, interdiction ou déchéance susceptible de l’empêcher d’exercer ce mandat."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**II – Pouvoirs du Président**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Président exercera ses fonctions dans le cadre des dispositions légales et réglementaires et dans les conditions prévues au titre du Chapitre IV des Statuts."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**III – Rémunération du Président**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Président percevra une rémunération de {{champ_015}} {{champ_016}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En outre, il aura droit au remboursement de ses frais de représentation et de déplacement, sur justificatifs."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait à {{champ_017}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le {{champ_018}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En {{champ_019}} exemplaires originaux."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Signature des actionnaires"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Signature du Président nominé"
-    },
-    {
-      "k": "p",
-      "text": "(précédée de la mention « Lu et approuvé et bon pour acceptation des fonctions de Président»)"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "denomination": "SOCIETE EXEMPLE",
-    "capital": "1000000",
-    "siege": "Exemple",
-    "champ_001": "Exemple",
-    "champ_002": "2000-01-01",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_020": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "Exemple",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "2000-01-01",
-    "champ_019": "Exemple"
+  {
+   "id": "partie-2",
+   "court": "Partie 2",
+   "titre": "Associé(s) personne(s) morale(s)",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "La Société",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
+     "aide": "…La Société ▢ Société au capital de…"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Forme sociale",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Au capital de",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
+     "aide": "…La Société Société au capital de ▢ FCFA ayant son siège…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Ayant son siège social à",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Crédit Mobilier sous le numéro",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "RCCM",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
+     "aide": "…Crédit Mobilier sous le numéro RCCM ▢ représentée par M en…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Représentée par M",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
+     "aide": "…le numéro RCCM représentée par M ▢ en qualité de dûment…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "En qualité de",
+     "group": "La Société …, Société … au capital de … FCFA ayant son siège social à ……",
+     "aide": "…représentée par M en qualité de ▢ dûment habilité à l'effet…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "I –",
+   "titre": "I – Nomination du Président",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Avant « demeurant au pour une »",
+     "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
+     "aide": "▢ demeurant au pour une…"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Demeurant au",
+     "group": "… demeurant au …, pour une durée indéterminée, qui n’entrera…",
+     "aide": "…demeurant au ▢ pour une durée indéterminée…"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Président percevra une rémunération de",
+     "group": "Le Président percevra une rémunération de …"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "III Rémunération du Président",
+     "group": "Le Président percevra une rémunération de …",
+     "aide": "…Le Président percevra une rémunération de ▢"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Fait à",
+     "group": "Fait à …",
+     "aide": "…Fait à ▢",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_018",
+     "type": "date",
+     "label": "Date",
+     "group": "Le …",
+     "aide": "…Le ▢"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "En",
+     "group": "En … exemplaires originaux.",
+     "aide": "…En ▢ exemplaires originaux…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**{{denomination}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "Société par Actions Simplifiée au capital de {{capital}} F CFA",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "Siège social : {{siege}}",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "EN COURS DE CONSTITUTION ACTE DE NOMINATION DU PRESIDENT",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les soussignés :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Associé(s) personne(s) physique(s)**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_001}}"
+  },
+  {
+   "k": "p",
+   "text": "né(e) le {{champ_002}} à {{champ_003}}"
+  },
+  {
+   "k": "p",
+   "text": "demeurant à {{champ_004}}"
+  },
+  {
+   "k": "p",
+   "text": "de nationalité {{champ_005}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Associé(s) personne(s) morale(s)**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La Société {{champ_006}}, Société {{champ_020}} au capital de {{champ_007}} FCFA ayant son siège social à {{champ_008}} immatriculée au Registre du Commerce et du Crédit Mobilier sous le numéro {{champ_009}} RCCM {{champ_010}} représentée par M {{champ_011}}, en qualité de {{champ_012}} dûment habilité à l'effet des présentes."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Se sont réunis à l’issue de la signature des statuts de la Société {{denomination}} pour désigner d’un commun accord le premier Président de la Société, conformément aux dispositions de l’article 16 des Statuts de ladite Société."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A cet effet, ils ont convenu ce qui suit :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**I – Nomination du Président**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les soussignés nomment en qualité de Président de la Société :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_013}} demeurant au {{champ_014}}, pour une durée indéterminée, qui n’entrera effectivement en fonction qu’à partir du jour où la Société aura été immatriculée au Registre du Commerce et du Crédit Mobilier, et qui déclare accepter les fonctions qui viennent de lui être confiées."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il affirme n’être frappé d’aucune incapacité, interdiction ou déchéance susceptible de l’empêcher d’exercer ce mandat."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**II – Pouvoirs du Président**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président exercera ses fonctions dans le cadre des dispositions légales et réglementaires et dans les conditions prévues au titre du Chapitre IV des Statuts."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**III – Rémunération du Président**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président percevra une rémunération de {{champ_015}} {{champ_016}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En outre, il aura droit au remboursement de ses frais de représentation et de déplacement, sur justificatifs."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_017}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le {{champ_018}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En {{champ_019}} exemplaires originaux."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Signature des actionnaires"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Signature du Président nominé"
+  },
+  {
+   "k": "p",
+   "text": "(précédée de la mention « Lu et approuvé et bon pour acceptation des fonctions de Président»)"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1x4etfmb7x32dt8ccytzu0sfxzsjeesw2-matrice-d-acte-de-nominati.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "denomination": "SOCIETE EXEMPLE",
+  "capital": "1000000",
+  "siege": "Exemple",
+  "champ_001": "Exemple",
+  "champ_002": "2000-01-01",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_020": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "2000-01-01",
+  "champ_019": "Exemple"
+ }
 }

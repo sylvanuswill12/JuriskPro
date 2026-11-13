@@ -1,192 +1,192 @@
 {
-  "id": "source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn",
-  "cat": "societes-associations",
-  "sub": "Matrices des actes",
-  "titre": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices des actes",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "4 min",
-  "docTitle": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
-  "fileBase": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
-  "headline": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
-  "etapes": [
+ "id": "source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn",
+ "cat": "societes-associations",
+ "sub": "Matrices des actes",
+ "titre": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices des actes",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "4 min",
+ "docTitle": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
+ "fileBase": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
+ "headline": "Lettre aux actionnaires appelant le versement des fonds correspondant à la fraction non libérée",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Lettre recommandée",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Lettre recommandée",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_003",
-          "type": "date",
-          "label": "Par délibération en date du",
-          "group": "Par délibération en date du …, le conseil d’administration (ou…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Vous avez souscrit à",
-          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "De",
-          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…",
-          "aide": "…Vous avez souscrit à actions de ▢ F CFA chacune Votre…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Votre souscription s’élevant ainsi à",
-          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Donc libérer une somme de",
-          "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
-        },
-        {
-          "id": "champ_008",
-          "type": "date",
-          "label": "Convenance au plus tard le",
-          "group": "Nous vous demandons de bien vouloir procéder à ce règlement par tous…"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Nous vous prions",
-          "group": "Nous vous prions …"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Ou l’administrateur général",
-          "aide": "▢"
-        }
-      ]
+     "id": "champ_003",
+     "type": "date",
+     "label": "Par délibération en date du",
+     "group": "Par délibération en date du …, le conseil d’administration (ou…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_004",
+     "type": "text",
+     "label": "Vous avez souscrit à",
+     "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "De",
+     "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…",
+     "aide": "…Vous avez souscrit à actions de ▢ F CFA chacune Votre…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Votre souscription s’élevant ainsi à",
+     "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Donc libérer une somme de",
+     "group": "Vous avez souscrit à … actions, de … F CFA chacune. Votre souscription…"
+    },
+    {
+     "id": "champ_008",
+     "type": "date",
+     "label": "Convenance au plus tard le",
+     "group": "Nous vous demandons de bien vouloir procéder à ce règlement par tous…"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nous vous prions",
+     "group": "Nous vous prions …"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Ou l’administrateur général",
+     "aide": "▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "tit",
-      "text": "**PAPIER ENTETE DE LA SOCIETE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Lettre recommandée**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Coordonnées de l’actionnaire",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Adresse",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Le date",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Objet : demande de libération des  parts sociales que vous avez souscrites",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Par délibération en date du {{champ_003}}, le conseil d’administration (ou l’administrateur général) a décidé de faire procéder à la libération intégrale (ou du ¼, ½) du capital.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Vous avez souscrit à {{champ_004}} actions, de {{champ_005}} F CFA chacune. Votre souscription s’élevant ainsi à {{champ_006}} F CFA, a été libérée du quart (½ ou ¾) lors de la constitution (ou de l’augmentation du capital) ; vous devez donc libérer une somme de {{champ_007}} FCA.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nous vous demandons de bien vouloir procéder à ce règlement par tous moyens à votre convenance au plus tard le {{champ_008}}, délai fixé par le conseil d’administration (ou l’administrateur général).",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nous vous rappelons que les sommes non libérées dans ledit délai seront productives de l’intérêt légal sans préjudice de dommages et intérêts s’il y a lieu.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Dans cette attente,",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nous vous prions {{champ_001}}",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Président du Conseil d’Administration",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "(Ou l’administrateur général)",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_002}}",
-      "al": "left"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_003": "2000-01-01",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "2000-01-01",
-    "champ_001": "Exemple",
-    "champ_002": "Exemple"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**PAPIER ENTETE DE LA SOCIETE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Lettre recommandée**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Coordonnées de l’actionnaire",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Adresse",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Le date",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Objet : demande de libération des  parts sociales que vous avez souscrites",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Par délibération en date du {{champ_003}}, le conseil d’administration (ou l’administrateur général) a décidé de faire procéder à la libération intégrale (ou du ¼, ½) du capital.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Vous avez souscrit à {{champ_004}} actions, de {{champ_005}} F CFA chacune. Votre souscription s’élevant ainsi à {{champ_006}} F CFA, a été libérée du quart (½ ou ¾) lors de la constitution (ou de l’augmentation du capital) ; vous devez donc libérer une somme de {{champ_007}} FCA.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nous vous demandons de bien vouloir procéder à ce règlement par tous moyens à votre convenance au plus tard le {{champ_008}}, délai fixé par le conseil d’administration (ou l’administrateur général).",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nous vous rappelons que les sommes non libérées dans ledit délai seront productives de l’intérêt légal sans préjudice de dommages et intérêts s’il y a lieu.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Dans cette attente,",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nous vous prions {{champ_001}}",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président du Conseil d’Administration",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "(Ou l’administrateur général)",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_002}}",
+   "al": "left"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1q8ne5mwlsri1gevntws9hti45tiofzvm-matrice-lettre-aux-actionn.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_003": "2000-01-01",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "2000-01-01",
+  "champ_001": "Exemple",
+  "champ_002": "Exemple"
+ }
 }

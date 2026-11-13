@@ -1,473 +1,473 @@
 {
-  "id": "source-1i51kgseiawncqyeo0l1tfqs4aarbf0vv-9-pv-statutant-sur-les-pro",
-  "cat": "societes-associations",
-  "sub": "OHADA",
-  "titre": "Procès-verbal statuant sur les projets de résolutions",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Procès-verbal statuant sur les projets de résolutions : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "ohada",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "10 min",
-  "docTitle": "Procès-verbal statuant sur les projets de résolutions",
-  "fileBase": "Procès-verbal statuant sur les projets de résolutions",
-  "headline": "Procès-verbal statuant sur les projets de résolutions",
-  "etapes": [
+ "id": "source-1i51kgseiawncqyeo0l1tfqs4aarbf0vv-9-pv-statutant-sur-les-pro",
+ "cat": "societes-associations",
+ "sub": "OHADA",
+ "titre": "Procès-verbal statuant sur les projets de résolutions",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Procès-verbal statuant sur les projets de résolutions : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "ohada",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "10 min",
+ "docTitle": "Procès-verbal statuant sur les projets de résolutions",
+ "fileBase": "Procès-verbal statuant sur les projets de résolutions",
+ "headline": "Procès-verbal statuant sur les projets de résolutions",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Procès-verbal statuant sur les projets de résolutions",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Procès-verbal statuant sur les projets de résolutions",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Dénomination sociale"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Montant",
-          "group": "au capital de … CFA",
-          "aide": "…au capital de ▢ CFA…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Numéro et rue",
-          "group": "Siège social : …"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Boîte postale"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Ville",
-          "aide": "▢"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Numéro",
-          "group": "… RCCM …",
-          "aide": "▢ RCCM…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Ville",
-          "group": "… RCCM …",
-          "aide": "…RCCM ▢"
-        },
-        {
-          "id": "champ_008",
-          "type": "date",
-          "label": "DATE",
-          "group": "PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU …",
-          "aide": "…LA REUNION DU CONSEIL D'ADMINISTRATION DU ▢"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Dénomination sociale"
     },
     {
-      "id": "partie-2",
-      "court": "Société anonyme",
-      "titre": "Société anonyme avec Conseil d'administration",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "date",
-          "label": "Date de la réunion",
-          "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Heure",
-          "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
-          "aide": "…Le à ▢ le Conseil d'administration s'est…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Lieu",
-          "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
-          "aide": "…à le Conseil d'administration s'est réuni ▢ sur convocation de son…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Nom du membre du Conseil présent à la réunion du Conseil",
-          "group": "• …"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Nom du membre du Conseil représenté",
-          "group": "• …, par …"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Nom du membre du Conseil représentant",
-          "group": "• …, par …"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Nom du membre du Conseil absent",
-          "group": "• …"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Nom du Président",
-          "group": "La réunion est présidée par …, Président du Conseil d'administration."
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Nom de ou Dénomination de l'actionnaire",
-          "group": "…, actionnaire détenant … % du capital de la Société,"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Pourcentage",
-          "group": "…, actionnaire détenant … % du capital de la Société,"
-        },
-        {
-          "id": "champ_019",
-          "type": "date",
-          "label": "Date",
-          "group": "justifiant des formalités prévues par la réglementation, la demande…",
-          "aide": "…jour de l'assemblée générale extraordinaire du ▢ du projet de résolution…"
-        },
-        {
-          "id": "champ_020",
-          "type": "area",
-          "label": "Désignation du projet de résolution"
-        },
-        {
-          "id": "champ_021",
-          "type": "area",
-          "label": "Texte du projet",
-          "group": "Texte proposé : …"
-        },
-        {
-          "id": "champ_022",
-          "type": "area",
-          "label": "Exposé des motifs de la demande"
-        },
-        {
-          "id": "champ_023",
-          "type": "area",
-          "label": "Désignation du projet de résolution",
-          "group": "- Pour le projet : …"
-        },
-        {
-          "id": "champ_024",
-          "type": "area",
-          "label": "Texte du projet",
-          "group": "Texte proposé : …"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Nombre de voix pour",
-          "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
-        },
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Nombre de voix contre",
-          "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "Nombre de voix contre",
-          "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
-        },
-        {
-          "id": "champ_028",
-          "type": "text",
-          "label": "Nombre de voix pour",
-          "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "Heure",
-          "group": "Plus rien n'étant à l'ordre du jour, la séance est levée à ….",
-          "aide": "…jour la séance est levée à ▢"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "Nom du membre du conseil"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "Montant",
+     "group": "au capital de … CFA",
+     "aide": "…au capital de ▢ CFA…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_003",
+     "type": "text",
+     "label": "Numéro et rue",
+     "group": "Siège social : …"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Boîte postale"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Ville",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Numéro",
+     "group": "… RCCM …",
+     "aide": "▢ RCCM…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Ville",
+     "group": "… RCCM …",
+     "aide": "…RCCM ▢"
+    },
+    {
+     "id": "champ_008",
+     "type": "date",
+     "label": "DATE",
+     "group": "PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU …",
+     "aide": "…LA REUNION DU CONSEIL D'ADMINISTRATION DU ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**Procès-verbal statuant sur les projets de résolutions**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_001}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Société anonyme avec Conseil d'administration**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**au capital de {{champ_002}} CFA**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Siège social : {{champ_003}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_004}} {{champ_005}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_006}} RCCM {{champ_007}}**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU {{champ_008}}",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le {{champ_009}}, à {{champ_010}}, le Conseil d'administration s'est réuni {{champ_011}}, sur convocation de son Président."
-    },
-    {
-      "k": "p",
-      "text": "Sont présents et ont signé le registre de présence :"
-    },
-    {
-      "k": "p",
-      "text": "• {{champ_012}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Si certains membres du Conseil sont représentés"
-    },
-    {
-      "k": "p",
-      "text": "Sont représentés :"
-    },
-    {
-      "k": "p",
-      "text": "• {{champ_013}}, par {{champ_014}}"
-    },
-    {
-      "k": "p",
-      "text": "Si certains membres du Conseil sont absents et non représentés"
-    },
-    {
-      "k": "p",
-      "text": "Sont absents et non-représentés :"
-    },
-    {
-      "k": "p",
-      "text": "• {{champ_015}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La réunion est présidée par {{champ_016}}, Président du Conseil d'administration."
-    },
-    {
-      "k": "p",
-      "text": "Le Président constate que les administrateurs présents réunissent la moitié au moins des membres en fonction et que le Conseil d'administration peut valablement délibérer."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Si un actionnaire a présenté des projets de résolutions"
-    },
-    {
-      "k": "p",
-      "text": "Le Président expose au Conseil d'administration qu'il a reçu de :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "-"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_017}}, actionnaire détenant {{champ_018}} % du capital de la Société,"
-    },
-    {
-      "k": "p",
-      "text": "justifiant des formalités prévues par la réglementation, la demande d'inscription à l'ordre du jour de l'assemblée générale extraordinaire du {{champ_019}} du projet de résolution suivant :"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_020}}"
-    },
-    {
-      "k": "p",
-      "text": "Texte proposé : {{champ_021}}"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_022}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il rappelle qu'il convient de statuer sur ces projets de résolutions, étant précisé que l'agrément ou non du Conseil d'administration déterminera l'utilisation des pouvoirs en blanc en faveur ou pour le rejet des projets."
-    },
-    {
-      "k": "p",
-      "text": "Après en avoir délibéré, le Conseil d'administration décide :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Si un actionnaire a présenté des projets de résolutions"
-    },
-    {
-      "k": "p",
-      "text": "-  Pour le projet : {{champ_023}}"
-    },
-    {
-      "k": "p",
-      "text": "Texte proposé : {{champ_024}}"
-    },
-    {
-      "k": "p",
-      "text": "- d'agréer à l'unanimité- d'agréer par {{champ_025}} voix contre {{champ_026}} voix- de ne pas agréer par {{champ_027}} voix contre {{champ_028}} voix le projet de résolution."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Plus rien n'étant à l'ordre du jour, la séance est levée à {{champ_029}}."
-    },
-    {
-      "k": "p",
-      "text": "Il a été dressé le présent procès-verbal qui, après lecture, a été signé par le Président de Séance et un administrateur."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Le Président                              Un administrateur**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_016}}                                  {{champ_030}}**",
-      "al": "left"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1i51kgseiawncqyeo0l1tfqs4aarbf0vv-9-pv-statutant-sur-les-pro.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "2000-01-01",
-    "champ_009": "2000-01-01",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "Exemple",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_019": "2000-01-01",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "Exemple",
-    "champ_028": "Exemple",
-    "champ_029": "Exemple",
-    "champ_030": "Exemple"
+  {
+   "id": "partie-2",
+   "court": "Société anonyme",
+   "titre": "Société anonyme avec Conseil d'administration",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "date",
+     "label": "Date de la réunion",
+     "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Heure",
+     "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
+     "aide": "…Le à ▢ le Conseil d'administration s'est…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Le …, à …, le Conseil d'administration s'est réuni …, sur convocation…",
+     "aide": "…à le Conseil d'administration s'est réuni ▢ sur convocation de son…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Nom du membre du Conseil présent à la réunion du Conseil",
+     "group": "• …"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Nom du membre du Conseil représenté",
+     "group": "• …, par …"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Nom du membre du Conseil représentant",
+     "group": "• …, par …"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Nom du membre du Conseil absent",
+     "group": "• …"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Nom du Président",
+     "group": "La réunion est présidée par …, Président du Conseil d'administration."
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Nom de ou Dénomination de l'actionnaire",
+     "group": "…, actionnaire détenant … % du capital de la Société,"
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Pourcentage",
+     "group": "…, actionnaire détenant … % du capital de la Société,"
+    },
+    {
+     "id": "champ_019",
+     "type": "date",
+     "label": "Date",
+     "group": "justifiant des formalités prévues par la réglementation, la demande…",
+     "aide": "…jour de l'assemblée générale extraordinaire du ▢ du projet de résolution…"
+    },
+    {
+     "id": "champ_020",
+     "type": "area",
+     "label": "Désignation du projet de résolution"
+    },
+    {
+     "id": "champ_021",
+     "type": "area",
+     "label": "Texte du projet",
+     "group": "Texte proposé : …"
+    },
+    {
+     "id": "champ_022",
+     "type": "area",
+     "label": "Exposé des motifs de la demande"
+    },
+    {
+     "id": "champ_023",
+     "type": "area",
+     "label": "Désignation du projet de résolution",
+     "group": "- Pour le projet : …"
+    },
+    {
+     "id": "champ_024",
+     "type": "area",
+     "label": "Texte du projet",
+     "group": "Texte proposé : …"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Nombre de voix pour",
+     "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Nombre de voix contre",
+     "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Nombre de voix contre",
+     "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "Nombre de voix pour",
+     "group": "- d'agréer à l'unanimité- d'agréer par … voix contre … voix- de ne pas…"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Heure",
+     "group": "Plus rien n'étant à l'ordre du jour, la séance est levée à ….",
+     "aide": "…jour la séance est levée à ▢"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Nom du membre du conseil"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Procès-verbal statuant sur les projets de résolutions**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_001}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Société anonyme avec Conseil d'administration**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**au capital de {{champ_002}} CFA**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Siège social : {{champ_003}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_004}} {{champ_005}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_006}} RCCM {{champ_007}}**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU {{champ_008}}",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le {{champ_009}}, à {{champ_010}}, le Conseil d'administration s'est réuni {{champ_011}}, sur convocation de son Président."
+  },
+  {
+   "k": "p",
+   "text": "Sont présents et ont signé le registre de présence :"
+  },
+  {
+   "k": "p",
+   "text": "• {{champ_012}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Si certains membres du Conseil sont représentés"
+  },
+  {
+   "k": "p",
+   "text": "Sont représentés :"
+  },
+  {
+   "k": "p",
+   "text": "• {{champ_013}}, par {{champ_014}}"
+  },
+  {
+   "k": "p",
+   "text": "Si certains membres du Conseil sont absents et non représentés"
+  },
+  {
+   "k": "p",
+   "text": "Sont absents et non-représentés :"
+  },
+  {
+   "k": "p",
+   "text": "• {{champ_015}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La réunion est présidée par {{champ_016}}, Président du Conseil d'administration."
+  },
+  {
+   "k": "p",
+   "text": "Le Président constate que les administrateurs présents réunissent la moitié au moins des membres en fonction et que le Conseil d'administration peut valablement délibérer."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Si un actionnaire a présenté des projets de résolutions"
+  },
+  {
+   "k": "p",
+   "text": "Le Président expose au Conseil d'administration qu'il a reçu de :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "-"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_017}}, actionnaire détenant {{champ_018}} % du capital de la Société,"
+  },
+  {
+   "k": "p",
+   "text": "justifiant des formalités prévues par la réglementation, la demande d'inscription à l'ordre du jour de l'assemblée générale extraordinaire du {{champ_019}} du projet de résolution suivant :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_020}}"
+  },
+  {
+   "k": "p",
+   "text": "Texte proposé : {{champ_021}}"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_022}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il rappelle qu'il convient de statuer sur ces projets de résolutions, étant précisé que l'agrément ou non du Conseil d'administration déterminera l'utilisation des pouvoirs en blanc en faveur ou pour le rejet des projets."
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibéré, le Conseil d'administration décide :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Si un actionnaire a présenté des projets de résolutions"
+  },
+  {
+   "k": "p",
+   "text": "-  Pour le projet : {{champ_023}}"
+  },
+  {
+   "k": "p",
+   "text": "Texte proposé : {{champ_024}}"
+  },
+  {
+   "k": "p",
+   "text": "- d'agréer à l'unanimité- d'agréer par {{champ_025}} voix contre {{champ_026}} voix- de ne pas agréer par {{champ_027}} voix contre {{champ_028}} voix le projet de résolution."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Plus rien n'étant à l'ordre du jour, la séance est levée à {{champ_029}}."
+  },
+  {
+   "k": "p",
+   "text": "Il a été dressé le présent procès-verbal qui, après lecture, a été signé par le Président de Séance et un administrateur."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Le Président                              Un administrateur**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_016}}                                  {{champ_030}}**",
+   "al": "left"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1i51kgseiawncqyeo0l1tfqs4aarbf0vv-9-pv-statutant-sur-les-pro.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "2000-01-01",
+  "champ_009": "2000-01-01",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "2000-01-01",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple"
+ }
 }

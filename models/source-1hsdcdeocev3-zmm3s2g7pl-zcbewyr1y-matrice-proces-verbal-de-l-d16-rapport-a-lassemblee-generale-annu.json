@@ -1,0 +1,56 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d16-rapport-a-lassemblee-generale-annu",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Rapport à l’Assemblée Générale annuelle",
+ "sous": "Décision du conseil d’administration d’une société anonyme : rapport à l’Assemblée Générale annuelle.",
+ "resume": "PV du conseil d’administration – Rapport à l’Assemblée Générale annuelle : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Rapport à l’Assemblée Générale annuelle",
+ "fileBase": "PV du conseil d’administration – Rapport à l’Assemblée Générale annuelle",
+ "headline": "PV du conseil d’administration – Rapport à l’Assemblée Générale annuelle",
+ "etapes": [
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d16-rapport-a-lassemblee-generale-annu.docx",
+  "version": "5"
+ },
+ "exemple": {},
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Rapport à l’Assemblée Générale annuelle**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil arête ensuite les termes du rapport qu’il présentera à l’assemblée, ainsi que le texte des résolutions qui seront proposées au vote des actionnaires. Un exemplaire de ce rapport sera mis à la disposition du Commissaire aux comptes dans les plus courts    délais (si requis)."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

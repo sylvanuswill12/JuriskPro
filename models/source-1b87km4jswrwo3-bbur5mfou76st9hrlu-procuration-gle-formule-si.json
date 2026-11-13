@@ -1,603 +1,603 @@
 {
-  "id": "source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si",
-  "cat": "procurations-actes-divers",
-  "sub": "Matrices de procuration",
-  "titre": "Procuration générale (formule simplifiée)",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Procuration générale (formule simplifiée) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices procuration",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "10 min",
-  "docTitle": "Procuration générale (formule simplifiée)",
-  "fileBase": "Procuration générale (formule simplifiée)",
-  "headline": "Procuration générale (formule simplifiée)",
-  "etapes": [
+ "id": "source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si",
+ "cat": "procurations-actes-divers",
+ "sub": "Matrices de procuration",
+ "titre": "Procuration générale (formule simplifiée)",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Procuration générale (formule simplifiée) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices procuration",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "10 min",
+ "docTitle": "Procuration générale (formule simplifiée)",
+ "fileBase": "Procuration générale (formule simplifiée)",
+ "headline": "Procuration générale (formule simplifiée)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Partie 1",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Partie 1",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "reference_etude",
-          "type": "text",
-          "label": "Référence de l’étude",
-          "opt": true,
-          "aide": "▢"
-        },
-        {
-          "id": "annee_acte",
-          "type": "text",
-          "label": "Année (en lettres, à la suite de « L’AN DEUX »)",
-          "group": "L’AN DEUX …",
-          "aide": "…L’AN DEUX ▢"
-        },
-        {
-          "id": "champ_002",
-          "type": "date",
-          "label": "Date",
-          "group": "LE …",
-          "aide": "…LE ▢"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "À compléter le nom et adresse du Notaire ou de l’Ambassadeur",
-          "group": "PARDEVANT …"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Nom",
-          "group": "Monsieur … , …, demeurant à … BP. … , …"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Prénoms",
-          "group": "Monsieur … , …, demeurant à … BP. … , …"
-        },
-        {
-          "id": "profession",
-          "type": "text",
-          "label": "Profession",
-          "group": "Monsieur … , …, demeurant à … BP. … , …"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Monsieur … , …, demeurant à … BP. … , …",
-          "aide": "…Monsieur demeurant à ▢ BP…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Information à compléter",
-          "group": "Monsieur … , …, demeurant à … BP. … , …",
-          "aide": "…Monsieur demeurant à BP ▢"
-        },
-        {
-          "id": "ville_bp",
-          "type": "text",
-          "label": "Ville de la boîte postale",
-          "group": "Monsieur … , …, demeurant à … BP. … , …"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "A COMPARU",
-          "group": "Monsieur … , …, demeurant à … BP. … , …",
-          "aide": "…Monsieur demeurant à BP ▢"
-        }
-      ]
+     "id": "reference_etude",
+     "type": "text",
+     "label": "Référence de l’étude",
+     "opt": true,
+     "aide": "▢"
     },
     {
-      "id": "partie-2",
-      "court": "A comparu",
-      "titre": "A comparu",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Né à",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_011",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à … , le …",
-          "aide": "…Né à le ▢"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Epoux de Madame",
-          "opt": true,
-          "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Sous",
-          "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
-          "aide": "…avec laquelle il est marié sous ▢ à le…"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "À",
-          "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
-          "aide": "…laquelle il est marié sous à ▢ le…"
-        },
-        {
-          "id": "champ_015",
-          "type": "date",
-          "label": "Date",
-          "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
-          "aide": "…il est marié sous à le ▢"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité … ,",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "A COMPARU",
-          "group": "De nationalité … ,",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Carte de Séjour d’Etranger N°",
-          "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…"
-        },
-        {
-          "id": "lieu_delivrance",
-          "type": "text",
-          "label": "Lieu de délivrance de la pièce d’identité",
-          "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…"
-        },
-        {
-          "id": "champ_019",
-          "type": "date",
-          "label": "Valable jusqu’au",
-          "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…",
-          "aide": "…d’Etranger N° établie à valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Madame … épouse …, demeurant à … BP. … ,"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Épouse",
-          "opt": true,
-          "group": "Madame … épouse …, demeurant à … BP. … ,",
-          "aide": "…Madame épouse ▢ demeurant à BP…"
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Demeurant à",
-          "opt": true,
-          "group": "Madame … épouse …, demeurant à … BP. … ,",
-          "aide": "…Madame épouse demeurant à ▢ BP…"
-        },
-        {
-          "id": "champ_023",
-          "type": "text",
-          "label": "Information à compléter",
-          "group": "Madame … épouse …, demeurant à … BP. … ,",
-          "aide": "…Madame épouse demeurant à BP ▢"
-        },
-        {
-          "id": "ville_bp_2",
-          "type": "text",
-          "label": "Ville de la boîte postale",
-          "group": "Madame … épouse …, demeurant à … BP. … ,"
-        },
-        {
-          "id": "champ_024",
-          "type": "text",
-          "label": "Code de la boîte postale (ex. : 01)",
-          "group": "Madame … épouse …, demeurant à … BP. … ,"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Etc",
-          "group": "Retirer de tous bureaux postaux et de toutes administrations telles que…",
-          "aide": "…que chemins de fer douanes etc ▢ ou recevoir à domicile…"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Etc",
-          "group": "Retirer de tous bureaux postaux et de toutes administrations telles que…",
-          "aide": "…lettres ou tous paquets colis etc ▢ chargés ou non chargés…"
-        },
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "DONT ACTE",
-          "group": "DONT ACTE …"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "prenom_notaire",
-          "type": "text",
-          "label": "Prénom du notaire",
-          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…",
-          "aide": "…modèle émanant de l’Etude de Maître ▢ Notaire à République de…",
-          "profil": "prenom",
-          "pq": "notaire"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…"
-        },
-        {
-          "id": "notaire_bp",
-          "type": "text",
-          "label": "Boîte postale du notaire",
-          "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "À compléter par le Notaire le nom de la ville",
-          "group": "Fait et passé à …"
-        }
-      ]
+     "id": "annee_acte",
+     "type": "text",
+     "label": "Année (en lettres, à la suite de « L’AN DEUX »)",
+     "group": "L’AN DEUX …",
+     "aide": "…L’AN DEUX ▢"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_002",
+     "type": "date",
+     "label": "Date",
+     "group": "LE …",
+     "aide": "…LE ▢"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "À compléter le nom et adresse du Notaire ou de l’Ambassadeur",
+     "group": "PARDEVANT …"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Nom",
+     "group": "Monsieur … , …, demeurant à … BP. … , …"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Prénoms",
+     "group": "Monsieur … , …, demeurant à … BP. … , …"
+    },
+    {
+     "id": "profession",
+     "type": "text",
+     "label": "Profession",
+     "group": "Monsieur … , …, demeurant à … BP. … , …"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Monsieur … , …, demeurant à … BP. … , …",
+     "aide": "…Monsieur demeurant à ▢ BP…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Information à compléter",
+     "group": "Monsieur … , …, demeurant à … BP. … , …",
+     "aide": "…Monsieur demeurant à BP ▢"
+    },
+    {
+     "id": "ville_bp",
+     "type": "text",
+     "label": "Ville de la boîte postale",
+     "group": "Monsieur … , …, demeurant à … BP. … , …"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "A COMPARU",
+     "group": "Monsieur … , …, demeurant à … BP. … , …",
+     "aide": "…Monsieur demeurant à BP ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "{{reference_etude}}",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**PROCURATION GENERALE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’AN DEUX {{annee_acte}}"
-    },
-    {
-      "k": "p",
-      "text": "LE {{champ_002_jm}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PARDEVANT {{champ_003}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**A COMPARU**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Monsieur {{champ_004}} {{champ_005}}, {{profession}}, demeurant à {{champ_006}} BP. {{champ_007}} {{ville_bp}}, {{champ_008}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{champ_009}} {{champ_010}}, le {{champ_011}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Epoux  de Madame {{champ_012}} avec laquelle il est marié      sous {{champ_013}} à {{champ_014}} le {{champ_015}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_016}} {{champ_017}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire  de  la Carte  de Séjour d’Etranger N° {{champ_018}} établie à {{lieu_delivrance}}, valable jusqu’au {{champ_019}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A par ces présentes constitué pour sa mandataire générale et spéciale"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Madame {{champ_020}} épouse {{champ_021}}, demeurant  à {{champ_022}} BP. {{champ_023}} {{ville_bp_2}} {{champ_024}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**A laquelle **il donne pouvoir, de pour lui et en son nom :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A l’effet de :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire tous actes d’administration et d’aliénation concernant les biens et affaires présents et à venir du constituant, sans autre limitation que les emprunts sous quelque forme que ce soit."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En conséquence, et sans nuire à cette généralité :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire tous baux, locations et polongations pour le temps et aux prix et conditions que le mandataire jugera à propos ; résilier tous baux et locations avec ou sans indemnité ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire faire toutes réparations, grosses et menues ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Contracter toutes assurances contre tous risques quelconques ; les résilier ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire tous dépôts de sommes et valeurs dans telles banques que le mandataire avisera, les retirer ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire tous emplois de fonds, soit en acquisitions de valeurs ou d’immeubles, soit en placements hypothécaires ou autres ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Prendre part également à toutes réunions et assemblées d’actionnaires ou de membre de sociétés dans lesquelles le constituant pourrait avoir des droits ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Représenter le constituant à toutes délibérations de conseil de famille ; nommer tous tuteurs, subrogés tuteur ou curateurs, donner ou refuser toutes autorisations."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Retirer de tous bureaux postaux et de toutes administrations telles que chemins de fer, douanes, etc {{champ_025}} ou recevoir à domicile, toutes lettres ou tous paquets, colis, etc {{champ_001}} chargés ou non chargés, recommandés ou non recommandés, à l’adresse du constituant, toucher tous mandats postaux et télégraphiques ; faire toutes réclamations, donner toutes garanties ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Acquitter et endosser tous chèques quelconques ; remettre tous chèques en paiement ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toucher tous revenus et toutes sommes en principal et accessoires qui peuvent et pourront être dues au constituant à quelque titre que ce soit, soit seul, soit indivisément avec tous autres ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Payer toutes celles qu’il pourrait devoir ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Retirer tous titres, papiers et valeurs qui se trouveraient aux mains de qui que ce soit ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Exercer toutes actions judiciaires et y défendre et ce depuis les préliminaires de la conciliation jusqu’à l’exécution complète de tous jugements et arrêts ; acquiescer à toutes sentences ; se désister de tous appels ; faire toutes saisies ; consentir à la conversion de toutes saisies immobilières en ventes sur publications volontaires ; produire à tous ordres et contributions ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Donner toutes quittances et décharges ; consentir toutes subrogation avec ou sans garantie et toutes antériorités ; faire mainlevée totale ou partielle de tous inscriptions avec désistement de tous droits réels et avec ou sans constatation de paiement ; faire également mainlevée, avec ou sans paiement, de toutes oppositions et saisies ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faire toutes déclarations d’état civil et autres ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Substituer totalement ou partiellement ; révoquer tous mandats et substitutions, passer et signer tous actes, élire domicile."
-    },
-    {
-      "k": "p",
-      "text": "**DONT ACTE** {{champ_026}}",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "(Sur modèle émanant de l’Etude de Maître **{{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}} – République de COTE D’IVOIRE {{notaire_bp}} {{ville_notaire}} 01)."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait et passé à {{champ_027}}",
-      "ind": 2
-    },
-    {
-      "k": "p",
-      "text": "Et après lecture faite, le Comparant a signé avec",
-      "ind": 2
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LE CONSTITUANT                                  LE NOTAIRE**"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si.docx",
-    "version": "6"
+   ]
   },
-  "exemple": {
-    "reference_etude": "Exemple",
-    "champ_002": "2000-01-01",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "2000-01-01",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "2000-01-01",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_019": "2000-01-01",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_001": "Exemple",
-    "champ_026": "Exemple",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple",
-    "notaire_bp": "Exemple",
-    "champ_027": "Exemple",
-    "profession": "Comptable",
-    "ville_bp": "Abidjan",
-    "lieu_delivrance": "Abidjan",
-    "ville_bp_2": "Abidjan",
-    "ville_notaire": "Abidjan",
-    "annee_acte": "mil vingt-six"
+  {
+   "id": "partie-2",
+   "court": "A comparu",
+   "titre": "A comparu",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Né à",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_011",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à … , le …",
+     "aide": "…Né à le ▢"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Epoux de Madame",
+     "opt": true,
+     "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Sous",
+     "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
+     "aide": "…avec laquelle il est marié sous ▢ à le…"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "À",
+     "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
+     "aide": "…laquelle il est marié sous à ▢ le…"
+    },
+    {
+     "id": "champ_015",
+     "type": "date",
+     "label": "Date",
+     "group": "Epoux de Madame … avec laquelle il est marié sous … à … le …",
+     "aide": "…il est marié sous à le ▢"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité … ,",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "A COMPARU",
+     "group": "De nationalité … ,",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Carte de Séjour d’Etranger N°",
+     "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…"
+    },
+    {
+     "id": "lieu_delivrance",
+     "type": "text",
+     "label": "Lieu de délivrance de la pièce d’identité",
+     "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…"
+    },
+    {
+     "id": "champ_019",
+     "type": "date",
+     "label": "Valable jusqu’au",
+     "group": "Titulaire de la Carte de Séjour d’Etranger N° … établie à …, valable…",
+     "aide": "…d’Etranger N° établie à valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Madame … épouse …, demeurant à … BP. … ,"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Épouse",
+     "opt": true,
+     "group": "Madame … épouse …, demeurant à … BP. … ,",
+     "aide": "…Madame épouse ▢ demeurant à BP…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Demeurant à",
+     "opt": true,
+     "group": "Madame … épouse …, demeurant à … BP. … ,",
+     "aide": "…Madame épouse demeurant à ▢ BP…"
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "Information à compléter",
+     "group": "Madame … épouse …, demeurant à … BP. … ,",
+     "aide": "…Madame épouse demeurant à BP ▢"
+    },
+    {
+     "id": "ville_bp_2",
+     "type": "text",
+     "label": "Ville de la boîte postale",
+     "group": "Madame … épouse …, demeurant à … BP. … ,"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "Code de la boîte postale (ex. : 01)",
+     "group": "Madame … épouse …, demeurant à … BP. … ,"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Etc",
+     "group": "Retirer de tous bureaux postaux et de toutes administrations telles que…",
+     "aide": "…que chemins de fer douanes etc ▢ ou recevoir à domicile…"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Etc",
+     "group": "Retirer de tous bureaux postaux et de toutes administrations telles que…",
+     "aide": "…lettres ou tous paquets colis etc ▢ chargés ou non chargés…"
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "DONT ACTE",
+     "group": "DONT ACTE …"
+    },
+    {
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…",
+     "profil": "nom",
+     "pq": "notaire"
+    },
+    {
+     "id": "prenom_notaire",
+     "type": "text",
+     "label": "Prénom du notaire",
+     "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…",
+     "aide": "…modèle émanant de l’Etude de Maître ▢ Notaire à République de…",
+     "profil": "prenom",
+     "pq": "notaire"
+    },
+    {
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…"
+    },
+    {
+     "id": "notaire_bp",
+     "type": "text",
+     "label": "Boîte postale du notaire",
+     "group": "(Sur modèle émanant de l’Etude de Maître … , Notaire à … – République…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "À compléter par le Notaire le nom de la ville",
+     "group": "Fait et passé à …"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "{{reference_etude}}",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PROCURATION GENERALE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’AN DEUX {{annee_acte}}"
+  },
+  {
+   "k": "p",
+   "text": "LE {{champ_002_jm}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PARDEVANT {{champ_003}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**A COMPARU**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Monsieur {{champ_004}} {{champ_005}}, {{profession}}, demeurant à {{champ_006}} BP. {{champ_007}} {{ville_bp}}, {{champ_008}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{champ_009}} {{champ_010}}, le {{champ_011}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Epoux  de Madame {{champ_012}} avec laquelle il est marié      sous {{champ_013}} à {{champ_014}} le {{champ_015}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_016}} {{champ_017}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire  de  la Carte  de Séjour d’Etranger N° {{champ_018}} établie à {{lieu_delivrance}}, valable jusqu’au {{champ_019}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A par ces présentes constitué pour sa mandataire générale et spéciale"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Madame {{champ_020}} épouse {{champ_021}}, demeurant  à {{champ_022}} BP. {{champ_023}} {{ville_bp_2}} {{champ_024}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**A laquelle **il donne pouvoir, de pour lui et en son nom :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A l’effet de :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire tous actes d’administration et d’aliénation concernant les biens et affaires présents et à venir du constituant, sans autre limitation que les emprunts sous quelque forme que ce soit."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence, et sans nuire à cette généralité :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire tous baux, locations et polongations pour le temps et aux prix et conditions que le mandataire jugera à propos ; résilier tous baux et locations avec ou sans indemnité ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire faire toutes réparations, grosses et menues ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Contracter toutes assurances contre tous risques quelconques ; les résilier ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire tous dépôts de sommes et valeurs dans telles banques que le mandataire avisera, les retirer ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire tous emplois de fonds, soit en acquisitions de valeurs ou d’immeubles, soit en placements hypothécaires ou autres ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Prendre part également à toutes réunions et assemblées d’actionnaires ou de membre de sociétés dans lesquelles le constituant pourrait avoir des droits ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Représenter le constituant à toutes délibérations de conseil de famille ; nommer tous tuteurs, subrogés tuteur ou curateurs, donner ou refuser toutes autorisations."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Retirer de tous bureaux postaux et de toutes administrations telles que chemins de fer, douanes, etc {{champ_025}} ou recevoir à domicile, toutes lettres ou tous paquets, colis, etc {{champ_001}} chargés ou non chargés, recommandés ou non recommandés, à l’adresse du constituant, toucher tous mandats postaux et télégraphiques ; faire toutes réclamations, donner toutes garanties ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Acquitter et endosser tous chèques quelconques ; remettre tous chèques en paiement ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toucher tous revenus et toutes sommes en principal et accessoires qui peuvent et pourront être dues au constituant à quelque titre que ce soit, soit seul, soit indivisément avec tous autres ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Payer toutes celles qu’il pourrait devoir ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Retirer tous titres, papiers et valeurs qui se trouveraient aux mains de qui que ce soit ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Exercer toutes actions judiciaires et y défendre et ce depuis les préliminaires de la conciliation jusqu’à l’exécution complète de tous jugements et arrêts ; acquiescer à toutes sentences ; se désister de tous appels ; faire toutes saisies ; consentir à la conversion de toutes saisies immobilières en ventes sur publications volontaires ; produire à tous ordres et contributions ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Donner toutes quittances et décharges ; consentir toutes subrogation avec ou sans garantie et toutes antériorités ; faire mainlevée totale ou partielle de tous inscriptions avec désistement de tous droits réels et avec ou sans constatation de paiement ; faire également mainlevée, avec ou sans paiement, de toutes oppositions et saisies ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faire toutes déclarations d’état civil et autres ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Substituer totalement ou partiellement ; révoquer tous mandats et substitutions, passer et signer tous actes, élire domicile."
+  },
+  {
+   "k": "p",
+   "text": "**DONT ACTE** {{champ_026}}",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "(Sur modèle émanant de l’Etude de Maître **{{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}} – République de COTE D’IVOIRE {{notaire_bp}} {{ville_notaire}} 01)."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait et passé à {{champ_027}}",
+   "ind": 2
+  },
+  {
+   "k": "p",
+   "text": "Et après lecture faite, le Comparant a signé avec",
+   "ind": 2
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LE CONSTITUANT                                  LE NOTAIRE**"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1b87km4jswrwo3-bbur5mfou76st9hrlu-procuration-gle-formule-si.docx",
+  "version": "6"
+ },
+ "exemple": {
+  "reference_etude": "Exemple",
+  "champ_002": "2000-01-01",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "2000-01-01",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "2000-01-01",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "2000-01-01",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_001": "Exemple",
+  "champ_026": "Exemple",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "prenom_notaire": "Exemple",
+  "notaire_bp": "Exemple",
+  "champ_027": "Exemple",
+  "profession": "Comptable",
+  "ville_bp": "Abidjan",
+  "lieu_delivrance": "Abidjan",
+  "ville_bp_2": "Abidjan",
+  "ville_notaire": "Abidjan",
+  "annee_acte": "mil vingt-six"
+ }
 }

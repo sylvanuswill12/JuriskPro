@@ -1,0 +1,129 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d22-augmentation-du-capital-limite-au",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire",
+ "sous": "Décision du conseil d’administration d’une société anonyme : augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire.",
+ "resume": "PV du conseil d’administration – Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire",
+ "fileBase": "PV du conseil d’administration – Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire",
+ "headline": "PV du conseil d’administration – Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire",
+   "champs": [
+    {
+     "id": "champ_096",
+     "type": "text",
+     "label": "Montant des souscriptions reçues du",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
+    },
+    {
+     "id": "champ_097",
+     "type": "text",
+     "label": "Au",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…",
+     "aide": "…montant des souscriptions reçues du au ▢ s’élève à FCFA représentant…"
+    },
+    {
+     "id": "champ_098",
+     "type": "text",
+     "label": "S’élève à FCFA",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
+    },
+    {
+     "id": "champ_099",
+     "type": "text",
+     "label": "L’augmentation de capital de FCFA",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
+    },
+    {
+     "id": "champ_100",
+     "type": "text",
+     "label": "Par l’Assemblée Générale Extraordinaire du",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…"
+    },
+    {
+     "id": "champ_101",
+     "type": "text",
+     "label": "Soit à FCFA",
+     "group": "Le Conseil d’Administration après avoir constaté que le montant des…",
+     "aide": "…des souscriptions recueillies soit à FCFA ▢"
+    },
+    {
+     "id": "champ_102",
+     "type": "text",
+     "label": "Comme suit les articles n°",
+     "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
+    },
+    {
+     "id": "champ_103",
+     "type": "text",
+     "label": "De capital limitée à FCFA",
+     "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d22-augmentation-du-capital-limite-au.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_096": "Exemple",
+  "champ_097": "Exemple",
+  "champ_098": "Exemple",
+  "champ_099": "Exemple",
+  "champ_100": "Exemple",
+  "champ_101": "Exemple",
+  "champ_102": "Exemple",
+  "champ_103": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Augmentation du capital limité au montant de souscriptions recueillies après Assemblée Générale Extraordinaire**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration après avoir constaté que le montant des souscriptions reçues du {{champ_096}} au {{champ_097}} s’élève à  FCFA {{champ_098}} représentant plus de 97 % de l’augmentation de capital de FCFA {{champ_099}} autorisée par l’Assemblée Générale Extraordinaire du {{champ_100}}, décide de limiter ladite augmentation de capital à la somme des souscriptions recueillies, soit à  FCFA {{champ_101}}"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration  usant des pouvoirs qui lui ont été conférés par l’article 580 de l’Acte Uniforme de l’OHADA relatif au Droit des Sociétés Commerciales et du GIE, décide de modifier comme suit les articles n° {{champ_102}} des statuts, sous réserve de la réalisation de l’augmentation de capital limitée à  FCFA {{champ_103}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

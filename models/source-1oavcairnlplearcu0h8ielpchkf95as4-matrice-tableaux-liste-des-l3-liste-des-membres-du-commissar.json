@@ -1,0 +1,584 @@
+{
+ "id": "source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l3-liste-des-membres-du-commissar",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Liste des membres du commissariat aux comptes",
+ "sous": "Tableau à compléter ligne par ligne, mise en page d’origine conservée.",
+ "resume": "Liste des membres du commissariat aux comptes : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "association",
+  "liste",
+  "commissariat aux comptes"
+ ],
+ "duree": "15 min",
+ "docTitle": "Liste des membres du commissariat aux comptes",
+ "fileBase": "Liste des membres du commissariat aux comptes",
+ "headline": "Liste des membres du commissariat aux comptes",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Liste 1",
+   "titre": "Liste des membres du commissariat aux comptes",
+   "champs": [
+    {
+     "id": "champ_101",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 1"
+    },
+    {
+     "id": "champ_102",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 1"
+    },
+    {
+     "id": "champ_103",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 1"
+    },
+    {
+     "id": "champ_104",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 1"
+    },
+    {
+     "id": "champ_105",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 1"
+    },
+    {
+     "id": "champ_106",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_107",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_108",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_109",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_110",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 2",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Liste 2",
+   "titre": "Liste des membres du commissariat aux comptes (suite)",
+   "champs": [
+    {
+     "id": "champ_111",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_112",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_113",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_114",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_115",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_116",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_117",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_118",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_119",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_120",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 4",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Liste 3",
+   "titre": "Liste des membres du commissariat aux comptes (suite)",
+   "champs": [
+    {
+     "id": "champ_121",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_122",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_123",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_124",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_125",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_126",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_127",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_128",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_129",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_130",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 6",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Liste 4",
+   "titre": "Liste des membres du commissariat aux comptes (suite)",
+   "champs": [
+    {
+     "id": "champ_131",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_132",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_133",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_134",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_135",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_136",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_137",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_138",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_139",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_140",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 8",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Liste 5",
+   "titre": "Liste des membres du commissariat aux comptes (suite)",
+   "champs": [
+    {
+     "id": "champ_141",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_142",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_143",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_144",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_145",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_146",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du commissariat aux comptes – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_147",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du commissariat aux comptes – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_148",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du commissariat aux comptes – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_149",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du commissariat aux comptes – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_150",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du commissariat aux comptes – ligne 10",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l3-liste-des-membres-du-commissar.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_101": "Exemple",
+  "champ_102": "Exemple",
+  "champ_103": "Exemple",
+  "champ_104": "Exemple",
+  "champ_105": "Exemple",
+  "champ_106": "Exemple",
+  "champ_107": "Exemple",
+  "champ_108": "Exemple",
+  "champ_109": "Exemple",
+  "champ_110": "Exemple",
+  "champ_111": "Exemple",
+  "champ_112": "Exemple",
+  "champ_113": "Exemple",
+  "champ_114": "Exemple",
+  "champ_115": "Exemple",
+  "champ_116": "Exemple",
+  "champ_117": "Exemple",
+  "champ_118": "Exemple",
+  "champ_119": "Exemple",
+  "champ_120": "Exemple",
+  "champ_121": "Exemple",
+  "champ_122": "Exemple",
+  "champ_123": "Exemple",
+  "champ_124": "Exemple",
+  "champ_125": "Exemple",
+  "champ_126": "Exemple",
+  "champ_127": "Exemple",
+  "champ_128": "Exemple",
+  "champ_129": "Exemple",
+  "champ_130": "Exemple",
+  "champ_131": "Exemple",
+  "champ_132": "Exemple",
+  "champ_133": "Exemple",
+  "champ_134": "Exemple",
+  "champ_135": "Exemple",
+  "champ_136": "Exemple",
+  "champ_137": "Exemple",
+  "champ_138": "Exemple",
+  "champ_139": "Exemple",
+  "champ_140": "Exemple",
+  "champ_141": "Exemple",
+  "champ_142": "Exemple",
+  "champ_143": "Exemple",
+  "champ_144": "Exemple",
+  "champ_145": "Exemple",
+  "champ_146": "Exemple",
+  "champ_147": "Exemple",
+  "champ_148": "Exemple",
+  "champ_149": "Exemple",
+  "champ_150": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**LISTE DES MEMBRES DU COMMISSARIAT AUX COMPTES**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "table",
+   "cols": [
+    36.7,
+    17.0,
+    15.1,
+    17.0,
+    14.2
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**NOM  ET  PRENOMS**"
+     ],
+     [
+      "",
+      "**FONCTION**"
+     ],
+     [
+      "",
+      "**PROFESSION**"
+     ],
+     [
+      "",
+      "**CONTACTS**"
+     ],
+     [
+      "",
+      "**NATIONALITE**"
+     ]
+    ],
+    [
+     "{{champ_101}}",
+     "{{champ_102}}",
+     "{{champ_103}}",
+     "{{champ_104}}",
+     "{{champ_105}}"
+    ],
+    [
+     "{{champ_106}}",
+     "{{champ_107}}",
+     "{{champ_108}}",
+     "{{champ_109}}",
+     "{{champ_110}}"
+    ],
+    [
+     "{{champ_111}}",
+     "{{champ_112}}",
+     "{{champ_113}}",
+     "{{champ_114}}",
+     "{{champ_115}}"
+    ],
+    [
+     "{{champ_116}}",
+     "{{champ_117}}",
+     "{{champ_118}}",
+     "{{champ_119}}",
+     "{{champ_120}}"
+    ],
+    [
+     "{{champ_121}}",
+     "{{champ_122}}",
+     "{{champ_123}}",
+     "{{champ_124}}",
+     "{{champ_125}}"
+    ],
+    [
+     "{{champ_126}}",
+     "{{champ_127}}",
+     "{{champ_128}}",
+     "{{champ_129}}",
+     "{{champ_130}}"
+    ],
+    [
+     "{{champ_131}}",
+     "{{champ_132}}",
+     "{{champ_133}}",
+     "{{champ_134}}",
+     "{{champ_135}}"
+    ],
+    [
+     "{{champ_136}}",
+     "{{champ_137}}",
+     "{{champ_138}}",
+     "{{champ_139}}",
+     "{{champ_140}}"
+    ],
+    [
+     "{{champ_141}}",
+     "{{champ_142}}",
+     "{{champ_143}}",
+     "{{champ_144}}",
+     "{{champ_145}}"
+    ],
+    [
+     "{{champ_146}}",
+     "{{champ_147}}",
+     "{{champ_148}}",
+     "{{champ_149}}",
+     "{{champ_150}}"
+    ]
+   ],
+   "al": [
+    "center",
+    "center",
+    "center",
+    "center",
+    "center"
+   ]
+  }
+ ]
+}

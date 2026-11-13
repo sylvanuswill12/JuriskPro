@@ -1,0 +1,194 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d14-etat-de-la-participation-des-salar",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Etat de la participation des salariés au capital social",
+ "sous": "Décision du conseil d’administration d’une société anonyme : etat de la participation des salariés au capital social.",
+ "resume": "PV du conseil d’administration – Etat de la participation des salariés au capital social : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "5 min",
+ "docTitle": "PV du conseil d’administration – Etat de la participation des salariés au capital social",
+ "fileBase": "PV du conseil d’administration – Etat de la participation des salariés au capital social",
+ "headline": "PV du conseil d’administration – Etat de la participation des salariés au capital social",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Etat de la participation des salariés au capital social",
+   "champs": [
+    {
+     "id": "champ_230",
+     "type": "text",
+     "label": "Le Conseil d’",
+     "group": "Le Conseil d’ … Administration a procédé à l’examen du registre des…"
+    },
+    {
+     "id": "champ_070",
+     "type": "text",
+     "label": "Le 31 décembre",
+     "group": "Le Conseil d’ … Administration a procédé à l’examen du registre des…"
+    },
+    {
+     "id": "champ_183",
+     "type": "text",
+     "label": "Nombre",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_184",
+     "type": "text",
+     "label": "%",
+     "group": "P. Etat de la participation des salariés au capita – ligne 1"
+    },
+    {
+     "id": "champ_185",
+     "type": "text",
+     "label": "Nombre",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_186",
+     "type": "text",
+     "label": "%",
+     "group": "P. Etat de la participation des salariés au capita – ligne 2"
+    },
+    {
+     "id": "champ_187",
+     "type": "text",
+     "label": "Nombre",
+     "group": "P. Etat de la participation des salariés au capita – ligne 3"
+    },
+    {
+     "id": "champ_188",
+     "type": "text",
+     "label": "%",
+     "group": "P. Etat de la participation des salariés au capita – ligne 3"
+    },
+    {
+     "id": "champ_189",
+     "type": "text",
+     "label": "Nombre",
+     "group": "P. Etat de la participation des salariés au capita – ligne 4"
+    },
+    {
+     "id": "champ_071",
+     "type": "date",
+     "label": "% du capital social le",
+     "group": "Le Conseil constate que les actions attribuées gratuitement aux membres…"
+    },
+    {
+     "id": "champ_072",
+     "type": "text",
+     "label": "100 %",
+     "group": "Nombre d’actions attribuées gratuitement au personnel salarié : …",
+     "aide": "…d’actions attribuées gratuitement au personnel salarié ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d14-etat-de-la-participation-des-salar.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_230": "Exemple",
+  "champ_070": "Exemple",
+  "champ_183": "Exemple",
+  "champ_184": "Exemple",
+  "champ_185": "Exemple",
+  "champ_186": "Exemple",
+  "champ_187": "Exemple",
+  "champ_188": "Exemple",
+  "champ_189": "Exemple",
+  "champ_071": "2000-01-01",
+  "champ_072": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Etat de la participation des salariés au capital social**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’ {{champ_230}} Administration a procédé à l’examen du registre des titres nominatifs et a  vu de celui-ci arrête qu’à la date de clôture de l’exercice, le 31 décembre {{champ_070}} l’actionnariat salarié visé à l’article 547-1 s’établit ainsi :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "table",
+   "cols": [
+    58.1,
+    23.1,
+    18.8
+   ],
+   "head": [
+    "Actionnaires",
+    "nombre",
+    "%"
+   ],
+   "rows": [
+    [
+     "Salariés au titre de la participation aux résultats (actions gratuites)",
+     "{{champ_183}}",
+     "{{champ_184}}"
+    ],
+    [
+     "Salariés au titre du rachat de ses propres actions (actions gratuites)",
+     "{{champ_185}}",
+     "{{champ_186}}"
+    ],
+    [
+     "Autres actionnaires (actions non gratuites)",
+     "{{champ_187}}",
+     "{{champ_188}}"
+    ],
+    [
+     "Total des actions composant le capital social",
+     "{{champ_189}}",
+     "100 %"
+    ]
+   ]
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil constate que les actions attribuées gratuitement aux membres du personnel salarié de la société ou de certaines catégories d’entre eux n’excèdent pas 10 % du capital social le {{champ_071}}, date de la décision  de leur attribution par le Conseil d’Administration :"
+  },
+  {
+   "k": "li",
+   "text": "Nombre d’actions attribuées gratuitement au personnel salarié : {{champ_072}}",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Total actions composant le capital social à la date de la décision de leur attribution par le Conseil d’Administration à l’Assemblée Générale annuelle.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

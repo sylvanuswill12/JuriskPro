@@ -1,0 +1,433 @@
+{
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a5-avis-de-constitution-dans-un-j",
+ "cat": "societes-associations",
+ "sub": "Actes de constitution de SARL",
+ "titre": "Avis de constitution dans un journal d’annonces légales",
+ "sous": "Avis de constitution de la société à publier dans un journal d’annonces légales.",
+ "resume": "Avis de constitution dans un journal d’annonces légales : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "constitution",
+  "annonce légale",
+  "avis"
+ ],
+ "duree": "11 min",
+ "docTitle": "Avis de constitution dans un journal d’annonces légales",
+ "fileBase": "Avis de constitution dans un journal d’annonces légales",
+ "headline": "Avis de constitution dans un journal d’annonces légales",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Acte 1",
+   "titre": "Avis de constitution dans un journal d’annonces légales",
+   "champs": [
+    {
+     "id": "champ_323",
+     "type": "date",
+     "label": "Seing privé en date du",
+     "group": "Aux termes d'un acte sous seing privé en date du …"
+    },
+    {
+     "id": "champ_324",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Aux termes d'un acte reçu par Me … , …, le …"
+    },
+    {
+     "id": "champ_325",
+     "type": "text",
+     "label": "Nom",
+     "group": "Aux termes d'un acte reçu par Me … , …, le …"
+    },
+    {
+     "id": "champ_326",
+     "type": "text",
+     "label": "Adresse de l'étude",
+     "group": "Aux termes d'un acte reçu par Me … , …, le …"
+    },
+    {
+     "id": "champ_327",
+     "type": "date",
+     "label": "Date",
+     "group": "Aux termes d'un acte reçu par Me … , …, le …",
+     "aide": "…d'un acte reçu par Me le ▢"
+    },
+    {
+     "id": "champ_328",
+     "type": "text",
+     "label": "Avant « le cas échéant indiquer »",
+     "group": "Dénomination sociale : …(le cas échéant, indiquer le sigle).",
+     "aide": "…Dénomination sociale ▢ le cas échéant indiquer…",
+     "opt": true
+    },
+    {
+     "id": "champ_329",
+     "type": "text",
+     "label": "Montant",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_330",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_331",
+     "type": "text",
+     "label": "Montant",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_332",
+     "type": "text",
+     "label": "Montant",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_333",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_334",
+     "type": "text",
+     "label": "Montant",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Acte 2",
+   "titre": "Avis de constitution dans un journal d’annonces légales (suite)",
+   "champs": [
+    {
+     "id": "champ_335",
+     "type": "text",
+     "label": "Libérées chacune à concurrence du",
+     "group": "Capital : … FCFA divisé en … parts sociales d'un montant de … FCFA…"
+    },
+    {
+     "id": "champ_336",
+     "type": "text",
+     "label": "Adresse complète",
+     "group": "Siège : …."
+    },
+    {
+     "id": "champ_337",
+     "type": "text",
+     "label": "Avant « L’indiquer sommairement »",
+     "group": "Objet : … (L’indiquer sommairement).",
+     "aide": "…Objet ▢ L’indiquer sommairement…"
+    },
+    {
+     "id": "champ_338",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Durée : … années à compter de l'immatriculation de la société au…"
+    },
+    {
+     "id": "champ_339",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Gérant : … est désigné statutairement en qualité de gérant …(Associé ou…"
+    },
+    {
+     "id": "champ_340",
+     "type": "text",
+     "label": "Nom",
+     "group": "Gérant : … est désigné statutairement en qualité de gérant …(Associé ou…"
+    },
+    {
+     "id": "champ_341",
+     "type": "text",
+     "label": "Statutairement en qualité de gérant",
+     "group": "Gérant : … est désigné statutairement en qualité de gérant …(Associé ou…"
+    },
+    {
+     "id": "champ_342",
+     "type": "text",
+     "label": "Nombre",
+     "group": "Gérant : … est désigné statutairement en qualité de gérant …(Associé ou…"
+    },
+    {
+     "id": "champ_343",
+     "type": "date",
+     "label": "Seing privé en date du",
+     "group": "Gérant : aux termes d'un acte sous seing privé en date du … à …, … a…"
+    },
+    {
+     "id": "champ_344",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Gérant : aux termes d'un acte sous seing privé en date du … à …, … a…"
+    },
+    {
+     "id": "champ_345",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Gérant : aux termes d'un acte sous seing privé en date du … à …, … a…"
+    },
+    {
+     "id": "champ_346",
+     "type": "text",
+     "label": "Nom",
+     "group": "Gérant : aux termes d'un acte sous seing privé en date du … à …, … a…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Acte 3",
+   "titre": "Avis de constitution dans un journal d’annonces légales (suite)",
+   "champs": [
+    {
+     "id": "champ_347",
+     "type": "text",
+     "label": "Statutaire pour une durée de",
+     "group": "Gérant : aux termes d'un acte sous seing privé en date du … à …, … a…"
+    },
+    {
+     "id": "champ_348",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Commissaire aux comptes : … est désigné en qualité de commissaire aux…"
+    },
+    {
+     "id": "champ_349",
+     "type": "text",
+     "label": "Nom du titulaire",
+     "group": "Commissaire aux comptes : … est désigné en qualité de commissaire aux…"
+    },
+    {
+     "id": "champ_350",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Commissaire aux comptes : … est désigné en qualité de commissaire aux…"
+    },
+    {
+     "id": "champ_351",
+     "type": "text",
+     "label": "Nom du suppléant",
+     "group": "Commissaire aux comptes : … est désigné en qualité de commissaire aux…"
+    },
+    {
+     "id": "champ_352",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Immatriculation au Registre du Commerce et du Crédit Mobilier : la…"
+    },
+    {
+     "id": "champ_353",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_354",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    },
+    {
+     "id": "champ_355",
+     "type": "text",
+     "label": "Avant « Gérant ou associé ayant »",
+     "group": "… (Gérant ou associé ayant pouvoir à cet effet ou Me …, notaire)",
+     "aide": "▢ Gérant ou associé ayant…"
+    },
+    {
+     "id": "champ_356",
+     "type": "text",
+     "label": "À cet effet ou Me",
+     "group": "… (Gérant ou associé ayant pouvoir à cet effet ou Me …, notaire)",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a5-avis-de-constitution-dans-un-j.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_323": "2000-01-01",
+  "champ_324": "Exemple",
+  "champ_325": "Exemple",
+  "champ_326": "Exemple",
+  "champ_327": "2000-01-01",
+  "champ_328": "Exemple",
+  "champ_329": "Exemple",
+  "champ_330": "Exemple",
+  "champ_331": "Exemple",
+  "champ_332": "Exemple",
+  "champ_333": "Exemple",
+  "champ_334": "Exemple",
+  "champ_335": "Exemple",
+  "champ_336": "Exemple",
+  "champ_337": "Exemple",
+  "champ_338": "Exemple",
+  "champ_339": "Exemple",
+  "champ_340": "Exemple",
+  "champ_341": "Exemple",
+  "champ_342": "Exemple",
+  "champ_343": "2000-01-01",
+  "champ_344": "2000-01-01",
+  "champ_345": "2000-01-01",
+  "champ_346": "2000-01-01",
+  "champ_347": "Exemple",
+  "champ_348": "Exemple",
+  "champ_349": "Exemple",
+  "champ_350": "Exemple",
+  "champ_351": "Exemple",
+  "champ_352": "Exemple",
+  "champ_353": "Exemple",
+  "champ_354": "2000-01-01",
+  "champ_355": "Exemple",
+  "champ_356": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**Avis de constitution dans un journal d'annonces légales**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "* Si l'acte est sous seing privé, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Aux termes d'un acte sous seing privé en date du {{champ_323}}"
+  },
+  {
+   "k": "p",
+   "text": "* Ou bien si l'acte est notarié, remplacer par :"
+  },
+  {
+   "k": "p",
+   "text": "Aux termes d'un acte reçu par Me {{champ_324}} {{champ_325}}, {{champ_326}}, le {{champ_327}}"
+  },
+  {
+   "k": "p",
+   "text": "Il a été constitué une société à responsabilité limitée présentant les caractéristiques suivantes :"
+  },
+  {
+   "k": "p",
+   "text": "Dénomination sociale : {{champ_328}}(le cas échéant, indiquer le sigle)."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "* Si les parts sont libérées en totalité, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Capital : {{champ_329}} FCFA divisé en {{champ_330}} parts sociales d'un montant de {{champ_331}} FCFA chacune, entièrement souscrites et libérées en totalité."
+  },
+  {
+   "k": "p",
+   "text": "* Si les parts sont libérées partiellement, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Capital : {{champ_332}} FCFA divisé en {{champ_333}} parts sociales d'un montant de {{champ_334}} FCFA chacune, entièrement souscrites et libérées chacune à concurrence du {{champ_335}}(Cinquième, quart, moitié)."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Siège : {{champ_336}}."
+  },
+  {
+   "k": "p",
+   "text": "Objet : {{champ_337}} (L’indiquer sommairement)."
+  },
+  {
+   "k": "p",
+   "text": "Durée : {{champ_338}} années à compter de l'immatriculation de la société au Registre du commerce et du crédit mobilier."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "* Si le gérant a été désigné statutairement, indiquer :"
+  },
+  {
+   "k": "p",
+   "text": "Gérant : {{champ_339}} {{champ_340}} est désigné statutairement en qualité de gérant {{champ_341}}(Associé ou non associé) pour {{champ_342}} années."
+  },
+  {
+   "k": "p",
+   "text": "* Ou bien si le gérant a été désigné par un acte sous seing privé, remplacer par :"
+  },
+  {
+   "k": "p",
+   "text": "Gérant : aux termes d'un acte sous seing privé en date du {{champ_343}} à {{champ_344}}, {{champ_345}} {{champ_346}} a été désigné comme gérant statutaire pour une durée de {{champ_347}} renouvelable."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Si un commissaire aux comptes a été désigné, ajouter :",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Commissaire aux comptes : {{champ_348}} {{champ_349}} est désigné en qualité de commissaire aux comptes titulaire."
+  },
+  {
+   "k": "p",
+   "text": "Commissaire aux comptes : {{champ_350}} {{champ_351}} est désigné en qualité de commissaire aux comptes suppléant."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Immatriculation au Registre du Commerce et du Crédit Mobilier : la société sera immatriculée au Registre du Commerce et du Crédit Mobilier tenu au Greffe du Tribunal de Commerce de {{champ_352}}."
+  },
+  {
+   "k": "p",
+   "text": "Pour avis et mention,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_353}}, le {{champ_354}}"
+  },
+  {
+   "k": "p",
+   "text": "Signature",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_355}} (Gérant ou associé ayant pouvoir à cet effet ou Me {{champ_356}}, notaire)",
+   "al": "right"
+  }
+ ]
+}

@@ -1,0 +1,585 @@
+{
+ "id": "source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l4-liste-de-presence-a-lassemblee",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Liste de présence à l’assemblée générale",
+ "sous": "Tableau à compléter ligne par ligne, mise en page d’origine conservée.",
+ "resume": "Liste de présence à l’assemblée générale : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "association",
+  "liste",
+  "présence",
+  "assemblée générale"
+ ],
+ "duree": "14 min",
+ "docTitle": "Liste de présence à l’assemblée générale",
+ "fileBase": "Liste de présence à l’assemblée générale",
+ "headline": "Liste de présence à l’assemblée générale",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Liste 1",
+   "titre": "Liste de présence à l’assemblée générale",
+   "champs": [
+    {
+     "id": "champ_151",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 1"
+    },
+    {
+     "id": "champ_152",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 1"
+    },
+    {
+     "id": "champ_153",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 1"
+    },
+    {
+     "id": "champ_154",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_155",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_156",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_157",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_158",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_159",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_160",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_161",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_162",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 4",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Liste 2",
+   "titre": "Liste de présence à l’assemblée générale (suite)",
+   "champs": [
+    {
+     "id": "champ_163",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_164",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_165",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_166",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_167",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_168",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_169",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_170",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_171",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_172",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_173",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_174",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 8",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Liste 3",
+   "titre": "Liste de présence à l’assemblée générale (suite)",
+   "champs": [
+    {
+     "id": "champ_175",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_176",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_177",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_178",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_179",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_180",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_181",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 11",
+     "opt": true
+    },
+    {
+     "id": "champ_182",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 11",
+     "opt": true
+    },
+    {
+     "id": "champ_183",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 11",
+     "opt": true
+    },
+    {
+     "id": "champ_184",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 12",
+     "opt": true
+    },
+    {
+     "id": "champ_185",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 12",
+     "opt": true
+    },
+    {
+     "id": "champ_186",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 12",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Liste 4",
+   "titre": "Liste de présence à l’assemblée générale (suite)",
+   "champs": [
+    {
+     "id": "champ_187",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 13",
+     "opt": true
+    },
+    {
+     "id": "champ_188",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 13",
+     "opt": true
+    },
+    {
+     "id": "champ_189",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 13",
+     "opt": true
+    },
+    {
+     "id": "champ_190",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 14",
+     "opt": true
+    },
+    {
+     "id": "champ_191",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 14",
+     "opt": true
+    },
+    {
+     "id": "champ_192",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 14",
+     "opt": true
+    },
+    {
+     "id": "champ_193",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste de presence a l’assemblee generale – ligne 15",
+     "opt": true
+    },
+    {
+     "id": "champ_194",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste de presence a l’assemblee generale – ligne 15",
+     "opt": true
+    },
+    {
+     "id": "champ_195",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste de presence a l’assemblee generale – ligne 15",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l4-liste-de-presence-a-lassemblee.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_151": "Exemple",
+  "champ_152": "Exemple",
+  "champ_153": "Exemple",
+  "champ_154": "Exemple",
+  "champ_155": "Exemple",
+  "champ_156": "Exemple",
+  "champ_157": "Exemple",
+  "champ_158": "Exemple",
+  "champ_159": "Exemple",
+  "champ_160": "Exemple",
+  "champ_161": "Exemple",
+  "champ_162": "Exemple",
+  "champ_163": "Exemple",
+  "champ_164": "Exemple",
+  "champ_165": "Exemple",
+  "champ_166": "Exemple",
+  "champ_167": "Exemple",
+  "champ_168": "Exemple",
+  "champ_169": "Exemple",
+  "champ_170": "Exemple",
+  "champ_171": "Exemple",
+  "champ_172": "Exemple",
+  "champ_173": "Exemple",
+  "champ_174": "Exemple",
+  "champ_175": "Exemple",
+  "champ_176": "Exemple",
+  "champ_177": "Exemple",
+  "champ_178": "Exemple",
+  "champ_179": "Exemple",
+  "champ_180": "Exemple",
+  "champ_181": "Exemple",
+  "champ_182": "Exemple",
+  "champ_183": "Exemple",
+  "champ_184": "Exemple",
+  "champ_185": "Exemple",
+  "champ_186": "Exemple",
+  "champ_187": "Exemple",
+  "champ_188": "Exemple",
+  "champ_189": "Exemple",
+  "champ_190": "Exemple",
+  "champ_191": "Exemple",
+  "champ_192": "Exemple",
+  "champ_193": "Exemple",
+  "champ_194": "Exemple",
+  "champ_195": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**LISTE DE PRESENCE A L’ASSEMBLEE GENERALE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "table",
+   "cols": [
+    36.8,
+    17.0,
+    15.1,
+    31.1
+   ],
+   "head": [
+    "NOM ET PRENOMS",
+    "NATIONALITE",
+    "CONTACTS",
+    "EMARGEMENT"
+   ],
+   "rows": [
+    [
+     [
+      "",
+      "{{champ_151}}"
+     ],
+     "{{champ_152}}",
+     "{{champ_153}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_154}}"
+     ],
+     "{{champ_155}}",
+     "{{champ_156}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_157}}"
+     ],
+     "{{champ_158}}",
+     "{{champ_159}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_160}}"
+     ],
+     "{{champ_161}}",
+     "{{champ_162}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_163}}"
+     ],
+     "{{champ_164}}",
+     "{{champ_165}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_166}}"
+     ],
+     "{{champ_167}}",
+     "{{champ_168}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_169}}"
+     ],
+     "{{champ_170}}",
+     "{{champ_171}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_172}}"
+     ],
+     "{{champ_173}}",
+     "{{champ_174}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_175}}"
+     ],
+     "{{champ_176}}",
+     "{{champ_177}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_178}}"
+     ],
+     "{{champ_179}}",
+     "{{champ_180}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_181}}"
+     ],
+     "{{champ_182}}",
+     "{{champ_183}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_184}}"
+     ],
+     "{{champ_185}}",
+     "{{champ_186}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_187}}"
+     ],
+     "{{champ_188}}",
+     "{{champ_189}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_190}}"
+     ],
+     "{{champ_191}}",
+     "{{champ_192}}",
+     ""
+    ],
+    [
+     [
+      "",
+      "{{champ_193}}"
+     ],
+     "{{champ_194}}",
+     "{{champ_195}}",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ]
+}

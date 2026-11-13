@@ -1,0 +1,94 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d26-augmentation-de-capital-par-attrib",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Augmentation de capital par attribution gratuite d’actions",
+ "sous": "Décision du conseil d’administration d’une société anonyme : augmentation de capital par attribution gratuite d’actions.",
+ "resume": "PV du conseil d’administration – Augmentation de capital par attribution gratuite d’actions : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Augmentation de capital par attribution gratuite d’actions",
+ "fileBase": "PV du conseil d’administration – Augmentation de capital par attribution gratuite d’actions",
+ "headline": "PV du conseil d’administration – Augmentation de capital par attribution gratuite d’actions",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Augmentation de capital par attribution gratuite d’actions",
+   "champs": [
+    {
+     "id": "champ_129",
+     "type": "text",
+     "label": "Décide de procéder",
+     "group": "Le Conseil d’Administration après avoir constaté que le compte de…"
+    },
+    {
+     "id": "champ_130",
+     "type": "text",
+     "label": "Avant « augmentation de capital par »",
+     "group": "Le Conseil d’Administration après avoir constaté que le compte de…",
+     "aide": "…au personnel salarié décide de procéder ▢ augmentation de capital par…"
+    },
+    {
+     "id": "champ_131",
+     "type": "text",
+     "label": "De capital par émission de",
+     "group": "Le Conseil d’Administration après avoir constaté que le compte de…"
+    },
+    {
+     "id": "champ_132",
+     "type": "text",
+     "label": "Comme suit les articles n°",
+     "group": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d26-augmentation-de-capital-par-attrib.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_129": "Exemple",
+  "champ_130": "Exemple",
+  "champ_131": "Exemple",
+  "champ_132": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Augmentation de capital par attribution gratuite d’actions**"
+  },
+  {
+   "k": "p",
+   "text": "Le  Conseil d’Administration après avoir constaté que le compte de réserve constitué par les prélèvements sur les profits sociaux est égal au montant des actions à attribuer gratuitement  au personnel salarié, décide de procéder {{champ_129}} {{champ_130}}.augmentation de capital par émission de {{champ_131}} actions gratuites."
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration usant des pouvoirs qui lui ont été conférés par l’article 640-1 de l’Acte Uniforme de l’OHADA relatif au Droit des Sociétés Commerciales et du GIE, décide de modifier comme suit les articles n°{{champ_132}} des statuts."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

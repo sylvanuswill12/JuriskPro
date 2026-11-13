@@ -1,253 +1,253 @@
 {
-  "id": "source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d",
-  "cat": "travail",
-  "sub": "Contrats de travail",
-  "titre": "Courrier de modification de contrat de travail",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Courrier de modification de contrat de travail : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "contrat de travail",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "4 min",
-  "docTitle": "Courrier de modification de contrat de travail",
-  "fileBase": "Courrier de modification de contrat de travail",
-  "headline": "Courrier de modification de contrat de travail",
-  "etapes": [
+ "id": "source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d",
+ "cat": "travail",
+ "sub": "Contrats de travail",
+ "titre": "Courrier de modification de contrat de travail",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Courrier de modification de contrat de travail : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "contrat de travail",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "4 min",
+ "docTitle": "Courrier de modification de contrat de travail",
+ "fileBase": "Courrier de modification de contrat de travail",
+ "headline": "Courrier de modification de contrat de travail",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "ABIDJAN, le",
+   "titre": "ABIDJAN, le 13 Mai 2016",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "ABIDJAN, le",
-      "titre": "ABIDJAN, le 13 Mai 2016",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "ville_signature",
-          "type": "text",
-          "label": "Fait à (ville)",
-          "profil": "ville",
-          "group": "…, le …"
-        },
-        {
-          "id": "date_lettre",
-          "type": "date",
-          "label": "Date de la lettre",
-          "group": "…, le …"
-        },
-        {
-          "id": "nom_salarie",
-          "type": "text",
-          "label": "Nom du salarié",
-          "group": "Mme …",
-          "aide": "…Mme ▢"
-        },
-        {
-          "id": "nom_naissance_salarie",
-          "type": "text",
-          "label": "Nom de naissance",
-          "group": "née …",
-          "aide": "…née ▢ A…"
-        },
-        {
-          "id": "prenom_salarie",
-          "type": "text",
-          "label": "Prénom du salarié",
-          "group": "née …",
-          "aide": "…née A ▢"
-        },
-        {
-          "id": "ville_destinataire",
-          "type": "text",
-          "label": "Ville du destinataire",
-          "group": "…"
-        },
-        {
-          "id": "reference_etude",
-          "type": "text",
-          "label": "Référence du courrier (ex. : 542/2026)",
-          "opt": true,
-          "group": "Nos réf : …"
-        },
-        {
-          "id": "partie_2",
-          "type": "text",
-          "label": "Deuxième partie",
-          "group": "Madame …,",
-          "aide": "…Madame ▢"
-        },
-        {
-          "id": "jour_entretien",
-          "type": "text",
-          "label": "Jour du mois de l’entretien (ex. : 09)",
-          "group": "Faisant suite à notre entretien du … courant, je vous confirme la…"
-        },
-        {
-          "id": "date_acte",
-          "type": "date",
-          "label": "Date de l’acte",
-          "group": "Si la présente retient votre agrément, je vous serai reconnaissante de…"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "group": "Me …",
-          "aide": "…Me ▢ A…",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "prenom_notaire",
-          "type": "text",
-          "label": "Prénom du notaire",
-          "group": "Me …",
-          "aide": "…Me A ▢",
-          "profil": "prenom",
-          "pq": "notaire"
-        }
-      ]
+     "id": "ville_signature",
+     "type": "text",
+     "label": "Fait à (ville)",
+     "profil": "ville",
+     "group": "…, le …"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "date_lettre",
+     "type": "date",
+     "label": "Date de la lettre",
+     "group": "…, le …"
+    },
+    {
+     "id": "nom_salarie",
+     "type": "text",
+     "label": "Nom du salarié",
+     "group": "Mme …",
+     "aide": "…Mme ▢"
+    },
+    {
+     "id": "nom_naissance_salarie",
+     "type": "text",
+     "label": "Nom de naissance",
+     "group": "née …",
+     "aide": "…née ▢ A…"
+    },
+    {
+     "id": "prenom_salarie",
+     "type": "text",
+     "label": "Prénom du salarié",
+     "group": "née …",
+     "aide": "…née A ▢"
+    },
+    {
+     "id": "ville_destinataire",
+     "type": "text",
+     "label": "Ville du destinataire",
+     "group": "…"
+    },
+    {
+     "id": "reference_etude",
+     "type": "text",
+     "label": "Référence du courrier (ex. : 542/2026)",
+     "opt": true,
+     "group": "Nos réf : …"
+    },
+    {
+     "id": "partie_2",
+     "type": "text",
+     "label": "Deuxième partie",
+     "group": "Madame …,",
+     "aide": "…Madame ▢"
+    },
+    {
+     "id": "jour_entretien",
+     "type": "text",
+     "label": "Jour du mois de l’entretien (ex. : 09)",
+     "group": "Faisant suite à notre entretien du … courant, je vous confirme la…"
+    },
+    {
+     "id": "date_acte",
+     "type": "date",
+     "label": "Date de l’acte",
+     "group": "Si la présente retient votre agrément, je vous serai reconnaissante de…"
+    },
+    {
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "group": "Me …",
+     "aide": "…Me ▢ A…",
+     "profil": "nom",
+     "pq": "notaire"
+    },
+    {
+     "id": "prenom_notaire",
+     "type": "text",
+     "label": "Prénom du notaire",
+     "group": "Me …",
+     "aide": "…Me A ▢",
+     "profil": "prenom",
+     "pq": "notaire"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "{{ville_signature}}, le {{date_lettre}}",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{nom_salarie}}**",
-      "al": "left",
-      "ind": 6
-    },
-    {
-      "k": "p",
-      "text": "**née {{nom_naissance_salarie}} {{prenom_salarie}}**",
-      "al": "left",
-      "ind": 6
-    },
-    {
-      "k": "p",
-      "text": "**Secrétaire**",
-      "ind": 6
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{ville_destinataire}}**",
-      "ind": 6
-    },
-    {
-      "k": "p",
-      "text": "Nos réf : {{reference_etude}}"
-    },
-    {
-      "k": "p",
-      "text": "**Objet** : **Modification de contrat de travail**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Madame {{partie_2}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Faisant suite à notre entretien du {{jour_entretien}} courant, je vous confirme la proposition de la modification de votre contrat de travail pour le poste d’archiviste."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En effet, les années passées au secrétariat vous ont permis de connaitre les clients et l’historique de leurs dossiers. Le poste d’archiviste n’étant pas encore pourvu au sein de l’Etude, j’ai donc légitimement souhaité que vous l’occupiez, étant donné que l’une de vos tâches au secrétariat consiste en l’archivage des dossiers."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En outre, étant l’une des plus anciennes, vous êtes qualifiée pour occuper ce poste et s’il y a lieu, vous pourriez compléter vos acquis par une formation."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Aussi, cette modification de votre contrat n’entraine pas de modifications salariales, ni de vos horaires."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Si la présente retient votre agrément, je vous serai reconnaissante de bien vouloir signer le document précédé de la mention « BON POUR ACCORD ». Dans lequel cas, cette modification sera effective à compter du **{{date_acte}}**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Vous en souhaitant bonne réception,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je vous prie de croire, Madame {{partie_2}}, à l’assurance de mes sentiments dévoués."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Me {{notaire_nom}} {{prenom_notaire}}**",
-      "al": "right"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "nom_salarie": "Exemple",
-    "nom_naissance_salarie": "Exemple",
-    "prenom_salarie": "Exemple",
-    "reference_etude": "Exemple",
-    "partie_2": "Exemple",
-    "date_acte": "2000-01-01",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple",
-    "ville_signature": "Abidjan",
-    "date_lettre": "2000-01-01",
-    "ville_destinataire": "Abidjan",
-    "jour_entretien": "09"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "{{ville_signature}}, le {{date_lettre}}",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{nom_salarie}}**",
+   "al": "left",
+   "ind": 6
+  },
+  {
+   "k": "p",
+   "text": "**née {{nom_naissance_salarie}} {{prenom_salarie}}**",
+   "al": "left",
+   "ind": 6
+  },
+  {
+   "k": "p",
+   "text": "**Secrétaire**",
+   "ind": 6
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{ville_destinataire}}**",
+   "ind": 6
+  },
+  {
+   "k": "p",
+   "text": "Nos réf : {{reference_etude}}"
+  },
+  {
+   "k": "p",
+   "text": "**Objet** : **Modification de contrat de travail**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Madame {{partie_2}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Faisant suite à notre entretien du {{jour_entretien}} courant, je vous confirme la proposition de la modification de votre contrat de travail pour le poste d’archiviste."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En effet, les années passées au secrétariat vous ont permis de connaitre les clients et l’historique de leurs dossiers. Le poste d’archiviste n’étant pas encore pourvu au sein de l’Etude, j’ai donc légitimement souhaité que vous l’occupiez, étant donné que l’une de vos tâches au secrétariat consiste en l’archivage des dossiers."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En outre, étant l’une des plus anciennes, vous êtes qualifiée pour occuper ce poste et s’il y a lieu, vous pourriez compléter vos acquis par une formation."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Aussi, cette modification de votre contrat n’entraine pas de modifications salariales, ni de vos horaires."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Si la présente retient votre agrément, je vous serai reconnaissante de bien vouloir signer le document précédé de la mention « BON POUR ACCORD ». Dans lequel cas, cette modification sera effective à compter du **{{date_acte}}**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Vous en souhaitant bonne réception,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je vous prie de croire, Madame {{partie_2}}, à l’assurance de mes sentiments dévoués."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Me {{notaire_nom}} {{prenom_notaire}}**",
+   "al": "right"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1yy-2ht-pusaxtxtmpoasmz5pryu09-c8-courrier-de-modification-d.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "nom_salarie": "Exemple",
+  "nom_naissance_salarie": "Exemple",
+  "prenom_salarie": "Exemple",
+  "reference_etude": "Exemple",
+  "partie_2": "Exemple",
+  "date_acte": "2000-01-01",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "prenom_notaire": "Exemple",
+  "ville_signature": "Abidjan",
+  "date_lettre": "2000-01-01",
+  "ville_destinataire": "Abidjan",
+  "jour_entretien": "09"
+ }
 }

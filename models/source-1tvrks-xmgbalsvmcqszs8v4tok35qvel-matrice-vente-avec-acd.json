@@ -1,1261 +1,1261 @@
 {
-  "id": "source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd",
-  "cat": "ventes-immobilier",
-  "sub": "Matrices de vente",
-  "titre": "Vente avec arrêté de concession définitif (ACD)",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Vente avec arrêté de concession définitif (ACD) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices vente",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "19 min",
-  "docTitle": "Vente avec arrêté de concession définitif (ACD)",
-  "fileBase": "Vente avec arrêté de concession définitif (ACD)",
-  "headline": "Vente avec arrêté de concession définitif (ACD)",
-  "etapes": [
+ "id": "source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd",
+ "cat": "ventes-immobilier",
+ "sub": "Matrices de vente",
+ "titre": "Vente avec arrêté de concession définitif (ACD)",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Vente avec arrêté de concession définitif (ACD) : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices vente",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "19 min",
+ "docTitle": "Vente avec arrêté de concession définitif (ACD)",
+ "fileBase": "Vente avec arrêté de concession définitif (ACD)",
+ "headline": "Vente avec arrêté de concession définitif (ACD)",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Partie 1",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Partie 1",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "reference_etude",
-          "type": "text",
-          "label": "Référence de l’étude",
-          "opt": true,
-          "aide": "▢"
-        },
-        {
-          "id": "champ_001",
-          "type": "date",
-          "label": "Date",
-          "group": "LE …",
-          "aide": "…LE ▢"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "opt": true,
-          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Madame Monsieur",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…1 Madame Monsieur demeurant à ▢ Commune de Boîte Postale…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Avant « Commune de Boîte Postale »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…1 Madame Monsieur demeurant à ▢ Commune de Boîte Postale…"
-        }
-      ]
+     "id": "reference_etude",
+     "type": "text",
+     "label": "Référence de l’étude",
+     "opt": true,
+     "aide": "▢"
     },
     {
-      "id": "partie-2",
-      "court": "Ont comparu",
-      "titre": "Ont comparu",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Commune de",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Avant « Boîte Postale »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Avant « Boîte Postale »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Avant « Boîte Postale »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Avant « Boîte Postale »",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
-        },
-        {
-          "id": "ville_bp",
-          "type": "text",
-          "label": "Ville de la boîte postale",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "ONT COMPARU",
-          "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
-          "aide": "…demeurant à Commune de Boîte Postale ▢"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Né",
-          "group": "Né … à … , le …",
-          "aide": "…Né ▢ à le…"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "À",
-          "group": "Né … à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Né … à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_016",
-          "type": "date",
-          "label": "Date",
-          "group": "Né … à … , le …",
-          "aide": "…Né à le ▢"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité …,",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "Avant « établie à le et »",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Établie à",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Avant « le et valable jusqu’au »",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_022",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_023",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_024",
-          "type": "text",
-          "label": "Madame Monsieur",
-          "group": "Madame/ Monsieur … , ci-après dénommé dans le corps de l'acte et pour…",
-          "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Avant « ci-après dénommé dans le »",
-          "group": "Madame/ Monsieur … , ci-après dénommé dans le corps de l'acte et pour…",
-          "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
-        }
-      ]
+     "id": "champ_001",
+     "type": "date",
+     "label": "Date",
+     "group": "LE …",
+     "aide": "…LE ▢"
     },
     {
-      "id": "partie-3",
-      "court": "D’une part",
-      "titre": "D’une part",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Madame Monsieur",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "Avant « demeurant à Epoux de »",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
-        },
-        {
-          "id": "champ_028",
-          "type": "text",
-          "label": "Avant « demeurant à Epoux de »",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "Avant « demeurant à Epoux de »",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur demeurant à ▢ Epoux de avec lequel…"
-        },
-        {
-          "id": "champ_031",
-          "type": "text",
-          "label": "Avant « Epoux de avec lequel »",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…2 Madame Monsieur demeurant à ▢ Epoux de avec lequel…"
-        },
-        {
-          "id": "champ_032",
-          "type": "text",
-          "label": "Epoux de",
-          "opt": true,
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
-        },
-        {
-          "id": "champ_033",
-          "type": "text",
-          "label": "S’est mariée à la Mairie",
-          "opt": true,
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
-        },
-        {
-          "id": "champ_034",
-          "type": "date",
-          "label": "Date",
-          "opt": true,
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
-          "aide": "…s’est mariée à la Mairie le ▢ sous le régime de…"
-        },
-        {
-          "id": "champ_035",
-          "type": "text",
-          "label": "Sous le régime de la",
-          "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
-        },
-        {
-          "id": "lieu_naissance",
-          "type": "text",
-          "label": "Lieu de naissance",
-          "group": "Né à …, le …,"
-        },
-        {
-          "id": "champ_036",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à …, le …,",
-          "aide": "…Né à le ▢"
-        },
-        {
-          "id": "champ_037",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité …",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_038",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……"
-        },
-        {
-          "id": "lieu_delivrance",
-          "type": "text",
-          "label": "Lieu de délivrance de la pièce d’identité",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……"
-        },
-        {
-          "id": "champ_039",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_040",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_041",
-          "type": "text",
-          "label": "Madame Monsieur",
-          "group": "Madame/ Monsieur …, ci-après dénommé dans le corps de l'acte et pour en…",
-          "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
-        }
-      ]
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "opt": true,
+     "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…",
+     "profil": "nom",
+     "pq": "notaire"
     },
     {
-      "id": "partie-4",
-      "court": "Designation",
-      "titre": "Designation",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_042",
-          "type": "text",
-          "label": "De terrain urbain sise à",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
-        },
-        {
-          "id": "champ_043",
-          "type": "text",
-          "label": "Avant « Commune de d’une superficie »",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…parcelle de terrain urbain sise à ▢ Commune de d’une superficie…"
-        },
-        {
-          "id": "champ_044",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…terrain urbain sise à Commune de ▢ d’une superficie de mètres…"
-        },
-        {
-          "id": "champ_045",
-          "type": "text",
-          "label": "Avant « d’une superficie de mètres »",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…terrain urbain sise à Commune de ▢ d’une superficie de mètres…"
-        },
-        {
-          "id": "champ_046",
-          "type": "text",
-          "label": "D’une superficie de",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
-        },
-        {
-          "id": "champ_047",
-          "type": "text",
-          "label": "Formant le lot numéro",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
-        },
-        {
-          "id": "champ_048",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…carrés m2 formant le lot numéro ▢ îlot numéro et faisant…"
-        },
-        {
-          "id": "champ_049",
-          "type": "text",
-          "label": "Îlot numéro",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…formant le lot numéro îlot numéro ▢ et faisant l’objet du…"
-        },
-        {
-          "id": "champ_050",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…formant le lot numéro îlot numéro ▢ et faisant l’objet du…"
-        },
-        {
-          "id": "champ_051",
-          "type": "text",
-          "label": "L’objet du Titre Foncier numéro",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
-        },
-        {
-          "id": "champ_052",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
-          "aide": "…faisant l’objet du Titre Foncier numéro ▢ de la Circonscription Foncière…"
-        },
-        {
-          "id": "champ_053",
-          "type": "text",
-          "label": "Foncière et des Hypothèques de",
-          "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
-        }
-      ]
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "PARDEVANT Maître …, Notaire à … (République de COTE D’IVOIRE),…"
     },
     {
-      "id": "partie-5",
-      "court": "Origine de",
-      "titre": "Origine de propriete",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_054",
-          "type": "text",
-          "label": "L’Arrêté de Concession Définitive numéro",
-          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
-        },
-        {
-          "id": "champ_055",
-          "type": "text",
-          "label": "Avant « délivré par le Ministre »",
-          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…",
-          "aide": "…de l’Arrêté de Concession Définitive numéro ▢ délivré par le Ministre…"
-        },
-        {
-          "id": "champ_056",
-          "type": "date",
-          "label": "Date",
-          "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…",
-          "aide": "…la Construction et de l’Urbanisme le ▢"
-        },
-        {
-          "id": "ville_bien",
-          "type": "text",
-          "label": "Ville où se situe le bien",
-          "group": "A ce sujet, le VENDEUR déclare qu’il n’existe à sa connaissance aucune…"
-        },
-        {
-          "id": "champ_057",
-          "type": "text",
-          "label": "Avant « DE FRANCS CFA »",
-          "group": "La présente vente est consentie et acceptée moyennant le prix principal…",
-          "aide": "…acceptée moyennant le prix principal de ▢ DE FRANCS CFA…"
-        },
-        {
-          "id": "champ_058",
-          "type": "text",
-          "label": "Avant « FRANCS CFA »",
-          "group": "Pour la présente vente, l’impôt sur la plus-value s’élève à la somme de…",
-          "aide": "…plus-value s’élève à la somme de ▢ FRANCS CFA…"
-        },
-        {
-          "id": "champ_059",
-          "type": "text",
-          "label": "Foncière et des Hypothèques de",
-          "group": "Une expédition des présentes sera déposée à la Conservation Foncière et…"
-        },
-        {
-          "id": "champ_060",
-          "type": "text",
-          "label": "Foncière et des Hypothèques de",
-          "group": "A cet effet, Monsieur le Conservateur de la Propriété Foncière et des…"
-        },
-        {
-          "id": "ville_tribunal",
-          "type": "text",
-          "label": "Ville du tribunal compétent",
-          "group": "Le Tribunal de Première Instance … règlera tout litige pouvant survenir…"
-        },
-        {
-          "id": "champ_061",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mme … Mme …"
-        },
-        {
-          "id": "champ_062",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mme … Mme …"
-        },
-        {
-          "id": "champ_063",
-          "type": "text",
-          "label": "Ont signé avec le Notaire",
-          "group": "Me …",
-          "aide": "…Me ▢"
-        },
-        {
-          "id": "champ_064",
-          "type": "text",
-          "label": "Avant « dans blancs »",
-          "group": "Barres : … dans blancs",
-          "aide": "…Barres ▢ dans blancs…"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "Madame Monsieur",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_003",
+     "type": "text",
+     "label": "Avant « demeurant à Commune de »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Avant « demeurant à Commune de »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…1 Madame Monsieur ▢ demeurant à Commune de…"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…1 Madame Monsieur demeurant à ▢ Commune de Boîte Postale…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Avant « Commune de Boîte Postale »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…1 Madame Monsieur demeurant à ▢ Commune de Boîte Postale…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "{{reference_etude}}",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**VENTE PAR**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**AU PROFIT DE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**L’AN**"
-    },
-    {
-      "k": "p",
-      "text": "**LE {{champ_001}}**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**PARDEVANT Maître {{notaire_nom}}, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), soussigné,**"
-    },
-    {
-      "k": "p",
-      "text": "**ONT COMPARU**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**1) Madame/ Monsieur {{champ_002}}**, {{champ_003}} {{champ_004}}, demeurant à {{champ_005}} {{champ_006}}, Commune de {{champ_007}} {{champ_008}}, {{champ_009}} {{champ_010}}, {{champ_011}} Boîte Postale   {{ville_bp}}  , {{champ_012}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né {{champ_013}} à {{champ_014}} {{champ_015}}, le {{champ_016}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité  {{champ_017}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_018}} {{champ_019}}, établie à {{champ_020}} {{champ_021}}, le {{champ_022}} et valable jusqu’au {{champ_023}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Madame/ Monsieur {{champ_024}} {{champ_025}}, **ci-après dénommé dans le corps de l'acte et pour en faciliter la rédaction« **LE VENDEUR **»."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**D’UNE PART**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**2) Madame/ Monsieur {{champ_026}} {{champ_027}}**, {{champ_028}} {{champ_029}}, demeurant à {{champ_030}} {{champ_031}}, Epoux de {{champ_032}} avec lequel elle s’est mariée à la Mairie {{champ_033}}, le {{champ_034}} sous le régime de la {{champ_035}} de biens,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{lieu_naissance}}, le {{champ_036}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_037}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_038}} établie à {{lieu_delivrance}}, le {{champ_039}} et valable jusqu’au {{champ_040}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Madame/  Monsieur {{champ_041}},** ci-après dénommé dans le corps de l'acte et pour en faciliter la rédaction « **l’ACQUEREUR **»."
-    },
-    {
-      "k": "p",
-      "text": "**D’AUTRE PART**",
-      "ind": 6
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LESQUELS**, ont requis le Notaire soussigné de constater en la forme authentique les conventions suivantes, arrêtées directement entre elles, sans le concours ni la participation dudit Notaire qui n’est ici que le simple rédacteur."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "CE QUI A LIEU DE LA MANIERE SUIVANTE :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**V E N T E**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Par ces présentes, le** VENDEUR**, en s’obligeant aux garanties ordinaires et de droit les plus étendues en pareille matière, vend à l’**ACQUEREUR** l’immeuble dont la désignation suit :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DESIGNATION**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Une parcelle de terrain urbain sise à {{champ_042}} {{champ_043}}, Commune de {{champ_044}} {{champ_045}}, d’une superficie de {{champ_046}} **mètres carrés (  m2)**, formant le lot numéro {{champ_047}} **({{champ_048}}),** îlot numéro {{champ_049}} **({{champ_050}}) **et faisant l’objet du **T**itre **F**oncier numéro {{champ_051}} **({{champ_052}})** de la Circonscription Foncière et des Hypothèques de** {{champ_053}}.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Tel que ce bien existe, s’étend, se poursuit et comporte avec tous droits, aisances et dépendances, tous immeubles par nature et par destination y attachés, sans aucune exception ni réserve, le tout bien connu de **l’ACQUEREUR**, pour l’avoir vu et visité dans l’intention des présentes."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ORIGINE DE PROPRIETE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le bien immobilier ci-dessus désigné et présentement vendu appartient au **VENDEUR** ainsi qu’il résulte de l’**A**rrêté de **C**oncession **D**éfinitive numéro {{champ_054}} {{champ_055}}, délivré par le Ministre de la Construction et de l’Urbanisme, le {{champ_056}}**.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**PROPRIETE - JOUISSANCE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Par le seul fait et au moyen des présentes, l’**ACQUEREUR** aura la jouissance à compter de ce jour."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’acquéreur sera en pleine propriété de l’immeuble vendu à compter de ce jour."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHARGES ET CONDITIONS**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La présente vente est faite sous les charges et les conditions ordinaires et de droit et notamment sous celles ci-après stipulées que l’**ACQUEREUR **s’oblige à supporter et à exécuter, savoir :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ETAT DE L’OBJET**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’**ACQUEREUR **prendra le bien vendu dans l’état où il se trouvera lors de l’entrée en jouissance, sans pouvoir exercer ni recours, ni répétition, ni demander une réduction du prix ci-après fixé pour raison, soit de mauvais état du sol ou du sous-sol, soit de mitoyenneté des murs ou clôtures, soit d’erreur dans la désignation ou la contenance."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**SERVITUDES**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’**ACQUEREUR** souffrira des servitudes passives, de toute nature qui peuvent grever le bien vendu sauf à s’en défendre et à profiter en retour de celles actives, s’il en existe, à ses risques et périls, sans recours contre le **VENDEUR**, et sans que la présente"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "clause puisse conférer à des tiers, plus de droits qu’il justifierait en avoir, en vertu de tous titres réguliers et non prescrits ou de la loi ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A ce sujet, le** VENDEUR** déclare qu’il n’existe à sa connaissance aucune servitude grevant le bien vendu autre que celles résultant de la situation naturelle des lieux, des plans d’aménagement et des dispositions d’urbanisme en vigueur à {{ville_bien}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**IMPOTS ET TAXES**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’**ACQUEREUR** payera à compter de l’entrée en jouissance, les impôts, taxes et contributions de toute nature auxquels le bien vendu peut et pourra être assujetti."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A ce sujet, le Notaire soussigné a informé l’**ACQUEREUR** qui le reconnaît, de la nécessité de faire opérer à ses frais, toutes formalités de déclaration fiscale nécessaires à l’imposition du bien objet des présentes, en son nom aux services des impôts."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CONTRAT D’ASSURANCES**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’**ACQUEREUR** fera son affaire personnelle de la souscription de toutes polices d’assurances-incendie, dégât des eaux, autres risques concernant le bien vendu ainsi que de tous abonnements, le tout de manière que le **VENDEUR** ne soit ni inquiété, ni recherché à ce sujet."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**FRAIS**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Enfin, l’**ACQUEREUR **paiera les frais, droits et émoluments des présentes et de leurs suites, sans exception."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**PRIX**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La présente vente est consentie et acceptée moyennant le prix principal de  **({{champ_057}})DE FRANCS CFA.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Lequel prix, l’**ACQUEREUR** a payé comptant ce jour, hors la comptabilité du Notaire soussigné, au **VENDEUR** qui le reconnaît et lui en accorde bonne et valable quittance définitive."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DONT QUITTANCE ENTIERE ET DEFINITIVE**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DECLARATIONS D’ETAT CIVIL ET AUTRES**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** VENDEUR** déclare :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Que les énonciations figurant en tête des présentes concernant son identification sont exactes ;",
-      "mk": "◦"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Que le bien vendu a été immatriculé en son nom tel que dit ci-dessus sous le Titre « origine de propriété », aucun fait ni acte n’est survenu modifiant sa capacité juridique ou son droit de propriété ;",
-      "mk": "◦"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "que le bien vendu n’est grevé d’aucune inscription conventionnelle, judiciaire ou légale ou autre droit réel.",
-      "mk": "◦"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**IMPOSITIONS SUR LA PLUS VALUE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les parties reconnaissent avoir été informées par le Notaire soussigné des dispositions de **l’Article \"762\"** nouveau du Code Général des Impôts, instituant un régime des plus-values immobilières fixées forfaitairement à **vingt pour cent (20%)** avec un taux de prélèvement à **quinze pour cent (15%)** à la charge du **VENDEUR** et les conséquences en résultant."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour la présente vente, l’impôt sur la plus-value s’élève à la somme de **({{champ_058}})FRANCS CFA.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Etant ici précisé que ce prélèvement est à la charge exclusive du VENDEUR, nonobstant toute clause contraire.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**REQUISITIONS FONCIERES - POUVOIRS**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Une expédition des présentes sera déposée à la **C**onservation **F**oncière et des **H**ypothèques de {{champ_059}} par les soins du Notaire soussigné, aux frais de l’**ACQUEREUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A cet effet, Monsieur le **C**onservateur de la **P**ropriété **F**oncière et des **H**ypothèques de {{champ_060}} est requis par le Notaire soussigné, conformément à l’obligation qui lui en est faite de formaliser le présent acte conformément aux stipulations qui y sont contenues."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Si lors de l’accomplissement des formalités, il est révélé des inscriptions grevant le bien vendu du chef du **VENDEUR**, ce dernier s’oblige à en rapporter, à ses frais, mainlevées et certificats de radiation dans les deux mois de la dénonciation amiable qui lui en sera faite au domicile ci-après élu."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour l’accomplissement des formalités dont s’agit, les parties donnent tous pouvoirs à tout Clerc de **l’Etude de Maître {{notaire_nom}} **à l’effet de dresser et de signer tous actes complémentaires, rectificatifs ou modificatifs des présentes, pour mettre celles-ci s’il y a lieu, en concordance avec tous les documents officiels."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DOMICILE - ATTRIBUTION DE JURIDICTION**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les parties font élection de domicile en leur demeure respective, telle qu’indiquée en tête des présentes."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Tribunal de Première Instance {{ville_tribunal_de}} règlera tout litige pouvant survenir dans l’interprétation ou l’exécution des présentes ou de leurs suites."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LECTURE DES LOIS-AFFIRMATION DE SINCERITE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Avant de clore et conformément à la loi, le Notaire soussigné a donné lecture aux parties qui le reconnaissent, des dispositions des articles **470, 471, 472, 473, 798, 799, 801,803 et 804** du **C**ode **G**énéral des **I**mpôts sur les dissimulations de prix, et de l’article **303** du **C**ode **P**énal relatif aux faux serments."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Chacune des parties a affirmé séparément, sous les peines édictées par le Livre de Procédures Fiscales, que le présent acte exprime bien l'intégralité du prix convenu."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En outre, le Notaire soussigné affirme, de son côté, qu'à sa connaissance personnelle, le présent acte n'est modifié ni contredit par aucune contre-lettre contenant une augmentation du prix."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Enfin, le Notaire soussigné a attiré l’attention des parties sur les dispositions de l’article **788** du **C**ode **G**énéral des **I**mpôts accordant à l’Administration fiscale ivoirienne un pouvoir souverain d’appréciation du prix ou de l’évaluation portés dans les actes constatant la transmission de la propriété de biens immeubles, et de la faculté pour ladite Administration, lorsqu’un accord sur l’estimation ne s’est pas fait à l’amiable, de déférer le contribuable devant la Commission de Conciliation instituée par l’article **789** dudit Code Général des Impôts, en vue de fixer la valeur taxable."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En conséquence de quoi, les parties donnent au Notaire soussigné décharge pleine et entière de toute responsabilité en cas de contestation par l’Administration fiscale du montant du prix de vente indiqué dans le présent acte."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DONT ACTE SUR SIX PAGES**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait et passé à {{ville_notaire}}"
-    },
-    {
-      "k": "p",
-      "text": "En l’Etude du Notaire Soussigné"
-    },
-    {
-      "k": "p",
-      "text": "Et lecture faite, les comparants ont signé avec le Notaire.",
-      "ind": 2
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{champ_061}} Mme {{champ_062}}**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Me {{notaire_nom}} {{champ_063}}**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ledit acte contenant :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Renvois :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Blancs bâtonnés :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Barres : {{champ_064}} dans blancs",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Lignes entières rayées nulles :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Mots nuls :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Chiffres nuls :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**PARAPHES**"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "reference_etude": "Exemple",
-    "champ_001": "2000-01-01",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "Exemple",
-    "champ_016": "2000-01-01",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "2000-01-01",
-    "champ_023": "2000-01-01",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "Exemple",
-    "champ_028": "Exemple",
-    "champ_029": "Exemple",
-    "champ_030": "Exemple",
-    "champ_031": "Exemple",
-    "champ_032": "Exemple",
-    "champ_033": "Exemple",
-    "champ_034": "2000-01-01",
-    "champ_035": "Exemple",
-    "champ_036": "2000-01-01",
-    "champ_037": "Exemple",
-    "champ_038": "Exemple",
-    "champ_039": "2000-01-01",
-    "champ_040": "2000-01-01",
-    "champ_041": "Exemple",
-    "champ_042": "Exemple",
-    "champ_043": "Exemple",
-    "champ_044": "Exemple",
-    "champ_045": "Exemple",
-    "champ_046": "Exemple",
-    "champ_047": "Exemple",
-    "champ_048": "Exemple",
-    "champ_049": "Exemple",
-    "champ_050": "Exemple",
-    "champ_051": "Exemple",
-    "champ_052": "Exemple",
-    "champ_053": "Exemple",
-    "champ_054": "Exemple",
-    "champ_055": "Exemple",
-    "champ_056": "2000-01-01",
-    "champ_057": "Exemple",
-    "champ_058": "Exemple",
-    "champ_059": "Exemple",
-    "champ_060": "Exemple",
-    "champ_061": "Exemple",
-    "champ_062": "Exemple",
-    "champ_063": "Exemple",
-    "champ_064": "Exemple",
-    "ville_notaire": "Abidjan",
-    "ville_bp": "Abidjan",
-    "lieu_naissance": "Abidjan",
-    "lieu_delivrance": "Abidjan",
-    "ville_bien": "Abidjan",
-    "ville_tribunal": "Abidjan"
+  {
+   "id": "partie-2",
+   "court": "Ont comparu",
+   "titre": "Ont comparu",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Commune de",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Avant « Boîte Postale »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Avant « Boîte Postale »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Avant « Boîte Postale »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Avant « Boîte Postale »",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…Madame Monsieur demeurant à Commune de ▢ Boîte Postale…"
+    },
+    {
+     "id": "ville_bp",
+     "type": "text",
+     "label": "Ville de la boîte postale",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "ONT COMPARU",
+     "group": "1) Madame/ Monsieur …, … , demeurant à … , Commune de … , … , … Boîte…",
+     "aide": "…demeurant à Commune de Boîte Postale ▢"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Né",
+     "group": "Né … à … , le …",
+     "aide": "…Né ▢ à le…"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "À",
+     "group": "Né … à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Né … à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_016",
+     "type": "date",
+     "label": "Date",
+     "group": "Né … à … , le …",
+     "aide": "…Né à le ▢"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …,",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "Avant « établie à le et »",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Établie à",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Avant « le et valable jusqu’au »",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_022",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_023",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "Madame Monsieur",
+     "group": "Madame/ Monsieur … , ci-après dénommé dans le corps de l'acte et pour…",
+     "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Avant « ci-après dénommé dans le »",
+     "group": "Madame/ Monsieur … , ci-après dénommé dans le corps de l'acte et pour…",
+     "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "D’une part",
+   "titre": "D’une part",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Madame Monsieur",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Avant « demeurant à Epoux de »",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "Avant « demeurant à Epoux de »",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Avant « demeurant à Epoux de »",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur ▢ demeurant à Epoux de…"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur demeurant à ▢ Epoux de avec lequel…"
+    },
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Avant « Epoux de avec lequel »",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…2 Madame Monsieur demeurant à ▢ Epoux de avec lequel…"
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Epoux de",
+     "opt": true,
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
+    },
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "S’est mariée à la Mairie",
+     "opt": true,
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
+    },
+    {
+     "id": "champ_034",
+     "type": "date",
+     "label": "Date",
+     "opt": true,
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…",
+     "aide": "…s’est mariée à la Mairie le ▢ sous le régime de…"
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Sous le régime de la",
+     "group": "2) Madame/ Monsieur … , … , demeurant à … , Epoux de … avec lequel elle…"
+    },
+    {
+     "id": "lieu_naissance",
+     "type": "text",
+     "label": "Lieu de naissance",
+     "group": "Né à …, le …,"
+    },
+    {
+     "id": "champ_036",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à …, le …,",
+     "aide": "…Né à le ▢"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……"
+    },
+    {
+     "id": "lieu_delivrance",
+     "type": "text",
+     "label": "Lieu de délivrance de la pièce d’identité",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……"
+    },
+    {
+     "id": "champ_039",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_040",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … établie à …, le ……",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "Madame Monsieur",
+     "group": "Madame/ Monsieur …, ci-après dénommé dans le corps de l'acte et pour en…",
+     "aide": "…Madame Monsieur ▢ ci-après dénommé dans le…"
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Designation",
+   "titre": "Designation",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "De terrain urbain sise à",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
+    },
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "Avant « Commune de d’une superficie »",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…parcelle de terrain urbain sise à ▢ Commune de d’une superficie…"
+    },
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…terrain urbain sise à Commune de ▢ d’une superficie de mètres…"
+    },
+    {
+     "id": "champ_045",
+     "type": "text",
+     "label": "Avant « d’une superficie de mètres »",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…terrain urbain sise à Commune de ▢ d’une superficie de mètres…"
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "D’une superficie de",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "Formant le lot numéro",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
+    },
+    {
+     "id": "champ_048",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…carrés m2 formant le lot numéro ▢ îlot numéro et faisant…"
+    },
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "Îlot numéro",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…formant le lot numéro îlot numéro ▢ et faisant l’objet du…"
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…formant le lot numéro îlot numéro ▢ et faisant l’objet du…"
+    },
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "L’objet du Titre Foncier numéro",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…",
+     "aide": "…faisant l’objet du Titre Foncier numéro ▢ de la Circonscription Foncière…"
+    },
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Foncière et des Hypothèques de",
+     "group": "Une parcelle de terrain urbain sise à … , Commune de … , d’une…"
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Origine de",
+   "titre": "Origine de propriete",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "L’Arrêté de Concession Définitive numéro",
+     "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "Avant « délivré par le Ministre »",
+     "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…",
+     "aide": "…de l’Arrêté de Concession Définitive numéro ▢ délivré par le Ministre…"
+    },
+    {
+     "id": "champ_056",
+     "type": "date",
+     "label": "Date",
+     "group": "Le bien immobilier ci-dessus désigné et présentement vendu appartient…",
+     "aide": "…la Construction et de l’Urbanisme le ▢"
+    },
+    {
+     "id": "ville_bien",
+     "type": "text",
+     "label": "Ville où se situe le bien",
+     "group": "A ce sujet, le VENDEUR déclare qu’il n’existe à sa connaissance aucune…"
+    },
+    {
+     "id": "champ_057",
+     "type": "text",
+     "label": "Avant « DE FRANCS CFA »",
+     "group": "La présente vente est consentie et acceptée moyennant le prix principal…",
+     "aide": "…acceptée moyennant le prix principal de ▢ DE FRANCS CFA…"
+    },
+    {
+     "id": "champ_058",
+     "type": "text",
+     "label": "Avant « FRANCS CFA »",
+     "group": "Pour la présente vente, l’impôt sur la plus-value s’élève à la somme de…",
+     "aide": "…plus-value s’élève à la somme de ▢ FRANCS CFA…"
+    },
+    {
+     "id": "champ_059",
+     "type": "text",
+     "label": "Foncière et des Hypothèques de",
+     "group": "Une expédition des présentes sera déposée à la Conservation Foncière et…"
+    },
+    {
+     "id": "champ_060",
+     "type": "text",
+     "label": "Foncière et des Hypothèques de",
+     "group": "A cet effet, Monsieur le Conservateur de la Propriété Foncière et des…"
+    },
+    {
+     "id": "ville_tribunal",
+     "type": "text",
+     "label": "Ville du tribunal compétent",
+     "group": "Le Tribunal de Première Instance … règlera tout litige pouvant survenir…"
+    },
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mme … Mme …"
+    },
+    {
+     "id": "champ_062",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mme … Mme …"
+    },
+    {
+     "id": "champ_063",
+     "type": "text",
+     "label": "Ont signé avec le Notaire",
+     "group": "Me …",
+     "aide": "…Me ▢"
+    },
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "Avant « dans blancs »",
+     "group": "Barres : … dans blancs",
+     "aide": "…Barres ▢ dans blancs…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "{{reference_etude}}",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**VENTE PAR**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**AU PROFIT DE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**L’AN**"
+  },
+  {
+   "k": "p",
+   "text": "**LE {{champ_001}}**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PARDEVANT Maître {{notaire_nom}}, Notaire à {{ville_notaire}} (République de COTE D’IVOIRE), soussigné,**"
+  },
+  {
+   "k": "p",
+   "text": "**ONT COMPARU**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**1) Madame/ Monsieur {{champ_002}}**, {{champ_003}} {{champ_004}}, demeurant à {{champ_005}} {{champ_006}}, Commune de {{champ_007}} {{champ_008}}, {{champ_009}} {{champ_010}}, {{champ_011}} Boîte Postale   {{ville_bp}}  , {{champ_012}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né {{champ_013}} à {{champ_014}} {{champ_015}}, le {{champ_016}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité  {{champ_017}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_018}} {{champ_019}}, établie à {{champ_020}} {{champ_021}}, le {{champ_022}} et valable jusqu’au {{champ_023}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Madame/ Monsieur {{champ_024}} {{champ_025}}, **ci-après dénommé dans le corps de l'acte et pour en faciliter la rédaction« **LE VENDEUR **»."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**D’UNE PART**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**2) Madame/ Monsieur {{champ_026}} {{champ_027}}**, {{champ_028}} {{champ_029}}, demeurant à {{champ_030}} {{champ_031}}, Epoux de {{champ_032}} avec lequel elle s’est mariée à la Mairie {{champ_033}}, le {{champ_034}} sous le régime de la {{champ_035}} de biens,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{lieu_naissance}}, le {{champ_036}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_037}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_038}} établie à {{lieu_delivrance}}, le {{champ_039}} et valable jusqu’au {{champ_040}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Madame/  Monsieur {{champ_041}},** ci-après dénommé dans le corps de l'acte et pour en faciliter la rédaction « **l’ACQUEREUR **»."
+  },
+  {
+   "k": "p",
+   "text": "**D’AUTRE PART**",
+   "ind": 6
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LESQUELS**, ont requis le Notaire soussigné de constater en la forme authentique les conventions suivantes, arrêtées directement entre elles, sans le concours ni la participation dudit Notaire qui n’est ici que le simple rédacteur."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "CE QUI A LIEU DE LA MANIERE SUIVANTE :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**V E N T E**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Par ces présentes, le** VENDEUR**, en s’obligeant aux garanties ordinaires et de droit les plus étendues en pareille matière, vend à l’**ACQUEREUR** l’immeuble dont la désignation suit :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DESIGNATION**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Une parcelle de terrain urbain sise à {{champ_042}} {{champ_043}}, Commune de {{champ_044}} {{champ_045}}, d’une superficie de {{champ_046}} **mètres carrés (  m2)**, formant le lot numéro {{champ_047}} **({{champ_048}}),** îlot numéro {{champ_049}} **({{champ_050}}) **et faisant l’objet du **T**itre **F**oncier numéro {{champ_051}} **({{champ_052}})** de la Circonscription Foncière et des Hypothèques de** {{champ_053}}.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Tel que ce bien existe, s’étend, se poursuit et comporte avec tous droits, aisances et dépendances, tous immeubles par nature et par destination y attachés, sans aucune exception ni réserve, le tout bien connu de **l’ACQUEREUR**, pour l’avoir vu et visité dans l’intention des présentes."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ORIGINE DE PROPRIETE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le bien immobilier ci-dessus désigné et présentement vendu appartient au **VENDEUR** ainsi qu’il résulte de l’**A**rrêté de **C**oncession **D**éfinitive numéro {{champ_054}} {{champ_055}}, délivré par le Ministre de la Construction et de l’Urbanisme, le {{champ_056}}**.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PROPRIETE - JOUISSANCE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Par le seul fait et au moyen des présentes, l’**ACQUEREUR** aura la jouissance à compter de ce jour."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’acquéreur sera en pleine propriété de l’immeuble vendu à compter de ce jour."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHARGES ET CONDITIONS**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La présente vente est faite sous les charges et les conditions ordinaires et de droit et notamment sous celles ci-après stipulées que l’**ACQUEREUR **s’oblige à supporter et à exécuter, savoir :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ETAT DE L’OBJET**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’**ACQUEREUR **prendra le bien vendu dans l’état où il se trouvera lors de l’entrée en jouissance, sans pouvoir exercer ni recours, ni répétition, ni demander une réduction du prix ci-après fixé pour raison, soit de mauvais état du sol ou du sous-sol, soit de mitoyenneté des murs ou clôtures, soit d’erreur dans la désignation ou la contenance."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**SERVITUDES**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’**ACQUEREUR** souffrira des servitudes passives, de toute nature qui peuvent grever le bien vendu sauf à s’en défendre et à profiter en retour de celles actives, s’il en existe, à ses risques et périls, sans recours contre le **VENDEUR**, et sans que la présente"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "clause puisse conférer à des tiers, plus de droits qu’il justifierait en avoir, en vertu de tous titres réguliers et non prescrits ou de la loi ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A ce sujet, le** VENDEUR** déclare qu’il n’existe à sa connaissance aucune servitude grevant le bien vendu autre que celles résultant de la situation naturelle des lieux, des plans d’aménagement et des dispositions d’urbanisme en vigueur à {{ville_bien}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**IMPOTS ET TAXES**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’**ACQUEREUR** payera à compter de l’entrée en jouissance, les impôts, taxes et contributions de toute nature auxquels le bien vendu peut et pourra être assujetti."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A ce sujet, le Notaire soussigné a informé l’**ACQUEREUR** qui le reconnaît, de la nécessité de faire opérer à ses frais, toutes formalités de déclaration fiscale nécessaires à l’imposition du bien objet des présentes, en son nom aux services des impôts."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CONTRAT D’ASSURANCES**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’**ACQUEREUR** fera son affaire personnelle de la souscription de toutes polices d’assurances-incendie, dégât des eaux, autres risques concernant le bien vendu ainsi que de tous abonnements, le tout de manière que le **VENDEUR** ne soit ni inquiété, ni recherché à ce sujet."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**FRAIS**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Enfin, l’**ACQUEREUR **paiera les frais, droits et émoluments des présentes et de leurs suites, sans exception."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PRIX**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La présente vente est consentie et acceptée moyennant le prix principal de  **({{champ_057}})DE FRANCS CFA.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Lequel prix, l’**ACQUEREUR** a payé comptant ce jour, hors la comptabilité du Notaire soussigné, au **VENDEUR** qui le reconnaît et lui en accorde bonne et valable quittance définitive."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DONT QUITTANCE ENTIERE ET DEFINITIVE**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DECLARATIONS D’ETAT CIVIL ET AUTRES**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** VENDEUR** déclare :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Que les énonciations figurant en tête des présentes concernant son identification sont exactes ;",
+   "mk": "◦"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Que le bien vendu a été immatriculé en son nom tel que dit ci-dessus sous le Titre « origine de propriété », aucun fait ni acte n’est survenu modifiant sa capacité juridique ou son droit de propriété ;",
+   "mk": "◦"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "que le bien vendu n’est grevé d’aucune inscription conventionnelle, judiciaire ou légale ou autre droit réel.",
+   "mk": "◦"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**IMPOSITIONS SUR LA PLUS VALUE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les parties reconnaissent avoir été informées par le Notaire soussigné des dispositions de **l’Article \"762\"** nouveau du Code Général des Impôts, instituant un régime des plus-values immobilières fixées forfaitairement à **vingt pour cent (20%)** avec un taux de prélèvement à **quinze pour cent (15%)** à la charge du **VENDEUR** et les conséquences en résultant."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour la présente vente, l’impôt sur la plus-value s’élève à la somme de **({{champ_058}})FRANCS CFA.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Etant ici précisé que ce prélèvement est à la charge exclusive du VENDEUR, nonobstant toute clause contraire.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**REQUISITIONS FONCIERES - POUVOIRS**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Une expédition des présentes sera déposée à la **C**onservation **F**oncière et des **H**ypothèques de {{champ_059}} par les soins du Notaire soussigné, aux frais de l’**ACQUEREUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A cet effet, Monsieur le **C**onservateur de la **P**ropriété **F**oncière et des **H**ypothèques de {{champ_060}} est requis par le Notaire soussigné, conformément à l’obligation qui lui en est faite de formaliser le présent acte conformément aux stipulations qui y sont contenues."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Si lors de l’accomplissement des formalités, il est révélé des inscriptions grevant le bien vendu du chef du **VENDEUR**, ce dernier s’oblige à en rapporter, à ses frais, mainlevées et certificats de radiation dans les deux mois de la dénonciation amiable qui lui en sera faite au domicile ci-après élu."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour l’accomplissement des formalités dont s’agit, les parties donnent tous pouvoirs à tout Clerc de **l’Etude de Maître {{notaire_nom}} **à l’effet de dresser et de signer tous actes complémentaires, rectificatifs ou modificatifs des présentes, pour mettre celles-ci s’il y a lieu, en concordance avec tous les documents officiels."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DOMICILE - ATTRIBUTION DE JURIDICTION**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les parties font élection de domicile en leur demeure respective, telle qu’indiquée en tête des présentes."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Tribunal de Première Instance {{ville_tribunal_de}} règlera tout litige pouvant survenir dans l’interprétation ou l’exécution des présentes ou de leurs suites."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LECTURE DES LOIS-AFFIRMATION DE SINCERITE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Avant de clore et conformément à la loi, le Notaire soussigné a donné lecture aux parties qui le reconnaissent, des dispositions des articles **470, 471, 472, 473, 798, 799, 801,803 et 804** du **C**ode **G**énéral des **I**mpôts sur les dissimulations de prix, et de l’article **303** du **C**ode **P**énal relatif aux faux serments."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Chacune des parties a affirmé séparément, sous les peines édictées par le Livre de Procédures Fiscales, que le présent acte exprime bien l'intégralité du prix convenu."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En outre, le Notaire soussigné affirme, de son côté, qu'à sa connaissance personnelle, le présent acte n'est modifié ni contredit par aucune contre-lettre contenant une augmentation du prix."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Enfin, le Notaire soussigné a attiré l’attention des parties sur les dispositions de l’article **788** du **C**ode **G**énéral des **I**mpôts accordant à l’Administration fiscale ivoirienne un pouvoir souverain d’appréciation du prix ou de l’évaluation portés dans les actes constatant la transmission de la propriété de biens immeubles, et de la faculté pour ladite Administration, lorsqu’un accord sur l’estimation ne s’est pas fait à l’amiable, de déférer le contribuable devant la Commission de Conciliation instituée par l’article **789** dudit Code Général des Impôts, en vue de fixer la valeur taxable."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence de quoi, les parties donnent au Notaire soussigné décharge pleine et entière de toute responsabilité en cas de contestation par l’Administration fiscale du montant du prix de vente indiqué dans le présent acte."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DONT ACTE SUR SIX PAGES**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait et passé à {{ville_notaire}}"
+  },
+  {
+   "k": "p",
+   "text": "En l’Etude du Notaire Soussigné"
+  },
+  {
+   "k": "p",
+   "text": "Et lecture faite, les comparants ont signé avec le Notaire.",
+   "ind": 2
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{champ_061}} Mme {{champ_062}}**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Me {{notaire_nom}} {{champ_063}}**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ledit acte contenant :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Renvois :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Blancs bâtonnés :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Barres : {{champ_064}} dans blancs",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Lignes entières rayées nulles :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Mots nuls :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Chiffres nuls :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**PARAPHES**"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1tvrks-xmgbalsvmcqszs8v4tok35qvel-matrice-vente-avec-acd.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "reference_etude": "Exemple",
+  "champ_001": "2000-01-01",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "2000-01-01",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "2000-01-01",
+  "champ_023": "2000-01-01",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple",
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "2000-01-01",
+  "champ_035": "Exemple",
+  "champ_036": "2000-01-01",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_039": "2000-01-01",
+  "champ_040": "2000-01-01",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple",
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "Exemple",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "Exemple",
+  "champ_049": "Exemple",
+  "champ_050": "Exemple",
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple",
+  "champ_056": "2000-01-01",
+  "champ_057": "Exemple",
+  "champ_058": "Exemple",
+  "champ_059": "Exemple",
+  "champ_060": "Exemple",
+  "champ_061": "Exemple",
+  "champ_062": "Exemple",
+  "champ_063": "Exemple",
+  "champ_064": "Exemple",
+  "ville_notaire": "Abidjan",
+  "ville_bp": "Abidjan",
+  "lieu_naissance": "Abidjan",
+  "lieu_delivrance": "Abidjan",
+  "ville_bien": "Abidjan",
+  "ville_tribunal": "Abidjan"
+ }
 }

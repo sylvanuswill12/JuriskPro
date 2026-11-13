@@ -1,0 +1,56 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d13-examen-du-registre-des-titres-nomi",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Examen du registre des titres nominatifs",
+ "sous": "Décision du conseil d’administration d’une société anonyme : examen du registre des titres nominatifs.",
+ "resume": "PV du conseil d’administration – Examen du registre des titres nominatifs : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Examen du registre des titres nominatifs",
+ "fileBase": "PV du conseil d’administration – Examen du registre des titres nominatifs",
+ "headline": "PV du conseil d’administration – Examen du registre des titres nominatifs",
+ "etapes": [
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d13-examen-du-registre-des-titres-nomi.docx",
+  "version": "5"
+ },
+ "exemple": {},
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Examen du registre des titres nominatifs**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration constate que le registre des titres nominatifs est tenu à jour et il contient toutes les mentions légales. Le Conseil donne mandat au Président de délivrer au Commissaire aux comptes une attestation, de tenue régulière et conforme à la loi, du registre des titres nominatifs."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

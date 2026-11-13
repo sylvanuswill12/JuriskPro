@@ -1,416 +1,416 @@
 {
-  "id": "source-1yglpq5g6lsibigpq9savwdxmxwtvxuvp-matrice-proces-verbal-de-l",
-  "cat": "societes-associations",
-  "sub": "Associations",
-  "titre": "Procès-verbal de l’assemblée générale constitutive d’une association",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Procès-verbal de l’assemblée générale constitutive d’une association : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "associations",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "5 min",
-  "docTitle": "Procès-verbal de l’assemblée générale constitutive d’une association",
-  "fileBase": "Procès-verbal de l’assemblée générale constitutive d’une association",
-  "headline": "Procès-verbal de l’assemblée générale constitutive d’une association",
-  "etapes": [
+ "id": "source-1yglpq5g6lsibigpq9savwdxmxwtvxuvp-matrice-proces-verbal-de-l",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Procès-verbal de l’assemblée générale constitutive d’une association",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Procès-verbal de l’assemblée générale constitutive d’une association : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "associations",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "5 min",
+ "docTitle": "Procès-verbal de l’assemblée générale constitutive d’une association",
+ "fileBase": "Procès-verbal de l’assemblée générale constitutive d’une association",
+ "headline": "Procès-verbal de l’assemblée générale constitutive d’une association",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Informations à renseigner",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Informations à renseigner",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "MINISTERE DE",
-          "group": "MINISTERE DE … REPUBLIQUE DE COTE D’IVOIRE"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "BP",
-          "group": "BP … / Tél. :",
-          "aide": "…BP ▢ Tél…"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Heure",
-          "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
-          "aide": "…VINGT ET LE JOUR MOIS A ▢ HEURES MINUTES les fondateurs…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Minutes",
-          "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
-          "aide": "…ET LE JOUR MOIS A HEURES ▢ MINUTES les fondateurs et…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Se sont réunis à",
-          "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "L’Assemblée est présidée par Monsieur",
-          "group": "L’Assemblée est présidée par Monsieur …"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "De l’association sont effectivement présents",
-          "group": "L’Assemblée est présidée par Monsieur …",
-          "aide": "…L’Assemblée est présidée par Monsieur ▢"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "La séance est levée à",
-          "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Minutes",
-          "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……",
-          "aide": "…la séance est levée à heures ▢ minutes…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Nom Prénoms",
-          "group": "Nom & Prénoms … Nom & Prénoms",
-          "aide": "…Nom Prénoms ▢ Nom Prénoms…"
-        }
-      ]
+     "id": "champ_008",
+     "type": "text",
+     "label": "MINISTERE DE",
+     "group": "MINISTERE DE … REPUBLIQUE DE COTE D’IVOIRE"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_009",
+     "type": "text",
+     "label": "BP",
+     "group": "BP … / Tél. :",
+     "aide": "…BP ▢ Tél…"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Heure",
+     "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
+     "aide": "…VINGT ET LE JOUR MOIS A ▢ HEURES MINUTES les fondateurs…"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Minutes",
+     "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…",
+     "aide": "…ET LE JOUR MOIS A HEURES ▢ MINUTES les fondateurs et…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Se sont réunis à",
+     "group": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A … HEURES … MINUTES, les…"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "L’Assemblée est présidée par Monsieur",
+     "group": "L’Assemblée est présidée par Monsieur …"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "De l’association sont effectivement présents",
+     "group": "L’Assemblée est présidée par Monsieur …",
+     "aide": "…L’Assemblée est présidée par Monsieur ▢"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "La séance est levée à",
+     "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Minutes",
+     "group": "Plus rien n’étant à l’ordre du jour, la séance est levée à … heures ……",
+     "aide": "…la séance est levée à heures ▢ minutes…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Nom Prénoms",
+     "group": "Nom & Prénoms … Nom & Prénoms",
+     "aide": "…Nom Prénoms ▢ Nom Prénoms…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "MINISTERE DE {{champ_008}} REPUBLIQUE DE COTE D’IVOIRE",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Union – discipline - Travail",
-      "al": "left",
-      "ind": 6
-    },
-    {
-      "k": "p",
-      "text": "MINISTERE",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "BP {{champ_009}} / Tél. :",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PROCES-VERBAL",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "DE L’ASSEMBLEE GENERALE CONSTITUTIVE",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "pb"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A {{champ_001}} HEURES {{champ_002}} MINUTES, les fondateurs et premiers membres de l’association dénommée **\" START LAB    \"** se sont réunis à {{champ_003}} en **A**ssemblée **G**énérale **C**onstitutive."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il est constaté que tous les fondateurs, premiers membres de l’association, sont effectivement présents."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’Assemblée est présidée par Monsieur {{champ_004}} {{champ_005}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Monsieur le Président dépose sur le bureau et met à la disposition des membres de l’Assemblée Générale :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Le projet des statuts ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Le projet du règlement intérieur ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Le texte de résolutions.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Monsieur le Président rappelle que l’Assemblée Générale est appelée à délibérer sur l’ordre du jour suivant :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Approbation des statuts et du règlement intérieur ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Election et mise en place du Bureau Exécutif et du Commissariat aux Comptes ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Constatation de l’accomplissement des formalités de constitution ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Questions diverses.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Monsieur le Président donne lecture du projet des statuts et du projet de règlement intérieur.",
-      "mk": "1-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il déclare ensuite la discussion ouverte."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’Assemblée Générale Constitutive de l’association, après avoir pris connaissance du projet des statuts et du règlement intérieur de l’association, approuve purement et simplement lesdits documents."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "L’Assemblée Générale Constitutive procède à l’élection de son Bureau Exécutif.",
-      "mk": "2-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Sont ainsi élus au titre du Bureau Exécutif."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les membres du Bureau Exécutif désignés déclarent ici accepter leurs fonctions."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Sont élus au titre du Commissariat aux Comptes :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Commissaire aux Comptes ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Commissaire aux Comptes Adjoint.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les Commissaires aux Comptes déclarent accepter leurs fonctions."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "L’Assemblée Générale Constitutive constate qu’à ce jour les formalités de la constitution terminée, donne tous pouvoirs au Président élu pour déclarer l’association à la Préfecture préalablement au commencement de son activité et de mentionner son existence au journal officiel de la République de COTE D’IVOIRE.",
-      "mk": "3-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Plus rien n’étant à l’ordre du jour, la séance est levée à {{champ_006}} heures {{champ_007}} minutes.",
-      "mk": "4-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De tout ce qui a précédé, il a été dressé le présent procès-verbal pour servir et valoir ce que de droit."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LE SECRETAIRE GENERAL                                                       LE PRESIDENT**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "(SIGNATURE)    (SIGNATURE)"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Nom & Prénoms {{champ_010}} Nom & Prénoms"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1yglpq5g6lsibigpq9savwdxmxwtvxuvp-matrice-proces-verbal-de-l.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_010": "Exemple"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "MINISTERE DE {{champ_008}} REPUBLIQUE DE COTE D’IVOIRE",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Union – discipline - Travail",
+   "al": "left",
+   "ind": 6
+  },
+  {
+   "k": "p",
+   "text": "MINISTERE",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "BP {{champ_009}} / Tél. :",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PROCES-VERBAL",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "DE L’ASSEMBLEE GENERALE CONSTITUTIVE",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "pb"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’AN DEUX MIL VINGT ET LE (JOUR, MOIS) A {{champ_001}} HEURES {{champ_002}} MINUTES, les fondateurs et premiers membres de l’association dénommée **\" START LAB    \"** se sont réunis à {{champ_003}} en **A**ssemblée **G**énérale **C**onstitutive."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il est constaté que tous les fondateurs, premiers membres de l’association, sont effectivement présents."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’Assemblée est présidée par Monsieur {{champ_004}} {{champ_005}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Monsieur le Président dépose sur le bureau et met à la disposition des membres de l’Assemblée Générale :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Le projet des statuts ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le projet du règlement intérieur ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le texte de résolutions.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Monsieur le Président rappelle que l’Assemblée Générale est appelée à délibérer sur l’ordre du jour suivant :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Approbation des statuts et du règlement intérieur ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Election et mise en place du Bureau Exécutif et du Commissariat aux Comptes ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Constatation de l’accomplissement des formalités de constitution ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Questions diverses.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Monsieur le Président donne lecture du projet des statuts et du projet de règlement intérieur.",
+   "mk": "1-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il déclare ensuite la discussion ouverte."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’Assemblée Générale Constitutive de l’association, après avoir pris connaissance du projet des statuts et du règlement intérieur de l’association, approuve purement et simplement lesdits documents."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "L’Assemblée Générale Constitutive procède à l’élection de son Bureau Exécutif.",
+   "mk": "2-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Sont ainsi élus au titre du Bureau Exécutif."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les membres du Bureau Exécutif désignés déclarent ici accepter leurs fonctions."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Sont élus au titre du Commissariat aux Comptes :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Commissaire aux Comptes ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Commissaire aux Comptes Adjoint.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les Commissaires aux Comptes déclarent accepter leurs fonctions."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "L’Assemblée Générale Constitutive constate qu’à ce jour les formalités de la constitution terminée, donne tous pouvoirs au Président élu pour déclarer l’association à la Préfecture préalablement au commencement de son activité et de mentionner son existence au journal officiel de la République de COTE D’IVOIRE.",
+   "mk": "3-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Cette résolution, mise aux voix, est adoptée à l’unanimité**.",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Plus rien n’étant à l’ordre du jour, la séance est levée à {{champ_006}} heures {{champ_007}} minutes.",
+   "mk": "4-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De tout ce qui a précédé, il a été dressé le présent procès-verbal pour servir et valoir ce que de droit."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LE SECRETAIRE GENERAL                                                       LE PRESIDENT**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "(SIGNATURE)    (SIGNATURE)"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Nom & Prénoms {{champ_010}} Nom & Prénoms"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1yglpq5g6lsibigpq9savwdxmxwtvxuvp-matrice-proces-verbal-de-l.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_010": "Exemple"
+ }
 }

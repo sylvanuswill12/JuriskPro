@@ -1,341 +1,341 @@
 {
-  "id": "source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres",
-  "cat": "societes-associations",
-  "sub": "OHADA",
-  "titre": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Préavis de réunion adressé à un actionnaire qui en fait la demande : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "ohada",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "6 min",
-  "docTitle": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
-  "fileBase": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
-  "headline": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
-  "etapes": [
+ "id": "source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres",
+ "cat": "societes-associations",
+ "sub": "OHADA",
+ "titre": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Préavis de réunion adressé à un actionnaire qui en fait la demande : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "ohada",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "6 min",
+ "docTitle": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
+ "fileBase": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
+ "headline": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Préavis de",
+   "titre": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Préavis de",
-      "titre": "Préavis de réunion adressé à un actionnaire qui en fait la demande",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Avant « Les Sociétés ne sont »",
-          "group": "Attention : … Les Sociétés ne sont pas tenues d'adresser spontanément…",
-          "aide": "…Attention ▢ Les Sociétés ne sont…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Dénomination sociale"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Montant du capital",
-          "group": "au capital de … CFA"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Numéro et rue",
-          "group": "Siège social : …"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Boîte postale"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Ville",
-          "aide": "▢"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Numéro d'immatriculation",
-          "group": "… RCCM …"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Ville d'immatriculation",
-          "group": "… RCCM …"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Avant « Les Sociétés ne sont »",
+     "group": "Attention : … Les Sociétés ne sont pas tenues d'adresser spontanément…",
+     "aide": "…Attention ▢ Les Sociétés ne sont…"
     },
     {
-      "id": "partie-2",
-      "court": "Société anonyme",
-      "titre": "Société anonyme avec Conseil d'administration",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Nom ou Dénomination de l'actionnaire",
-          "group": "…(Ou de son représentant)"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Numéro et rue"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Boîte postale"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Ville",
-          "aide": "▢"
-        },
-        {
-          "id": "champ_013",
-          "type": "date",
-          "label": "Date",
-          "group": "Le …,",
-          "aide": "…Le ▢"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Civilité de l'actionnaire",
-          "group": "… (Ou de son représentant),"
-        },
-        {
-          "id": "champ_015",
-          "type": "date",
-          "label": "Date",
-          "group": "Pour faire suite à votre demande effectuée, je vous informe qu'une…",
-          "aide": "…générale extraordinaire est prévue pour le ▢ à l'effet de statuer…"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Avant « Si les statuts subordonnent »",
-          "group": "Attention : … Si les statuts subordonnent l'accès à l'assemblée à la…",
-          "aide": "…Attention ▢ Si les statuts subordonnent…"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "Dénomination sociale"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_003",
+     "type": "text",
+     "label": "Montant du capital",
+     "group": "au capital de … CFA"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Numéro et rue",
+     "group": "Siège social : …"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Boîte postale"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Ville",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Numéro d'immatriculation",
+     "group": "… RCCM …"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Ville d'immatriculation",
+     "group": "… RCCM …"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**Préavis de réunion adressé à un actionnaire qui en fait la demande.**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Attention** : {{champ_001}} Les Sociétés ne sont pas tenues d'adresser spontanément un avis de réunion à leurs actionnaires. Elles peuvent le satisfaire à la demande de ceux d'entre eux qui ont exprimé, par simple lettre ou par lettre recommandée, le désir d'être prévenus de la réunion des assemblées ou de certaines d'entre elles.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Cette lettre doit être adressée (délai) au moins avant la date de l'assemblée.",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_002}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Société anonyme avec Conseil d'administration**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**au capital de {{champ_003}} CFA**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**Siège social : {{champ_004}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_005}} {{champ_006}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_007}} RCCM {{champ_008}}**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_009}}(Ou de son représentant)**",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_010}}**",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "**{{champ_011}} {{champ_012}}**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le {{champ_013}},",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "Lettre recommandée avec demande d'avis de réception",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "{{champ_014}} (Ou de son représentant),",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour faire suite à votre demande effectuée, je vous informe qu'une assemblée générale extraordinaire est prévue pour le {{champ_015}} à l'effet de statuer sur l'ordre du jour suivant :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Ordre du jour",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "-  Mise en harmonie des statuts avec les dernières dispositions légales,",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "S'il y a délégation de pouvoir en vue d'accomplir les formalités"
-    },
-    {
-      "k": "p",
-      "text": "-  Pouvoirs en vue d'accomplir les formalités."
-    },
-    {
-      "k": "p",
-      "text": "Le droit de participer à l'assemblée est subordonné à l'inscription par les actionnaires titulaires d'actions nominatives de leurs actions dans les comptes de la Société trois jours ouvrés au moins avant la date de l'assemblée."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Attention** : {{champ_016}} Si les statuts subordonnent l'accès à l'assemblée à la condition que l'inscription en compte soit intervenue trois jours au moins avant la réunion, la Société n'a pas à tenir compte des cessions de titres qui ont pu intervenir après cette date, même si le transfert de propriété s'opère pendant le délai de trois jours précédant l'assemblée. Dans ce cas, si le cédant avait déjà renvoyé préalablement à la cession, un formulaire de vote à distance (par correspondance ou par voie électronique) ou un pouvoir, le nouveau système aboutit à tenir compte de son vote à l'assemblée, alors même qu'il ne serait plus actionnaire de la Société, sauf clause contraire des statuts."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les transferts de propriété des titres ne sont pas pris en compte"
-    },
-    {
-      "k": "p",
-      "text": "Nous vous rappelons qu'il ne sera tenu compte d'aucun transfert de propriété des titres intervenant pendant ce délai de trois jours ouvrés."
-    },
-    {
-      "k": "p",
-      "text": "Les transferts de propriété des titres sont pris en compte",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Toutefois, la Société prendra en considération, tous les transferts de propriété des titres qui pourront intervenir pendant ce délai de trois jours ouvrés, pour autant que lesdits transferts lui soient notifiés au plus tard la veille de l'assemblée, à 15 heures, Heure locale."
-    },
-    {
-      "k": "p",
-      "text": "Il est rappelé qu'un ou plusieurs actionnaires représentant la fraction du capital prévue par la réglementation en vigueur peuvent demander l'inscription à l'ordre du jour de l'assemblée générale de projets de résolutions. Ces demandes doivent parvenir à la Société, par lettre recommandée avec demande d'avis de réception, dix jours au moins avant la date de l'assemblée."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Veuillez agréer, (Civilité de l'actionnaire (ou de son représentant), l'expression de nos sentiments distingués."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Le Conseil d'administration**",
-      "al": "center"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "2000-01-01",
-    "champ_014": "Exemple",
-    "champ_015": "2000-01-01",
-    "champ_016": "Exemple"
+  {
+   "id": "partie-2",
+   "court": "Société anonyme",
+   "titre": "Société anonyme avec Conseil d'administration",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Nom ou Dénomination de l'actionnaire",
+     "group": "…(Ou de son représentant)"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Numéro et rue"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Boîte postale"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Ville",
+     "aide": "▢"
+    },
+    {
+     "id": "champ_013",
+     "type": "date",
+     "label": "Date",
+     "group": "Le …,",
+     "aide": "…Le ▢"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Civilité de l'actionnaire",
+     "group": "… (Ou de son représentant),"
+    },
+    {
+     "id": "champ_015",
+     "type": "date",
+     "label": "Date",
+     "group": "Pour faire suite à votre demande effectuée, je vous informe qu'une…",
+     "aide": "…générale extraordinaire est prévue pour le ▢ à l'effet de statuer…"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Avant « Si les statuts subordonnent »",
+     "group": "Attention : … Si les statuts subordonnent l'accès à l'assemblée à la…",
+     "aide": "…Attention ▢ Si les statuts subordonnent…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Préavis de réunion adressé à un actionnaire qui en fait la demande.**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Attention** : {{champ_001}} Les Sociétés ne sont pas tenues d'adresser spontanément un avis de réunion à leurs actionnaires. Elles peuvent le satisfaire à la demande de ceux d'entre eux qui ont exprimé, par simple lettre ou par lettre recommandée, le désir d'être prévenus de la réunion des assemblées ou de certaines d'entre elles.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Cette lettre doit être adressée (délai) au moins avant la date de l'assemblée.",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_002}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Société anonyme avec Conseil d'administration**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**au capital de {{champ_003}} CFA**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**Siège social : {{champ_004}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_005}} {{champ_006}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_007}} RCCM {{champ_008}}**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_009}}(Ou de son représentant)**",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_010}}**",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "**{{champ_011}} {{champ_012}}**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le {{champ_013}},",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "Lettre recommandée avec demande d'avis de réception",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_014}} (Ou de son représentant),",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour faire suite à votre demande effectuée, je vous informe qu'une assemblée générale extraordinaire est prévue pour le {{champ_015}} à l'effet de statuer sur l'ordre du jour suivant :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Ordre du jour",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "-  Mise en harmonie des statuts avec les dernières dispositions légales,",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "S'il y a délégation de pouvoir en vue d'accomplir les formalités"
+  },
+  {
+   "k": "p",
+   "text": "-  Pouvoirs en vue d'accomplir les formalités."
+  },
+  {
+   "k": "p",
+   "text": "Le droit de participer à l'assemblée est subordonné à l'inscription par les actionnaires titulaires d'actions nominatives de leurs actions dans les comptes de la Société trois jours ouvrés au moins avant la date de l'assemblée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Attention** : {{champ_016}} Si les statuts subordonnent l'accès à l'assemblée à la condition que l'inscription en compte soit intervenue trois jours au moins avant la réunion, la Société n'a pas à tenir compte des cessions de titres qui ont pu intervenir après cette date, même si le transfert de propriété s'opère pendant le délai de trois jours précédant l'assemblée. Dans ce cas, si le cédant avait déjà renvoyé préalablement à la cession, un formulaire de vote à distance (par correspondance ou par voie électronique) ou un pouvoir, le nouveau système aboutit à tenir compte de son vote à l'assemblée, alors même qu'il ne serait plus actionnaire de la Société, sauf clause contraire des statuts."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les transferts de propriété des titres ne sont pas pris en compte"
+  },
+  {
+   "k": "p",
+   "text": "Nous vous rappelons qu'il ne sera tenu compte d'aucun transfert de propriété des titres intervenant pendant ce délai de trois jours ouvrés."
+  },
+  {
+   "k": "p",
+   "text": "Les transferts de propriété des titres sont pris en compte",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Toutefois, la Société prendra en considération, tous les transferts de propriété des titres qui pourront intervenir pendant ce délai de trois jours ouvrés, pour autant que lesdits transferts lui soient notifiés au plus tard la veille de l'assemblée, à 15 heures, Heure locale."
+  },
+  {
+   "k": "p",
+   "text": "Il est rappelé qu'un ou plusieurs actionnaires représentant la fraction du capital prévue par la réglementation en vigueur peuvent demander l'inscription à l'ordre du jour de l'assemblée générale de projets de résolutions. Ces demandes doivent parvenir à la Société, par lettre recommandée avec demande d'avis de réception, dix jours au moins avant la date de l'assemblée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Veuillez agréer, (Civilité de l'actionnaire (ou de son représentant), l'expression de nos sentiments distingués."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Le Conseil d'administration**",
+   "al": "center"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1t-djakbebszbrsfv0dugkzd2pnd8eu8c-7-pr-avis-de-r-union-adres.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "2000-01-01",
+  "champ_014": "Exemple",
+  "champ_015": "2000-01-01",
+  "champ_016": "Exemple"
+ }
 }

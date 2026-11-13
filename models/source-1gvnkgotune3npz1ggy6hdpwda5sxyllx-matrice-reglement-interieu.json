@@ -1,819 +1,819 @@
 {
-  "id": "source-1gvnkgotune3npz1ggy6hdpwda5sxyllx-matrice-reglement-interieu",
-  "cat": "societes-associations",
-  "sub": "Associations",
-  "titre": "Règlement intérieur d’association",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Règlement intérieur d’association : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "associations",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "4 min",
-  "docTitle": "Règlement intérieur d’association",
-  "fileBase": "Règlement intérieur d’association",
-  "headline": "Règlement intérieur d’association",
-  "etapes": [
+ "id": "source-1gvnkgotune3npz1ggy6hdpwda5sxyllx-matrice-reglement-interieu",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Règlement intérieur d’association",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Règlement intérieur d’association : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "associations",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "4 min",
+ "docTitle": "Règlement intérieur d’association",
+ "fileBase": "Règlement intérieur d’association",
+ "headline": "Règlement intérieur d’association",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Art. 12",
+   "titre": "Article 12 : Composition",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Art. 12",
-      "titre": "Article 12 : Composition",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Le Bureau Exécutif comprend",
-          "group": "Le Bureau Exécutif comprend ….membres."
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Aux Comptes est composé de",
-          "group": "Le Commissariat aux Comptes est composé de ….membres."
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Adopté en Assemblée Générale à",
-          "group": "Fait et adopté en Assemblée Générale à … ., le …"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Fait et adopté en Assemblée Générale à … ., le …",
-          "aide": "…et adopté en Assemblée Générale à ▢ le…"
-        },
-        {
-          "id": "champ_005",
-          "type": "date",
-          "label": "Date",
-          "group": "Fait et adopté en Assemblée Générale à … ., le …",
-          "aide": "…adopté en Assemblée Générale à le ▢"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Nom Prénoms",
-          "group": "Nom & Prénoms … Nom & Prénoms",
-          "aide": "…Nom Prénoms ▢ Nom Prénoms…"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Le Bureau Exécutif comprend",
+     "group": "Le Bureau Exécutif comprend ….membres."
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_002",
+     "type": "text",
+     "label": "Aux Comptes est composé de",
+     "group": "Le Commissariat aux Comptes est composé de ….membres."
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Adopté en Assemblée Générale à",
+     "group": "Fait et adopté en Assemblée Générale à … ., le …"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Fait et adopté en Assemblée Générale à … ., le …",
+     "aide": "…et adopté en Assemblée Générale à ▢ le…"
+    },
+    {
+     "id": "champ_005",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait et adopté en Assemblée Générale à … ., le …",
+     "aide": "…adopté en Assemblée Générale à le ▢"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Nom Prénoms",
+     "group": "Nom & Prénoms … Nom & Prénoms",
+     "aide": "…Nom Prénoms ▢ Nom Prénoms…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**REGLEMENT**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**INTERIEUR**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "pb"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TITRE I : DISPOSITIONS GENERALES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article1 :** Le présent règlement intérieur a pour objet de définir les modalités d’application des statuts de l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TITRE II : DE L’ACQUISITION ET DE LA PERTE DE LA QUALITE DE MEMBRE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE I : STATUT DES MEMBRES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’association se compose des membres actifs et des membres d’honneur."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 2 : Membres actifs**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Sont membres actifs, les membres fondateurs et les personnes qui :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Ont formulé une demande écrite dans ce sens ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Ont adhéré aux statuts ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Se sont acquittés d’une part de leur droit d’adhésion et d’autre part de leur cotisation Mensuelle.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 3 : Membres d’honneur**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Sont membres d’honneur les personnes qui ont rendu, rendent ou sont susceptibles de rendre des services éminents à l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE II : ADHESION ET EXCLUSION**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 4 : Adhésion**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Peuvent adhérer à l’association toutes personnes qui jouissent de leurs droits civils."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 5 : Exclusion**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La qualité de membres se perd par :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Démission ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Radiation ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Décès ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Dissolution de l’association.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TITRE III : DROITS ET DEVOIRS DES MEMBRES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Chapitre I : DROITS ET OBLIGATIONS DES MEMBRES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 6 : Droits des membres**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La qualité de membre actif confère le droit de prendre part aux délibérations de l’Assemblée Générale."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 7 : Devoirs des membres**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les membres actifs ont le devoir de :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "S’acquitter de leurs différentes cotisations ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Participer à toutes les réunions ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Respecter les décisions et les délibérations du Bureau Exécutif et de l’Assemblée Générale.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE II : SANCTIONS**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’inobservation des devoirs déterminés à l’article 7 du présent règlement intérieur donne lieu aux sanctions suivantes :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Avertissement ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Blâme ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Radiation.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 8 : Sanctions de premier degré**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’avertissement et le blâme sont prononcés par le Bureau Exécutif."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 9 : Sanction de deuxième degré**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La radiation est prononcée par l’Assemblée Générale."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TITRE IV : ADMINISTRATION ET FONCTIONNEMENT**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’association est dotée des organes suivants :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "L’Assemblée Générale (A.G.) ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Le Bureau Exécutif (B.E.) ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Le Commissariat aux Comptes (C.C.).",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE I : L’ASSEMBLEE GENERALE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 10 : Composition**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’Assemblée Générale se compose de tous les membres actifs."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les membres d’honneur peuvent participer aux sessions de l’association et y être entendus, sauf objection de celle-ci, mais ne disposent pas du droit de vote."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 11 : Attributions**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’Assemblée Générale est l’organe suprême de l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ses principales fonctions consistent à :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Déterminer la politique générale de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Contrôler la politique financière, examine et approuve le budget et le règlement financier de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Se prononcer sur l’adhésion de nouveaux membres de l’association et détermine la nature de leurs droits et obligations ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Fixer d’une part le taux du droit d’adhésion et d’autre part le taux de cotisation Mensuelle ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Amender les statuts et créer tout autre organe nécessaire au bon fonctionnement de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Elire le Président et les Commissaires aux Comptes ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Nommer éventuellement les liquidateurs de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Déplacer le siège de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Prendre toutes les mesures propres à la réalisation des objectifs de l’association.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE II : LE BUREAU EXECUTIF**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 12 : Composition**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Bureau Exécutif comprend {{champ_001}}.membres."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il est constitué de la manière suivante :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Président",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Secrétaire Général",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Trésorier",
-      "mk": "-"
-    },
-    {
-      "k": "p",
-      "text": "**Article 13 : Attributions**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les attributions des membres du Bureau Exécutif sont les suivantes :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**PRESIDENT** : Le Président est le chef du Bureau exécutif."
-    },
-    {
-      "k": "p",
-      "text": "A ce titre :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il convoque les Assemblées Générales et les réunions du Bureau Exécutif et veille à l’application des délibérations et des décisions qui y sont prises ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il représente l’association dans tous les actes de la vie civile et est investi de tous les pouvoirs à cet effet ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il a notamment qualité pour ester en justice au nom de l’association.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**VICE-PRESIDENT** : Le Vice-Président remplace le Président en cas d’absence ou d’empêchement."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**SECRETAIRE GENERAL** : Le Secrétaire Général est le responsable administratif de l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A ce titre :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il rédige les procès-verbaux des délibérations et des décisions des Assemblées Générales et des réunions du Bureau Exécutif et en assure la transcription sur le registre prévu à cet effet ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il rédige toutes les correspondances de l’association ;",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Il assure la garde des archives de l’association.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**SECRETAIRE GENERAL ADJOINT** : Le Secrétaire Général Adjoint remplace le Secrétaire Général en cas d’absence ou d’empêchement."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TRESORIER GENERAL** : Le Trésorier Général est le responsable financier de l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il est chargé notamment du recouvrement des cotisations des membres."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TRESORIER GENERAL ADJOINT** : Le Trésorier Général Adjoint remplace le Trésorier Général en cas d’absence ou d’empêchement."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHAPITRE III : LE COMMISSARIAT AUX COMPTES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 14 : Composition**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le Commissariat aux Comptes est composé de {{champ_002}}.membres."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 15 : Attributions**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les commissaires aux Comptes sont chargés de :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Contrôler la gestion financière du Bureau Exécutif ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "Examiner et donner leur avis sur la politique financière de l’association.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**TITRE V : DISPOSITIONS FINALES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 16 : Modifications du règlement intérieur**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les modifications des dispositions du règlement intérieur sont proposées à l’Assemblée Générale par le Bureau Exécutif."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 17 : Règlement intérieur**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent règlement intérieur sera communiqué et diffusé à tous les membres de l’association."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait et adopté en Assemblée Générale à {{champ_003}} {{champ_004}}., le {{champ_005}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LE SECRETAIRE GENERAL                                                       LE PRESIDENT**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "(SIGNATURE)    (SIGNATURE)"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Nom & Prénoms {{champ_006}} Nom & Prénoms"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1gvnkgotune3npz1ggy6hdpwda5sxyllx-matrice-reglement-interieu.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "2000-01-01",
-    "champ_006": "Exemple"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**REGLEMENT**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**INTERIEUR**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "pb"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TITRE I : DISPOSITIONS GENERALES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article1 :** Le présent règlement intérieur a pour objet de définir les modalités d’application des statuts de l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TITRE II : DE L’ACQUISITION ET DE LA PERTE DE LA QUALITE DE MEMBRE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE I : STATUT DES MEMBRES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’association se compose des membres actifs et des membres d’honneur."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 2 : Membres actifs**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Sont membres actifs, les membres fondateurs et les personnes qui :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Ont formulé une demande écrite dans ce sens ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Ont adhéré aux statuts ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Se sont acquittés d’une part de leur droit d’adhésion et d’autre part de leur cotisation Mensuelle.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 3 : Membres d’honneur**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Sont membres d’honneur les personnes qui ont rendu, rendent ou sont susceptibles de rendre des services éminents à l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE II : ADHESION ET EXCLUSION**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 4 : Adhésion**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Peuvent adhérer à l’association toutes personnes qui jouissent de leurs droits civils."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 5 : Exclusion**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La qualité de membres se perd par :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Démission ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Radiation ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Décès ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Dissolution de l’association.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TITRE III : DROITS ET DEVOIRS DES MEMBRES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Chapitre I : DROITS ET OBLIGATIONS DES MEMBRES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 6 : Droits des membres**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La qualité de membre actif confère le droit de prendre part aux délibérations de l’Assemblée Générale."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 7 : Devoirs des membres**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les membres actifs ont le devoir de :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "S’acquitter de leurs différentes cotisations ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Participer à toutes les réunions ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Respecter les décisions et les délibérations du Bureau Exécutif et de l’Assemblée Générale.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE II : SANCTIONS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’inobservation des devoirs déterminés à l’article 7 du présent règlement intérieur donne lieu aux sanctions suivantes :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Avertissement ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Blâme ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Radiation.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 8 : Sanctions de premier degré**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’avertissement et le blâme sont prononcés par le Bureau Exécutif."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 9 : Sanction de deuxième degré**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La radiation est prononcée par l’Assemblée Générale."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TITRE IV : ADMINISTRATION ET FONCTIONNEMENT**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’association est dotée des organes suivants :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "L’Assemblée Générale (A.G.) ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le Bureau Exécutif (B.E.) ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Le Commissariat aux Comptes (C.C.).",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE I : L’ASSEMBLEE GENERALE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 10 : Composition**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’Assemblée Générale se compose de tous les membres actifs."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les membres d’honneur peuvent participer aux sessions de l’association et y être entendus, sauf objection de celle-ci, mais ne disposent pas du droit de vote."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 11 : Attributions**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’Assemblée Générale est l’organe suprême de l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ses principales fonctions consistent à :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Déterminer la politique générale de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Contrôler la politique financière, examine et approuve le budget et le règlement financier de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Se prononcer sur l’adhésion de nouveaux membres de l’association et détermine la nature de leurs droits et obligations ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Fixer d’une part le taux du droit d’adhésion et d’autre part le taux de cotisation Mensuelle ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Amender les statuts et créer tout autre organe nécessaire au bon fonctionnement de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Elire le Président et les Commissaires aux Comptes ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Nommer éventuellement les liquidateurs de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Déplacer le siège de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Prendre toutes les mesures propres à la réalisation des objectifs de l’association.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE II : LE BUREAU EXECUTIF**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 12 : Composition**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Bureau Exécutif comprend {{champ_001}}.membres."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il est constitué de la manière suivante :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Président",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Secrétaire Général",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Trésorier",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "**Article 13 : Attributions**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les attributions des membres du Bureau Exécutif sont les suivantes :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**PRESIDENT** : Le Président est le chef du Bureau exécutif."
+  },
+  {
+   "k": "p",
+   "text": "A ce titre :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il convoque les Assemblées Générales et les réunions du Bureau Exécutif et veille à l’application des délibérations et des décisions qui y sont prises ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il représente l’association dans tous les actes de la vie civile et est investi de tous les pouvoirs à cet effet ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il a notamment qualité pour ester en justice au nom de l’association.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**VICE-PRESIDENT** : Le Vice-Président remplace le Président en cas d’absence ou d’empêchement."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**SECRETAIRE GENERAL** : Le Secrétaire Général est le responsable administratif de l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A ce titre :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il rédige les procès-verbaux des délibérations et des décisions des Assemblées Générales et des réunions du Bureau Exécutif et en assure la transcription sur le registre prévu à cet effet ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il rédige toutes les correspondances de l’association ;",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Il assure la garde des archives de l’association.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**SECRETAIRE GENERAL ADJOINT** : Le Secrétaire Général Adjoint remplace le Secrétaire Général en cas d’absence ou d’empêchement."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TRESORIER GENERAL** : Le Trésorier Général est le responsable financier de l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il est chargé notamment du recouvrement des cotisations des membres."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TRESORIER GENERAL ADJOINT** : Le Trésorier Général Adjoint remplace le Trésorier Général en cas d’absence ou d’empêchement."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHAPITRE III : LE COMMISSARIAT AUX COMPTES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 14 : Composition**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Commissariat aux Comptes est composé de {{champ_002}}.membres."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 15 : Attributions**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les commissaires aux Comptes sont chargés de :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Contrôler la gestion financière du Bureau Exécutif ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Examiner et donner leur avis sur la politique financière de l’association.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**TITRE V : DISPOSITIONS FINALES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 16 : Modifications du règlement intérieur**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les modifications des dispositions du règlement intérieur sont proposées à l’Assemblée Générale par le Bureau Exécutif."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 17 : Règlement intérieur**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent règlement intérieur sera communiqué et diffusé à tous les membres de l’association."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait et adopté en Assemblée Générale à {{champ_003}} {{champ_004}}., le {{champ_005}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LE SECRETAIRE GENERAL                                                       LE PRESIDENT**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "(SIGNATURE)    (SIGNATURE)"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Nom & Prénoms {{champ_006}} Nom & Prénoms"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1gvnkgotune3npz1ggy6hdpwda5sxyllx-matrice-reglement-interieu.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "2000-01-01",
+  "champ_006": "Exemple"
+ }
 }

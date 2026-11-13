@@ -1,0 +1,213 @@
+{
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a4-pouvoir-pour-les-formalites-ad",
+ "cat": "societes-associations",
+ "sub": "Actes de constitution de SARL",
+ "titre": "Pouvoir pour les formalités administratives de constitution",
+ "sous": "Pouvoir en vue de l’accomplissement des formalités administratives de constitution.",
+ "resume": "Pouvoir pour les formalités administratives de constitution : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "constitution",
+  "pouvoir",
+  "formalités"
+ ],
+ "duree": "6 min",
+ "docTitle": "Pouvoir pour les formalités administratives de constitution",
+ "fileBase": "Pouvoir pour les formalités administratives de constitution",
+ "headline": "Pouvoir pour les formalités administratives de constitution",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Acte 1",
+   "titre": "Pouvoir pour les formalités administratives de constitution",
+   "champs": [
+    {
+     "id": "champ_309",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Je soussigné(e) : … , …"
+    },
+    {
+     "id": "champ_310",
+     "type": "text",
+     "label": "Nom",
+     "group": "Je soussigné(e) : … , …"
+    },
+    {
+     "id": "champ_311",
+     "type": "text",
+     "label": "Adresse",
+     "group": "Je soussigné(e) : … , …"
+    },
+    {
+     "id": "champ_312",
+     "type": "text",
+     "label": "Préciser la qualité du mandant : fondateur, associé, gérant, etc.",
+     "group": "Agissant en qualité de … de la société …, société à responsabilité…"
+    },
+    {
+     "id": "champ_357",
+     "type": "text",
+     "label": "Dénomination sociale",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_359",
+     "type": "text",
+     "label": "Capital",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_362",
+     "type": "text",
+     "label": "Siège social",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Acte 2",
+   "titre": "Pouvoir pour les formalités administratives de constitution (suite)",
+   "champs": [
+    {
+     "id": "champ_316",
+     "type": "text",
+     "label": "Attributions à moi conférées par",
+     "group": "Agissant en qualité de … de la société …, société à responsabilité…"
+    },
+    {
+     "id": "champ_317",
+     "type": "text",
+     "label": "Les statuts",
+     "group": "Agissant en qualité de … de la société …, société à responsabilité…"
+    },
+    {
+     "id": "champ_318",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Donne pouvoir à … , …"
+    },
+    {
+     "id": "champ_319",
+     "type": "text",
+     "label": "Nom",
+     "group": "Donne pouvoir à … , …"
+    },
+    {
+     "id": "champ_320",
+     "type": "text",
+     "label": "Adresse",
+     "group": "Donne pouvoir à … , …"
+    },
+    {
+     "id": "champ_321",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_322",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a4-pouvoir-pour-les-formalites-ad.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_357": "Exemple",
+  "champ_359": "Exemple",
+  "champ_362": "Exemple",
+  "champ_309": "Exemple",
+  "champ_310": "Exemple",
+  "champ_311": "Exemple",
+  "champ_312": "Exemple",
+  "champ_316": "Exemple",
+  "champ_317": "Exemple",
+  "champ_318": "Exemple",
+  "champ_319": "Exemple",
+  "champ_320": "Exemple",
+  "champ_321": "Exemple",
+  "champ_322": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**Pouvoirs**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Pouvoir en vue de l'accomplissement des formalités administratives**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je soussigné(e) : {{champ_309}} {{champ_310}}, {{champ_311}}"
+  },
+  {
+   "k": "p",
+   "text": "Agissant en qualité de {{champ_312}} de  la société {{champ_357}}, société à responsabilité limitée en cours de formation, au capital de {{champ_359}}, dont le siège social est situé {{champ_362}}, en vertu des attributions à moi conférées par {{champ_316}}(Un mandat des associés, les statuts {{champ_317}})."
+  },
+  {
+   "k": "p",
+   "text": "Donne pouvoir à {{champ_318}} {{champ_319}}, {{champ_320}}"
+  },
+  {
+   "k": "p",
+   "text": "D'agir, pour moi et en mon nom, aux fins d'effectuer tous dépôts, immatriculation, modification et radiation au Registre du commerce et du crédit mobilier auprès du Greffe du Tribunal de Commerce ou de toute autre administration."
+  },
+  {
+   "k": "p",
+   "text": "De faire à cet effet toutes déclarations, signer toutes pièces, payer et recevoir toutes sommes, en donner bonne et valable quittance, décharges et/ou mainlevées, et généralement faire tout ce qui sera utile et nécessaire."
+  },
+  {
+   "k": "p",
+   "text": "L'exécution de ce mandat vaudra décharge au mandataire."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_321}}, le {{champ_322}}"
+  },
+  {
+   "k": "p",
+   "text": "Signature",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "Signature précédée de la mention manuscrite « Bon pour pouvoir ».",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Publicité**",
+   "al": "center"
+  }
+ ]
+}

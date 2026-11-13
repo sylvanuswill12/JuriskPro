@@ -1,0 +1,265 @@
+{
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a1-mandat-pour-prendre-des-engage",
+ "cat": "societes-associations",
+ "sub": "Actes de constitution de SARL",
+ "titre": "Mandat pour prendre des engagements au nom de la société en formation",
+ "sous": "Mandat donné à un associé ou au gérant non associé de prendre des engagements pour le compte de la société en formation.",
+ "resume": "Mandat pour prendre des engagements au nom de la société en formation : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "constitution",
+  "mandat",
+  "ohada"
+ ],
+ "duree": "7 min",
+ "docTitle": "Mandat pour prendre des engagements au nom de la société en formation",
+ "fileBase": "Mandat pour prendre des engagements au nom de la société en formation",
+ "headline": "Mandat pour prendre des engagements au nom de la société en formation",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Acte 1",
+   "titre": "Mandat pour prendre des engagements au nom de la société en formation",
+   "champs": [
+    {
+     "id": "champ_357",
+     "type": "text",
+     "label": "Dénomination sociale",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_358",
+     "type": "text",
+     "label": "Forme",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_359",
+     "type": "text",
+     "label": "Capital",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_360",
+     "type": "text",
+     "label": "RCCM",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_251",
+     "type": "text",
+     "label": "Numéro",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé ……"
+    },
+    {
+     "id": "champ_362",
+     "type": "text",
+     "label": "Siège social",
+     "group": "… , … au capital de … FCFA, immatriculée au Registre du commerce et du…"
+    },
+    {
+     "id": "champ_253",
+     "type": "text",
+     "label": "Prénom",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé ……"
+    },
+    {
+     "id": "champ_254",
+     "type": "text",
+     "label": "Nom",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé ……"
+    },
+    {
+     "id": "champ_255",
+     "type": "text",
+     "label": "Qualité",
+     "group": "…, …, …, …, sous le numéro …, dont le siège social est situé ……"
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Acte 2",
+   "titre": "Mandat pour prendre des engagements au nom de la société en formation (suite)",
+   "champs": [
+    {
+     "id": "champ_256",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… , demeurant à …,"
+    },
+    {
+     "id": "champ_257",
+     "type": "text",
+     "label": "Nom",
+     "group": "… , demeurant à …,"
+    },
+    {
+     "id": "champ_258",
+     "type": "text",
+     "label": "Adresse",
+     "group": "… , demeurant à …,"
+    },
+    {
+     "id": "champ_262",
+     "type": "text",
+     "label": "Prénom",
+     "group": "… ,"
+    },
+    {
+     "id": "champ_263",
+     "type": "text",
+     "label": "Nom",
+     "group": "… ,"
+    },
+    {
+     "id": "champ_265",
+     "type": "text",
+     "label": "-",
+     "group": "De prendre, pour le compte de la société … jusqu'à son immatriculation…",
+     "aide": "…crédit mobilier les engagements suivants - ▢"
+    },
+    {
+     "id": "champ_266",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_267",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a1-mandat-pour-prendre-des-engage.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_357": "Exemple",
+  "champ_358": "Exemple",
+  "champ_359": "Exemple",
+  "champ_360": "Exemple",
+  "champ_362": "Exemple",
+  "champ_251": "Exemple",
+  "champ_253": "Exemple",
+  "champ_254": "Exemple",
+  "champ_255": "Exemple",
+  "champ_256": "Exemple",
+  "champ_257": "Exemple",
+  "champ_258": "Exemple",
+  "champ_262": "Exemple",
+  "champ_263": "Exemple",
+  "champ_265": "Exemple",
+  "champ_266": "Exemple",
+  "champ_267": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**Mandat donné à un associé ou au gérant non associé de prendre des engagements**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Les soussignés :**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne morale :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_357}}, {{champ_358}}, {{champ_359}}, {{champ_360}}, sous le numéro {{champ_251}}, dont le siège social est situé {{champ_362}} représentée par {{champ_253}} {{champ_254}}, en sa qualité de {{champ_255}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Et/ou"
+  },
+  {
+   "k": "p",
+   "text": "* Personne physique :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_256}} {{champ_257}}, demeurant à {{champ_258}},"
+  },
+  {
+   "k": "p",
+   "text": "Seuls associés de la société {{champ_357}}, société à responsabilité limitée en cours de formation au capital de {{champ_359}}, dont le siège social est/sera situé {{champ_362}}"
+  },
+  {
+   "k": "p",
+   "text": "Donnent mandat à :"
+  },
+  {
+   "k": "p",
+   "text": "{{champ_262}} {{champ_263}},"
+  },
+  {
+   "k": "p",
+   "text": "De prendre, pour le compte de la société {{champ_357}} jusqu'à son immatriculation au Registre du commerce et du crédit mobilier, les engagements suivants :-  {{champ_265}}."
+  },
+  {
+   "k": "p",
+   "text": "-  nature de l'acte : bail ou embauche d'un cadre supérieur ;"
+  },
+  {
+   "k": "p",
+   "text": "-  modalités : prix du loyer, durée, salaire, durée du contrat."
+  },
+  {
+   "k": "p",
+   "text": "Conformément à l'article 107 AUSCGIE, l'immatriculation de la société au Registre du commerce et du crédit mobilier emportera reprise de ces engagements par ladite société."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_266}}, le {{champ_267}}"
+  },
+  {
+   "k": "p",
+   "text": "Signature",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "Signature précédée de la mention manuscrite « Bon pour pouvoir ».",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Gérant**",
+   "al": "center"
+  }
+ ]
+}

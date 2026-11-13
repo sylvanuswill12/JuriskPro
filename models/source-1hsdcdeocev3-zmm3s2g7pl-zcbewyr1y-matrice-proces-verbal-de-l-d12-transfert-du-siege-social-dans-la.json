@@ -1,0 +1,130 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d12-transfert-du-siege-social-dans-la",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Transfert du siège social dans la même ville du siège",
+ "sous": "Décision du conseil d’administration d’une société anonyme : transfert du siège social dans la même ville du siège.",
+ "resume": "PV du conseil d’administration – Transfert du siège social dans la même ville du siège : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Transfert du siège social dans la même ville du siège",
+ "fileBase": "PV du conseil d’administration – Transfert du siège social dans la même ville du siège",
+ "headline": "PV du conseil d’administration – Transfert du siège social dans la même ville du siège",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Transfert du siège social dans la même ville du siège",
+   "champs": [
+    {
+     "id": "champ_227",
+     "type": "text",
+     "label": "Le Conseil d’",
+     "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
+    },
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "Ancienne adresse",
+     "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
+    },
+    {
+     "id": "champ_065",
+     "type": "text",
+     "label": "Nouvelle adresse",
+     "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
+    },
+    {
+     "id": "champ_066",
+     "type": "date",
+     "label": "À compter du",
+     "group": "Le Conseil d’ … Administration décide de transférer le siège social qui…"
+    },
+    {
+     "id": "champ_067",
+     "type": "text",
+     "label": "Décide de modifier l’article n°",
+     "group": "En conséquence de ce qui précède, le Conseil d’Administration décide de…"
+    },
+    {
+     "id": "champ_068",
+     "type": "text",
+     "label": "Article n°",
+     "group": "Article n° … Siège social"
+    },
+    {
+     "id": "champ_069",
+     "type": "text",
+     "label": "Siège social est fixé à",
+     "group": "« Le siège social est fixé à … »"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d12-transfert-du-siege-social-dans-la.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_227": "Exemple",
+  "champ_064": "Exemple",
+  "champ_065": "Exemple",
+  "champ_066": "2000-01-01",
+  "champ_067": "Exemple",
+  "champ_068": "Exemple",
+  "champ_069": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Transfert du siège social dans la même ville du siège**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’ {{champ_227}} Administration décide de transférer le siège social qui était précédemment fixé à {{champ_064}} à {{champ_065}} à compter du {{champ_066}}"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence de ce qui précède, le Conseil d’Administration décide de modifier l’article n° {{champ_067}} des statuts."
+  },
+  {
+   "k": "p",
+   "text": "**Article n° {{champ_068}} Siège social**"
+  },
+  {
+   "k": "p",
+   "text": "« Le siège social est fixé à {{champ_069}} »"
+  },
+  {
+   "k": "p",
+   "text": "Le reste de l’article est sans changement."
+  },
+  {
+   "k": "p",
+   "text": "Cette décision sera soumise à la ratification de la prochaine Assemblée Générale Ordinaire."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

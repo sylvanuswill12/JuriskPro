@@ -1,0 +1,94 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d03-revocation-du-president-du-conseil",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Révocation du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "sous": "Décision du conseil d’administration d’une société anonyme : révocation du Président du Conseil d’Administration ou du Président-Directeur Général.",
+ "resume": "PV du conseil d’administration – Révocation du Président du Conseil d’Administration ou du Président-Directeur Général : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "3 min",
+ "docTitle": "PV du conseil d’administration – Révocation du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "fileBase": "PV du conseil d’administration – Révocation du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "headline": "PV du conseil d’administration – Révocation du Président du Conseil d’Administration ou du Président-Directeur Général",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Révocation du Président du Conseil d’Administration ou du Président-Directeur Général",
+   "champs": [
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "De M",
+     "group": "Le Conseil d’Administration décide de mettre fin à compter de ce jour,…",
+     "aide": "…ou de Président-Directeur Général de M ▢"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "En remplacement de M",
+     "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Le Conseil d’Administration nomme M",
+     "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
+    },
+    {
+     "id": "champ_016",
+     "type": "date",
+     "label": "Comptes de l’exercice clos le",
+     "group": "En remplacement de M …, Le Conseil d’Administration nomme M … en…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d03-revocation-du-president-du-conseil.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Révocation du Président du Conseil d’Administration ou du Président-Directeur Général**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration décide de mettre fin à compter de ce jour, aux fonctions de Président du Conseil d’Administration (ou de Président-Directeur Général) de M {{champ_013}}"
+  },
+  {
+   "k": "p",
+   "text": "En remplacement de M {{champ_014}}, Le Conseil d’Administration nomme M {{champ_015}} en qualité de Président du Conseil d’Administration (ou de Président-Directeur Général) pour la durée  restant à courir du mandat de son prédécesseur, soit jusqu’à L’Assemblée Générale qui statuera sur les comptes de l’exercice clos le {{champ_016}}"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

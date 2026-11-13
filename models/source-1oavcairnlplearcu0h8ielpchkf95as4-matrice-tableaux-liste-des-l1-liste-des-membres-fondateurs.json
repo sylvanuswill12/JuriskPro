@@ -1,0 +1,583 @@
+{
+ "id": "source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l1-liste-des-membres-fondateurs",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Liste des membres fondateurs",
+ "sous": "Tableau à compléter ligne par ligne, mise en page d’origine conservée.",
+ "resume": "Liste des membres fondateurs : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "association",
+  "liste",
+  "membres fondateurs"
+ ],
+ "duree": "15 min",
+ "docTitle": "Liste des membres fondateurs",
+ "fileBase": "Liste des membres fondateurs",
+ "headline": "Liste des membres fondateurs",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Liste 1",
+   "titre": "Liste des membres fondateurs",
+   "champs": [
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 1"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 1"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 1"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 1"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 1"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 2",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Liste 2",
+   "titre": "Liste des membres fondateurs (suite)",
+   "champs": [
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 4",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Liste 3",
+   "titre": "Liste des membres fondateurs (suite)",
+   "champs": [
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 6",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Liste 4",
+   "titre": "Liste des membres fondateurs (suite)",
+   "champs": [
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_034",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_039",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_040",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 8",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Liste 5",
+   "titre": "Liste des membres fondateurs (suite)",
+   "champs": [
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_045",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres fondateurs – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres fondateurs – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_048",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres fondateurs – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres fondateurs – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres fondateurs – ligne 10",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l1-liste-des-membres-fondateurs.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple",
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "Exemple",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_039": "Exemple",
+  "champ_040": "Exemple",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple",
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "Exemple",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "Exemple",
+  "champ_049": "Exemple",
+  "champ_050": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**LISTE DES MEMBRES FONDATEURS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "table",
+   "cols": [
+    36.7,
+    17.0,
+    15.1,
+    17.0,
+    14.2
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**NOM ET PRENOMS**"
+     ],
+     [
+      "",
+      "**FONCTION**"
+     ],
+     [
+      "",
+      "**PROFESSION**"
+     ],
+     [
+      "",
+      "**CONTACTS**"
+     ],
+     [
+      "",
+      "**NATIONALITE**"
+     ]
+    ],
+    [
+     "{{champ_001}}",
+     "{{champ_002}}",
+     "{{champ_003}}",
+     "{{champ_004}}",
+     "{{champ_005}}"
+    ],
+    [
+     "{{champ_006}}",
+     "{{champ_007}}",
+     "{{champ_008}}",
+     "{{champ_009}}",
+     "{{champ_010}}"
+    ],
+    [
+     "{{champ_011}}",
+     "{{champ_012}}",
+     "{{champ_013}}",
+     "{{champ_014}}",
+     "{{champ_015}}"
+    ],
+    [
+     "{{champ_016}}",
+     "{{champ_017}}",
+     "{{champ_018}}",
+     "{{champ_019}}",
+     "{{champ_020}}"
+    ],
+    [
+     "{{champ_021}}",
+     "{{champ_022}}",
+     "{{champ_023}}",
+     "{{champ_024}}",
+     "{{champ_025}}"
+    ],
+    [
+     "{{champ_026}}",
+     "{{champ_027}}",
+     "{{champ_028}}",
+     "{{champ_029}}",
+     "{{champ_030}}"
+    ],
+    [
+     "{{champ_031}}",
+     "{{champ_032}}",
+     "{{champ_033}}",
+     "{{champ_034}}",
+     "{{champ_035}}"
+    ],
+    [
+     "{{champ_036}}",
+     "{{champ_037}}",
+     "{{champ_038}}",
+     "{{champ_039}}",
+     "{{champ_040}}"
+    ],
+    [
+     "{{champ_041}}",
+     "{{champ_042}}",
+     "{{champ_043}}",
+     "{{champ_044}}",
+     "{{champ_045}}"
+    ],
+    [
+     "{{champ_046}}",
+     "{{champ_047}}",
+     "{{champ_048}}",
+     "{{champ_049}}",
+     "{{champ_050}}"
+    ]
+   ],
+   "al": [
+    "center",
+    "center",
+    "center",
+    "center",
+    "center"
+   ]
+  }
+ ]
+}

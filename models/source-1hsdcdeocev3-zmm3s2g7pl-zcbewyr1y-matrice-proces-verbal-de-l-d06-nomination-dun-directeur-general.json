@@ -1,0 +1,124 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d06-nomination-dun-directeur-general",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Nomination d’un Directeur Général",
+ "sous": "Décision du conseil d’administration d’une société anonyme : nomination d’un Directeur Général.",
+ "resume": "PV du conseil d’administration – Nomination d’un Directeur Général : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Nomination d’un Directeur Général",
+ "fileBase": "PV du conseil d’administration – Nomination d’un Directeur Général",
+ "headline": "PV du conseil d’administration – Nomination d’un Directeur Général",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Nomination d’un Directeur Général",
+   "champs": [
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Le Conseil d’Administration nomme M",
+     "group": "Le Conseil d’Administration nomme M … (Administrateur ou non…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Société pour une durée de",
+     "group": "Le Conseil d’Administration nomme M … (Administrateur ou non…"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … exercera ses fonctions jusqu’au … ;"
+    },
+    {
+     "id": "champ_029",
+     "type": "date",
+     "label": "Exercera ses fonctions jusqu’au",
+     "group": "M … exercera ses fonctions jusqu’au … ;"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M …, en sa qualité de Directeur Général, assure la Direction Générale…"
+    },
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Limites fixées par l’Acte Uniforme",
+     "group": "Le Directeur Général aura droit à une rémunération déterminée comme…",
+     "aide": "…à une rémunération déterminée comme suit ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d06-nomination-dun-directeur-general.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "2000-01-01",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Nomination d’un Directeur Général**"
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil d’Administration nomme M {{champ_026}} (Administrateur ou non Administrateur) en qualité de Directeur Général de la société pour une durée de {{champ_027}}"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_028}} exercera ses fonctions jusqu’au {{champ_029}} ;"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_030}}, en sa qualité de Directeur Général, assure la Direction Générale de la société. Il la représente dans ses rapports avec les tiers. Pour l’exercice de ses fonctions, il est investi des pouvoirs les plus étendus qu’il exerce dans la limite de l’objet social, et sous réserve de ceux expressément attribués aux Assemblées Générales ou spécialement réservés au Conseil d’Administration par les dispositions légales ou statutaires."
+  },
+  {
+   "k": "p",
+   "text": "Dans ses rapports avec les tiers, la société est engagée, même par les actes du Directeur Général qui ne relèvent pas de l’objet social, dans les conditions et limites fixées par l’Acte Uniforme."
+  },
+  {
+   "k": "p",
+   "text": "Le Directeur Général aura droit à une rémunération déterminée comme suit : {{champ_031}}"
+  },
+  {
+   "k": "p",
+   "text": "Il aura droit également au remboursement de ses frais de représentation et de déplacement."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

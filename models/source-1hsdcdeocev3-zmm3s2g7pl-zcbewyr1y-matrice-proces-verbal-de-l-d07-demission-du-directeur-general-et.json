@@ -1,0 +1,165 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d07-demission-du-directeur-general-et",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Démission du Directeur Général et son remplacement",
+ "sous": "Décision du conseil d’administration d’une société anonyme : démission du Directeur Général et son remplacement.",
+ "resume": "PV du conseil d’administration – Démission du Directeur Général et son remplacement : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "5 min",
+ "docTitle": "PV du conseil d’administration – Démission du Directeur Général et son remplacement",
+ "fileBase": "PV du conseil d’administration – Démission du Directeur Général et son remplacement",
+ "headline": "PV du conseil d’administration – Démission du Directeur Général et son remplacement",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Démission du Directeur Général et son remplacement",
+   "champs": [
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…"
+    },
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "Le Président expose que M",
+     "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…"
+    },
+    {
+     "id": "champ_034",
+     "type": "date",
+     "label": "Ou à compter du",
+     "group": "M … le Président expose que M …, Directeur Général a exprimé le désir…",
+     "opt": true
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Cette démission et remercie M",
+     "group": "Le Conseil accepte cette démission et remercie M … pour les efforts…"
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Procède au remplacement de M",
+     "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Et décide de nommer M",
+     "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "Société pour une durée de",
+     "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…"
+    },
+    {
+     "id": "champ_225",
+     "type": "text",
+     "label": "À préciser",
+     "group": "Après en avoir délibérer, le Conseil procède au remplacement de M … et…",
+     "aide": "…la société pour une durée de ▢"
+    },
+    {
+     "id": "champ_039",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "M … exercera ses fonctions conformément aux dispositions légales et…"
+    },
+    {
+     "id": "champ_040",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…"
+    },
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "Aura droit à",
+     "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…"
+    },
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "Etc",
+     "group": "En rémunération de ses fonctions le Directeur Général, M … aura droit à…",
+     "aide": "…au Conseil d’Administration au bénéfice etc ▢ ainsi que les avantages…",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d07-demission-du-directeur-general-et.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "2000-01-01",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_225": "Exemple",
+  "champ_039": "Exemple",
+  "champ_040": "Exemple",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Démission du Directeur Général et son remplacement**"
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_032}} le Président  expose que M {{champ_033}}, Directeur Général a exprimé le désir de ne plus exercer les fonctions de Directeur Général à compter de ce jour (ou à compter du {{champ_034}})."
+  },
+  {
+   "k": "p",
+   "text": "Le Conseil accepte cette démission et remercie M {{champ_035}} pour les efforts qu’il a toujours déployés dans l’exercice de ses fonctions."
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibérer, le Conseil procède au remplacement de M {{champ_036}} et décide de nommer M {{champ_037}} en qualité de Directeur Général de la société pour une durée de {{champ_038}} {{champ_225}}."
+  },
+  {
+   "k": "p",
+   "text": "M {{champ_039}} exercera ses fonctions conformément aux dispositions légales et statutaires."
+  },
+  {
+   "k": "p",
+   "text": "En rémunération de ses fonctions le Directeur Général, M {{champ_040}} aura droit à {{champ_041}} (préciser si rémunération fixe mensuelle ou proportionnelle au Conseil d’Administration, au bénéfice, etc {{champ_042}}, ainsi que les avantages en nature qui lui sont attribués)."
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

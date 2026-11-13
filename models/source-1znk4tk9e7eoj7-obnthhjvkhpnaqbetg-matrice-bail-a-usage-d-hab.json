@@ -1,1206 +1,1206 @@
 {
-  "id": "source-1znk4tk9e7eoj7-obnthhjvkhpnaqbetg-matrice-bail-a-usage-d-hab",
-  "cat": "ventes-immobilier",
-  "sub": "Baux",
-  "titre": "Bail à usage d’habitation",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Bail à usage d’habitation : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "baux",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "20 min",
-  "docTitle": "Bail à usage d’habitation",
-  "fileBase": "Bail à usage d’habitation",
-  "headline": "Bail à usage d’habitation",
-  "etapes": [
+ "id": "source-1znk4tk9e7eoj7-obnthhjvkhpnaqbetg-matrice-bail-a-usage-d-hab",
+ "cat": "ventes-immobilier",
+ "sub": "Baux",
+ "titre": "Bail à usage d’habitation",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Bail à usage d’habitation : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "baux",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "20 min",
+ "docTitle": "Bail à usage d’habitation",
+ "fileBase": "Bail à usage d’habitation",
+ "headline": "Bail à usage d’habitation",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Bail a",
+   "titre": "Bail a usage d’habitation",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Bail a",
-      "titre": "Bail a usage d’habitation",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Nom",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Prénoms",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…Madame ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…Madame ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "ville_residence",
-          "type": "text",
-          "label": "Ville de résidence",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…Madame demeurant à Commune de ▢ Quartier BP épouse de…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Avant « Quartier BP épouse de »",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…Madame demeurant à ABIDJAN Commune de ▢ Quartier BP épouse de…"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Quartier",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…Madame demeurant à Commune de Quartier ▢ BP épouse de Monsieur…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Avant « BP épouse de Monsieur »",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP épouse de Monsieur…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "BP",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…demeurant à Commune de Quartier BP ▢ épouse de Monsieur avec…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Avant « épouse de Monsieur avec »",
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…à ABIDJAN Commune de Quartier BP ▢ épouse de Monsieur avec…"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Épouse de Monsieur",
-          "opt": true,
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "S’est mariée à la Mairie",
-          "opt": true,
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
-        },
-        {
-          "id": "champ_015",
-          "type": "date",
-          "label": "Date",
-          "opt": true,
-          "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
-          "aide": "…s’est mariée à la Mairie le ▢"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Née à",
-          "group": "Née à … , le …",
-          "aide": "…Née à ▢ le…"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Née à … , le …",
-          "aide": "…Née à ▢ le…"
-        },
-        {
-          "id": "champ_018",
-          "type": "date",
-          "label": "Date",
-          "group": "Née à … , le …",
-          "aide": "…Née à le ▢"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité …",
-          "aide": "…De nationalité ▢"
-        }
-      ]
+     "id": "champ_003",
+     "type": "text",
+     "label": "Nom",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
     },
     {
-      "id": "partie-2",
-      "court": "D’une part",
-      "titre": "D’une part",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Nom",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Prénoms",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "profession",
-          "type": "text",
-          "label": "Profession",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
-        },
-        {
-          "id": "champ_023",
-          "type": "text",
-          "label": "Avant « Commune de Quartier BP »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
-        },
-        {
-          "id": "champ_024",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Avant « Quartier BP époux de »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
-        },
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Quartier",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
-        },
-        {
-          "id": "champ_027",
-          "type": "text",
-          "label": "Avant « BP époux de madame »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
-        },
-        {
-          "id": "champ_028",
-          "type": "text",
-          "label": "BP",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "Avant « époux de madame avec »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "Époux de madame",
-          "opt": true,
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "champ_031",
-          "type": "text",
-          "label": "Avant « avec laquelle il s’est »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…de Quartier BP époux de madame ▢ avec laquelle il s’est…"
-        },
-        {
-          "id": "champ_032",
-          "type": "text",
-          "label": "Laquelle il s’est marié à",
-          "opt": true,
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "champ_033",
-          "type": "text",
-          "label": "Avant « à la Mairie de »",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…avec laquelle il s’est marié à ▢ à la Mairie de…"
-        },
-        {
-          "id": "champ_034",
-          "type": "text",
-          "label": "À la Mairie de",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
-        },
-        {
-          "id": "champ_035",
-          "type": "date",
-          "label": "Date",
-          "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
-          "aide": "…à à la Mairie de le ▢"
-        },
-        {
-          "id": "champ_036",
-          "type": "text",
-          "label": "Né à",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_037",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_038",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à … , le …",
-          "aide": "…Né à le ▢"
-        },
-        {
-          "id": "champ_039",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité …",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_040",
-          "type": "text",
-          "label": "Titulaire du",
-          "group": "Titulaire du …",
-          "aide": "…Titulaire du ▢"
-        },
-        {
-          "id": "champ_041",
-          "type": "text",
-          "label": "ET",
-          "group": "Ci-après dénommé « LE PRENEUR » …",
-          "aide": "…Ci-après dénommé LE PRENEUR ▢"
-        }
-      ]
+     "id": "champ_004",
+     "type": "text",
+     "label": "Prénoms",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
     },
     {
-      "id": "partie-3",
-      "court": "Designation",
-      "titre": "Designation",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_042",
-          "type": "text",
-          "label": "Une villa de",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
-        },
-        {
-          "id": "champ_043",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…Une villa de ▢ pièces principales avec dépendances…"
-        },
-        {
-          "id": "champ_044",
-          "type": "text",
-          "label": "Sise à",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
-        },
-        {
-          "id": "champ_045",
-          "type": "text",
-          "label": "Avant « Commune de Quartier formant »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
-        },
-        {
-          "id": "champ_046",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
-        },
-        {
-          "id": "champ_047",
-          "type": "text",
-          "label": "Avant « Quartier formant le lot »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
-        },
-        {
-          "id": "champ_048",
-          "type": "text",
-          "label": "Quartier",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
-        },
-        {
-          "id": "champ_049",
-          "type": "text",
-          "label": "Avant « formant le lot numéro »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
-        },
-        {
-          "id": "champ_050",
-          "type": "text",
-          "label": "Formant le lot numéro",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
-        },
-        {
-          "id": "champ_051",
-          "type": "text",
-          "label": "Avant « ilôt numéro du lotissement »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…de Quartier formant le lot numéro ▢ ilôt numéro du lotissement…"
-        },
-        {
-          "id": "champ_052",
-          "type": "text",
-          "label": "Ilôt numéro",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
-        },
-        {
-          "id": "champ_053",
-          "type": "text",
-          "label": "Avant « du lotissement d’une superficie »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…formant le lot numéro ilôt numéro ▢ du lotissement d’une superficie…"
-        },
-        {
-          "id": "champ_054",
-          "type": "text",
-          "label": "Du lotissement",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
-        },
-        {
-          "id": "champ_055",
-          "type": "text",
-          "label": "D’une superficie de",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
-        },
-        {
-          "id": "champ_056",
-          "type": "text",
-          "label": "Avant « m² comprenant un grand »",
-          "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
-          "aide": "…lotissement d’une superficie de mètres carrés ▢ m² comprenant un grand…"
-        }
-      ]
+     "id": "champ_005",
+     "type": "text",
+     "label": "Avant « demeurant à Commune de »",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…Madame ▢ demeurant à Commune de…"
     },
     {
-      "id": "partie-4",
-      "court": "Duree",
-      "titre": "Duree",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_057",
-          "type": "text",
-          "label": "Accepté pour une durée de",
-          "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
-        },
-        {
-          "id": "champ_058",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…",
-          "aide": "…et accepté pour une durée de ▢ ans qui commence à…"
-        },
-        {
-          "id": "champ_059",
-          "type": "date",
-          "label": "Qui commence à courir le",
-          "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
-        },
-        {
-          "id": "champ_060",
-          "type": "date",
-          "label": "Pour se terminer le",
-          "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
-        },
-        {
-          "id": "champ_061",
-          "type": "text",
-          "label": "À l’expiration du délai de",
-          "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……"
-        },
-        {
-          "id": "champ_062",
-          "type": "text",
-          "label": "En chiffres",
-          "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……",
-          "aide": "…reconduction à l’expiration du délai de ▢ ans sus-visé…"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Etc",
-          "group": "Le PRENEUR devra jouir des lieux en bon père de famille, il devra…",
-          "aide": "…de l’hygiène de la salubrité etc ▢"
-        },
-        {
-          "id": "champ_063",
-          "type": "text",
-          "label": "Moyennant un loyer mensuel de",
-          "group": "Le présent bail est respectivement consenti et accepté moyennant un…"
-        }
-      ]
+     "id": "champ_006",
+     "type": "text",
+     "label": "Avant « demeurant à Commune de »",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…Madame ▢ demeurant à Commune de…"
     },
     {
-      "id": "partie-5",
-      "court": "Loyer",
-      "titre": "Loyer",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_064",
-          "type": "text",
-          "label": "Avant « FCFA lequel loyer est »",
-          "group": "Le présent bail est respectivement consenti et accepté moyennant un…",
-          "aide": "…un loyer mensuel de FRANCS CFA ▢ FCFA lequel loyer est…"
-        },
-        {
-          "id": "champ_065",
-          "type": "text",
-          "label": "Ce titre la somme de",
-          "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…"
-        },
-        {
-          "id": "champ_066",
-          "type": "text",
-          "label": "Avant « FCFA représentant deux 02 »",
-          "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…",
-          "aide": "…titre la somme de FRANCS CFA ▢ FCFA représentant deux 02…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Expressément compétence au Tribunal de",
-          "group": "Pour l’exécution des présentes et de leurs suites, les parties font…"
-        },
-        {
-          "id": "ville_signature",
-          "type": "text",
-          "label": "Fait à (ville)",
-          "profil": "ville",
-          "group": "Fait à …,"
-        },
-        {
-          "id": "champ_067",
-          "type": "date",
-          "label": "Date",
-          "group": "Le …",
-          "aide": "…Le ▢"
-        },
-        {
-          "id": "champ_068",
-          "type": "text",
-          "label": "LE PRENEUR",
-          "group": "LE BAILLEUR LE PRENEUR …"
-        },
-        {
-          "id": "champ_069",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mme … Mr …"
-        },
-        {
-          "id": "champ_070",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mme … Mr …"
-        }
-      ]
+     "id": "ville_residence",
+     "type": "text",
+     "label": "Ville de résidence",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_007",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…Madame demeurant à Commune de ▢ Quartier BP épouse de…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Avant « Quartier BP épouse de »",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…Madame demeurant à ABIDJAN Commune de ▢ Quartier BP épouse de…"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Quartier",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…Madame demeurant à Commune de Quartier ▢ BP épouse de Monsieur…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Avant « BP épouse de Monsieur »",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…demeurant à ABIDJAN Commune de Quartier ▢ BP épouse de Monsieur…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "BP",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…demeurant à Commune de Quartier BP ▢ épouse de Monsieur avec…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Avant « épouse de Monsieur avec »",
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…à ABIDJAN Commune de Quartier BP ▢ épouse de Monsieur avec…"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Épouse de Monsieur",
+     "opt": true,
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "S’est mariée à la Mairie",
+     "opt": true,
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…"
+    },
+    {
+     "id": "champ_015",
+     "type": "date",
+     "label": "Date",
+     "opt": true,
+     "group": "Madame … , … , demeurant à …, Commune de … , Quartier … , BP … , épouse…",
+     "aide": "…s’est mariée à la Mairie le ▢"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Née à",
+     "group": "Née à … , le …",
+     "aide": "…Née à ▢ le…"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Née à … , le …",
+     "aide": "…Née à ▢ le…"
+    },
+    {
+     "id": "champ_018",
+     "type": "date",
+     "label": "Date",
+     "group": "Née à … , le …",
+     "aide": "…Née à le ▢"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …",
+     "aide": "…De nationalité ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**BAIL A USAGE D’HABITATION**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Entre les soussignés** :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Madame {{champ_003}} {{champ_004}}**, {{champ_005}} {{champ_006}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, BP {{champ_011}} {{champ_012}}, épouse de Monsieur** {{champ_013}} **avec lequel elle s’est mariée à la Mairie {{champ_014}}, le {{champ_015}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Née à {{champ_016}} {{champ_017}}, le {{champ_018}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_019}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ci-après dénommée « **LE BAILLEUR** »"
-    },
-    {
-      "k": "p",
-      "text": "**D’UNE PART**",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "**ET**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Monsieur {{champ_020}} **{{champ_021}}**, {{profession}}, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}},  BP {{champ_028}} {{champ_029}}, époux de madame {{champ_030}} {{champ_031}}, avec laquelle il s’est marié à {{champ_032}} {{champ_033}}, à la Mairie de {{champ_034}}, le {{champ_035}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{champ_036}} {{champ_037}}, le {{champ_038}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_039}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire du {{champ_040}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ci-après dénommé « **LE PRENEUR »** {{champ_041}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**D’AUTRE PART**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "IL  A ETE CONVENU ET ARRETE CE QUI SUIT :",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le **BAILLEUR **consent par les présentes au** PRENEUR **qui l’accepte, un bail à loyer sur les locaux ci-après désignés, pour l’habiter exclusivement. Le présent bail est soumis à la Loi **77-995 du 18 DECEMBRE 1977** réglementant les rapports des bailleurs et locataires des locaux d’habitation et à usage professionnel."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DESIGNATION**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Une villa de {{champ_042}} ({{champ_043}}) pièces principales avec dépendances, édifiée sur un terrain urbain, sise à {{champ_044}} {{champ_045}}, Commune de {{champ_046}} {{champ_047}}, Quartier {{champ_048}} {{champ_049}}, formant le lot numéro {{champ_050}} {{champ_051}}, ilôt numéro {{champ_052}} {{champ_053}}, du lotissement {{champ_054}},  d’une superficie de {{champ_055}} **mètres carrés ({{champ_056}} m²)** comprenant un grand séjour, un petit séjour, une cuisine, une chambre principale avec une salle de bain, la seconde chambre avec une salle d’eau et WC."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le **PRENEUR** déclare bien connaître les lieux et n’en vouloir une plus ample désignation, les ayant vu et visité en vue des présentes et les prendre tels qu’ils s’étendent, se poursuivent et comportent avec toutes leurs aisances et dépendances."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DUREE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent bail est consenti et accepté pour une durée de {{champ_057}} **({{champ_058}}) ans**, qui commence à courir le {{champ_059}} pour se terminer le {{champ_060}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il se renouvellera par tacite reconduction à l’expiration du délai de {{champ_061}} **({{champ_062}}) ans** sus-visé."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toutefois, le **PRENEUR** se réserve la faculté de résilier le présent bail sous la condition de prévenir par lettre recommandée avec accusé de réception ou acte extrajudiciaire le BAILLEUR, **trois (3) mois** au moins à l’avance."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De son côté, le **BAILLEUR** ne pourra résilier le présent bail que pour des justes motifs notamment pour l’occuper lui-même ou le faire occuper par son conjoint ou ses enfants. En ce cas, le **BAILLEUR** devra donner au **PRENEUR** un préavis de **trois (3)** mois par lettre recommandée avec avis de réception ou par acte extrajudiciaire indiquant les motifs justifiant son droit de reprise."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DESTINATION DES LIEUX**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les locaux loués devront servir au **PRENEUR** à usage d’habitation principale."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CHARGES ET CONDITIONS**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent bail est respectivement consenti et accepté sous les charges, clauses et conditions suivantes que le** PRENEUR** s’oblige à exécuter, savoir :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "**ETAT DES LIEUX**",
-      "mk": "1)"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il prendra les lieux loués dans leur état actuel, sans pouvoir exiger aucune réparation autres que celles qui seraient nécessaires pour que les locaux demeurent clos et couverts."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**2) ENTRETIEN – REPARATIONS**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR **entretiendra les lieux loués en bon état de réparations locatives ou de menu entretien dont il assurera l’entretien et la maintenance pendant toute la durée du bail, et les rendra à sa sortie, en bon état de réparations locatives."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il supportera toutes réparations qui deviendraient nécessaires par suite de défaut d’exécution des réparations locatives, soit de dégradation résultant de son fait ou de celui de son personnel."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**3) TRANSFORMATIONS**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le **PRENEUR**  ne pourra faire aucun aménagement, aucune modification ou transformations dans l’état ou la disposition des locaux, sans autorisation préalable expresse et par écrit du **BAILLEUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ces transformations ne pourront être faites qu’après avis favorable et sous la surveillance et le contrôle, éventuellement d’un architecte du **BAILLEUR** dont les honoraires et vacation seront à la charge du **PRENEUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**4) CHANGEMENT DE DISTRIBUTION**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Il ne pourra faire dans les locaux, sans le consentement exprès et par écrit du bailleur, aucune démolition, aucune ouverture de murs ou de cloisons, ni aucun changement de distribution ; en cas d’autorisation, ces travaux seront exécutés sous la surveillance et le contrôle de l’architecte du** BAILLEUR**, s’il en est commis un, comme indiqué au paragraphe «3» ci-dessus."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**5) TRAVAUX**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR **souffrira l’exécution de toutes les réparations, reconstructions, surélévations et travaux quelconques, même de simple amélioration que le propriétaire estimerait nécessaires, utiles, ou même simplement convenables et qu’il ferait exécuter pendant le cours du bail, dans les locaux loués ou dans l’immeuble."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le **PRENEUR **ne pourra demander aucune indemnité, ni diminution de loyers, ni interruption de paiement du loyer, quelles que soient l’importance et la durée de ces travaux ; même si la durée excédait quarante **(40)** jours, à la condition toutefois, qu’ils soient exécutés sans interruption ; sauf le cas de force majeure."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Tous travaux, embellissements et améliorations quelconques, qui seraient faits par le **PRENEUR**, même avec l’autorisation du **BAILLEUR**, resteront en fin de bail la propriété de ce dernier, sans indemnité."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**6) JOUISSANCE DES LIEUX**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR** devra jouir des lieux en bon père de famille, il devra prendre toutes les précautions pour éviter tous bruits et odeurs et l’introduction d’animaux nuisibles. Il devra se conformer strictement aux prescriptions de tous règlements, arrêtés de police, règlements sanitaires, et veiller à toutes les règles de l’hygiène, de la salubrité, etc {{champ_001}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**7) ASSURANCES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR** devra contracter toutes assurances suffisantes contre les risques locatifs, le recours des voisins, les dégâts des eaux, les explosions de gaz et tous autres risques. Il devra justifier de ces assurances et de l’acquit régulier des primes, à toutes réquisitions du **BAILLEUR.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**8) CESSION – SOUS LOCATION**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR** ne pourra céder son droit au bail, sans le consentement express et par écrit du  **BAILLEUR** par acte extra-judiciaire ou par tout autre moyen écrit."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De même, le **PRENEUR** ne pourra sous-louer les locaux loués, sans l’autorisation du **BAILLEUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**9) VISITE DES LIEUX**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR **devra laisser le** BAILLEUR **ou son représentant ou leur architecte et tous entrepreneurs et ouvriers pénétrer dans les lieux loués, pour constater leur état quand le** BAILLEUR **le jugera à propos**.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Dans les **trois (3) mois** qui précéderont sa sortie, le **PRENEUR** devra laisser visiter les lieux aux personnes qui se présenteront pour les louer, les jours et heures à convenir d’un commun accord avec le **BAILLEUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**10) REMISE DES CLES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** PRENEUR** rendra les clés des locaux le jour où finira son bail, ou le jour du déménagement si celui-ci le précédait, nonobstant tout délai de faveur, d’usage ou de tolérance. La remise des clefs ou leur acceptation par le propriétaire ne portera aucune atteinte à son droit de répéter contre le locataire, le coût des réparations de toute nature dont le locataire est tenu suivant la loi et les clauses et conditions du présent bail."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**11)  EAU - ELECTRICITE-CHARGES DIVERSES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le **PRENEUR** devra acquitter à compter de son entrée en jouissance, et pendant le temps de la location toutes factures et redevances relatives aux coûts de ses  consommations en matière d’eau, électricité et téléphone. Il ne pourra formuler aucune réclamation pour cause d’interruption dans les services publics, pour quelque cause que ce soit, le **BAILLEUR** entendant dès à présent, n’encourir aucune responsabilité."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La fourniture et le remplacement de tous appareils d’éclairage et de toutes ampoules seront exclusivement à la charge du **PRENEUR**."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**OBLIGATIONS DU BAILLEUR**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**EXONERATIONS DE RESPONSABILITE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** BAILLEUR **s’oblige à tenir les lieux loués clos et couverts suivant l’usage, sans déroger toutefois aux obligations mises à la charge du **PRENEUR**, en ce qui concerne les travaux qui deviendraient nécessaires."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le** BAILLEUR **est exonéré de toute responsabilité, même sous forme de réduction de loyer, dans le cas où par fait de force majeure, il y aurait interruption de fournitures d’eau, d’électricité, etc."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LOYER**",
-      "ind": 6
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent bail est respectivement consenti et accepté moyennant un loyer  mensuel de {{champ_063}} **FRANCS CFA ({{champ_064}} FCFA)**, lequel loyer est payable d’avance mensuellement au plus tard  le cinq du mois en cours."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DEPOT DE GARANTIE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En outre, pour garantir l’exécution des présentes, et pour répondre des dégâts qui pourraient être causés aux biens loués ainsi que les différentes consommations précitées (eau, électricité, téléphone) le **PRENEUR** verse à ce titre la somme de {{champ_065}} **FRANCS CFA ({{champ_066}} FCFA)** représentant **deux (02)** mois de caution."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ce montant non productif d’intérêts sera remboursé au **PRENEUR**, à l’expiration de la présente location, lors de la remise des clés et des locaux, à la disposition du **BAILLEUR**, déduction faite de toutes les sommes qui pourraient être dues par le **PRENEUR,** tant pour réparation que pour toute cause précitée et notamment le non paiement des loyers."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**CLAUSE RESOLUTOIRE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "A défaut par le **PRENEUR** d’exécuter une seule des charges et conditions du bail qui sont toutes de rigueur et un mois après un simple commandement ou une sommation d’exécuter faite à personne ou à domicile élu, contenant mention de la présente clause et mentionnant ce délai, restés sans effet, le présent bail sera résilié de plein droit si bon semble au **BAILLEUR** mais le Tribunal ou le Juge des Référés pourra accorder au **PRENEUR **un délai d’un mois pour le payement des loyers à compter du jour du prononcé de la décision statuant sur le payement desdits loyers."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ELECTION DE DOMICILE – COMPETENCE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour l’exécution des présentes et de leurs suites, les parties font élection de domicile en leurs demeures respectives, et pour toutes contestations à l’occasion de celles-ci, elles attribuent expressément compétence au Tribunal de {{champ_002}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait à {{ville_signature}},",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Le {{champ_067}}",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "En deux (02) exemplaires",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LE BAILLEUR                              LE PRENEUR** {{champ_068}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{champ_069}} Mr {{champ_070}}**"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1znk4tk9e7eoj7-obnthhjvkhpnaqbetg-matrice-bail-a-usage-d-hab.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "2000-01-01",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "2000-01-01",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "Exemple",
-    "champ_028": "Exemple",
-    "champ_029": "Exemple",
-    "champ_030": "Exemple",
-    "champ_031": "Exemple",
-    "champ_032": "Exemple",
-    "champ_033": "Exemple",
-    "champ_034": "Exemple",
-    "champ_035": "2000-01-01",
-    "champ_036": "Exemple",
-    "champ_037": "Exemple",
-    "champ_038": "2000-01-01",
-    "champ_039": "Exemple",
-    "champ_040": "Exemple",
-    "champ_041": "Exemple",
-    "champ_042": "Exemple",
-    "champ_043": "Exemple",
-    "champ_044": "Exemple",
-    "champ_045": "Exemple",
-    "champ_046": "Exemple",
-    "champ_047": "Exemple",
-    "champ_048": "Exemple",
-    "champ_049": "Exemple",
-    "champ_050": "Exemple",
-    "champ_051": "Exemple",
-    "champ_052": "Exemple",
-    "champ_053": "Exemple",
-    "champ_054": "Exemple",
-    "champ_055": "Exemple",
-    "champ_056": "Exemple",
-    "champ_057": "Exemple",
-    "champ_058": "Exemple",
-    "champ_059": "2000-01-01",
-    "champ_060": "2000-01-01",
-    "champ_061": "Exemple",
-    "champ_062": "Exemple",
-    "champ_001": "Exemple",
-    "champ_063": "Exemple",
-    "champ_064": "Exemple",
-    "champ_065": "Exemple",
-    "champ_066": "Exemple",
-    "champ_002": "Exemple",
-    "champ_067": "2000-01-01",
-    "champ_068": "Exemple",
-    "champ_069": "Exemple",
-    "champ_070": "Exemple",
-    "ville_residence": "Abidjan",
-    "profession": "Comptable",
-    "ville_signature": "Abidjan"
+  {
+   "id": "partie-2",
+   "court": "D’une part",
+   "titre": "D’une part",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Nom",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Prénoms",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "profession",
+     "type": "text",
+     "label": "Profession",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "Avant « Commune de Quartier BP »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Monsieur Commerçant demeurant à ▢ Commune de Quartier BP…"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Avant « Quartier BP époux de »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Monsieur Commerçant demeurant à Commune de ▢ Quartier BP époux de…"
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Quartier",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
+    },
+    {
+     "id": "champ_027",
+     "type": "text",
+     "label": "Avant « BP époux de madame »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…Commerçant demeurant à Commune de Quartier ▢ BP époux de madame…"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "BP",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "Avant « époux de madame avec »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…demeurant à Commune de Quartier BP ▢ époux de madame avec…"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Époux de madame",
+     "opt": true,
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Avant « avec laquelle il s’est »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…de Quartier BP époux de madame ▢ avec laquelle il s’est…"
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Laquelle il s’est marié à",
+     "opt": true,
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "Avant « à la Mairie de »",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…avec laquelle il s’est marié à ▢ à la Mairie de…"
+    },
+    {
+     "id": "champ_034",
+     "type": "text",
+     "label": "À la Mairie de",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…"
+    },
+    {
+     "id": "champ_035",
+     "type": "date",
+     "label": "Date",
+     "group": "Monsieur … , …, demeurant à … , Commune de … , Quartier … , BP … ,…",
+     "aide": "…à à la Mairie de le ▢"
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Né à",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_038",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à … , le …",
+     "aide": "…Né à le ▢"
+    },
+    {
+     "id": "champ_039",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_040",
+     "type": "text",
+     "label": "Titulaire du",
+     "group": "Titulaire du …",
+     "aide": "…Titulaire du ▢"
+    },
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "ET",
+     "group": "Ci-après dénommé « LE PRENEUR » …",
+     "aide": "…Ci-après dénommé LE PRENEUR ▢"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Designation",
+   "titre": "Designation",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "Une villa de",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
+    },
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…Une villa de ▢ pièces principales avec dépendances…"
+    },
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "Sise à",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
+    },
+    {
+     "id": "champ_045",
+     "type": "text",
+     "label": "Avant « Commune de Quartier formant »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…sur un terrain urbain sise à ▢ Commune de Quartier formant…"
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "Avant « Quartier formant le lot »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…terrain urbain sise à Commune de ▢ Quartier formant le lot…"
+    },
+    {
+     "id": "champ_048",
+     "type": "text",
+     "label": "Quartier",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
+    },
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "Avant « formant le lot numéro »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…urbain sise à Commune de Quartier ▢ formant le lot numéro…"
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "Formant le lot numéro",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
+    },
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "Avant « ilôt numéro du lotissement »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…de Quartier formant le lot numéro ▢ ilôt numéro du lotissement…"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "Ilôt numéro",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
+    },
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Avant « du lotissement d’une superficie »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…formant le lot numéro ilôt numéro ▢ du lotissement d’une superficie…"
+    },
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "Du lotissement",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "D’une superficie de",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…"
+    },
+    {
+     "id": "champ_056",
+     "type": "text",
+     "label": "Avant « m² comprenant un grand »",
+     "group": "Une villa de … (…) pièces principales avec dépendances, édifiée sur un…",
+     "aide": "…lotissement d’une superficie de mètres carrés ▢ m² comprenant un grand…"
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Duree",
+   "titre": "Duree",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_057",
+     "type": "text",
+     "label": "Accepté pour une durée de",
+     "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
+    },
+    {
+     "id": "champ_058",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…",
+     "aide": "…et accepté pour une durée de ▢ ans qui commence à…"
+    },
+    {
+     "id": "champ_059",
+     "type": "date",
+     "label": "Qui commence à courir le",
+     "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
+    },
+    {
+     "id": "champ_060",
+     "type": "date",
+     "label": "Pour se terminer le",
+     "group": "Le présent bail est consenti et accepté pour une durée de … (…) ans,…"
+    },
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "À l’expiration du délai de",
+     "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……"
+    },
+    {
+     "id": "champ_062",
+     "type": "text",
+     "label": "En chiffres",
+     "group": "Il se renouvellera par tacite reconduction à l’expiration du délai de ……",
+     "aide": "…reconduction à l’expiration du délai de ▢ ans sus-visé…"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Etc",
+     "group": "Le PRENEUR devra jouir des lieux en bon père de famille, il devra…",
+     "aide": "…de l’hygiène de la salubrité etc ▢"
+    },
+    {
+     "id": "champ_063",
+     "type": "text",
+     "label": "Moyennant un loyer mensuel de",
+     "group": "Le présent bail est respectivement consenti et accepté moyennant un…"
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Loyer",
+   "titre": "Loyer",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "Avant « FCFA lequel loyer est »",
+     "group": "Le présent bail est respectivement consenti et accepté moyennant un…",
+     "aide": "…un loyer mensuel de FRANCS CFA ▢ FCFA lequel loyer est…"
+    },
+    {
+     "id": "champ_065",
+     "type": "text",
+     "label": "Ce titre la somme de",
+     "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…"
+    },
+    {
+     "id": "champ_066",
+     "type": "text",
+     "label": "Avant « FCFA représentant deux 02 »",
+     "group": "En outre, pour garantir l’exécution des présentes, et pour répondre des…",
+     "aide": "…titre la somme de FRANCS CFA ▢ FCFA représentant deux 02…"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Expressément compétence au Tribunal de",
+     "group": "Pour l’exécution des présentes et de leurs suites, les parties font…"
+    },
+    {
+     "id": "ville_signature",
+     "type": "text",
+     "label": "Fait à (ville)",
+     "profil": "ville",
+     "group": "Fait à …,"
+    },
+    {
+     "id": "champ_067",
+     "type": "date",
+     "label": "Date",
+     "group": "Le …",
+     "aide": "…Le ▢"
+    },
+    {
+     "id": "champ_068",
+     "type": "text",
+     "label": "LE PRENEUR",
+     "group": "LE BAILLEUR LE PRENEUR …"
+    },
+    {
+     "id": "champ_069",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mme … Mr …"
+    },
+    {
+     "id": "champ_070",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mme … Mr …"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**BAIL A USAGE D’HABITATION**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Entre les soussignés** :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Madame {{champ_003}} {{champ_004}}**, {{champ_005}} {{champ_006}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, BP {{champ_011}} {{champ_012}}, épouse de Monsieur** {{champ_013}} **avec lequel elle s’est mariée à la Mairie {{champ_014}}, le {{champ_015}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Née à {{champ_016}} {{champ_017}}, le {{champ_018}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_019}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ci-après dénommée « **LE BAILLEUR** »"
+  },
+  {
+   "k": "p",
+   "text": "**D’UNE PART**",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "**ET**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Monsieur {{champ_020}} **{{champ_021}}**, {{profession}}, demeurant à {{champ_022}} {{champ_023}}, Commune de {{champ_024}} {{champ_025}}, Quartier {{champ_026}} {{champ_027}},  BP {{champ_028}} {{champ_029}}, époux de madame {{champ_030}} {{champ_031}}, avec laquelle il s’est marié à {{champ_032}} {{champ_033}}, à la Mairie de {{champ_034}}, le {{champ_035}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{champ_036}} {{champ_037}}, le {{champ_038}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_039}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire du {{champ_040}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ci-après dénommé « **LE PRENEUR »** {{champ_041}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**D’AUTRE PART**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "IL  A ETE CONVENU ET ARRETE CE QUI SUIT :",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le **BAILLEUR **consent par les présentes au** PRENEUR **qui l’accepte, un bail à loyer sur les locaux ci-après désignés, pour l’habiter exclusivement. Le présent bail est soumis à la Loi **77-995 du 18 DECEMBRE 1977** réglementant les rapports des bailleurs et locataires des locaux d’habitation et à usage professionnel."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DESIGNATION**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Une villa de {{champ_042}} ({{champ_043}}) pièces principales avec dépendances, édifiée sur un terrain urbain, sise à {{champ_044}} {{champ_045}}, Commune de {{champ_046}} {{champ_047}}, Quartier {{champ_048}} {{champ_049}}, formant le lot numéro {{champ_050}} {{champ_051}}, ilôt numéro {{champ_052}} {{champ_053}}, du lotissement {{champ_054}},  d’une superficie de {{champ_055}} **mètres carrés ({{champ_056}} m²)** comprenant un grand séjour, un petit séjour, une cuisine, une chambre principale avec une salle de bain, la seconde chambre avec une salle d’eau et WC."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le **PRENEUR** déclare bien connaître les lieux et n’en vouloir une plus ample désignation, les ayant vu et visité en vue des présentes et les prendre tels qu’ils s’étendent, se poursuivent et comportent avec toutes leurs aisances et dépendances."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DUREE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent bail est consenti et accepté pour une durée de {{champ_057}} **({{champ_058}}) ans**, qui commence à courir le {{champ_059}} pour se terminer le {{champ_060}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il se renouvellera par tacite reconduction à l’expiration du délai de {{champ_061}} **({{champ_062}}) ans** sus-visé."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toutefois, le **PRENEUR** se réserve la faculté de résilier le présent bail sous la condition de prévenir par lettre recommandée avec accusé de réception ou acte extrajudiciaire le BAILLEUR, **trois (3) mois** au moins à l’avance."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De son côté, le **BAILLEUR** ne pourra résilier le présent bail que pour des justes motifs notamment pour l’occuper lui-même ou le faire occuper par son conjoint ou ses enfants. En ce cas, le **BAILLEUR** devra donner au **PRENEUR** un préavis de **trois (3)** mois par lettre recommandée avec avis de réception ou par acte extrajudiciaire indiquant les motifs justifiant son droit de reprise."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DESTINATION DES LIEUX**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les locaux loués devront servir au **PRENEUR** à usage d’habitation principale."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CHARGES ET CONDITIONS**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent bail est respectivement consenti et accepté sous les charges, clauses et conditions suivantes que le** PRENEUR** s’oblige à exécuter, savoir :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "**ETAT DES LIEUX**",
+   "mk": "1)"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il prendra les lieux loués dans leur état actuel, sans pouvoir exiger aucune réparation autres que celles qui seraient nécessaires pour que les locaux demeurent clos et couverts."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**2) ENTRETIEN – REPARATIONS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR **entretiendra les lieux loués en bon état de réparations locatives ou de menu entretien dont il assurera l’entretien et la maintenance pendant toute la durée du bail, et les rendra à sa sortie, en bon état de réparations locatives."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il supportera toutes réparations qui deviendraient nécessaires par suite de défaut d’exécution des réparations locatives, soit de dégradation résultant de son fait ou de celui de son personnel."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**3) TRANSFORMATIONS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le **PRENEUR**  ne pourra faire aucun aménagement, aucune modification ou transformations dans l’état ou la disposition des locaux, sans autorisation préalable expresse et par écrit du **BAILLEUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ces transformations ne pourront être faites qu’après avis favorable et sous la surveillance et le contrôle, éventuellement d’un architecte du **BAILLEUR** dont les honoraires et vacation seront à la charge du **PRENEUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**4) CHANGEMENT DE DISTRIBUTION**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Il ne pourra faire dans les locaux, sans le consentement exprès et par écrit du bailleur, aucune démolition, aucune ouverture de murs ou de cloisons, ni aucun changement de distribution ; en cas d’autorisation, ces travaux seront exécutés sous la surveillance et le contrôle de l’architecte du** BAILLEUR**, s’il en est commis un, comme indiqué au paragraphe «3» ci-dessus."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**5) TRAVAUX**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR **souffrira l’exécution de toutes les réparations, reconstructions, surélévations et travaux quelconques, même de simple amélioration que le propriétaire estimerait nécessaires, utiles, ou même simplement convenables et qu’il ferait exécuter pendant le cours du bail, dans les locaux loués ou dans l’immeuble."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le **PRENEUR **ne pourra demander aucune indemnité, ni diminution de loyers, ni interruption de paiement du loyer, quelles que soient l’importance et la durée de ces travaux ; même si la durée excédait quarante **(40)** jours, à la condition toutefois, qu’ils soient exécutés sans interruption ; sauf le cas de force majeure."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Tous travaux, embellissements et améliorations quelconques, qui seraient faits par le **PRENEUR**, même avec l’autorisation du **BAILLEUR**, resteront en fin de bail la propriété de ce dernier, sans indemnité."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**6) JOUISSANCE DES LIEUX**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR** devra jouir des lieux en bon père de famille, il devra prendre toutes les précautions pour éviter tous bruits et odeurs et l’introduction d’animaux nuisibles. Il devra se conformer strictement aux prescriptions de tous règlements, arrêtés de police, règlements sanitaires, et veiller à toutes les règles de l’hygiène, de la salubrité, etc {{champ_001}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**7) ASSURANCES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR** devra contracter toutes assurances suffisantes contre les risques locatifs, le recours des voisins, les dégâts des eaux, les explosions de gaz et tous autres risques. Il devra justifier de ces assurances et de l’acquit régulier des primes, à toutes réquisitions du **BAILLEUR.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**8) CESSION – SOUS LOCATION**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR** ne pourra céder son droit au bail, sans le consentement express et par écrit du  **BAILLEUR** par acte extra-judiciaire ou par tout autre moyen écrit."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De même, le **PRENEUR** ne pourra sous-louer les locaux loués, sans l’autorisation du **BAILLEUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**9) VISITE DES LIEUX**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR **devra laisser le** BAILLEUR **ou son représentant ou leur architecte et tous entrepreneurs et ouvriers pénétrer dans les lieux loués, pour constater leur état quand le** BAILLEUR **le jugera à propos**.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Dans les **trois (3) mois** qui précéderont sa sortie, le **PRENEUR** devra laisser visiter les lieux aux personnes qui se présenteront pour les louer, les jours et heures à convenir d’un commun accord avec le **BAILLEUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**10) REMISE DES CLES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** PRENEUR** rendra les clés des locaux le jour où finira son bail, ou le jour du déménagement si celui-ci le précédait, nonobstant tout délai de faveur, d’usage ou de tolérance. La remise des clefs ou leur acceptation par le propriétaire ne portera aucune atteinte à son droit de répéter contre le locataire, le coût des réparations de toute nature dont le locataire est tenu suivant la loi et les clauses et conditions du présent bail."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**11)  EAU - ELECTRICITE-CHARGES DIVERSES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le **PRENEUR** devra acquitter à compter de son entrée en jouissance, et pendant le temps de la location toutes factures et redevances relatives aux coûts de ses  consommations en matière d’eau, électricité et téléphone. Il ne pourra formuler aucune réclamation pour cause d’interruption dans les services publics, pour quelque cause que ce soit, le **BAILLEUR** entendant dès à présent, n’encourir aucune responsabilité."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La fourniture et le remplacement de tous appareils d’éclairage et de toutes ampoules seront exclusivement à la charge du **PRENEUR**."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**OBLIGATIONS DU BAILLEUR**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**EXONERATIONS DE RESPONSABILITE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** BAILLEUR **s’oblige à tenir les lieux loués clos et couverts suivant l’usage, sans déroger toutefois aux obligations mises à la charge du **PRENEUR**, en ce qui concerne les travaux qui deviendraient nécessaires."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le** BAILLEUR **est exonéré de toute responsabilité, même sous forme de réduction de loyer, dans le cas où par fait de force majeure, il y aurait interruption de fournitures d’eau, d’électricité, etc."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LOYER**",
+   "ind": 6
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent bail est respectivement consenti et accepté moyennant un loyer  mensuel de {{champ_063}} **FRANCS CFA ({{champ_064}} FCFA)**, lequel loyer est payable d’avance mensuellement au plus tard  le cinq du mois en cours."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DEPOT DE GARANTIE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En outre, pour garantir l’exécution des présentes, et pour répondre des dégâts qui pourraient être causés aux biens loués ainsi que les différentes consommations précitées (eau, électricité, téléphone) le **PRENEUR** verse à ce titre la somme de {{champ_065}} **FRANCS CFA ({{champ_066}} FCFA)** représentant **deux (02)** mois de caution."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ce montant non productif d’intérêts sera remboursé au **PRENEUR**, à l’expiration de la présente location, lors de la remise des clés et des locaux, à la disposition du **BAILLEUR**, déduction faite de toutes les sommes qui pourraient être dues par le **PRENEUR,** tant pour réparation que pour toute cause précitée et notamment le non paiement des loyers."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**CLAUSE RESOLUTOIRE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "A défaut par le **PRENEUR** d’exécuter une seule des charges et conditions du bail qui sont toutes de rigueur et un mois après un simple commandement ou une sommation d’exécuter faite à personne ou à domicile élu, contenant mention de la présente clause et mentionnant ce délai, restés sans effet, le présent bail sera résilié de plein droit si bon semble au **BAILLEUR** mais le Tribunal ou le Juge des Référés pourra accorder au **PRENEUR **un délai d’un mois pour le payement des loyers à compter du jour du prononcé de la décision statuant sur le payement desdits loyers."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ELECTION DE DOMICILE – COMPETENCE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour l’exécution des présentes et de leurs suites, les parties font élection de domicile en leurs demeures respectives, et pour toutes contestations à l’occasion de celles-ci, elles attribuent expressément compétence au Tribunal de {{champ_002}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{ville_signature}},",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Le {{champ_067}}",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "En deux (02) exemplaires",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LE BAILLEUR                              LE PRENEUR** {{champ_068}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{champ_069}} Mr {{champ_070}}**"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1znk4tk9e7eoj7-obnthhjvkhpnaqbetg-matrice-bail-a-usage-d-hab.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "2000-01-01",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "2000-01-01",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "Exemple",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple",
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "Exemple",
+  "champ_035": "2000-01-01",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "2000-01-01",
+  "champ_039": "Exemple",
+  "champ_040": "Exemple",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple",
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "Exemple",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "Exemple",
+  "champ_049": "Exemple",
+  "champ_050": "Exemple",
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple",
+  "champ_056": "Exemple",
+  "champ_057": "Exemple",
+  "champ_058": "Exemple",
+  "champ_059": "2000-01-01",
+  "champ_060": "2000-01-01",
+  "champ_061": "Exemple",
+  "champ_062": "Exemple",
+  "champ_001": "Exemple",
+  "champ_063": "Exemple",
+  "champ_064": "Exemple",
+  "champ_065": "Exemple",
+  "champ_066": "Exemple",
+  "champ_002": "Exemple",
+  "champ_067": "2000-01-01",
+  "champ_068": "Exemple",
+  "champ_069": "Exemple",
+  "champ_070": "Exemple",
+  "ville_residence": "Abidjan",
+  "profession": "Comptable",
+  "ville_signature": "Abidjan"
+ }
 }

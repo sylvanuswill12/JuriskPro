@@ -1,0 +1,129 @@
+{
+ "id": "source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d30-reduction-de-capital-constat-absen",
+ "cat": "societes-associations",
+ "sub": "Procès-verbaux du conseil d’administration",
+ "titre": "PV du conseil d’administration – Réduction de capital : Constat absence de carence",
+ "sous": "Décision du conseil d’administration d’une société anonyme : réduction de capital : Constat absence de carence.",
+ "resume": "PV du conseil d’administration – Réduction de capital : Constat absence de carence : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "conseil d’administration",
+  "procès-verbal",
+  "sa",
+  "décision"
+ ],
+ "duree": "4 min",
+ "docTitle": "PV du conseil d’administration – Réduction de capital : Constat absence de carence",
+ "fileBase": "PV du conseil d’administration – Réduction de capital : Constat absence de carence",
+ "headline": "PV du conseil d’administration – Réduction de capital : Constat absence de carence",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Décision",
+   "titre": "Réduction de capital : Constat absence de carence",
+   "champs": [
+    {
+     "id": "champ_156",
+     "type": "text",
+     "label": "Condition suspensive prévue par l’article",
+     "group": "Constate la réalisation de la condition suspensive prévue par l’article…"
+    },
+    {
+     "id": "champ_157",
+     "type": "text",
+     "label": "De réduction de capital peuvent",
+     "group": "Constate que les opérations de réduction de capital peuvent ……"
+    },
+    {
+     "id": "champ_158",
+     "type": "text",
+     "label": "Avant « conformément aux modalités de »",
+     "group": "Constate que les opérations de réduction de capital peuvent ……",
+     "aide": "…opérations de réduction de capital peuvent ▢ conformément aux modalités de…"
+    },
+    {
+     "id": "champ_159",
+     "type": "text",
+     "label": "De l’Assemblée Générale Extraordinaire du",
+     "group": "Constate que les opérations de réduction de capital peuvent ……"
+    },
+    {
+     "id": "champ_160",
+     "type": "text",
+     "label": "Fixe au",
+     "group": "Fixe au … la date à compter de laquelle le remboursement de FCFA … par…"
+    },
+    {
+     "id": "champ_161",
+     "type": "text",
+     "label": "Laquelle le remboursement de FCFA",
+     "group": "Fixe au … la date à compter de laquelle le remboursement de FCFA … par…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1hsdcdeocev3-zmm3s2g7pl-zcbewyr1y-matrice-proces-verbal-de-l-d30-reduction-de-capital-constat-absen.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_156": "Exemple",
+  "champ_157": "Exemple",
+  "champ_158": "Exemple",
+  "champ_159": "Exemple",
+  "champ_160": "Exemple",
+  "champ_161": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Réduction de capital : Constat absence de carence**"
+  },
+  {
+   "k": "p",
+   "text": "Après en avoir délibéré, le Conseil d’Administration :"
+  },
+  {
+   "k": "li",
+   "text": "Constate la réalisation de la condition suspensive prévue par l’article {{champ_156}} de l’Acte Uniforme  du Droit des Sociétés Commerciales et du GIE ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Constate en conséquence que la réduction de capital et la modification corrélative des statuts sont devenues définitives ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Constate que les opérations de réduction de capital peuvent {{champ_157}} {{champ_158}} conformément aux modalités de l’Assemblée Générale Extraordinaire du {{champ_159}} ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Fixe au {{champ_160}} la date à compter  de laquelle le remboursement de FCFA {{champ_161}} par action pourra être obtenu du siège social ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "Donne pouvoirs à son Président à l’effet de mettre en œuvre la présente décision.",
+   "mk": "-"
+  },
+  {
+   "k": "p",
+   "text": "Plus de rien n’étant à l’ordre du jour, la séance est levée. Il a été dressé le Présent      procès-verbal qui, après lecture, a été signé par le Président et un autre Administrateur"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le Président       Un Administrateur"
+  }
+ ]
+}

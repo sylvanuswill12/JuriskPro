@@ -1,1196 +1,1196 @@
 {
-  "id": "source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor",
-  "cat": "procurations-actes-divers",
-  "sub": "Protocoles d’accord",
-  "titre": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "protocole d accord",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "20 min",
-  "docTitle": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
-  "fileBase": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
-  "headline": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
-  "etapes": [
+ "id": "source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor",
+ "cat": "procurations-actes-divers",
+ "sub": "Protocoles d’accord",
+ "titre": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "protocole d accord",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "20 min",
+ "docTitle": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
+ "fileBase": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
+ "headline": "Protocole d’accord – vente d’une parcelle de terrain entre une société et un particulier",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Protocole d’accord",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Protocole d’accord",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "ENTRE LA SARL",
-          "group": "ENTRE LA SARL …",
-          "aide": "…ENTRE LA SARL ▢"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "ET MONSIEUR",
-          "group": "ET MONSIEUR …",
-          "aide": "…ET MONSIEUR ▢"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Avant « Société A Responsabilité Limitée »",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…La Société ▢ Société A Responsabilité Limitée…"
-        },
-        {
-          "id": "ville_siege",
-          "type": "text",
-          "label": "Ville du siège social",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
-        },
-        {
-          "id": "commune",
-          "type": "text",
-          "label": "Commune",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…ayant son siège à Commune de ▢ Quartier BP représentée par…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Quartier",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…son siège à Commune de Quartier ▢ BP représentée par son…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "BP",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…siège à Commune de Quartier BP ▢ représentée par son Gérant…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
-        },
-        {
-          "id": "profession",
-          "type": "text",
-          "label": "Profession",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
-        },
-        {
-          "id": "ville_residence",
-          "type": "text",
-          "label": "Ville de résidence",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Quartier",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
-        }
-      ]
+     "id": "champ_002",
+     "type": "text",
+     "label": "ENTRE LA SARL",
+     "group": "ENTRE LA SARL …",
+     "aide": "…ENTRE LA SARL ▢"
     },
     {
-      "id": "partie-2",
-      "court": "Entre les",
-      "titre": "Entre les soussignes",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "BP",
-          "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
-          "aide": "…demeurant à Commune de Quartier BP ▢"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Né à",
-          "group": "Né à … (République de …), le …,",
-          "aide": "…Né à ▢ République de le…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "République de",
-          "group": "Né à … (République de …), le …,",
-          "aide": "…Né à République de ▢ le…"
-        },
-        {
-          "id": "champ_012",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à … (République de …), le …,",
-          "aide": "…Né à République de le ▢"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
-        },
-        {
-          "id": "champ_014",
-          "type": "text",
-          "label": "Établie à",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_015",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_016",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Avant « Ci-après dénommée et pour »",
-          "group": "La Société « … », Ci-après dénommée et pour en faciliter la rédaction «…",
-          "aide": "…La Société ▢ Ci-après dénommée et pour…"
-        }
-      ]
+     "id": "champ_003",
+     "type": "text",
+     "label": "ET MONSIEUR",
+     "group": "ET MONSIEUR …",
+     "aide": "…ET MONSIEUR ▢"
     },
     {
-      "id": "partie-3",
-      "court": "D’une part",
-      "titre": "D’une part",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_018",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "Profession",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…Monsieur demeurant à ▢ Commune de Quartier BP…"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…Monsieur demeurant à Commune de ▢ Quartier BP…"
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "Quartier",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
-        },
-        {
-          "id": "champ_023",
-          "type": "text",
-          "label": "BP",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…demeurant à Commune de Quartier BP ▢"
-        },
-        {
-          "id": "champ_024",
-          "type": "text",
-          "label": "D’UNE PART",
-          "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
-          "aide": "…demeurant à Commune de Quartier BP ▢"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "Né à",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Avant « le »",
-          "group": "Né à … , le …",
-          "aide": "…Né à ▢ le…"
-        },
-        {
-          "id": "champ_027",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à … , le …",
-          "aide": "…Né à le ▢"
-        },
-        {
-          "id": "champ_028",
-          "type": "text",
-          "label": "De nationalité",
-          "group": "De nationalité …",
-          "aide": "…De nationalité ▢"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "Avant « établie à le et »",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
-        },
-        {
-          "id": "champ_031",
-          "type": "text",
-          "label": "Établie à",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_032",
-          "type": "text",
-          "label": "Avant « le et valable jusqu’au »",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_033",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_034",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_035",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Monsieur …, ci-après dénommé et pour en faciliter la rédaction, «…"
-        }
-      ]
+     "id": "champ_004",
+     "type": "text",
+     "label": "Avant « Société A Responsabilité Limitée »",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…La Société ▢ Société A Responsabilité Limitée…"
     },
     {
-      "id": "partie-4",
-      "court": "Art. 1",
-      "titre": "Article 1 : OBJET DU CONTRAT",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_036",
-          "type": "text",
-          "label": "Parcelle de terrain sis à",
-          "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
-        },
-        {
-          "id": "champ_037",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
-          "aide": "…de terrain sis à Commune de ▢ par la Société le…"
-        },
-        {
-          "id": "champ_038",
-          "type": "text",
-          "label": "Par la Société",
-          "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
-          "aide": "…à Commune de par la Société ▢ le VENDEUR au profit…"
-        },
-        {
-          "id": "champ_039",
-          "type": "text",
-          "label": "Au profit de Monsieur",
-          "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
-        },
-        {
-          "id": "champ_040",
-          "type": "text",
-          "label": "Portant sur une superficie de",
-          "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
-        },
-        {
-          "id": "champ_041",
-          "type": "text",
-          "label": "De permettre à la Société",
-          "group": "La convention objet des présentes, est conclue pour une durée de UN…"
-        },
-        {
-          "id": "champ_042",
-          "type": "text",
-          "label": "Propose en vente à Monsieur",
-          "group": "La convention objet des présentes, est conclue pour une durée de UN…"
-        },
-        {
-          "id": "champ_043",
-          "type": "text",
-          "label": "ENGAGEMENTS DE LA SARL",
-          "group": "ENGAGEMENTS DE LA SARL … (LE VENDEUR)"
-        }
-      ]
+     "id": "ville_siege",
+     "type": "text",
+     "label": "Ville du siège social",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
     },
     {
-      "id": "partie-5",
-      "court": "Art. 3",
-      "titre": "Article 3 : ENGAGEMENTS DES PARTIES",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_044",
-          "type": "text",
-          "label": "SARL",
-          "group": "SARL …, par son Gérant s’engage aux présentes :",
-          "aide": "…SARL ▢ par son Gérant s’engage…"
-        },
-        {
-          "id": "champ_045",
-          "type": "text",
-          "label": "- A Informer Monsieur",
-          "group": "- A Informer Monsieur …, de l’évolution des formalités d’obtention de…"
-        },
-        {
-          "id": "champ_046",
-          "type": "text",
-          "label": "- A vendre à Monsieur",
-          "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
-        },
-        {
-          "id": "champ_047",
-          "type": "text",
-          "label": "La parcelle de terrain de",
-          "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
-        },
-        {
-          "id": "champ_048",
-          "type": "text",
-          "label": "Au prix convenu de",
-          "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "prenom_notaire",
-          "type": "text",
-          "label": "Prénom du notaire",
-          "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
-          "aide": "…au rang des minutes de Maître ▢ Notaire dès obtention son…",
-          "profil": "prenom",
-          "pq": "notaire"
-        },
-        {
-          "id": "champ_049",
-          "type": "text",
-          "label": "Vente au profit de Monsieur",
-          "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…"
-        },
-        {
-          "id": "champ_050",
-          "type": "text",
-          "label": "Et sans en informer Monsieur",
-          "group": "- A ne pas vendre lesdites parcelles à un tiers avant l’expiration du…"
-        },
-        {
-          "id": "champ_051",
-          "type": "text",
-          "label": "ENGAGEMENTS DE MONSIEUR",
-          "group": "ENGAGEMENTS DE MONSIEUR … (L’ACQUEREUR)"
-        },
-        {
-          "id": "champ_052",
-          "type": "text",
-          "label": "MONSIEUR",
-          "group": "MONSIEUR … s’engage à son tour :",
-          "aide": "…MONSIEUR ▢ s’engage à son tour…"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "A régler les frais des présentes et de l’acte de vente à son profit qui…"
-        }
-      ]
+     "id": "commune",
+     "type": "text",
+     "label": "Commune",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…ayant son siège à Commune de ▢ Quartier BP représentée par…"
     },
     {
-      "id": "partie-6",
-      "court": "Art. 4",
-      "titre": "Article 4 : propriete-entree jouissance",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_053",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Monsieur … aura la jouissance de la parcelle objet des présentes à…"
-        },
-        {
-          "id": "champ_054",
-          "type": "text",
-          "label": "Attestation de propriétés villageoise numéro",
-          "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
-        },
-        {
-          "id": "champ_055",
-          "type": "text",
-          "label": "Le chef du village d’",
-          "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
-        },
-        {
-          "id": "champ_056",
-          "type": "text",
-          "label": "Sis dans la commune d’",
-          "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
-          "aide": "…d’ sis dans la commune d’ ▢ le…"
-        },
-        {
-          "id": "champ_057",
-          "type": "date",
-          "label": "Date",
-          "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
-          "aide": "…sis dans la commune d’ le ▢"
-        },
-        {
-          "id": "champ_058",
-          "type": "date",
-          "label": "Article 5 ORIGINE DE PROPRIETE",
-          "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
-          "aide": "…sis dans la commune d’ le ▢"
-        },
-        {
-          "id": "champ_059",
-          "type": "text",
-          "label": "Au nom de la Société",
-          "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…",
-          "aide": "…Définitif au nom de la Société ▢ sont en cours par…"
-        },
-        {
-          "id": "champ_060",
-          "type": "text",
-          "label": "Ainsi qu’il résulte du",
-          "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…"
-        }
-      ]
+     "id": "champ_005",
+     "type": "text",
+     "label": "Quartier",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…son siège à Commune de Quartier ▢ BP représentée par son…"
     },
     {
-      "id": "partie-7",
-      "court": "Art. 6",
-      "titre": "Article 6 : declarations d’etat civil et autres",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Etc",
-          "group": "- Qu’il n’existe, de son chef, aucun obstacle, ni aucune restriction…",
-          "aide": "…liquidation de biens de faillite etc ▢ à la conclusion du…"
-        },
-        {
-          "id": "champ_061",
-          "type": "text",
-          "label": "Présentes seront supportés par Monsieur",
-          "group": "Les frais des présentes seront supportés par Monsieur …"
-        },
-        {
-          "id": "ville_signature",
-          "type": "text",
-          "label": "Fait à (ville)",
-          "profil": "ville",
-          "group": "Fait à …, le …"
-        },
-        {
-          "id": "champ_062",
-          "type": "date",
-          "label": "Date",
-          "group": "Fait à …, le …",
-          "aide": "…Fait à le ▢"
-        },
-        {
-          "id": "champ_063",
-          "type": "text",
-          "label": "Avant « L’ACQUEREUR »",
-          "group": "SARL « … » L’ACQUEREUR …",
-          "aide": "…SARL ▢ L’ACQUEREUR…"
-        },
-        {
-          "id": "champ_064",
-          "type": "text",
-          "label": "L’ACQUEREUR",
-          "group": "SARL « … » L’ACQUEREUR …",
-          "aide": "…SARL L’ACQUEREUR ▢"
-        },
-        {
-          "id": "champ_065",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mr … Mr …"
-        },
-        {
-          "id": "champ_066",
-          "type": "text",
-          "label": "Nom",
-          "group": "Mr … Mr …"
-        },
-        {
-          "id": "champ_067",
-          "type": "text",
-          "label": "En trois 3 exemplaires",
-          "group": "Mr … Mr …",
-          "aide": "…Mr Mr ▢"
-        },
-        {
-          "id": "champ_068",
-          "type": "text",
-          "label": "Es-qualité",
-          "group": "Es-qualité …",
-          "aide": "…Es-qualité ▢"
-        }
-      ]
+     "id": "champ_006",
+     "type": "text",
+     "label": "BP",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…siège à Commune de Quartier BP ▢ représentée par son Gérant…"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_007",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
+    },
+    {
+     "id": "profession",
+     "type": "text",
+     "label": "Profession",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
+    },
+    {
+     "id": "ville_residence",
+     "type": "text",
+     "label": "Ville de résidence",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Quartier",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**PROTOCOLE D’ACCORD**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**ENTRE LA SARL {{champ_002}}**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**ET MONSIEUR {{champ_003}}**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ENTRE  LES  SOUSSIGNES**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**La Société « {{champ_004}} », Société A Responsabilité Limitée, au capital de 5.000.000 DE FRANCS CFA, ayant son siège à {{ville_siege}}, Commune de {{commune}}, Quartier {{champ_005}}, BP {{champ_006}},  représentée par son Gérant, Monsieur {{champ_007}}, {{profession}}, demeurant à {{ville_residence}}, Commune de {{commune}}, Quartier {{champ_008}}, BP {{champ_009}}**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{champ_010}} (République de {{champ_011}}), le {{champ_012}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De Nationalité Ivoirienne,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_013}}, établie à {{champ_014}}, le {{champ_015}} et valable jusqu’au {{champ_016}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**La Société « {{champ_017}} », Ci-après dénommée et pour en faciliter la rédaction « le VENDEUR ».**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ET**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**D’UNE PART**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_018}}, {{champ_019}}, demeurant à {{champ_020}}, Commune de {{champ_021}}, Quartier {{champ_022}}, BP {{champ_023}},** {{champ_024}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{champ_025}} {{champ_026}}, le {{champ_027}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité {{champ_028}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_029}} {{champ_030}}, établie à {{champ_031}} {{champ_032}}, le {{champ_033}} et valable jusqu’au {{champ_034}}",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_035}}, ci-après dénommé et pour en faciliter la rédaction, « l’ACQUEREUR ».**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**D’AUTRE PART**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**LESQUELS** ont par les présentes, convenus d’établir un protocole d’accord, ainsi qu’il suit :"
-    },
-    {
-      "k": "p",
-      "text": "**PROTOCOLE D’ACCORD**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 1 : OBJET DU CONTRAT**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent protocole d’accord a pour objet, la mise en vente d’une parcelle de terrain sis à {{champ_036}}, Commune de {{champ_037}}, par la Société {{champ_038}}, le VENDEUR, au profit de Monsieur {{champ_039}}, ACQUEREUR, portant sur une superficie de {{champ_040}} HECTARES."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 2 : DUREE**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La convention objet des présentes, est conclue pour une durée de UN (01) AN, délai jugé raisonnable par les parties, afin de permettre à la Société {{champ_041}}, d’obtenir son Arrêté de Concession Définitif, sur la parcelle qu’il propose en vente à Monsieur {{champ_042}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le délai, commencera à courrier, à compter de la signature des présentes."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 3 : ENGAGEMENTS DES PARTIES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les deux parties s’engagent à exécuter la présente convention en toute bonne foi et en toute loyauté. Et plus particulièrement :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "**ENGAGEMENTS DE LA SARL {{champ_043}} (LE VENDEUR)**",
-      "mk": "A-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**SARL {{champ_044}}, par son Gérant s’engage aux présentes :**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- A suivre les formalités d’obtention de son Arrêté de Concession Définitif, en vue de son obtention dans le délai susmentionné ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- A Informer Monsieur {{champ_045}}, de l’évolution des formalités d’obtention de son Arrêté de Concession Définitif et à l’informer de toutes difficultés liées à ladite formalité ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- A vendre à Monsieur {{champ_046}}, dès l’obtention de l’Arrêté de Concession Définitif à son nom, la parcelle de terrain de {{champ_047}} HECTARES sus désignée, au prix convenu de {{champ_048}} FRANCS CFA ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "-  A déposer au rang des minutes de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, Notaire, dès obtention, son Arrêté de Concession Définitif sur ladite parcelle, en vue de l’établissement de l’acte de vente au profit de Monsieur {{champ_049}} ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- A ne pas vendre lesdites parcelles à un tiers avant l’expiration du délai susmentionné et sans en informer  Monsieur {{champ_050}} ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- A ne consentir aucun droit réel, hypothèques ou autres clauses d’indisponibilité au profit d’un tiers sur ladite parcelle."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "**ENGAGEMENTS DE MONSIEUR {{champ_051}} (L’ACQUEREUR)**",
-      "mk": "B-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**MONSIEUR {{champ_052}} s’engage à son tour :**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "A régler le prix de vente convenu ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "A respecter les règles pour l’obtention de l’ACD à son profit ;",
-      "mk": "-"
-    },
-    {
-      "k": "li",
-      "text": "A régler les frais des présentes et de l’acte de vente à son profit qui sera établi par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}.",
-      "mk": "-"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 4 : PROPRIETE-ENTREE JOUISSANCE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_053}} aura la jouissance de la parcelle objet des présentes à compter de la signature du présent protocole.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 5 : ORIGINE DE PROPRIETE**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de propriétés villageoise numéro {{champ_054}}, délivrée par le chef du village d’{{champ_055}}, sis dans la commune d’{{champ_056}}, le {{champ_057}}. {{champ_058}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom de la Société {{champ_059}}, sont en cours, par ses soins, ainsi qu’il résulte du {{champ_060}}, dont copie ci-jointe."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 6 : DECLARATIONS D’ETAT CIVIL ET AUTRES**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "Le **VENDEUR,** par son représentant ci-dessus comparant, déclare sous les peines de droits et la foi du serment :",
-      "mk": "•"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Exact son Etat Civil indiqué en tête des présentes de son représentant ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Qu’il dispose de la pleine capacité Civile nécessaire aux présentes ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Qu’il n’existe, de son chef, aucun obstacle, ni aucune restriction d’ordre administratif, légal, réglementaire ou contractuel, (notamment d’interdiction, de Conseil judiciaire, de liquidation de biens, de faillite, etc {{champ_001}}) à la conclusion du présent acte ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "li",
-      "text": "**L’ACQUEREUR, **déclare sous les peines de droits et la foi du serment :",
-      "mk": "•"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Exact l’Etat Civil tel qu’indiqué en tête des présentes le concernant ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Qu’il dispose de la pleine capacité Civile nécessaire aux présentes ;",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "- Qu’il n’existe de son chef aucun obstacle d’ordre légal ou judiciaire à la conclusion du présent acte ;"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 7 : FORMALITES-POUVOIRS**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Le présent acte fera l’objet d’un dépôt au rang des minutes de **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les parties conviennent que les formalités d’obtention de l’**A**rrêté de **C**oncession **D**éfinitive au profit de **l’ACQUEREUR,** seront effectuées par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, Notaire** ou son successeur."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 8 : ELECTION DE DOMICILE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour l’exécution des présentes et de leurs suites, les parties élisent domicile en leurs demeures respectives."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour les formalités à faire en vertu des présentes, domicile spécial est élu par toutes les parties à {{ville_notaire}}, en **l’Etude de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 9 : FRAIS**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les frais des présentes seront supportés par  Monsieur {{champ_061}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 10 : MODIFICATION DE LA CONVENTION**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toute modification du présent contrat doit faire l’objet d’un avenant écrit et signé conjointement par les parties."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Article 11 : CLAUSE COMPROMISSOIRE**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les parties décident que les litiges qui découleront des présentes, notamment pour ce qui concerne son interprétation ou son exécution, seront soumis à la procédure de conciliation et de médiation."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Toutes les procédures se dérouleront sous l’égide de la Cour d’Arbitrage et de Médiation de Côte d’Ivoire (CACI), conformément aux règlements en vigueur."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Les décisions et sentences rendues lient les parties, qui s’engagent à les exécuter de bonne foi et à renoncer à tous recours contre elles."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait à {{ville_signature}}, le {{champ_062}}",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En trois (3) exemplaires",
-      "al": "left",
-      "ind": 6
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**SARL « {{champ_063}} »   L’ACQUEREUR** {{champ_064}}",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**Mr {{champ_065}} Mr {{champ_066}} {{champ_067}}**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**Es-qualité {{champ_068}}**",
-      "al": "left"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "commune": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "2000-01-01",
-    "champ_013": "Exemple",
-    "champ_014": "Exemple",
-    "champ_015": "2000-01-01",
-    "champ_016": "2000-01-01",
-    "champ_017": "Exemple",
-    "champ_018": "Exemple",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "Exemple",
-    "champ_024": "Exemple",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "2000-01-01",
-    "champ_028": "Exemple",
-    "champ_029": "Exemple",
-    "champ_030": "Exemple",
-    "champ_031": "Exemple",
-    "champ_032": "Exemple",
-    "champ_033": "2000-01-01",
-    "champ_034": "2000-01-01",
-    "champ_035": "Exemple",
-    "champ_036": "Exemple",
-    "champ_037": "Exemple",
-    "champ_038": "Exemple",
-    "champ_039": "Exemple",
-    "champ_040": "Exemple",
-    "champ_041": "Exemple",
-    "champ_042": "Exemple",
-    "champ_043": "Exemple",
-    "champ_044": "Exemple",
-    "champ_045": "Exemple",
-    "champ_046": "Exemple",
-    "champ_047": "Exemple",
-    "champ_048": "Exemple",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple",
-    "champ_049": "Exemple",
-    "champ_050": "Exemple",
-    "champ_051": "Exemple",
-    "champ_052": "Exemple",
-    "champ_053": "Exemple",
-    "champ_054": "Exemple",
-    "champ_055": "Exemple",
-    "champ_056": "Exemple",
-    "champ_057": "2000-01-01",
-    "champ_058": "2000-01-01",
-    "champ_059": "Exemple",
-    "champ_060": "Exemple",
-    "champ_001": "Exemple",
-    "champ_061": "Exemple",
-    "champ_062": "2000-01-01",
-    "champ_063": "Exemple",
-    "champ_064": "Exemple",
-    "champ_065": "Exemple",
-    "champ_066": "Exemple",
-    "champ_067": "Exemple",
-    "champ_068": "Exemple",
-    "ville_siege": "Abidjan",
-    "profession": "Comptable",
-    "ville_residence": "Abidjan",
-    "ville_notaire": "Abidjan",
-    "ville_signature": "Abidjan"
+  {
+   "id": "partie-2",
+   "court": "Entre les",
+   "titre": "Entre les soussignes",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "BP",
+     "group": "La Société « … », Société A Responsabilité Limitée, au capital de…",
+     "aide": "…demeurant à Commune de Quartier BP ▢"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Né à",
+     "group": "Né à … (République de …), le …,",
+     "aide": "…Né à ▢ République de le…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "République de",
+     "group": "Né à … (République de …), le …,",
+     "aide": "…Né à République de ▢ le…"
+    },
+    {
+     "id": "champ_012",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à … (République de …), le …,",
+     "aide": "…Né à République de le ▢"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
+    },
+    {
+     "id": "champ_014",
+     "type": "text",
+     "label": "Établie à",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_015",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_016",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Avant « Ci-après dénommée et pour »",
+     "group": "La Société « … », Ci-après dénommée et pour en faciliter la rédaction «…",
+     "aide": "…La Société ▢ Ci-après dénommée et pour…"
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "D’une part",
+   "titre": "D’une part",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_018",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "Profession",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
+     "aide": "…Monsieur demeurant à ▢ Commune de Quartier BP…"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
+     "aide": "…Monsieur demeurant à Commune de ▢ Quartier BP…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "Quartier",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
+     "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP…"
+    },
+    {
+     "id": "champ_023",
+     "type": "text",
+     "label": "BP",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
+     "aide": "…demeurant à Commune de Quartier BP ▢"
+    },
+    {
+     "id": "champ_024",
+     "type": "text",
+     "label": "D’UNE PART",
+     "group": "Monsieur …, …, demeurant à …, Commune de …, Quartier …, BP …, …",
+     "aide": "…demeurant à Commune de Quartier BP ▢"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "Né à",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Avant « le »",
+     "group": "Né à … , le …",
+     "aide": "…Né à ▢ le…"
+    },
+    {
+     "id": "champ_027",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à … , le …",
+     "aide": "…Né à le ▢"
+    },
+    {
+     "id": "champ_028",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "Avant « établie à le et »",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…de la Carte Nationale d’Identité numéro ▢ établie à le et…"
+    },
+    {
+     "id": "champ_031",
+     "type": "text",
+     "label": "Établie à",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Avant « le et valable jusqu’au »",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_033",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_034",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro … , établie à … , le…",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Monsieur …, ci-après dénommé et pour en faciliter la rédaction, «…"
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Art. 1",
+   "titre": "Article 1 : OBJET DU CONTRAT",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Parcelle de terrain sis à",
+     "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
+    },
+    {
+     "id": "champ_037",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
+     "aide": "…de terrain sis à Commune de ▢ par la Société le…"
+    },
+    {
+     "id": "champ_038",
+     "type": "text",
+     "label": "Par la Société",
+     "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…",
+     "aide": "…à Commune de par la Société ▢ le VENDEUR au profit…"
+    },
+    {
+     "id": "champ_039",
+     "type": "text",
+     "label": "Au profit de Monsieur",
+     "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
+    },
+    {
+     "id": "champ_040",
+     "type": "text",
+     "label": "Portant sur une superficie de",
+     "group": "Le présent protocole d’accord a pour objet, la mise en vente d’une…"
+    },
+    {
+     "id": "champ_041",
+     "type": "text",
+     "label": "De permettre à la Société",
+     "group": "La convention objet des présentes, est conclue pour une durée de UN…"
+    },
+    {
+     "id": "champ_042",
+     "type": "text",
+     "label": "Propose en vente à Monsieur",
+     "group": "La convention objet des présentes, est conclue pour une durée de UN…"
+    },
+    {
+     "id": "champ_043",
+     "type": "text",
+     "label": "ENGAGEMENTS DE LA SARL",
+     "group": "ENGAGEMENTS DE LA SARL … (LE VENDEUR)"
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Art. 3",
+   "titre": "Article 3 : ENGAGEMENTS DES PARTIES",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_044",
+     "type": "text",
+     "label": "SARL",
+     "group": "SARL …, par son Gérant s’engage aux présentes :",
+     "aide": "…SARL ▢ par son Gérant s’engage…"
+    },
+    {
+     "id": "champ_045",
+     "type": "text",
+     "label": "- A Informer Monsieur",
+     "group": "- A Informer Monsieur …, de l’évolution des formalités d’obtention de…"
+    },
+    {
+     "id": "champ_046",
+     "type": "text",
+     "label": "- A vendre à Monsieur",
+     "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
+    },
+    {
+     "id": "champ_047",
+     "type": "text",
+     "label": "La parcelle de terrain de",
+     "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
+    },
+    {
+     "id": "champ_048",
+     "type": "text",
+     "label": "Au prix convenu de",
+     "group": "- A vendre à Monsieur …, dès l’obtention de l’Arrêté de Concession…"
+    },
+    {
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
+     "profil": "nom",
+     "pq": "notaire"
+    },
+    {
+     "id": "prenom_notaire",
+     "type": "text",
+     "label": "Prénom du notaire",
+     "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…",
+     "aide": "…au rang des minutes de Maître ▢ Notaire dès obtention son…",
+     "profil": "prenom",
+     "pq": "notaire"
+    },
+    {
+     "id": "champ_049",
+     "type": "text",
+     "label": "Vente au profit de Monsieur",
+     "group": "- A déposer au rang des minutes de Maître … , Notaire, dès obtention,…"
+    },
+    {
+     "id": "champ_050",
+     "type": "text",
+     "label": "Et sans en informer Monsieur",
+     "group": "- A ne pas vendre lesdites parcelles à un tiers avant l’expiration du…"
+    },
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "ENGAGEMENTS DE MONSIEUR",
+     "group": "ENGAGEMENTS DE MONSIEUR … (L’ACQUEREUR)"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "MONSIEUR",
+     "group": "MONSIEUR … s’engage à son tour :",
+     "aide": "…MONSIEUR ▢ s’engage à son tour…"
+    },
+    {
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "A régler les frais des présentes et de l’acte de vente à son profit qui…"
+    }
+   ]
+  },
+  {
+   "id": "partie-6",
+   "court": "Art. 4",
+   "titre": "Article 4 : propriete-entree jouissance",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Monsieur … aura la jouissance de la parcelle objet des présentes à…"
+    },
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "Attestation de propriétés villageoise numéro",
+     "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "Le chef du village d’",
+     "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…"
+    },
+    {
+     "id": "champ_056",
+     "type": "text",
+     "label": "Sis dans la commune d’",
+     "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
+     "aide": "…d’ sis dans la commune d’ ▢ le…"
+    },
+    {
+     "id": "champ_057",
+     "type": "date",
+     "label": "Date",
+     "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
+     "aide": "…sis dans la commune d’ le ▢"
+    },
+    {
+     "id": "champ_058",
+     "type": "date",
+     "label": "Article 5 ORIGINE DE PROPRIETE",
+     "group": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de…",
+     "aide": "…sis dans la commune d’ le ▢"
+    },
+    {
+     "id": "champ_059",
+     "type": "text",
+     "label": "Au nom de la Société",
+     "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…",
+     "aide": "…Définitif au nom de la Société ▢ sont en cours par…"
+    },
+    {
+     "id": "champ_060",
+     "type": "text",
+     "label": "Ainsi qu’il résulte du",
+     "group": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom…"
+    }
+   ]
+  },
+  {
+   "id": "partie-7",
+   "court": "Art. 6",
+   "titre": "Article 6 : declarations d’etat civil et autres",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Etc",
+     "group": "- Qu’il n’existe, de son chef, aucun obstacle, ni aucune restriction…",
+     "aide": "…liquidation de biens de faillite etc ▢ à la conclusion du…"
+    },
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "Présentes seront supportés par Monsieur",
+     "group": "Les frais des présentes seront supportés par Monsieur …"
+    },
+    {
+     "id": "ville_signature",
+     "type": "text",
+     "label": "Fait à (ville)",
+     "profil": "ville",
+     "group": "Fait à …, le …"
+    },
+    {
+     "id": "champ_062",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    },
+    {
+     "id": "champ_063",
+     "type": "text",
+     "label": "Avant « L’ACQUEREUR »",
+     "group": "SARL « … » L’ACQUEREUR …",
+     "aide": "…SARL ▢ L’ACQUEREUR…"
+    },
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "L’ACQUEREUR",
+     "group": "SARL « … » L’ACQUEREUR …",
+     "aide": "…SARL L’ACQUEREUR ▢"
+    },
+    {
+     "id": "champ_065",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mr … Mr …"
+    },
+    {
+     "id": "champ_066",
+     "type": "text",
+     "label": "Nom",
+     "group": "Mr … Mr …"
+    },
+    {
+     "id": "champ_067",
+     "type": "text",
+     "label": "En trois 3 exemplaires",
+     "group": "Mr … Mr …",
+     "aide": "…Mr Mr ▢"
+    },
+    {
+     "id": "champ_068",
+     "type": "text",
+     "label": "Es-qualité",
+     "group": "Es-qualité …",
+     "aide": "…Es-qualité ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**PROTOCOLE D’ACCORD**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**ENTRE LA SARL {{champ_002}}**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**ET MONSIEUR {{champ_003}}**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ENTRE  LES  SOUSSIGNES**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**La Société « {{champ_004}} », Société A Responsabilité Limitée, au capital de 5.000.000 DE FRANCS CFA, ayant son siège à {{ville_siege}}, Commune de {{commune}}, Quartier {{champ_005}}, BP {{champ_006}},  représentée par son Gérant, Monsieur {{champ_007}}, {{profession}}, demeurant à {{ville_residence}}, Commune de {{commune}}, Quartier {{champ_008}}, BP {{champ_009}}**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{champ_010}} (République de {{champ_011}}), le {{champ_012}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De Nationalité Ivoirienne,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_013}}, établie à {{champ_014}}, le {{champ_015}} et valable jusqu’au {{champ_016}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**La Société « {{champ_017}} », Ci-après dénommée et pour en faciliter la rédaction « le VENDEUR ».**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ET**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**D’UNE PART**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_018}}, {{champ_019}}, demeurant à {{champ_020}}, Commune de {{champ_021}}, Quartier {{champ_022}}, BP {{champ_023}},** {{champ_024}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{champ_025}} {{champ_026}}, le {{champ_027}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_028}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_029}} {{champ_030}}, établie à {{champ_031}} {{champ_032}}, le {{champ_033}} et valable jusqu’au {{champ_034}}",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_035}}, ci-après dénommé et pour en faciliter la rédaction, « l’ACQUEREUR ».**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**D’AUTRE PART**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**LESQUELS** ont par les présentes, convenus d’établir un protocole d’accord, ainsi qu’il suit :"
+  },
+  {
+   "k": "p",
+   "text": "**PROTOCOLE D’ACCORD**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 1 : OBJET DU CONTRAT**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent protocole d’accord a pour objet, la mise en vente d’une parcelle de terrain sis à {{champ_036}}, Commune de {{champ_037}}, par la Société {{champ_038}}, le VENDEUR, au profit de Monsieur {{champ_039}}, ACQUEREUR, portant sur une superficie de {{champ_040}} HECTARES."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 2 : DUREE**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La convention objet des présentes, est conclue pour une durée de UN (01) AN, délai jugé raisonnable par les parties, afin de permettre à la Société {{champ_041}}, d’obtenir son Arrêté de Concession Définitif, sur la parcelle qu’il propose en vente à Monsieur {{champ_042}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le délai, commencera à courrier, à compter de la signature des présentes."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 3 : ENGAGEMENTS DES PARTIES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les deux parties s’engagent à exécuter la présente convention en toute bonne foi et en toute loyauté. Et plus particulièrement :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "**ENGAGEMENTS DE LA SARL {{champ_043}} (LE VENDEUR)**",
+   "mk": "A-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**SARL {{champ_044}}, par son Gérant s’engage aux présentes :**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- A suivre les formalités d’obtention de son Arrêté de Concession Définitif, en vue de son obtention dans le délai susmentionné ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- A Informer Monsieur {{champ_045}}, de l’évolution des formalités d’obtention de son Arrêté de Concession Définitif et à l’informer de toutes difficultés liées à ladite formalité ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- A vendre à Monsieur {{champ_046}}, dès l’obtention de l’Arrêté de Concession Définitif à son nom, la parcelle de terrain de {{champ_047}} HECTARES sus désignée, au prix convenu de {{champ_048}} FRANCS CFA ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "-  A déposer au rang des minutes de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, Notaire, dès obtention, son Arrêté de Concession Définitif sur ladite parcelle, en vue de l’établissement de l’acte de vente au profit de Monsieur {{champ_049}} ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- A ne pas vendre lesdites parcelles à un tiers avant l’expiration du délai susmentionné et sans en informer  Monsieur {{champ_050}} ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- A ne consentir aucun droit réel, hypothèques ou autres clauses d’indisponibilité au profit d’un tiers sur ladite parcelle."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "**ENGAGEMENTS DE MONSIEUR {{champ_051}} (L’ACQUEREUR)**",
+   "mk": "B-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**MONSIEUR {{champ_052}} s’engage à son tour :**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "A régler le prix de vente convenu ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "A respecter les règles pour l’obtention de l’ACD à son profit ;",
+   "mk": "-"
+  },
+  {
+   "k": "li",
+   "text": "A régler les frais des présentes et de l’acte de vente à son profit qui sera établi par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}.",
+   "mk": "-"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 4 : PROPRIETE-ENTREE JOUISSANCE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_053}} aura la jouissance de la parcelle objet des présentes à compter de la signature du présent protocole.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 5 : ORIGINE DE PROPRIETE**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le bien susmentionné, a été attribué au VENDEUR, suivant attestation de propriétés villageoise numéro {{champ_054}}, délivrée par le chef du village d’{{champ_055}}, sis dans la commune d’{{champ_056}}, le {{champ_057}}. {{champ_058}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les formalités d’obtention de l’Arrêté de Concession Définitif, au nom de la Société {{champ_059}}, sont en cours, par ses soins, ainsi qu’il résulte du {{champ_060}}, dont copie ci-jointe."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 6 : DECLARATIONS D’ETAT CIVIL ET AUTRES**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "Le **VENDEUR,** par son représentant ci-dessus comparant, déclare sous les peines de droits et la foi du serment :",
+   "mk": "•"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Exact son Etat Civil indiqué en tête des présentes de son représentant ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Qu’il dispose de la pleine capacité Civile nécessaire aux présentes ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Qu’il n’existe, de son chef, aucun obstacle, ni aucune restriction d’ordre administratif, légal, réglementaire ou contractuel, (notamment d’interdiction, de Conseil judiciaire, de liquidation de biens, de faillite, etc {{champ_001}}) à la conclusion du présent acte ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "li",
+   "text": "**L’ACQUEREUR, **déclare sous les peines de droits et la foi du serment :",
+   "mk": "•"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Exact l’Etat Civil tel qu’indiqué en tête des présentes le concernant ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Qu’il dispose de la pleine capacité Civile nécessaire aux présentes ;",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "- Qu’il n’existe de son chef aucun obstacle d’ordre légal ou judiciaire à la conclusion du présent acte ;"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 7 : FORMALITES-POUVOIRS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Le présent acte fera l’objet d’un dépôt au rang des minutes de **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**, Notaire à {{ville_notaire}}."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les parties conviennent que les formalités d’obtention de l’**A**rrêté de **C**oncession **D**éfinitive au profit de **l’ACQUEREUR,** seront effectuées par **Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, Notaire** ou son successeur."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 8 : ELECTION DE DOMICILE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour l’exécution des présentes et de leurs suites, les parties élisent domicile en leurs demeures respectives."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour les formalités à faire en vertu des présentes, domicile spécial est élu par toutes les parties à {{ville_notaire}}, en **l’Etude de Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 9 : FRAIS**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les frais des présentes seront supportés par  Monsieur {{champ_061}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 10 : MODIFICATION DE LA CONVENTION**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toute modification du présent contrat doit faire l’objet d’un avenant écrit et signé conjointement par les parties."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Article 11 : CLAUSE COMPROMISSOIRE**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les parties décident que les litiges qui découleront des présentes, notamment pour ce qui concerne son interprétation ou son exécution, seront soumis à la procédure de conciliation et de médiation."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Toutes les procédures se dérouleront sous l’égide de la Cour d’Arbitrage et de Médiation de Côte d’Ivoire (CACI), conformément aux règlements en vigueur."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Les décisions et sentences rendues lient les parties, qui s’engagent à les exécuter de bonne foi et à renoncer à tous recours contre elles."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{ville_signature}}, le {{champ_062}}",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En trois (3) exemplaires",
+   "al": "left",
+   "ind": 6
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**SARL « {{champ_063}} »   L’ACQUEREUR** {{champ_064}}",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**Mr {{champ_065}} Mr {{champ_066}} {{champ_067}}**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**Es-qualité {{champ_068}}**",
+   "al": "left"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1faspnaamxczxc36p-gbjlqpdlig1buz-projet-de-protocole-d-accor.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "commune": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "2000-01-01",
+  "champ_013": "Exemple",
+  "champ_014": "Exemple",
+  "champ_015": "2000-01-01",
+  "champ_016": "2000-01-01",
+  "champ_017": "Exemple",
+  "champ_018": "Exemple",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "Exemple",
+  "champ_024": "Exemple",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "2000-01-01",
+  "champ_028": "Exemple",
+  "champ_029": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "Exemple",
+  "champ_032": "Exemple",
+  "champ_033": "2000-01-01",
+  "champ_034": "2000-01-01",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "champ_037": "Exemple",
+  "champ_038": "Exemple",
+  "champ_039": "Exemple",
+  "champ_040": "Exemple",
+  "champ_041": "Exemple",
+  "champ_042": "Exemple",
+  "champ_043": "Exemple",
+  "champ_044": "Exemple",
+  "champ_045": "Exemple",
+  "champ_046": "Exemple",
+  "champ_047": "Exemple",
+  "champ_048": "Exemple",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "prenom_notaire": "Exemple",
+  "champ_049": "Exemple",
+  "champ_050": "Exemple",
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple",
+  "champ_056": "Exemple",
+  "champ_057": "2000-01-01",
+  "champ_058": "2000-01-01",
+  "champ_059": "Exemple",
+  "champ_060": "Exemple",
+  "champ_001": "Exemple",
+  "champ_061": "Exemple",
+  "champ_062": "2000-01-01",
+  "champ_063": "Exemple",
+  "champ_064": "Exemple",
+  "champ_065": "Exemple",
+  "champ_066": "Exemple",
+  "champ_067": "Exemple",
+  "champ_068": "Exemple",
+  "ville_siege": "Abidjan",
+  "profession": "Comptable",
+  "ville_residence": "Abidjan",
+  "ville_notaire": "Abidjan",
+  "ville_signature": "Abidjan"
+ }
 }

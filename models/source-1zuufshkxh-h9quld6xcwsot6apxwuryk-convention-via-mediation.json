@@ -1,483 +1,483 @@
 {
-  "id": "source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation",
-  "cat": "procurations-actes-divers",
-  "sub": "Médiation",
-  "titre": "Convention de médiation professionnelle",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Convention de médiation professionnelle : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "mediation",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "6 min",
-  "docTitle": "Convention de médiation professionnelle",
-  "fileBase": "Convention de médiation professionnelle",
-  "headline": "Convention de médiation professionnelle",
-  "etapes": [
+ "id": "source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation",
+ "cat": "procurations-actes-divers",
+ "sub": "Médiation",
+ "titre": "Convention de médiation professionnelle",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Convention de médiation professionnelle : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "mediation",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "6 min",
+ "docTitle": "Convention de médiation professionnelle",
+ "fileBase": "Convention de médiation professionnelle",
+ "headline": "Convention de médiation professionnelle",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Entre",
+   "titre": "Entre",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Entre",
-      "titre": "Entre",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Fédération",
-          "group": "L'organisation (entreprise, association, syndicat professionnel,…",
-          "aide": "…L'organisation entreprise association syndicat professionnel fédération ▢"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "ENTRE",
-          "group": "Nom de l’organisation : …",
-          "aide": "…Nom de l’organisation ▢"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "ENTRE",
-          "group": "Numéro de Siret : …",
-          "aide": "…Numéro de Siret ▢"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "ENTRE",
-          "group": "Adresse : …",
-          "aide": "…Adresse ▢"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Nom du représentant : …",
-          "aide": "…Nom du représentant ▢"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Fonction : …",
-          "aide": "…Fonction ▢"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Adresse mail : …",
-          "aide": "…Adresse mail ▢"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Téléphone : …",
-          "aide": "…Téléphone ▢"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Nom du médiateur référent : …",
-          "aide": "…Nom du médiateur référent ▢"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Adresse mail : …",
-          "aide": "…Adresse mail ▢"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Représentée par",
-          "group": "Téléphone : …",
-          "aide": "…Téléphone ▢"
-        },
-        {
-          "id": "champ_002",
-          "type": "date",
-          "label": "Fait le",
-          "group": "Fait le … à …",
-          "aide": "…Fait le ▢ à…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "À",
-          "group": "Fait le … à …",
-          "aide": "…Fait le à ▢"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Fédération",
+     "group": "L'organisation (entreprise, association, syndicat professionnel,…",
+     "aide": "…L'organisation entreprise association syndicat professionnel fédération ▢"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_004",
+     "type": "text",
+     "label": "ENTRE",
+     "group": "Nom de l’organisation : …",
+     "aide": "…Nom de l’organisation ▢"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "ENTRE",
+     "group": "Numéro de Siret : …",
+     "aide": "…Numéro de Siret ▢"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "ENTRE",
+     "group": "Adresse : …",
+     "aide": "…Adresse ▢"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Nom du représentant : …",
+     "aide": "…Nom du représentant ▢"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Fonction : …",
+     "aide": "…Fonction ▢"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Adresse mail : …",
+     "aide": "…Adresse mail ▢"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Téléphone : …",
+     "aide": "…Téléphone ▢"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Nom du médiateur référent : …",
+     "aide": "…Nom du médiateur référent ▢"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Adresse mail : …",
+     "aide": "…Adresse mail ▢"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Représentée par",
+     "group": "Téléphone : …",
+     "aide": "…Téléphone ▢"
+    },
+    {
+     "id": "champ_002",
+     "type": "date",
+     "label": "Fait le",
+     "group": "Fait le … à …",
+     "aide": "…Fait le ▢ à…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "À",
+     "group": "Fait le … à …",
+     "aide": "…Fait le à ▢"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**CONVENTION DE MEDIATION PROFESSIONNELLE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Convention de recours à la médiation professionnelle pour la promotion de la qualité relationnelle et la résolution des litiges**",
-      "al": "center"
-    },
-    {
-      "k": "p",
-      "text": "**ENTRE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L'organisation (entreprise, association, syndicat professionnel, fédération {{champ_001}}) :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nom de l’organisation : {{champ_004}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Numéro de Siret : {{champ_005}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Adresse : {{champ_006}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Représentée par :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nom du représentant : {{champ_007}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Fonction : {{champ_008}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Adresse mail : {{champ_009}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Téléphone : {{champ_010}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ET**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ViaMédiation**, association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant son siège social sis 16 cours Xavier Arnozan 33000 Bordeaux,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Représentée par :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Nom du médiateur référent : {{champ_011}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Adresse mail : {{champ_012}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Téléphone : {{champ_013}}",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 1 : DEFINITIONS**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**1.1    La médiation professionnelle**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "La médiation professionnelle consiste en la mise en œuvre de processus structurés visant l'établissement, l'entretien ou le rétablissement de la qualité des relations, dans un objectif de promotion de l’entente, de la qualité des relations et de résolution des différends. Elle promeut le droit à la médiation comme moyen de sauvegarde de la libre décision."
-    },
-    {
-      "k": "p",
-      "text": "**1.2    Le médiateur professionnel**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Le médiateur est un professionnel de l'accompagnement des changements, de l'aide à la réflexion et à la prise décision. Il intervient en tant que tiers neutre, indépendant et impartial, dans un objectif d'amélioration de la qualité des relations."
-    },
-    {
-      "k": "p",
-      "text": "Exclusivement titulaire du Certificat d’Aptitude à la Profession de Médiateur (CAP’M) délivré par l’Ecole Professionnelle de la Médiation et de la Négociation (EPMN) et membre de la Chambre Professionnelle de la Médiation et de la Négociation (CPMN), il est tenu au respect du Code d'Éthique et de Déontologie (CODEOME)."
-    },
-    {
-      "k": "p",
-      "text": "Lemédiateurprofessionnelestunréférentdansladémarchededéveloppementdelaqualitérelationnelleauseindesorganisations."
-    },
-    {
-      "k": "p",
-      "text": "**1.3    La garantie de confidentialité**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "La médiation garantit une stricte confidentialité quant aux déclarations faites au médiateur et en présence du médiateur."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 2 : OBJET DE LA CONVENTION**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "La présente convention constitue un engagement éthique de la part de l’organisation signataire à promouvoir la démarche de médiation auprès de ses parties prenantes, notamment ses salariés, clients, fournisseurs, adhérents, sociétaires."
-    },
-    {
-      "k": "p",
-      "text": "Par la présente, l’entreprise s’engage à garantir l’indépendance du médiateur, à faciliter les conditions de l’exercice de la mission de médiation, notamment pour garantir un espace de confidentialité, à ne pas intervenir dans le processus et la recherche d’une solution."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 3 : COMMUNICATION**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "L’organisation signataire peut se prévaloir de la présente convention dans sa communication interne et externe, et utiliser le logo de ViaMédiation sur ses documents."
-    },
-    {
-      "k": "p",
-      "text": "ViaMédiation s’engage à communiquer sur la signature de cette convention, notamment sur le site d’actualité sur la médiation, l’Officiel de la Médiation, et lors d’événements organisés par ViaMédiation ou par la CPMN."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 4 : LE CHOIX DE LA MEDIATION PROFESSIONNELLE**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Le choix de la médiation professionnelle peut concerner un ensemble d’intervention sur la culture de l’organisation, le renforcement de la qualité relationnelle, la gouvernance, le projet de l’entreprise."
-    },
-    {
-      "k": "p",
-      "text": "En matière conflictuelle ou de litige, ce choix peut être le fait des parties en conflit ou venir de la proposition ou de la décision d'une autorité compétente."
-    },
-    {
-      "k": "p",
-      "text": "Le décisionnaire de la préconisation de la médiation professionnelleinforme les parties de leur implication dans ce processus visant à résoudre le différend."
-    },
-    {
-      "k": "p",
-      "text": "Les parties sont avisées qu'une médiation professionnellepeut intervenir à tous les stades d'un conflit, que si une procédure judiciaire est engagée, elle est suspendue pour la durée de la médiation professionnelle."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 5 : LE CHOIX DU MEDIATEUR**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "ViaMédiation met à la disposition des personnes et des organisations cosignataires une liste de médiateurs dont elle garantit la compétence et l’éthique."
-    },
-    {
-      "k": "p",
-      "text": "Le médiateur professionnel, avec l’agrément des parties, peut se faire assister par tout spécialiste. Il peut également se faire assister ou remplacer par un autre médiateur membre de la CPMN."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 6 : DEROULEMENT DE LA MEDIATION**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**6.1    Le processus structuré de médiation (se référer à la définition de la médiation en 1.1)**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Dès sa saisine, qui peut prendre la forme d’une lettre de mission, le médiateur professionnel met en place la médiation. Le processus structuré de médiation comprend trois phases : une phase d'information, une phase d'entretiens individuels, et une phase de réunions."
-    },
-    {
-      "k": "p",
-      "text": "Le médiateur peut entendre toute personne susceptible d'aider à la résolution du différend."
-    },
-    {
-      "k": "p",
-      "text": "Dans le cas où il lui serait impossible de réunir les parties, le médiateur peut intervenir, avec leur accord, en navette."
-    },
-    {
-      "k": "p",
-      "text": "La médiation professionnelle prévoit aussi des interventions en anticipation et en accompagnement de la qualité relationnelle. Cet accompagnement peut consister un ou plusieurs entretiens entre la personne et le médiateur professionnel."
-    },
-    {
-      "k": "p",
-      "text": "**6.2    Modalités de déroulement de la médiation**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Les parties s'entendent entres elles et avec le médiateur sur la durée de la médiation, le lieu des entretiens individuels et des réunions, ainsi que sur le calendrier."
-    },
-    {
-      "k": "p",
-      "text": "**6.3    Clôture de la médiation**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "La clôture de la médiation peut éventuellement faire l'objet d'un rapport de mission du médiateur présentant les aspects organisationnels du déroulement de la médiation.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Ce rapport ne fait en aucun cas état des échanges entre le médiateur et les parties, ou entre les parties elles-mêmes en présence du médiateur, ni des accords éventuellement survenus entre les parties, qui restent confidentiels.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**6.4    Coût de la médiation**",
-      "al": "left",
-      "ind": 1
-    },
-    {
-      "k": "p",
-      "text": "Lors de la phase de définition de sa mission, le médiateur précise le coût de son intervention, ainsi que les modalités de règlement de ses honoraires."
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 7 : DUREE DE LA CONVENTION**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "La présente convention est conclue pour une durée d'un an à compter de sa signature, renouvelable par tacite reconduction.",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**ARTICLE 8 : CLAUSE DE SAUVEGARDE DE LA LIBERTE CONTRACTUELLE**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "En cas de différend sur l’objet de la présente convention, les parties signataires s’engagent à recourir à un médiateur de la CPMN."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait le {{champ_002}} à {{champ_003}}",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "En 2 exemplaires originaux, chacune des parties déclarant avoir reçu un exemplaire original.",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Pour l’organisation    Pour ViaMédiation",
-      "al": "left",
-      "ind": 3
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation.docx",
-    "version": "3"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_002": "2000-01-01",
-    "champ_003": "Exemple"
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**CONVENTION DE MEDIATION PROFESSIONNELLE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Convention de recours à la médiation professionnelle pour la promotion de la qualité relationnelle et la résolution des litiges**",
+   "al": "center"
+  },
+  {
+   "k": "p",
+   "text": "**ENTRE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L'organisation (entreprise, association, syndicat professionnel, fédération {{champ_001}}) :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nom de l’organisation : {{champ_004}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Numéro de Siret : {{champ_005}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Adresse : {{champ_006}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Représentée par :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nom du représentant : {{champ_007}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Fonction : {{champ_008}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Adresse mail : {{champ_009}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Téléphone : {{champ_010}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ET**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ViaMédiation**, association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant son siège social sis 16 cours Xavier Arnozan 33000 Bordeaux,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Représentée par :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Nom du médiateur référent : {{champ_011}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Adresse mail : {{champ_012}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Téléphone : {{champ_013}}",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 1 : DEFINITIONS**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**1.1    La médiation professionnelle**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "La médiation professionnelle consiste en la mise en œuvre de processus structurés visant l'établissement, l'entretien ou le rétablissement de la qualité des relations, dans un objectif de promotion de l’entente, de la qualité des relations et de résolution des différends. Elle promeut le droit à la médiation comme moyen de sauvegarde de la libre décision."
+  },
+  {
+   "k": "p",
+   "text": "**1.2    Le médiateur professionnel**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Le médiateur est un professionnel de l'accompagnement des changements, de l'aide à la réflexion et à la prise décision. Il intervient en tant que tiers neutre, indépendant et impartial, dans un objectif d'amélioration de la qualité des relations."
+  },
+  {
+   "k": "p",
+   "text": "Exclusivement titulaire du Certificat d’Aptitude à la Profession de Médiateur (CAP’M) délivré par l’Ecole Professionnelle de la Médiation et de la Négociation (EPMN) et membre de la Chambre Professionnelle de la Médiation et de la Négociation (CPMN), il est tenu au respect du Code d'Éthique et de Déontologie (CODEOME)."
+  },
+  {
+   "k": "p",
+   "text": "Lemédiateurprofessionnelestunréférentdansladémarchededéveloppementdelaqualitérelationnelleauseindesorganisations."
+  },
+  {
+   "k": "p",
+   "text": "**1.3    La garantie de confidentialité**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "La médiation garantit une stricte confidentialité quant aux déclarations faites au médiateur et en présence du médiateur."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 2 : OBJET DE LA CONVENTION**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "La présente convention constitue un engagement éthique de la part de l’organisation signataire à promouvoir la démarche de médiation auprès de ses parties prenantes, notamment ses salariés, clients, fournisseurs, adhérents, sociétaires."
+  },
+  {
+   "k": "p",
+   "text": "Par la présente, l’entreprise s’engage à garantir l’indépendance du médiateur, à faciliter les conditions de l’exercice de la mission de médiation, notamment pour garantir un espace de confidentialité, à ne pas intervenir dans le processus et la recherche d’une solution."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 3 : COMMUNICATION**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "L’organisation signataire peut se prévaloir de la présente convention dans sa communication interne et externe, et utiliser le logo de ViaMédiation sur ses documents."
+  },
+  {
+   "k": "p",
+   "text": "ViaMédiation s’engage à communiquer sur la signature de cette convention, notamment sur le site d’actualité sur la médiation, l’Officiel de la Médiation, et lors d’événements organisés par ViaMédiation ou par la CPMN."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 4 : LE CHOIX DE LA MEDIATION PROFESSIONNELLE**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Le choix de la médiation professionnelle peut concerner un ensemble d’intervention sur la culture de l’organisation, le renforcement de la qualité relationnelle, la gouvernance, le projet de l’entreprise."
+  },
+  {
+   "k": "p",
+   "text": "En matière conflictuelle ou de litige, ce choix peut être le fait des parties en conflit ou venir de la proposition ou de la décision d'une autorité compétente."
+  },
+  {
+   "k": "p",
+   "text": "Le décisionnaire de la préconisation de la médiation professionnelleinforme les parties de leur implication dans ce processus visant à résoudre le différend."
+  },
+  {
+   "k": "p",
+   "text": "Les parties sont avisées qu'une médiation professionnellepeut intervenir à tous les stades d'un conflit, que si une procédure judiciaire est engagée, elle est suspendue pour la durée de la médiation professionnelle."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 5 : LE CHOIX DU MEDIATEUR**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "ViaMédiation met à la disposition des personnes et des organisations cosignataires une liste de médiateurs dont elle garantit la compétence et l’éthique."
+  },
+  {
+   "k": "p",
+   "text": "Le médiateur professionnel, avec l’agrément des parties, peut se faire assister par tout spécialiste. Il peut également se faire assister ou remplacer par un autre médiateur membre de la CPMN."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 6 : DEROULEMENT DE LA MEDIATION**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**6.1    Le processus structuré de médiation (se référer à la définition de la médiation en 1.1)**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Dès sa saisine, qui peut prendre la forme d’une lettre de mission, le médiateur professionnel met en place la médiation. Le processus structuré de médiation comprend trois phases : une phase d'information, une phase d'entretiens individuels, et une phase de réunions."
+  },
+  {
+   "k": "p",
+   "text": "Le médiateur peut entendre toute personne susceptible d'aider à la résolution du différend."
+  },
+  {
+   "k": "p",
+   "text": "Dans le cas où il lui serait impossible de réunir les parties, le médiateur peut intervenir, avec leur accord, en navette."
+  },
+  {
+   "k": "p",
+   "text": "La médiation professionnelle prévoit aussi des interventions en anticipation et en accompagnement de la qualité relationnelle. Cet accompagnement peut consister un ou plusieurs entretiens entre la personne et le médiateur professionnel."
+  },
+  {
+   "k": "p",
+   "text": "**6.2    Modalités de déroulement de la médiation**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Les parties s'entendent entres elles et avec le médiateur sur la durée de la médiation, le lieu des entretiens individuels et des réunions, ainsi que sur le calendrier."
+  },
+  {
+   "k": "p",
+   "text": "**6.3    Clôture de la médiation**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "La clôture de la médiation peut éventuellement faire l'objet d'un rapport de mission du médiateur présentant les aspects organisationnels du déroulement de la médiation.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Ce rapport ne fait en aucun cas état des échanges entre le médiateur et les parties, ou entre les parties elles-mêmes en présence du médiateur, ni des accords éventuellement survenus entre les parties, qui restent confidentiels.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**6.4    Coût de la médiation**",
+   "al": "left",
+   "ind": 1
+  },
+  {
+   "k": "p",
+   "text": "Lors de la phase de définition de sa mission, le médiateur précise le coût de son intervention, ainsi que les modalités de règlement de ses honoraires."
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 7 : DUREE DE LA CONVENTION**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "La présente convention est conclue pour une durée d'un an à compter de sa signature, renouvelable par tacite reconduction.",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**ARTICLE 8 : CLAUSE DE SAUVEGARDE DE LA LIBERTE CONTRACTUELLE**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "En cas de différend sur l’objet de la présente convention, les parties signataires s’engagent à recourir à un médiateur de la CPMN."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait le {{champ_002}} à {{champ_003}}",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "En 2 exemplaires originaux, chacune des parties déclarant avoir reçu un exemplaire original.",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Pour l’organisation    Pour ViaMédiation",
+   "al": "left",
+   "ind": 3
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1zuufshkxh-h9quld6xcwsot6apxwuryk-convention-via-mediation.docx",
+  "version": "3"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_002": "2000-01-01",
+  "champ_003": "Exemple"
+ }
 }

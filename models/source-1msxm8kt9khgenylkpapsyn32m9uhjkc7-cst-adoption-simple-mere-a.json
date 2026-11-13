@@ -1,591 +1,591 @@
 {
-  "id": "source-1msxm8kt9khgenylkpapsyn32m9uhjkc7-cst-adoption-simple-mere-a",
-  "cat": "famille-successions",
-  "sub": "Adoption",
-  "titre": "Consentement à adoption simple – mère de l’adopté",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Consentement à adoption simple – mère de l’adopté : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "adoption",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "13 min",
-  "docTitle": "Consentement à adoption simple – mère de l’adopté",
-  "fileBase": "Consentement à adoption simple – mère de l’adopté",
-  "headline": "Consentement à adoption simple – mère de l’adopté",
-  "etapes": [
+ "id": "source-1msxm8kt9khgenylkpapsyn32m9uhjkc7-cst-adoption-simple-mere-a",
+ "cat": "famille-successions",
+ "sub": "Adoption",
+ "titre": "Consentement à adoption simple – mère de l’adopté",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Consentement à adoption simple – mère de l’adopté : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "adoption",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "13 min",
+ "docTitle": "Consentement à adoption simple – mère de l’adopté",
+ "fileBase": "Consentement à adoption simple – mère de l’adopté",
+ "headline": "Consentement à adoption simple – mère de l’adopté",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Partie 1",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Partie 1",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "reference_etude",
-          "type": "text",
-          "label": "Référence de l’étude",
-          "opt": true,
-          "aide": "▢"
-        },
-        {
-          "id": "date_acte",
-          "type": "date",
-          "label": "Date de l’acte",
-          "group": "L’AN DEUX MIL QUATORZE LE …"
-        },
-        {
-          "id": "notaire_nom",
-          "type": "text",
-          "label": "Nom du notaire",
-          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
-          "profil": "nom",
-          "pq": "notaire"
-        },
-        {
-          "id": "prenom_notaire",
-          "type": "text",
-          "label": "Prénom du notaire",
-          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
-          "aide": "…PARDEVANT Maître ▢ Notaire à République de…",
-          "profil": "prenom",
-          "pq": "notaire"
-        },
-        {
-          "id": "ville_notaire",
-          "type": "text",
-          "label": "Ville de l’étude du notaire",
-          "profil": "ville",
-          "pq": "notaire",
-          "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…"
-        },
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
-        },
-        {
-          "id": "champ_002",
-          "type": "text",
-          "label": "Profession",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
-          "aide": "…Madame demeurant à ▢ Commune de épouse de…"
-        },
-        {
-          "id": "commune",
-          "type": "text",
-          "label": "Commune",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
-          "aide": "…Madame demeurant à Commune de ▢ épouse de Monsieur avec…"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "Épouse de Monsieur",
-          "opt": true,
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
-        }
-      ]
+     "id": "reference_etude",
+     "type": "text",
+     "label": "Référence de l’étude",
+     "opt": true,
+     "aide": "▢"
     },
     {
-      "id": "partie-2",
-      "court": "A comparu",
-      "titre": "A comparu",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_005",
-          "type": "date",
-          "label": "Lequel elle s’est mariée le",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "À la mairie de",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "République de",
-          "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
-          "aide": "…à la mairie de République de ▢ sous le régime de…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Née à",
-          "group": "Née à … (République de …), le …,",
-          "aide": "…Née à ▢ République de le…"
-        },
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "République de",
-          "group": "Née à … (République de …), le …,",
-          "aide": "…Née à République de ▢ le…"
-        },
-        {
-          "id": "champ_010",
-          "type": "date",
-          "label": "Date",
-          "group": "Née à … (République de …), le …,",
-          "aide": "…Née à République de le ▢"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Établie à",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_013",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_014",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
-        },
-        {
-          "id": "champ_016",
-          "type": "text",
-          "label": "Demeurant à",
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…",
-          "aide": "…Monsieur demeurant à ▢ époux de Madame susnommée…"
-        },
-        {
-          "id": "champ_017",
-          "type": "text",
-          "label": "Époux de Madame",
-          "opt": true,
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
-        },
-        {
-          "id": "champ_018",
-          "type": "date",
-          "label": "Laquelle il s’est marié le",
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
-        },
-        {
-          "id": "champ_019",
-          "type": "text",
-          "label": "À la mairie de",
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
-        },
-        {
-          "id": "champ_020",
-          "type": "text",
-          "label": "République de",
-          "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…",
-          "aide": "…à la mairie de République de ▢"
-        },
-        {
-          "id": "champ_021",
-          "type": "text",
-          "label": "Né à",
-          "group": "Né à … (République de …), le …, …",
-          "aide": "…Né à ▢ République de le…"
-        },
-        {
-          "id": "champ_022",
-          "type": "text",
-          "label": "République de",
-          "group": "Né à … (République de …), le …, …",
-          "aide": "…Né à République de ▢ le…"
-        },
-        {
-          "id": "champ_023",
-          "type": "date",
-          "label": "Date",
-          "group": "Né à … (République de …), le …, …",
-          "aide": "…Né à République de le ▢"
-        },
-        {
-          "id": "champ_024",
-          "type": "date",
-          "label": "Expressément à l’adoption simple par",
-          "group": "Né à … (République de …), le …, …",
-          "aide": "…Né à République de le ▢"
-        },
-        {
-          "id": "champ_025",
-          "type": "text",
-          "label": "La Carte Nationale d’Identité numéro",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
-        },
-        {
-          "id": "champ_026",
-          "type": "text",
-          "label": "Établie à",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
-        },
-        {
-          "id": "champ_027",
-          "type": "date",
-          "label": "Date",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
-        },
-        {
-          "id": "champ_028",
-          "type": "date",
-          "label": "Et valable jusqu’au",
-          "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
-          "aide": "…établie à le et valable jusqu’au ▢"
-        },
-        {
-          "id": "champ_029",
-          "type": "text",
-          "label": "De l’enfant mineur",
-          "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…"
-        },
-        {
-          "id": "prenom_partie",
-          "type": "text",
-          "label": "Prénom de la partie",
-          "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
-          "aide": "…De l’enfant mineur ▢ né e à le…"
-        },
-        {
-          "id": "champ_030",
-          "type": "text",
-          "label": "À",
-          "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
-          "aide": "…De l’enfant mineur né e à ▢ le ainsi qu’il résulte…"
-        },
-        {
-          "id": "champ_031",
-          "type": "date",
-          "label": "Date",
-          "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
-          "aide": "…l’enfant mineur né e à le ▢ ainsi qu’il résulte de…"
-        },
-        {
-          "id": "champ_032",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Demeurant avec sa mère, Madame …, susnommée."
-        }
-      ]
+     "id": "date_acte",
+     "type": "date",
+     "label": "Date de l’acte",
+     "group": "L’AN DEUX MIL QUATORZE LE …"
     },
     {
-      "id": "partie-3",
-      "court": "Dont acte",
-      "titre": "Dont acte",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_033",
-          "type": "text",
-          "label": "Avant « En l’Etude du Notaire »",
-          "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…",
-          "aide": "…Fait et passé à ABIDJAN ▢ En l’Etude du Notaire…"
-        },
-        {
-          "id": "champ_034",
-          "type": "text",
-          "label": "En l’Etude du Notaire soussigné",
-          "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…"
-        },
-        {
-          "id": "champ_035",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Mme … Me …"
-        },
-        {
-          "id": "champ_036",
-          "type": "text",
-          "label": "Avant « dans blancs »",
-          "group": "Barres : … dans blancs",
-          "aide": "…Barres ▢ dans blancs…"
-        }
-      ]
+     "id": "notaire_nom",
+     "type": "text",
+     "label": "Nom du notaire",
+     "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
+     "profil": "nom",
+     "pq": "notaire"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "prenom_notaire",
+     "type": "text",
+     "label": "Prénom du notaire",
+     "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…",
+     "aide": "…PARDEVANT Maître ▢ Notaire à République de…",
+     "profil": "prenom",
+     "pq": "notaire"
+    },
+    {
+     "id": "ville_notaire",
+     "type": "text",
+     "label": "Ville de l’étude du notaire",
+     "profil": "ville",
+     "pq": "notaire",
+     "group": "PARDEVANT Maître … , Notaire à … (République de Côte d’Ivoire),…"
+    },
+    {
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
+    },
+    {
+     "id": "champ_002",
+     "type": "text",
+     "label": "Profession",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
+     "aide": "…Madame demeurant à ▢ Commune de épouse de…"
+    },
+    {
+     "id": "commune",
+     "type": "text",
+     "label": "Commune",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
+     "aide": "…Madame demeurant à Commune de ▢ épouse de Monsieur avec…"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "Épouse de Monsieur",
+     "opt": true,
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "{{reference_etude}}",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "**CONSENTEMENT A ADOPTION SIMPLE**",
-      "al": "center"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "L’AN DEUX MIL QUATORZE                                        LE  {{date_acte_jm}}",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "PARDEVANT** Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, **Notaire à {{ville_notaire}} (République de Côte d’Ivoire), soussigné,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**A COMPARU**",
-      "al": "right"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Madame {{champ_001}}, {{champ_002}}, demeurant à {{champ_003}}, Commune de {{commune}}, épouse de Monsieur {{champ_004}} avec lequel elle s’est mariée le {{champ_005}} à la mairie de {{champ_006}} (République de {{champ_007}}) sous le régime de la communauté de biens ainsi qu’elle le déclare sans l’avoir justifié au Notaire soussigné.**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Née à {{champ_008}} (République de {{champ_009}}), le {{champ_010}},"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité Ivoirienne,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_011}}, établie à {{champ_012}}, le {{champ_013}} et valable jusqu’au {{champ_014}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Laquelle a, par ces présentes, déclaré consentir expressément à l’adoption simple par :"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_015}}, demeurant à {{champ_016}}, époux de Madame {{champ_017}}, susnommée, avec laquelle il s’est marié le {{champ_018}} à la mairie de {{champ_019}} (République de {{champ_020}}),**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Né à {{champ_021}} (République de {{champ_022}}), le {{champ_023}}, {{champ_024}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De nationalité Française,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_025}}, établie à {{champ_026}}, le {{champ_027}} et valable jusqu’au {{champ_028}}"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "De l’enfant mineur {{champ_029}} {{prenom_partie}}, né(e) à {{champ_030}}, le {{champ_031}}, ainsi qu’il résulte de l’extrait d’acte de naissance de l’enfant mineur demeuré ci-annexé après mention."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Demeurant avec sa mère, Madame {{champ_032}}, susnommée."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "En conséquence, qu’il soit procédé à cette adoption dans les formes prévues par la loi sur la production, d’une expédition des présentes."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "La procédure d’adoption devant être introduite auprès des Tribunaux Français compétents pour ladite reconnaissance, le présent consentement pourra être rétracté dans les deux mois de ce jour, conformément à la loi Française numéro 96-604 du cinq Juillet mil neuf cent quatre vingt seize relative à l’adoption."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**DONT ACTE**",
-      "al": "right"
-    },
-    {
-      "k": "p",
-      "text": "Fait et passé à {{ville_notaire}}, {{champ_033}} En l’Etude du Notaire soussigné {{champ_034}} Et après lecture faite, la comparante a signé avec le Notaire.",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Mme {{champ_035}}       Me {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Ledit acte contenant :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Renvois :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Blancs bâtonnés :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Barres : {{champ_036}} dans blancs",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Lignes entières rayées nulles :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Mots nuls :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "Chiffres nuls :",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**PARAPHES**"
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1msxm8kt9khgenylkpapsyn32m9uhjkc7-cst-adoption-simple-mere-a.docx",
-    "version": "5"
+   ]
   },
-  "exemple": {
-    "reference_etude": "Exemple",
-    "notaire_nom": "NOTAIRE EXEMPLE",
-    "prenom_notaire": "Exemple",
-    "champ_001": "Exemple",
-    "champ_002": "Exemple",
-    "champ_003": "Exemple",
-    "commune": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "2000-01-01",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "2000-01-01",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "2000-01-01",
-    "champ_014": "2000-01-01",
-    "champ_015": "Exemple",
-    "champ_016": "Exemple",
-    "champ_017": "Exemple",
-    "champ_018": "2000-01-01",
-    "champ_019": "Exemple",
-    "champ_020": "Exemple",
-    "champ_021": "Exemple",
-    "champ_022": "Exemple",
-    "champ_023": "2000-01-01",
-    "champ_024": "2000-01-01",
-    "champ_025": "Exemple",
-    "champ_026": "Exemple",
-    "champ_027": "2000-01-01",
-    "champ_028": "2000-01-01",
-    "champ_029": "Exemple",
-    "prenom_partie": "Exemple",
-    "champ_030": "Exemple",
-    "champ_031": "2000-01-01",
-    "champ_032": "Exemple",
-    "champ_033": "Exemple",
-    "champ_034": "Exemple",
-    "champ_035": "Exemple",
-    "champ_036": "Exemple",
-    "date_acte": "2000-01-01",
-    "ville_notaire": "Abidjan"
+  {
+   "id": "partie-2",
+   "court": "A comparu",
+   "titre": "A comparu",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_005",
+     "type": "date",
+     "label": "Lequel elle s’est mariée le",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "À la mairie de",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "République de",
+     "group": "Madame …, …, demeurant à …, Commune de …, épouse de Monsieur … avec…",
+     "aide": "…à la mairie de République de ▢ sous le régime de…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Née à",
+     "group": "Née à … (République de …), le …,",
+     "aide": "…Née à ▢ République de le…"
+    },
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "République de",
+     "group": "Née à … (République de …), le …,",
+     "aide": "…Née à République de ▢ le…"
+    },
+    {
+     "id": "champ_010",
+     "type": "date",
+     "label": "Date",
+     "group": "Née à … (République de …), le …,",
+     "aide": "…Née à République de le ▢"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Établie à",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_013",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_014",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
+    },
+    {
+     "id": "champ_016",
+     "type": "text",
+     "label": "Demeurant à",
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…",
+     "aide": "…Monsieur demeurant à ▢ époux de Madame susnommée…"
+    },
+    {
+     "id": "champ_017",
+     "type": "text",
+     "label": "Époux de Madame",
+     "opt": true,
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
+    },
+    {
+     "id": "champ_018",
+     "type": "date",
+     "label": "Laquelle il s’est marié le",
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
+    },
+    {
+     "id": "champ_019",
+     "type": "text",
+     "label": "À la mairie de",
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…"
+    },
+    {
+     "id": "champ_020",
+     "type": "text",
+     "label": "République de",
+     "group": "Monsieur …, demeurant à …, époux de Madame …, susnommée, avec laquelle…",
+     "aide": "…à la mairie de République de ▢"
+    },
+    {
+     "id": "champ_021",
+     "type": "text",
+     "label": "Né à",
+     "group": "Né à … (République de …), le …, …",
+     "aide": "…Né à ▢ République de le…"
+    },
+    {
+     "id": "champ_022",
+     "type": "text",
+     "label": "République de",
+     "group": "Né à … (République de …), le …, …",
+     "aide": "…Né à République de ▢ le…"
+    },
+    {
+     "id": "champ_023",
+     "type": "date",
+     "label": "Date",
+     "group": "Né à … (République de …), le …, …",
+     "aide": "…Né à République de le ▢"
+    },
+    {
+     "id": "champ_024",
+     "type": "date",
+     "label": "Expressément à l’adoption simple par",
+     "group": "Né à … (République de …), le …, …",
+     "aide": "…Né à République de le ▢"
+    },
+    {
+     "id": "champ_025",
+     "type": "text",
+     "label": "La Carte Nationale d’Identité numéro",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……"
+    },
+    {
+     "id": "champ_026",
+     "type": "text",
+     "label": "Établie à",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Carte Nationale d’Identité numéro établie à ▢ le et valable jusqu’au…"
+    },
+    {
+     "id": "champ_027",
+     "type": "date",
+     "label": "Date",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…Nationale d’Identité numéro établie à le ▢ et valable jusqu’au…"
+    },
+    {
+     "id": "champ_028",
+     "type": "date",
+     "label": "Et valable jusqu’au",
+     "group": "Titulaire de la Carte Nationale d’Identité numéro …, établie à …, le ……",
+     "aide": "…établie à le et valable jusqu’au ▢"
+    },
+    {
+     "id": "champ_029",
+     "type": "text",
+     "label": "De l’enfant mineur",
+     "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…"
+    },
+    {
+     "id": "prenom_partie",
+     "type": "text",
+     "label": "Prénom de la partie",
+     "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
+     "aide": "…De l’enfant mineur ▢ né e à le…"
+    },
+    {
+     "id": "champ_030",
+     "type": "text",
+     "label": "À",
+     "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
+     "aide": "…De l’enfant mineur né e à ▢ le ainsi qu’il résulte…"
+    },
+    {
+     "id": "champ_031",
+     "type": "date",
+     "label": "Date",
+     "group": "De l’enfant mineur … , né(e) à …, le …, ainsi qu’il résulte de…",
+     "aide": "…l’enfant mineur né e à le ▢ ainsi qu’il résulte de…"
+    },
+    {
+     "id": "champ_032",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Demeurant avec sa mère, Madame …, susnommée."
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Dont acte",
+   "titre": "Dont acte",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_033",
+     "type": "text",
+     "label": "Avant « En l’Etude du Notaire »",
+     "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…",
+     "aide": "…Fait et passé à ABIDJAN ▢ En l’Etude du Notaire…"
+    },
+    {
+     "id": "champ_034",
+     "type": "text",
+     "label": "En l’Etude du Notaire soussigné",
+     "group": "Fait et passé à …, … En l’Etude du Notaire soussigné … Et après lecture…"
+    },
+    {
+     "id": "champ_035",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Mme … Me …"
+    },
+    {
+     "id": "champ_036",
+     "type": "text",
+     "label": "Avant « dans blancs »",
+     "group": "Barres : … dans blancs",
+     "aide": "…Barres ▢ dans blancs…"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "{{reference_etude}}",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "**CONSENTEMENT A ADOPTION SIMPLE**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "L’AN DEUX MIL QUATORZE                                        LE  {{date_acte_jm}}",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "PARDEVANT** Maître {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}, **Notaire à {{ville_notaire}} (République de Côte d’Ivoire), soussigné,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**A COMPARU**",
+   "al": "right"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Madame {{champ_001}}, {{champ_002}}, demeurant à {{champ_003}}, Commune de {{commune}}, épouse de Monsieur {{champ_004}} avec lequel elle s’est mariée le {{champ_005}} à la mairie de {{champ_006}} (République de {{champ_007}}) sous le régime de la communauté de biens ainsi qu’elle le déclare sans l’avoir justifié au Notaire soussigné.**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Née à {{champ_008}} (République de {{champ_009}}), le {{champ_010}},"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité Ivoirienne,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_011}}, établie à {{champ_012}}, le {{champ_013}} et valable jusqu’au {{champ_014}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Laquelle a, par ces présentes, déclaré consentir expressément à l’adoption simple par :"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_015}}, demeurant à {{champ_016}}, époux de Madame {{champ_017}}, susnommée, avec laquelle il s’est marié le {{champ_018}} à la mairie de {{champ_019}} (République de {{champ_020}}),**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Né à {{champ_021}} (République de {{champ_022}}), le {{champ_023}}, {{champ_024}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité Française,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Titulaire de la Carte Nationale d’Identité numéro {{champ_025}}, établie à {{champ_026}}, le {{champ_027}} et valable jusqu’au {{champ_028}}"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "De l’enfant mineur {{champ_029}} {{prenom_partie}}, né(e) à {{champ_030}}, le {{champ_031}}, ainsi qu’il résulte de l’extrait d’acte de naissance de l’enfant mineur demeuré ci-annexé après mention."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Demeurant avec sa mère, Madame {{champ_032}}, susnommée."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "En conséquence, qu’il soit procédé à cette adoption dans les formes prévues par la loi sur la production, d’une expédition des présentes."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "La procédure d’adoption devant être introduite auprès des Tribunaux Français compétents pour ladite reconnaissance, le présent consentement pourra être rétracté dans les deux mois de ce jour, conformément à la loi Française numéro 96-604 du cinq Juillet mil neuf cent quatre vingt seize relative à l’adoption."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**DONT ACTE**",
+   "al": "right"
+  },
+  {
+   "k": "p",
+   "text": "Fait et passé à {{ville_notaire}}, {{champ_033}} En l’Etude du Notaire soussigné {{champ_034}} Et après lecture faite, la comparante a signé avec le Notaire.",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Mme {{champ_035}}       Me {{notaire_nom}} {{prenom_notaire}} {{prenom_notaire}}**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Ledit acte contenant :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Renvois :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Blancs bâtonnés :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Barres : {{champ_036}} dans blancs",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Lignes entières rayées nulles :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Mots nuls :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "Chiffres nuls :",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**PARAPHES**"
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1msxm8kt9khgenylkpapsyn32m9uhjkc7-cst-adoption-simple-mere-a.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "reference_etude": "Exemple",
+  "notaire_nom": "NOTAIRE EXEMPLE",
+  "prenom_notaire": "Exemple",
+  "champ_001": "Exemple",
+  "champ_002": "Exemple",
+  "champ_003": "Exemple",
+  "commune": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "2000-01-01",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "2000-01-01",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "2000-01-01",
+  "champ_014": "2000-01-01",
+  "champ_015": "Exemple",
+  "champ_016": "Exemple",
+  "champ_017": "Exemple",
+  "champ_018": "2000-01-01",
+  "champ_019": "Exemple",
+  "champ_020": "Exemple",
+  "champ_021": "Exemple",
+  "champ_022": "Exemple",
+  "champ_023": "2000-01-01",
+  "champ_024": "2000-01-01",
+  "champ_025": "Exemple",
+  "champ_026": "Exemple",
+  "champ_027": "2000-01-01",
+  "champ_028": "2000-01-01",
+  "champ_029": "Exemple",
+  "prenom_partie": "Exemple",
+  "champ_030": "Exemple",
+  "champ_031": "2000-01-01",
+  "champ_032": "Exemple",
+  "champ_033": "Exemple",
+  "champ_034": "Exemple",
+  "champ_035": "Exemple",
+  "champ_036": "Exemple",
+  "date_acte": "2000-01-01",
+  "ville_notaire": "Abidjan"
+ }
 }

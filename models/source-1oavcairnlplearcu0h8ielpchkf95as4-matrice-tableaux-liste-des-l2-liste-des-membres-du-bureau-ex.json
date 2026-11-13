@@ -1,0 +1,586 @@
+{
+ "id": "source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l2-liste-des-membres-du-bureau-ex",
+ "cat": "societes-associations",
+ "sub": "Associations",
+ "titre": "Liste des membres du bureau exécutif",
+ "sous": "Tableau à compléter ligne par ligne, mise en page d’origine conservée.",
+ "resume": "Liste des membres du bureau exécutif : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "association",
+  "liste",
+  "bureau exécutif"
+ ],
+ "duree": "15 min",
+ "docTitle": "Liste des membres du bureau exécutif",
+ "fileBase": "Liste des membres du bureau exécutif",
+ "headline": "Liste des membres du bureau exécutif",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Liste 1",
+   "titre": "Liste des membres du bureau exécutif",
+   "champs": [
+    {
+     "id": "champ_051",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 1"
+    },
+    {
+     "id": "champ_052",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 1"
+    },
+    {
+     "id": "champ_053",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 1"
+    },
+    {
+     "id": "champ_054",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 1"
+    },
+    {
+     "id": "champ_055",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 1"
+    },
+    {
+     "id": "champ_056",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_057",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_058",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_059",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 2",
+     "opt": true
+    },
+    {
+     "id": "champ_060",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 2",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-2",
+   "court": "Liste 2",
+   "titre": "Liste des membres du bureau exécutif (suite)",
+   "champs": [
+    {
+     "id": "champ_061",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_062",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_063",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_064",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_065",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 3",
+     "opt": true
+    },
+    {
+     "id": "champ_066",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_067",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_068",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_069",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 4",
+     "opt": true
+    },
+    {
+     "id": "champ_070",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 4",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-3",
+   "court": "Liste 3",
+   "titre": "Liste des membres du bureau exécutif (suite)",
+   "champs": [
+    {
+     "id": "champ_071",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_072",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_073",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_074",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_075",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 5",
+     "opt": true
+    },
+    {
+     "id": "champ_076",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_077",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_078",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_079",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 6",
+     "opt": true
+    },
+    {
+     "id": "champ_080",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 6",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-4",
+   "court": "Liste 4",
+   "titre": "Liste des membres du bureau exécutif (suite)",
+   "champs": [
+    {
+     "id": "champ_081",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_082",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_083",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_084",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_085",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 7",
+     "opt": true
+    },
+    {
+     "id": "champ_086",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_087",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_088",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_089",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 8",
+     "opt": true
+    },
+    {
+     "id": "champ_090",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 8",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "partie-5",
+   "court": "Liste 5",
+   "titre": "Liste des membres du bureau exécutif (suite)",
+   "champs": [
+    {
+     "id": "champ_091",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_092",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_093",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_094",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_095",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 9",
+     "opt": true
+    },
+    {
+     "id": "champ_096",
+     "type": "text",
+     "label": "Nom et prenoms",
+     "group": "Liste des membres du bureau executif – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_097",
+     "type": "text",
+     "label": "Fonction",
+     "group": "Liste des membres du bureau executif – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_098",
+     "type": "text",
+     "label": "Profession",
+     "group": "Liste des membres du bureau executif – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_099",
+     "type": "text",
+     "label": "Contacts",
+     "group": "Liste des membres du bureau executif – ligne 10",
+     "opt": true
+    },
+    {
+     "id": "champ_100",
+     "type": "text",
+     "label": "Nationalite",
+     "group": "Liste des membres du bureau executif – ligne 10",
+     "opt": true
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1oavcairnlplearcu0h8ielpchkf95as4-matrice-tableaux-liste-des-l2-liste-des-membres-du-bureau-ex.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_051": "Exemple",
+  "champ_052": "Exemple",
+  "champ_053": "Exemple",
+  "champ_054": "Exemple",
+  "champ_055": "Exemple",
+  "champ_056": "Exemple",
+  "champ_057": "Exemple",
+  "champ_058": "Exemple",
+  "champ_059": "Exemple",
+  "champ_060": "Exemple",
+  "champ_061": "Exemple",
+  "champ_062": "Exemple",
+  "champ_063": "Exemple",
+  "champ_064": "Exemple",
+  "champ_065": "Exemple",
+  "champ_066": "Exemple",
+  "champ_067": "Exemple",
+  "champ_068": "Exemple",
+  "champ_069": "Exemple",
+  "champ_070": "Exemple",
+  "champ_071": "Exemple",
+  "champ_072": "Exemple",
+  "champ_073": "Exemple",
+  "champ_074": "Exemple",
+  "champ_075": "Exemple",
+  "champ_076": "Exemple",
+  "champ_077": "Exemple",
+  "champ_078": "Exemple",
+  "champ_079": "Exemple",
+  "champ_080": "Exemple",
+  "champ_081": "Exemple",
+  "champ_082": "Exemple",
+  "champ_083": "Exemple",
+  "champ_084": "Exemple",
+  "champ_085": "Exemple",
+  "champ_086": "Exemple",
+  "champ_087": "Exemple",
+  "champ_088": "Exemple",
+  "champ_089": "Exemple",
+  "champ_090": "Exemple",
+  "champ_091": "Exemple",
+  "champ_092": "Exemple",
+  "champ_093": "Exemple",
+  "champ_094": "Exemple",
+  "champ_095": "Exemple",
+  "champ_096": "Exemple",
+  "champ_097": "Exemple",
+  "champ_098": "Exemple",
+  "champ_099": "Exemple",
+  "champ_100": "Exemple"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**LISTE DES MEMBRES DU BUREAU EXECUTIF**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "table",
+   "cols": [
+    36.7,
+    17.0,
+    15.1,
+    17.0,
+    14.2
+   ],
+   "head": [],
+   "rows": [
+    [
+     [
+      "",
+      "**NOM  ET  PRENOMS**"
+     ],
+     [
+      "",
+      "**FONCTION**"
+     ],
+     [
+      "",
+      "**PROFESSION**"
+     ],
+     [
+      "",
+      "**CONTACTS**"
+     ],
+     [
+      "",
+      "**NATIONALITE**"
+     ]
+    ],
+    [
+     "{{champ_051}}",
+     "{{champ_052}}",
+     "{{champ_053}}",
+     "{{champ_054}}",
+     "{{champ_055}}"
+    ],
+    [
+     "{{champ_056}}",
+     "{{champ_057}}",
+     "{{champ_058}}",
+     "{{champ_059}}",
+     "{{champ_060}}"
+    ],
+    [
+     "{{champ_061}}",
+     "{{champ_062}}",
+     "{{champ_063}}",
+     "{{champ_064}}",
+     "{{champ_065}}"
+    ],
+    [
+     "{{champ_066}}",
+     "{{champ_067}}",
+     "{{champ_068}}",
+     "{{champ_069}}",
+     "{{champ_070}}"
+    ],
+    [
+     "{{champ_071}}",
+     "{{champ_072}}",
+     "{{champ_073}}",
+     "{{champ_074}}",
+     "{{champ_075}}"
+    ],
+    [
+     "{{champ_076}}",
+     "{{champ_077}}",
+     "{{champ_078}}",
+     "{{champ_079}}",
+     "{{champ_080}}"
+    ],
+    [
+     "{{champ_081}}",
+     "{{champ_082}}",
+     "{{champ_083}}",
+     "{{champ_084}}",
+     "{{champ_085}}"
+    ],
+    [
+     "{{champ_086}}",
+     "{{champ_087}}",
+     "{{champ_088}}",
+     "{{champ_089}}",
+     "{{champ_090}}"
+    ],
+    [
+     "{{champ_091}}",
+     "{{champ_092}}",
+     "{{champ_093}}",
+     "{{champ_094}}",
+     "{{champ_095}}"
+    ],
+    [
+     "{{champ_096}}",
+     "{{champ_097}}",
+     "{{champ_098}}",
+     "{{champ_099}}",
+     "{{champ_100}}"
+    ]
+   ],
+   "al": [
+    "center",
+    "center",
+    "center",
+    "center",
+    "center"
+   ]
+  }
+ ]
+}

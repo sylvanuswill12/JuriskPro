@@ -1,301 +1,301 @@
 {
-  "id": "source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l",
-  "cat": "societes-associations",
-  "sub": "Matrices des actes",
-  "titre": "Déclaration sur l’honneur adressée au greffier en chef",
-  "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
-  "resume": "Déclaration sur l’honneur adressée au greffier en chef : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
-  "tags": [
-    "matrices des actes",
-    "modèle Word",
-    "matrice",
-    "anonymisé"
-  ],
-  "duree": "6 min",
-  "docTitle": "Déclaration sur l’honneur adressée au greffier en chef",
-  "fileBase": "Déclaration sur l’honneur adressée au greffier en chef",
-  "headline": "Déclaration sur l’honneur adressée au greffier en chef",
-  "etapes": [
+ "id": "source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l",
+ "cat": "societes-associations",
+ "sub": "Matrices des actes",
+ "titre": "Déclaration sur l’honneur adressée au greffier en chef",
+ "sous": "Matrice Word anonymisée, mise en page d’origine conservée.",
+ "resume": "Déclaration sur l’honneur adressée au greffier en chef : matrice à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "matrices des actes",
+  "modèle Word",
+  "matrice",
+  "anonymisé"
+ ],
+ "duree": "6 min",
+ "docTitle": "Déclaration sur l’honneur adressée au greffier en chef",
+ "fileBase": "Déclaration sur l’honneur adressée au greffier en chef",
+ "headline": "Déclaration sur l’honneur adressée au greffier en chef",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Partie 1",
+   "titre": "Partie 1",
+   "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
+   "champs": [
     {
-      "id": "partie-1",
-      "court": "Partie 1",
-      "titre": "Partie 1",
-      "intro": "Complétez les champs utiles : chacun est inséré à son emplacement dans le document (aperçu, Word et PDF). Un champ laissé vide reste en pointillés.",
-      "champs": [
-        {
-          "id": "champ_001",
-          "type": "text",
-          "label": "Nom",
-          "group": "Monsieur … , le …"
-        },
-        {
-          "id": "ville_signature",
-          "type": "text",
-          "label": "Fait à (ville)",
-          "profil": "ville",
-          "group": "Monsieur … , le …"
-        },
-        {
-          "id": "champ_002",
-          "type": "date",
-          "label": "Date",
-          "group": "Monsieur … , le …",
-          "aide": "…Monsieur le ▢"
-        },
-        {
-          "id": "ville_bp",
-          "type": "text",
-          "label": "Ville de la boîte postale",
-          "group": "BP …"
-        },
-        {
-          "id": "champ_003",
-          "type": "text",
-          "label": "Code de la boîte postale (ex. : 01)",
-          "group": "BP …"
-        },
-        {
-          "id": "champ_004",
-          "type": "text",
-          "label": "DU TRIBUNAL DU COMMERCE",
-          "group": "DU TRIBUNAL DU COMMERCE …"
-        },
-        {
-          "id": "ville_tribunal",
-          "type": "text",
-          "label": "Ville du tribunal compétent",
-          "group": "…"
-        },
-        {
-          "id": "champ_005",
-          "type": "text",
-          "label": "Je soussigné Monsieur",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
-        },
-        {
-          "id": "champ_006",
-          "type": "text",
-          "label": "Avant « demeurant à Commune de »",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…Je soussigné Monsieur ▢ demeurant à Commune de…"
-        },
-        {
-          "id": "profession",
-          "type": "text",
-          "label": "Profession",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
-        },
-        {
-          "id": "ville_residence",
-          "type": "text",
-          "label": "Ville de résidence",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
-        },
-        {
-          "id": "champ_007",
-          "type": "text",
-          "label": "Commune de",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
-        },
-        {
-          "id": "champ_008",
-          "type": "text",
-          "label": "Avant « Quartier BP né à »",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
-        }
-      ]
+     "id": "champ_001",
+     "type": "text",
+     "label": "Nom",
+     "group": "Monsieur … , le …"
     },
     {
-      "id": "partie-2",
-      "court": "Abidjan",
-      "titre": "Abidjan",
-      "intro": "",
-      "champs": [
-        {
-          "id": "champ_009",
-          "type": "text",
-          "label": "Quartier",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
-        },
-        {
-          "id": "champ_010",
-          "type": "text",
-          "label": "Avant « BP né à le »",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
-        },
-        {
-          "id": "champ_011",
-          "type": "text",
-          "label": "Avant « BP né à le »",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
-        },
-        {
-          "id": "ville_bp_2",
-          "type": "text",
-          "label": "Ville de la boîte postale",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
-        },
-        {
-          "id": "champ_012",
-          "type": "text",
-          "label": "Né à",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…Commune de Quartier BP né à ▢ le atteste sur l’honneur…"
-        },
-        {
-          "id": "champ_013",
-          "type": "text",
-          "label": "Avant « le atteste sur l’honneur »",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
-        },
-        {
-          "id": "champ_014",
-          "type": "date",
-          "label": "Date",
-          "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
-          "aide": "…de Quartier BP né à le ▢ atteste sur l’honneur n’avoir…"
-        },
-        {
-          "id": "champ_015",
-          "type": "text",
-          "label": "Nom et prénoms",
-          "group": "Monsieur …"
-        }
-      ]
+     "id": "ville_signature",
+     "type": "text",
+     "label": "Fait à (ville)",
+     "profil": "ville",
+     "group": "Monsieur … , le …"
     },
     {
-      "id": "final",
-      "court": "Télécharger",
-      "titre": "Vérifier et télécharger",
-      "final": true,
-      "champs": []
+     "id": "champ_002",
+     "type": "date",
+     "label": "Date",
+     "group": "Monsieur … , le …",
+     "aide": "…Monsieur le ▢"
+    },
+    {
+     "id": "ville_bp",
+     "type": "text",
+     "label": "Ville de la boîte postale",
+     "group": "BP …"
+    },
+    {
+     "id": "champ_003",
+     "type": "text",
+     "label": "Code de la boîte postale (ex. : 01)",
+     "group": "BP …"
+    },
+    {
+     "id": "champ_004",
+     "type": "text",
+     "label": "DU TRIBUNAL DU COMMERCE",
+     "group": "DU TRIBUNAL DU COMMERCE …"
+    },
+    {
+     "id": "ville_tribunal",
+     "type": "text",
+     "label": "Ville du tribunal compétent",
+     "group": "…"
+    },
+    {
+     "id": "champ_005",
+     "type": "text",
+     "label": "Je soussigné Monsieur",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
+    },
+    {
+     "id": "champ_006",
+     "type": "text",
+     "label": "Avant « demeurant à Commune de »",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…Je soussigné Monsieur ▢ demeurant à Commune de…"
+    },
+    {
+     "id": "profession",
+     "type": "text",
+     "label": "Profession",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
+    },
+    {
+     "id": "ville_residence",
+     "type": "text",
+     "label": "Ville de résidence",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
+    },
+    {
+     "id": "champ_007",
+     "type": "text",
+     "label": "Commune de",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
+    },
+    {
+     "id": "champ_008",
+     "type": "text",
+     "label": "Avant « Quartier BP né à »",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…soussigné Monsieur demeurant à Commune de ▢ Quartier BP né à…"
     }
-  ],
-  "doc": [
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_001}} **{{ville_signature}}, le {{champ_002}}",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "BP  {{ville_bp}} {{champ_003}}",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**GREFFIER EN CHEF**",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**DU TRIBUNAL DU COMMERCE** {{champ_004}}",
-      "al": "left"
-    },
-    {
-      "k": "p",
-      "text": "**{{ville_tribunal}}**",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Objet** : Déclaration sur l’honneur",
-      "al": "left"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Cher Maître,"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je soussigné **Monsieur {{champ_005}} {{champ_006}}**, {{profession}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, {{champ_011}} BP  {{ville_bp_2}}  , né à {{champ_012}} {{champ_013}}, le {{champ_014}}, atteste sur l’honneur n’avoir jamais fait l’objet d’aucune des interdictions énumérées par l’article 10 de l’Acte Uniforme portant sur le Droit Commercial Général de l’OHADA."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je reconnais que cette attestation pourra être produite en justice et que toute fausse déclaration de ma part m’expose à des sanctions pénales."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je m’engage à compléter le dossier de mon immatriculation par un extrait de mon casier judiciaire ou tout autre document en tenant lieu dans un délai de soixante-quinze (75) jours à compter de ladite immatriculation."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Je prends acte de ce qu’à défaut de produire l’extrait du casier judiciaire ou tout document en tenant lieu dans le délai de soixante-quinze (75) jours, il sera procédé au retrait de mon immatriculation et à ma radiation."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "Fait pour servir et valoir ce que de droit."
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "sp"
-    },
-    {
-      "k": "p",
-      "text": "**Monsieur {{champ_015}}**",
-      "ind": 6
-    }
-  ],
-  "sourceTemplate": {
-    "file": "templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx",
-    "version": "4"
+   ]
   },
-  "exemple": {
-    "champ_001": "Exemple",
-    "champ_002": "2000-01-01",
-    "champ_003": "Exemple",
-    "champ_004": "Exemple",
-    "champ_005": "Exemple",
-    "champ_006": "Exemple",
-    "champ_007": "Exemple",
-    "champ_008": "Exemple",
-    "champ_009": "Exemple",
-    "champ_010": "Exemple",
-    "champ_011": "Exemple",
-    "champ_012": "Exemple",
-    "champ_013": "Exemple",
-    "champ_014": "2000-01-01",
-    "champ_015": "Exemple",
-    "ville_signature": "Abidjan",
-    "ville_bp": "Abidjan",
-    "ville_tribunal": "Abidjan",
-    "profession": "Comptable",
-    "ville_residence": "Abidjan",
-    "ville_bp_2": "Abidjan"
+  {
+   "id": "partie-2",
+   "court": "Abidjan",
+   "titre": "Abidjan",
+   "intro": "",
+   "champs": [
+    {
+     "id": "champ_009",
+     "type": "text",
+     "label": "Quartier",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
+    },
+    {
+     "id": "champ_010",
+     "type": "text",
+     "label": "Avant « BP né à le »",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
+    },
+    {
+     "id": "champ_011",
+     "type": "text",
+     "label": "Avant « BP né à le »",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…Monsieur demeurant à Commune de Quartier ▢ BP né à le…"
+    },
+    {
+     "id": "ville_bp_2",
+     "type": "text",
+     "label": "Ville de la boîte postale",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…"
+    },
+    {
+     "id": "champ_012",
+     "type": "text",
+     "label": "Né à",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…Commune de Quartier BP né à ▢ le atteste sur l’honneur…"
+    },
+    {
+     "id": "champ_013",
+     "type": "text",
+     "label": "Avant « le atteste sur l’honneur »",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…de Quartier BP ABIDJAN né à ▢ le atteste sur l’honneur…"
+    },
+    {
+     "id": "champ_014",
+     "type": "date",
+     "label": "Date",
+     "group": "Je soussigné Monsieur … , …, demeurant à …, Commune de … , Quartier … ,…",
+     "aide": "…de Quartier BP né à le ▢ atteste sur l’honneur n’avoir…"
+    },
+    {
+     "id": "champ_015",
+     "type": "text",
+     "label": "Nom et prénoms",
+     "group": "Monsieur …"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
   }
+ ],
+ "doc": [
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_001}} **{{ville_signature}}, le {{champ_002}}",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "BP  {{ville_bp}} {{champ_003}}",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**GREFFIER EN CHEF**",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**DU TRIBUNAL DU COMMERCE** {{champ_004}}",
+   "al": "left"
+  },
+  {
+   "k": "p",
+   "text": "**{{ville_tribunal}}**",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Objet** : Déclaration sur l’honneur",
+   "al": "left"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Cher Maître,"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je soussigné **Monsieur {{champ_005}} {{champ_006}}**, {{profession}}, demeurant à {{ville_residence}}, Commune de {{champ_007}} {{champ_008}}, Quartier {{champ_009}} {{champ_010}}, {{champ_011}} BP  {{ville_bp_2}}  , né à {{champ_012}} {{champ_013}}, le {{champ_014}}, atteste sur l’honneur n’avoir jamais fait l’objet d’aucune des interdictions énumérées par l’article 10 de l’Acte Uniforme portant sur le Droit Commercial Général de l’OHADA."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je reconnais que cette attestation pourra être produite en justice et que toute fausse déclaration de ma part m’expose à des sanctions pénales."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je m’engage à compléter le dossier de mon immatriculation par un extrait de mon casier judiciaire ou tout autre document en tenant lieu dans un délai de soixante-quinze (75) jours à compter de ladite immatriculation."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je prends acte de ce qu’à défaut de produire l’extrait du casier judiciaire ou tout document en tenant lieu dans le délai de soixante-quinze (75) jours, il sera procédé au retrait de mon immatriculation et à ma radiation."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait pour servir et valoir ce que de droit."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Monsieur {{champ_015}}**",
+   "ind": 6
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1207w-4h8zkn44iaju6ht4lz87b5wjyt1-matrice-d-claration-sur-l.docx",
+  "version": "4"
+ },
+ "exemple": {
+  "champ_001": "Exemple",
+  "champ_002": "2000-01-01",
+  "champ_003": "Exemple",
+  "champ_004": "Exemple",
+  "champ_005": "Exemple",
+  "champ_006": "Exemple",
+  "champ_007": "Exemple",
+  "champ_008": "Exemple",
+  "champ_009": "Exemple",
+  "champ_010": "Exemple",
+  "champ_011": "Exemple",
+  "champ_012": "Exemple",
+  "champ_013": "Exemple",
+  "champ_014": "2000-01-01",
+  "champ_015": "Exemple",
+  "ville_signature": "Abidjan",
+  "ville_bp": "Abidjan",
+  "ville_tribunal": "Abidjan",
+  "profession": "Comptable",
+  "ville_residence": "Abidjan",
+  "ville_bp_2": "Abidjan"
+ }
 }

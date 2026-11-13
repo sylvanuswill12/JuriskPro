@@ -1,0 +1,179 @@
+{
+ "id": "source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a3-declaration-de-non-condamnatio",
+ "cat": "societes-associations",
+ "sub": "Actes de constitution de SARL",
+ "titre": "Déclaration de non-condamnation et de filiation",
+ "sous": "Déclaration sur l’honneur de non-condamnation et de filiation du gérant ou du dirigeant.",
+ "resume": "Déclaration de non-condamnation et de filiation : modèle à compléter par formulaire, puis à télécharger en Word ou en PDF.",
+ "tags": [
+  "sarl",
+  "constitution",
+  "gérant",
+  "déclaration sur l’honneur"
+ ],
+ "duree": "5 min",
+ "docTitle": "Déclaration de non-condamnation et de filiation",
+ "fileBase": "Déclaration de non-condamnation et de filiation",
+ "headline": "Déclaration de non-condamnation et de filiation",
+ "etapes": [
+  {
+   "id": "partie-1",
+   "court": "Acte",
+   "titre": "Déclaration de non-condamnation et de filiation",
+   "champs": [
+    {
+     "id": "champ_299",
+     "type": "text",
+     "label": "Prénom",
+     "group": "Je soussigné(e) : …"
+    },
+    {
+     "id": "champ_300",
+     "type": "text",
+     "label": "Nom de jeune fille et d'épouse le cas échéant",
+     "group": "Je soussigné(e) : …",
+     "opt": true
+    },
+    {
+     "id": "champ_301",
+     "type": "date",
+     "label": "Date",
+     "group": "Né(e) le …",
+     "aide": "…Né e le ▢"
+    },
+    {
+     "id": "champ_302",
+     "type": "text",
+     "label": "Lieu",
+     "group": "A …"
+    },
+    {
+     "id": "champ_303",
+     "type": "text",
+     "label": "De nationalité",
+     "group": "De nationalité …",
+     "aide": "…De nationalité ▢"
+    },
+    {
+     "id": "champ_580",
+     "type": "text",
+     "label": "Préciser",
+     "group": "De nationalité …"
+    },
+    {
+     "id": "champ_304",
+     "type": "text",
+     "label": "Adresse",
+     "group": "Demeurant : …"
+    },
+    {
+     "id": "champ_305",
+     "type": "text",
+     "label": "Identité du père",
+     "group": "Fils/fille de … et de …,"
+    },
+    {
+     "id": "champ_306",
+     "type": "text",
+     "label": "Identité de la mère",
+     "group": "Fils/fille de … et de …,"
+    },
+    {
+     "id": "champ_307",
+     "type": "text",
+     "label": "Lieu",
+     "group": "Fait à …, le …",
+     "profil": "ville"
+    },
+    {
+     "id": "champ_308",
+     "type": "date",
+     "label": "Date",
+     "group": "Fait à …, le …",
+     "aide": "…Fait à le ▢"
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "court": "Télécharger",
+   "titre": "Vérifier et télécharger",
+   "final": true,
+   "champs": []
+  }
+ ],
+ "sourceTemplate": {
+  "file": "templates/source-1pgevn-5hz3axmo9jqyirxksy8teyaf-c-autres-actes-constitution-sarl-a3-declaration-de-non-condamnatio.docx",
+  "version": "5"
+ },
+ "exemple": {
+  "champ_299": "Exemple",
+  "champ_300": "Exemple",
+  "champ_301": "2000-01-01",
+  "champ_302": "Exemple",
+  "champ_303": "Exemple",
+  "champ_580": "Exemple",
+  "champ_304": "Exemple",
+  "champ_305": "Exemple",
+  "champ_306": "Exemple",
+  "champ_307": "Exemple",
+  "champ_308": "2000-01-01"
+ },
+ "doc": [
+  {
+   "k": "tit",
+   "text": "**Déclaration de non-condamnation et de filiation**"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "**Déclaration sur l'honneur de non-condamnation et de filiation**",
+   "al": "center"
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Je soussigné(e) : {{champ_299}} {{champ_300}}"
+  },
+  {
+   "k": "p",
+   "text": "Né(e) le {{champ_301}}"
+  },
+  {
+   "k": "p",
+   "text": "A {{champ_302}}"
+  },
+  {
+   "k": "p",
+   "text": "De nationalité {{champ_303}} {{champ_580}}"
+  },
+  {
+   "k": "p",
+   "text": "Demeurant : {{champ_304}}"
+  },
+  {
+   "k": "p",
+   "text": "Fils/fille de {{champ_305}} et de {{champ_306}},"
+  },
+  {
+   "k": "p",
+   "text": "Déclare sur l'honneur, conformément aux dispositions de l'article 47 AUDCG, n'avoir fait l'objet d'aucune condamnation pénale, ni de sanction civile ou administrative de nature à m'interdire de gérer, d'administrer ou de diriger une personne morale, ou d'exercer une activité commerciale."
+  },
+  {
+   "k": "sp"
+  },
+  {
+   "k": "p",
+   "text": "Fait à {{champ_307}}, le {{champ_308}}"
+  },
+  {
+   "k": "p",
+   "text": "Signature",
+   "al": "right"
+  }
+ ]
+}
