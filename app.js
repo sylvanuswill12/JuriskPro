@@ -558,6 +558,7 @@ document.addEventListener('click',e=>{
   b.setAttribute('aria-pressed',String(on));b.innerHTML=on?STAR_ON:STAR_OFF;
   b.setAttribute('aria-label',(on?'Retirer « ':'Ajouter « ')+t+(on?' » des favoris':' » aux favoris'));
   b.classList.toggle('on',on);
+  if(on){b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop');setTimeout(()=>b.classList.remove('pop'),700);if(window.JPFx)JPFx.vib(8);}
   if(!on&&ui.lb.fav&&$('#catalog')&&$('.lb-list')){ui.lbList=(ui.lbList||[]).filter(x=>x.id!==id);const el=$('#catalog');el.innerHTML=lbListHTML(ui.q.trim());bindLibraryList();}
 },true);
 /* Page d'une famille : les modèles arrivent 40 par 40 (défilement ou bouton). */
@@ -1122,6 +1123,15 @@ function renderSteps(){
     const status=bad?' · À corriger':(good?' · Complète':'');
     return '<li><button type="button" class="'+cls+'" data-i="'+i+'" '+(i===step?'aria-current="step"':'')+' aria-label="'+esc(e.court+status)+'"><span class="n">'+mark+'</span>'+esc(e.court)+'</button></li>';
   }).join('');
+  /* v41 : l'étape qui vient de devenir complète reçoit une petite animation (une seule fois) */
+  try{
+    const mid=String(M.id||M.titre||''),prev=window.__jpGood,now=Date.now();
+    const just=(prev&&prev.m===mid)?Object.assign({},prev.j):{};
+    if(prev&&prev.m===mid){let fresh=false;goodByStep.forEach(i=>{if(!prev.s.has(i)){just[i]=now;fresh=true;}});if(fresh&&window.JPFx)JPFx.vib(10);}
+    /* l'animation continue là où elle en était, même si la liste est redessinée pendant la saisie */
+    Object.keys(just).forEach(k=>{const el=now-just[k];if(el>900){delete just[k];return;}const b=$('#steps .step[data-i="'+k+'"]');if(b&&b.classList.contains('step-good')){b.classList.add('just-done');const n=b.querySelector('.n');b.style.animationDelay=(-el)+'ms';if(n)n.style.animationDelay=(-el)+'ms';}});
+    window.__jpGood={m:mid,s:new Set(goodByStep),j:just};
+  }catch(er){}
   $$('.step').forEach(b=>b.onclick=()=>{const target=+b.dataset.i;if(M.etapes[target].final)validationAttempted=true;step=target;visitedSteps.add(step);renderSteps();renderStep(true);scheduleSave();});
   const sn=$('#stepno');if(sn) sn.textContent='Étape '+(step+1)+' sur '+M.etapes.length+' · '+M.etapes[step].court;
   const st=$('#steps'),on=$('.step.on');
@@ -1218,7 +1228,8 @@ function renderStep(focus,focusSel){
     const pg=stepProgress(e);
     box.innerHTML='<section class="card" aria-labelledby="st-h"><h2 id="st-h" tabindex="-1">'+esc(e.titre)+'</h2>'+(M.noteForm?'<p class="intro">'+esc(M.noteForm)+'</p>':'')+(e.intro?'<p class="intro">'+esc(e.intro)+'</p>':'')+
       '<div class="field-search"><label for="field-filter">Rechercher un champ</label><input id="field-filter" type="search" placeholder="Ex. adresse, montant, date, notaire" autocomplete="off"></div>'+ 
-      '<p class="form-progress" role="status">'+(pg.missing?('<strong>'+pg.missing+' champ'+(pg.missing>1?'s':'')+' obligatoire'+(pg.missing>1?'s':'')+' à compléter</strong> · '):'')+pg.done+' / '+pg.total+' champ'+(pg.total>1?'s':'')+' renseigné'+(pg.done>1?'s':'')+'</p>'+ 
+      '<p class="form-progress" role="status">'+progressHTML(pg)+'</p>'+
+      '<div class="fp-bar'+(pg.total>0&&pg.done===pg.total?' full':'')+'" aria-hidden="true"><i style="--p:'+(pg.total?(pg.done/pg.total).toFixed(3):0)+'"></i></div>'+
       '<div class="fields">'+body+'</div>'+ 
       '<div class="nav"><button type="button" class="btn ghost" id="prev"'+(step===0?' disabled':'')+'>Précédent</button><button type="button" class="btn" id="next">'+(step===M.etapes.length-2?'Vérifier le document':'Continuer')+'</button></div>'+
       '<div class="tools">'+(M.sourceTemplate?'':'<button type="button" class="linkbtn" id="ex">Remplir avec un exemple</button>')+'<button type="button" class="linkbtn'+(ui.armed==='reset'?' armed':'')+'" id="reset">'+(ui.armed==='reset'?'Confirmer : tout effacer':'Recommencer à zéro')+'</button></div>'+
@@ -1335,7 +1346,18 @@ function onInput(e){
   if(M.etapes[step].champs.some(c=>c.type==='repeat'&&c.countKey===id)){renderStep(true,'[name="'+id+'"]:checked');scheduleSave();schedulePreview();return;}
   afterChange(id);
 }
+/* v41 : le compteur « n / total champs renseignés » et la barre se mettent à jour pendant la saisie */
+function progressHTML(pg){
+  return (pg.missing?('<strong>'+pg.missing+' champ'+(pg.missing>1?'s':'')+' obligatoire'+(pg.missing>1?'s':'')+' à compléter</strong> · '):'')+pg.done+' / '+pg.total+' champ'+(pg.total>1?'s':'')+' renseigné'+(pg.done>1?'s':'');
+}
+function refreshProgress(){
+  const e=M&&M.etapes&&M.etapes[step];if(!e||e.final) return;
+  const p=$('.form-progress');if(!p) return;
+  const pg=stepProgress(e);p.innerHTML=progressHTML(pg);
+  const fb=$('.fp-bar');if(fb){fb.classList.toggle('full',pg.total>0&&pg.done===pg.total);const i=fb.querySelector('i');if(i)i.style.setProperty('--p',pg.total?(pg.done/pg.total).toFixed(3):0);}
+}
 function afterChange(id){
+  try{refreshProgress();}catch(er){}
   refreshDynamic();
   scheduleSave();
   schedulePreview();
@@ -1516,7 +1538,7 @@ function finalHTML(){
     '<div class="stt" role="listitem"><span>Formulaire</span><strong>'+an.done+' / '+nSec+' sections complètes</strong></div>'+
     '<div class="stt'+(an.probs.length?' bad':'')+'" role="listitem"><span>Contrôles techniques</span><strong>'+(an.probs.length?plural(an.probs.length,'incohérence à corriger','incohérences à corriger'):'Aucune incohérence détectée')+'</strong></div>'+
     '<div class="stt'+(an.missAll?' warn':'')+'" role="listitem"><span>À examiner</span><strong>'+(an.missAll?plural(an.missAll,'information à compléter','informations à compléter'):'Aucun blanc')+'</strong></div>'+
-    '<div class="stt'+(blocked?' bad':'')+'" role="listitem"><span>Exportation</span><strong>'+(blocked?'Bloquée jusqu’aux corrections':'Prêt à être téléchargé')+'</strong></div></div>';
+    '<div class="stt'+(blocked?' bad':' ok')+'" role="listitem"><span>Exportation</span><strong>'+(blocked?'Bloquée jusqu’aux corrections':'Prêt à être téléchargé')+'</strong></div></div>';
   h+='<p class="note legal">Les contrôles automatiques de JuriskPro portent sur les champs et certaines incohérences détectables ; ils ne constituent pas une validation juridique et ne confirment pas que les informations saisies sont exactes ou adaptées à votre situation. Faites vérifier le document final par un professionnel compétent avant signature.</p>';
   if(blocked){
     h+='<section class="al bad" role="alert"><p class="al-t">Aperçu et téléchargement bloqués</p><p>Complétez tous les champs obligatoires marqués d’un astérisque rouge et corrigez les incohérences signalées avant de consulter l’aperçu.</p>';

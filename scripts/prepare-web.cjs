@@ -4,7 +4,7 @@ const root = process.cwd();
 const out = path.join(root, 'www');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
-const required = ['index.html', 'styles.css', 'core.js', 'template-engine.js', 'layout-pdf.js', 'engine.js', 'spec.js', 'catalogue-data.js', 'catalogue.js', 'app.js', 'auth-gate.js', 'supabase-config.js'];
+const required = ['index.html', 'styles.css', 'core.js', 'template-engine.js', 'layout-pdf.js', 'engine.js', 'spec.js', 'catalogue-data.js', 'catalogue.js', 'fx.js', 'app.js', 'auth-gate.js', 'supabase-config.js'];
 for (const name of required) {
   const source = path.join(root, name);
   if (!fs.existsSync(source)) throw new Error(`Fichier requis absent à la racine : ${name}`);

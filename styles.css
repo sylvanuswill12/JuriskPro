@@ -1230,3 +1230,129 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 /* Petit aperçu du début du document sur la page de présentation (tous les modèles) */
 .source-mini{margin-top:0;max-height:420px;position:relative;overflow:hidden;-webkit-mask-image:linear-gradient(#000 80%,transparent);mask-image:linear-gradient(#000 80%,transparent)}
 .source-mini .pdf-n{display:none}
+
+
+/* ==========================================================================
+   JuriskPro v41 — couche design : jetons, accent or, titres, profondeur, mouvement
+   (voir DESIGN.md). Tout ce qui bouge est dans « no-preference » : rien ne bouge
+   quand le téléphone demande de réduire les animations.
+   ========================================================================== */
+:root{
+  --font-display:'Iowan Old Style','Palatino Linotype','Noto Serif',Georgia,'Times New Roman',serif;
+  --gold:#A9751A; --gold-ink:#5F4106; --gold-soft:#F8EFD6; --gold-line:#E6CF93;
+  --ease-out:cubic-bezier(.2,.7,.2,1); --ease-spring:cubic-bezier(.34,1.45,.64,1);
+  --dur-1:.12s; --dur-2:.22s; --dur-3:.36s;
+  --sh-1:0 1px 2px rgba(16,40,30,.06),0 3px 10px rgba(16,40,30,.05);
+  --sh-2:0 2px 4px rgba(16,40,30,.05),0 12px 26px rgba(16,40,30,.10);
+  --sh-accent:0 6px 16px rgba(11,107,76,.20);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --gold:#E7BB5B; --gold-ink:#F4DA9B; --gold-soft:#34290F; --gold-line:#6B5520;
+    --sh-1:0 1px 2px rgba(0,0,0,.4),0 3px 10px rgba(0,0,0,.25);
+    --sh-2:0 2px 4px rgba(0,0,0,.4),0 12px 26px rgba(0,0,0,.4);
+    --sh-accent:0 6px 16px rgba(82,201,156,.16);
+  }
+}
+:root[data-theme="dark"]{
+  --gold:#E7BB5B; --gold-ink:#F4DA9B; --gold-soft:#34290F; --gold-line:#6B5520;
+  --sh-1:0 1px 2px rgba(0,0,0,.4),0 3px 10px rgba(0,0,0,.25);
+  --sh-2:0 2px 4px rgba(0,0,0,.4),0 12px 26px rgba(0,0,0,.4);
+  --sh-accent:0 6px 16px rgba(82,201,156,.16);
+}
+
+/* Typographie : titres en police à empattements (gravité d'un acte), interface en sans */
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.home-hero h1,.detail h1{font-family:var(--font-display);font-weight:700;letter-spacing:-.018em}
+.home-hero h1{line-height:1.12}
+.home-hero h1 em{font-style:italic;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:3px;text-underline-offset:.18em;text-decoration-skip-ink:none}
+.lead,.home-hero .lead,.lb-head p,.intro{text-wrap:pretty}
+.form-progress,.stt strong,.bdg,.lb-tab,.step .n,.pane-switch .bdg{font-variant-numeric:tabular-nums}
+
+/* Profondeur : accueil, cartes, boutons */
+.home-hero{position:relative;box-shadow:var(--sh-1)}
+.home-hero::before{content:"";position:absolute;right:-70px;top:-90px;width:280px;height:280px;border-radius:50%;background:radial-gradient(closest-side,var(--gold-soft),transparent 72%);pointer-events:none}
+.home-hero>*{position:relative}
+.home-dot{background:var(--gold)}
+.lb-card{box-shadow:var(--sh-1);transition:transform var(--dur-2) var(--ease-out),box-shadow var(--dur-2) var(--ease-out),border-color var(--dur-2)}
+.lb-card:active{transform:scale(.985)}
+@media (hover:hover){.lb-card:hover{transform:translateY(-2px);box-shadow:var(--sh-2)}}
+.lb-chip{transition:background-color var(--dur-2),border-color var(--dur-2),box-shadow var(--dur-2),transform var(--dur-1)}
+.lb-chip:active{transform:scale(.96)}
+.lb-chip[aria-pressed=true]{box-shadow:var(--sh-accent)}
+.btn:not(.ghost):not([disabled]){box-shadow:inset 0 1px 0 rgba(255,255,255,.16),var(--sh-accent)}
+.btn[disabled],.btn:disabled{box-shadow:none}
+.top-icon-btn:active{transform:scale(.92)}
+
+/* Favori : or */
+.lb-star.on{color:var(--gold)}
+.lb-star svg{transition:transform var(--dur-2) var(--ease-spring)}
+.lb-star:active svg{transform:scale(.82)}
+
+/* Champs : halo net au focus */
+.field input,.field textarea,.field select{transition:border-color var(--dur-2),box-shadow var(--dur-2)}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+
+/* Étapes */
+.step{transition:background-color var(--dur-2),border-color var(--dur-2),color var(--dur-2),box-shadow var(--dur-2),transform var(--dur-1)}
+.step:active{transform:scale(.96)}
+.step.on{box-shadow:var(--sh-accent)}
+
+/* Progression de l'étape (compteur vivant + barre) */
+.fp-bar{display:block;height:5px;margin:8px 1px 2px;border-radius:5px;background:var(--line);overflow:hidden}
+.fp-bar i{display:block;height:100%;border-radius:5px;background:var(--accent);transform:scaleX(var(--p,0));transform-origin:0 50%;transition:transform var(--dur-3) var(--ease-out),background-color var(--dur-3)}
+.fp-bar.full i{background:var(--gold)}
+
+/* Formulaire sur téléphone : la barre « Formulaire / Aperçu » n'a pas d'intérêt tant que l'aperçu n'est pas disponible */
+@media (max-width:979px){.pane-switch:has(#tab-prev[hidden]){display:none}}
+
+/* Étape finale : prêt à télécharger = or */
+.stt.ok{background:var(--gold-soft);border-color:var(--gold-line)}
+.stt.ok strong{color:var(--gold-ink)}
+.stt.ok strong::before{content:"✓ ";color:var(--gold)}
+
+/* Onde au toucher (fx.js) */
+.btn,.pane-switch button,.lb-chip{position:relative;overflow:hidden}
+.jp-rip{position:absolute;border-radius:50%;background:currentColor;opacity:.16;transform:scale(0);pointer-events:none}
+
+@media (prefers-reduced-motion:no-preference){
+  @keyframes jp41Rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @keyframes jp41Drop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+  @keyframes jp41Fade{from{opacity:0}to{opacity:1}}
+  @keyframes jp41Check{0%{transform:scale(.4);opacity:.2}60%{transform:scale(1.28)}100%{transform:scale(1);opacity:1}}
+  @keyframes jp41Ring{0%{box-shadow:0 0 0 0 rgba(22,129,91,.5)}100%{box-shadow:0 0 0 12px rgba(22,129,91,0)}}
+  @keyframes jp41Star{0%{transform:scale(.6) rotate(-18deg)}55%{transform:scale(1.35) rotate(8deg)}100%{transform:scale(1) rotate(0)}}
+  @keyframes jp41Bar{from{transform:scaleX(0)}}
+  @keyframes jp41Pop{0%{transform:scale(.96);opacity:.4}60%{transform:scale(1.015)}100%{transform:scale(1);opacity:1}}
+  @keyframes jp41Rip{to{transform:scale(1);opacity:0}}
+  /* Cartes : apparition échelonnée (les 8 premières seulement) */
+  .lb-card{animation:jp41Rise .42s var(--ease-out) backwards}
+  .lb-card:nth-child(2){animation-delay:.04s}.lb-card:nth-child(3){animation-delay:.08s}.lb-card:nth-child(4){animation-delay:.12s}
+  .lb-card:nth-child(5){animation-delay:.16s}.lb-card:nth-child(6){animation-delay:.20s}.lb-card:nth-child(7){animation-delay:.24s}.lb-card:nth-child(8){animation-delay:.28s}
+  /* Étape qui devient complète */
+  .step.just-done{animation:jp41Ring .8s var(--ease-out)}
+  .step.just-done .n{animation:jp41Check .55s var(--ease-spring)}
+  /* Favori */
+  .lb-star.pop svg{animation:jp41Star .55s var(--ease-spring)}
+  /* Barre de progression : se remplit à l'ouverture de l'étape */
+  .fp-bar i{animation:jp41Bar .6s var(--ease-out) backwards}
+  /* Fenêtres et panneaux */
+  .lb-panel:not([hidden]){animation:jp41Drop .24s var(--ease-out)}
+  .acc-panel{animation:jp41Rise .3s var(--ease-out) backwards}
+  .jp-preview-modal:not([hidden]){animation:jp41Fade .22s ease-out}
+  /* Prêt à télécharger */
+  .stt.ok{animation:jp41Pop .5s var(--ease-spring)}
+  .jp-rip{animation:jp41Rip .6s ease-out forwards}
+}
+@media (prefers-reduced-motion:reduce){
+  .lb-card,.step,.lb-chip{transition:none!important}
+  .jp-rip{display:none}
+}
+
+/* v41 — correctifs de mise en page à partir de 760 px (tablette, ordinateur) */
+@media (min-width:760px){
+  .home-steps{grid-template-columns:1fr auto 1fr auto 1fr;justify-items:center;align-items:center}
+  .home-hero h1{font-size:clamp(32px,3.2vw,40px);max-width:20ch}
+}
+.home-hero h1{margin-bottom:12px}
+.home-hero h1 em{text-decoration-thickness:2px;text-underline-offset:.2em}

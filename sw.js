@@ -1,9 +1,9 @@
 // JuriskPro : cache des fichiers de l'application (démarrage rapide).
 // Les données du compte restent toujours en ligne et ne sont jamais mises en cache.
 // Pensez à changer VERSION à chaque publication pour forcer la mise à jour du cache.
-const VERSION = 'jp-v40';
+const VERSION = 'jp-v41';
 const SHELL = [
-  './', './index.html', './styles.css', './core.js', './template-engine.js', './layout-pdf.js', './engine.js', './catalogue-data.js', './catalogue.js', './app.js', './auth-gate.js', './supabase-config.js',
+  './', './index.html', './styles.css', './core.js', './template-engine.js', './layout-pdf.js', './engine.js', './catalogue-data.js', './catalogue.js', './fx.js', './app.js', './auth-gate.js', './supabase-config.js',
   './manifest.webmanifest', './icons/icon-192.png', './icons/logo-96.webp'
 ];
 const CDN_STABLE = ['https://cdnjs.cloudflare.com/']; // versions figées : cache d'abord
